@@ -292,5 +292,146 @@
       }
     ],
     "notes": "Original question aligned to PXO rules."
-  }
+  },{
+  "id": "q-bike-warning-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "This sign appears ahead. What does it warn you about?",
+  "choices": [
+    "Bicycles are prohibited on this road",
+    "Expect cyclists; bicycle traffic may be crossing or sharing the road",
+    "Shared-use path begins; motor vehicles must stop",
+    "Bicycle lane ends; merge right immediately"
+  ],
+  "correctIndex": 1,
+  "explanation": "A yellow diamond bicycle symbol is a warning sign to watch for cyclists and be prepared to slow down or yield as needed.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-no-pedestrians-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this regulatory sign mean?",
+  "choices": [
+    "Pedestrian crossover ahead",
+    "School crossing ahead",
+    "No pedestrians are allowed beyond this point",
+    "Pedestrians must yield to vehicles"
+  ],
+  "correctIndex": 2,
+  "explanation": "A pedestrian symbol within a red circle with a slash means pedestrians are prohibited beyond that sign.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-crossing.jpg",
+  "notes": "Original question; matches Ontario regulatory prohibition style."
+},
+{
+  "id": "q-do-not-enter-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "You see this sign at the entrance to a roadway. What must you do?",
+  "choices": [
+    "Proceed slowly and keep right",
+    "Enter only if traffic is light",
+    "Do not enter — road is for traffic in the opposite direction",
+    "Stop and then proceed if clear"
+  ],
+  "correctIndex": 2,
+  "explanation": "The red circle with a white horizontal bar means DO NOT ENTER — you are facing opposing traffic (e.g., the wrong end of a one-way).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
+{
+  "id": "q-no-passing-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "This sign shows two cars side-by-side within a red circle. What does it mean?",
+  "choices": [
+    "Passing is allowed if you signal",
+    "No passing — you must not overtake other vehicles here",
+    "Use the left lane only",
+    "Keep right except to pass"
+  ],
+  "correctIndex": 1,
+  "explanation": "A red circle is a prohibition. The two-car symbol indicates NO PASSING — do not overtake other vehicles where this sign applies.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+    },
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/no-passing.jpg",
+  "notes": "Original question; ties sign meaning to passing rules."
+},
+{
+  "id": "q-roundabout-keep-right-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "roundabouts",
+  "question": "You see this circular blue sign with white arrows before a roundabout. What should you do?",
+  "choices": [
+    "Enter quickly and signal left",
+    "Keep right, travel counter-clockwise and yield to traffic already in the roundabout and to pedestrians",
+    "Stop and wait for a green signal",
+    "U-turn is mandatory at the next exit"
+  ],
+  "correctIndex": 1,
+  "explanation": "Approach slowly, keep right of the central island, yield to pedestrians and to vehicles already in the roundabout, and enter when there is a safe gap.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/roundabout-sign.jpg",
+  "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+},
+{
+  "id": "q-school-bus-opposite-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-the-road",
+  "question": "A school bus coming toward you has its upper red lights flashing (no median). What must you do?",
+  "choices": [
+    "Proceed at 20 km/h with caution",
+    "Stop a safe distance away and remain stopped until the red lights stop flashing and the stop arm retracts",
+    "Only slow down if children are visible",
+    "Stop only if you are within 20 metres of the bus"
+  ],
+  "correctIndex": 1,
+  "explanation": "On roads without a median, vehicles in **both directions** must stop for a school bus with red lights flashing and remain stopped until the lights stop and the stop arm retracts.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road with school buses",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "image": "/signs/school-bus-red-lights.jpg",
+  "notes": "Original question; complements earlier school-bus item with the opposite-direction scenario."
+}
 ]
