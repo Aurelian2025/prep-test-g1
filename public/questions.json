@@ -158,4 +158,28 @@
     ],
     "notes": "Original question; aligns to handbook guidance on following distance."
   }
+,
+{
+  "id": "q-yield-be-prepared-to-stop-8",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "intersections",
+  "question": "Approaching a YIELD sign and cross traffic is present. What must you do?",
+  "choices": [
+    "Proceed without stopping if you signal",
+    "Slow down, be prepared to stop, and yield the right-of-way to traffic and pedestrians; stop if needed",
+    "Always come to a complete stop for at least three seconds",
+    "Speed up to merge before other vehicles"
+  ],
+  "correctIndex": 1,
+  "explanation": "A YIELD sign means you must slow down, be ready to stop, and give the right-of-way to traffic on the road you’re entering and to pedestrians. Stop if required.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+    }
+  ],
+  "image": "/signs/yield.svg",
+  "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+}
 ]
