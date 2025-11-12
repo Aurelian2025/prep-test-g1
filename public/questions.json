@@ -433,5 +433,27 @@
   ],
   "image": "/signs/school-bus-red-lights.jpg",
   "notes": "Original question; complements earlier school-bus item with the opposite-direction scenario."
+},{
+  "id": "q-road-closed-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-temporary",
+  "question": "You see this sign ahead. What does it mean for traffic on your approach?",
+  "choices": [
+    "Detour ahead — reduce speed to 30 km/h",
+    "Road closed to all traffic — do not proceed",
+    "No stopping on this road",
+    "Temporary construction access permitted"
+  ],
+  "correctIndex": 1,
+  "explanation": "A ROAD CLOSED sign means the roadway is closed to traffic. Do not proceed; follow posted detours or instructions.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
 }
 ]
