@@ -5,6 +5,7 @@ export default function Home() {
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
+  const [correctCount, setCorrectCount] = useState(0);
 
   // ---------- shuffle helpers ----------
   function shuffleIndices(n) {
@@ -49,19 +50,26 @@ export default function Home() {
   }, [current]);
 
   const startOver = () => {
-    setQuestions(prev => shuffleAll(prev)); // reshuffle choices for all questions
-    setCurrent(0);
-    setPicked(null);
-    setDone(false);
-  };
+  setQuestions(prev => shuffleAll(prev));
+  setCurrent(0);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0); // reset score
+};
 
   const select = (idx) => {
     if (!done) setPicked(idx);
   };
 
   const submit = () => {
-    if (picked !== null) setDone(true);
-  };
+  if (picked === null) return;
+  setDone(true);
+  const correctIndex = questions[current].correctIndexShuffled ?? questions[current].correctIndex;
+  if (picked === correctIndex) {
+    setCorrectCount(prev => prev + 1);
+  }
+};
+
 
   const next = () => {
     if (questions && current < questions.length - 1) setCurrent(current + 1);
@@ -122,8 +130,9 @@ export default function Home() {
         <div style={{ marginTop: 16 }}>
           <div style={styles.qmeta}>
             <span style={{ opacity: 0.8, fontSize: 12 }}>
-              Question {current + 1} of {questions.length}
-            </span>
+  Question {current + 1} of {questions.length} | Correct: {correctCount}
+</span>
+
           </div>
 
           {q.image && (
