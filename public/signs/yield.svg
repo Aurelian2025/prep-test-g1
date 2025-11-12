@@ -1,0 +1,19 @@
+<!-- Prep test G1 — YIELD sign (CC0/public domain by Prep test G1) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+  <title>Yield sign</title>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <!-- Outer red triangle with rounded corners -->
+    <path d="M300 35 L565 515 H35 Z" fill="#c60b0b"/>
+    <!-- Inner white triangle -->
+    <path d="M300 85 L515 485 H85 Z" fill="#ffffff"/>
+  </g>
+  <!-- Text -->
+  <g fill="#c60b0b" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="300" y="355" font-size="120" letter-spacing="4">YIELD</text>
+  </g>
+</svg>
