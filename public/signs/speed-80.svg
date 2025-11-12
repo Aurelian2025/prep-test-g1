@@ -1,0 +1,8 @@
+<!-- Prep test G1 — SPEED LIMIT 80 (CC0/public domain by Prep test G1) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title">
+  <title>Speed limit 80 sign</title>
+  <rect x="30" y="30" width="540" height="740" rx="30" ry="30" fill="#ffffff" stroke="#000" stroke-width="20"/>
+  <text x="300" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="120">MAXIMUM</text>
+  <text x="300" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="240">80</text>
+  <text x="300" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="120">km/h</text>
+</svg>
