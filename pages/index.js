@@ -5,6 +5,32 @@ export default function Home() {
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
+  function shuffleIndices(n) {
+  const idx = Array.from({ length: n }, (_, i) => i);
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  return idx;
+}
+
+function shuffleQuestion(q) {
+  const baseChoices = q._baseChoices || q.choices;
+  const baseCorrect = q._baseCorrectIndex ?? q.correctIndex;
+  const order = shuffleIndices(baseChoices.length);
+  return {
+    ...q,
+    _baseChoices: baseChoices,          // keep originals for future reshuffles
+    _baseCorrectIndex: baseCorrect,
+    choicesShuffled: order.map(i => baseChoices[i]),
+    correctIndexShuffled: order.indexOf(baseCorrect)
+  };
+}
+
+function shuffleAll(arr) {
+  return arr.map(shuffleQuestion);
+}
+
 const startOver = () => {
   setCurrent(0);
   setPicked(null);
