@@ -1,0 +1,24 @@
+[
+  {
+    "id": "q-stop-complete-1",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "At a stop sign, where must you stop if a stop line is painted?",
+    "choices": [
+      "Anywhere before the intersection",
+      "Beside the stop sign post",
+      "At the painted stop line",
+      "Halfway into the intersection to see better"
+    ],
+    "correctIndex": 2,
+    "explanation": "You must come to a complete stop at the painted stop line. If there’s no stop line, stop at the crosswalk; if none, at the edge of the sidewalk; if none, at the edge of the intersection.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook (Ontario) – Stop sign rules",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      }
+    ],
+    "notes": "Original question authored for this app. Do not copy other sites’ practice tests."
+  }
+]
