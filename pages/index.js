@@ -5,7 +5,11 @@ export default function Home() {
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
-
+const startOver = () => {
+  setCurrent(0);
+  setPicked(null);
+  setDone(false);
+};
   useEffect(() => {
     fetch('/questions.json')
       .then(r => r.json())
@@ -24,6 +28,11 @@ export default function Home() {
       <main style={styles.main}>
         <div style={styles.card}>
           <h1 style={styles.h1}>Prep test G1</h1>
+      <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 10 }}>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over
+  </button>
+</div>
           <p style={styles.p}>Loading question…</p>
         </div>
       </main>
