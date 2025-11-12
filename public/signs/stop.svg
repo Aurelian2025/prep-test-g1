@@ -1,0 +1,19 @@
+<!-- Prep test G1 — STOP sign (CC0/public domain by Prep test G1) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+  <title>Canadian-style STOP sign</title>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <!-- Red octagon -->
+  <g filter="url(#shadow)">
+    <path d="M150 30h300l120 120v300L450 570H150L30 450V150z" fill="#c60b0b"/>
+    <!-- White border -->
+    <path d="M165 60h270l105 105v270L435 540H165L60 435V165z" fill="none" stroke="#ffffff" stroke-width="30"/>
+  </g>
+  <!-- STOP text -->
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="300" y="360" font-size="180" letter-spacing="4">STOP</text>
+  </g>
+</svg>
