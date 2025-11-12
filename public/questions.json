@@ -43,9 +43,6 @@
     ],
     "notes": "Original question authored for this app. We do not copy third-party practice tests."
   },
-
-  /* === New questions start here === */
-
   {
     "id": "q-4way-stop-yield-right-3",
     "brand": "Prep test G1",
@@ -103,4 +100,61 @@
       "Only on highways"
     ],
     "correctIndex": 2,
-    "explanation": "Headlight
+    "explanation": "Headlights are required from one-half hour before sunset to one-half hour after sunrise, and any time poor light conditions prevent you from clearly seeing people or vehicles less than 150 metres away.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Lighting)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
+      }
+    ],
+    "notes": "Original wording; aligns to lighting requirement."
+  },
+  {
+    "id": "q-school-crossing-guard-6",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "pedestrians",
+    "question": "A school crossing guard steps into the road holding a red-and-white stop sign. What must you do?",
+    "choices": [
+      "Slow down and pass carefully if no children are on the crosswalk",
+      "Stop, then proceed if the guard waves only children across",
+      "Stop before the crossing and remain stopped until everyone, including the guard, has cleared the entire roadway and it is safe to go",
+      "Honk to alert others and proceed"
+    ],
+    "correctIndex": 2,
+    "explanation": "You must stop before reaching the crossing and remain stopped until all people—including the school crossing guard—have cleared the entire roadway and it is safe to proceed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-two-second-rule-7",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "space-management",
+    "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
+    "choices": [
+      "One second behind the vehicle ahead",
+      "Two seconds behind the vehicle ahead",
+      "Three car lengths at any speed",
+      "Five seconds only on highways"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use at least the two-second rule to maintain a safe following distance under good conditions. Increase the gap in poor weather or when visibility is low.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+        "url": "https://www.ontario.ca/book/export/html/80365"
+      }
+    ],
+    "notes": "Original question; aligns to handbook guidance on following distance."
+  }
+]
