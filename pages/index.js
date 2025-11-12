@@ -64,6 +64,15 @@ export default function Home() {
   setDone(false);
   setCorrectCount(0); // reset score
 };
+  const startThisSet = () => {
+  setQuestions(prev => shuffleAll(prev));
+  const startIndex = current >= 20 ? 20 : 0;
+  setCurrent(startIndex);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
+
 const startThisSet = () => {
   setQuestions(prev => shuffleAll(prev));         // reshuffle choices
   const startIndex = current >= 20 ? 20 : 0;      // 0 => Q1, 20 => Q21
@@ -98,28 +107,43 @@ const startThisSet = () => {
       <main style={styles.main}>
         <div style={styles.card}>
           <div style={styles.h1}>Prep Test G1</div>
-          <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 8 }}>
-            <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-              Start Over
-            </button>
-          </div>
+          <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–40)
+  </button>
+
+  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+  </button>
+</div>
+
 {(() => {
   const label = current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)';
   return (
-    <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
-      <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-        {label}
-      </button>
-    </div>
+    <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–40)
+  </button>
+
+  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+  </button>
+</div>
+
   );
 })()}
 
                 {current >= 20 && (
-  <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
-    <button onClick={startOverSet2} style={{ ...styles.btn, background: '#ffe6a7' }}>
-      Start Over (21–40)
-    </button>
-  </div>
+  <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–40)
+  </button>
+
+  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+  </button>
+</div>
+
 )}
 
           <p style={styles.p}>Loading question…</p>
