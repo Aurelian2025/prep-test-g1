@@ -38,10 +38,11 @@ const startOver = () => {
 };
   useEffect(() => {
     fetch('/questions.json')
-      .then(r => r.json())
-      .then(data => setQuestions(data))
-      .catch(() => setQuestions([]));
-  }, []);
+    .then(r => r.json())
+    .then(data => {
+      setQuestions(shuffleAll(data)); // shuffle choices right after loading
+    });
+}, []);
 
   useEffect(() => {
     // reset selection when moving to a new question
