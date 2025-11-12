@@ -70,7 +70,7 @@ export default function Home() {
       <img
         src={q.image}
         alt="Road sign"
-        style={{width: 128, height: 128, objectFit: 'contain'}}
+        style={{width: 180, height: 'auto', objectFit: 'contain'}}
       />
     </div>
   )}
