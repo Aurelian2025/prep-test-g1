@@ -1,19 +1,25 @@
 import { useState, useEffect } from 'react';
 
 export default function Home() {
-  const [q, setQ] = useState(null);
+  const [questions, setQuestions] = useState(null);
+  const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    // Load the single-question JSON locally
     fetch('/questions.json')
       .then(r => r.json())
-      .then(data => setQ(data[0]))
-      .catch(() => setQ(null));
+      .then(data => setQuestions(data))
+      .catch(() => setQuestions([]));
   }, []);
 
-  if (!q) {
+  useEffect(() => {
+    // reset selection when moving to a new question
+    setPicked(null);
+    setDone(false);
+  }, [current]);
+
+  if (!questions) {
     return (
       <main style={styles.main}>
         <div style={styles.card}>
@@ -24,17 +30,27 @@ export default function Home() {
     );
   }
 
-  const select = (idx) => {
-    if (done) return;
-    setPicked(idx);
-  };
+  if (questions.length === 0) {
+    return (
+      <main style={styles.main}>
+        <div style={styles.card}>
+          <h1 style={styles.h1}>Prep test G1</h1>
+          <p style={styles.p}>No questions available.</p>
+        </div>
+      </main>
+    );
+  }
 
-  const submit = () => {
-    if (picked === null) return;
-    setDone(true);
+  const q = questions[current];
+  const select = (idx) => { if (!done) setPicked(idx); };
+  const submit = () => { if (picked !== null) setDone(true); };
+  const next = () => {
+    if (current < questions.length - 1) setCurrent(current + 1);
   };
+  const restart = () => setCurrent(0);
 
   const isCorrect = done && picked === q.correctIndex;
+  const onLast = current === questions.length - 1;
 
   return (
     <main style={styles.main}>
@@ -43,6 +59,12 @@ export default function Home() {
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
 
         <div style={{marginTop: 16}}>
+          <div style={styles.qmeta}>
+            <span style={{opacity: 0.8, fontSize: 12}}>
+              Question {current + 1} of {questions.length}
+            </span>
+          </div>
+
           <div style={styles.qtext}>{q.question}</div>
 
           <ul style={{listStyle: 'none', padding: 0, marginTop: 12}}>
@@ -75,14 +97,26 @@ export default function Home() {
             })}
           </ul>
 
-          <div style={{display: 'flex', gap: 8, marginTop: 8}}>
+          <div style={{display: 'flex', gap: 8, alignItems: 'center', marginTop: 8}}>
             <button onClick={submit} disabled={picked === null || done} style={styles.btn}>
               {done ? 'Answered' : 'Submit'}
             </button>
+
             {done && (
               <span style={{fontWeight: 600, color: isCorrect ? '#5ff59b' : '#ff9aa2'}}>
                 {isCorrect ? 'Correct 🎉' : 'Not quite — see why below'}
               </span>
+            )}
+
+            {done && !onLast && (
+              <button onClick={next} style={{...styles.btn, background: '#c1d7ff'}}>
+                Next →
+              </button>
+            )}
+            {done && onLast && (
+              <button onClick={restart} style={{...styles.btn, background: '#c1ffd7'}}>
+                Restart
+              </button>
             )}
           </div>
 
@@ -90,9 +124,11 @@ export default function Home() {
             <div style={styles.explainer}>
               <div style={{fontWeight: 700, marginBottom: 6}}>Why?</div>
               <p style={{margin: 0}}>{q.explanation}</p>
-              <div style={{marginTop: 10, fontSize: 12, opacity: 0.8}}>
-                Source: <a href={q.sources[0].url} target="_blank" rel="noreferrer">{q.sources[0].title}</a>
-              </div>
+              {q.sources?.[0] && (
+                <div style={{marginTop: 10, fontSize: 12, opacity: 0.8}}>
+                  Source: <a href={q.sources[0].url} target="_blank" rel="noreferrer">{q.sources[0].title}</a>
+                </div>
+              )}
               <div style={{marginTop: 8, fontSize: 11, opacity: 0.7}}>
                 Original content aligned to the Official MTO Driver’s Handbook. We do not copy third-party practice tests.
               </div>
@@ -124,6 +160,7 @@ const styles = {
   },
   h1: { margin: 0, fontSize: '2rem' },
   tag: { marginTop: 6, opacity: 0.8, fontSize: 14 },
+  qmeta: { marginTop: 4, marginBottom: 8 },
   qtext: { fontSize: 18, fontWeight: 600, lineHeight: 1.35 },
   choice: {
     display: 'flex',
