@@ -180,6 +180,9 @@ const startThisSet = () => {
       <div style={styles.card}>
         <div style={styles.h1}>Prep Test G1</div>
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
+<div style={styles.h1}>Prep Test G1</div>
+<p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
+<div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 8 }}>
           <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
