@@ -1,47 +1,39 @@
 import { useEffect, useState } from 'react';
 
+// ---------- shuffle helpers (outside component) ----------
+function shuffleIndices(n) {
+  const idx = Array.from({ length: n }, (_, i) => i);
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  return idx;
+}
+
+function shuffleQuestion(q) {
+  const baseChoices = q._baseChoices || q.choices;
+  const baseCorrect = q._baseCorrectIndex ?? q.correctIndex;
+  const order = shuffleIndices(baseChoices.length);
+  return {
+    ...q,
+    _baseChoices: baseChoices,
+    _baseCorrectIndex: baseCorrect,
+    choicesShuffled: order.map(i => baseChoices[i]),
+    correctIndexShuffled: order.indexOf(baseCorrect)
+  };
+}
+
+function shuffleAll(arr) {
+  return Array.isArray(arr) ? arr.map(shuffleQuestion) : arr;
+}
+// ---------------------------------------------------------
+
 export default function Home() {
   const [questions, setQuestions] = useState(null);
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
-  const startOverSet2 = () => {
-  setQuestions(prev => shuffleAll(prev)); // reshuffle choices
-  setCurrent(20);                          // index 20 => question #21
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);                      // reset score for this set
-};
-
-
-  // ---------- shuffle helpers ----------
-  function shuffleIndices(n) {
-    const idx = Array.from({ length: n }, (_, i) => i);
-    for (let i = n - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [idx[i], idx[j]] = [idx[j], idx[i]];
-    }
-    return idx;
-  }
-
-  function shuffleQuestion(q) {
-    const baseChoices = q._baseChoices || q.choices;
-    const baseCorrect = q._baseCorrectIndex ?? q.correctIndex;
-    const order = shuffleIndices(baseChoices.length);
-    return {
-      ...q,
-      _baseChoices: baseChoices,
-      _baseCorrectIndex: baseCorrect,
-      choicesShuffled: order.map(i => baseChoices[i]),
-      correctIndexShuffled: order.indexOf(baseCorrect)
-    };
-  }
-
-  function shuffleAll(arr) {
-    return Array.isArray(arr) ? arr.map(shuffleQuestion) : arr;
-  }
-  // -------------------------------------
 
   // Load questions and shuffle once on mount
   useEffect(() => {
@@ -57,103 +49,62 @@ export default function Home() {
     setDone(false);
   }, [current]);
 
+  // Reset all 40 questions
   const startOver = () => {
-  setQuestions(prev => shuffleAll(prev));
-  setCurrent(0);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0); // reset score
-};
-  // reset current 20-question set only
-const startThisSet = () => {
-  setQuestions(prev => shuffleAll(prev));         // reshuffle choices
-  const startIndex = current >= 20 ? 20 : 0;      // 0 => Q1, 20 => Q21
-  setCurrent(startIndex);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);                             // reset score for this set
-};
-  const startThisSet = () => {
-  setQuestions(prev => shuffleAll(prev));
-  const startIndex = current >= 20 ? 20 : 0;
-  setCurrent(startIndex);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
+    setQuestions(prev => shuffleAll(prev));
+    setCurrent(0);
+    setPicked(null);
+    setDone(false);
+    setCorrectCount(0); // reset score
+  };
 
-const startThisSet = () => {
-  setQuestions(prev => shuffleAll(prev));         // reshuffle choices
-  const startIndex = current >= 20 ? 20 : 0;      // 0 => Q1, 20 => Q21
-  setCurrent(startIndex);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);                              // reset score for this set
-};
+  // Reset only the current 20-question set (1–20 or 21–40)
+  const startThisSet = () => {
+    setQuestions(prev => shuffleAll(prev));
+    const startIndex = current >= 20 ? 20 : 0; // index 0 => Q1, index 20 => Q21
+    setCurrent(startIndex);
+    setPicked(null);
+    setDone(false);
+    setCorrectCount(0);
+  };
 
   const select = (idx) => {
     if (!done) setPicked(idx);
   };
 
- const submit = () => {
-  if (picked === null) return;
-  setDone(true);
-  const correctIndex = questions[current].correctIndexShuffled ?? questions[current].correctIndex;
-  if (picked === correctIndex) {
-    setCorrectCount(prev => prev + 1);
-  }
-};
-
-
-
-  const next = () => {
-    if (questions && current < questions.length - 1) setCurrent(current + 1);
+  const submit = () => {
+    if (picked === null || !questions) return;
+    setDone(true);
+    const q = questions[current];
+    const correctIndex = q.correctIndexShuffled ?? q.correctIndex;
+    if (picked === correctIndex) {
+      setCorrectCount(prev => prev + 1);
+    }
   };
 
-  // ---------- loading / empty states ----------
+  const next = () => {
+    if (questions && current < questions.length - 1) {
+      setCurrent(current + 1);
+    }
+  };
+
+  // ---------- loading state ----------
   if (!questions) {
     return (
       <main style={styles.main}>
         <div style={styles.card}>
           <div style={styles.h1}>Prep Test G1</div>
+          <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
+          <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
+
           <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–40)
-  </button>
-  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start this set (1–20)
-  </button>
-</div>
-
-
-{(() => {
-  const label = current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)';
-  return (
-   <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–40)
-  </button>
-  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start this set (1–20)
-  </button>
-</div>
-
-
-  );
-})()}
-
-                {current >= 20 && (
-  <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–40)
-  </button>
-  <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start this set (1–20)
-  </button>
-</div>
-
-
-)}
+            <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+              Start Over (1–40)
+            </button>
+            <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+              Start this set (1–20)
+            </button>
+          </div>
 
           <p style={styles.p}>Loading question…</p>
         </div>
@@ -161,23 +112,31 @@ const startThisSet = () => {
     );
   }
 
+  // ---------- empty state ----------
   if (questions.length === 0) {
     return (
       <main style={styles.main}>
         <div style={styles.card}>
           <div style={styles.h1}>Prep Test G1</div>
-          <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 8 }}>
+          <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
+          <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
+
+          <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
             <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-              Start Over
+              Start Over (1–40)
+            </button>
+            <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+              Start this set (1–20)
             </button>
           </div>
+
           <p style={styles.p}>No questions available.</p>
         </div>
       </main>
     );
   }
-  // --------------------------------------------
 
+  // ---------- main quiz view ----------
   const q = questions[current];
   const choices = q.choicesShuffled ?? q.choices;
   const correctIndex = q.correctIndexShuffled ?? q.correctIndex;
@@ -189,22 +148,22 @@ const startThisSet = () => {
       <div style={styles.card}>
         <div style={styles.h1}>Prep Test G1</div>
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-<div style={styles.h1}>Prep Test G1</div>
-<p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-<div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
+        <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
-        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 8 }}>
+        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
           <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-            Start Over
+            Start Over (1–40)
+          </button>
+          <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+            {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
           </button>
         </div>
 
         <div style={{ marginTop: 16 }}>
           <div style={styles.qmeta}>
-           <span style={{ opacity: 0.8, fontSize: 12 }}>
-  Question {current + 1} of {questions.length} | Correct: {correctCount}
-</span>
-
+            <span style={{ opacity: 0.8, fontSize: 12 }}>
+              Question {current + 1} of {questions.length} | Correct: {correctCount}
+            </span>
           </div>
 
           {q.image && (
@@ -249,7 +208,7 @@ const startThisSet = () => {
             })}
           </ul>
 
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 8 }}>
+          <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 8, flexWrap: 'wrap' }}>
             <button onClick={submit} disabled={picked === null || done} style={styles.btn}>
               {done ? 'Answered' : 'Submit'}
             </button>
@@ -267,7 +226,7 @@ const startThisSet = () => {
             )}
             {done && onLast && (
               <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-                Restart
+                Restart (1–40)
               </button>
             )}
           </div>
@@ -285,8 +244,7 @@ const startThisSet = () => {
                 </div>
               )}
               <div style={{ marginTop: 8, fontSize: 11, opacity: 0.7 }}>
-                Original questions aligned to the Official MTO Driver’s Handbook (Ontario). We do
-                not copy third-party practice tests.
+                Original questions aligned to the Official MTO Driver’s Handbook (Ontario). We do not copy third-party practice tests.
               </div>
             </div>
           )}
