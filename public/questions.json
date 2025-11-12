@@ -251,5 +251,206 @@
     ],
     "image": "/signs/road-closed.jpg",
     "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
-  }
+  },{
+  "id": "q-school-bus-20m-2",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-the-road",
+  "question": "On a two-way road with no median, a school bus ahead of you stops with its upper red lights flashing. What must you do?",
+  "choices": [
+    "Slow to 10 km/h and pass with caution",
+    "Stop at least 20 metres behind and remain stopped until the lights stop flashing and the stop arm retracts",
+    "Pass if no children are visible on the road",
+    "Stop only if you are approaching from the opposite direction"
+  ],
+  "correctIndex": 1,
+  "explanation": "When a school bus activates its red flashing lights (and/or stop arm), you must stop. If you are behind the bus, stop at least 20 metres away and remain stopped until the red lights stop flashing and the stop arm retracts. On roads with a median, only vehicles behind the bus must stop.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original question; do not copy third-party practice tests."
+},
+{
+  "id": "q-4way-stop-yield-right-3",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "intersections",
+  "question": "At a four-way stop, two vehicles stop at exactly the same time. Who goes first?",
+  "choices": [
+    "The larger vehicle goes first",
+    "The vehicle on the left goes first",
+    "The vehicle on the right goes first",
+    "Whoever flashes headlights first"
+  ],
+  "correctIndex": 2,
+  "explanation": "If two vehicles stop at the same time at an all-way stop, the vehicle on the left must yield to the vehicle on the right.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Driving through intersections",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+    }
+  ],
+  "notes": "Original question aligned to the handbook rule."
+},
+{
+  "id": "q-right-turn-on-red-4",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "turns",
+  "question": "When is it legal to make a right turn on a red light in Ontario?",
+  "choices": [
+    "Anytime you signal",
+    "Only when a police officer waves you through",
+    "After a complete stop and only if there is no sign prohibiting it, and you yield to pedestrians and traffic",
+    "Only between sunrise and sunset"
+  ],
+  "correctIndex": 2,
+  "explanation": "You may turn right on red after coming to a full stop, provided there is no sign prohibiting it and you yield to pedestrians and other road users.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Changing directions",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+    }
+  ],
+  "notes": "Original wording; mirrors handbook guidance."
+},
+{
+  "id": "q-headlights-when-5",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "visibility",
+  "question": "When must you turn on your headlights in Ontario?",
+  "choices": [
+    "Only after dark",
+    "From sunset exactly to sunrise only",
+    "Half an hour before sunset to half an hour after sunrise, and whenever visibility is under about 150 m (e.g., fog, rain, snow)",
+    "Only on highways"
+  ],
+  "correctIndex": 2,
+  "explanation": "Headlights are required from one-half hour before sunset to one-half hour after sunrise, and any time poor light conditions prevent you from clearly seeing people or vehicles less than 150 metres away.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Getting ready to drive (Lighting)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
+    }
+  ],
+  "notes": "Original wording; aligns to lighting requirement."
+},
+{
+  "id": "q-school-crossing-guard-6",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "pedestrians",
+  "question": "A school crossing guard steps into the road holding a red-and-white stop sign. What must you do?",
+  "choices": [
+    "Slow down and pass carefully if no children are on the crosswalk",
+    "Stop, then proceed if the guard waves only children across",
+    "Stop before the crossing and remain stopped until everyone, including the guard, has cleared the entire roadway and it is safe to go",
+    "Honk to alert others and proceed"
+  ],
+  "correctIndex": 2,
+  "explanation": "You must stop before reaching the crossing and remain stopped until all people—including the school crossing guard—have cleared the entire roadway and it is safe to proceed.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    },
+    {
+      "title": "Driving near pedestrian crossovers and school crossings",
+      "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+    }
+  ],
+  "notes": "Original question; summarizes the rule for school crossings."
+},
+{
+  "id": "q-two-second-rule-7",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "space-management",
+  "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
+  "choices": [
+    "One second behind the vehicle ahead",
+    "Two seconds behind the vehicle ahead",
+    "Three car lengths at any speed",
+    "Five seconds only on highways"
+  ],
+  "correctIndex": 1,
+  "explanation": "Use at least the two-second rule to maintain a safe following distance under good conditions. Increase the gap in poor weather or when visibility is low.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-roundabout-yield-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "roundabouts",
+  "question": "Approaching a roundabout, what must you do before entering?",
+  "choices": [
+    "Enter quickly and claim your lane",
+    "Stop in the entry lane even if no one is coming",
+    "Yield to traffic already in the roundabout and to pedestrians, and enter when there is a safe gap",
+    "Signal left and enter immediately"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slow down and yield to circulating traffic and pedestrians. Enter only when there is a safe gap; then signal right when exiting.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
+{
+  "id": "q-divided-road-bus-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-the-road",
+  "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
+  "choices": [
+    "Stop immediately",
+    "Proceed with caution; only vehicles behind the bus must stop",
+    "Honk and pass",
+    "Stop for 3 seconds, then proceed"
+  ],
+  "correctIndex": 1,
+  "explanation": "On roads with a median, only vehicles behind the bus must stop for its flashing red lights. Opposing traffic may proceed with caution.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original question; complements the earlier school-bus scenario."
+},
+{
+  "id": "q-pxo-wait-clear-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "pedestrians",
+  "question": "At a pedestrian crossover (PXO) with flashing beacons, when can you proceed?",
+  "choices": [
+    "As soon as the pedestrian steps onto the curb on your half of the road",
+    "After slowing and sounding the horn",
+    "Only after pedestrians have completely crossed and fully left the roadway, and it’s safe",
+    "Anytime if you are turning right"
+  ],
+  "correctIndex": 2,
+  "explanation": "You must stop for pedestrians at PXOs and remain stopped until they have completely crossed and are fully off the roadway. Proceed only when it’s safe.",
+  "sources": [
+    {
+      "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+      "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+    }
+  ],
+  "notes": "Original question aligned to PXO rules."
+}
 ]
