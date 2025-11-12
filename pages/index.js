@@ -58,14 +58,25 @@ export default function Home() {
         <h1 style={styles.h1}>Prep test G1</h1>
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
 
-        <div style={{marginTop: 16}}>
-          <div style={styles.qmeta}>
-            <span style={{opacity: 0.8, fontSize: 12}}>
-              Question {current + 1} of {questions.length}
-            </span>
-          </div>
+       <div style={{marginTop: 16}}>
+  <div style={styles.qmeta}>
+    <span style={{opacity: 0.8, fontSize: 12}}>
+      Question {current + 1} of {questions.length}
+    </span>
+  </div>
 
-          <div style={styles.qtext}>{q.question}</div>
+  {q.image && (
+    <div style={{display: 'grid', placeItems: 'center', marginBottom: 10}}>
+      <img
+        src={q.image}
+        alt="Road sign"
+        style={{width: 128, height: 128, objectFit: 'contain'}}
+      />
+    </div>
+  )}
+
+  <div style={styles.qtext}>{q.question}</div>
+
 
           <ul style={{listStyle: 'none', padding: 0, marginTop: 12}}>
             {q.choices.map((choice, idx) => {
