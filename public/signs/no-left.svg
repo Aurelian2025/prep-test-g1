@@ -1,0 +1,11 @@
+<!-- Prep test G1 — NO LEFT TURN (CC0/public domain by Prep test G1) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+  <title>No left turn sign</title>
+  <rect x="40" y="40" width="520" height="520" rx="40" ry="40" fill="#ffffff" stroke="#000" stroke-width="24"/>
+  <!-- Red prohibition ring -->
+  <circle cx="300" cy="300" r="210" fill="none" stroke="#c60b0b" stroke-width="48"/>
+  <!-- Diagonal slash -->
+  <line x1="150" y1="450" x2="450" y2="150" stroke="#c60b0b" stroke-width="48"/>
+  <!-- Left-turn arrow (black) -->
+  <path d="M390 360 H250 v-60 h60 v-50 l-80 80 l80 80 v-50 h80 z" fill="#000000"/>
+</svg>
