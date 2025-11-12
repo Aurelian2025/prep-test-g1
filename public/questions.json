@@ -19,7 +19,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
       }
     ],
-    "image": "/signs/stop.svg",
+    "image": "/signs/stop-sign.jpg",
     "notes": "Original question authored for this app. We do not copy third-party practice tests."
   },
   {
@@ -178,7 +178,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
       }
     ],
-    "image": "/signs/yield.svg",
+    "image": "/signs/yield-sign.jpg",
     "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
   },
   {
@@ -201,7 +201,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
       }
     ],
-    "image": "/signs/no-left.svg",
+    "image": "/signs/no-left-turn.jpg",
     "notes": "Original question. Image is CC0 created for this app."
   },
   {
@@ -224,7 +224,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-7"
       }
     ],
-    "image": "/signs/speed-80.svg",
+    "image": "/signs/speed-limit-80.jpg",
     "notes": "Original wording. Image is CC0 created for this app."
   },
   {
