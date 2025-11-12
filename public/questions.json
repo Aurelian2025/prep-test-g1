@@ -157,29 +157,143 @@
       }
     ],
     "notes": "Original question; aligns to handbook guidance on following distance."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-8",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "intersections",
+    "question": "Approaching a YIELD sign and cross traffic is present. What must you do?",
+    "choices": [
+      "Proceed without stopping if you signal",
+      "Slow down, be prepared to stop, and yield the right-of-way to traffic and pedestrians; stop if needed",
+      "Always come to a complete stop for at least three seconds",
+      "Speed up to merge before other vehicles"
+    ],
+    "correctIndex": 1,
+    "explanation": "A YIELD sign means you must slow down, be ready to stop, and give the right-of-way to traffic on the road you’re entering and to pedestrians. Stop if required.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield.svg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+
+  /* ===== New batch (5) starts here ===== */
+
+  {
+    "id": "q-no-left-turn-sign-9",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this sign mean at an intersection?",
+    "choices": [
+      "Left turn permitted after a full stop",
+      "No left turn allowed at any time (unless otherwise posted by time)",
+      "Left turns allowed only for buses",
+      "Detour to the left ahead"
+    ],
+    "correctIndex": 1,
+    "explanation": "The red prohibition symbol over a left-turn arrow means left turns are not allowed at this location (unless a time-based exception is posted).",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-left.svg",
+    "notes": "Original question. Image is CC0 created for this app."
+  },
+  {
+    "id": "q-speed-limit-80-10",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "speed",
+    "question": "You see this sign while driving in good conditions. What does it mean?",
+    "choices": [
+      "The minimum speed is 80 km/h",
+      "The speed you must drive is exactly 80 km/h",
+      "The maximum legal speed is 80 km/h; drive slower if conditions require",
+      "You may exceed 80 km/h to pass"
+    ],
+    "correctIndex": 2,
+    "explanation": "Speed limit signs indicate the maximum legal speed under ideal conditions. You must adjust your speed to conditions such as traffic, road, and weather.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Speed limits and managing speed",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-7"
+      }
+    ],
+    "image": "/signs/speed-80.svg",
+    "notes": "Original wording. Image is CC0 created for this app."
+  },
+  {
+    "id": "q-roundabout-yield-11",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "roundabouts",
+    "question": "Approaching a roundabout, what must you do before entering?",
+    "choices": [
+      "Enter quickly and claim your lane",
+      "Stop in the entry lane even if no one is coming",
+      "Yield to traffic already in the roundabout and to pedestrians, and enter when there is a safe gap",
+      "Signal left and enter immediately"
+    ],
+    "correctIndex": 2,
+    "explanation": "Slow down and yield to circulating traffic and pedestrians. Enter only when there is a safe gap; then signal right when exiting.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "notes": "Original question aligned to the roundabout entry/yield rules."
+  },
+  {
+    "id": "q-divided-road-bus-12",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-the-road",
+    "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
+    "choices": [
+      "Stop immediately",
+      "Proceed with caution; only vehicles behind the bus must stop",
+      "Honk and pass",
+      "Stop for 3 seconds, then proceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "On roads with a median, only vehicles behind the bus must stop for its flashing red lights. Opposing traffic may proceed with caution.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+  {
+    "id": "q-pxo-wait-clear-13",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "pedestrians",
+    "question": "At a pedestrian crossover (PXO) with flashing beacons, when can you proceed?",
+    "choices": [
+      "As soon as the pedestrian steps onto the curb on your half of the road",
+      "After slowing and sounding the horn",
+      "Only after pedestrians have completely crossed and fully left the roadway, and it’s safe",
+      "Anytime if you are turning right"
+    ],
+    "correctIndex": 2,
+    "explanation": "You must stop for pedestrians at PXOs and remain stopped until they have completely crossed and are fully off the roadway. Proceed only when it’s safe.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "notes": "Original question aligned to PXO rules."
   }
-,
-{
-  "id": "q-yield-be-prepared-to-stop-8",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "intersections",
-  "question": "Approaching a YIELD sign and cross traffic is present. What must you do?",
-  "choices": [
-    "Proceed without stopping if you signal",
-    "Slow down, be prepared to stop, and yield the right-of-way to traffic and pedestrians; stop if needed",
-    "Always come to a complete stop for at least three seconds",
-    "Speed up to merge before other vehicles"
-  ],
-  "correctIndex": 1,
-  "explanation": "A YIELD sign means you must slow down, be ready to stop, and give the right-of-way to traffic on the road you’re entering and to pedestrians. Stop if required.",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-    }
-  ],
-  "image": "/signs/yield.svg",
-  "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
-}
 ]
