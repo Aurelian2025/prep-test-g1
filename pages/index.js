@@ -6,6 +6,14 @@ export default function Home() {
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const startOverSet2 = () => {
+  setQuestions(prev => shuffleAll(prev)); // reshuffle choices
+  setCurrent(20);                          // index 20 => question #21
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);                      // reset score for this set
+};
+
 
   // ---------- shuffle helpers ----------
   function shuffleIndices(n) {
@@ -61,7 +69,7 @@ export default function Home() {
     if (!done) setPicked(idx);
   };
 
-  const submit = () => {
+ const submit = () => {
   if (picked === null) return;
   setDone(true);
   const correctIndex = questions[current].correctIndexShuffled ?? questions[current].correctIndex;
@@ -69,6 +77,7 @@ export default function Home() {
     setCorrectCount(prev => prev + 1);
   }
 };
+
 
 
   const next = () => {
@@ -86,6 +95,14 @@ export default function Home() {
               Start Over
             </button>
           </div>
+                {current >= 20 && (
+  <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
+    <button onClick={startOverSet2} style={{ ...styles.btn, background: '#ffe6a7' }}>
+      Start Over (21–40)
+    </button>
+  </div>
+)}
+
           <p style={styles.p}>Loading question…</p>
         </div>
       </main>
@@ -129,7 +146,7 @@ export default function Home() {
 
         <div style={{ marginTop: 16 }}>
           <div style={styles.qmeta}>
-            <span style={{ opacity: 0.8, fontSize: 12 }}>
+           <span style={{ opacity: 0.8, fontSize: 12 }}>
   Question {current + 1} of {questions.length} | Correct: {correctCount}
 </span>
 
