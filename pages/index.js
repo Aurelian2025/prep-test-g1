@@ -32,6 +32,7 @@ function shuffleAll(arr) {
 }
 
 const startOver = () => {
+  setQuestions(prev => shuffleAll(prev)); // <— reshuffle choices for all questions
   setCurrent(0);
   setPicked(null);
   setDone(false);
@@ -115,7 +116,7 @@ const startOver = () => {
 
 
           <ul style={{listStyle: 'none', padding: 0, marginTop: 12}}>
-            {q.choices.map((choice, idx) => {
+            {choices.map((choice, idx) => {
               const pickedThis = picked === idx;
               const showResult = done && pickedThis;
               const correct = done && idx === q.correctIndex;
