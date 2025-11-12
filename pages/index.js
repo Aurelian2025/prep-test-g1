@@ -64,6 +64,14 @@ export default function Home() {
   setDone(false);
   setCorrectCount(0); // reset score
 };
+const startThisSet = () => {
+  setQuestions(prev => shuffleAll(prev));         // reshuffle choices
+  const startIndex = current >= 20 ? 20 : 0;      // 0 => Q1, 20 => Q21
+  setCurrent(startIndex);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);                              // reset score for this set
+};
 
   const select = (idx) => {
     if (!done) setPicked(idx);
@@ -95,6 +103,17 @@ export default function Home() {
               Start Over
             </button>
           </div>
+{(() => {
+  const label = current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)';
+  return (
+    <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
+      <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
+        {label}
+      </button>
+    </div>
+  );
+})()}
+
                 {current >= 20 && (
   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 6 }}>
     <button onClick={startOverSet2} style={{ ...styles.btn, background: '#ffe6a7' }}>
