@@ -49,24 +49,33 @@ export default function Home() {
     setDone(false);
   }, [current]);
 
-  // Reset all 40 questions
-  const startOver = () => {
-    setQuestions(prev => shuffleAll(prev));
-    setCurrent(0);
-    setPicked(null);
-    setDone(false);
-    setCorrectCount(0); // reset score
-  };
+ // Reset all 80 questions (1–80)
+const startOver = () => {
+  setQuestions(prev => shuffleAll(prev));
+  setCurrent(0);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
 
-  // Reset only the current 20-question set (1–20 or 21–40)
-  const startThisSet = () => {
-    setQuestions(prev => shuffleAll(prev));
-    const startIndex = current >= 20 ? 20 : 0; // index 0 => Q1, index 20 => Q21
-    setCurrent(startIndex);
-    setPicked(null);
-    setDone(false);
-    setCorrectCount(0);
-  };
+// Practice questions 1–40
+const startFirst40 = () => {
+  setQuestions(prev => shuffleAll(prev));
+  setCurrent(0);   // index 0 = question 1
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
+
+// Practice questions 41–80
+const startLast40 = () => {
+  setQuestions(prev => shuffleAll(prev));
+  setCurrent(40);  // index 40 = question 41
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
+
 
   const select = (idx) => {
     if (!done) setPicked(idx);
@@ -97,14 +106,17 @@ export default function Home() {
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
           <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
-          <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-            <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-              Start Over (1–40)
-            </button>
-            <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-              Start this set (1–20)
-            </button>
-          </div>
+         <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–80)
+  </button>
+  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    Start 1–40
+  </button>
+  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
+    Start 41–80
+  </button>
+</div>
 
           <p style={styles.p}>Loading question…</p>
         </div>
@@ -122,13 +134,17 @@ export default function Home() {
           <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
           <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-            <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-              Start Over (1–40)
-            </button>
-            <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-              Start this set (1–20)
-            </button>
-          </div>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–80)
+  </button>
+  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    Start 1–40
+  </button>
+  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
+    Start 41–80
+  </button>
+</div>
+
 
           <p style={styles.p}>No questions available.</p>
         </div>
@@ -151,13 +167,17 @@ export default function Home() {
         <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
         <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-          <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-            Start Over (1–40)
-          </button>
-          <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-            {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
-          </button>
-        </div>
+  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start Over (1–80)
+  </button>
+  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
+    Start 1–40
+  </button>
+  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
+    Start 41–80
+  </button>
+</div>
+
 
         <div style={{ marginTop: 16 }}>
           <div style={styles.qmeta}>
