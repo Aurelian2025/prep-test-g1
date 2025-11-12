@@ -456,4 +456,444 @@
   "image": "/signs/road-closed.jpg",
   "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
 }
+{
+  "id": "q-seatbelt-21",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "safety",
+  "question": "When must seat belts be worn in Ontario?",
+  "choices": [
+    "Only on highways",
+    "Whenever the vehicle is moving",
+    "Only when driving over 50 km/h",
+    "Only when passengers are present"
+  ],
+  "correctIndex": 1,
+  "explanation": "Drivers and passengers must wear a seat belt whenever the vehicle is moving.  The driver is responsible for ensuring passengers under 16 are buckled.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original question created for Prep Test G1."
+},
+{
+  "id": "q-left-lane-passing-22",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-of-the-road",
+  "question": "On a multi-lane highway, which lane should you normally drive in?",
+  "choices": [
+    "Left lane at all times",
+    "Right lane except when passing",
+    "Centre lane for steady speed",
+    "Whichever lane has less traffic"
+  ],
+  "correctIndex": 1,
+  "explanation": "Keep to the right except when passing or preparing for a left turn.  Use the left lane only to pass.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Lane discipline)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original wording by Prep Test G1."
+},
+{
+  "id": "q-icy-bridge-23",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "hazards",
+  "question": "A sign warns 'Bridge Freezes Before Road'.  What should you do?",
+  "choices": [
+    "Accelerate to cross quickly",
+    "Brake hard before the bridge",
+    "Slow down and avoid sudden moves on the bridge",
+    "Drive in the centre of the road"
+  ],
+  "correctIndex": 2,
+  "explanation": "Bridges freeze first.  Reduce speed, avoid hard braking or steering suddenly.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original question; playful safety reminder."
+},
+{
+  "id": "q-hydroplane-24",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "hazards",
+  "question": "Your tires ride on top of water (hydroplaning).  What should you do?",
+  "choices": [
+    "Brake hard and steer sharply",
+    "Ease off the gas and steer straight until you regain traction",
+    "Accelerate to regain grip",
+    "Turn the wheel back and forth to shake off water"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ease off the accelerator gently and keep steering straight until tires regain contact with the road.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original safety question."
+},
+{
+  "id": "q-turn-signal-25",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signals",
+  "question": "How far ahead should you signal before turning or changing lanes?",
+  "choices": [
+    "At least 30 metres (100 feet)",
+    "Just as you turn the wheel",
+    "Five car lengths away",
+    "Only when someone is behind you"
+  ],
+  "correctIndex": 0,
+  "explanation": "Signal well in advance — at least 30 metres (about 100 feet) before a turn or lane change.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Changing Directions",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+    }
+  ],
+  "notes": "Original question; reinforces signaling distance."
+},
+{
+  "id": "q-horn-use-26",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "communication",
+  "question": "When should you use your horn?",
+  "choices": [
+    "To greet a friend on the street",
+    "To warn others of possible danger",
+    "When the light turns green",
+    "In anger at other drivers"
+  ],
+  "correctIndex": 1,
+  "explanation": "Use your horn only to warn others when necessary to avoid a collision, not to express frustration.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original question; polite road communication."
+},
+{
+  "id": "q-roadwork-flag-27",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "construction",
+  "question": "A flag person is directing traffic in a construction zone.  You must:",
+  "choices": [
+    "Follow the flag person’s instructions at all times",
+    "Ignore them if a traffic light shows green",
+    "Proceed slowly without stopping",
+    "Sound your horn before passing"
+  ],
+  "correctIndex": 0,
+  "explanation": "Flag persons override signs and lights — you must obey their directions at all times.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Construction zones",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+    }
+  ],
+  "notes": "Original question — construction zone etiquette."
+},
+{
+  "id": "q-alcohol-28",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "impairment",
+  "question": "If a driver under 21 years old has any alcohol in their system while driving, they:",
+  "choices": [
+    "May receive a warning only",
+    "Are subject to zero tolerance and license suspension",
+    "May continue if accompanied by an adult",
+    "Are exempt on weekends"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ontario has a Zero BAC requirement for drivers under 21 and for novice drivers (G1, G2).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Impaired driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
+    }
+  ],
+  "notes": "Original question; reinforces zero-tolerance policy."
+},
+{
+  "id": "q-fatigue-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "impairment",
+  "question": "You feel drowsy while driving at night.  What should you do?",
+  "choices": [
+    "Open the window and turn up music",
+    "Pull over safely and rest",
+    "Drive faster to finish sooner",
+    "Drink coffee and keep going"
+  ],
+  "correctIndex": 1,
+  "explanation": "If you’re sleepy, stop in a safe place and rest.  Fatigue is as dangerous as impairment.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Fatigue and safe driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/fatigue"
+    }
+  ],
+  "notes": "Original question; emphasizes rest and alertness."
+},
+{
+  "id": "q-fog-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "visibility",
+  "question": "When driving in dense fog, you should:",
+  "choices": [
+    "Use high-beam headlights",
+    "Use low-beam headlights and reduce speed",
+    "Turn off lights completely",
+    "Drive close to centre line for guidance"
+  ],
+  "correctIndex": 1,
+  "explanation": "Use low-beam headlights and reduce speed; high beams reflect back in fog and reduce visibility.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Fog)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original question on fog safety."
+},
+{
+  "id": "q-child-seat-31",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "safety",
+  "question": "Children under 9 kg (20 lb) must be secured in:",
+  "choices": [
+    "A booster seat",
+    "A rear-facing child car seat",
+    "A seat belt only",
+    "A front passenger seat with airbag on"
+  ],
+  "correctIndex": 1,
+  "explanation": "Infants under 9 kg (20 lb) must travel in a rear-facing child car seat.",
+  "sources": [
+    {
+      "title": "Ontario Highway Traffic Act and MTO — Child car seat rules",
+      "url": "https://www.ontario.ca/page/child-car-seats"
+    }
+  ],
+  "notes": "Original child-seat question."
+},
+{
+  "id": "q-hand-signals-32",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signals",
+  "question": "If your turn signals fail, how can you signal a right turn by hand?",
+  "choices": [
+    "Left arm straight out",
+    "Left arm out and bent up at the elbow",
+    "Left arm out and bent down",
+    "Wave your hand in a circle"
+  ],
+  "correctIndex": 1,
+  "explanation": "Left arm out and bent up at 90° means a right turn signal by hand.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Signalling",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/signalling"
+    }
+  ],
+  "notes": "Original question; hand signals awareness."
+},
+{
+  "id": "q-blindspot-33",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "safe-driving",
+  "question": "Before changing lanes, you should:",
+  "choices": [
+    "Signal and immediately move over",
+    "Check mirrors and blind spots by looking over your shoulder",
+    "Rely only on your mirrors",
+    "Sound your horn"
+  ],
+  "correctIndex": 1,
+  "explanation": "Always check mirrors and blind spots by looking over your shoulder before changing lanes.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Changing Lanes",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+    }
+  ],
+  "notes": "Original question; blind-spot check."
+},
+{
+  "id": "q-crosswalk-34",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "pedestrians",
+  "question": "At an intersection with no marked crosswalk, where should pedestrians cross?",
+  "choices": [
+    "Anywhere they wish",
+    "In line with sidewalks on either side",
+    "Halfway across the intersection",
+    "At a diagonal angle"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pedestrians should cross in a straight line between sidewalks even if no lines are painted.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Pedestrian Safety",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+    }
+  ],
+  "notes": "Original question; crosswalk awareness."
+},
+{
+  "id": "q-motorcycle-distance-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-road",
+  "question": "When following a motorcycle, you should:",
+  "choices": [
+    "Follow closely to see better",
+    "Maintain at least a 2-second distance or more",
+    "Use your high beams to be seen",
+    "Pass immediately"
+  ],
+  "correctIndex": 1,
+  "explanation": "Allow extra space when following motorcycles since they can stop faster and maneuver quickly.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the Road with Motorcycles",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original question; safe distance."
+},
+{
+  "id": "q-snowplow-36",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "winter",
+  "question": "You approach a snowplow working on the highway.  What should you do?",
+  "choices": [
+    "Stay well back and do not pass until safe and clear",
+    "Pass immediately on the right",
+    "Sound horn to get it to move over",
+    "Flash high beams to signal you are behind"
+  ],
+  "correctIndex": 0,
+  "explanation": "Stay well back — snowplows throw snow and sand and may obscure your view.  Pass only when safe and legal.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Winter Driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original question; winter driving etiquette."
+},
+{
+  "id": "q-tire-blowout-37",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency",
+  "question": "If a tire blows out while driving, what should you do first?",
+  "choices": [
+    "Brake hard immediately to stop the car",
+    "Hold the wheel firmly, ease off the accelerator, and steer straight",
+    "Shift to Neutral and turn off the ignition",
+    "Accelerate slightly to regain control"
+  ],
+  "correctIndex": 1,
+  "explanation": "Keep a firm grip on the steering wheel, ease off the gas, and steer straight until you can slow and move off the road safely. Heavy braking can cause loss of control.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency situations (Tire blowouts)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original question; emergency control technique."
+},
+{
+  "id": "q-brake-failure-38",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency",
+  "question": "Your brake pedal suddenly goes to the floor and braking power is lost. What is your best immediate action?",
+  "choices": [
+    "Pump the brake pedal several times and downshift to lower gears to slow the vehicle",
+    "Turn off the engine at once",
+    "Pull the parking brake hard in one motion",
+    "Swerve onto the shoulder immediately"
+  ],
+  "correctIndex": 0,
+  "explanation": "Pump the brakes to build pressure and use engine braking by shifting to lower gears. Apply the parking brake gradually if needed. Turn on hazard lights and steer to a safe stop.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency situations (Brake failure)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original question; prioritized sequence for brake failure."
+},
+{
+  "id": "q-stuck-accelerator-39",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency",
+  "question": "Your accelerator sticks and the engine races. What should you do first?",
+  "choices": [
+    "Turn the key to lock to stall the engine",
+    "Shift to Neutral, steer to a safe place, and apply brakes",
+    "Turn on cruise control to stabilize speed",
+    "Shut off all electrical systems"
+  ],
+  "correctIndex": 1,
+  "explanation": "Shift to Neutral to disconnect engine power, steer to a safe location, and brake smoothly. Do not switch the ignition to lock while moving — you could lose steering.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency situations (Stuck accelerator)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original question; correct Neutral-then-brake sequence."
+},
+{
+  "id": "q-yield-emergency-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency-vehicles",
+  "question": "An emergency vehicle with flashing lights and siren is approaching from behind on a two-way road. What must you do?",
+  "choices": [
+    "Maintain your speed so you don’t block traffic",
+    "Pull as far to the right as possible and stop until it has passed",
+    "Speed up to stay ahead of it",
+    "Stop in the left lane"
+  ],
+  "correctIndex": 1,
+  "explanation": "Safely pull to the right edge and stop, yielding the right-of-way to the emergency vehicle. Check for additional emergency vehicles before rejoining traffic.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road (Emergency vehicles)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original question; Ontario move-over/yield requirement."
+}
 ]
