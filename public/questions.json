@@ -15,7 +15,7 @@
     "explanation": "You must come to a complete stop at the painted stop line. If there’s no stop line, stop at the crosswalk; if none, at the edge of the sidewalk; if none, at the edge of the intersection.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook (Ontario) — Stopping",
+        "title": "Official MTO Driver’s Handbook — Stopping",
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
       }
     ],
@@ -34,13 +34,73 @@
       "Stop only if you are approaching from the opposite direction"
     ],
     "correctIndex": 1,
-    "explanation": "When a school bus activates its red flashing lights (and/or stop arm), you must stop. If you are behind the bus, stop at least 20 metres (about 65 feet) away and remain stopped until the red lights stop flashing and the stop arm retracts. On roads with a median, only vehicles behind the bus must stop.",
+    "explanation": "When a school bus activates its red flashing lights (and/or stop arm), you must stop. If you are behind the bus, stop at least 20 metres away and remain stopped until the red lights stop flashing and the stop arm retracts. On roads with a median, only vehicles behind the bus must stop.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook (Ontario) — Sharing the road with other road users (School buses)",
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
     "notes": "Original question authored for this app. We do not copy third-party practice tests."
-  }
-]
+  },
+
+  /* === New questions start here === */
+
+  {
+    "id": "q-4way-stop-yield-right-3",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "intersections",
+    "question": "At a four-way stop, two vehicles stop at exactly the same time. Who goes first?",
+    "choices": [
+      "The larger vehicle goes first",
+      "The vehicle on the left goes first",
+      "The vehicle on the right goes first",
+      "Whoever flashes headlights first"
+    ],
+    "correctIndex": 2,
+    "explanation": "If two vehicles stop at the same time at an all-way stop, the vehicle on the left must yield to the vehicle on the right.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "notes": "Original question aligned to the handbook rule about yielding to the right at all-way stops."
+  },
+  {
+    "id": "q-right-turn-on-red-4",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "turns",
+    "question": "When is it legal to make a right turn on a red light in Ontario?",
+    "choices": [
+      "Anytime you signal",
+      "Only when a police officer waves you through",
+      "After a complete stop and only if there is no sign prohibiting it, and you yield to pedestrians and traffic",
+      "Only between sunrise and sunset"
+    ],
+    "correctIndex": 2,
+    "explanation": "You may turn right on red after coming to a full stop, provided there is no sign prohibiting it and you yield to pedestrians and other road users.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions (Right turn on a red light)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "notes": "Original question; mirrors handbook guidance on right-on-red."
+  },
+  {
+    "id": "q-headlights-when-5",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "visibility",
+    "question": "When must you turn on your headlights in Ontario?",
+    "choices": [
+      "Only after dark",
+      "From sunset exactly to sunrise only",
+      "Half an hour before sunset to half an hour after sunrise, and whenever visibility is under about 150 m (e.g., fog, rain, snow)",
+      "Only on highways"
+    ],
+    "correctIndex": 2,
+    "explanation": "Headlight
