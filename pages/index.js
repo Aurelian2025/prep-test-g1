@@ -64,6 +64,15 @@ export default function Home() {
   setDone(false);
   setCorrectCount(0); // reset score
 };
+  // reset current 20-question set only
+const startThisSet = () => {
+  setQuestions(prev => shuffleAll(prev));         // reshuffle choices
+  const startIndex = current >= 20 ? 20 : 0;      // 0 => Q1, 20 => Q21
+  setCurrent(startIndex);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);                             // reset score for this set
+};
   const startThisSet = () => {
   setQuestions(prev => shuffleAll(prev));
   const startIndex = current >= 20 ? 20 : 0;
@@ -111,24 +120,24 @@ const startThisSet = () => {
   <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start Over (1–40)
   </button>
-
   <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+    Start this set (1–20)
   </button>
 </div>
+
 
 {(() => {
   const label = current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)';
   return (
-    <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+   <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start Over (1–40)
   </button>
-
   <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+    Start this set (1–20)
   </button>
 </div>
+
 
   );
 })()}
@@ -138,11 +147,11 @@ const startThisSet = () => {
   <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start Over (1–40)
   </button>
-
   <button onClick={startThisSet} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    {current >= 20 ? 'Start this set (21–40)' : 'Start this set (1–20)'}
+    Start this set (1–20)
   </button>
 </div>
+
 
 )}
 
