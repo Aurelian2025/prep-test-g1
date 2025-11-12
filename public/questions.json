@@ -894,5 +894,884 @@
       }
     ],
     "notes": "Original emergency-yield question."
-  }
+  }, {
+  "id": "q-four-way-stop-ped-41",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "intersections",
+  "question": "At a four-way stop, a pedestrian is crossing ahead of you and a car on your right arrives at the same time. What should you do?",
+  "choices": [
+    "Go first because you arrived at the same time",
+    "Wave the other driver through and ignore the pedestrian",
+    "Yield to the pedestrian first, then allow the car on your right to go before you",
+    "Proceed quickly before anyone else moves"
+  ],
+  "correctIndex": 2,
+  "explanation": "Pedestrians in the crosswalk go first. After they clear, the car on your right has the right-of-way at a four-way stop.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Driving through intersections",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+    }
+  ],
+  "notes": "Original intersection question for Prep test G1."
+},
+{
+  "id": "q-merge-ramp-42",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "highway",
+  "question": "When using an entrance ramp to merge onto a freeway, you should:",
+  "choices": [
+    "Stop at the end of the ramp and wait for a large gap",
+    "Drive slowly and merge at whatever speed feels comfortable",
+    "Use the acceleration lane to match the speed of highway traffic and merge when safe",
+    "Signal only after you have already merged"
+  ],
+  "correctIndex": 2,
+  "explanation": "Use the acceleration lane to reach the speed of traffic on the freeway, signal, shoulder check, and merge when there is a safe gap.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Freeway driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
+    }
+  ],
+  "notes": "Original freeway merging question."
+},
+{
+  "id": "q-exit-ramp-43",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "highway",
+  "question": "When leaving a freeway, when should you slow down to the exit ramp speed?",
+  "choices": [
+    "On the freeway lane before the exit",
+    "Only after you are on the exit ramp and see the lower speed posted",
+    "As soon as you see the first exit sign",
+    "Only if there is traffic behind you"
+  ],
+  "correctIndex": 1,
+  "explanation": "Maintain freeway speed until you are actually on the exit ramp, then slow to the posted ramp speed.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Freeway driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
+    }
+  ],
+  "notes": "Original exit-ramp speed question."
+},
+{
+  "id": "q-curb-uphill-44",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "parking",
+  "question": "When parking uphill on a road with a curb, how should you turn your front wheels?",
+  "choices": [
+    "Toward the curb",
+    "Straight ahead",
+    "Away from the curb",
+    "It does not matter"
+  ],
+  "correctIndex": 2,
+  "explanation": "Uphill with a curb: turn the wheels away from the curb so if the vehicle rolls, the front tire will roll back into the curb.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Parking",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+    }
+  ],
+  "notes": "Original question about parking on hills."
+},
+{
+  "id": "q-curb-downhill-45",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "parking",
+  "question": "When parking downhill on a road with a curb, how should you turn your front wheels?",
+  "choices": [
+    "Toward the curb",
+    "Straight ahead",
+    "Away from the curb",
+    "Always use the parking brake only"
+  ],
+  "correctIndex": 0,
+  "explanation": "Downhill with a curb: turn your wheels toward the curb so the vehicle would roll into the curb, not into traffic.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Parking",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+    }
+  ],
+  "notes": "Original downhill-parking question."
+},
+{
+  "id": "q-no-curb-hill-46",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "parking",
+  "question": "When parking on a hill with no curb, how should you turn your wheels?",
+  "choices": [
+    "Always straight ahead",
+    "So the vehicle would roll away from the road if it moved",
+    "So the vehicle would roll into the road if it moved",
+    "Wheel direction does not matter"
+  ],
+  "correctIndex": 1,
+  "explanation": "Without a curb, turn your wheels so the vehicle would roll off the road, not into traffic, if it moved.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Parking",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+    }
+  ],
+  "notes": "Original hill-parking detail question."
+},
+{
+  "id": "q-railway-stop-47",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "railway",
+  "question": "You are approaching a railway crossing with flashing red lights and gates lowering. What must you do?",
+  "choices": [
+    "Drive around the gates if you don’t see a train",
+    "Stop at least 5 metres from the crossing and remain stopped until the lights stop and the gates are fully raised",
+    "Slow down but proceed carefully",
+    "Stop, then proceed once you think it’s safe, even if the lights are still flashing"
+  ],
+  "correctIndex": 1,
+  "explanation": "You must stop at least 5 metres from the tracks and remain stopped until the lights stop flashing and gates are fully raised.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Railway crossings",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roadway-signs#section-7"
+    }
+  ],
+  "notes": "Original railway-crossing question."
+},
+{
+  "id": "q-school-zone-speed-48",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "speed",
+  "question": "In a school zone where a lower speed limit is posted with times of day, when does that lower limit apply?",
+  "choices": [
+    "Only when children are visible",
+    "Only if traffic is heavy",
+    "During the times shown on the sign (for example, school hours on school days)",
+    "Only in summer"
+  ],
+  "correctIndex": 2,
+  "explanation": "Obey the reduced speed during the times shown on the sign, often on school days during arrival and dismissal times.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Speed limits",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original school-zone timing question."
+},
+{
+  "id": "q-work-zone-fines-49",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "construction",
+  "question": "In a construction zone, fines for speeding are:",
+  "choices": [
+    "Reduced because traffic is slower",
+    "The same as any other road",
+    "Doubled compared to the same offence outside a work zone",
+    "Only applied if workers are present"
+  ],
+  "correctIndex": 2,
+  "explanation": "Speeding fines are higher—often doubled—in designated construction zones, even if workers are not always visible.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Construction zones",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+    }
+  ],
+  "notes": "Original question emphasizing increased fines."
+},
+{
+  "id": "q-shoulder-use-50",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-of-the-road",
+  "question": "The shoulder of the road is mainly for:",
+  "choices": [
+    "Driving faster than traffic",
+    "Passing slower vehicles",
+    "Emergency stopping or breakdowns when necessary",
+    "Parking all day"
+  ],
+  "correctIndex": 2,
+  "explanation": "The shoulder is not a travel lane; it is mainly for emergency stops or breakdowns when necessary and allowed.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Road position)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original shoulder-use question."
+},
+{
+  "id": "q-back-up-driveway-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "manoeuvres",
+  "question": "When backing out of a driveway into a roadway, you must:",
+  "choices": [
+    "Rely on your mirrors only",
+    "Back out quickly to avoid blocking traffic",
+    "Yield to all pedestrians, cyclists, and vehicles on the road",
+    "Honk the horn and back out without stopping"
+  ],
+  "correctIndex": 2,
+  "explanation": "When backing out, you must yield to road users and ensure the way is clear before moving.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Backing up)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original backing-out question."
+},
+{
+  "id": "q-reverse-look-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "manoeuvres",
+  "question": "When reversing straight, the best way to look is:",
+  "choices": [
+    "In the rear-view mirror only",
+    "Over your right shoulder through the rear window while backing slowly",
+    "At the infotainment screen",
+    "Only in the side mirrors"
+  ],
+  "correctIndex": 1,
+  "explanation": "Turn your body and look over your right shoulder through the back window while reversing slowly and checking around.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Backing up",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original reversing technique question."
+},
+{
+  "id": "q-left-turn-oncoming-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "turns",
+  "question": "You are turning left at an intersection and oncoming traffic is approaching. What should you do?",
+  "choices": [
+    "Turn quickly in front of oncoming traffic",
+    "Move into the intersection and turn only when there is a safe gap or after the light turns yellow/red and oncoming traffic has stopped",
+    "Turn from the right lane to save time",
+    "Stop behind the crosswalk and wait only for the green arrow"
+  ],
+  "correctIndex": 1,
+  "explanation": "Creep into the intersection when safe, yield to oncoming traffic and pedestrians, and complete your turn only when there is a safe gap.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Turning left",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+    }
+  ],
+  "notes": "Original left-turn judgement question."
+},
+{
+  "id": "q-lane-change-mirror-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "safe-driving",
+  "question": "What is the correct order when changing lanes?",
+  "choices": [
+    "Signal, shoulder check, mirror check, move",
+    "Mirror check, signal, shoulder check, move when safe",
+    "Move, then signal, then mirror check",
+    "Shoulder check only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Check mirrors, signal, check your blind spot (shoulder check), then move into the lane when safe.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Changing lanes",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+    }
+  ],
+  "notes": "Original lane-change sequence question."
+},
+{
+  "id": "q-roundabout-signal-exit-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "roundabouts",
+  "question": "When should you signal at a roundabout?",
+  "choices": [
+    "Signal left while driving around the circle",
+    "Signal right just before you take your exit",
+    "Do not signal at all",
+    "Signal hazard lights while inside"
+  ],
+  "correctIndex": 1,
+  "explanation": "Signal right as you pass the exit before the one you intend to take, to show you are leaving the roundabout.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "notes": "Original signalling-at-roundabout question."
+},
+{
+  "id": "q-bicycle-door-zone-56",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-road",
+  "question": "When passing parked cars where cyclists may ride, you should:",
+  "choices": [
+    "Drive very close to the parked cars to leave room on your right",
+    "Leave enough space so you won’t hit an opened door (avoid the door zone)",
+    "Honk to warn parked drivers",
+    "Use your high beams"
+  ],
+  "correctIndex": 1,
+  "explanation": "Leave space between your vehicle and parked cars so you will not strike a suddenly opened door or a cyclist.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original cyclist door-zone question."
+},
+{
+  "id": "q-bicycle-passing-distance-57",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-road",
+  "question": "When passing a cyclist, what is the best practice?",
+  "choices": [
+    "Pass as closely as possible to stay in your lane",
+    "Slow down and leave plenty of space, changing lanes if needed and safe",
+    "Honk until the cyclist moves aside",
+    "Pass on the right of the cyclist"
+  ],
+  "correctIndex": 1,
+  "explanation": "Slow down and leave a wide space when passing cyclists, moving partly or fully into the next lane when safe.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original passing-cyclist question."
+},
+{
+  "id": "q-animal-avoid-swerve-58",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "hazards",
+  "question": "An animal suddenly runs onto the road. What is the safest general response?",
+  "choices": [
+    "Swerve sharply into the opposite lane",
+    "Brake firmly in a straight line and be prepared to stop if safe",
+    "Turn off your headlights",
+    "Accelerate to get past faster"
+  ],
+  "correctIndex": 1,
+  "explanation": "Brake in a straight line and avoid swerving into oncoming traffic or off the road, which can cause a more serious collision.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Hazards)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original animal-hazard question."
+},
+{
+  "id": "q-black-ice-59",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "winter",
+  "question": "Black ice is:",
+  "choices": [
+    "Ice that is safe to drive on",
+    "A thin, nearly invisible layer of ice on the road",
+    "Ice that only forms in the daytime",
+    "Ice you see only on gravel roads"
+  ],
+  "correctIndex": 1,
+  "explanation": "Black ice is a nearly invisible sheet of ice on the pavement. Slow down and drive smoothly in conditions where it may form.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original black-ice definition question."
+},
+{
+  "id": "q-fog-high-beam-60",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "visibility",
+  "question": "Why should you avoid using high-beam headlights in fog?",
+  "choices": [
+    "They are not bright enough",
+    "They reflect off fog and reduce your ability to see ahead",
+    "They overheat the bulbs",
+    "They use too much fuel"
+  ],
+  "correctIndex": 1,
+  "explanation": "High beams reflect off fog droplets and can make it harder to see. Use low beams and slow down.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Fog)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original follow-up fog question."
+},
+{
+  "id": "q-emergency-shoulder-61",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency",
+  "question": "If your vehicle breaks down on a highway, what should you do first when you stop on the shoulder?",
+  "choices": [
+    "Get out and stand beside the vehicle",
+    "Park as far off the roadway as possible, turn on hazard lights, and stay inside with seat belt fastened if it’s safe",
+    "Open the hood and stand in front of the car",
+    "Walk along the highway to get help"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pull as far off the road as possible, switch on hazard lights, and stay inside if it’s safe until help arrives.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency situations",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original breakdown-on-highway question."
+},
+{
+  "id": "q-abs-brakes-62",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "vehicle-control",
+  "question": "In a vehicle with ABS (antilock braking system), how should you brake in an emergency stop?",
+  "choices": [
+    "Pump the brake pedal rapidly",
+    "Press the brake pedal firmly and hold it while steering",
+    "Use only the parking brake",
+    "Shift to Neutral and coast"
+  ],
+  "correctIndex": 1,
+  "explanation": "With ABS, apply firm, continuous pressure on the brake pedal and steer in the direction you want to go.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency braking (ABS)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original ABS-use question."
+},
+{
+  "id": "q-nonabs-brakes-63",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "vehicle-control",
+  "question": "In a vehicle without ABS, how should you brake on a slippery surface to avoid skidding?",
+  "choices": [
+    "Brake as hard as possible and hold",
+    "Apply and release the brakes (threshold braking) to avoid wheel lockup",
+    "Use only the parking brake",
+    "Turn off the engine while braking"
+  ],
+  "correctIndex": 1,
+  "explanation": "On slippery roads without ABS, brake just enough to slow without locking the wheels, releasing and reapplying if they start to lock.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency braking",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
+    }
+  ],
+  "notes": "Original non-ABS braking question."
+},
+{
+  "id": "q-night-meeting-64",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "visibility",
+  "question": "At night, when should you dim your high-beam headlights for an oncoming vehicle?",
+  "choices": [
+    "When you are about one block away (approximately 150 metres)",
+    "Only when the other driver flashes their lights",
+    "When the other vehicle is right in front of you",
+    "Never; high beams should stay on"
+  ],
+  "correctIndex": 0,
+  "explanation": "Dim your high beams when within about 150 metres of oncoming traffic so you don’t blind other drivers.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Night Driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original headlight-dimming question."
+},
+{
+  "id": "q-tailgater-65",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "safe-driving",
+  "question": "A vehicle is following you too closely (tailgating). What is a safe response?",
+  "choices": [
+    "Brake suddenly to warn them",
+    "Speed up to get away",
+    "Gradually slow down and increase your space in front, then change lanes when safe to let them pass",
+    "Ignore them completely"
+  ],
+  "correctIndex": 2,
+  "explanation": "Don’t brake suddenly. Increase your following distance ahead and, when safe, move to another lane or allow the tailgater to pass.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Space management)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original tailgating response question."
+},
+{
+  "id": "q-road-rage-66",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "attitude",
+  "question": "If another driver behaves aggressively or with road rage, you should:",
+  "choices": [
+    "React the same way to defend yourself",
+    "Make eye contact and gesture back",
+    "Stay calm, avoid eye contact, and give them space",
+    "Follow them to confront them"
+  ],
+  "correctIndex": 2,
+  "explanation": "Stay calm, avoid escalating, and give aggressive drivers space. Do not engage or retaliate.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Attitude)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original road-rage attitude question."
+},
+{
+  "id": "q-drugs-impairment-67",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "impairment",
+  "question": "Drugs that can impair your driving include:",
+  "choices": [
+    "Only illegal drugs",
+    "Illegal drugs, some prescription medications, and some over-the-counter drugs",
+    "Only alcohol and tobacco",
+    "Only drugs taken without food"
+  ],
+  "correctIndex": 1,
+  "explanation": "Many substances, including some prescription and over-the-counter medications, can impair your driving. Always read labels and follow medical advice.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Impaired driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
+    }
+  ],
+  "notes": "Original drug-impairment awareness question."
+},
+{
+  "id": "q-g1-accompanied-68",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "licensing",
+  "question": "A G1 driver must be accompanied by a fully licensed driver who:",
+  "choices": [
+    "Is at least 16 years old with any licence",
+    "Has at least four years of driving experience and a blood alcohol level of less than 0.05",
+    "Has a motorcycle licence only",
+    "Has a G2 licence with one year of experience"
+  ],
+  "correctIndex": 1,
+  "explanation": "G1 drivers must be accompanied by a fully licensed driver with at least four years of driving experience and a blood alcohol level under 0.05.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Graduated licensing",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
+    }
+  ],
+  "notes": "Original G1 accompanying-driver question."
+},
+{
+  "id": "q-g1-zero-bac-69",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "licensing",
+  "question": "What is the legal blood alcohol level for a G1 or G2 driver while driving?",
+  "choices": [
+    "Below the Criminal Code limit only",
+    "0.05 or under",
+    "Zero—no alcohol in the blood",
+    "Any level is acceptable with supervision"
+  ],
+  "correctIndex": 2,
+  "explanation": "Novice drivers (G1, G2) must have a blood alcohol concentration of zero while driving.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Graduated licensing & Impaired driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
+    }
+  ],
+  "notes": "Original zero-BAC requirement question."
+},
+{
+  "id": "q-g1-highway-restriction-70",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "licensing",
+  "question": "Most G1 drivers are not allowed to drive on:",
+  "choices": [
+    "Any city street",
+    "Any road with a speed limit over 60 km/h",
+    "Certain high-speed expressways such as 400-series highways, unless accompanied by an approved driving instructor in a dual-control car",
+    "Any road at night"
+  ],
+  "correctIndex": 2,
+  "explanation": "G1 drivers are restricted from certain high-speed expressways unless with an approved driving instructor in a dual-control car.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Graduated licensing restrictions",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
+    }
+  ],
+  "notes": "Original G1 expressway-restriction question."
+},
+{
+  "id": "q-seat-position-71",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "vehicle-control",
+  "question": "Before driving, how should you position your seat?",
+  "choices": [
+    "So you are far from the controls and must stretch your legs fully",
+    "So you can reach the pedals and controls comfortably with a slight bend in your arms and legs",
+    "As close to the steering wheel as possible",
+    "Reclined far back to be relaxed"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sit close enough to reach the pedals and controls comfortably with a slight bend in your arms and legs for good control.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Getting ready to drive (Seating position)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
+    }
+  ],
+  "notes": "Original seating-position question."
+},
+{
+  "id": "q-mirror-adjust-72",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "vehicle-control",
+  "question": "When should you adjust your mirrors?",
+  "choices": [
+    "While driving at highway speed",
+    "Before you start driving, when the vehicle is stopped",
+    "Only at night",
+    "Only if they are dirty"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adjust mirrors before driving so you have a clear view behind and to the sides.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Getting ready to drive (Mirrors)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
+    }
+  ],
+  "notes": "Original mirror-setup question."
+},
+{
+  "id": "q-hydroplaning-prevent-73",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "hazards",
+  "question": "Which action helps reduce the risk of hydroplaning?",
+  "choices": [
+    "Driving faster in the rain",
+    "Using worn tires",
+    "Reducing speed on wet roads and ensuring tires are in good condition",
+    "Coasting in Neutral"
+  ],
+  "correctIndex": 2,
+  "explanation": "Slowing down in wet conditions and having good tires with proper tread helps prevent hydroplaning.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+    }
+  ],
+  "notes": "Original hydroplaning-prevention question."
+},
+{
+  "id": "q-driver-distraction-74",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "distraction",
+  "question": "Which of the following is an example of a dangerous distraction while driving?",
+  "choices": [
+    "Checking mirrors regularly",
+    "Scanning the road ahead",
+    "Texting or using a handheld phone",
+    "Adjusting your seat before driving"
+  ],
+  "correctIndex": 2,
+  "explanation": "Using a handheld phone or texting while driving is a dangerous distraction and is illegal in Ontario.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Distracted driving",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+    }
+  ],
+  "notes": "Original distraction-awareness question."
+},
+{
+  "id": "q-approaching-pedestrian-75",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "pedestrians",
+  "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
+  "choices": [
+    "Speed up to pass before they step out",
+    "Be prepared to yield and allow the pedestrian to cross safely",
+    "Ignore them because there is no traffic light",
+    "Honk to discourage them from crossing"
+  ],
+  "correctIndex": 1,
+  "explanation": "Be prepared to yield to pedestrians at crosswalks and allow them to cross safely.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Pedestrian safety",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+    }
+  ],
+  "notes": "Original uncontrolled-crosswalk question."
+},
+{
+  "id": "q-school-bus-yellow-lights-76",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "sharing-the-road",
+  "question": "A school bus ahead of you activates its upper flashing amber (yellow) lights. What does this mean?",
+  "choices": [
+    "You must stop immediately",
+    "The bus is about to stop to load or unload children; be prepared to stop",
+    "You may pass at full speed",
+    "The bus is out of service"
+  ],
+  "correctIndex": 1,
+  "explanation": "Flashing amber lights mean the bus is preparing to stop. Slow down and be ready to stop when the red lights come on.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — School buses",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+    }
+  ],
+  "notes": "Original amber-light school-bus question."
+},
+{
+  "id": "q-sign-keep-right-island-77",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "A rectangular sign with an arrow curving around a traffic island and the words 'KEEP RIGHT' means:",
+  "choices": [
+    "You may pass on either side",
+    "Traffic must keep to the right of the island or obstruction",
+    "Left turns only",
+    "Right turn prohibited"
+  ],
+  "correctIndex": 1,
+  "explanation": "The sign means you must keep right of the traffic island or obstruction.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Regulatory signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "notes": "Original keep-right sign question."
+},
+{
+  "id": "q-sign-winding-road-78",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "A yellow diamond sign showing a winding arrow means:",
+  "choices": [
+    "Road ahead is straight",
+    "Road ahead has a series of curves; reduce speed and drive with caution",
+    "Only one sharp curve ahead",
+    "Paved shoulder ahead"
+  ],
+  "correctIndex": 1,
+  "explanation": "A winding road sign warns of several curves ahead. Slow down and be prepared for changing direction.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-sign-narrow-bridge-79",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "A yellow diamond sign showing a narrowing shape means:",
+  "choices": [
+    "Wide bridge ahead",
+    "Road narrows or narrow bridge ahead; be prepared to slow and use caution",
+    "Road widens ahead",
+    "Divided highway begins"
+  ],
+  "correctIndex": 1,
+  "explanation": "A road narrows or narrow-bridge warning sign means lanes may become narrower; reduce speed and pass with care.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "notes": "Original road-narrows sign question."
+},
+{
+  "id": "q-sign-divided-highway-80",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "A yellow diamond sign showing one line splitting around a centre shape means:",
+  "choices": [
+    "Two-way traffic ahead",
+    "Divided highway begins; keep to the right of the median",
+    "Divided highway ends",
+    "Passing allowed in both directions"
+  ],
+  "correctIndex": 1,
+  "explanation": "The sign warns that a divided highway begins and you must keep to the right of the median or barrier.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "notes": "Original divided-highway sign question."
+}
 ]
