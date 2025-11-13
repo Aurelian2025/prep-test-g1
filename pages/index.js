@@ -76,6 +76,20 @@ const startLast40 = () => {
   setCorrectCount(0);
 };
 
+// Practice questions 81–120 (will work once we add them)
+const start81to120 = () => {
+  setQuestions(prev => shuffleAll(prev));
+  if (questions && questions.length >= 81) {
+    // index 80 = question 81
+    setCurrent(80);
+  } else {
+    // fallback for now (until we add more questions)
+    setCurrent(0);
+  }
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
 
   const select = (idx) => {
     if (!done) setPicked(idx);
@@ -116,7 +130,11 @@ const startLast40 = () => {
   <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
     Start 41–80
   </button>
+  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
+    Start 81–120
+  </button>
 </div>
+
 
           <p style={styles.p}>Loading question…</p>
         </div>
@@ -143,7 +161,11 @@ const startLast40 = () => {
   <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
     Start 41–80
   </button>
+  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
+    Start 81–120
+  </button>
 </div>
+
 
 
           <p style={styles.p}>No questions available.</p>
@@ -176,7 +198,11 @@ const startLast40 = () => {
   <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
     Start 41–80
   </button>
+  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
+    Start 81–120
+  </button>
 </div>
+
 
 
         <div style={{ marginTop: 16 }}>
