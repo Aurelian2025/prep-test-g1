@@ -2115,5 +2115,119 @@
     ],
     "image": "/signs/deer-crossing.jpg",
     "notes": "Original deer-crossing question aligned to Ontario warning signs."
+  },   {
+    "id": "q-divided-highway-begins-96",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign on a rural road. What does it mean?",
+    "choices": [
+      "A divided highway begins ahead; keep to the right of the median",
+      "A divided highway ends ahead; lanes will merge",
+      "Two-way traffic becomes one-way",
+      "Passing is now allowed in both directions"
+    ],
+    "correctIndex": 0,
+    "explanation": "This warning sign shows one line splitting around a centre shape, telling you that a divided highway is beginning and you must keep to the right of the median.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway-begins question: not copied from other practice tests."
+  },
+  {
+    "id": "q-divided-highway-ends-97",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "What does this sign tell you about the road ahead?",
+    "choices": [
+      "The divided highway is ending and opposing traffic will be closer",
+      "A divided highway is starting",
+      "The road will become one-way",
+      "The shoulder is closing ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "This sign shows two lines coming together from around a centre shape, meaning the divided highway is ending and oncoming traffic will no longer be separated by a median.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+  },
+  {
+    "id": "q-narrow-bridge-98",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign before a bridge. What should you expect?",
+    "choices": [
+      "A narrow bridge where the lanes or shoulders are reduced",
+      "A wide multi-lane bridge",
+      "A drawbridge that opens for boats",
+      "A bridge with no traffic allowed"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrowing shape on the sign warns that the bridge ahead may be narrower than the roadway, so you should slow down and be prepared to meet oncoming traffic safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original question using your narrow-bridge sign image."
+  },
+  {
+    "id": "q-road-narrows-99",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "This sign is posted before a section of roadway. What does it mean?",
+    "choices": [
+      "The road ahead becomes narrower",
+      "The road ahead becomes wider",
+      "One-way street ahead",
+      "Only trucks may use the road ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "The narrowing lines on the warning sign indicate that the roadway is going to become narrower, so you should reduce speed and pass oncoming vehicles with extra care.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Original road-narrows question for Prep Test G1."
+  },
+  {
+    "id": "q-road-ends-100",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign as you approach the end of a street. What does it mean?",
+    "choices": [
+      "The road ends ahead; you must turn or stop",
+      "Freeway entrance ahead",
+      "Dead-end but through traffic allowed",
+      "The pavement changes from asphalt to gravel only"
+    ],
+    "correctIndex": 0,
+    "explanation": "A road-ends warning sign tells you that the through road will end. You must slow down and be prepared to stop or turn at the end of the road as indicated.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Original road-ends interpretation question."
   }
 ]
