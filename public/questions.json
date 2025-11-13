@@ -1887,5 +1887,119 @@
     ],
     "image": "/signs/no-snowmobiles.jpg",
     "notes": "Original no-snowmobiles question for your sign set."
+  },   {
+    "id": "q-no-right-turn-86",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You see this sign at an intersection. What does it mean?",
+    "choices": [
+      "Right turns are not allowed at this intersection",
+      "Right turns are allowed only on green",
+      "You must turn right at the intersection",
+      "Right lane ends ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "A black right-turn arrow inside a red circle with a diagonal slash is a regulatory sign meaning right turns are prohibited where the sign applies.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-87",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this sign tell drivers about U-turns?",
+    "choices": [
+      "U-turns are not allowed",
+      "U-turns are allowed only at night",
+      "U-turns are allowed if no traffic is coming",
+      "U-turns are required at the next intersection"
+    ],
+    "correctIndex": 0,
+    "explanation": "The curved U-shaped arrow with a red circle and slash is a regulatory sign meaning U-turns are prohibited where the sign applies.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-no-crossing-88",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "This sign is posted near a railway track and a path. What does it mean?",
+    "choices": [
+      "Crossing is not permitted at this location",
+      "Pedestrians must cross quickly",
+      "Railway crossing ahead",
+      "School crossing ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "The person walking symbol with a red circle and slash means pedestrians are not allowed to cross at that specific location.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory and railway signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question using your no-crossing sign artwork."
+  },
+  {
+    "id": "q-no-entry-89",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this DO NOT ENTER–style sign mean for drivers approaching it?",
+    "choices": [
+      "You must not enter this roadway from this direction",
+      "Right turns only are allowed",
+      "This is a one-way street in your direction",
+      "Road is open only to local traffic"
+    ],
+    "correctIndex": 0,
+    "explanation": "The white bar on a red circle is used to indicate that the road or lane is closed to traffic from your direction — do not enter.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Do not enter / Wrong way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-entry.jpg",
+    "notes": "Original no-entry interpretation for Ontario-style signage."
+  },
+  {
+    "id": "q-no-left-turn-90",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You approach an intersection and see this sign. What must you do?",
+    "choices": [
+      "Avoid making a left turn at this intersection",
+      "Turn left only on a green arrow",
+      "Make a left turn from the right lane only",
+      "Stop, then turn left if clear"
+    ],
+    "correctIndex": 0,
+    "explanation": "A left-turn arrow inside a red circle with a diagonal slash is a regulatory sign meaning no left turns are allowed where the sign applies.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No left turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-left-turn.jpg",
+    "notes": "Original no-left-turn scenario for Prep Test G1."
   }
 ]
