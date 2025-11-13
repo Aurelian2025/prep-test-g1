@@ -1780,7 +1780,7 @@
     "category": "signs-regulatory",
     "question": "What does this speed limit sign mean?",
     "choices": [
-      "The maximum permitted speed is 40 km/h in good conditions",
+      "The maximum permitted speed is 40 km/h",
       "You must drive exactly 40 km/h at all times",
       "The minimum speed is 40 km/h",
       "The speed limit will change to 40 km/h in 40 metres"
@@ -1849,7 +1849,7 @@
     "category": "signs-regulatory",
     "question": "This sign is posted at the entrance to a roadway. What does it mean?",
     "choices": [
-      "No pedestrians are allowed beyond this point",
+      "No pedestrians are allowed to cross",
       "Pedestrians must cross only at this sign",
       "Pedestrian crosswalk ahead",
       "Pedestrians have the right-of-way"
