@@ -1773,5 +1773,119 @@
     }
   ],
   "notes": "Original divided-highway sign question."
-}
+},   {
+    "id": "q-max-speed-40-81",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this speed limit sign mean?",
+    "choices": [
+      "The maximum permitted speed is 40 km/h in good conditions",
+      "You must drive exactly 40 km/h at all times",
+      "The minimum speed is 40 km/h",
+      "The speed limit will change to 40 km/h in 40 metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "A white rectangular sign with black numbers shows the maximum legal speed in kilometres per hour under ideal driving conditions.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-82",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You see this sign at the entrance to a roadway. What does it mean?",
+    "choices": [
+      "Bicycles are not allowed on this road",
+      "Cyclists must ride on the sidewalk",
+      "A bicycle lane begins here",
+      "Bicycles have the right-of-way"
+    ],
+    "correctIndex": 0,
+    "explanation": "A bicycle symbol inside a red circle with a slash means bicycles are prohibited on that road or area.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-83",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this sign tell drivers about parking?",
+    "choices": [
+      "Parking is not allowed where the sign applies",
+      "Parking is allowed only for 10 minutes",
+      "Parking is allowed at night only",
+      "Stopping is not allowed at any time"
+    ],
+    "correctIndex": 0,
+    "explanation": "The red circle with a slash through the letter P is a regulatory sign meaning no parking in the area or between the arrows indicated.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-84",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "This sign is posted at the entrance to a roadway. What does it mean?",
+    "choices": [
+      "No pedestrians are allowed beyond this point",
+      "Pedestrians must cross only at this sign",
+      "Pedestrian crosswalk ahead",
+      "Pedestrians have the right-of-way"
+    ],
+    "correctIndex": 0,
+    "explanation": "A walking-person symbol in a red circle with a slash means pedestrians are prohibited in that area.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-85",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You see this sign on a winter trail entrance. What does it mean?",
+    "choices": [
+      "Snowmobiles are not allowed past this sign",
+      "Snowmobiles must reduce speed",
+      "Snowmobile trail begins",
+      "Snowmobiles have priority over other vehicles"
+    ],
+    "correctIndex": 0,
+    "explanation": "A snowmobile symbol inside a red circle with a slash means snowmobiles are prohibited beyond that sign.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  }
 ]
