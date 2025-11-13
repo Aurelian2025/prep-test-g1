@@ -2001,5 +2001,119 @@
     ],
     "image": "/signs/no-left-turn.jpg",
     "notes": "Original no-left-turn scenario for Prep Test G1."
+  },   {
+    "id": "q-ped-crossing-91",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign while driving on a city street. What does it mean?",
+    "choices": [
+      "Pedestrian crossing ahead",
+      "No pedestrians beyond this point",
+      "School zone only",
+      "Pedestrians must yield to vehicles"
+    ],
+    "correctIndex": 0,
+    "explanation": "A yellow diamond sign with a walking person indicates a pedestrian crossing area. Be ready to slow down or stop for people crossing the road.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Warning signs (Pedestrian crossing)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/pedestrian-crossing.jpg",
+    "notes": "Original pedestrian-crossing question using your sign artwork."
+  },
+  {
+    "id": "q-bike-lane-92",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this bicycle sign beside the road indicate?",
+    "choices": [
+      "This lane or part of the road is reserved for bicycles",
+      "Bicycles are prohibited on this road",
+      "Cyclists must walk their bikes",
+      "Bicycles must yield to parked cars"
+    ],
+    "correctIndex": 0,
+    "explanation": "A bike symbol on a lane or sign is used to mark a designated bicycle lane or route. Drivers must not block or drive in the bicycle lane except where permitted.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists & traffic signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/bike-lane.jpg",
+    "notes": "Original bike-lane meaning question for Prep Test G1."
+  },
+  {
+    "id": "q-bump-warning-93",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "This yellow sign appears before a section of road. What is it warning you about?",
+    "choices": [
+      "A bump or rise in the road surface",
+      "A bridge with no railing",
+      "Loose gravel on the shoulder",
+      "A railway crossing without gates"
+    ],
+    "correctIndex": 0,
+    "explanation": "A yellow diamond sign with the word BUMP or a bump symbol warns of a sudden rise or dip in the road so you can slow down and avoid losing control.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Warning signs (Bump / uneven pavement)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/bump-sign.jpg",
+    "notes": "Original bump-warning scenario, not copied from other practice tests."
+  },
+  {
+    "id": "q-construction-ahead-94",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-temporary",
+    "question": "This orange sign appears on the side of the road. What should you expect?",
+    "choices": [
+      "Road work or construction zone ahead",
+      "Paved shoulder ahead",
+      "Parking area ahead",
+      "End of all speed limits"
+    ],
+    "correctIndex": 0,
+    "explanation": "Orange construction signs warn that you are entering or approaching a work zone. You must slow down, watch for workers and equipment, and obey posted signs.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary conditions signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/construction-ahead.jpg",
+    "notes": "Original construction-ahead question for your sign set."
+  },
+  {
+    "id": "q-deer-crossing-95",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this animal symbol sign on a rural highway. What does it warn you about?",
+    "choices": [
+      "Deer may be crossing the road in this area",
+      "Farm animals are fenced and cannot cross",
+      "Zoo entrance ahead",
+      "Hunting is allowed on the roadway"
+    ],
+    "correctIndex": 0,
+    "explanation": "A deer symbol on a yellow warning sign means deer are commonly found in the area and may suddenly cross the road. Slow down and be prepared to stop.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Animals)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/deer-crossing.jpg",
+    "notes": "Original deer-crossing question aligned to Ontario warning signs."
   }
 ]
