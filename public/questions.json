@@ -2229,5 +2229,464 @@
     ],
     "image": "/signs/road-ends.jpg",
     "notes": "Original road-ends interpretation question."
+  },   {
+    "id": "q-railway-approach-101",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this railway crossing sign ahead on a two-lane road with no gates. What should you do?",
+    "choices": [
+      "Slow down, look and listen for trains, and be prepared to stop if needed",
+      "Speed up to cross the tracks as quickly as possible",
+      "Stop on the tracks and look both ways",
+      "Ignore the sign if the lights are not flashing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Railway warning signs mean you must slow down, look and listen in both directions, and be prepared to stop if a train is approaching. Never stop on the tracks.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "New scenario about approaching a railway crossing without gates."
+  },
+  {
+    "id": "q-road-closed-ahead-102",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-temporary",
+    "question": "This orange sign appears on a detour route. What does it tell you about the road ahead?",
+    "choices": [
+      "The road ahead will be completely closed to traffic",
+      "Only trucks are allowed ahead",
+      "The shoulder is closed but lanes are open",
+      "The road is closing only at night"
+    ],
+    "correctIndex": 0,
+    "explanation": "An orange ROAD CLOSED AHEAD warning sign means that the road will not be passable further along. You must be ready to follow the posted detour or turn around.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed-ahead.jpg",
+    "notes": "Different from earlier construction question: focuses on full closure ahead."
+  },
+  {
+    "id": "q-road-closed-now-103",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-temporary",
+    "question": "You reach this ROAD CLOSED sign across the lane. What must you do?",
+    "choices": [
+      "Do not drive past the sign; you must not continue on this road",
+      "Drive carefully around the sign if no workers are present",
+      "Proceed slowly but stay on the shoulder",
+      "Use your hazard lights and continue through"
+    ],
+    "correctIndex": 0,
+    "explanation": "A ROAD CLOSED sign across the lane means the road is closed to all through traffic at that point. You must not drive beyond it and should follow any posted detour.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones (Road closed signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed.jpg",
+    "notes": "Second road-closed question, focusing on what to do at the closure itself."
+  },
+  {
+    "id": "q-roundabout-yield-104",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this roundabout sign ahead. What is the correct way to enter the roundabout?",
+    "choices": [
+      "Slow down, yield to traffic already in the roundabout, and enter when there is a safe gap",
+      "Drive straight in without slowing down",
+      "Stop in the roundabout to choose your exit",
+      "Enter without signaling and stop in the middle"
+    ],
+    "correctIndex": 0,
+    "explanation": "The roundabout warning sign means a circular intersection is ahead. You must reduce speed, yield to traffic already in the roundabout, and enter only when it is safe.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "New roundabout question focusing on yielding on entry."
+  },
+  {
+    "id": "q-school-bus-red-lights-105",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "On a two-lane road with no median, a school bus ahead shows this sign and starts flashing red lights. What must you do?",
+    "choices": [
+      "Stop in your lane, whether you are behind or approaching the bus",
+      "Pass the bus slowly if no children are visible",
+      "Stop only if you are directly behind the bus",
+      "Sound your horn and proceed with caution"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a school bus turns on its upper flashing red lights, drivers in both directions on an undivided road must stop and remain stopped until the lights stop flashing and the bus moves again.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — School buses",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/school-bus-red-lights.jpg",
+    "notes": "New school-bus question describing the undivided two-lane situation."
+  },
+  {
+    "id": "q-sharp-curve-left-speed-106",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sharp left curve warning sign with an advisory speed plate under it. How should you drive?",
+    "choices": [
+      "Slow down to about the advisory speed and steer smoothly through the curve",
+      "Maintain your current speed and brake hard in the middle of the curve",
+      "Accelerate into the curve to stay in your lane",
+      "Drive on the shoulder to avoid the curve"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sharp curve signs often come with an advisory speed. Slow to about that speed before the curve and steer smoothly to maintain control.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Curves and turns)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/sharp-curve-left.jpg",
+    "notes": "Different from earlier curve question: emphasizes advisory speed use."
+  },
+  {
+    "id": "q-sharp-curve-right-passing-107",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "As you approach this sharp right curve sign on a two-lane road, what is the safest approach to passing?",
+    "choices": [
+      "Do not pass other vehicles in or near the sharp curve",
+      "Pass other vehicles quickly in the middle of the curve",
+      "Pass if you cannot see oncoming traffic",
+      "Passing is allowed at any speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sharp curves limit your sight line. You should not pass other vehicles approaching or within a sharp curve because you may not see oncoming traffic in time.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe passing and curves",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/sharp-curve-right.jpg",
+    "notes": "Original passing-rule question using the sharp-curve-right sign."
+  },
+  {
+    "id": "q-slippery-when-wet-technique-108",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "It has started raining and you see this sign. How should you respond?",
+    "choices": [
+      "Reduce speed, avoid sudden braking, and steer gently",
+      "Use cruise control to keep a steady speed",
+      "Brake sharply to test road grip",
+      "Speed up to get through the slippery area faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "A slippery-when-wet sign means the surface may be slick in rain. Slow down, avoid sudden movements and hard braking, and keep extra space from other vehicles.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/slippery-when-wet.jpg",
+    "notes": "New question focusing on driving technique on slippery roads."
+  },
+  {
+    "id": "q-speed-limit-80-109",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You see this sign on a dry, clear highway. What does it tell you about your speed?",
+    "choices": [
+      "You must not drive faster than 80 km/h, but you may drive slower if conditions require",
+      "You must drive exactly 80 km/h",
+      "You must drive at least 80 km/h at all times",
+      "The speed limit applies only to trucks"
+    ],
+    "correctIndex": 0,
+    "explanation": "A black number on a white rectangular sign is the maximum legal speed. You may need to drive slower than 80 km/h if traffic, weather or road conditions are not ideal.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Speed limits",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Second speed-limit-80 question, emphasizing that it is a maximum, not a target."
+  },
+  {
+    "id": "q-steep-hill-downgrade-110",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign before a long downhill grade. What should you do?",
+    "choices": [
+      "Slow down and use a lower gear to help control your speed",
+      "Turn off your engine to save fuel",
+      "Coast in Neutral to go down faster",
+      "Shift into a high gear and brake only at the bottom"
+    ],
+    "correctIndex": 0,
+    "explanation": "A steep hill warning sign means you should reduce speed, shift to a lower gear, and avoid riding your brakes so they do not overheat on the downgrade.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Hills) & downhill driving",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/steep-hill-downgrade.jpg",
+    "notes": "Original hill-driving technique question."
+  },
+  {
+    "id": "q-stop-sign-where-to-stop-111",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "At this STOP sign with a marked stop line, where must you stop?",
+    "choices": [
+      "Just before the stop line or crosswalk",
+      "In the middle of the intersection",
+      "Halfway into the crosswalk",
+      "Anywhere as long as you pause briefly"
+    ],
+    "correctIndex": 0,
+    "explanation": "At a stop sign, you must come to a complete stop at the stop line, before the crosswalk, or before entering the intersection, whichever comes first.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Stop signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/stop-sign.jpg",
+    "notes": "New stop-sign question focusing on exactly where to stop."
+  },
+  {
+    "id": "q-traffic-signal-ahead-112",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this sign while driving on a high-speed road. What does it warn you about?",
+    "choices": [
+      "A traffic signal is coming up; be ready to slow down or stop",
+      "A railway crossing is directly ahead",
+      "A four-way stop with no lights",
+      "The road ends in a cul-de-sac"
+    ],
+    "correctIndex": 0,
+    "explanation": "The traffic-signal-ahead warning sign alerts you to a signalized intersection ahead so you can prepare to reduce speed or stop if the light changes.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Traffic lights ahead)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/traffic-signal-ahead.jpg",
+    "notes": "Original question emphasizing preparation to slow or stop."
+  },
+  {
+    "id": "q-accessible-parking-113",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-information",
+    "question": "You see this sign in a parking lot. What does it mean?",
+    "choices": [
+      "The space is reserved for vehicles displaying an accessible parking permit",
+      "Parking is free for everyone",
+      "Parking is for motorcycles only",
+      "You may park here only at night"
+    ],
+    "correctIndex": 0,
+    "explanation": "The wheelchair symbol marks accessible parking. Only vehicles with a valid accessible parking permit may park in these spaces.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking and accessible spaces",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": "/signs/wheelchair-accessible.jpg",
+    "notes": "Original accessible-parking meaning question."
+  },
+  {
+    "id": "q-winding-road-114",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "This sign appears before a series of bends in the road. How should you drive?",
+    "choices": [
+      "Reduce speed and be prepared for several curves in a row",
+      "Keep your current speed and brake only in the middle of each curve",
+      "Drive on the centre line to straighten the road",
+      "Stop before each curve and look both ways"
+    ],
+    "correctIndex": 0,
+    "explanation": "A winding road warning sign tells you there are several curves ahead. You should slow down and drive smoothly through each curve, staying in your lane.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Winding road)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/winding-road.jpg",
+    "notes": "New winding-road question focused on driving technique."
+  },
+  {
+    "id": "q-yield-sign-115",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "When you approach this YIELD sign and traffic is present on the main road, what must you do?",
+    "choices": [
+      "Slow down and stop if necessary to let cross traffic go first",
+      "Drive through at normal speed",
+      "Stop even if the way is clear",
+      "Force your way into traffic because you have priority"
+    ],
+    "correctIndex": 0,
+    "explanation": "A yield sign means you must give the right-of-way to traffic on the main road. Slow down, be prepared to stop, and proceed only when there is a safe gap.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yield signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Second yield-sign question, emphasizing that stopping is required only if needed."
+  },
+  {
+    "id": "q-do-not-enter-116",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "You see this DO NOT ENTER sign at the start of a lane. What does it tell you?",
+    "choices": [
+      "You must not enter; the lane is for traffic coming toward you",
+      "You may enter only to turn left",
+      "The lane is reserved for buses only",
+      "You may enter if you turn on your hazard lights"
+    ],
+    "correctIndex": 0,
+    "explanation": "A DO NOT ENTER sign means the lane or roadway is for oncoming traffic. You must not drive into it from your direction.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Do not enter)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/do-not-enter.jpg",
+    "notes": "Different from the no-entry question; focuses on wrong-way one-way situations."
+  },
+  {
+    "id": "q-bike-lane-turn-117",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "When this bicycle lane sign and markings appear on the right and you need to turn right at the next intersection, what should you do?",
+    "choices": [
+      "Check for cyclists, signal right, then carefully enter the bike lane near the intersection to turn",
+      "Turn right without signaling because cyclists must yield",
+      "Drive in the bike lane for a long distance before turning",
+      "Never cross the bike lane, even to turn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Where there is a bike lane at the curb, you must check for cyclists, signal, and carefully move across it near the intersection to complete a right turn when safe.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/bike-lane.jpg",
+    "notes": "Second bike-lane question, focusing on turning right across the lane."
+  },
+  {
+    "id": "q-ped-crossing-waiting-118",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "You see this pedestrian crossing sign and a person waiting at the edge of the crosswalk. What should you do?",
+    "choices": [
+      "Slow down and be prepared to stop to let the pedestrian cross safely",
+      "Speed up to pass before the pedestrian starts crossing",
+      "Honk to tell the pedestrian to wait",
+      "Ignore the pedestrian because there are no traffic lights"
+    ],
+    "correctIndex": 0,
+    "explanation": "At a pedestrian crossing, you must be ready to stop and allow waiting pedestrians to cross safely before you proceed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Pedestrian safety and crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+      }
+    ],
+    "image": "/signs/pedestrian-crossing.jpg",
+    "notes": "Second pedestrian-crossing question, now focusing on a waiting pedestrian."
+  },
+  {
+    "id": "q-railway-no-gates-119",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "At this railway crossing sign with no gates or lights, and no train in sight, what is the safest action?",
+    "choices": [
+      "Slow down, look both ways, listen, and cross only when you are sure no train is coming",
+      "Drive through at full speed if the road looks clear",
+      "Stop on the tracks to look for trains",
+      "Use your horn instead of slowing down"
+    ],
+    "correctIndex": 0,
+    "explanation": "At uncontrolled railway crossings, you must approach slowly, look and listen carefully in both directions, and cross only when it is clearly safe.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings (Uncontrolled crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "Second railway-crossing question, focusing on crossings with no gates or lights."
+  },
+  {
+    "id": "q-winding-road-night-120",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "At night, you see this winding road sign and do not know the road. What is the best driving strategy?",
+    "choices": [
+      "Reduce your speed, use low beams when approaching other traffic, and drive cautiously through each curve",
+      "Use high beams continuously and drive at the speed limit",
+      "Drive in the centre of the road to straighten the curves",
+      "Speed up to finish the winding section quickly"
+    ],
+    "correctIndex": 0,
+    "explanation": "On an unfamiliar winding road at night, you should slow down, adjust headlights appropriately, and take each curve carefully to maintain control.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Night driving and curves",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/winding-road.jpg",
+    "notes": "Second winding-road question, focused on night driving strategy."
   }
 ]
