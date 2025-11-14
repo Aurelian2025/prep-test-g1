@@ -70,6 +70,14 @@ const styles = {
     width: 'auto',
     height: 'auto'
   },
+  promptArea: {
+    minHeight: 220, // you can tweak this number later
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    marginBottom: 8
+   },
+  
     choiceBtn: (idx, picked, correctIndex, done) => {
     let border = '#d0d0ff';
     let background = '#f8f8ff';
@@ -335,13 +343,15 @@ export default function PrepTestG1() {
             <span>Correct: {correctCount}</span>
           </div>
 
-          {q.image && (
-            <div style={styles.imgWrap}>
-              <img src={q.image} alt="Road sign" style={styles.img} />
-            </div>
-          )}
+    <div style={styles.promptArea}>
+  {q.image && (
+    <div style={styles.imgWrap}>
+      <img src={q.image} alt="Road sign" style={styles.img} />
+    </div>
+  )}
 
-          <div style={styles.questionText}>{q.question}</div>
+  <div style={styles.questionText}>{q.question}</div>
+</div>
 
           <ul style={styles.choices}>
             {q.choices.map((choice, idx) => (
