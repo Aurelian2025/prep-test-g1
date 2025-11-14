@@ -2688,5 +2688,924 @@
     ],
     "image": "/signs/winding-road.jpg",
     "notes": "Second winding-road question, focused on night driving strategy."
+  },   {
+    "id": "q-demerit-speed-20over-121",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You see this speed limit sign and drive 20 km/h over the posted limit. What can happen to your driving record?",
+    "choices": [
+      "You can receive demerit points and a fine",
+      "Nothing, because everyone speeds a little",
+      "Only a warning with no demerit points",
+      "Your licence is immediately cancelled"
+    ],
+    "correctIndex": 0,
+    "explanation": "Driving more than the posted speed limit can result in demerit points and a fine. The more you exceed the limit, the more serious the penalties become.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Speed limits and demerit points for speeding offences",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original speeding question that links a typical speed limit sign with demerit points."
+  },
+  {
+    "id": "q-demerit-school-bus-122",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "On a two-lane road, this school bus has stopped with its red lights flashing and stop arm out. You pass it without stopping. How does this affect your driving record?",
+    "choices": [
+      "You can receive a large fine and several demerit points",
+      "You receive only a parking ticket with no points",
+      "There are no penalties if children are not visible",
+      "You lose your licence automatically for life"
+    ],
+    "correctIndex": 0,
+    "explanation": "Failing to stop for a school bus with flashing red lights is a serious offence. It carries a high fine and demerit points because it puts children at risk.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — School buses and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/school-bus-red-lights.jpg",
+    "notes": "New scenario showing how school bus violations lead to demerit points."
+  },
+  {
+    "id": "q-demerit-stop-sign-123",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You roll through this STOP sign without coming to a complete stop. How can that affect you?",
+    "choices": [
+      "You may receive demerit points for failing to obey the stop sign",
+      "You get a warning only and no record",
+      "You only lose demerit points if it is at night",
+      "Demerit points apply only to traffic lights, not stop signs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Failing to stop at a stop sign is a traffic offence. A conviction can result in demerit points and may increase insurance costs.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Demerit points for failing to obey signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": "/signs/stop-sign.jpg",
+    "notes": "Original question linking complete stops at stop signs with demerit points."
+  },
+  {
+    "id": "q-demerit-red-light-124",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You drive through a red traffic light after it has already turned red. What is the effect on your driving record?",
+    "choices": [
+      "You can receive demerit points for disobeying a traffic signal",
+      "You only receive a parking ticket",
+      "You receive no demerit points if no collision happens",
+      "You always lose your licence immediately"
+    ],
+    "correctIndex": 0,
+    "explanation": "Running a red light is a serious offence. A conviction results in demerit points and a fine, even if there is no collision.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic lights and demerit point system",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": "/signs/traffic-signal-ahead.jpg",
+    "notes": "Uses the traffic-signal-ahead sign to discuss red-light demerit points."
+  },
+  {
+    "id": "q-demerit-careless-driving-125",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A driver weaves through traffic at high speed, following too closely and cutting others off. What type of offence can this be and how does it affect demerit points?",
+    "choices": [
+      "It may be considered careless driving and carries a high number of demerit points",
+      "It is only poor manners and has no penalties",
+      "It always results in immediate licence cancellation with no points",
+      "It is treated the same as legal passing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Careless driving means driving without due care and attention or consideration for others. It is a serious offence with significant fines and demerit points.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Careless driving and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": null,
+    "notes": "Pure demerit question about careless driving, no specific sign."
+  },
+  {
+    "id": "q-demerit-follow-too-closely-126",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "Repeatedly following other vehicles too closely (tailgating) can lead to which consequence?",
+    "choices": [
+      "Demerit points for following too closely",
+      "Only a requirement to honk more often",
+      "No penalty as long as you do not collide",
+      "More fuel-efficient driving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Following too closely reduces your time to react and is an offence. A conviction can result in demerit points and a fine.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe following distance and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Original demerit question about tailgating."
+  },
+  {
+    "id": "q-demerit-handheld-127",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "While driving, you hold a phone in your hand to read a message. What can happen if you are caught?",
+    "choices": [
+      "You may receive fines and demerit points for using a hand-held device",
+      "You receive no penalty if you do not send a reply",
+      "Only passengers receive demerit points",
+      "Demerit points apply only to speeding, not phones"
+    ],
+    "correctIndex": 0,
+    "explanation": "Using a hand-held communication device while driving is prohibited. Convictions carry demerit points, fines and possible licence suspensions for repeat offences.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Distracted driving penalties",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": null,
+    "notes": "New demerit question on distracted driving."
+  },
+  {
+    "id": "q-demerit-fail-yield-ped-128",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You see this pedestrian sign and a person is clearly in the crosswalk. You do not slow down or yield. What can happen?",
+    "choices": [
+      "You can receive demerit points and a fine for failing to yield to a pedestrian",
+      "There are no penalties if the pedestrian jumps out of the way",
+      "Only the pedestrian is fined for crossing",
+      "You receive only demerit points but no fine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers must yield to pedestrians in marked crosswalks and at many crossings. Failing to yield is an offence that can result in demerit points and a fine.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Pedestrian safety and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+      }
+    ],
+    "image": "/signs/pedestrian-crossing.jpg",
+    "notes": "Uses the pedestrian crossing sign to highlight demerit penalties for not yielding."
+  },
+  {
+    "id": "q-demerit-fail-remain-129",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You are involved in a minor collision and drive away without stopping to give your information. How is this treated?",
+    "choices": [
+      "Failing to remain at the scene is a serious offence with many demerit points",
+      "You do not need to stop if the collision is minor",
+      "It is only a parking violation",
+      "It is allowed as long as you call later"
+    ],
+    "correctIndex": 0,
+    "explanation": "Failing to remain at a collision scene is a serious offence. A conviction can lead to a high number of demerit points, large fines and possible suspension.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Collision reporting and failing to remain",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/after-collision"
+      }
+    ],
+    "image": null,
+    "notes": "Original failing-to-remain demerit question."
+  },
+  {
+    "id": "q-demerit-seatbelts-130",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A driver is not wearing a seatbelt and also allows a child passenger to ride without one. What is the impact on the driver's record?",
+    "choices": [
+      "The driver can receive demerit points for seatbelt-related offences",
+      "Only the child receives demerit points",
+      "Seatbelt offences never involve demerit points",
+      "Seatbelts are optional on short trips so there is no penalty"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers are responsible for ensuring they and their passengers meet seatbelt requirements. Certain seatbelt offences carry demerit points and fines.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Seatbelts and child safety restraints",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/seatbelts"
+      }
+    ],
+    "image": null,
+    "notes": "New question tying seatbelt misuse to demerit points."
+  },
+  {
+    "id": "q-demerit-fail-yield-sign-131",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "You approach this YIELD sign but force your way into traffic, making others brake hard. How can that affect your record?",
+    "choices": [
+      "You may receive demerit points for failing to yield the right-of-way",
+      "There are no penalties if no collision occurs",
+      "Yield signs are optional and never carry points",
+      "Demerit points apply only when a police cruiser is present"
+    ],
+    "correctIndex": 0,
+    "explanation": "At a yield sign you must give the right-of-way. Failing to yield is an offence and can result in demerit points.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Yield signs and demerit point system",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Demerit-focused question using the yield sign."
+  },
+  {
+    "id": "q-demerit-improper-passing-132",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A driver passes another vehicle where it is unsafe and crosses a solid centre line. What can this lead to?",
+    "choices": [
+      "Demerit points for improper passing and failing to obey road markings",
+      "Only a warning if traffic is light",
+      "A parking ticket with no points",
+      "No consequence because the pass was quick"
+    ],
+    "correctIndex": 0,
+    "explanation": "Improper passing, especially across solid lines, is an offence. A conviction may result in demerit points and a fine.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Passing rules and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Original demerit question on unsafe passing."
+  },
+  {
+    "id": "q-demerit-obey-officer-133",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A police officer directs you to stop, but you ignore the signal and keep driving. How is this treated?",
+    "choices": [
+      "Failing to obey a police officer is an offence with demerit points",
+      "No penalty applies if you did not see the officer",
+      "This is only a parking-related issue",
+      "Demerit points apply only to speeding and signs, not officers"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers must obey directions from police and other authorized officers. Failing to do so is an offence that can carry demerit points and other penalties.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Obeying police officers and demerit points",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": null,
+    "notes": "Original question on failing to obey a police officer."
+  },
+  {
+    "id": "q-demerit-stunt-134",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A driver travels at extremely high speed far above the limit and races another car. How can this be treated under Ontario law?",
+    "choices": [
+      "It may be considered stunt or street racing with severe penalties and demerit points",
+      "It is acceptable on empty roads",
+      "It results only in a small parking fine",
+      "It is treated the same as driving 1 km/h over the limit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stunt driving and street racing offences carry heavy penalties, including demerit points, vehicle impoundment, large fines and possible licence suspensions.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stunt driving and racing penalties",
+        "url": "https://www.ontario.ca/page/speeding-and-stunt-driving"
+      }
+    ],
+    "image": null,
+    "notes": "High-level demerit/racing question, written in new words."
+  },
+  {
+    "id": "q-demerit-new-fully-licensed-135",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerit-points",
+    "question": "A fully licensed driver collects several demerit points within two years. What is one possible consequence if the total becomes too high?",
+    "choices": [
+      "They may receive a warning interview or licence suspension",
+      "Only their insurance company is notified; the licence is never affected",
+      "The points disappear the next day automatically",
+      "The points are transferred to a friend on request"
+    ],
+    "correctIndex": 0,
+    "explanation": "When fully licensed drivers collect too many demerit points, they may be required to attend an interview or face licence suspension.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — How the demerit point system works",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+      }
+    ],
+    "image": null,
+    "notes": "General demerit system understanding question."
+  },
+  {
+    "id": "q-rules-merge-sign-136",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see a lane ending and a merge sign ahead. Traffic is heavy but moving. What should you do?",
+    "choices": [
+      "Signal, adjust your speed, and merge smoothly into the through lane when there is a safe gap",
+      "Stop in your lane and wait for someone to wave you in",
+      "Speed up sharply and force your way into the lane",
+      "Drive on the shoulder until you can find a gap far ahead"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a lane ends, you must signal, match the speed of traffic, and merge into the next lane only when there is a safe gap.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Merging and lane changes",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Uses road-narrows sign to talk about safe merging."
+  },
+  {
+    "id": "q-rules-roundabout-lane-137",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "This roundabout sign appears before a multi-lane roundabout. You plan to go straight through. Which lane should you normally choose before entering?",
+    "choices": [
+      "Follow the lane signs and use the correct lane marked for going straight",
+      "Always use the left lane for every exit",
+      "Always use the right lane for every exit",
+      "Stop in any lane and decide later"
+    ],
+    "correctIndex": 0,
+    "explanation": "Before entering a roundabout, choose the lane that matches your intended exit as shown on lane-use signs or arrows. This helps traffic flow smoothly and safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts and lane choice",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Roundabout lane-choice question using the roundabout sign."
+  },
+  {
+    "id": "q-rules-railway-gates-138",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You approach this railway sign and the gates start to come down. What must you do?",
+    "choices": [
+      "Stop at the stop line or before the gates and wait until they fully rise and lights stop flashing",
+      "Drive around the gates if you do not see a train",
+      "Stop on the tracks to look both ways",
+      "Reverse back onto the highway"
+    ],
+    "correctIndex": 0,
+    "explanation": "When railway crossing gates begin to lower, you must stop and remain stopped until the gates are fully raised and lights stop flashing.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings with gates",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "Rules-of-the-road question about gated crossings."
+  },
+  {
+    "id": "q-rules-construction-speed-139",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You enter a construction zone marked with this sign and a lower speed limit. What is the correct action?",
+    "choices": [
+      "Slow to the posted work-zone speed and be prepared for workers and equipment",
+      "Maintain the normal highway speed if no workers are visible",
+      "Drive on the shoulder to avoid the work",
+      "Ignore the sign if you are late"
+    ],
+    "correctIndex": 0,
+    "explanation": "In a construction zone, you must follow the posted work-zone speed limit and be especially alert for workers and lane changes.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and reduced speed limits",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/construction-ahead.jpg",
+    "notes": "Construction-zone speed and caution question."
+  },
+  {
+    "id": "q-rules-no-passing-sign-140",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You are behind a slow vehicle and see this sign. What are you allowed to do?",
+    "choices": [
+      "You must not pass another vehicle where this sign applies",
+      "You may pass if you can speed up quickly enough",
+      "You may pass only motorcycles",
+      "You may pass only when going downhill"
+    ],
+    "correctIndex": 0,
+    "explanation": "A no-passing sign means you are not allowed to overtake another vehicle in that zone, even if the road appears clear.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No passing)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Clarifies the rule at a no-passing sign."
+  },
+  {
+    "id": "q-rules-no-entry-oneway-141",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You approach this NO ENTRY sign at the end of a street. What does it tell you about that road?",
+    "choices": [
+      "The road is one-way for traffic coming toward you; you must not enter",
+      "The road is closed only at night",
+      "You may enter but must turn left immediately",
+      "It is only a suggestion to use another route"
+    ],
+    "correctIndex": 0,
+    "explanation": "No entry and do-not-enter signs mean you are facing the wrong direction of travel for that road or lane. You must not go in.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Do not enter/Wrong way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/do-not-enter.jpg",
+    "notes": "Rules interpretation of the do-not-enter sign."
+  },
+  {
+    "id": "q-rules-bikelane-pass-142",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this bike lane on the right and want to turn right at the next intersection. What is the safest way to do it?",
+    "choices": [
+      "Check for cyclists, signal, merge carefully into the bike lane near the intersection, then turn",
+      "Turn right from the middle lane without signaling",
+      "Drive in the bike lane for a long distance at high speed",
+      "Stop in the bike lane and wait for cyclists to go around you"
+    ],
+    "correctIndex": 0,
+    "explanation": "When turning right across a bike lane, signal, check for cyclists, and move carefully into the lane near the intersection to complete your turn safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/bike-lane.jpg",
+    "notes": "Bike-lane turning rule."
+  },
+  {
+    "id": "q-rules-no-parking-zone-143",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this sign with arrows along the curb. What does it mean?",
+    "choices": [
+      "You must not park in the direction(s) indicated by the arrows",
+      "You may park but only with your hazard lights on",
+      "You may park for 10 minutes only",
+      "Parking is allowed at night only"
+    ],
+    "correctIndex": 0,
+    "explanation": "A no-parking sign means you may not leave your vehicle parked in the signed area between the arrows. Brief stops for loading may be allowed if stopping rules permit.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking restrictions (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Clarifies the meaning of arrows on a no-parking sign."
+  },
+  {
+    "id": "q-rules-no-stopping-like-sign-144",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "A different sign shows a red circle and slash over a symbol for stopping. How is that different from this no-parking sign?",
+    "choices": [
+      "No-stopping means you may not stop your vehicle at all, even briefly",
+      "No-stopping means parking is allowed overnight only",
+      "No-stopping and no-parking mean exactly the same thing",
+      "No-stopping applies only to bicycles"
+    ],
+    "correctIndex": 0,
+    "explanation": "No-parking signs allow brief stops to load or unload passengers or goods. No-stopping signs do not allow you to stop your vehicle at all, except to obey traffic control.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — No parking vs. no stopping",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Conceptual comparison question; uses no-parking image as reference."
+  },
+  {
+    "id": "q-rules-maximum-40-zone-145",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this sign entering a residential street. What is the safest speed choice?",
+    "choices": [
+      "Drive at or below 40 km/h depending on conditions",
+      "Always drive exactly 40 km/h even in heavy rain",
+      "Drive 10 km/h over the limit to keep traffic moving",
+      "The speed limit no longer applies after the first intersection"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maximum speed signs show the highest speed allowed in ideal conditions. In residential areas you may need to drive slower for pedestrians, children or weather.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Speed limits in cities and towns",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Rules-of-the-road interpretation of a 40 km/h zone."
+  },
+  {
+    "id": "q-rules-hill-downgrade-146",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this steep hill sign before a long downgrade. What gear and braking strategy is safest?",
+    "choices": [
+      "Select a lower gear before the hill and brake gently as needed",
+      "Shift into Neutral and coast to save fuel",
+      "Use only the parking brake on the way down",
+      "Accelerate to get the hill over with quickly"
+    ],
+    "correctIndex": 0,
+    "explanation": "On long downhills, using a lower gear helps control speed and prevents brakes from overheating.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving downhill safely",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/steep-hill-downgrade.jpg",
+    "notes": "Practical question on using low gear on hills."
+  },
+  {
+    "id": "q-rules-slippery-curve-147",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "It begins to rain and you see this SLIPPERY WHEN WET sign on a curve. How should you drive?",
+    "choices": [
+      "Slow down before the curve and avoid sudden steering or braking",
+      "Brake hard in the middle of the curve to test traction",
+      "Turn off your headlights",
+      "Use cruise control to keep a steady speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "On slippery curves you should reduce speed before entering and avoid sudden movements that could cause a skid.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Skids and slippery roads",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/slippery-when-wet.jpg",
+    "notes": "Curve-handling on wet roads."
+  },
+  {
+    "id": "q-rules-winding-road-visibility-148",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this winding road sign and heavy fog ahead. What is the safest choice?",
+    "choices": [
+      "Slow down, increase following distance and use low beams",
+      "Speed up to leave the area faster",
+      "Use high beams so the fog looks brighter",
+      "Follow the vehicle ahead closely to use its lights"
+    ],
+    "correctIndex": 0,
+    "explanation": "In fog on a winding road, reduce speed, leave extra space and use low beams so light does not reflect back at you.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Fog and reduced visibility",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/winding-road.jpg",
+    "notes": "Combines winding road with fog driving advice."
+  },
+  {
+    "id": "q-rules-pedestrian-zone-149",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "This sign shows a pedestrian with a red circle and slash. Where might you see it and what does it mean?",
+    "choices": [
+      "In areas where pedestrians are not allowed, such as certain tunnels or ramps",
+      "At every school crossing",
+      "At crosswalks where pedestrians always have right-of-way",
+      "Only on bicycle paths"
+    ],
+    "correctIndex": 0,
+    "explanation": "No-pedestrian signs indicate places where people on foot are not permitted, often for safety reasons such as high-speed ramps.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Clarifies where no-pedestrian zones apply."
+  },
+  {
+    "id": "q-rules-no-bicycles-area-150",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "This sign shows a bicycle in a red circle with a slash. How should drivers and cyclists respond?",
+    "choices": [
+      "Cyclists must not ride in this area; drivers should still watch for them nearby",
+      "Cyclists have priority over cars",
+      "Cyclists must ride on the sidewalk only",
+      "Cyclists may ride but must walk through intersections"
+    ],
+    "correctIndex": 0,
+    "explanation": "No-bicycles signs indicate routes where cycling is not permitted, such as certain bridges or expressways.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Rules question about where cycling is forbidden."
+  },
+  {
+    "id": "q-rules-wheelchair-accessible-151",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this wheelchair symbol at a parking space. What must you do as a driver without an accessible parking permit?",
+    "choices": [
+      "You must not park in the marked accessible space",
+      "You may park there for a quick errand",
+      "You may park there at night only",
+      "You may park if you leave your hazard lights on"
+    ],
+    "correctIndex": 0,
+    "explanation": "Accessible parking spaces are reserved for vehicles displaying a valid accessible parking permit.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Accessible parking",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": "/signs/wheelchair-accessible.jpg",
+    "notes": "Accessible parking rule."
+  },
+  {
+    "id": "q-rules-no-left-turn-junction-152",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "Approaching an intersection you see this NO LEFT TURN sign. You had planned to turn left. What should you do?",
+    "choices": [
+      "Continue straight or turn right where permitted and find another route",
+      "Turn left anyway if the road looks clear",
+      "Make a U-turn instead of a left turn",
+      "Stop in the intersection and wait for a gap"
+    ],
+    "correctIndex": 0,
+    "explanation": "A no-left-turn sign means you are not allowed to turn left at that location. You must choose another legal route.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No left turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-left-turn.jpg",
+    "notes": "Intersection navigation when left turns are prohibited."
+  },
+  {
+    "id": "q-rules-no-right-turn-intersection-153",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "At a busy downtown intersection you see this NO RIGHT TURN sign. When can you turn right?",
+    "choices": [
+      "You must not turn right at that intersection while the sign applies",
+      "You may turn right on a green light only",
+      "You may turn right if pedestrians are not present",
+      "You may turn right on a red light only"
+    ],
+    "correctIndex": 0,
+    "explanation": "A no-right-turn sign prohibits right turns at that specific location regardless of signal colour, unless a time plate says otherwise.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Clarifies that right turns are fully prohibited where signed."
+  },
+  {
+    "id": "q-rules-no-u-turn-154",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You miss your turn and see this NO U-TURN sign. How should you correct your route?",
+    "choices": [
+      "Continue to a place where U-turns or left turns are allowed and change direction there",
+      "Make a quick U-turn anyway if traffic is light",
+      "Reverse down the street to the missed turn",
+      "Stop in your lane and wait for directions"
+    ],
+    "correctIndex": 0,
+    "explanation": "Where a no-U-turn sign is posted, you must not make a U-turn and must wait for a legal place to change direction.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Safe way to recover from a missed turn."
+  },
+  {
+    "id": "q-rules-road-ends-warning-155",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You are driving at night and see this ROAD ENDS sign. What should you prepare to do?",
+    "choices": [
+      "Slow down and be ready to stop or turn where the road ends",
+      "Speed up to reach the end quickly",
+      "Turn off your headlights to see better",
+      "Drive straight ahead; the sign is only a suggestion"
+    ],
+    "correctIndex": 0,
+    "explanation": "A road-ends sign warns that the through road will end. You must slow down and prepare to stop or make the turn indicated.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Night driving with a road-ends warning."
+  },
+  {
+    "id": "q-rules-bump-slow-156",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this BUMP warning sign and an advisory speed sign below it. What should you do?",
+    "choices": [
+      "Reduce your speed to about the advisory speed before the bump",
+      "Maintain highway speed and brake hard on the bump",
+      "Drive partly on the shoulder to avoid the bump",
+      "Ignore the advisory speed because it is optional"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bump signs with advisory speeds warn that hitting the bump too fast could cause loss of control. Slow down before reaching it.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Bump/uneven pavement)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/bump-sign.jpg",
+    "notes": "How to use advisory speed with a bump sign."
+  },
+  {
+    "id": "q-rules-narrow-bridge-meeting-157",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "Before a narrow bridge you see this sign and an oncoming vehicle. What is the safest approach?",
+    "choices": [
+      "Slow down, keep right, and be prepared to pass the oncoming vehicle carefully on the bridge",
+      "Speed up to get onto the bridge first",
+      "Drive down the centre of the bridge",
+      "Stop suddenly at the entrance and block the lane"
+    ],
+    "correctIndex": 0,
+    "explanation": "Narrow-bridge signs warn that there is limited roadway. Reduce speed, stay in your lane and pass opposing traffic carefully.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Meeting traffic at a narrow bridge."
+  },
+  {
+    "id": "q-rules-divided-highway-transition-158",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You are on a two-lane road and see this DIVIDED HIGHWAY BEGINS sign. How does the road layout change?",
+    "choices": [
+      "A median or barrier will separate traffic moving in opposite directions",
+      "The road becomes a gravel surface",
+      "Traffic will now travel only in one direction",
+      "The number of lanes is reduced to one"
+    ],
+    "correctIndex": 0,
+    "explanation": "A divided-highway-begins sign tells you a physical median will separate opposing traffic ahead. Each side becomes its own roadway.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Transition from two-way road to divided highway."
+  },
+  {
+    "id": "q-rules-divided-highway-ends-159",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "On a highway separated by a median you see this DIVIDED HIGHWAY ENDS sign. What should you expect ahead?",
+    "choices": [
+      "Opposing traffic will no longer be separated by a median and may be closer to you",
+      "The highway is changing into a parking lot",
+      "The speed limit is automatically doubled",
+      "Only trucks may continue on the road"
+    ],
+    "correctIndex": 0,
+    "explanation": "When the divided highway ends, opposing traffic will again be nearby on the same roadway. Be alert and adjust your driving as needed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Transition from divided to undivided highway."
+  },
+  {
+    "id": "q-rules-roundabout-exit-signal-160",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You see this roundabout sign and enter to go straight through. When should you signal?",
+    "choices": [
+      "Signal right just before you reach your exit from the roundabout",
+      "Signal left for the entire time you are in the roundabout",
+      "Never signal in a roundabout",
+      "Signal hazard lights while driving through"
+    ],
+    "correctIndex": 0,
+    "explanation": "In a roundabout you signal right just before your exit to show other drivers and pedestrians that you are leaving the circle.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts (Using turn signals)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Roundabout signalling rule."
   }
 ]
