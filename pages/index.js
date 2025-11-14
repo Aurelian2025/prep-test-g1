@@ -1,388 +1,359 @@
 import { useEffect, useState } from 'react';
 
-// ---------- shuffle helpers (outside component) ----------
-function shuffleIndices(n) {
-  const idx = Array.from({ length: n }, (_, i) => i);
-  for (let i = n - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [idx[i], idx[j]] = [idx[j], idx[i]];
+const styles = {
+  page: {
+    fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    background: '#f4f4ff',
+    minHeight: '100vh',
+    margin: 0,
+    padding: 0
+  },
+  container: {
+    maxWidth: 900,
+    margin: '0 auto',
+    padding: '16px 16px 40px'
+  },
+  header: {
+    marginBottom: 16
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 800,
+    margin: 0
+  },
+  tag: {
+    fontSize: 13,
+    opacity: 0.75,
+    margin: '4px 0 0'
+  },
+  buttonsRow: {
+    display: 'flex',
+    gap: 8,
+    justifyContent: 'flex-end',
+    marginTop: 8,
+    flexWrap: 'wrap'
+  },
+  btn: {
+    border: 'none',
+    borderRadius: 999,
+    padding: '6px 12px',
+    fontSize: 13,
+    cursor: 'pointer',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
+  },
+  card: {
+    marginTop: 16,
+    background: '#fff',
+    borderRadius: 16,
+    padding: 16,
+    boxShadow: '0 4px 12px rgba(0,0,0,0.06)'
+  },
+  metaRow: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    fontSize: 12,
+    opacity: 0.7,
+    marginBottom: 8
+  },
+  questionText: {
+    fontSize: 16,
+    fontWeight: 600,
+    marginBottom: 10
+  },
+  imgWrap: {
+    textAlign: 'center',
+    marginBottom: 12
+  },
+  img: {
+    maxWidth: 200,
+    maxHeight: 160,
+    width: 'auto',
+    height: 'auto'
+  },
+  choices: {
+    listStyle: 'none',
+    padding: 0,
+    margin: '8px 0'
+  },
+  choiceBtn: isSelected => ({
+    width: '100%',
+    textAlign: 'left',
+    borderRadius: 12,
+    border: '1px solid ' + (isSelected ? '#4c6fff' : '#d0d0ff'),
+    background: isSelected ? '#e4e7ff' : '#f8f8ff',
+    padding: '8px 10px',
+    marginBottom: 6,
+    cursor: 'pointer',
+    fontSize: 14
+  }),
+  submitBtn: (disabled) => ({
+    border: 'none',
+    borderRadius: 999,
+    padding: '8px 16px',
+    fontSize: 14,
+    cursor: disabled ? 'default' : 'pointer',
+    background: disabled ? '#d3d3e6' : '#4c6fff',
+    color: '#fff',
+    marginTop: 4
+  }),
+  explanation: {
+    marginTop: 10,
+    padding: '8px 10px',
+    borderRadius: 10,
+    background: '#f1fff1',
+    fontSize: 13
   }
-  return idx;
+};
+
+// Fisher–Yates shuffle
+function shuffleArray(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }
 
-function shuffleQuestion(q) {
-  const baseChoices = q._baseChoices || q.choices;
-  const baseCorrect = q._baseCorrectIndex ?? q.correctIndex;
-  const order = shuffleIndices(baseChoices.length);
-  return {
-    ...q,
-    _baseChoices: baseChoices,
-    _baseCorrectIndex: baseCorrect,
-    choicesShuffled: order.map(i => baseChoices[i]),
-    correctIndexShuffled: order.indexOf(baseCorrect)
-  };
+// shuffle choices while keeping correctIndex valid
+function shuffleQuestionChoices(q) {
+  const indices = q.choices.map((_, i) => i);
+  const shuffledIdx = shuffleArray(indices);
+  const newChoices = shuffledIdx.map(i => q.choices[i]);
+  const newCorrectIndex = shuffledIdx.indexOf(q.correctIndex);
+  return { ...q, choices: newChoices, correctIndex: newCorrectIndex };
 }
 
-function shuffleAll(arr) {
-  return Array.isArray(arr) ? arr.map(shuffleQuestion) : arr;
+function shuffleAllQuestions(list) {
+  // shuffle list order, and choices for each question
+  const withShuffledChoices = list.map(shuffleQuestionChoices);
+  return shuffleArray(withShuffledChoices);
 }
-// ---------------------------------------------------------
 
-export default function Home() {
-  const [questions, setQuestions] = useState(null);
+function getNumericId(q) {
+  if (!q || !q.id) return 0;
+  const match = q.id.match(/\d+/);
+  return match ? parseInt(match[0], 10) : 0;
+}
+
+export default function PrepTestG1() {
+  const [allQuestions, setAllQuestions] = useState(null);   // raw 1–200
+  const [questions, setQuestions] = useState([]);           // current set (shuffled)
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
-const isLastQuestion =
-  questions && questions.length > 0 && current === questions.length - 1;
 
-  // Load questions and shuffle once on mount
+  // load questions.json from /public
   useEffect(() => {
     fetch('/questions.json')
-      .then(r => r.json())
-      .then(data => setQuestions(shuffleAll(data)))
-      .catch(() => setQuestions([]));
+      .then(res => res.json())
+      .then(data => {
+        setAllQuestions(data);
+        // default: full pool shuffled
+        setQuestions(shuffleAllQuestions(data));
+      })
+      .catch(err => {
+        console.error('Failed to load questions.json', err);
+        setAllQuestions([]);
+        setQuestions([]);
+      });
   }, []);
 
-  // Reset picked/done when moving between questions
-  useEffect(() => {
-    setPicked(null);
-    setDone(false);
-  }, [current]);
+  const hasQuestions = questions && questions.length > 0;
 
-
-// Practice questions 1–40
-const startFirst40 = () => {
-  setQuestions(prev => shuffleAll(prev));
-  setCurrent(0);   // index 0 = question 1
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
-
-// Practice questions 41–80
-const startLast40 = () => {
-  setQuestions(prev => shuffleAll(prev));
-  setCurrent(40);  // index 40 = question 41
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
-
-// Practice questions 81–120 (will work once we add them)
-const start81to120 = () => {
-  setQuestions(prev => shuffleAll(prev));
-  if (questions && questions.length >= 81) {
-    // index 80 = question 81
-    setCurrent(80);
+  // clamp current index so it NEVER goes outside range
+  let safeIndex = current;
+  if (hasQuestions) {
+    if (safeIndex < 0) safeIndex = 0;
+    if (safeIndex > questions.length - 1) safeIndex = questions.length - 1;
   } else {
-    // fallback for now (until we add more questions)
-    setCurrent(0);
+    safeIndex = 0;
   }
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
-// Practice questions 121–160 (future demerit points set)
-const start121to160 = () => {
-  setQuestions(prev => shuffleAll(prev));
-  if (questions && questions.length >= 121) {
-    // index 120 = question 121
-    setCurrent(120);
-  } else {
-    // For now, until we add 121–160, just start at the beginning
-    setCurrent(0);
-  }
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
-  // Practice questions 161–200 (future set)
-const start161to200 = () => {
-  setQuestions(prev => shuffleAll(prev));
-  if (questions && questions.length >= 161) {
-    // index 160 = question 161
-    setCurrent(160);
-  } else {
-    // fallback for now until we add 161–200
-    setCurrent(0);
-  }
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
-  const select = (idx) => {
-    if (!done) setPicked(idx);
-  };
+
+  const q = hasQuestions ? questions[safeIndex] : null;
+  const isLastQuestion = hasQuestions && safeIndex === questions.length - 1;
+  const globalNumber = q ? getNumericId(q) : 0;
+  const totalGlobal = allQuestions ? allQuestions.length : 0;
 
   const submit = () => {
-    if (picked === null || !questions) return;
+    if (!q || picked === null || done) return;
+    const isCorrect = picked === q.correctIndex;
+    if (isCorrect) {
+      setCorrectCount(c => c + 1);
+    }
     setDone(true);
-    const q = questions[current];
-    const correctIndex = q.correctIndexShuffled ?? q.correctIndex;
-    if (picked === correctIndex) {
-      setCorrectCount(prev => prev + 1);
-    }
   };
 
-  const next = () => {
-    if (questions && current < questions.length - 1) {
-      setCurrent(current + 1);
-    }
+  const nextQuestion = () => {
+    if (!hasQuestions) return;
+    // do NOT go past last question
+    setCurrent(prev => {
+      if (prev >= questions.length - 1) return prev;
+      return prev + 1;
+    });
+    setPicked(null);
+    setDone(false);
   };
 
-  // ---------- loading state ----------
-  if (!questions) {
+  // generic range starter
+  const startRange = (min, max) => {
+    if (!allQuestions || allQuestions.length === 0) return;
+    const filtered = allQuestions.filter(one => {
+      const n = getNumericId(one);
+      return n >= min && n <= max;
+    });
+    const shuffled = shuffleAllQuestions(filtered);
+    setQuestions(shuffled);
+    setCurrent(0);
+    setPicked(null);
+    setDone(false);
+    setCorrectCount(0);
+  };
+
+  const start1to40 = () => startRange(1, 40);
+  const start41to80 = () => startRange(41, 80);
+  const start81to120 = () => startRange(81, 120);
+  const start121to160 = () => startRange(121, 160);
+  const start161to200 = () => startRange(161, 200);
+
+  const renderButtonsRow = () => (
+    <div style={styles.buttonsRow}>
+      <button
+        onClick={start1to40}
+        style={{ ...styles.btn, background: '#ffe6a7' }}
+      >
+        Start 1–40
+      </button>
+      <button
+        onClick={start41to80}
+        style={{ ...styles.btn, background: '#ffd5f2' }}
+      >
+        Start 41–80
+      </button>
+      <button
+        onClick={start81to120}
+        style={{ ...styles.btn, background: '#e0c3ff' }}
+      >
+        Start 81–120
+      </button>
+      <button
+        onClick={start121to160}
+        style={{ ...styles.btn, background: '#c1ffd7' }}
+      >
+        Start 121–160
+      </button>
+      <button
+        onClick={start161to200}
+        style={{ ...styles.btn, background: '#b3e6ff' }}
+      >
+        Start 161–200
+      </button>
+    </div>
+  );
+
+  // loading state
+  if (!allQuestions) {
     return (
-      <main style={styles.main}>
-        <div style={styles.card}>
-          <div style={styles.h1}>Prep Test G1</div>
-          <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-          
-       <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start 1–40
-  </button>
-  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
-    Start 41–80
-  </button>
-  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
-    Start 81–120
-  </button>
-  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start 121–160
-  </button>
-  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
-    Start 161–200
-  </button>
-</div>
-
-
-          <p style={styles.p}>Loading question…</p>
+      <div style={styles.page}>
+        <div style={styles.container}>
+          <div style={styles.header}>
+            <h1 style={styles.title}>Prep Test G1</h1>
+            <p style={styles.tag}>Ontario · Multiple choice · Playful</p>
+            {renderButtonsRow()}
+          </div>
+          <div style={styles.card}>
+            <p>Loading questions…</p>
+          </div>
         </div>
-      </main>
+      </div>
     );
   }
 
-  // ---------- empty state ----------
-  if (questions.length === 0) {
+  // no questions at all
+  if (!hasQuestions) {
     return (
-      <main style={styles.main}>
-        <div style={styles.card}>
-          <div style={styles.h1}>Prep Test G1</div>
-          <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-      
-       <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start 1–40
-  </button>
-  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
-    Start 41–80
-  </button>
-  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
-    Start 81–120
-  </button>
-  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start 121–160
-  </button>
-  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
-    Start 161–200
-  </button>
-</div>
-
-          <p style={styles.p}>No questions available.</p>
+      <div style={styles.page}>
+        <div style={styles.container}>
+          <div style={styles.header}>
+            <h1 style={styles.title}>Prep Test G1</h1>
+            <p style={styles.tag}>Ontario · Multiple choice · Playful</p>
+            {renderButtonsRow()}
+          </div>
+          <div style={styles.card}>
+            <p>No questions available. Try starting a set above.</p>
+          </div>
         </div>
-      </main>
+      </div>
     );
   }
 
-  // ---------- main quiz view ----------
- let safeIndex = current;
-
-// Clamp index so it never goes out of range
-if (questions && questions.length > 0) {
-  if (safeIndex < 0) safeIndex = 0;
-  if (safeIndex > questions.length - 1) safeIndex = questions.length - 1;
-}
-
-const q =
-  questions && questions.length > 0 ? questions[safeIndex] : null;
-
-  const choices = q.choicesShuffled ?? q.choices;
-  const correctIndex = q.correctIndexShuffled ?? q.correctIndex;
-  const isCorrect = done && picked === correctIndex;
-  const onLast = current === questions.length - 1;
-
+  // main quiz view
   return (
-    <main style={styles.main}>
-      <div style={styles.card}>
-        <div style={styles.h1}>Prep Test G1</div>
-        <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-    
-     <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
-    Start 1–40
-  </button>
-  <button onClick={startLast40} style={{ ...styles.btn, background: '#ffd5f2' }}>
-    Start 41–80
-  </button>
-  <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
-    Start 81–120
-  </button>
-  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start 121–160
-  </button>
-  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
-    Start 161–200
-  </button>
-</div>
+    <div style={styles.page}>
+      <div style={styles.container}>
+        <div style={styles.header}>
+          <h1 style={styles.title}>Prep Test G1</h1>
+          <p style={styles.tag}>Ontario G1 Practice · Multiple choice · Playful</p>
+          {renderButtonsRow()}
+        </div>
 
-        <div style={{ marginTop: 16 }}>
-          <div style={styles.qmeta}>
-            <span style={{ opacity: 0.8, fontSize: 12 }}>
-              Question {current + 1} of {questions.length} | Correct: {correctCount}
+        <div style={styles.card}>
+          <div style={styles.metaRow}>
+            <span>
+              Question {globalNumber} of {totalGlobal}
             </span>
+            <span>Correct: {correctCount}</span>
           </div>
 
           {q.image && (
-            <div style={{ display: 'grid', placeItems: 'center', marginBottom: 10 }}>
-              <img
-                src={q.image}
-                alt="Road sign"
-                style={{ width: 180, height: 'auto', objectFit: 'contain' }}
-              />
+            <div style={styles.imgWrap}>
+              <img src={q.image} alt="Road sign" style={styles.img} />
             </div>
           )}
 
-          <div style={styles.qtext}>{q.question}</div>
+          <div style={styles.questionText}>{q.question}</div>
 
-          <ul style={{ listStyle: 'none', padding: 0, marginTop: 12 }}>
-            {choices.map((choice, idx) => {
-              const pickedThis = picked === idx;
-              const showResult = done && pickedThis;
-              const correct = done && idx === correctIndex;
-
-              let bg = '#111727';
-              if (pickedThis && !done) bg = '#25324a';
-              if (showResult && correct) bg = '#144d2a';
-              if (showResult && !correct) bg = '#5a1a1a';
-              if (done && correct && !pickedThis) bg = '#1d3b28';
-
-              return (
-                <li
-                  key={idx}
-                  onClick={() => select(idx)}
-                  style={{
-                    ...styles.choice,
-                    background: bg,
-                    cursor: done ? 'default' : 'pointer',
-                    border: pickedThis ? '2px solid #8ab4ff' : '2px solid transparent'
-                  }}
+          <ul style={styles.choices}>
+            {q.choices.map((choice, idx) => (
+              <li key={idx}>
+                <button
+                  type="button"
+                  style={styles.choiceBtn(picked === idx)}
+                  onClick={() => !done && setPicked(idx)}
                 >
-                  <span style={styles.choiceLabel}>{String.fromCharCode(65 + idx)}.</span>
-                  <span>{choice}</span>
-                </li>
-              );
-            })}
+                  <strong>{String.fromCharCode(65 + idx)}.</strong>{' '}
+                  {choice}
+                </button>
+              </li>
+            ))}
           </ul>
 
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 8, flexWrap: 'wrap' }}>
-            <button onClick={submit} disabled={picked === null || done} style={styles.btn}>
-              {done ? 'Answered' : 'Submit'}
-            </button>
-
-            {done && (
-              <span style={{ fontWeight: 600, color: isCorrect ? '#5ff59b' : '#ff9aa2' }}>
-                {isCorrect ? 'Correct 🎉' : 'Not quite — see why below'}
-              </span>
+          <button
+            type="button"
+            onClick={done ? nextQuestion : submit}
+            disabled={picked === null || (done && isLastQuestion)}
+            style={styles.submitBtn(
+              picked === null || (done && isLastQuestion)
             )}
-
-            {done && !onLast && (
-              <button onClick={next} style={{ ...styles.btn, background: '#c1d7ff' }}>
-                Next →
-              </button>
-            )}
-            {done && onLast && (
-              <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-                Restart (1–40)
-              </button>
-            )}
-          </div>
+          >
+            {done
+              ? isLastQuestion
+                ? 'End of set'
+                : 'Next question'
+              : 'Submit'}
+          </button>
 
           {done && (
-            <div style={styles.explainer}>
-              <div style={{ fontWeight: 700, marginBottom: 6 }}>Why?</div>
-              <p style={{ margin: 0 }}>{q.explanation}</p>
-              {q.sources?.[0] && (
-                <div style={{ marginTop: 10, fontSize: 12, opacity: 0.8 }}>
-                  Source:{' '}
-                  <a href={q.sources[0].url} target="_blank" rel="noreferrer">
-                    {q.sources[0].title}
-                  </a>
-                </div>
-              )}
-              <div style={{ marginTop: 8, fontSize: 11, opacity: 0.7 }}>
-                Original questions aligned to the Official MTO Driver’s Handbook (Ontario). We do not copy third-party practice tests.
-              </div>
+            <div style={styles.explanation}>
+              <strong>
+                {picked === q.correctIndex ? 'Correct!' : 'Not quite.'}
+              </strong>{' '}
+              {q.explanation}
             </div>
           )}
         </div>
       </div>
-    </main>
+    </div>
   );
 }
-
-const styles = {
-  main: {
-    minHeight: '100vh',
-    display: 'grid',
-    placeItems: 'center',
-    background: '#0b132b',
-    color: 'white',
-    padding: '2rem',
-    fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif'
-  },
-  card: {
-    width: '100%',
-    maxWidth: 760,
-    background: '#0f172a',
-    borderRadius: 16,
-    padding: 20,
-    boxShadow: '0 8px 30px rgba(0,0,0,0.25)'
-  },
-  h1: { margin: 0, fontSize: '2rem', fontWeight: 800 },
-  tag: { marginTop: 6, opacity: 0.8, fontSize: 14 },
-  p: { marginTop: 10, opacity: 0.85 },
-  qmeta: { marginTop: 4, marginBottom: 8 },
-  qtext: { fontSize: 18, fontWeight: 600, lineHeight: 1.35 },
-  choice: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-    padding: '12px 14px',
-    borderRadius: 12,
-    marginTop: 8
-  },
-  choiceLabel: {
-    width: 22,
-    display: 'inline-block',
-    opacity: 0.85,
-    fontWeight: 700
-  },
-  btn: {
-    background: 'white',
-    color: '#0b132b',
-    border: 'none',
-    borderRadius: 12,
-    padding: '10px 14px',
-    fontWeight: 700,
-    cursor: 'pointer'
-  },
-  explainer: {
-    marginTop: 16,
-    padding: 12,
-    background: '#0b132b',
-    borderRadius: 12
-  }
-};
