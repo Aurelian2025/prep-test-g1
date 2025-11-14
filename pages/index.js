@@ -198,18 +198,26 @@ export default function PrepTestG1() {
 
   // generic range starter
   const startRange = (min, max) => {
-    if (!allQuestions || allQuestions.length === 0) return;
-    const filtered = allQuestions.filter(one => {
+  if (!allQuestions || allQuestions.length === 0) return;
+
+  // 1) take only questions in the numeric range
+  // 2) sort them by their numeric id so they are in order (1,2,3…)
+  // 3) shuffle ONLY the choices inside each question
+  const orderedWithShuffledChoices = allQuestions
+    .filter(one => {
       const n = getNumericId(one);
       return n >= min && n <= max;
-    });
-    const shuffled = shuffleAllQuestions(filtered);
-    setQuestions(shuffled);
-    setCurrent(0);
-    setPicked(null);
-    setDone(false);
-    setCorrectCount(0);
-  };
+    })
+    .sort((a, b) => getNumericId(a) - getNumericId(b))
+    .map(shuffleQuestionChoices);
+
+  setQuestions(orderedWithShuffledChoices);
+  setCurrent(0);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
+
 
   const start1to40 = () => startRange(1, 40);
   const start41to80 = () => startRange(41, 80);
