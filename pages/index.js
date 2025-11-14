@@ -34,6 +34,8 @@ export default function Home() {
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+const isLastQuestion =
+  questions && questions.length > 0 && current === questions.length - 1;
 
   // Load questions and shuffle once on mount
   useEffect(() => {
@@ -196,7 +198,17 @@ const start161to200 = () => {
   }
 
   // ---------- main quiz view ----------
-  const q = questions[current];
+ let safeIndex = current;
+
+// Clamp index so it never goes out of range
+if (questions && questions.length > 0) {
+  if (safeIndex < 0) safeIndex = 0;
+  if (safeIndex > questions.length - 1) safeIndex = questions.length - 1;
+}
+
+const q =
+  questions && questions.length > 0 ? questions[safeIndex] : null;
+
   const choices = q.choicesShuffled ?? q.choices;
   const correctIndex = q.correctIndexShuffled ?? q.correctIndex;
   const isCorrect = done && picked === correctIndex;
