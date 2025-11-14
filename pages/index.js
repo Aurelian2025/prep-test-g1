@@ -17,15 +17,12 @@ const styles = {
     marginBottom: 16
   },
   title: {
-    fontSize: 28,
-    fontWeight: 800,
-    margin: 0
-  },
-  tag: {
-    fontSize: 13,
-    opacity: 0.75,
-    margin: '4px 0 0'
-  },
+  fontSize: 32,
+  fontWeight: 900,
+  margin: 0,
+  color: '#0353a4' // marine blue
+},
+  
   buttonsRow: {
     display: 'flex',
     gap: 8,
@@ -49,12 +46,16 @@ const styles = {
     boxShadow: '0 4px 12px rgba(0,0,0,0.06)'
   },
   metaRow: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    fontSize: 12,
-    opacity: 0.7,
-    marginBottom: 8
-  },
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  fontSize: 16,
+  fontWeight: 600,
+  color: '#4c6fff', // same as Submit / Next button
+  marginBottom: 12
+    textShadow: '0 1px 1px rgba(0,0,0,0.1)'
+},
+
   questionText: {
     fontSize: 16,
     fontWeight: 600,
@@ -295,8 +296,8 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Prep Test G1</h1>
-            <p style={styles.tag}>Ontario · Multiple choice · Playful</p>
+         <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+           
             {renderButtonsRow()}
           </div>
           <div style={styles.card}>
@@ -313,9 +314,9 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Prep Test G1</h1>
-            <p style={styles.tag}>Ontario · Multiple choice · Playful</p>
-            {renderButtonsRow()}
+           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+    
+         {renderButtonsRow()}
           </div>
           <div style={styles.card}>
             <p>No questions available. Try starting a set above.</p>
@@ -330,8 +331,8 @@ export default function PrepTestG1() {
     <div style={styles.page}>
       <div style={styles.container}>
         <div style={styles.header}>
-          <h1 style={styles.title}>Prep Test G1</h1>
-          <p style={styles.tag}>Ontario G1 Practice · Multiple choice · Playful</p>
+         <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+          
           {renderButtonsRow()}
         </div>
 
