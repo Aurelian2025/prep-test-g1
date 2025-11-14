@@ -132,8 +132,11 @@ function shuffleAllQuestions(list) {
 
 function getNumericId(q) {
   if (!q || !q.id) return 0;
-  const match = q.id.match(/\d+/);
-  return match ? parseInt(match[0], 10) : 0;
+  // Some IDs contain more than one number (e.g. "20over-121")
+  // We always want the LAST number = the question number.
+  const matches = q.id.match(/\d+/g);
+  if (!matches || matches.length === 0) return 0;
+  return parseInt(matches[matches.length - 1], 10);
 }
 
 export default function PrepTestG1() {
