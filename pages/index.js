@@ -70,22 +70,40 @@ const styles = {
     width: 'auto',
     height: 'auto'
   },
-  choices: {
-    listStyle: 'none',
-    padding: 0,
-    margin: '8px 0'
+    choiceBtn: (idx, picked, correctIndex, done) => {
+    let border = '#d0d0ff';
+    let background = '#f8f8ff';
+
+    if (!done) {
+      // Before submitting: just highlight the selected option
+      if (picked === idx) {
+        border = '#4c6fff';
+        background = '#e4e7ff';
+      }
+    } else {
+      // After submitting: show green for correct, red for wrong pick
+      if (idx === correctIndex) {
+        border = '#1b8a3a';
+        background = '#e3f7e8';
+      } else if (idx === picked && picked !== correctIndex) {
+        border = '#c62828';
+        background = '#fde5e5';
+      }
+    }
+
+    return {
+      width: '100%',
+      textAlign: 'left',
+      borderRadius: 12,
+      border: '1px solid ' + border,
+      background,
+      padding: '8px 10px',
+      marginBottom: 6,
+      cursor: 'pointer',
+      fontSize: 14
+    };
   },
-  choiceBtn: isSelected => ({
-    width: '100%',
-    textAlign: 'left',
-    borderRadius: 12,
-    border: '1px solid ' + (isSelected ? '#4c6fff' : '#d0d0ff'),
-    background: isSelected ? '#e4e7ff' : '#f8f8ff',
-    padding: '8px 10px',
-    marginBottom: 6,
-    cursor: 'pointer',
-    fontSize: 14
-  }),
+
   submitBtn: (disabled) => ({
     border: 'none',
     borderRadius: 999,
@@ -330,7 +348,7 @@ export default function PrepTestG1() {
               <li key={idx}>
                 <button
                   type="button"
-                  style={styles.choiceBtn(picked === idx)}
+                  style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
                   onClick={() => !done && setPicked(idx)}
                 >
                   <strong>{String.fromCharCode(65 + idx)}.</strong>{' '}
