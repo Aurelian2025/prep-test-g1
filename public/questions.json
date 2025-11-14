@@ -3611,5 +3611,119 @@
     ],
     "image": "/signs/roundabout-sign.jpg",
     "notes": "Roundabout signalling rule."
+  },   {
+    "id": "q-safe-attitude-161",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "According to the Official MTO Driver’s Handbook, what is the most important foundation of safe and responsible driving?",
+    "choices": [
+      "A positive attitude that focuses on safety and sharing the road",
+      "Owning the newest and most powerful vehicle",
+      "Driving as fast as traffic will allow",
+      "Relying on other drivers to avoid collisions"
+    ],
+    "correctIndex": 0,
+    "explanation": "The handbook emphasizes that safe driving is not just about skills, but also about your attitude: being courteous, patient and focused on safety for everyone on the road.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (attitude and behaviour)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Original attitude-focused question inspired by the Safe and Responsible Driving section."
+  },
+  {
+    "id": "q-following-distance-162",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "In good driving conditions on a dry road, what is the recommended minimum following distance behind the vehicle in front of you?",
+    "choices": [
+      "At least a two-second gap",
+      "Half a second, to react quickly",
+      "No more than one car length",
+      "Only enough space so another car cannot fit in"
+    ],
+    "correctIndex": 0,
+    "explanation": "The handbook describes the two-second rule as a simple way to check you have enough space to react to sudden stops on dry, clear roads. More space is needed in bad conditions.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe following distance (two-second rule)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "New question on the two-second following-distance guideline."
+  },
+  {
+    "id": "q-scanning-hazards-163",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "To spot hazards early, how should you scan the road while driving in city traffic?",
+    "choices": [
+      "Keep your eyes moving, checking far ahead, around and in your mirrors regularly",
+      "Stare only at the vehicle directly in front of you",
+      "Look straight down at the road just beyond your hood",
+      "Check your mirrors once at the start of the trip"
+    ],
+    "correctIndex": 0,
+    "explanation": "Safe drivers constantly scan: they look well ahead, side-to-side, and check mirrors often. This helps them see hazards early and react in time.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (scanning for hazards)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Original scanning/observation technique question."
+  },
+  {
+    "id": "q-night-driving-speed-164",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "At night, how should you adjust your speed, even if the posted speed limit is higher?",
+    "choices": [
+      "Drive slowly enough that you can stop within the distance lit by your headlights",
+      "Always drive at the posted limit because it is safe at all times",
+      "Speed up so you spend less time in the dark",
+      "Use high beams and drive as fast as possible"
+    ],
+    "correctIndex": 0,
+    "explanation": "At night you must not overdrive your headlights. You should drive at a speed that lets you stop within the distance you can see clearly ahead.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving at night and in bad weather (overdriving your headlights)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
+      }
+    ],
+    "image": null,
+    "notes": "Night-driving question focused on matching speed to headlight range."
+  },
+  {
+    "id": "q-intersections-right-of-way-165",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "At a four-way stop where all vehicles arrive around the same time, which driver should normally go first?",
+    "choices": [
+      "The driver who comes to a complete stop first and proceeds when it is safe",
+      "The driver with the largest vehicle",
+      "The driver who flashes headlights first",
+      "The driver who is turning left across traffic"
+    ],
+    "correctIndex": 0,
+    "explanation": "At four-way stops, the vehicle that comes to a full stop first usually goes first, but all drivers must make sure the way is clear and safe before moving.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (right-of-way at stop signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": null,
+    "notes": "Original right-of-way scenario at a four-way stop."
   }
 ]
