@@ -123,8 +123,7 @@ const start121to160 = () => {
         <div style={styles.card}>
           <div style={styles.h1}>Prep Test G1</div>
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-          <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
-
+          
         <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
@@ -153,8 +152,7 @@ const start121to160 = () => {
         <div style={styles.card}>
           <div style={styles.h1}>Prep Test G1</div>
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-          <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
-
+      
         <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
@@ -190,8 +188,7 @@ const start121to160 = () => {
       <div style={styles.card}>
         <div style={styles.h1}>Prep Test G1</div>
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
-        <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
-
+    
       <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
