@@ -49,14 +49,6 @@ export default function Home() {
     setDone(false);
   }, [current]);
 
- // Reset all 80 questions (1–80)
-const startOver = () => {
-  setQuestions(prev => shuffleAll(prev));
-  setCurrent(0);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
 
 // Practice questions 1–40
 const startFirst40 = () => {
@@ -90,7 +82,20 @@ const start81to120 = () => {
   setDone(false);
   setCorrectCount(0);
 };
-
+// Practice questions 121–160 (future demerit points set)
+const start121to160 = () => {
+  setQuestions(prev => shuffleAll(prev));
+  if (questions && questions.length >= 121) {
+    // index 120 = question 121
+    setCurrent(120);
+  } else {
+    // For now, until we add 121–160, just start at the beginning
+    setCurrent(0);
+  }
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
   const select = (idx) => {
     if (!done) setPicked(idx);
   };
@@ -120,10 +125,7 @@ const start81to120 = () => {
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
           <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
-         <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–80)
-  </button>
+        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -133,8 +135,10 @@ const start81to120 = () => {
   <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
     Start 81–120
   </button>
+  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start 121–160
+  </button>
 </div>
-
 
           <p style={styles.p}>Loading question…</p>
         </div>
@@ -151,10 +155,7 @@ const start81to120 = () => {
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
           <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
-          <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–80)
-  </button>
+        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -163,6 +164,9 @@ const start81to120 = () => {
   </button>
   <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
     Start 81–120
+  </button>
+  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start 121–160
   </button>
 </div>
 
@@ -188,10 +192,7 @@ const start81to120 = () => {
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
         <div style={{ fontSize: 11, opacity: 0.6, marginTop: 4 }}>Build: set-button-v1</div>
 
-        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
-  <button onClick={startOver} style={{ ...styles.btn, background: '#c1ffd7' }}>
-    Start Over (1–80)
-  </button>
+      <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -201,8 +202,10 @@ const start81to120 = () => {
   <button onClick={start81to120} style={{ ...styles.btn, background: '#e0c3ff' }}>
     Start 81–120
   </button>
+  <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
+    Start 121–160
+  </button>
 </div>
-
 
 
         <div style={{ marginTop: 16 }}>
