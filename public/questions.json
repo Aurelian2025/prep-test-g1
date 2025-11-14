@@ -2688,350 +2688,354 @@
     ],
     "image": "/signs/winding-road.jpg",
     "notes": "Second winding-road question, focused on night driving strategy."
-  },   {
+  },     {
     "id": "q-demerit-speed-20over-121",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You see this speed limit sign and drive 20 km/h over the posted limit. What can happen to your driving record?",
+    "question": "In Ontario, if you are convicted of driving about 20 km/h over the posted speed limit, how many demerit points are added to your record?",
     "choices": [
-      "You can receive demerit points and a fine",
-      "Nothing, because everyone speeds a little",
-      "Only a warning with no demerit points",
-      "Your licence is immediately cancelled"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Driving more than the posted speed limit can result in demerit points and a fine. The more you exceed the limit, the more serious the penalties become.",
+    "correctIndex": 1,
+    "explanation": "For speeding 16–29 km/h over the limit in Ontario, you receive 3 demerit points on your driving record.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Speed limits and demerit points for speeding offences",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+        "title": "Ontario — Understanding demerit points (speeding 16–29 km/h over limit)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": "/signs/speed-limit-80.jpg",
-    "notes": "Original speeding question that links a typical speed limit sign with demerit points."
+    "notes": "Exact points for a moderate speeding conviction."
   },
   {
     "id": "q-demerit-school-bus-122",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "On a two-lane road, this school bus has stopped with its red lights flashing and stop arm out. You pass it without stopping. How does this affect your driving record?",
+    "question": "You pass this school bus while its red lights are flashing and stop arm is out. If convicted, how many demerit points do you receive in Ontario?",
     "choices": [
-      "You can receive a large fine and several demerit points",
-      "You receive only a parking ticket with no points",
-      "There are no penalties if children are not visible",
-      "You lose your licence automatically for life"
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points",
+      "7 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Failing to stop for a school bus with flashing red lights is a serious offence. It carries a high fine and demerit points because it puts children at risk.",
+    "correctIndex": 2,
+    "explanation": "Failing to stop for a school bus with flashing red lights carries 6 demerit points plus a large fine, even for a first offence.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — School buses and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+        "title": "Ontario — Understanding demerit points (failing to stop for school bus)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
+      },
+      {
+        "title": "Ontario — Stopping for school buses",
+        "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-truck-handbook/stopping-school-buses"
       }
     ],
     "image": "/signs/school-bus-red-lights.jpg",
-    "notes": "New scenario showing how school bus violations lead to demerit points."
+    "notes": "School-bus offence with explicit 6-point penalty."
   },
   {
     "id": "q-demerit-stop-sign-123",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You roll through this STOP sign without coming to a complete stop. How can that affect you?",
+    "question": "You roll through this STOP sign without fully stopping and are convicted. How many demerit points are added?",
     "choices": [
-      "You may receive demerit points for failing to obey the stop sign",
-      "You get a warning only and no record",
-      "You only lose demerit points if it is at night",
-      "Demerit points apply only to traffic lights, not stop signs"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Failing to stop at a stop sign is a traffic offence. A conviction can result in demerit points and may increase insurance costs.",
+    "correctIndex": 1,
+    "explanation": "Failing to obey a stop sign in Ontario results in 3 demerit points on your record.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Demerit points for failing to obey signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Understanding demerit points (failing to obey a stop sign)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": "/signs/stop-sign.jpg",
-    "notes": "Original question linking complete stops at stop signs with demerit points."
+    "notes": "Stop-sign offence with specific points."
   },
   {
     "id": "q-demerit-red-light-124",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You drive through a red traffic light after it has already turned red. What is the effect on your driving record?",
+    "question": "You drive through a solid red traffic light after it changes and are convicted. How many demerit points do you receive?",
     "choices": [
-      "You can receive demerit points for disobeying a traffic signal",
-      "You only receive a parking ticket",
-      "You receive no demerit points if no collision happens",
-      "You always lose your licence immediately"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Running a red light is a serious offence. A conviction results in demerit points and a fine, even if there is no collision.",
+    "correctIndex": 1,
+    "explanation": "Running a red light in Ontario is treated as failing to obey a traffic signal and carries 3 demerit points.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Traffic lights and demerit point system",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Understanding demerit points (failing to obey a traffic light)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": "/signs/traffic-signal-ahead.jpg",
-    "notes": "Uses the traffic-signal-ahead sign to discuss red-light demerit points."
+    "notes": "Red-light offence with exact demerit value."
   },
   {
     "id": "q-demerit-careless-driving-125",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A driver weaves through traffic at high speed, following too closely and cutting others off. What type of offence can this be and how does it affect demerit points?",
+    "question": "A driver weaves through traffic, cuts others off and is convicted of careless driving. How many demerit points does careless driving carry in Ontario?",
     "choices": [
-      "It may be considered careless driving and carries a high number of demerit points",
-      "It is only poor manners and has no penalties",
-      "It always results in immediate licence cancellation with no points",
-      "It is treated the same as legal passing"
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points",
+      "7 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Careless driving means driving without due care and attention or consideration for others. It is a serious offence with significant fines and demerit points.",
+    "correctIndex": 2,
+    "explanation": "Careless driving is a serious offence that carries 6 demerit points, along with heavy fines and possible licence suspension.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Careless driving and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Understanding demerit points (careless driving)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "Pure demerit question about careless driving, no specific sign."
+    "notes": "Careless-driving penalties with explicit 6 points."
   },
   {
     "id": "q-demerit-follow-too-closely-126",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "Repeatedly following other vehicles too closely (tailgating) can lead to which consequence?",
+    "question": "A driver is convicted of following another vehicle too closely (tailgating). How many demerit points are added?",
     "choices": [
-      "Demerit points for following too closely",
-      "Only a requirement to honk more often",
-      "No penalty as long as you do not collide",
-      "More fuel-efficient driving"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Following too closely reduces your time to react and is an offence. A conviction can result in demerit points and a fine.",
+    "correctIndex": 2,
+    "explanation": "Following too closely is a 4-point offence in Ontario because it greatly increases the risk of rear-end collisions.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Safe following distance and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+        "title": "Ontario — Demerit points table (following too closely)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "Original demerit question about tailgating."
+    "notes": "Tailgating question with 4-point penalty."
   },
   {
     "id": "q-demerit-handheld-127",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "While driving, you hold a phone in your hand to read a message. What can happen if you are caught?",
+    "question": "You are convicted of using a hand-held phone while driving. How many demerit points does this add to your record?",
     "choices": [
-      "You may receive fines and demerit points for using a hand-held device",
-      "You receive no penalty if you do not send a reply",
-      "Only passengers receive demerit points",
-      "Demerit points apply only to speeding, not phones"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Using a hand-held communication device while driving is prohibited. Convictions carry demerit points, fines and possible licence suspensions for repeat offences.",
+    "correctIndex": 1,
+    "explanation": "Distracted driving with a hand-held device carries 3 demerit points in Ontario, along with significant fines and other penalties.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Distracted driving penalties",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Understanding demerit points (hand-held wireless device)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "New demerit question on distracted driving."
+    "notes": "Exact demerit total for a hand-held phone offence."
   },
   {
     "id": "q-demerit-fail-yield-ped-128",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You see this pedestrian sign and a person is clearly in the crosswalk. You do not slow down or yield. What can happen?",
+    "question": "At a marked pedestrian crossing, you fail to stop for a person clearly in the crosswalk and are convicted. How many demerit points do you receive?",
     "choices": [
-      "You can receive demerit points and a fine for failing to yield to a pedestrian",
-      "There are no penalties if the pedestrian jumps out of the way",
-      "Only the pedestrian is fined for crossing",
-      "You receive only demerit points but no fine"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Drivers must yield to pedestrians in marked crosswalks and at many crossings. Failing to yield is an offence that can result in demerit points and a fine.",
+    "correctIndex": 2,
+    "explanation": "Failing to stop at a pedestrian crossover or similar protected crossing carries 4 demerit points in Ontario.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Pedestrian safety and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+        "title": "Ontario — Demerit points table (failing to stop at a pedestrian crossover)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": "/signs/pedestrian-crossing.jpg",
-    "notes": "Uses the pedestrian crossing sign to highlight demerit penalties for not yielding."
+    "notes": "Pedestrian-safety question using the 4-point crossover offence."
   },
   {
     "id": "q-demerit-fail-remain-129",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You are involved in a minor collision and drive away without stopping to give your information. How is this treated?",
+    "question": "After a minor collision, a driver leaves without stopping to give information and is convicted of failing to remain. How many demerit points does this carry?",
     "choices": [
-      "Failing to remain at the scene is a serious offence with many demerit points",
-      "You do not need to stop if the collision is minor",
-      "It is only a parking violation",
-      "It is allowed as long as you call later"
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points",
+      "7 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Failing to remain at a collision scene is a serious offence. A conviction can lead to a high number of demerit points, large fines and possible suspension.",
+    "correctIndex": 3,
+    "explanation": "Failing to remain at the scene of a collision is among the most serious offences and carries 7 demerit points in Ontario.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Collision reporting and failing to remain",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/after-collision"
+        "title": "Ontario — Understanding demerit points (failing to remain at a collision)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "Original failing-to-remain demerit question."
+    "notes": "Fail-to-remain with explicit 7-point penalty."
   },
   {
     "id": "q-demerit-seatbelts-130",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A driver is not wearing a seatbelt and also allows a child passenger to ride without one. What is the impact on the driver's record?",
+    "question": "A driver is convicted of not wearing a seatbelt and allowing a child to ride unbelted. How many demerit points can seatbelt-related offences add to the driver’s record?",
     "choices": [
-      "The driver can receive demerit points for seatbelt-related offences",
-      "Only the child receives demerit points",
-      "Seatbelt offences never involve demerit points",
-      "Seatbelts are optional on short trips so there is no penalty"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
     "correctIndex": 0,
-    "explanation": "Drivers are responsible for ensuring they and their passengers meet seatbelt requirements. Certain seatbelt offences carry demerit points and fines.",
+    "explanation": "Seatbelt-related offences (including failing to ensure that passengers under 16 are properly secured) carry 2 demerit points each for the driver.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Seatbelts and child safety restraints",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/seatbelts"
+        "title": "Ontario — Demerit points table (seatbelt offences)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "New question tying seatbelt misuse to demerit points."
+    "notes": "Seatbelt demerit value made explicit."
   },
   {
     "id": "q-demerit-fail-yield-sign-131",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "You approach this YIELD sign but force your way into traffic, making others brake hard. How can that affect your record?",
+    "question": "You force your way into traffic at this YIELD sign and are convicted of failing to yield the right-of-way. How many demerit points are added?",
     "choices": [
-      "You may receive demerit points for failing to yield the right-of-way",
-      "There are no penalties if no collision occurs",
-      "Yield signs are optional and never carry points",
-      "Demerit points apply only when a police cruiser is present"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "At a yield sign you must give the right-of-way. Failing to yield is an offence and can result in demerit points.",
+    "correctIndex": 1,
+    "explanation": "Failing to yield the right-of-way is a 3-point offence in Ontario.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Yield signs and demerit point system",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Demerit points table (failing to yield the right-of-way)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": "/signs/yield-sign.jpg",
-    "notes": "Demerit-focused question using the yield sign."
+    "notes": "Yield-sign scenario with 3 demerit points."
   },
   {
     "id": "q-demerit-improper-passing-132",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A driver passes another vehicle where it is unsafe and crosses a solid centre line. What can this lead to?",
+    "question": "A driver is convicted of improper passing where it is unsafe. How many demerit points does improper passing carry?",
     "choices": [
-      "Demerit points for improper passing and failing to obey road markings",
-      "Only a warning if traffic is light",
-      "A parking ticket with no points",
-      "No consequence because the pass was quick"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Improper passing, especially across solid lines, is an offence. A conviction may result in demerit points and a fine.",
+    "correctIndex": 1,
+    "explanation": "Improper passing is a 3-point offence according to Ontario’s demerit points schedule.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Passing rules and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+        "title": "Ontario — Demerit points table (improper passing)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "Original demerit question on unsafe passing."
+    "notes": "Unsafe passing tied to the 3-point penalty."
   },
   {
     "id": "q-demerit-obey-officer-133",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A police officer directs you to stop, but you ignore the signal and keep driving. How is this treated?",
+    "question": "A police officer orders you to stop, but you ignore the signal and are convicted of failing to obey an officer. How many demerit points does this offence carry?",
     "choices": [
-      "Failing to obey a police officer is an offence with demerit points",
-      "No penalty applies if you did not see the officer",
-      "This is only a parking-related issue",
-      "Demerit points apply only to speeding and signs, not officers"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "7 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Drivers must obey directions from police and other authorized officers. Failing to do so is an offence that can carry demerit points and other penalties.",
+    "correctIndex": 1,
+    "explanation": "Failing to obey the directions of a police officer carries 3 demerit points in Ontario.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Obeying police officers and demerit points",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Demerit points table (failing to obey a police officer)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "Original question on failing to obey a police officer."
+    "notes": "Distinguishes failing to obey an officer (3 points) from failing to stop for police (7 points)."
   },
   {
     "id": "q-demerit-stunt-134",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A driver travels at extremely high speed far above the limit and races another car. How can this be treated under Ontario law?",
+    "question": "A driver is convicted of stunt or street racing at extremely high speed. How many demerit points does stunt/racing carry in Ontario?",
     "choices": [
-      "It may be considered stunt or street racing with severe penalties and demerit points",
-      "It is acceptable on empty roads",
-      "It results only in a small parking fine",
-      "It is treated the same as driving 1 km/h over the limit"
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points",
+      "7 demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "Stunt driving and street racing offences carry heavy penalties, including demerit points, vehicle impoundment, large fines and possible licence suspensions.",
+    "correctIndex": 2,
+    "explanation": "Stunt driving or street racing offences carry 6 demerit points, in addition to very high fines, vehicle impoundment and possible licence suspension.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Stunt driving and racing penalties",
-        "url": "https://www.ontario.ca/page/speeding-and-stunt-driving"
+        "title": "Ontario — Understanding demerit points (racing/stunt driving)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "High-level demerit/racing question, written in new words."
+    "notes": "Highlights that stunt/racing is a 6-point offence."
   },
   {
     "id": "q-demerit-new-fully-licensed-135",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "demerit-points",
-    "question": "A fully licensed driver collects several demerit points within two years. What is one possible consequence if the total becomes too high?",
+    "question": "For a fully licensed driver in Ontario, at how many demerit points can your licence be suspended?",
     "choices": [
-      "They may receive a warning interview or licence suspension",
-      "Only their insurance company is notified; the licence is never affected",
-      "The points disappear the next day automatically",
-      "The points are transferred to a friend on request"
+      "9 demerit points",
+      "12 demerit points",
+      "14 demerit points",
+      "15 or more demerit points"
     ],
-    "correctIndex": 0,
-    "explanation": "When fully licensed drivers collect too many demerit points, they may be required to attend an interview or face licence suspension.",
+    "correctIndex": 3,
+    "explanation": "For fully licensed drivers, reaching 15 or more demerit points can result in a licence suspension. Lower point levels can lead to warning letters or an interview.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — How the demerit point system works",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/demerit-point-system"
+        "title": "Ontario — Understanding demerit points (penalties for fully licensed drivers)",
+        "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
     "image": null,
-    "notes": "General demerit system understanding question."
+    "notes": "Explains the suspension threshold for fully licensed drivers."
   },
   {
     "id": "q-rules-merge-sign-136",
