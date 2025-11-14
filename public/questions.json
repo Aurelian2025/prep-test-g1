@@ -3725,5 +3725,809 @@
     ],
     "image": null,
     "notes": "Original right-of-way scenario at a four-way stop."
+  },   {
+    "id": "q-lane-change-166",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "Before changing lanes on a multi-lane road, what is the correct sequence?",
+    "choices": [
+      "Check mirrors, signal, shoulder check, then change lanes when safe",
+      "Signal after you move, then check mirrors",
+      "Move first, then check mirrors and signal",
+      "Honk and move into the next lane immediately"
+    ],
+    "correctIndex": 0,
+    "explanation": "The handbook teaches a clear routine: mirror check, signal, shoulder check to cover blind spots, and then change lanes only when it is safe.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Lane changes",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
+      }
+    ],
+    "image": null,
+    "notes": "Original lane-change sequence question."
+  },
+  {
+    "id": "q-blind-spots-167",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "Why is a shoulder check important even if you have properly adjusted mirrors?",
+    "choices": [
+      "There are areas beside your vehicle that mirrors cannot show (blind spots)",
+      "It is only a habit and not necessary",
+      "It lets other drivers know you are turning",
+      "It replaces the need to signal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Even correctly adjusted mirrors cannot show everything. A quick shoulder check helps you see vehicles, cyclists or pedestrians in your blind spots.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Blind spots and shoulder checks",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "New blind-spot question encouraging shoulder checks."
+  },
+  {
+    "id": "q-expressway-merge-168",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "When entering an expressway from an on-ramp, what should you do on the acceleration lane?",
+    "choices": [
+      "Signal, match the speed of traffic, and merge when there is a safe gap",
+      "Stop at the end of the ramp and wait for someone to let you in",
+      "Drive slowly on the shoulder until you find a large gap",
+      "Reverse if you miss your exit"
+    ],
+    "correctIndex": 0,
+    "explanation": "On expressway ramps you should accelerate to match traffic speed, signal and merge smoothly when there is a safe opening.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Expressway driving (entering)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Original expressway merging question."
+  },
+  {
+    "id": "q-expressway-exit-169",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "When exiting an expressway, when should you start to slow down?",
+    "choices": [
+      "After you have entered the deceleration lane or exit ramp",
+      "As soon as you see your exit sign, on the main lane",
+      "Only once you reach the next city street",
+      "Never; keep highway speed through the exit"
+    ],
+    "correctIndex": 0,
+    "explanation": "You should maintain expressway speed until you are in the deceleration lane or ramp, then slow down safely to the posted exit speed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Expressway driving (leaving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Expressway exit-speed timing question."
+  },
+  {
+    "id": "q-emergency-vehicles-170",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "On a two-way road, you hear and see an emergency vehicle with flashing lights and siren approaching from behind. What must you do?",
+    "choices": [
+      "Move as far to the right as possible and stop until it has passed",
+      "Speed up to stay ahead of the emergency vehicle",
+      "Stop in the centre of the road",
+      "Turn left and block oncoming traffic"
+    ],
+    "correctIndex": 0,
+    "explanation": "When an emergency vehicle is approaching with lights and siren, you must move to the right, clear the intersection if you are in it, and stop until it has passed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with emergency vehicles",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Emergency-vehicle yielding rule."
+  },
+  {
+    "id": "q-move-over-law-171",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "On a multi-lane highway, you see a stopped emergency vehicle with flashing lights on the shoulder of your lane. What should you do if traffic allows?",
+    "choices": [
+      "Move into another lane away from the emergency vehicle and slow down",
+      "Maintain your speed in the same lane",
+      "Honk and drive past as usual",
+      "Stop beside the emergency vehicle to watch"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ontario’s move-over rules require drivers to slow down and, where possible, move into another lane away from stopped emergency or tow vehicles with flashing lights.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Move-over law",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Move-over behaviour for emergency/tow vehicles."
+  },
+  {
+    "id": "q-sharing-cyclists-1m-172",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "When passing a cyclist on a two-lane road, how should you do it safely?",
+    "choices": [
+      "Slow down and leave at least one metre of space between your vehicle and the cyclist when passing",
+      "Pass closely to prevent other vehicles from passing",
+      "Honk loudly and pass at full speed",
+      "Drive on the shoulder to pass without changing lanes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers must give cyclists enough space when passing. Ontario law requires at least one metre where practical, and the handbook encourages extra space whenever possible.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Cyclist passing clearance question."
+  },
+  {
+    "id": "q-dooring-cyclist-173",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "You are parked beside a bike lane and want to open your driver’s door. What is the safest way to avoid hitting a cyclist?",
+    "choices": [
+      "Check mirrors, shoulder check for cyclists, then open the door with your far hand",
+      "Open the door quickly without looking so it is open for less time",
+      "Rely on cyclists to stop if a door opens",
+      "Leave the door open while you look for traffic"
+    ],
+    "correctIndex": 0,
+    "explanation": "To prevent “dooring” collisions, the handbook recommends checking mirrors and blind spots and using your far hand to open the door, forcing you to turn and look.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists (door zone)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Dooring-prevention technique."
+  },
+  {
+    "id": "q-motorcycles-visibility-174",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "Why must you take extra care when judging the speed and distance of oncoming motorcycles?",
+    "choices": [
+      "They are smaller and can appear farther away and slower than they really are",
+      "They always travel below the speed limit",
+      "They are required to stop at every intersection",
+      "They do not use headlights in the daytime"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because motorcycles are small, drivers often misjudge how far away and how fast they are moving. This is important when turning left or crossing in front of a motorcycle.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with motorcycles",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Judging motorcycle speed and distance."
+  },
+  {
+    "id": "q-large-trucks-space-175",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "When driving near large trucks, why should you avoid travelling for long periods right beside them?",
+    "choices": [
+      "Trucks have large blind spots and need extra room to maneuver",
+      "Trucks are always speeding",
+      "Trucks must drive in the centre of the road",
+      "You have the right-of-way, so position does not matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "Large vehicles have big blind spots along their sides and need more space to turn and change lanes. Avoid staying beside them and pass safely when you can.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with large vehicles",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Large-vehicle blind-spot awareness."
+  },
+  {
+    "id": "q-trucks-wide-turns-176",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "A large truck signals a right turn and moves slightly to the left before turning. What should you do?",
+    "choices": [
+      "Do not move into the space on the right; the truck needs room to turn",
+      "Drive up on the right side to pass during the turn",
+      "Honk and force the truck to stay in its lane",
+      "Move into the bike lane beside the truck"
+    ],
+    "correctIndex": 0,
+    "explanation": "Large vehicles often swing wide to make right turns. Never pull up beside them on the turning side; stay back until the turn is completed.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Large vehicles making wide turns",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": null,
+    "notes": "Right-turn behaviour around large trucks."
+  },
+  {
+    "id": "q-winter-driving-distance-177",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "On a snowy road with reduced traction, how should you adjust your following distance?",
+    "choices": [
+      "Increase it well beyond the normal two-second rule",
+      "Keep the same following distance as on dry roads",
+      "Reduce it so other drivers cannot move in",
+      "Follow as closely as possible to use the other driver’s tire tracks"
+    ],
+    "correctIndex": 0,
+    "explanation": "In snow or ice, you need much more distance to stop. The handbook recommends increasing following distance significantly in poor conditions.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Winter driving and following distance",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Following-distance adjustment in winter."
+  },
+  {
+    "id": "q-black-ice-bridges-178",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "On a near-freezing day, why should you be especially cautious on bridges and overpasses?",
+    "choices": [
+      "They can freeze and become icy before the rest of the road",
+      "They are always perfectly dry",
+      "They are heated and never freeze",
+      "They have extra traction compared to other roads"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bridges and overpasses lose heat more quickly and can develop black ice even when nearby roads look clear.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Winter driving (black ice)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Explains black ice hazard on bridges."
+  },
+  {
+    "id": "q-hydroplaning-179",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "If your vehicle begins to hydroplane on a very wet road, what is the safest action?",
+    "choices": [
+      "Ease off the accelerator and steer straight until you regain traction",
+      "Brake hard and steer sharply",
+      "Shift to Neutral and turn off the ignition",
+      "Accelerate to get through the water faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydroplaning happens when tires lose contact with the road on water. Gently easing off the accelerator and keeping the wheels straight helps regain traction.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving in rain and hydroplaning",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
+      }
+    ],
+    "image": null,
+    "notes": "Hydroplaning control technique."
+  },
+  {
+    "id": "q-headlights-visibility-180",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "When must you use your headlights, even during the daytime?",
+    "choices": [
+      "Whenever visibility is poor enough that you cannot clearly see people or vehicles 150 metres ahead",
+      "Only at night on country roads",
+      "Only in winter months",
+      "Only when using high beams"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ontario’s rules require you to use headlights when visibility is poor, such as in heavy rain, snow, or fog, so others can see you.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Headlights and visibility",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
+      }
+    ],
+    "image": null,
+    "notes": "Headlight-use requirement in poor visibility."
+  },
+  {
+    "id": "q-parking-uphill-curb-181",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "parking",
+    "question": "When parking uphill on a street with a curb, how should you turn your front wheels?",
+    "choices": [
+      "Turn the front wheels away from the curb and set the parking brake",
+      "Turn the wheels straight ahead",
+      "Turn the front wheels toward the curb",
+      "It does not matter which way the wheels point"
+    ],
+    "correctIndex": 0,
+    "explanation": "When parking uphill with a curb, turning the wheels away from the curb helps keep the vehicle from rolling into traffic if it moves.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking on hills",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": null,
+    "notes": "Uphill-with-curb parking position."
+  },
+  {
+    "id": "q-parking-downhill-no-curb-182",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "parking",
+    "question": "When parking downhill on a road with no curb, how should you position your front wheels?",
+    "choices": [
+      "Turn the wheels toward the right shoulder and set the parking brake",
+      "Turn the wheels into the centre of the road",
+      "Leave the wheels straight and in Neutral",
+      "Turn the wheels left and do not use the parking brake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Facing downhill without a curb, turning the wheels toward the shoulder helps keep the vehicle from rolling into the roadway.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking on hills (no curb)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": null,
+    "notes": "Downhill/no-curb parking setup."
+  },
+  {
+    "id": "q-parking-fire-hydrant-183",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "parking",
+    "question": "Why is parking too close to a fire hydrant prohibited?",
+    "choices": [
+      "Firefighters must be able to reach the hydrant quickly in an emergency",
+      "Hydrants are reserved parking for fire trucks only",
+      "Hydrants mark private driveways",
+      "Parking there is allowed at night only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parking rules include minimum distances from fire hydrants so emergency crews can connect hoses without delay.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking restrictions (fire hydrants and intersections)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": null,
+    "notes": "Conceptual hydrant rule without using exact distance, which can vary by jurisdiction."
+  },
+  {
+    "id": "q-parking-crosswalk-184",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "parking",
+    "question": "Why should you never park within a crosswalk or very close to one?",
+    "choices": [
+      "It blocks visibility for pedestrians and drivers at the crossing",
+      "It makes crossing easier for pedestrians",
+      "It is only a suggestion with no safety concern",
+      "It is allowed if your hazard lights are on"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parking too close to crosswalks can hide pedestrians from view and make it harder for drivers to see them in time.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Parking restrictions near crosswalks",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
+      }
+    ],
+    "image": null,
+    "notes": "Crosswalk visibility rule."
+  },
+  {
+    "id": "q-railway-stall-185",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "emergency",
+    "question": "If your vehicle stalls on a railway crossing and a train is approaching, what should you do first?",
+    "choices": [
+      "Get everyone out of the vehicle and move away from the tracks at a 45° angle towards the train",
+      "Stay inside and try to restart until the last moment",
+      "Push the vehicle off the tracks alone",
+      "Stand directly in front of the train to signal it to stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "The handbook advises that if a train is coming and you cannot move the vehicle, you must get everyone out and move away at an angle to avoid flying debris.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings (if your vehicle stalls)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": null,
+    "notes": "Emergency behaviour at stalled-on-tracks scenario."
+  },
+  {
+    "id": "q-tire-blowout-186",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "emergency",
+    "question": "If a front tire blows out while you are driving, what is the safest initial reaction?",
+    "choices": [
+      "Hold the steering wheel firmly, ease off the accelerator and steer straight",
+      "Brake hard immediately and turn to the shoulder",
+      "Accelerate to keep the vehicle stable",
+      "Turn sharply away from the side of the blown tire"
+    ],
+    "correctIndex": 0,
+    "explanation": "A tire blowout can cause sudden pulling. You should hold the wheel firmly, gently ease off the gas, and steer straight until you can slow and pull off safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Handling tire blowouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergencies"
+      }
+    ],
+    "image": null,
+    "notes": "Blowout control question."
+  },
+  {
+    "id": "q-skid-rear-187",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "On an icy road, your rear wheels begin to skid sideways. What should you do?",
+    "choices": [
+      "Steer gently in the direction you want the front of the car to go and avoid braking hard",
+      "Brake as hard as possible and hold the pedal down",
+      "Steer in the opposite direction of the skid quickly",
+      "Turn the steering wheel fully to one side and accelerate"
+    ],
+    "correctIndex": 0,
+    "explanation": "To correct a skid, steer in the direction you want to go and avoid sudden braking or acceleration, which can make the skid worse.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Skids and how to handle them",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Rear-wheel skid control."
+  },
+  {
+    "id": "q-fatigue-driving-188",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "You start to feel very drowsy while driving. What is the safest decision?",
+    "choices": [
+      "Find a safe place to stop and rest before continuing",
+      "Open the window and keep driving at the same speed",
+      "Turn up the radio and focus on staying awake",
+      "Drink coffee and continue driving for several more hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "Driver fatigue is dangerous. The only safe choice is to stop and rest. Tricks like loud music or open windows do not remove the risk.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driver fatigue",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Fatigue management question."
+  },
+  {
+    "id": "q-tailgater-189",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "Another driver is following you too closely (tailgating). What is the safest way to respond?",
+    "choices": [
+      "Gradually increase your following distance and, when safe, change lanes or let them pass",
+      "Brake suddenly to warn them",
+      "Speed up to get away from them",
+      "Ignore them and drive exactly the same way"
+    ],
+    "correctIndex": 0,
+    "explanation": "To reduce risk from tailgaters, give yourself more space ahead and, if possible, let them pass safely instead of reacting aggressively.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Dealing with aggressive drivers",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Managing tailgaters calmly."
+  },
+  {
+    "id": "q-mirrors-frequency-190",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "How often should you normally check your mirrors while driving on a straight road with light traffic?",
+    "choices": [
+      "Every few seconds, and before slowing, turning or changing lanes",
+      "Only when you hear a horn",
+      "Once at the beginning and once at the end of the trip",
+      "Only when you plan to stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frequent mirror checks help you stay aware of traffic behind and beside you so you can react safely to changes.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Observing traffic around you",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Mirror-check habit."
+  },
+  {
+    "id": "q-impaired-zero-g1-191",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "impaired-driving",
+    "question": "For a G1 or G2 driver, what is the legal blood alcohol requirement while driving?",
+    "choices": [
+      "You must have zero alcohol in your blood (0.00 BAC)",
+      "A small amount of alcohol is allowed if you feel okay",
+      "You may drink as long as you stay under the fully licensed limit",
+      "There are no alcohol rules for G1/G2 drivers"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ontario has a zero-tolerance rule for alcohol for novice drivers (G1 and G2). They must have a blood alcohol concentration of 0.00 while driving.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Impaired driving and novice drivers",
+        "url": "https://www.ontario.ca/page/impaired-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Zero-alcohol requirement for novice drivers."
+  },
+  {
+    "id": "q-g1-supervisor-192",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "licensing",
+    "question": "Which of the following is a requirement for a G1 driver when driving on public roads?",
+    "choices": [
+      "A fully licensed driver with at least four years of experience must sit in the front passenger seat",
+      "Any friend with a licence can sit in the back seat",
+      "No other person needs to be in the vehicle",
+      "Only another G1 driver is required as a supervisor"
+    ],
+    "correctIndex": 0,
+    "explanation": "G1 drivers must be accompanied in the front seat by a fully licensed driver with the required years of driving experience and a valid blood alcohol level.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — G1 licence conditions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
+      }
+    ],
+    "image": null,
+    "notes": "G1 supervision requirement."
+  },
+  {
+    "id": "q-g1-roads-restrictions-193",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "licensing",
+    "question": "Which statement about G1 drivers and high-speed roads is correct?",
+    "choices": [
+      "G1 drivers are not allowed on certain high-speed expressways unless accompanied by a qualified driving instructor",
+      "G1 drivers may drive alone on all expressways at any time",
+      "G1 drivers are allowed only on toll roads",
+      "G1 drivers must drive only on unpaved roads"
+    ],
+    "correctIndex": 0,
+    "explanation": "Some high-speed expressways are restricted for G1 drivers unless a qualified instructor is present. This helps new drivers gain experience in lower-risk environments first.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — G1 highway restrictions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
+      }
+    ],
+    "image": null,
+    "notes": "Highway restrictions for G1 drivers (described generally, not listing each highway)."
+  },
+  {
+    "id": "q-g2-passengers-night-194",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "licensing",
+    "question": "Why does Ontario place certain night-time passenger restrictions on some G2 drivers under 20?",
+    "choices": [
+      "To reduce the risk of serious collisions when novice drivers carry several teen passengers at night",
+      "To limit fuel use for young drivers",
+      "To make public transit more popular",
+      "To prevent G2 drivers from driving during the day"
+    ],
+    "correctIndex": 0,
+    "explanation": "The handbook explains that restrictions on young G2 drivers at night are designed to reduce crash risk when experience is still limited.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — G2 licence conditions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
+      }
+    ],
+    "image": null,
+    "notes": "Concept-level question about the purpose of G2 night-time passenger restrictions, without quoting exact numbers."
+  },
+  {
+    "id": "q-collision-duties-195",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "emergency",
+    "question": "You are involved in a collision with another vehicle and there are no serious injuries. What are you required to do?",
+    "choices": [
+      "Stop, exchange information with the other driver and follow reporting requirements",
+      "Leave quickly if your car can still move",
+      "Move your car home and report only if you feel like it",
+      "Stay in the vehicle and block traffic until a tow truck arrives"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers involved in collisions must stop, provide their information and follow the law about when and how to report the collision.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — After a collision",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/after-collision"
+      }
+    ],
+    "image": null,
+    "notes": "Collision duties without using specific dollar thresholds."
+  },
+  {
+    "id": "q-turn-signals-196",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "When should you use your turn signal?",
+    "choices": [
+      "Whenever you plan to turn, change lanes, or move away from a parked position",
+      "Only when other traffic is heavy",
+      "Only when driving at night",
+      "Only when approaching a stop sign"
+    ],
+    "correctIndex": 0,
+    "explanation": "Turn signals communicate your intentions to others. You should use them for turns, lane changes and pulling in or out of traffic.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Using turn signals",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
+      }
+    ],
+    "image": null,
+    "notes": "Signal-use basics."
+  },
+  {
+    "id": "q-back-up-safely-197",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "What is the safest way to back up a vehicle?",
+    "choices": [
+      "Check all around, look out the rear window and back up slowly",
+      "Rely only on mirrors and back up quickly",
+      "Use only the rear-view camera and do not look anywhere else",
+      "Back up by looking forward and using your side mirrors only"
+    ],
+    "correctIndex": 0,
+    "explanation": "When reversing, you must check all around, look mainly out the rear window and move slowly to avoid hazards.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Backing up safely",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Backing-up procedure."
+  },
+  {
+    "id": "q-pedestrians-turning-198",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "You are turning right at an intersection and the light is green. A pedestrian begins crossing the street you are turning into. What must you do?",
+    "choices": [
+      "Yield to the pedestrian and wait until they have safely crossed",
+      "Honk and turn in front of the pedestrian",
+      "Turn quickly behind the pedestrian",
+      "Drive into the crosswalk to show you intend to turn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers turning must yield to pedestrians lawfully in the crosswalk. You must wait until they clear your path before completing the turn.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Pedestrian right-of-way at intersections",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+      }
+    ],
+    "image": null,
+    "notes": "Right-turn vs pedestrian priority."
+  },
+  {
+    "id": "q-crosswalk-uncontrolled-199",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules",
+    "question": "At a crosswalk without traffic lights but with painted lines and signs, a pedestrian is waiting to cross. What is your responsibility?",
+    "choices": [
+      "Be prepared to stop and allow the pedestrian to cross safely",
+      "Continue at the same speed because there is no traffic light",
+      "Stop only if the pedestrian steps directly in front of you",
+      "Accelerate to pass before the pedestrian begins crossing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers must watch for pedestrians at signed and marked crossings and be ready to stop to let them cross safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Pedestrian crossings and driver duties",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+      }
+    ],
+    "image": null,
+    "notes": "Unsignalized crosswalk behaviour."
+  },
+  {
+    "id": "q-end-of-set-200",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "safe-driving",
+    "question": "You have answered many practice questions in a row and feel your concentration dropping. What is the safest real-world driving habit to learn from this?",
+    "choices": [
+      "Take regular breaks during long drives to stay alert",
+      "Force yourself to continue driving without a break",
+      "Increase your speed so the trip ends sooner",
+      "Use your phone to stay entertained while driving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Just like with studying, long periods of driving can cause fatigue and lost focus. Taking regular breaks helps you stay alert and safe.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driver fatigue and long trips",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": null,
+    "notes": "Playful end-of-set question reinforcing the message about taking breaks."
   }
 ]
