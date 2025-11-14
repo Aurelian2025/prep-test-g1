@@ -96,6 +96,20 @@ const start121to160 = () => {
   setDone(false);
   setCorrectCount(0);
 };
+  // Practice questions 161–200 (future set)
+const start161to200 = () => {
+  setQuestions(prev => shuffleAll(prev));
+  if (questions && questions.length >= 161) {
+    // index 160 = question 161
+    setCurrent(160);
+  } else {
+    // fallback for now until we add 161–200
+    setCurrent(0);
+  }
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
   const select = (idx) => {
     if (!done) setPicked(idx);
   };
@@ -124,7 +138,7 @@ const start121to160 = () => {
           <div style={styles.h1}>Prep Test G1</div>
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
           
-        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+       <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -137,7 +151,11 @@ const start121to160 = () => {
   <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start 121–160
   </button>
+  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
+    Start 161–200
+  </button>
 </div>
+
 
           <p style={styles.p}>Loading question…</p>
         </div>
@@ -153,7 +171,7 @@ const start121to160 = () => {
           <div style={styles.h1}>Prep Test G1</div>
           <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
       
-        <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+       <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -166,9 +184,10 @@ const start121to160 = () => {
   <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start 121–160
   </button>
+  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
+    Start 161–200
+  </button>
 </div>
-
-
 
           <p style={styles.p}>No questions available.</p>
         </div>
@@ -189,7 +208,7 @@ const start121to160 = () => {
         <div style={styles.h1}>Prep Test G1</div>
         <p style={styles.tag}>Ontario G1 • Multiple choice • Playful</p>
     
-      <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
+     <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end', marginTop: 8, flexWrap: 'wrap' }}>
   <button onClick={startFirst40} style={{ ...styles.btn, background: '#ffe6a7' }}>
     Start 1–40
   </button>
@@ -202,8 +221,10 @@ const start121to160 = () => {
   <button onClick={start121to160} style={{ ...styles.btn, background: '#c1ffd7' }}>
     Start 121–160
   </button>
+  <button onClick={start161to200} style={{ ...styles.btn, background: '#b3e6ff' }}>
+    Start 161–200
+  </button>
 </div>
-
 
         <div style={{ marginTop: 16 }}>
           <div style={styles.qmeta}>
