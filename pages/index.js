@@ -289,6 +289,14 @@ const progressPercent =
       return;
     }
 
+    const handleLogout = () => {
+  setHasAccess(false);
+  setCodeInput('');
+  if (typeof window !== 'undefined') {
+    window.localStorage.removeItem('g1_access_v2');
+  }
+};
+
     const data = await res.json();
     if (data.url) {
       window.location.href = data.url;
@@ -370,11 +378,32 @@ const progressPercent =
     return (
       <div style={styles.page}>
         <div style={styles.container}>
-          <div style={styles.header}>
-         <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-           
-            {renderButtonsRow()}
-          </div>
+         <div style={styles.header}>
+  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+
+    {hasAccess && (
+      <button
+        type="button"
+        onClick={handleLogout}
+        style={{
+          border: 'none',
+          borderRadius: 999,
+          padding: '6px 12px',
+          fontSize: 12,
+          cursor: 'pointer',
+          background: '#e0e2ff',
+          color: '#333'
+        }}
+      >
+        Log out
+      </button>
+    )}
+  </div>
+
+  {renderButtonsRow()}
+</div>
+
          <div
   style={{
     ...styles.card,
