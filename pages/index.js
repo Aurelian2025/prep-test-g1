@@ -225,6 +225,11 @@ export default function PrepTestG1() {
   const isLastQuestion = hasQuestions && safeIndex === questions.length - 1;
   const globalNumber = q ? getNumericId(q) : 0;
   const totalGlobal = allQuestions ? allQuestions.length : 0;
+// progress within the current set
+const inSetNumber = hasQuestions ? safeIndex + 1 : 0;
+const inSetTotal = hasQuestions ? questions.length : 0;
+const progressPercent =
+  inSetTotal > 0 ? (inSetNumber / inSetTotal) * 100 : 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
@@ -357,12 +362,25 @@ export default function PrepTestG1() {
         </div>
 
         <div style={styles.card}>
-          <div style={styles.metaRow}>
-            <span>
-              Question {globalNumber} of {totalGlobal}
-            </span>
-            <span>Correct: {correctCount}</span>
-          </div>
+  <div style={styles.progressOuter}>
+    <div
+      style={{
+        ...styles.progressInner,
+        width: `${progressPercent}%`
+      }}
+    />
+  </div>
+
+  <div style={styles.metaRow}>
+    <span>
+      Question {globalNumber} of {totalGlobal}
+      {inSetTotal > 0 ? ` · Set: ${inSetNumber}/${inSetTotal}` : ''}
+    </span>
+    <span>Correct: {correctCount}</span>
+  </div>
+
+  {/* image, question, choices, button, explanation */}
+
 
     <div style={styles.promptArea}>
   {q.image && (
