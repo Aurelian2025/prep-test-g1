@@ -14,14 +14,8 @@ const styles = {
     padding: '16px 16px 40px'
   },
   header: {
-  position: 'sticky',
-  top: 0,
-  zIndex: 20,
-  background: '#f4f4ff',
-  padding: '8px 0 10px',
-  marginBottom: 12,
-  borderBottom: '1px solid #dde0ff'
-},
+    marginBottom: 16
+  },
   title: {
   fontSize: 32,
   fontWeight: 900,
@@ -45,13 +39,12 @@ const styles = {
     boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
   },
   card: {
-  marginTop: 16,
-  background: '#fff',
-  borderRadius: 16,
-  padding: 16,
-  boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
-  transition: 'box-shadow 0.2s ease, transform 0.2s ease'
-},
+    marginTop: 16,
+    background: '#fff',
+    borderRadius: 16,
+    padding: 16,
+    boxShadow: '0 4px 12px rgba(0,0,0,0.06)'
+  },
   metaRow: {
   display: 'flex',
   justifyContent: 'space-between',
@@ -60,22 +53,6 @@ const styles = {
   fontWeight: 600,
   color: '#4c6fff', // same as Submit / Next button
   marginBottom: 12
-
-    progressOuter: {
-  width: '100%',
-  height: 6,
-  borderRadius: 999,
-  background: '#e0e2ff',
-  overflow: 'hidden',
-  marginBottom: 10
-},
-progressInner: {
-  height: '100%',
-  borderRadius: 999,
-  background: '#4c6fff',
-  transition: 'width 0.25s ease'
-},
-
    
 },
 
@@ -196,7 +173,6 @@ export default function PrepTestG1() {
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
-  const [cardRaised, setCardRaised] = useState(false);
 
   // load questions.json from /public
   useEffect(() => {
@@ -229,12 +205,6 @@ export default function PrepTestG1() {
   const isLastQuestion = hasQuestions && safeIndex === questions.length - 1;
   const globalNumber = q ? getNumericId(q) : 0;
   const totalGlobal = allQuestions ? allQuestions.length : 0;
-
-  // progress within the current set
-const inSetNumber = hasQuestions ? safeIndex + 1 : 0;
-const inSetTotal = hasQuestions ? questions.length : 0;
-const progressPercent =
-  inSetTotal > 0 ? (inSetNumber / inSetTotal) * 100 : 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
@@ -366,37 +336,13 @@ const progressPercent =
           {renderButtonsRow()}
         </div>
 
-      <div
-  style={{
-    ...styles.card,
-    ...(cardRaised
-      ? {
-          boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
-          transform: 'translateY(-2px)'
-        }
-      : {})
-  }}
-  onMouseEnter={() => setCardRaised(true)}
-  onMouseLeave={() => setCardRaised(false)}
->
-
-  <div style={styles.progressOuter}>
-    <div
-      style={{
-        ...styles.progressInner,
-        width: `${progressPercent}%`
-      }}
-    />
-  </div>
-
-  <div style={styles.metaRow}>
-    <span>
-      Question {globalNumber} of {totalGlobal}
-      {inSetTotal > 0 ? ` · Set: ${inSetNumber}/${inSetTotal}` : ''}
-    </span>
-    <span>Correct: {correctCount}</span>
-  </div>
-
+        <div style={styles.card}>
+          <div style={styles.metaRow}>
+            <span>
+              Question {globalNumber} of {totalGlobal}
+            </span>
+            <span>Correct: {correctCount}</span>
+          </div>
 
     <div style={styles.promptArea}>
   {q.image && (
