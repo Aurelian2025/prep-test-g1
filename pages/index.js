@@ -46,12 +46,13 @@ const styles = {
     boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
   },
   card: {
-    marginTop: 16,
-    background: '#fff',
-    borderRadius: 16,
-    padding: 16,
-    boxShadow: '0 4px 12px rgba(0,0,0,0.06)'
-  },
+  marginTop: 16,
+  background: '#fff',
+  borderRadius: 16,
+  padding: 16,
+  boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
+  transition: 'box-shadow 0.2s ease, transform 0.2s ease'
+},
   metaRow: {
   display: 'flex',
   justifyContent: 'space-between',
@@ -193,7 +194,8 @@ export default function PrepTestG1() {
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
-
+const [cardRaised, setCardRaised] = useState(false);
+  
   // load questions.json from /public
   useEffect(() => {
     fetch('/questions.json')
