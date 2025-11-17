@@ -62,7 +62,20 @@ const styles = {
   marginBottom: 12
    
 },
-
+progressOuter: {
+  width: '100%',
+  height: 6,
+  borderRadius: 999,
+  background: '#e0e2ff',
+  overflow: 'hidden',
+  marginBottom: 10
+},
+progressInner: {
+  height: '100%',
+  borderRadius: 999,
+  background: '#4c6fff',
+  transition: 'width 0.25s ease'
+},
   questionText: {
     fontSize: 16,
     fontWeight: 600,
