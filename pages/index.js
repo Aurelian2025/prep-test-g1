@@ -327,7 +327,19 @@ const progressPercent =
            
             {renderButtonsRow()}
           </div>
-          <div style={styles.card}>
+         <div
+  style={{
+    ...styles.card,
+    ...(cardRaised
+      ? {
+          boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
+          transform: 'translateY(-2px)'
+        }
+      : {})
+  }}
+  onMouseEnter={() => setCardRaised(true)}
+  onMouseLeave={() => setCardRaised(false)}
+>
             <p>Loading questions…</p>
           </div>
         </div>
