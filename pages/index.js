@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+const ACCESS_CODE = 'Lucas'; // you can change this to anything you like
 
 const styles = {
   page: {
@@ -195,6 +196,9 @@ export default function PrepTestG1() {
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
 const [cardRaised, setCardRaised] = useState(false);
+  const [hasAccess, setHasAccess] = useState(false);
+const [codeInput, setCodeInput] = useState('');
+
   
   // load questions.json from /public
   useEffect(() => {
@@ -211,6 +215,15 @@ const [cardRaised, setCardRaised] = useState(false);
         setQuestions([]);
       });
   }, []);
+  
+  useEffect(() => {
+  if (typeof window !== 'undefined') {
+    const stored = window.localStorage.getItem('g1_access_ok');
+    if (stored === 'yes') {
+      setHasAccess(true);
+    }
+  }
+}, []);
 
   const hasQuestions = questions && questions.length > 0;
 
@@ -241,6 +254,18 @@ const progressPercent =
     }
     setDone(true);
   };
+
+  const handleCodeSubmit = (e) => {
+  e.preventDefault();
+  if (codeInput.trim() === ACCESS_CODE) {
+    setHasAccess(true);
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem('g1_access_ok', 'yes');
+    }
+  } else {
+    alert('Incorrect access code');
+  }
+};
 
   const nextQuestion = () => {
     if (!hasQuestions) return;
@@ -347,6 +372,53 @@ const progressPercent =
     );
   }
 
+// 🔐 access gate
+if (!hasAccess) {
+  return (
+    <div style={styles.page}>
+      <div style={styles.container}>
+        <div style={styles.header}>
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+          {renderButtonsRow()}
+        </div>
+        <div style={styles.card}>
+          <h2 style={{ fontSize: 18, marginTop: 0, marginBottom: 8 }}>
+            Enter access code
+          </h2>
+          <p style={{ fontSize: 14, marginBottom: 8 }}>
+            This area is locked. Enter your access code to unlock all 200 questions.
+          </p>
+          <form onSubmit={handleCodeSubmit}>
+            <input
+              type="password"
+              value={codeInput}
+              onChange={(e) => setCodeInput(e.target.value)}
+              placeholder="Access code"
+              style={{
+                width: '100%',
+                padding: '8px 10px',
+                borderRadius: 8,
+                border: '1px solid #c5c8ff',
+                marginBottom: 8,
+                fontSize: 14
+              }}
+            />
+            <button
+              type="submit"
+              style={{
+                ...styles.submitBtn(false),
+                display: 'inline-block'
+              }}
+            >
+              Unlock
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
+
   // no questions at all
   if (!hasQuestions) {
     return (
@@ -364,6 +436,7 @@ const progressPercent =
       </div>
     );
   }
+
 
   // main quiz view
   return (
