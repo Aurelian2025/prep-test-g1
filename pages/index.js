@@ -218,7 +218,7 @@ const [codeInput, setCodeInput] = useState('');
   
   useEffect(() => {
   if (typeof window !== 'undefined') {
-    const stored = window.localStorage.getItem('g1_access_ok');
+    const stored = window.localStorage.getItem('g1_access_v2');
     if (stored === 'yes') {
       setHasAccess(true);
     }
@@ -260,7 +260,7 @@ const progressPercent =
   if (codeInput.trim() === ACCESS_CODE) {
     setHasAccess(true);
     if (typeof window !== 'undefined') {
-      window.localStorage.setItem('g1_access_ok', 'yes');
+      window.localStorage.setItem('g1_access_v2', 'yes');
     }
   } else {
     alert('Incorrect access code');
