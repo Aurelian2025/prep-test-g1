@@ -37,7 +37,7 @@ export default function CheckoutSuccess() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       // mark access as unlocked for this browser
-      window.localStorage.setItem('g1_access_ok', 'yes');
+      window.localStorage.setItem('g1_access_v2', 'yes');
     }
   }, []);
 
