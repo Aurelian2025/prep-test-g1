@@ -278,6 +278,29 @@ const progressPercent =
     setDone(false);
   };
 
+  const handleSubscribeClick = async () => {
+  try {
+    const res = await fetch('/api/create-checkout-session', {
+      method: 'POST'
+    });
+
+    if (!res.ok) {
+      alert('Could not start checkout. Please try again.');
+      return;
+    }
+
+    const data = await res.json();
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      alert('Stripe checkout URL missing.');
+    }
+  } catch (err) {
+    console.error('Checkout error', err);
+    alert('Something went wrong starting checkout.');
+  }
+};
+
   // generic range starter
   const startRange = (min, max) => {
   if (!allQuestions || allQuestions.length === 0) return;
@@ -381,39 +404,62 @@ if (!hasAccess) {
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
           {renderButtonsRow()}
         </div>
-        <div style={styles.card}>
-          <h2 style={{ fontSize: 18, marginTop: 0, marginBottom: 8 }}>
-            Enter access code
-          </h2>
-          <p style={{ fontSize: 14, marginBottom: 8 }}>
-            This area is locked. Enter your access code to unlock all 200 questions.
-          </p>
-          <form onSubmit={handleCodeSubmit}>
-            <input
-              type="password"
-              value={codeInput}
-              onChange={(e) => setCodeInput(e.target.value)}
-              placeholder="Access code"
-              style={{
-                width: '100%',
-                padding: '8px 10px',
-                borderRadius: 8,
-                border: '1px solid #c5c8ff',
-                marginBottom: 8,
-                fontSize: 14
-              }}
-            />
-            <button
-              type="submit"
-              style={{
-                ...styles.submitBtn(false),
-                display: 'inline-block'
-              }}
-            >
-              Unlock
-            </button>
-          </form>
-        </div>
+       <div style={styles.card}>
+  <h2 style={{ fontSize: 18, marginTop: 0, marginBottom: 8 }}>
+    Access required
+  </h2>
+  <p style={{ fontSize: 14, marginBottom: 8 }}>
+    Unlock all 200 Ontario G1 practice questions.
+  </p>
+
+  <form onSubmit={handleCodeSubmit} style={{ marginBottom: 12 }}>
+    <label style={{ fontSize: 13, display: 'block', marginBottom: 4 }}>
+      Have an access code?
+    </label>
+    <input
+      type="password"
+      value={codeInput}
+      onChange={(e) => setCodeInput(e.target.value)}
+      placeholder="Enter access code"
+      style={{
+        width: '100%',
+        padding: '8px 10px',
+        borderRadius: 8,
+        border: '1px solid #c5c8ff',
+        marginBottom: 8,
+        fontSize: 14
+      }}
+    />
+    <button
+      type="submit"
+      style={{
+        ...styles.submitBtn(false),
+        display: 'inline-block'
+      }}
+    >
+      Unlock with code
+    </button>
+  </form>
+
+  <div
+    style={{
+      borderTop: '1px solid #ececff',
+      paddingTop: 10,
+      marginTop: 4,
+      fontSize: 13
+    }}
+  >
+    <p style={{ margin: '0 0 6px' }}>No code? Subscribe to unlock instantly:</p>
+    <button
+      type="button"
+      onClick={handleSubscribeClick}
+      style={styles.submitBtn(false)}
+    >
+      Subscribe · $15/month
+    </button>
+  </div>
+</div>
+
       </div>
     </div>
   );
