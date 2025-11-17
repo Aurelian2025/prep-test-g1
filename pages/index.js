@@ -14,8 +14,15 @@ const styles = {
     padding: '16px 16px 40px'
   },
   header: {
-    marginBottom: 16
-  },
+  position: 'sticky',
+  top: 0,
+  zIndex: 20,
+  background: '#f4f4ff',
+  padding: '8px 0 10px',
+  marginBottom: 12,
+  borderBottom: '1px solid #dde0ff'
+},
+
   title: {
   fontSize: 32,
   fontWeight: 900,
