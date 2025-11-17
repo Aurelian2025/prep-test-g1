@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const ACCESS_CODE = 'ONTARIO-G1-ACCESS';
+const ACCESS_CODE = 'Lucas';
 
 const styles = {
   page: {
