@@ -180,6 +180,10 @@ function getNumericId(q) {
   if (!m) return 0;
   return parseInt(m[m.length - 1], 10);
 }
+function isSignQuestion(q) {
+  if (!q || !q.category) return false;
+  return q.category.toLowerCase().startsWith('sign');
+}
 
 export default function PrepTestG1() {
   const [allQuestions, setAllQuestions] = useState(null);
@@ -247,27 +251,42 @@ export default function PrepTestG1() {
     setDone(false);
   };
 
-  const startRange = (min, max) => {
-    if (!allQuestions) return;
-    const subset = allQuestions
-      .filter((one) => {
-        const n = getNumericId(one);
-        return n >= min && n <= max;
-      })
-      .sort((a, b) => getNumericId(a) - getNumericId(b))
-      .map(shuffleQuestionChoices);
-    setQuestions(subset);
-    setCurrent(0);
-    setPicked(null);
-    setDone(false);
-    setCorrectCount(0);
-  };
+  const startSet = (setIndex) => {
+  if (!allQuestions || allQuestions.length === 0) return;
 
-  const start1 = () => startRange(1, 40);
-  const start41 = () => startRange(41, 80);
-  const start81 = () => startRange(81, 120);
-  const start121 = () => startRange(121, 160);
-  const start161 = () => startRange(161, 200);
+  // Separate sign questions vs rule/demerit questions
+  const signQuestions = allQuestions
+    .filter(isSignQuestion)
+    .sort((a, b) => getNumericId(a) - getNumericId(b));
+
+  const ruleQuestions = allQuestions
+    .filter((q) => !isSignQuestion(q))
+    .sort((a, b) => getNumericId(a) - getNumericId(b));
+
+  // Each set uses 20 signs + 20 rules, with offset per set
+  const offset = setIndex * 20;
+
+  const pickedSigns = signQuestions.slice(offset, offset + 20);
+  const pickedRules = ruleQuestions.slice(offset, offset + 20);
+
+  // Combine, keep them ordered by numeric id, then shuffle choices
+  const combined = [...pickedSigns, ...pickedRules]
+    .sort((a, b) => getNumericId(a) - getNumericId(b))
+    .map(shuffleQuestionChoices);
+
+  setQuestions(combined);
+  setCurrent(0);
+  setPicked(null);
+  setDone(false);
+  setCorrectCount(0);
+};
+
+const start1 = () => startSet(0);   // first 20 signs + first 20 rules
+const start41 = () => startSet(1);  // next 20 + next 20
+const start81 = () => startSet(2);
+const start121 = () => startSet(3);
+const start161 = () => startSet(4);
+
 
   const handleCodeSubmit = (e) => {
     e.preventDefault();
