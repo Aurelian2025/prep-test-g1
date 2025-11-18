@@ -468,38 +468,57 @@ export default function PrepTestG1() {
   }
 
   // main quiz view
-  return (
-    <div style={styles.page}>
-      <div style={styles.container}>
-        <div style={styles.header}>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center'
-            }}
-          >
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {hasAccess && (
-              <button
-                type="button"
-                onClick={handleLogout}
-                style={{
-                  border: 'none',
-                  borderRadius: 999,
-                  padding: '6px 12px',
-                  fontSize: 12,
-                  cursor: 'pointer',
-                  background: '#e0e2ff',
-                  color: '#333'
-                }}
-              >
-                Log out
-              </button>
-            )}
-          </div>
-          {renderButtonsRow()}
+  // main quiz view
+return (
+  <div style={styles.page}>
+    <style jsx global>{`
+      .question-anim {
+        animation: questionFadeIn 0.22s ease-out;
+      }
+
+      @keyframes questionFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    `}</style>
+
+    <div style={styles.container}>
+      <div style={styles.header}>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center'
+          }}
+        >
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+          {hasAccess && (
+            <button
+              type="button"
+              onClick={handleLogout}
+              style={{
+                border: 'none',
+                borderRadius: 999,
+                padding: '6px 12px',
+                fontSize: 12,
+                cursor: 'pointer',
+                background: '#e0e2ff',
+                color: '#333'
+              }}
+            >
+              Log out
+            </button>
+          )}
         </div>
+        {renderButtonsRow()}
+      </div>
+
 
         <div
           style={{
@@ -531,50 +550,52 @@ export default function PrepTestG1() {
             <span>Correct: {correctCount}</span>
           </div>
 
-          <div style={styles.promptArea}>
-            {q.image && (
-              <div style={styles.imgWrap}>
-                <img src={q.image} alt="Road sign" style={styles.img} />
-              </div>
-            )}
+         {/* 👇 animated block starts here */}
+          <div key={globalNumber} className="question-anim">
+            <div style={styles.promptArea}>
+              {q.image && (
+                <div style={styles.imgWrap}>
+                  <img src={q.image} alt="Road sign" style={styles.img} />
+                </div>
+              )}
 
-            <div style={styles.questionText}>{q.question}</div>
-          </div>
+              <div style={styles.questionText}>{q.question}</div>
+            </div>
 
-          <ul style={styles.choices}>
-            {q.choices.map((choice, idx) => (
-              <li key={idx}>
-                <button
-                  type="button"
-                  style={styles.choiceBtn(
-                    idx,
-                    picked,
-                    q.correctIndex,
-                    done
-                  )}
-                  onClick={() => !done && setPicked(idx)}
-                >
-                  <strong>{String.fromCharCode(65 + idx)}.</strong>{' '}
-                  {choice}
-                </button>
-              </li>
-            ))}
-          </ul>
+            <ul style={styles.choices}>
+              {q.choices.map((choice, idx) => (
+                <li key={idx}>
+                  <button
+                    type="button"
+                    style={styles.choiceBtn(
+                      idx,
+                      picked,
+                      q.correctIndex,
+                      done
+                    )}
+                    onClick={() => !done && setPicked(idx)}
+                  >
+                    <strong>{String.fromCharCode(65 + idx)}.</strong>{' '}
+                    {choice}
+                  </button>
+                </li>
+              ))}
+            </ul>
 
-          <button
-            type="button"
-            onClick={done ? nextQuestion : submit}
-            disabled={picked === null || (done && isLastQuestion)}
-            style={styles.submitBtn(
-              picked === null || (done && isLastQuestion)
-            )}
-          >
-            {done
-              ? isLastQuestion
-                ? 'End of set'
-                : 'Next question'
-              : 'Submit'}
-          </button>
+            <button
+              type="button"
+              onClick={done ? nextQuestion : submit}
+              disabled={picked === null || (done && isLastQuestion)}
+              style={styles.submitBtn(
+                picked === null || (done && isLastQuestion)
+              )}
+            >
+              {done
+                ? isLastQuestion
+                  ? 'End of set'
+                  : 'Next question'
+                : 'Submit'}
+            </button>
 
           {done && (
             <div style={styles.explanation}>
