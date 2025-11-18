@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 
 const ACCESS_CODE = 'Lucas';
@@ -155,10 +154,10 @@ const styles = {
   }
 };
 
-// shuffle helpers
+// shuffle
 function shuffleArray(arr) {
   const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
+  for (let i = copy.length - i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
@@ -166,23 +165,25 @@ function shuffleArray(arr) {
 }
 
 function shuffleQuestionChoices(q) {
-  const indices = q.choices.map((_, i) => i);
-  const shuffledIdx = shuffleArray(indices);
-  const newChoices = shuffledIdx.map((i) => q.choices[i]);
-  const newCorrectIndex = shuffledIdx.indexOf(q.correctIndex);
-  return { ...q, choices: newChoices, correctIndex: newCorrectIndex };
+  const idx = q.choices.map((_, i) => i);
+  const sh = shuffleArray(idx);
+  return {
+    ...q,
+    choices: sh.map((i) => q.choices[i]),
+    correctIndex: sh.indexOf(q.correctIndex)
+  };
 }
 
 function getNumericId(q) {
   if (!q || !q.id) return 0;
-  const matches = q.id.match(/\d+/g);
-  if (!matches || matches.length === 0) return 0;
-  return parseInt(matches[matches.length - 1], 10);
+  const m = q.id.match(/\d+/g);
+  if (!m) return 0;
+  return parseInt(m[m.length - 1], 10);
 }
 
 export default function PrepTestG1() {
-  const [allQuestions, setAllQuestions] = useState(null); // full 1–200
-  const [questions, setQuestions] = useState([]); // current set
+  const [allQuestions, setAllQuestions] = useState(null);
+  const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
@@ -191,97 +192,82 @@ export default function PrepTestG1() {
   const [hasAccess, setHasAccess] = useState(false);
   const [codeInput, setCodeInput] = useState('');
 
-  // load questions.json
+  // load JSON
   useEffect(() => {
     fetch('/questions.json')
-      .then((res) => res.json())
+      .then((r) => r.json())
       .then((data) => {
         setAllQuestions(data);
-        // default: start with full list ordered, choices shuffled
         const ordered = data
           .slice()
           .sort((a, b) => getNumericId(a) - getNumericId(b))
           .map(shuffleQuestionChoices);
         setQuestions(ordered);
       })
-      .catch((err) => {
-        console.error('Failed to load questions.json', err);
+      .catch(() => {
         setAllQuestions([]);
         setQuestions([]);
       });
   }, []);
 
-  // read access flag
+  // access from localStorage
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const stored = window.localStorage.getItem('g1_access_v2');
-      if (stored === 'yes') {
-        setHasAccess(true);
-      }
+      if (stored === 'yes') setHasAccess(true);
     }
   }, []);
 
-  const hasQuestions = questions && questions.length > 0;
+  const hasQuestionsFlag = questions.length > 0;
 
-  // clamp current index
   let safeIndex = current;
-  if (hasQuestions) {
+  if (hasQuestionsFlag) {
     if (safeIndex < 0) safeIndex = 0;
-    if (safeIndex > questions.length - 1) safeIndex = questions.length - 1;
-  } else {
-    safeIndex = 0;
-  }
+    if (safeIndex >= questions.length) safeIndex = questions.length - 1;
+  } else safeIndex = 0;
 
-  const q = hasQuestions ? questions[safeIndex] : null;
-  const isLastQuestion = hasQuestions && safeIndex === questions.length - 1;
+  const q = hasQuestionsFlag ? questions[safeIndex] : null;
+  const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
   const globalNumber = q ? getNumericId(q) : 0;
   const totalGlobal = allQuestions ? allQuestions.length : 0;
-
-  const inSetNumber = hasQuestions ? safeIndex + 1 : 0;
-  const inSetTotal = hasQuestions ? questions.length : 0;
-  const progressPercent =
-    inSetTotal > 0 ? (inSetNumber / inSetTotal) * 100 : 0;
+  const inSet = safeIndex + 1;
+  const inSetTotal = hasQuestionsFlag ? questions.length : 0;
+  const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
-    if (picked === q.correctIndex) {
-      setCorrectCount((c) => c + 1);
-    }
+    if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
     setDone(true);
   };
 
-  const nextQuestion = () => {
-    if (!hasQuestions) return;
-    setCurrent((prev) => {
-      if (prev >= questions.length - 1) return prev;
-      return prev + 1;
-    });
+  const next = () => {
+    if (!hasQuestionsFlag) return;
+    setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
     setPicked(null);
     setDone(false);
   };
 
   const startRange = (min, max) => {
-    if (!allQuestions || allQuestions.length === 0) return;
-    const orderedWithShuffledChoices = allQuestions
+    if (!allQuestions) return;
+    const subset = allQuestions
       .filter((one) => {
         const n = getNumericId(one);
         return n >= min && n <= max;
       })
       .sort((a, b) => getNumericId(a) - getNumericId(b))
       .map(shuffleQuestionChoices);
-
-    setQuestions(orderedWithShuffledChoices);
+    setQuestions(subset);
     setCurrent(0);
     setPicked(null);
     setDone(false);
     setCorrectCount(0);
   };
 
-  const start1to40 = () => startRange(1, 40);
-  const start41to80 = () => startRange(41, 80);
-  const start81to120 = () => startRange(81, 120);
-  const start121to160 = () => startRange(121, 160);
-  const start161to200 = () => startRange(161, 200);
+  const start1 = () => startRange(1, 40);
+  const start41 = () => startRange(41, 80);
+  const start81 = () => startRange(81, 120);
+  const start121 = () => startRange(121, 160);
+  const start161 = () => startRange(161, 200);
 
   const handleCodeSubmit = (e) => {
     e.preventDefault();
@@ -290,32 +276,14 @@ export default function PrepTestG1() {
       if (typeof window !== 'undefined') {
         window.localStorage.setItem('g1_access_v2', 'yes');
       }
-    } else {
-      alert('Incorrect access code');
-    }
+    } else alert('Incorrect access code');
   };
 
-  const handleSubscribeClick = async () => {
-    try {
-      const res = await fetch('/api/create-checkout-session', {
-        method: 'POST'
-      });
-
-      if (!res.ok) {
-        alert('Could not start checkout. Please try again.');
-        return;
-      }
-
-      const data = await res.json();
-      if (data.url) {
-        window.location.href = data.url;
-      } else {
-        alert('Stripe checkout URL missing.');
-      }
-    } catch (err) {
-      console.error('Checkout error', err);
-      alert('Something went wrong starting checkout.');
-    }
+  const handleSubscribe = async () => {
+    const res = await fetch('/api/create-checkout-session', { method: 'POST' });
+    if (!res.ok) return alert('Checkout error');
+    const data = await res.json();
+    if (data.url) window.location.href = data.url;
   };
 
   const handleLogout = () => {
@@ -326,49 +294,37 @@ export default function PrepTestG1() {
     }
   };
 
-  const renderButtonsRow = () => (
+  const renderButtons = () => (
     <div style={styles.buttonsRow}>
-      <button
-        onClick={start1to40}
-        style={{ ...styles.btn, background: '#ffe6a7' }}
-      >
+      <button onClick={start1} style={{ ...styles.btn, background: '#ffe6a7' }}>
         Start 1–40
       </button>
-      <button
-        onClick={start41to80}
-        style={{ ...styles.btn, background: '#ffd5f2' }}
-      >
+      <button onClick={start41} style={{ ...styles.btn, background: '#ffd5f2' }}>
         Start 41–80
       </button>
-      <button
-        onClick={start81to120}
-        style={{ ...styles.btn, background: '#e0c3ff' }}
-      >
+      <button onClick={start81} style={{ ...styles.btn, background: '#e0c3ff' }}>
         Start 81–120
       </button>
       <button
-        onClick={start121to160}
+        onClick={start121}
         style={{ ...styles.btn, background: '#c1ffd7' }}
       >
         Start 121–160
       </button>
-      <button
-        onClick={start161to200}
-        style={{ ...styles.btn, background: '#b3e6ff' }}
-      >
+      <button onClick={start161} style={{ ...styles.btn, background: '#b3e6ff' }}>
         Start 161–200
       </button>
     </div>
   );
 
-  // loading state
+  // loading
   if (!allQuestions) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtonsRow()}
+            {renderButtons()}
           </div>
           <div style={styles.card}>
             <p>Loading questions…</p>
@@ -385,109 +341,70 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtonsRow()}
+            {renderButtons()}
           </div>
           <div style={styles.card}>
-            <h2 style={{ fontSize: 18, marginTop: 0, marginBottom: 8 }}>
-              Access required
-            </h2>
-            <p style={{ fontSize: 14, marginBottom: 8 }}>
-              Unlock all 200 Ontario G1 practice questions.
-            </p>
-
-            <form onSubmit={handleCodeSubmit} style={{ marginBottom: 12 }}>
-              <label
-                style={{ fontSize: 13, display: 'block', marginBottom: 4 }}
-              >
-                Have an access code?
-              </label>
+            <h2>Access required</h2>
+            <form onSubmit={handleCodeSubmit}>
               <input
                 type="password"
+                placeholder="Access code"
                 value={codeInput}
                 onChange={(e) => setCodeInput(e.target.value)}
-                placeholder="Enter access code"
                 style={{
                   width: '100%',
-                  padding: '8px 10px',
+                  padding: 8,
                   borderRadius: 8,
-                  border: '1px solid #c5c8ff',
-                  marginBottom: 8,
-                  fontSize: 14
+                  border: '1px solid #ccc',
+                  marginBottom: 8
                 }}
               />
-              <button
-                type="submit"
-                style={{
-                  ...styles.submitBtn(false),
-                  display: 'inline-block'
-                }}
-              >
-                Unlock with code
-              </button>
+              <button style={styles.submitBtn(false)}>Unlock</button>
             </form>
-
-            <div
-              style={{
-                borderTop: '1px solid #ececff',
-                paddingTop: 10,
-                marginTop: 4,
-                fontSize: 13
-              }}
-            >
-              <p style={{ margin: '0 0 6px' }}>
-                No code? Subscribe to unlock instantly:
-              </p>
-              <button
-                type="button"
-                onClick={handleSubscribeClick}
-                style={styles.submitBtn(false)}
-              >
-                Subscribe · $15/month
-              </button>
-            </div>
+            <hr />
+            <button style={styles.submitBtn(false)} onClick={handleSubscribe}>
+              Subscribe · $15/month
+            </button>
           </div>
         </div>
       </div>
     );
   }
 
-  // no questions at all
-  if (!hasQuestions) {
+  // no questions
+  if (!hasQuestionsFlag) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtonsRow()}
+            {renderButtons()}
           </div>
-          <div style={styles.card}>
-            <p>No questions available. Try starting a set above.</p>
-          </div>
+          <div style={styles.card}>No questions available.</div>
         </div>
       </div>
     );
   }
 
-  // main quiz view
+  // 🌟 MAIN QUIZ VIEW + animation
   return (
     <div style={styles.page}>
-     <style jsx global>{`
-      .question-anim {
-        animation: questionFadeIn 0.22s ease-out;
-      }
+      <style jsx global>{`
+        .question-anim {
+          animation: fadeSlide 0.25s ease-out;
+        }
+        @keyframes fadeSlide {
+          from {
+            opacity: 0;
+            transform: translateY(12px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
 
-      @keyframes questionFadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(8px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-    `}</style>
-    
       <div style={styles.container}>
         <div style={styles.header}>
           <div
@@ -498,143 +415,82 @@ export default function PrepTestG1() {
             }}
           >
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {hasAccess && (
-              <button
-                type="button"
-                onClick={handleLogout}
-                style={{
-                  border: 'none',
-                  borderRadius: 999,
-                  padding: '6px 12px',
-                  fontSize: 12,
-                  cursor: 'pointer',
-                  background: '#e0e2ff',
-                  color: '#333'
-                }}
-              >
-                Log out
-              </button>
-            )}
+            <button
+              onClick={handleLogout}
+              style={{
+                border: 'none',
+                padding: '6px 12px',
+                borderRadius: 999,
+                background: '#e0e2ff',
+                cursor: 'pointer'
+              }}
+            >
+              Log out
+            </button>
           </div>
-          {renderButtonsRow()}
+          {renderButtons()}
         </div>
 
         <div
           style={{
             ...styles.card,
             ...(cardRaised
-              ? {
-                  boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
-                  transform: 'translateY(-2px)'
-                }
+              ? { boxShadow: '0 10px 24px rgba(0,0,0,0.16)', transform: 'translateY(-2px)' }
               : {})
           }}
           onMouseEnter={() => setCardRaised(true)}
           onMouseLeave={() => setCardRaised(false)}
         >
           <div style={styles.progressOuter}>
-            <div
-              style={{
-                ...styles.progressInner,
-                width: `${progressPercent}%`
-              }}
-            />
+            <div style={{ ...styles.progressInner, width: `${pct}%` }} />
           </div>
 
           <div style={styles.metaRow}>
             <span>
-              Question {globalNumber} of {totalGlobal}
-              {inSetTotal > 0 ? ` · Set: ${inSetNumber}/${inSetTotal}` : ''}
+              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
             </span>
             <span>Correct: {correctCount}</span>
           </div>
 
-                 <div
-          style={{
-            ...styles.card,
-            ...(cardRaised
-              ? {
-                  boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
-                  transform: 'translateY(-2px)'
-                }
-              : {})
-          }}
-          onMouseEnter={() => setCardRaised(true)}
-          onMouseLeave={() => setCardRaised(false)}
-        >
-          <div style={styles.progressOuter}>
-            <div
-              style={{
-                ...styles.progressInner,
-                width: `${progressPercent}%`
-              }}
-            />
-          </div>
+          {/* 🔥 ANIMATED CONTENT WRAPPER */}
+          <div key={globalNumber} className="question-anim">
+            <div style={styles.promptArea}>
+              {q.image && (
+                <div style={styles.imgWrap}>
+                  <img src={q.image} style={styles.img} alt="img" />
+                </div>
+              )}
+              <div style={styles.questionText}>{q.question}</div>
+            </div>
 
-          <div style={styles.metaRow}>
-            <span>
-              Question {globalNumber} of {totalGlobal}
-              {inSetTotal > 0 ? ` · Set: ${inSetNumber}/${inSetTotal}` : ''}
-            </span>
-            <span>Correct: {correctCount}</span>
-          </div>
+            <ul style={styles.choices}>
+              {q.choices.map((c, idx) => (
+                <li key={idx}>
+                  <button
+                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
+                    onClick={() => !done && setPicked(idx)}
+                  >
+                    <strong>{String.fromCharSeq(65 + idx)}.</strong> {c}
+                  </button>
+                </li>
+              ))}
+            </ul>
 
-          <div style={styles.promptArea}>
-            {q.image && (
-              <div style={styles.imgWrap}>
-                <img src={q.image} alt="Road sign" style={styles.img} />
+            <button
+              style={styles.submitBtn(picked === null || (done && isLast))}
+              disabled={picked === null || (done && isLast)}
+              onClick={done ? next : submit}
+            >
+              {done ? (isLast ? 'End of set' : 'Next question') : 'Submit'}
+            </button>
+
+            {done && (
+              <div style={styles.explanation}>
+                <strong>{picked === q.correctIndex ? 'Correct!' : 'Not quite.'}</strong>{' '}
+                {q.explanation}
               </div>
             )}
-
-            <div style={styles.questionText}>{q.question}</div>
           </div>
-
-          <ul style={styles.choices}>
-            {q.choices.map((choice, idx) => (
-              <li key={idx}>
-                <button
-                  type="button"
-                  style={styles.choiceBtn(
-                    idx,
-                    picked,
-                    q.correctIndex,
-                    done
-                  )}
-                  onClick={() => !done && setPicked(idx)}
-                >
-                  <strong>{String.fromCharCode(65 + idx)}.</strong>{' '}
-                  {choice}
-                </button>
-              </li>
-            ))}
-          </ul>
-
-          <button
-            type="button"
-            onClick={done ? nextQuestion : submit}
-            disabled={picked === null || (done && isLastQuestion)}
-            style={styles.submitBtn(
-              picked === null || (done && isLastQuestion)
-            )}
-          >
-            {done
-              ? isLastQuestion
-                ? 'End of set'
-                : 'Next question'
-              : 'Submit'}
-          </button>
-
-          {done && (
-            <div style={styles.explanation}>
-              <strong>
-                {picked === q.correctIndex ? 'Correct!' : 'Not quite.'}
-              </strong>{' '}
-              {q.explanation}
-            </div>
-          )}
-        </div>
-
-          )}
         </div>
       </div>
     </div>
