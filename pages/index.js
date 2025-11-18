@@ -157,7 +157,7 @@ const styles = {
 // shuffle
 function shuffleArray(arr) {
   const copy = [...arr];
-  for (let i = copy.length - i > 0; i--) {
+  for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
@@ -470,7 +470,7 @@ export default function PrepTestG1() {
                     style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
                     onClick={() => !done && setPicked(idx)}
                   >
-                    <strong>{String.fromCharSeq(65 + idx)}.</strong> {c}
+                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
                   </button>
                 </li>
               ))}
