@@ -157,7 +157,7 @@ const styles = {
 // shuffle
 function shuffleArray(arr) {
   const copy = [...arr];
-   for (let i = copy.length - 1; i > 0; i--) {
+  for (let i = copy.length - i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
@@ -180,34 +180,82 @@ function getNumericId(q) {
   if (!m) return 0;
   return parseInt(m[m.length - 1], 10);
 }
-// Build sets by numeric ID ranges instead of sign/rule balance
-const startRange = (min, max) => {
-  if (!allQuestions || allQuestions.length === 0) return;
 
-  const subset = allQuestions
-    .filter((one) => {
-      const n = getNumericId(one);
-      return n >= min && n <= max;
-    })
-    .sort((a, b) => getNumericId(a) - getNumericId(b))
-    .map(shuffleQuestionChoices);
+export default function PrepTestG1() {
+  const [allQuestions, setAllQuestions] = useState(null);
+  const [questions, setQuestions] = useState([]);
+  const [current, setCurrent] = useState(0);
+  const [picked, setPicked] = useState(null);
+  const [done, setDone] = useState(false);
+  const [correctCount, setCorrectCount] = useState(0);
+  const [cardRaised, setCardRaised] = useState(false);
+  const [hasAccess, setHasAccess] = useState(false);
+  const [codeInput, setCodeInput] = useState('');
 
-    const startSet = (setIndex) => {
-    if (!allQuestions || allQuestions.length === 0) return;
+  // load JSON
+  useEffect(() => {
+    fetch('/questions.json')
+      .then((r) => r.json())
+      .then((data) => {
+        setAllQuestions(data);
+        const ordered = data
+          .slice()
+          .sort((a, b) => getNumericId(a) - getNumericId(b))
+          .map(shuffleQuestionChoices);
+        setQuestions(ordered);
+      })
+      .catch(() => {
+        setAllQuestions([]);
+        setQuestions([]);
+      });
+  }, []);
 
-    // Sort all questions by numeric ID once
-    const ordered = allQuestions
-      .slice()
-      .sort((a, b) => getNumericId(a) - getNumericId(b));
+  // access from localStorage
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = window.localStorage.getItem('g1_access_v2');
+      if (stored === 'yes') setHasAccess(true);
+    }
+  }, []);
 
-    // Each set is 40 questions: 0–39, 40–79, 80–119, etc.
-    const start = setIndex * 40;
-    const end = start + 40;
+  const hasQuestionsFlag = questions.length > 0;
 
-    const subset = ordered
-      .slice(start, end)
+  let safeIndex = current;
+  if (hasQuestionsFlag) {
+    if (safeIndex < 0) safeIndex = 0;
+    if (safeIndex >= questions.length) safeIndex = questions.length - 1;
+  } else safeIndex = 0;
+
+  const q = hasQuestionsFlag ? questions[safeIndex] : null;
+  const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
+  const globalNumber = q ? getNumericId(q) : 0;
+  const totalGlobal = allQuestions ? allQuestions.length : 0;
+  const inSet = safeIndex + 1;
+  const inSetTotal = hasQuestionsFlag ? questions.length : 0;
+  const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
+
+  const submit = () => {
+    if (!q || picked === null || done) return;
+    if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
+    setDone(true);
+  };
+
+  const next = () => {
+    if (!hasQuestionsFlag) return;
+    setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+    setPicked(null);
+    setDone(false);
+  };
+
+  const startRange = (min, max) => {
+    if (!allQuestions) return;
+    const subset = allQuestions
+      .filter((one) => {
+        const n = getNumericId(one);
+        return n >= min && n <= max;
+      })
+      .sort((a, b) => getNumericId(a) - getNumericId(b))
       .map(shuffleQuestionChoices);
-
     setQuestions(subset);
     setCurrent(0);
     setPicked(null);
@@ -215,11 +263,12 @@ const startRange = (min, max) => {
     setCorrectCount(0);
   };
 
-  const start1 = () => startSet(0);   // first 40 questions
-  const start41 = () => startSet(1);  // next 40
-  const start81 = () => startSet(2);  // next 40
-  const start121 = () => startSet(3); // next 40
-  const start161 = () => startSet(4); // next 40
+  const start1 = () => startRange(1, 40);
+  const start41 = () => startRange(41, 80);
+  const start81 = () => startRange(81, 120);
+  const start121 = () => startRange(121, 160);
+  const start161 = () => startRange(161, 200);
+
   const handleCodeSubmit = (e) => {
     e.preventDefault();
     if (codeInput.trim() === ACCESS_CODE) {
@@ -421,7 +470,7 @@ const startRange = (min, max) => {
                     style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
                     onClick={() => !done && setPicked(idx)}
                   >
-                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+                    <strong>{String.fromCharSeq(65 + idx)}.</strong> {c}
                   </button>
                 </li>
               ))}
