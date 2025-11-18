@@ -268,7 +268,9 @@ export default function PrepTestG1() {
   const start81 = () => startRange(81, 120);
   const start121 = () => startRange(121, 160);
   const start161 = () => startRange(161, 200);
+  const start201 = () => startRange(201, 240); // 201–240
 
+  
   const handleCodeSubmit = (e) => {
     e.preventDefault();
     if (codeInput.trim() === ACCESS_CODE) {
@@ -314,6 +316,13 @@ export default function PrepTestG1() {
       <button onClick={start161} style={{ ...styles.btn, background: '#b3e6ff' }}>
         Start 161–200
       </button>
+      <button
+    onClick={start201}
+    style={{ ...styles.btn, background: '#d4c4ff' }}
+  >
+    Start 201–240
+  </button>
+
     </div>
   );
 
