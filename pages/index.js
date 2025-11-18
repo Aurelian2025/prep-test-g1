@@ -180,112 +180,30 @@ function getNumericId(q) {
   if (!m) return 0;
   return parseInt(m[m.length - 1], 10);
 }
-function isSignQuestion(q) {
-  if (!q || !q.category) return false;
-  return q.category.toLowerCase().startsWith('sign');
-}
-
-export default function PrepTestG1() {
-  const [allQuestions, setAllQuestions] = useState(null);
-  const [questions, setQuestions] = useState([]);
-  const [current, setCurrent] = useState(0);
-  const [picked, setPicked] = useState(null);
-  const [done, setDone] = useState(false);
-  const [correctCount, setCorrectCount] = useState(0);
-  const [cardRaised, setCardRaised] = useState(false);
-  const [hasAccess, setHasAccess] = useState(false);
-  const [codeInput, setCodeInput] = useState('');
-
-  // load JSON
-  useEffect(() => {
-    fetch('/questions.json')
-      .then((r) => r.json())
-      .then((data) => {
-        setAllQuestions(data);
-        const ordered = data
-          .slice()
-          .sort((a, b) => getNumericId(a) - getNumericId(b))
-          .map(shuffleQuestionChoices);
-        setQuestions(ordered);
-      })
-      .catch(() => {
-        setAllQuestions([]);
-        setQuestions([]);
-      });
-  }, []);
-
-  // access from localStorage
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const stored = window.localStorage.getItem('g1_access_v2');
-      if (stored === 'yes') setHasAccess(true);
-    }
-  }, []);
-
-  const hasQuestionsFlag = questions.length > 0;
-
-  let safeIndex = current;
-  if (hasQuestionsFlag) {
-    if (safeIndex < 0) safeIndex = 0;
-    if (safeIndex >= questions.length) safeIndex = questions.length - 1;
-  } else safeIndex = 0;
-
-  const q = hasQuestionsFlag ? questions[safeIndex] : null;
-  const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
-  const globalNumber = q ? getNumericId(q) : 0;
-  const totalGlobal = allQuestions ? allQuestions.length : 0;
-  const inSet = safeIndex + 1;
-  const inSetTotal = hasQuestionsFlag ? questions.length : 0;
-  const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
-
-  const submit = () => {
-    if (!q || picked === null || done) return;
-    if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
-    setDone(true);
-  };
-
-  const next = () => {
-    if (!hasQuestionsFlag) return;
-    setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-    setPicked(null);
-    setDone(false);
-  };
-
-  const startSet = (setIndex) => {
+// Build sets by numeric ID ranges instead of sign/rule balance
+const startRange = (min, max) => {
   if (!allQuestions || allQuestions.length === 0) return;
 
-  // Separate sign questions vs rule/demerit questions
-  const signQuestions = allQuestions
-    .filter(isSignQuestion)
-    .sort((a, b) => getNumericId(a) - getNumericId(b));
-
-  const ruleQuestions = allQuestions
-    .filter((q) => !isSignQuestion(q))
-    .sort((a, b) => getNumericId(a) - getNumericId(b));
-
-  // Each set uses 20 signs + 20 rules, with offset per set
-  const offset = setIndex * 20;
-
-  const pickedSigns = signQuestions.slice(offset, offset + 20);
-  const pickedRules = ruleQuestions.slice(offset, offset + 20);
-
-  // Combine, keep them ordered by numeric id, then shuffle choices
-  const combined = [...pickedSigns, ...pickedRules]
+  const subset = allQuestions
+    .filter((one) => {
+      const n = getNumericId(one);
+      return n >= min && n <= max;
+    })
     .sort((a, b) => getNumericId(a) - getNumericId(b))
     .map(shuffleQuestionChoices);
 
-  setQuestions(combined);
+  setQuestions(subset);
   setCurrent(0);
   setPicked(null);
   setDone(false);
   setCorrectCount(0);
 };
 
-const start1 = () => startSet(0);   // first 20 signs + first 20 rules
-const start41 = () => startSet(1);  // next 20 + next 20
-const start81 = () => startSet(2);
-const start121 = () => startSet(3);
-const start161 = () => startSet(4);
+const start1 = () => startRange(1, 40);      // questions 1–40
+const start41 = () => startRange(41, 80);    // 41–80
+const start81 = () => startRange(81, 120);   // 81–120
+const start121 = () => startRange(121, 160); // 121–160
+const start161 = () => startRange(161, 200); // 161–200 (your new 201–210 are extra for now)
 
 
   const handleCodeSubmit = (e) => {
