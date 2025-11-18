@@ -192,20 +192,34 @@ const startRange = (min, max) => {
     .sort((a, b) => getNumericId(a) - getNumericId(b))
     .map(shuffleQuestionChoices);
 
-  setQuestions(subset);
-  setCurrent(0);
-  setPicked(null);
-  setDone(false);
-  setCorrectCount(0);
-};
+    const startSet = (setIndex) => {
+    if (!allQuestions || allQuestions.length === 0) return;
 
-const start1 = () => startRange(1, 40);      // questions 1–40
-const start41 = () => startRange(41, 80);    // 41–80
-const start81 = () => startRange(81, 120);   // 81–120
-const start121 = () => startRange(121, 160); // 121–160
-const start161 = () => startRange(161, 200); // 161–200 (your new 201–210 are extra for now)
+    // Sort all questions by numeric ID once
+    const ordered = allQuestions
+      .slice()
+      .sort((a, b) => getNumericId(a) - getNumericId(b));
 
+    // Each set is 40 questions: 0–39, 40–79, 80–119, etc.
+    const start = setIndex * 40;
+    const end = start + 40;
 
+    const subset = ordered
+      .slice(start, end)
+      .map(shuffleQuestionChoices);
+
+    setQuestions(subset);
+    setCurrent(0);
+    setPicked(null);
+    setDone(false);
+    setCorrectCount(0);
+  };
+
+  const start1 = () => startSet(0);   // first 40 questions
+  const start41 = () => startSet(1);  // next 40
+  const start81 = () => startSet(2);  // next 40
+  const start121 = () => startSet(3); // next 40
+  const start161 = () => startSet(4); // next 40
   const handleCodeSubmit = (e) => {
     e.preventDefault();
     if (codeInput.trim() === ACCESS_CODE) {
