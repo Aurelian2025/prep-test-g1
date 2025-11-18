@@ -4530,5 +4530,120 @@
     ],
     "image": null,
     "notes": "Playful end-of-set question reinforcing the message about taking breaks."
-  }
+  }, {
+  "id": "q-safe-following-distance-201",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "When driving behind another vehicle in good weather, what is the safest minimum following distance?",
+  "choices": [
+    "At least two seconds behind the vehicle ahead",
+    "Half a car length per 10 km/h",
+    "One second behind the vehicle ahead",
+    "As close as possible without losing sight of the rear tires"
+  ],
+  "correctIndex": 0,
+  "explanation": "The MTO recommends using the two-second rule in ideal conditions to give drivers enough time to react and stop safely.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Following Distance",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
+    }
+  ],
+  "image": null,
+  "notes": "Foundational rule-based question."
+},
+{
+  "id": "q-right-of-way-four-way-stop-202",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "At a four-way stop, two vehicles arrive at the same time. Who should proceed first?",
+  "choices": [
+    "The vehicle on the right has the right-of-way",
+    "The vehicle on the left has the right-of-way",
+    "The vehicle going straight always goes first",
+    "The largest vehicle goes first"
+  ],
+  "correctIndex": 0,
+  "explanation": "When two vehicles arrive at a four-way stop simultaneously, the driver on the left must yield to the driver on the right.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Intersections",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/intersections-and-turns"
+    }
+  ],
+  "image": null,
+  "notes": "Right-of-way scenario question."
+},
+{
+  "id": "q-blind-spots-check-203",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "Before changing lanes on a multi-lane road, what must a driver do to check blind spots properly?",
+  "choices": [
+    "Look over the appropriate shoulder in addition to checking mirrors",
+    "Rely only on the rear-view mirror",
+    "Speed up to avoid vehicles beside you",
+    "Signal and drift toward the lane slowly until other drivers honk"
+  ],
+  "correctIndex": 0,
+  "explanation": "Blind spots cannot be seen in mirrors. Shoulder-checks ensure no vehicles, cyclists, or motorcycles are hidden beside you.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Blind Spots",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
+    }
+  ],
+  "image": null,
+  "notes": "Basic blind-spot awareness question."
+},
+{
+  "id": "q-high-beam-dimming-204",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "When must you dim your high-beam headlights at night?",
+  "choices": [
+    "Whenever you are within 150 metres of an oncoming vehicle",
+    "Only when the other driver flashes their lights",
+    "Only on well-lit streets",
+    "Only when following a police vehicle"
+  ],
+  "correctIndex": 0,
+  "explanation": "High beams must be dimmed within 150 metres of oncoming traffic to avoid impairing the vision of other drivers.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Headlights",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/lights"
+    }
+  ],
+  "image": null,
+  "notes": "Night-driving safety rule."
+},
+{
+  "id": "q-emergency-vehicle-yield-205",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "If an emergency vehicle with flashing lights and siren approaches from behind, what must you do?",
+  "choices": [
+    "Signal, pull as far right as possible, and stop",
+    "Speed up to avoid blocking them",
+    "Continue driving but move slightly to the left",
+    "Stop immediately in your lane, even on a highway"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers must pull far right and stop to allow emergency vehicles to pass safely and quickly.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Emergency Vehicles",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/hazardous-conditions"
+    }
+  ],
+  "image": null,
+  "notes": "Emergency right-of-way rule."
+}
+
 ]
