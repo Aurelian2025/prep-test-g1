@@ -4551,7 +4551,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
     }
   ],
-  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='8' y='26' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='13' cy='38' r='3' fill='%23004f9f'/><circle cx='19' cy='38' r='3' fill='%23004f9f'/><rect x='40' y='26' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='45' cy='38' r='3' fill='%23004f9f'/><circle cx='51' cy='38' r='3' fill='%23004f9f'/><circle cx='30' cy='30' r='1.2' fill='%23aaaaaa'/><circle cx='32' cy='30' r='1.2' fill='%23aaaaaa'/><circle cx='34' cy='30' r='1.2' fill='%23aaaaaa'/></svg>",
+  "image": "car-following.jpg",
   "notes": "Foundational rule-based question."
 },
 {
@@ -4574,7 +4574,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/intersections-and-turns"
     }
   ],
-  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='28' y='8' width='8' height='48' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><rect x='8' y='28' width='48' height='8' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><circle cx='32' cy='32' r='6' fill='none' stroke='%23c62828' stroke-width='3'/></svg>",
+  "image": "right-way.jpg",
   "notes": "Right-of-way scenario question."
 },
 {
