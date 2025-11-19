@@ -4530,7 +4530,8 @@
     ],
     "image": null,
     "notes": "Playful end-of-set question reinforcing the message about taking breaks."
-  }, {
+  },
+{
   "id": "q-safe-following-distance-201",
   "brand": "Prep test G1",
   "lang": "en",
@@ -4551,7 +4552,6 @@
     }
   ],
   "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='8' y='26' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='13' cy='38' r='3' fill='%23004f9f'/><circle cx='19' cy='38' r='3' fill='%23004f9f'/><rect x='40' y='26' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='45' cy='38' r='3' fill='%23004f9f'/><circle cx='51' cy='38' r='3' fill='%23004f9f'/><circle cx='30' cy='30' r='1.2' fill='%23aaaaaa'/><circle cx='32' cy='30' r='1.2' fill='%23aaaaaa'/><circle cx='34' cy='30' r='1.2' fill='%23aaaaaa'/></svg>",
-    
   "notes": "Foundational rule-based question."
 },
 {
@@ -4574,8 +4574,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/intersections-and-turns"
     }
   ],
- "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='28' y='8' width='8' height='48' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><rect x='8' y='28' width='48' height='8' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><circle cx='32' cy='32' r='6' fill='none' stroke='%23c62828' stroke-width='3'/></svg>",
-
+  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='28' y='8' width='8' height='48' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><rect x='8' y='28' width='48' height='8' fill='%23f5f5f5' stroke='%23004f9f' stroke-width='2'/><circle cx='32' cy='32' r='6' fill='none' stroke='%23c62828' stroke-width='3'/></svg>",
   "notes": "Right-of-way scenario question."
 },
 {
@@ -4598,8 +4597,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
     }
   ],
- "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='20' y='24' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='24' cy='36' r='3' fill='%23004f9f'/><circle cx='32' cy='36' r='3' fill='%23004f9f'/><path d='M36 26l14-4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 30l14 0' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 34l14 4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/></svg>",
-
+  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='20' y='24' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='24' cy='36' r='3' fill='%23004f9f'/><circle cx='32' cy='36' r='3' fill='%23004f9f'/><path d='M36 26l14-4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 30l14 0' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 34l14 4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/></svg>",
   "notes": "Basic blind-spot awareness question."
 },
 {
@@ -4623,7 +4621,6 @@
     }
   ],
   "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='22' cy='32' r='9' fill='none' stroke='%23004f9f' stroke-width='3'/><line x1='30' y1='26' x2='50' y2='22' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/><line x1='30' y1='32' x2='50' y2='32' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/><line x1='30' y1='38' x2='50' y2='42' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/></svg>",
-
   "notes": "Night-driving safety rule."
 },
 {
@@ -4646,10 +4643,10 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/hazardous-conditions"
     }
   ],
- "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='16' y='26' width='32' height='14' rx='3' fill='none' stroke='%23004f9f' stroke-width='2'/><rect x='26' y='20' width='12' height='6' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><line x1='28' y1='18' x2='24' y2='14' stroke='%23c62828' stroke-width='2'/><line x1='36' y1='18' x2='40' y2='14' stroke='%23c62828' stroke-width='2'/><circle cx='22' cy='42' r='3' fill='%23004f9f'/><circle cx='42' cy='42' r='3' fill='%23004f9f'/></svg>",
-
+  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='16' y='26' width='32' height='14' rx='3' fill='none' stroke='%23004f9f' stroke-width='2'/><rect x='26' y='20' width='12' height='6' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><line x1='28' y1='18' x2='24' y2='14' stroke='%23c62828' stroke-width='2'/><line x1='36' y1='18' x2='40' y2='14' stroke='%23c62828' stroke-width='2'/><circle cx='22' cy='42' r='3' fill='%23004f9f'/><circle cx='42' cy='42' r='3' fill='%23004f9f'/></svg>",
   "notes": "Emergency right-of-way rule."
-}, {
+},
+{
   "id": "q-school-bus-stopped-206",
   "brand": "Prep test G1",
   "lang": "en",
@@ -4763,8 +4760,134 @@
   ],
   "image": null,
   "notes": "Basic stopping distance rule at railway crossings."
+},
+{
+  "id": "q-hov-lane-211",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-highway",
+  "question": "On a 400-series highway you see diamond symbols and HOV (carpool) lane signs. When are you allowed to use this lane?",
+  "choices": [
+    "Only when your vehicle has at least two people (or is an eligible vehicle such as a bus, motorcycle, or green-plate vehicle)",
+    "Whenever traffic in the regular lanes is slow and you want to pass",
+    "Only if you are driving at or above the speed limit",
+    "Any time after 7 p.m. and on weekends, regardless of passengers"
+  ],
+  "correctIndex": 0,
+  "explanation": "High-occupancy vehicle (HOV) lanes are reserved for vehicles with at least two people on board, and some specially permitted vehicles such as buses, motorcycles, and eligible green-plate vehicles. They are not passing lanes for single-occupant cars, even when traffic is slow.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook – Signs: High Occupancy Vehicle (HOV) signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/signs"
+    },
+    {
+      "title": "Ontario HOV lane rules and penalties (summary)",
+      "url": "https://www.thinkinsure.ca/insurance-help-centre/hov-lane-ontario.html"
+    }
+  ],
+  "image": null,
+  "notes": "Intro to Ontario HOV lane usage."
+},
+{
+  "id": "q-move-over-law-212",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-emergency",
+  "question": "You are driving on a multi-lane highway and see a police car stopped on the shoulder ahead with its red and blue lights flashing. What must you do?",
+  "choices": [
+    "Slow down and move to a lane farther away if it is safe, or slow down and pass cautiously if you cannot change lanes",
+    "Maintain your speed but turn on your four-way flashers",
+    "Speed up to pass the emergency vehicle quickly so you are not in the danger area",
+    "Move into the lane next to the emergency vehicle to give it a clear shoulder"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ontario’s move-over rules require drivers to slow down and, if possible, move into another lane away from a stopped emergency vehicle with flashing lights. If you cannot safely change lanes, you must still reduce speed and pass with great caution.",
+  "sources": [
+    {
+      "title": "Driving near emergency vehicles – Move over safely",
+      "url": "https://www.ontario.ca/page/driving-near-emergency-vehicles"
+    }
+  ],
+  "image": null,
+  "notes": "Covers the basic 'move over' requirement for emergency vehicles."
+},
+{
+  "id": "q-lane-control-signals-213",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-signals",
+  "question": "On a bridge you see lane-use control signals above each lane. The lane over you suddenly shows a red “X”. What should you do?",
+  "choices": [
+    "Change to a lane with a green arrow as soon as you can do so safely",
+    "Ignore it if traffic in your lane is still moving",
+    "Stop in your lane and wait for the signal to turn green",
+    "Sound your horn and continue in your lane"
+  ],
+  "correctIndex": 0,
+  "explanation": "A red “X” over a lane means that lane is closed to traffic and you must not drive in it. You should safely move into a lane that is marked with a downward green arrow.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook – Signs: Lane-use control signals",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/signs"
+    },
+    {
+      "title": "Lane-use control signals meanings (green arrow / red X)",
+      "url": "https://driversprep.com/lane-use-control-signals/"
+    }
+  ],
+  "image": null,
+  "notes": "Explains red X vs green arrow lane-use signals."
+},
+{
+  "id": "q-uncontrolled-intersection-214",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-intersections",
+  "question": "You are approaching a rural side road intersection with no traffic lights or signs. What is the safest way to proceed?",
+  "choices": [
+    "Slow down, be ready to stop, and yield to traffic already in the intersection or approaching from your right",
+    "Maintain your speed because there are no stop or yield signs",
+    "Use your horn and drive through quickly so you are not in the intersection for long",
+    "Stop only if you see headlights from another vehicle"
+  ],
+  "correctIndex": 0,
+  "explanation": "At an uncontrolled intersection you must approach cautiously, be prepared to stop, and yield to traffic already in the intersection. If two vehicles arrive at about the same time, the driver on the left must yield to the driver on the right.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook – Driving through intersections",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+    }
+  ],
+  "image": null,
+  "notes": "Covers right-of-way at uncontrolled intersections."
+},
+{
+  "id": "q-funeral-procession-215",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-sharing-road",
+  "question": "You are waiting at a green light when a line of vehicles in a clearly marked funeral procession is still moving through the intersection. What should you do?",
+  "choices": [
+    "Stay stopped and allow the entire procession to clear the intersection before you proceed",
+    "Drive into the gap between two vehicles in the procession so you don’t wait too long",
+    "Sound your horn to remind them that your light is green",
+    "Turn right on red to get around the procession"
+  ],
+  "correctIndex": 0,
+  "explanation": "Funeral processions are given the right-of-way so they can remain together. Other drivers should be patient and allow the full procession to clear the intersection instead of cutting through or interrupting it.",
+  "sources": [
+    {
+      "title": "Sharing the road and special vehicles – funeral processions",
+      "url": "https://www.funeralwise.com/funeral-arrangements/funeral-processions/"
+    },
+    {
+      "title": "Driving etiquette around funeral processions (right-of-way and courtesy)",
+      "url": "https://legalclarity.org/does-a-funeral-procession-have-the-right-of-way/"
+    }
+  ],
+  "image": null,
+  "notes": "Courtesy and right-of-way around funeral processions."
 }
-    ]
-  }
 ]
-]
+
+
