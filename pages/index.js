@@ -298,32 +298,44 @@ export default function PrepTestG1() {
 
   const renderButtons = () => (
     <div style={styles.buttonsRow}>
-      <button onClick={start1} style={{ ...styles.btn, background: '#ffe6a7' }}>
-        Start 1–40
-      </button>
-      <button onClick={start41} style={{ ...styles.btn, background: '#ffd5f2' }}>
-        Start 41–80
-      </button>
-      <button onClick={start81} style={{ ...styles.btn, background: '#e0c3ff' }}>
-        Start 81–120
-      </button>
-      <button
-        onClick={start121}
-        style={{ ...styles.btn, background: '#c1ffd7' }}
-      >
-        Start 121–160
-      </button>
-      <button onClick={start161} style={{ ...styles.btn, background: '#b3e6ff' }}>
-        Start 161–200
-      </button>
-      <button
+  <button
+    onClick={start1}
+    style={{ ...styles.btn, background: '#ffe6a7' }}
+  >
+    Start 1–40
+  </button>
+  <button
+    onClick={start41}
+    style={{ ...styles.btn, background: '#ffd5f2' }}
+  >
+    Start 41–80
+  </button>
+  <button
+    onClick={start81}
+    style={{ ...styles.btn, background: '#e0c3ff' }}
+  >
+    Start 81–120
+  </button>
+  <button
+    onClick={start121}
+    style={{ ...styles.btn, background: '#c1ffd7' }}
+  >
+    Start 121–160
+  </button>
+  <button
+    onClick={start161}
+    style={{ ...styles.btn, background: '#b3e6ff' }}
+  >
+    Start 161–200
+  </button>
+  <button
     onClick={start201}
     style={{ ...styles.btn, background: '#d4c4ff' }}
   >
     Start 201–240
   </button>
+</div>
 
-    </div>
   );
 
   // loading
