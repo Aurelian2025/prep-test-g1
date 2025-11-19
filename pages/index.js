@@ -269,6 +269,7 @@ export default function PrepTestG1() {
   const start121 = () => startRange(121, 160);
   const start161 = () => startRange(161, 200);
   const start201 = () => startRange(201, 240); // 201–240
+const start241 = () => startRange(241, 280);
 
   
   const handleCodeSubmit = (e) => {
@@ -334,6 +335,13 @@ export default function PrepTestG1() {
   >
     Start 201–240
   </button>
+      <button
+  onClick={start241}
+  style={{ ...styles.btn, background: '#baf2ff' }}
+>
+  Start 241–280
+</button>
+
 </div>
 
   );
