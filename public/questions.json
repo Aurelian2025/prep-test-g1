@@ -4649,6 +4649,121 @@
  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='16' y='26' width='32' height='14' rx='3' fill='none' stroke='%23004f9f' stroke-width='2'/><rect x='26' y='20' width='12' height='6' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><line x1='28' y1='18' x2='24' y2='14' stroke='%23c62828' stroke-width='2'/><line x1='36' y1='18' x2='40' y2='14' stroke='%23c62828' stroke-width='2'/><circle cx='22' cy='42' r='3' fill='%23004f9f'/><circle cx='42' cy='42' r='3' fill='%23004f9f'/></svg>",
 
   "notes": "Emergency right-of-way rule."
+}, {
+  "id": "q-school-bus-stopped-206",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "You are driving on a two-lane road with no median. A school bus ahead has stopped with its red lights flashing and stop arm extended. What must you do?",
+  "choices": [
+    "Slow down and pass carefully if no children are visible",
+    "Stop before reaching the bus and do not move until the red lights stop flashing and the stop arm is folded away",
+    "Sound your horn and drive past at a reduced speed",
+    "Stop only if you are travelling in the same direction as the bus"
+  ],
+  "correctIndex": 1,
+  "explanation": "On a road without a median, drivers in both directions must stop for a school bus with red lights flashing and the stop arm extended, and remain stopped until the signals are off and the arm is folded away.",
+  "sources": [
+    {
+      "title": "Official MTO School Bus Handbook — Stopping-for-school-buses law",
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/stopping-school-buses-law"
+    }
+  ],
+  "image": null,
+  "notes": "Covers basic full-stop requirement for school buses on undivided roads."
+},
+{
+  "id": "q-school-bus-median-207",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "You are driving on a roadway divided by a median. A school bus on the opposite side stops with red lights flashing and stop arm extended. What must you do?",
+  "choices": [
+    "Stop and remain stopped until the bus moves",
+    "Slow down and proceed with caution; you are not required to stop on the opposite side of a median",
+    "Honk to warn the bus driver and continue at normal speed",
+    "Change lanes to the far left and continue at the speed limit"
+  ],
+  "correctIndex": 1,
+  "explanation": "On a divided roadway with a physical median, only vehicles travelling in the same direction as the bus are required to stop. Drivers on the opposite side should still slow and be prepared for children but are not legally required to stop.",
+  "sources": [
+    {
+      "title": "Official MTO School Bus Handbook — Stopping-for-school-buses law",
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/stopping-school-buses-law"
+    }
+  ],
+  "image": null,
+  "notes": "Highlights the median exception to the school-bus stopping law."
+},
+{
+  "id": "q-fire-hydrant-distance-208",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "How close are you allowed to park to a fire hydrant in Ontario?",
+  "choices": [
+    "Within one metre, as long as the hydrant is still visible",
+    "At least two metres away from the hydrant",
+    "At least three metres away from the hydrant",
+    "Any distance is allowed if you stay in the vehicle"
+  ],
+  "correctIndex": 2,
+  "explanation": "You must not park within three metres of a fire hydrant. This allows firefighters room to connect hoses quickly in an emergency.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Parking along roadways",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking-along-roadways"
+    }
+  ],
+  "image": null,
+  "notes": "Parking restriction distance for fire hydrants."
+},
+{
+  "id": "q-intersection-parking-distance-209",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "On a road without traffic lights, how close are you allowed to park to an intersection or crosswalk?",
+  "choices": [
+    "You may park right at the corner if you signal",
+    "At least three metres away from the intersection",
+    "At least nine metres away from the intersection",
+    "At least 15 metres away from the intersection"
+  ],
+  "correctIndex": 2,
+  "explanation": "You must not park within nine metres of an intersection on roads without traffic lights. This helps keep sightlines clear for drivers and pedestrians.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Parking along roadways",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking-along-roadways"
+    }
+  ],
+  "image": null,
+  "notes": "Parking distance rule near intersections without signals."
+},
+{
+  "id": "q-railway-crossing-stop-distance-210",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules",
+  "question": "When you are required to stop at a railway crossing, how far from the nearest rail should you stop?",
+  "choices": [
+    "Right on the tracks to see better in both directions",
+    "No closer than one metre from the nearest rail",
+    "At least five metres from the nearest rail",
+    "At least 20 metres from the nearest rail"
+  ],
+  "correctIndex": 2,
+  "explanation": "Drivers must stop at least five metres from the nearest rail when required to stop at a railway crossing, leaving room for trains that are wider than the tracks.",
+  "sources": [
+    {
+      "title": "Ontario Road Safety Resource — Railway crossing safety",
+      "url": "https://ontarioroadsafety.ca/en/topics/railway-crossing-safety/"
+    }
+  ],
+  "image": null,
+  "notes": "Basic stopping distance rule at railway crossings."
 }
+
 
 ]
