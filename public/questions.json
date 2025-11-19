@@ -4551,7 +4551,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
     }
   ],
-  "image": "car-following.jpg",
+  "image": "/signs/car-following.jpg",
   "notes": "Foundational rule-based question."
 },
 {
@@ -4574,7 +4574,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/intersections-and-turns"
     }
   ],
-  "image": "right-way.jpg",
+  "image": "/signs/right-way.jpg",
   "notes": "Right-of-way scenario question."
 },
 {
