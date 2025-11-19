@@ -4597,7 +4597,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/use-your-senses"
     }
   ],
-  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='20' y='24' width='16' height='10' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><circle cx='24' cy='36' r='3' fill='%23004f9f'/><circle cx='32' cy='36' r='3' fill='%23004f9f'/><path d='M36 26l14-4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 30l14 0' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/><path d='M36 34l14 4' stroke='%23ffa000' stroke-width='2' stroke-linecap='round'/></svg>",
+  "image": "/signs/q-203-blind-spot.png",
   "notes": "Basic blind-spot awareness question."
 },
 {
@@ -4620,7 +4620,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/lights"
     }
   ],
-  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='22' cy='32' r='9' fill='none' stroke='%23004f9f' stroke-width='3'/><line x1='30' y1='26' x2='50' y2='22' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/><line x1='30' y1='32' x2='50' y2='32' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/><line x1='30' y1='38' x2='50' y2='42' stroke='%23004f9f' stroke-width='3' stroke-linecap='round'/></svg>",
+  "image": "/signs/q-204-high-beams.jpg",
   "notes": "Night-driving safety rule."
 },
 {
@@ -4643,7 +4643,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/hazardous-conditions"
     }
   ],
-  "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='16' y='26' width='32' height='14' rx='3' fill='none' stroke='%23004f9f' stroke-width='2'/><rect x='26' y='20' width='12' height='6' rx='2' fill='none' stroke='%23004f9f' stroke-width='2'/><line x1='28' y1='18' x2='24' y2='14' stroke='%23c62828' stroke-width='2'/><line x1='36' y1='18' x2='40' y2='14' stroke='%23c62828' stroke-width='2'/><circle cx='22' cy='42' r='3' fill='%23004f9f'/><circle cx='42' cy='42' r='3' fill='%23004f9f'/></svg>",
+  "image": "/signs/q-205-emergency-vehicle.jpg",
   "notes": "Emergency right-of-way rule."
 },
 {
@@ -4666,7 +4666,7 @@
       "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/stopping-school-buses-law"
     }
   ],
-  "image": null,
+  "image": "/signs/q-206-school-bus-flashing.jpg",
   "notes": "Covers basic full-stop requirement for school buses on undivided roads."
 },
 {
@@ -4689,7 +4689,7 @@
       "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/stopping-school-buses-law"
     }
   ],
-  "image": null,
+  "image": "/signs/q-207-school-bus-median.jpg",
   "notes": "Highlights the median exception to the school-bus stopping law."
 },
 {
@@ -4712,7 +4712,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking-along-roadways"
     }
   ],
-  "image": null,
+  "image": "/signs/q-208-fire-hydrant-park.jpg",
   "notes": "Parking restriction distance for fire hydrants."
 },
 {
@@ -4735,7 +4735,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking-along-roadways"
     }
   ],
-  "image": null,
+  "image": "/signs/q-209-car-parked-near-intersection.jpg",
   "notes": "Parking distance rule near intersections without signals."
 },
 {
@@ -4758,7 +4758,7 @@
       "url": "https://ontarioroadsafety.ca/en/topics/railway-crossing-safety/"
     }
   ],
-  "image": null,
+  "image": "/signs/q-210-railway-crossing-1.jpg",
   "notes": "Basic stopping distance rule at railway crossings."
 },
 {
@@ -4785,7 +4785,7 @@
       "url": "https://www.thinkinsure.ca/insurance-help-centre/hov-lane-ontario.html"
     }
   ],
-  "image": null,
+ "image": "/signs/q-211-hov-lane.jpg",
   "notes": "Intro to Ontario HOV lane usage."
 },
 {
@@ -4808,7 +4808,7 @@
       "url": "https://www.ontario.ca/page/driving-near-emergency-vehicles"
     }
   ],
-  "image": null,
+  "image": "/signs/q-212-highway-police.jpg",
   "notes": "Covers the basic 'move over' requirement for emergency vehicles."
 },
 {
@@ -4835,7 +4835,7 @@
       "url": "https://driversprep.com/lane-use-control-signals/"
     }
   ],
-  "image": null,
+ "image": "/signs/q-213-x-sign.png",
   "notes": "Explains red X vs green arrow lane-use signals."
 },
 {
@@ -4858,7 +4858,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
     }
   ],
-  "image": null,
+  "image": "/signs/q-214-rural-intersection.jpg",
   "notes": "Covers right-of-way at uncontrolled intersections."
 },
 {
@@ -4885,7 +4885,7 @@
       "url": "https://legalclarity.org/does-a-funeral-procession-have-the-right-of-way/"
     }
   ],
-  "image": null,
+ "image": "/signs/q-215-funeral-procession.png",
   "notes": "Courtesy and right-of-way around funeral processions."
 }, 
   {
@@ -4903,7 +4903,7 @@
     "correctIndex": 0,
     "explanation": "Mirrors do not show your blind spot. A shoulder check ensures no vehicle or cyclist is beside you.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-216-blind-spot - Copy.png"
   },
   {
     "id": "q-217-slow-moving-vehicle-sign",
@@ -4920,7 +4920,7 @@
     "correctIndex": 0,
     "explanation": "A slow-moving vehicle sign warns that the vehicle usually travels under 40 km/h.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-217-triangular-sign.png"
   },
   {
     "id": "q-218-icy-bridge-warning",
@@ -4937,7 +4937,7 @@
     "correctIndex": 0,
     "explanation": "This sign warns of slippery conditions, especially on bridges or shaded areas.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-218-slippery-sign.png"
   },
   {
     "id": "q-219-emergency-vehicle-yield",
@@ -4954,7 +4954,7 @@
     "correctIndex": 0,
     "explanation": "Drivers must pull to the right and stop until the emergency vehicle passes.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-219-emergency-vehicle.jpg"
   },
   {
     "id": "q-220-school-zone-speeding-demerit",
@@ -4988,7 +4988,7 @@
     "correctIndex": 0,
     "explanation": "High beams reflect back in fog and reduce visibility. Low beams are safest.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-221-headlights.jpg"
   },
   {
     "id": "q-222-roundabout-entry",
@@ -5005,7 +5005,7 @@
     "correctIndex": 0,
     "explanation": "Vehicles inside the roundabout have the right-of-way. Enter when safe.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-222-roundabout.jpg"
   },
   {
     "id": "q-223-longer-stopping-distance",
@@ -5039,7 +5039,7 @@
     "correctIndex": 0,
     "explanation": "Broken yellow lines indicate that passing is permitted with caution.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-224-broken-line.jpg"
   },
   {
     "id": "q-225-hydroplaning",
@@ -5056,7 +5056,7 @@
     "correctIndex": 0,
     "explanation": "Hydroplaning causes a loss of steering and braking control.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-225-hydroplaning.png"
   },
   {
     "id": "q-226-freeway-merge",
@@ -5073,7 +5073,7 @@
     "correctIndex": 0,
     "explanation": "Accelerating to match traffic allows for a smooth merge.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-226-freeway-entrance.png"
   },
   {
     "id": "q-227-tire-blowout",
@@ -5090,7 +5090,7 @@
     "correctIndex": 0,
     "explanation": "A blowout can pull the vehicle to one side. Hold the wheel firmly and slow down gradually.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-227-front-tire.jpg"
   },
   {
     "id": "q-228-bus-loading-zone",
@@ -5107,7 +5107,7 @@
     "correctIndex": 0,
     "explanation": "Bus zones are restricted to transit vehicles only.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-228-bus-loading.png"
   },
   {
     "id": "q-229-disabled-parking",
@@ -5124,7 +5124,7 @@
     "correctIndex": 0,
     "explanation": "Ontario enforces strict fines to protect accessibility.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-229-handicap-spot.jpg"
   },
   {
     "id": "q-230-two-way-left-turn-lane",
@@ -5158,7 +5158,7 @@
     "correctIndex": 0,
     "explanation": "Active warnings always require a full stop.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-231-railway-crossing.jpg"
   },
   {
     "id": "q-232-shared-road-cyclists",
