@@ -4887,7 +4887,434 @@
   ],
   "image": null,
   "notes": "Courtesy and right-of-way around funeral processions."
-}
+}, [
+  {
+    "id": "q-216-lane-change-blindspot",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "Before changing lanes on a multi-lane road, what is the final check you must always perform?",
+    "choices": [
+      "Check your blind spot by turning your head quickly",
+      "Only rely on your mirrors",
+      "Honk to alert other drivers",
+      "Speed up quickly to merge faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mirrors do not show your blind spot. A shoulder check ensures no vehicle or cyclist is beside you.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-217-slow-moving-vehicle-sign",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "This triangular orange reflective sign is used on:",
+    "choices": [
+      "Vehicles that travel slowly, such as farm machinery",
+      "Snowplows only",
+      "School buses only",
+      "Emergency vehicles"
+    ],
+    "correctIndex": 0,
+    "explanation": "A slow-moving vehicle sign warns that the vehicle usually travels under 40 km/h.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-218-icy-bridge-warning",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "A yellow diamond sign showing a vehicle with wavy skid lines warns drivers to:",
+    "choices": [
+      "Reduce speed because the road may be slippery",
+      "Maintain speed because the lanes are straight",
+      "Expect loose gravel only in summer",
+      "Drive close to the centre line"
+    ],
+    "correctIndex": 0,
+    "explanation": "This sign warns of slippery conditions, especially on bridges or shaded areas.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-219-emergency-vehicle-yield",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "When an emergency vehicle approaches with lights and siren activated, you must:",
+    "choices": [
+      "Move to the nearest curb and stop",
+      "Speed up to stay ahead",
+      "Continue driving at the limit",
+      "Stop immediately in your lane"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drivers must pull to the right and stop until the emergency vehicle passes.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-220-school-zone-speeding-demerit",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerits",
+    "question": "Speeding excessively through a school zone may result in:",
+    "choices": [
+      "Higher fines and demerit points",
+      "No penalty if it’s after school hours",
+      "A written warning only",
+      "Only a small fine with no points"
+    ],
+    "correctIndex": 0,
+    "explanation": "School zones carry increased penalties due to vulnerable pedestrians.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-221-fog-driving",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "What headlights should you use when driving in heavy fog?",
+    "choices": [
+      "Low-beam headlights",
+      "High-beam headlights",
+      "Parking lights only",
+      "No lights at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "High beams reflect back in fog and reduce visibility. Low beams are safest.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-222-roundabout-entry",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "intersections",
+    "question": "When approaching a roundabout, you must:",
+    "choices": [
+      "Yield to traffic already in the roundabout",
+      "Enter quickly to grab a gap",
+      "Stop completely before entering",
+      "Signal left as you enter"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vehicles inside the roundabout have the right-of-way. Enter when safe.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-223-longer-stopping-distance",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "Which situation requires a longer stopping distance?",
+    "choices": [
+      "Wet or icy pavement",
+      "Warm dry pavement",
+      "Light traffic",
+      "Daytime driving only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reduced traction on wet or icy surfaces increases braking distance.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-224-broken-yellow-line",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "A broken yellow centre line means:",
+    "choices": [
+      "Passing is allowed when safe",
+      "No passing allowed",
+      "Lane ends ahead",
+      "Traffic merges left"
+    ],
+    "correctIndex": 0,
+    "explanation": "Broken yellow lines indicate that passing is permitted with caution.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-225-hydroplaning",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "Hydroplaning occurs when:",
+    "choices": [
+      "Your tires ride on top of water and lose road contact",
+      "You brake suddenly on dry pavement",
+      "Your car overheats in traffic",
+      "Your wipers stop working"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydroplaning causes a loss of steering and braking control.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-226-freeway-merge",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "highway-driving",
+    "question": "When merging onto a freeway, you should:",
+    "choices": [
+      "Match the speed of traffic in the right lane",
+      "Stop at the end of the ramp",
+      "Enter at any speed",
+      "Drive on the shoulder"
+    ],
+    "correctIndex": 0,
+    "explanation": "Accelerating to match traffic allows for a smooth merge.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-227-tire-blowout",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "vehicle-control",
+    "question": "If a front tire blows out while driving, what should you do first?",
+    "choices": [
+      "Grip the wheel firmly and steer straight",
+      "Brake hard immediately",
+      "Turn quickly onto the shoulder",
+      "Accelerate sharply"
+    ],
+    "correctIndex": 0,
+    "explanation": "A blowout can pull the vehicle to one side. Hold the wheel firmly and slow down gradually.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-228-bus-loading-zone",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "You see a sign marking a bus loading zone. What does this mean?",
+    "choices": [
+      "Only buses may stop here",
+      "Anyone may park briefly",
+      "You may load passengers for 5 minutes",
+      "You may stop if your hazard lights are on"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bus zones are restricted to transit vehicles only.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-229-disabled-parking",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "parking",
+    "question": "Parking in a designated accessible parking spot without a permit may result in:",
+    "choices": [
+      "Significant fines and towing",
+      "A small warning only",
+      "No penalty if you stay in the car",
+      "Only demerit points"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ontario enforces strict fines to protect accessibility.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-230-two-way-left-turn-lane",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-markings",
+    "question": "A centre lane marked with left-turn arrows in both directions is used for:",
+    "choices": [
+      "Left turns from either direction",
+      "Passing slower traffic",
+      "Parking temporarily",
+      "U-turns only"
+    ],
+    "correctIndex": 0,
+    "explanation": "This shared lane is meant only for preparing and completing left turns.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-231-railway-crossing-stop",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "railway",
+    "question": "When must you stop at a railway crossing, even if no train is visible?",
+    "choices": [
+      "When flashing lights or gates are activated",
+      "Only at night",
+      "Only if a train whistle is heard",
+      "Never required unless a train is present"
+    ],
+    "correctIndex": 0,
+    "explanation": "Active warnings always require a full stop.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-232-shared-road-cyclists",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "sharing-road",
+    "question": "When passing a cyclist, drivers must leave at least:",
+    "choices": [
+      "1 metre of space",
+      "20 centimetres",
+      "No required distance",
+      "As close as possible to avoid swerving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ontario law requires a minimum 1-metre passing distance.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-233-highway-exit-wrong",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "highway-driving",
+    "question": "If you miss your exit on a freeway, you must:",
+    "choices": [
+      "Continue to the next exit",
+      "Reverse carefully on the shoulder",
+      "Stop and wait for a gap",
+      "Make a U-turn in the median"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stopping or reversing on a freeway is extremely dangerous and illegal.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-234-open-intersection",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "intersections",
+    "question": "At an open (uncontrolled) intersection, who must yield?",
+    "choices": [
+      "The driver who arrives later",
+      "The driver on the right",
+      "The driver on the left",
+      "No one must yield"
+    ],
+    "correctIndex": 0,
+    "explanation": "If two vehicles arrive at roughly the same time, the one on the left yields to the right.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-235-impaired-driving-penalty",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "demerits",
+    "question": "Impaired driving penalties for G1 drivers include:",
+    "choices": [
+      "Immediate roadside suspension and escalating sanctions",
+      "No suspension unless over the criminal limit",
+      "Only a small fine",
+      "Demerit points only"
+    ],
+    "correctIndex": 0,
+    "explanation": "G1 drivers must maintain a zero-blood-alcohol level and face strict penalties.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-236-low-shoulder-sign",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-warning",
+    "question": "A sign showing the pavement higher than the gravel beside it warns of:",
+    "choices": [
+      "A low or soft shoulder",
+      "A divided highway",
+      "A narrow bridge",
+      "A hidden intersection"
+    ],
+    "correctIndex": 0,
+    "explanation": "A low shoulder can cause loss of control if the vehicle drifts off the pavement.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-237-traffic-signal-out",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "intersections",
+    "question": "If a traffic signal is completely dark due to a power outage, treat the intersection as:",
+    "choices": [
+      "A four-way stop",
+      "A normal green light",
+      "A pedestrian-only crossing",
+      "A yield sign for all directions"
+    ],
+    "correctIndex": 0,
+    "explanation": "When signals fail, every driver must stop and proceed in turn.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-238-following-distance",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "The minimum recommended following distance under ideal conditions is:",
+    "choices": [
+      "At least 2 seconds",
+      "Half a second",
+      "1 second",
+      "4 seconds at all times"
+    ],
+    "correctIndex": 0,
+    "explanation": "A 2-second gap allows safe stopping time. Increase in poor conditions.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-239-bridge-freezing-first",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "adverse-conditions",
+    "question": "Why do bridges freeze before the rest of the road?",
+    "choices": [
+      "They are exposed to cold air above and below",
+      "They use softer pavement",
+      "They hold more traffic",
+      "They receive more sunlight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cold air flows around bridges, lowering their temperature faster.",
+    "sources": [],
+    "image": null
+  },
+  {
+    "id": "q-240-left-turn-on-red",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "road-rules",
+    "question": "In Ontario, when is a left turn on a red light permitted?",
+    "choices": [
+      "Only from a one-way street onto another one-way street",
+      "Any time traffic is clear",
+      "Never permitted",
+      "Only when turning into a private driveway"
+    ],
+    "correctIndex": 0,
+    "explanation": "A left turn on red is only allowed when moving from one one-way street to another.",
+    "sources": [],
+    "image": null
+  }
+]
+
 ]
 
 
