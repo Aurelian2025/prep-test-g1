@@ -154,7 +154,7 @@ const styles = {
   }
 };
 
-// shuffle
+// shuffle helper
 function shuffleArray(arr) {
   const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -182,8 +182,8 @@ function getNumericId(q) {
 }
 
 export default function PrepTestG1() {
-  const [allQuestions, setAllQuestions] = useState(null);
-  const [questions, setQuestions] = useState([]);
+  const [allQuestions, setAllQuestions] = useState(null); // full ordered list
+  const [questions, setQuestions] = useState([]); // active subset
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
@@ -197,11 +197,15 @@ export default function PrepTestG1() {
     fetch('/questions.json')
       .then((r) => r.json())
       .then((data) => {
-        setAllQuestions(data);
         const ordered = data
           .slice()
           .sort((a, b) => getNumericId(a) - getNumericId(b))
           .map(shuffleQuestionChoices);
+
+        // store ordered full list
+        setAllQuestions(ordered);
+
+        // default: whole bank active (or you can default to first 40)
         setQuestions(ordered);
       })
       .catch(() => {
@@ -228,10 +232,13 @@ export default function PrepTestG1() {
 
   const q = hasQuestionsFlag ? questions[safeIndex] : null;
   const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
-  const globalNumber = q ? getNumericId(q) : 0;
+
+  const globalNumber = q ? getNumericId(q) : 0; // e.g. 137 of 280
   const totalGlobal = allQuestions ? allQuestions.length : 0;
-  const inSet = safeIndex + 1;
+
+  const inSet = safeIndex + 1; // position inside current subset
   const inSetTotal = hasQuestionsFlag ? questions.length : 0;
+
   const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
   const submit = () => {
@@ -247,15 +254,10 @@ export default function PrepTestG1() {
     setDone(false);
   };
 
-  const startRange = (min, max) => {
+  // NEW: start a set by index, not numeric ID
+  const startByIndex = (startIdx, endIdx) => {
     if (!allQuestions) return;
-    const subset = allQuestions
-      .filter((one) => {
-        const n = getNumericId(one);
-        return n >= min && n <= max;
-      })
-      .sort((a, b) => getNumericId(a) - getNumericId(b))
-      .map(shuffleQuestionChoices);
+    const subset = allQuestions.slice(startIdx, endIdx + 1); // inclusive
     setQuestions(subset);
     setCurrent(0);
     setPicked(null);
@@ -263,15 +265,15 @@ export default function PrepTestG1() {
     setCorrectCount(0);
   };
 
-  const start1 = () => startRange(1, 40);
-  const start41 = () => startRange(41, 80);
-  const start81 = () => startRange(81, 120);
-  const start121 = () => startRange(121, 160);
-  const start161 = () => startRange(161, 200);
-  const start201 = () => startRange(201, 240); // 201–240
-const start241 = () => startRange(241, 280);
+  // 7 sets of 40 questions each
+  const start1 = () => startByIndex(0, 39);      // 1–40
+  const start41 = () => startByIndex(40, 79);    // 41–80
+  const start81 = () => startByIndex(80, 119);   // 81–120
+  const start121 = () => startByIndex(120, 159); // 121–160
+  const start161 = () => startByIndex(160, 199); // 161–200
+  const start201 = () => startByIndex(200, 239); // 201–240
+  const start241 = () => startByIndex(240, 279); // 241–280
 
-  
   const handleCodeSubmit = (e) => {
     e.preventDefault();
     if (codeInput.trim() === ACCESS_CODE) {
@@ -299,51 +301,49 @@ const start241 = () => startRange(241, 280);
 
   const renderButtons = () => (
     <div style={styles.buttonsRow}>
-  <button
-    onClick={start1}
-    style={{ ...styles.btn, background: '#ffe6a7' }}
-  >
-    Start 1–40
-  </button>
-  <button
-    onClick={start41}
-    style={{ ...styles.btn, background: '#ffd5f2' }}
-  >
-    Start 41–80
-  </button>
-  <button
-    onClick={start81}
-    style={{ ...styles.btn, background: '#e0c3ff' }}
-  >
-    Start 81–120
-  </button>
-  <button
-    onClick={start121}
-    style={{ ...styles.btn, background: '#c1ffd7' }}
-  >
-    Start 121–160
-  </button>
-  <button
-    onClick={start161}
-    style={{ ...styles.btn, background: '#b3e6ff' }}
-  >
-    Start 161–200
-  </button>
-  <button
-    onClick={start201}
-    style={{ ...styles.btn, background: '#d4c4ff' }}
-  >
-    Start 201–240
-  </button>
       <button
-  onClick={start241}
-  style={{ ...styles.btn, background: '#baf2ff' }}
->
-  Start 241–280
-</button>
-
-</div>
-
+        onClick={start1}
+        style={{ ...styles.btn, background: '#ffe6a7' }}
+      >
+        Start 1–40
+      </button>
+      <button
+        onClick={start41}
+        style={{ ...styles.btn, background: '#ffd5f2' }}
+      >
+        Start 41–80
+      </button>
+      <button
+        onClick={start81}
+        style={{ ...styles.btn, background: '#e0c3ff' }}
+      >
+        Start 81–120
+      </button>
+      <button
+        onClick={start121}
+        style={{ ...styles.btn, background: '#c1ffd7' }}
+      >
+        Start 121–160
+      </button>
+      <button
+        onClick={start161}
+        style={{ ...styles.btn, background: '#b3e6ff' }}
+      >
+        Start 161–200
+      </button>
+      <button
+        onClick={start201}
+        style={{ ...styles.btn, background: '#d4c4ff' }}
+      >
+        Start 201–240
+      </button>
+      <button
+        onClick={start241}
+        style={{ ...styles.btn, background: '#baf2ff' }}
+      >
+        Start 241–280
+      </button>
+    </div>
   );
 
   // loading
@@ -415,7 +415,7 @@ const start241 = () => startRange(241, 280);
     );
   }
 
-  // 🌟 MAIN QUIZ VIEW + animation
+  // MAIN QUIZ VIEW
   return (
     <div style={styles.page}>
       <style jsx global>{`
@@ -464,7 +464,10 @@ const start241 = () => startRange(241, 280);
           style={{
             ...styles.card,
             ...(cardRaised
-              ? { boxShadow: '0 10px 24px rgba(0,0,0,0.16)', transform: 'translateY(-2px)' }
+              ? {
+                  boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
+                  transform: 'translateY(-2px)'
+                }
               : {})
           }}
           onMouseEnter={() => setCardRaised(true)}
@@ -476,12 +479,12 @@ const start241 = () => startRange(241, 280);
 
           <div style={styles.metaRow}>
             <span>
-              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
+              Question {globalNumber} of {totalGlobal} · Set {inSet}/
+              {inSetTotal}
             </span>
             <span>Correct: {correctCount}</span>
           </div>
 
-          {/* 🔥 ANIMATED CONTENT WRAPPER */}
           <div key={globalNumber} className="question-anim">
             <div style={styles.promptArea}>
               {q.image && (
@@ -515,7 +518,9 @@ const start241 = () => startRange(241, 280);
 
             {done && (
               <div style={styles.explanation}>
-                <strong>{picked === q.correctIndex ? 'Correct!' : 'Not quite.'}</strong>{' '}
+                <strong>
+                  {picked === q.correctIndex ? 'Correct!' : 'Not quite.'}
+                </strong>{' '}
                 {q.explanation}
               </div>
             )}
