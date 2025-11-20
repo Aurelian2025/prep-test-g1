@@ -19,7 +19,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
       }
     ],
-    "image": "/signs/stop-sign.jpg",
+    "image": "/signs/q-1-stop-painted-line.png",
     "notes": "Original question authored for this app. We do not copy third-party practice tests."
   },
   {
@@ -5175,7 +5175,7 @@
     "correctIndex": 0,
     "explanation": "Ontario law requires a minimum 1-metre passing distance.",
     "sources": [],
-    "image": null
+    "image": "/signs/ q-232-car-passing-cyclist.jpg"
   },
   {
     "id": "q-233-highway-exit-wrong",
