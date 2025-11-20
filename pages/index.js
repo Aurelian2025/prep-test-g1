@@ -196,9 +196,10 @@ export default function PrepTestG1() {
       .then((data) => {
         const ordered = data.map(shuffleQuestionChoices);
         setAllQuestions(ordered);
-        setQuestions(ordered); // default: whole bank
-        setGlobalTotal(ordered.length);
-        setGlobalBase(0);
+        // show only the first 40 questions by default (Set 1–40)
+      setQuestions(ordered.slice(0, 40));
+      setGlobalTotal(ordered.length); // still 280 total globally
+      setGlobalBase(0); // Question 1 of 280
       })
       .catch(() => {
         setAllQuestions([]);
