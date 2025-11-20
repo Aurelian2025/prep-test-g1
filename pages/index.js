@@ -174,16 +174,9 @@ function shuffleQuestionChoices(q) {
   };
 }
 
-function getNumericId(q) {
-  if (!q || !q.id) return 0;
-  const m = q.id.match(/\d+/g);
-  if (!m) return 0;
-  return parseInt(m[m.length - 1], 10);
-}
-
 export default function PrepTestG1() {
-  const [allQuestions, setAllQuestions] = useState(null); // full ordered list
-  const [questions, setQuestions] = useState([]); // active subset
+  const [allQuestions, setAllQuestions] = useState(null); // full bank
+  const [questions, setQuestions] = useState([]); // active set
   const [current, setCurrent] = useState(0);
   const [picked, setPicked] = useState(null);
   const [done, setDone] = useState(false);
@@ -192,25 +185,25 @@ export default function PrepTestG1() {
   const [hasAccess, setHasAccess] = useState(false);
   const [codeInput, setCodeInput] = useState('');
 
-  // load JSON
+  // for the global "Question X of 280" display
+  const [globalBase, setGlobalBase] = useState(0); // 0 for 1–40, 40 for 41–80, ...
+  const [globalTotal, setGlobalTotal] = useState(0); // should be 280
+
+  // load questions
   useEffect(() => {
     fetch('/questions.json')
       .then((r) => r.json())
       .then((data) => {
-        const ordered = data
-          .slice()
-          .sort((a, b) => getNumericId(a) - getNumericId(b))
-          .map(shuffleQuestionChoices);
-
-        // store ordered full list
+        const ordered = data.map(shuffleQuestionChoices);
         setAllQuestions(ordered);
-
-        // default: whole bank active (or you can default to first 40)
-        setQuestions(ordered);
+        setQuestions(ordered); // default: whole bank
+        setGlobalTotal(ordered.length);
+        setGlobalBase(0);
       })
       .catch(() => {
         setAllQuestions([]);
         setQuestions([]);
+        setGlobalTotal(0);
       });
   }, []);
 
@@ -228,22 +221,26 @@ export default function PrepTestG1() {
   if (hasQuestionsFlag) {
     if (safeIndex < 0) safeIndex = 0;
     if (safeIndex >= questions.length) safeIndex = questions.length - 1;
-  } else safeIndex = 0;
+  } else {
+    safeIndex = 0;
+  }
 
   const q = hasQuestionsFlag ? questions[safeIndex] : null;
   const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
 
-  const globalNumber = q ? getNumericId(q) : 0; // e.g. 137 of 280
-  const totalGlobal = allQuestions ? allQuestions.length : 0;
-
-  const inSet = safeIndex + 1; // position inside current subset
+  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0; // position inside current set
   const inSetTotal = hasQuestionsFlag ? questions.length : 0;
+
+  const totalGlobal = globalTotal || (allQuestions ? allQuestions.length : 0);
+  const globalNumber = inSetTotal ? globalBase + inSet : 0; // 1, 41, 81,...
 
   const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
-    if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
+    if (picked === q.correctIndex) {
+      setCorrectCount((c) => c + 1);
+    }
     setDone(true);
   };
 
@@ -254,8 +251,8 @@ export default function PrepTestG1() {
     setDone(false);
   };
 
-  // NEW: start a set by index, not numeric ID
-  const startByIndex = (startIdx, endIdx) => {
+  // start a set by index range, and remember its base number
+  const startByIndex = (startIdx, endIdx, baseNumber) => {
     if (!allQuestions) return;
     const subset = allQuestions.slice(startIdx, endIdx + 1); // inclusive
     setQuestions(subset);
@@ -263,16 +260,17 @@ export default function PrepTestG1() {
     setPicked(null);
     setDone(false);
     setCorrectCount(0);
+    setGlobalBase(baseNumber); // 0 → Question 1, 40 → Question 41, etc.
   };
 
-  // 7 sets of 40 questions each
-  const start1 = () => startByIndex(0, 39);      // 1–40
-  const start41 = () => startByIndex(40, 79);    // 41–80
-  const start81 = () => startByIndex(80, 119);   // 81–120
-  const start121 = () => startByIndex(120, 159); // 121–160
-  const start161 = () => startByIndex(160, 199); // 161–200
-  const start201 = () => startByIndex(200, 239); // 201–240
-  const start241 = () => startByIndex(240, 279); // 241–280
+  // 7 sets of 40 questions each (0-based indices)
+  const start1 = () => startByIndex(0, 39, 1 - 1); // Questions 1–40
+  const start41 = () => startByIndex(40, 79, 41 - 1); // 41–80
+  const start81 = () => startByIndex(80, 119, 81 - 1); // 81–120
+  const start121 = () => startByIndex(120, 159, 121 - 1); // 121–160
+  const start161 = () => startByIndex(160, 199, 161 - 1); // 161–200
+  const start201 = () => startByIndex(200, 239, 201 - 1); // 201–240
+  const start241 = () => startByIndex(240, 279, 241 - 1); // 241–280
 
   const handleCodeSubmit = (e) => {
     e.preventDefault();
@@ -281,12 +279,17 @@ export default function PrepTestG1() {
       if (typeof window !== 'undefined') {
         window.localStorage.setItem('g1_access_v2', 'yes');
       }
-    } else alert('Incorrect access code');
+    } else {
+      alert('Incorrect access code');
+    }
   };
 
   const handleSubscribe = async () => {
     const res = await fetch('/api/create-checkout-session', { method: 'POST' });
-    if (!res.ok) return alert('Checkout error');
+    if (!res.ok) {
+      alert('Checkout error');
+      return;
+    }
     const data = await res.json();
     if (data.url) window.location.href = data.url;
   };
@@ -346,7 +349,7 @@ export default function PrepTestG1() {
     </div>
   );
 
-  // loading
+  // loading state
   if (!allQuestions) {
     return (
       <div style={styles.page}>
@@ -400,7 +403,7 @@ export default function PrepTestG1() {
     );
   }
 
-  // no questions
+  // no active questions (should not normally happen)
   if (!hasQuestionsFlag) {
     return (
       <div style={styles.page}>
@@ -465,7 +468,7 @@ export default function PrepTestG1() {
             ...styles.card,
             ...(cardRaised
               ? {
-                  boxShadow: '0 10px 24px rgba(0,0,0,0.16)',
+                  boxShadow: '0 10px 24px rgba(0, 0, 0, 0.16)',
                   transform: 'translateY(-2px)'
                 }
               : {})
