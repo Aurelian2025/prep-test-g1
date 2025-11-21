@@ -88,7 +88,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
       }
     ],
-    "image": "/q-4-right-turn-on-red.png",
+    "image": "/signs/q-4-right-turn-on-red.png",
     "notes": "Original wording; mirrors handbook guidance."
   },
   {
@@ -138,7 +138,7 @@
         "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
       }
     ],
-    "image": "/q-6-school-guard.png",
+    "image": "/signs/q-6-school-guard.png",
     "notes": "Original question; summarizes the rule for school crossings."
   },
   {
@@ -161,7 +161,7 @@
         "url": "https://www.ontario.ca/book/export/html/80365"
       }
     ],
-    "image": "/q-7-following-disctance.png",
+    "image": "/signs/q-7-following-disctance.png",
     "notes": "Original question; aligns to handbook guidance."
   },
   {
@@ -253,7 +253,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
       }
     ],
-    "image": "/q-11-roundabout.jpg",
+    "image": "/signs/q-11-roundabout.jpg",
     "notes": "Original question aligned to the roundabout entry/yield rules."
   },
   {
@@ -276,7 +276,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": "/q-12-school-bus-median.jpg",
+    "image": "/signs/q-12-school-bus-median.jpg",
     "notes": "Original question; complements the earlier school-bus scenario."
   },
   {
@@ -299,7 +299,7 @@
         "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
       }
     ],
-    "image": "/q-13-cross-beacon.png",
+    "image": "/signs/q-13-cross-beacon.png",
     "notes": "Original question aligned to PXO rules."
   },
   {
@@ -484,7 +484,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": "/q-21-seatbelt.png",
+    "image": "/signs/q-21-seatbelt.png",
     "notes": "Original question created for Prep Test G1."
   },
   {
@@ -507,7 +507,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": "/q-22-highway.jpg",
+    "image": "/signs/q-22-highway.jpg",
     "notes": "Original wording by Prep Test G1."
   },
   {
@@ -530,7 +530,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
-    "image": "/q-23-bridge-freezes.png",
+    "image": "/signs/q-23-bridge-freezes.png",
     "notes": "Original winter-safety question."
   },
   {
@@ -553,7 +553,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
-    "image": "/q-24-hydroplaning.png",
+    "image": "/signs/q-24-hydroplaning.png",
     "notes": "Original safety question."
   },
   {
@@ -576,7 +576,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
       }
     ],
-    "image": "/q-25-lane-street.jpg",
+    "image": "/signs/q-25-lane-street.jpg",
     "notes": "Original question; reinforces signaling distance."
   },
   {
@@ -599,7 +599,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": "/q-26-horn.png",
+    "image": "/signs/q-26-horn.png",
     "notes": "Original question; polite road communication."
   },
   {
@@ -622,7 +622,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
       }
     ],
-    "image": "/q-27-person-directing-traffic.png",
+    "image": "/signs/q-27-person-directing-traffic.png",
     "notes": "Original work-zone question."
   },
   {
@@ -645,7 +645,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
       }
     ],
-    "image": "/q-28-impaired-driver.png",
+    "image": "/signs/q-28-impaired-driver.png",
     "notes": "Original question; zero tolerance policy."
   },
   {
