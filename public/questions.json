@@ -668,6 +668,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/fatigue"
       }
     ],
+    "image": "/signs/q-29-driver-tired.png",
     "notes": "Original question; rest and alertness."
   },
   {
@@ -690,6 +691,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
+    "image": "/signs/q-30-fog.png",
     "notes": "Original fog-safety question."
   },
   {
@@ -712,6 +714,7 @@
         "url": "https://www.ontario.ca/page/child-car-seats"
       }
     ],
+    "image": "/signs/q-31-child-seat.png",
     "notes": "Original child-seat question."
   },
   {
@@ -734,6 +737,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/signalling"
       }
     ],
+    "image": "/signs/q-35-left-hand-up-signal.png",
     "notes": "Original hand-signal question."
   },
   {
@@ -756,6 +760,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
       }
     ],
+    "image": "/signs/q-33-blind-spot.png",
     "notes": "Original blind-spot question."
   },
   {
@@ -778,6 +783,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
       }
     ],
+    "image": "/signs/q-34-intersection-without-crosswalk.png",
     "notes": "Original pedestrian question."
   },
   {
