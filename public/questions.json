@@ -943,6 +943,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
     }
   ],
+    "image": "/signs/q-41-pedestrian-crossing.png",
   "notes": "Original intersection question for Prep test G1."
 },
 {
@@ -965,6 +966,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
     }
   ],
+  "image": "/signs/q-42-entering-freeway.png",
   "notes": "Original freeway merging question."
 },
 {
@@ -987,6 +989,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
     }
   ],
+  "image": "/signs/q-exit-ramp-43.png",
   "notes": "Original exit-ramp speed question."
 },
 {
@@ -1009,6 +1012,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
     }
   ],
+  "image": "/signs/q-curb-uphill-44.png",
   "notes": "Original question about parking on hills."
 },
 {
@@ -1031,6 +1035,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
     }
   ],
+  "image": "/signs/q-curb-downhill-45.png",
   "notes": "Original downhill-parking question."
 },
 {
@@ -1053,6 +1058,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
     }
   ],
+  "image": "/signs/q-no-curb-hill-46.png",
   "notes": "Original hill-parking detail question."
 },
 {
@@ -1075,6 +1081,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roadway-signs#section-7"
     }
   ],
+  "image": "/signs/q-railway-stop-47.png",
   "notes": "Original railway-crossing question."
 },
 {
@@ -1097,6 +1104,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
+  "image": "/signs/q-school-zone-speed-48.png",
   "notes": "Original school-zone timing question."
 },
 {
@@ -1119,6 +1127,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
     }
   ],
+  "image": "/signs/q-work-zone-fines-49.png",
   "notes": "Original question emphasizing increased fines."
 },
 {
@@ -1163,6 +1172,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
+  "image": "/signs/q-back-up-driveway-51.png",
   "notes": "Original backing-out question."
 },
 {
@@ -1185,6 +1195,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
+  "image": "/signs/q-reverse-look-52.png",
   "notes": "Original reversing technique question."
 },
 {
