@@ -1150,6 +1150,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
+  "image": "/signs/q-shoulder-use-50.png",
   "notes": "Original shoulder-use question."
 },
 {
@@ -1172,7 +1173,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
-  "image": "/signs/q-back-up-driveway-51.png",
+  "image": "/signs/q-back-up-driveway-51",
   "notes": "Original backing-out question."
 },
 {
@@ -1218,6 +1219,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
     }
   ],
+  "image": "/signs/q-left-turn-oncoming-53.png",
   "notes": "Original left-turn judgement question."
 },
 {
@@ -1240,6 +1242,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
     }
   ],
+  "image": "/signs/q-lane-change-mirror-54.png",
   "notes": "Original lane-change sequence question."
 },
 {
@@ -1262,6 +1265,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
     }
   ],
+  "image": "/signs/q-roundabout-signal-exit-55.png",
   "notes": "Original signalling-at-roundabout question."
 },
 {
