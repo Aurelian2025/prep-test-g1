@@ -1288,7 +1288,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
     }
   ],
-  "image": “/signs/q-bicycle-door-zone-56.png”,
+
   "notes": "Original cyclist door-zone question."
 },
 {
@@ -1311,7 +1311,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
     }
   ],
-  "image": “/signs/q-bicycle-passing-distance-57.png”,
+  
   "notes": "Original passing-cyclist question."
 },
 {
@@ -1334,7 +1334,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
     }
   ],
-  "image": “/signs/q-animal-avoid-swerve-58.png”,
+  
   "notes": "Original animal-hazard question."
 },
 {
@@ -1357,7 +1357,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
     }
   ],
-  "image": “/signs/q-black-ice-59.png”,
+ 
   "notes": "Original black-ice definition question."
 },
 {
@@ -1380,7 +1380,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
     }
   ],
-  "image": “/signs/q-fog-high-beam-60.png”,
+  
   "notes": "Original follow-up fog question."
 },
 {
@@ -1403,7 +1403,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
     }
   ],
-  "image": “/signs/q-emergency-shoulder-61.png”,
+  
   "notes": "Original breakdown-on-highway question."
 },
 {
@@ -1426,7 +1426,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
     }
   ],
-  "image": “/signs/q-abs-brakes-62.png”,
+  
   "notes": "Original ABS-use question."
 },
 {
@@ -1449,7 +1449,7 @@
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
     }
   ],
-  "image": “/signs/q-nonabs-brakes-63.png”,
+  
   "notes": "Original non-ABS braking question."
 },
 {
