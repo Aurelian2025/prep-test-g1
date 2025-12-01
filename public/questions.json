@@ -2902,7 +2902,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-handheld-127.png",
     "notes": "Exact demerit total for a hand-held phone offence."
   },
   {
@@ -2948,7 +2948,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-fail-remain-129.png",
     "notes": "Fail-to-remain with explicit 7-point penalty."
   },
   {
@@ -2971,7 +2971,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-seatbelts-130.png",
     "notes": "Seatbelt demerit value made explicit."
   },
   {
@@ -3017,7 +3017,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-fail-yield-sign-131.png",
     "notes": "Unsafe passing tied to the 3-point penalty."
   },
   {
@@ -3040,7 +3040,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-obey-officer-133.png",
     "notes": "Distinguishes failing to obey an officer (3 points) from failing to stop for police (7 points)."
   },
   {
@@ -3063,7 +3063,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-stunt-134.png",
     "notes": "Highlights that stunt/racing is a 6-point offence."
   },
   {
@@ -3086,7 +3086,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-new-fully-licensed-135.png",
     "notes": "Explains the suspension threshold for fully licensed drivers."
   },
   {
@@ -3683,7 +3683,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-safe-attitude-161.png",
     "notes": "Original attitude-focused question inspired by the Safe and Responsible Driving section."
   },
   {
@@ -3706,7 +3706,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-following-distance-162.png",
     "notes": "New question on the two-second following-distance guideline."
   },
   {
@@ -3729,7 +3729,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-scanning-hazards-163.png",
     "notes": "Original scanning/observation technique question."
   },
   {
@@ -3752,7 +3752,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
       }
     ],
-    "image": null,
+    "image": "/signs/q-night-driving-speed-164.png",
     "notes": "Night-driving question focused on matching speed to headlight range."
   },
   {
@@ -3775,7 +3775,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
       }
     ],
-    "image": null,
+    "image": "/signs/q-intersections-right-of-way-165.png",
     "notes": "Original right-of-way scenario at a four-way stop."
   },   {
     "id": "q-lane-change-166",
@@ -3797,7 +3797,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
       }
     ],
-    "image": null,
+   "image": "/signs/q-lane-change-166.png",
     "notes": "Original lane-change sequence question."
   },
   {
@@ -3820,7 +3820,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-blind-spots-167.png",
     "notes": "New blind-spot question encouraging shoulder checks."
   },
   {
@@ -3843,7 +3843,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-expressway-merge-168.png",
     "notes": "Original expressway merging question."
   },
   {
@@ -3866,7 +3866,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-expressway-exit-169.png",
     "notes": "Expressway exit-speed timing question."
   },
   {
