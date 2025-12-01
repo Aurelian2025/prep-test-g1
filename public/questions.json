@@ -4073,7 +4073,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-black-ice-bridges-178.png",
     "notes": "Explains black ice hazard on bridges."
   },
   {
@@ -4372,7 +4372,7 @@
         "url": "https://www.ontario.ca/page/impaired-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-impaired-zero-g1-191.png",
     "notes": "Zero-alcohol requirement for novice drivers."
   },
   {
@@ -4395,7 +4395,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g1-supervisor-192.png",
     "notes": "G1 supervision requirement."
   },
   {
@@ -4418,7 +4418,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g1-roads-restrictions-193.png",
     "notes": "Highway restrictions for G1 drivers (described generally, not listing each highway)."
   },
   {
@@ -4441,7 +4441,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g2-passengers-night-194.png",
     "notes": "Concept-level question about the purpose of G2 night-time passenger restrictions, without quoting exact numbers."
   },
   {
@@ -4464,7 +4464,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/after-collision"
       }
     ],
-    "image": null,
+    "image": "/signs/q-collision-duties-195.png",
     "notes": "Collision duties without using specific dollar thresholds."
   },
   {
@@ -4510,7 +4510,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-back-up-safely-197.png",
     "notes": "Backing-up procedure."
   },
   {
