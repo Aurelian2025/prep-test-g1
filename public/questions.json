@@ -947,6 +947,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
       }
     ],
+    "image": "/signs/narrow-bridge.jpg",
     "notes": "Original road-narrows sign question."
   },
   {
@@ -2119,6 +2120,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
       }
     ],
+    "image": "/signs/q-impaired-zero-g1-191.png",
     "notes": "Original drug-impairment awareness question."
   },
   {
