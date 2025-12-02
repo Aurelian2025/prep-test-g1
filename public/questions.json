@@ -3889,7 +3889,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
       }
     ],
-    "image": null,
+    "image": "/signs/q-parking-downhill-no-curb-182.png",
     "notes": "Downhill/no-curb parking setup."
   },
   {
@@ -3912,7 +3912,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
       }
     ],
-    "image": null,
+    "image": "/signs/q-parking-fire-hydrant-183.jpg",
     "notes": "Conceptual hydrant rule without using exact distance, which can vary by jurisdiction."
   },
   {
@@ -3935,7 +3935,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
       }
     ],
-    "image": null,
+    "image": "/signs/q-parking-crosswalk-184.png",
     "notes": "Crosswalk visibility rule."
   },
   {
@@ -3958,7 +3958,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
       }
     ],
-    "image": null,
+    "image": "/signs/q-railway-stall-185.png",
     "notes": "Emergency behaviour at stalled-on-tracks scenario."
   },
   {
@@ -3981,7 +3981,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergencies"
       }
     ],
-    "image": null,
+    "image": "/signs/q-tire-blowout-186.png",
     "notes": "Blowout control question."
   },
   {
@@ -4004,7 +4004,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-skid-rear-187.png",
     "notes": "Rear-wheel skid control."
   },
   {
@@ -4027,7 +4027,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-fatigue-driving-188.png",
     "notes": "Fatigue management question."
   },
   {
@@ -4050,7 +4050,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-tailgater-65.png",
     "notes": "Managing tailgaters calmly."
   },
   {
@@ -4073,7 +4073,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-mirrors-frequency-190.png",
     "notes": "Mirror-check habit."
   },
   {
@@ -4096,7 +4096,7 @@
         "url": "https://www.ontario.ca/page/impaired-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-impaired-zero-g1-191.png",
     "notes": "Zero-alcohol requirement for novice drivers."
   },
   {
@@ -4119,7 +4119,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g1-supervisor-192.png",
     "notes": "G1 supervision requirement."
   },
   {
@@ -4142,7 +4142,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g1-roads-restrictions-193.png",
     "notes": "Highway restrictions for G1 drivers (described generally, not listing each highway)."
   },
   {
@@ -4165,7 +4165,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
-    "image": null,
+    "image": "/signs/q-g2-passengers-night-194.png",
     "notes": "Concept-level question about the purpose of G2 night-time passenger restrictions, without quoting exact numbers."
   },
   {
@@ -4188,7 +4188,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/after-collision"
       }
     ],
-    "image": null,
+    "image": "/signs/q-collision-duties-195.png",
     "notes": "Collision duties without using specific dollar thresholds."
   },
   {
@@ -4211,7 +4211,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
       }
     ],
-    "image": null,
+    "image": "/signs/q-turn-signals-196.png",
     "notes": "Signal-use basics."
   },
   {
@@ -4234,7 +4234,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-back-up-safely-197.png",
     "notes": "Backing-up procedure."
   },
   {
@@ -4257,7 +4257,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
       }
     ],
-    "image": null,
+    "image": "/signs/q-pedestrians-turning-198.png",
     "notes": "Right-turn vs pedestrian priority."
   },
   {
@@ -4280,7 +4280,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
       }
     ],
-    "image": null,
+    "image": "/signs/q-crosswalk-uncontrolled-199.png",
     "notes": "Unsignalized crosswalk behaviour."
   },
   {
@@ -4303,7 +4303,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-tired-driver-200.png",
     "notes": "Playful end-of-set question reinforcing the message about taking breaks."
   },
   {
