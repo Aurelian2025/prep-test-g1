@@ -3498,7 +3498,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-large-trucks-space-175.png",
     "notes": "Large-vehicle blind-spot awareness."
   },
   {
@@ -3521,7 +3521,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-trucks-wide-turns-176.png",
     "notes": "Right-turn behaviour around large trucks."
   },
   {
@@ -3544,7 +3544,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-winter-driving-distance-177.png",
     "notes": "Following-distance adjustment in winter."
   },
   {
@@ -3567,7 +3567,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-black-ice-bridges-178.png",
     "notes": "Explains black ice hazard on bridges."
   },
   {
@@ -3590,7 +3590,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
       }
     ],
-    "image": null,
+    "image": "/signs/q-hydroplaning-prevent-73.png",
     "notes": "Hydroplaning control technique."
   },
   {
@@ -3613,7 +3613,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
       }
     ],
-    "image": null,
+    "image": "/signs/q-headlights-visibility-180.jpg",
     "notes": "Headlight-use requirement in poor visibility."
   },
   {
@@ -3636,7 +3636,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
       }
     ],
-    "image": null,
+    "image": "/signs/q-parking-uphill-curb-181.png",
     "notes": "Uphill-with-curb parking position."
   },
   {
@@ -3659,7 +3659,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": "/signs/pedestrian-crossing.jpg",
+    "image": "/signs/q-demerit-fail-yield-ped-128.png",
     "notes": "Pedestrian-safety question using the 4-point crossover offence."
   },
   {
@@ -3682,7 +3682,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-fail-remain-129.png",
     "notes": "Fail-to-remain with explicit 7-point penalty."
   },
   {
