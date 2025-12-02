@@ -3412,7 +3412,7 @@
     "notes": "Move-over behaviour for emergency/tow vehicles."
   },
   {
-    "id": "q-sharing-cyclists-1m-149.png",
+    "id": "q-sharing-cyclists-1m-149",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "sharing-road",
@@ -3431,7 +3431,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": "/signs/q-sharing-cyclists-1m-149",
+    "image": "/signs/q-sharing-cyclists-1m-149.png",
     "notes": "Cyclist passing clearance question."
   },
   {
