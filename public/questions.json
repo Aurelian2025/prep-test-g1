@@ -5562,7 +5562,7 @@
     "correctIndex": 0,
     "explanation": "Escalating sanctions mean novice drivers face increasing penalties, including longer suspensions or licence cancellation, if they commit multiple serious offences.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-demerit-new-fully-licensed-135.png"
   },
   {
     "id": "q-252",
@@ -5579,7 +5579,7 @@
     "correctIndex": 0,
     "explanation": "Novice drivers, including G1, must maintain a BAC of zero while driving in Ontario.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-impaired-zero-g1-191.png"
   },
   {
     "id": "q-253",
@@ -5596,16 +5596,16 @@
     "correctIndex": 0,
     "explanation": "To reverse safely, turn your body, look through the rear window, and back up slowly, checking all around.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-253-back-up-driveway.png"
   },
   {
     "id": "q-254",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "vehicle-control",
-    "question": "If your right wheels accidentally drop off the paved roadway onto the shoulder, you should:",
+    "question": "If you accidentally entered the paved roadway onto the shoulder, you should:",
     "choices": [
-      "Grip the wheel, ease off the gas, and return to the pavement only when the vehicle is under control and traffic allows",
+      "Ease off the gas, and return to the pavement only when the vehicle is under control and traffic allows",
       "Steer sharply back onto the road immediately",
       "Brake hard and turn quickly",
       "Accelerate to jump back onto the pavement"
@@ -5613,7 +5613,7 @@
     "correctIndex": 0,
     "explanation": "A sudden sharp turn back onto the pavement can cause loss of control. Slow gradually and steer back gently when safe.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-254-wheels-on-shoulder"
   },
   {
     "id": "q-255",
@@ -5630,7 +5630,7 @@
     "correctIndex": 0,
     "explanation": "Slowing and moving to the right increases space and may help avoid or lessen a collision.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-255-almost-colide.png"
   },
   {
     "id": "q-256",
@@ -5647,7 +5647,7 @@
     "correctIndex": 0,
     "explanation": "Steering in the direction of the skid helps you regain control by aligning the vehicle with its path.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-skid-rear-187.png"
   },
   {
     "id": "q-257",
@@ -5664,7 +5664,7 @@
     "correctIndex": 0,
     "explanation": "Driving much slower than surrounding traffic can be as dangerous as speeding because other drivers may have to brake or change lanes suddenly.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-257-100-per-hour.png"
   },
   {
     "id": "q-258",
@@ -5681,7 +5681,7 @@
     "correctIndex": 0,
     "explanation": "Slower vehicles should keep right, leaving the left lane mostly for passing and faster-moving traffic within the speed limit.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-258-left-lane-highway.png"
   },
   {
     "id": "q-259",
@@ -5698,7 +5698,7 @@
     "correctIndex": 0,
     "explanation": "Crossing guards have authority to stop traffic. Drivers must obey their signals.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-6-school-guard.png"
   },
   {
     "id": "q-260",
@@ -5715,7 +5715,7 @@
     "correctIndex": 0,
     "explanation": "Drivers must yield to pedestrians at marked or unmarked crosswalks at intersections.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-260-crosswalk-uncontrolled.png"
   },
   {
     "id": "q-261",
@@ -5732,7 +5732,7 @@
     "correctIndex": 0,
     "explanation": "Fatigue is dangerous. The safest choice is to stop driving and rest.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-tired-driver-200.png"
   },
   {
     "id": "q-262",
@@ -5749,7 +5749,7 @@
     "correctIndex": 0,
     "explanation": "The horn is a safety device, not for anger or casual use.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-26-horn.png"
   },
   {
     "id": "q-263",
