@@ -1682,6 +1682,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
+    "image": "/signs/q-black-ice-59.png",
     "notes": "Original black-ice definition question."
   },
   {
@@ -1704,6 +1705,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
+    "image": "/signs/q-fog-high-beam-60.png",
     "notes": "Original follow-up fog question."
   },
   {
@@ -1726,6 +1728,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
       }
     ],
+    "image": "/signs/q-emergency-shoulder-61.png",
     "notes": "Original breakdown-on-highway question."
   },
   {
@@ -1748,6 +1751,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
       }
     ],
+    "image": "/signs/q-abs-brakes-62.png",
     "notes": "Original ABS-use question."
   },
   {
@@ -1770,6 +1774,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
       }
     ],
+    "image": "/signs/q-nonabs-brakes-63.png",
     "notes": "Original non-ABS braking question."
   },
   {
@@ -1792,6 +1797,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
+    "image": "/signs/q-night-meeting-64.png",
     "notes": "Original headlight-dimming question."
   },
   {
@@ -1837,7 +1843,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-careless-driving-125.png",
     "notes": "Careless-driving penalties with explicit 6 points."
   },
   {
@@ -2067,6 +2073,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
+    "image": "/signs/q-tailgater-65.png",
     "notes": "Original tailgating response question."
   },
   {
@@ -2089,6 +2096,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
+    "image": "/signs/q-road-rage-66.png",
     "notes": "Original road-rage attitude question."
   },
   {
@@ -2133,6 +2141,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
+    "image": "/signs/q-g1-accompanied-68.png",
     "notes": "Original G1 accompanying-driver question."
   },
   {
@@ -2155,6 +2164,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
       }
     ],
+    "image": "/signs/q-g1-zero-bac-69.png",
     "notes": "Original zero-BAC requirement question."
   },
   {
@@ -2177,6 +2187,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
       }
     ],
+    "image": "/signs/q-g1-highway-restriction-70.png",
     "notes": "Original G1 expressway-restriction question."
   },
   {
@@ -2199,6 +2210,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
       }
     ],
+    "image": "/signs/q-seat-position-71.png",
     "notes": "Original seating-position question."
   },
   {
@@ -2221,6 +2233,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
       }
     ],
+    "image": "/signs/q-mirror-adjust-72.png",
     "notes": "Original mirror-setup question."
   },
   {
@@ -2243,6 +2256,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
+    "image": "/signs/q-hydroplaning-prevent-73.png",
     "notes": "Original hydroplaning-prevention question."
   },
   {
@@ -2265,6 +2279,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
+    "image": "/signs/q-driver-distraction-74.png",
     "notes": "Original distraction-awareness question."
   },
   {
@@ -2287,6 +2302,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
       }
     ],
+    "image": "/signs/q-approaching-pedestrian-75.png",
     "notes": "Original uncontrolled-crosswalk question."
   },
   {
@@ -2309,6 +2325,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
+    "image": "/signs/q-school-bus-yellow-lights-76.png",
     "notes": "Original amber-light school-bus question."
   },
   {
@@ -2722,7 +2739,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-follow-too-closely-126.png",
     "notes": "Tailgating question with 4-point penalty."
   },
   {
@@ -2745,7 +2762,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-handheld-127.png",
     "notes": "Exact demerit total for a hand-held phone offence."
   },
   {
@@ -3159,7 +3176,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-safe-attitude-161.png",
     "notes": "Original attitude-focused question inspired by the Safe and Responsible Driving section."
   },
   {
@@ -3182,7 +3199,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-following-distance-162.png",
     "notes": "New question on the two-second following-distance guideline."
   },
   {
@@ -3205,7 +3222,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-scanning-hazards-163.png",
     "notes": "Original scanning/observation technique question."
   },
   {
@@ -3228,7 +3245,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-night-and-bad-weather"
       }
     ],
-    "image": null,
+   "image": "/signs/q-night-driving-speed-164.png",
     "notes": "Night-driving question focused on matching speed to headlight range."
   },
   {
@@ -3251,7 +3268,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
       }
     ],
-    "image": null,
+    "image": "/signs/q-intersections-right-of-way-165.png",
     "notes": "Original right-of-way scenario at a four-way stop."
   },
   {
@@ -3274,7 +3291,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
       }
     ],
-    "image": null,
+    "image": "/signs/q-lane-change-166.png",
     "notes": "Original lane-change sequence question."
   },
   {
@@ -3297,7 +3314,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-blind-spots-167.png",
     "notes": "New blind-spot question encouraging shoulder checks."
   },
   {
@@ -3320,7 +3337,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-expressway-merge-168.png",
     "notes": "Original expressway merging question."
   },
   {
@@ -3343,7 +3360,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-expressway-exit-169.png",
     "notes": "Expressway exit-speed timing question."
   },
   {
@@ -3366,7 +3383,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-emergency-vehicles-170.jpg",
     "notes": "Emergency-vehicle yielding rule."
   },
   {
