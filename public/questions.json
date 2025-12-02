@@ -5329,7 +5329,7 @@
     "correctIndex": 0,
     "explanation": "No stopping zones prohibit stopping for any reason other than obeying traffic controls or police directions.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-238-no-stopping"
   },
   {
     "id": "q-demerit-improper-passing-239",
@@ -5351,7 +5351,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-improper-passing-132.png",
     "notes": "Unsafe passing tied to the 3-point penalty."
   },
   {
@@ -5374,7 +5374,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-obey-officer-133.png",
     "notes": "Distinguishes failing to obey an officer (3 points) from failing to stop for police (7 points)."
   },
   {
@@ -5426,7 +5426,7 @@
     "correctIndex": 0,
     "explanation": "A low shoulder can cause loss of control if the vehicle drifts off the pavement.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-243pavement-higher-gravel.png"
   },
   {
     "id": "q-244",
@@ -5443,7 +5443,7 @@
     "correctIndex": 0,
     "explanation": "Orange signs warn of temporary construction or maintenance zones.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-244-orange-diamond.png"
   },
   {
     "id": "q-245",
@@ -5460,7 +5460,7 @@
     "correctIndex": 0,
     "explanation": "Wildlife warning signs indicate areas with a higher risk of animal crossings.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-245-deer-crossing.jpg"
   },
   {
     "id": "q-246",
@@ -5477,7 +5477,7 @@
     "correctIndex": 0,
     "explanation": "Regulatory speed signs show the maximum legal speed under ideal conditions.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-246-max-80.png"
   },
   {
     "id": "q-247",
@@ -5494,7 +5494,7 @@
     "correctIndex": 0,
     "explanation": "End-of-zone signs indicate where special lower limits no longer apply.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-247-end-of-school-zone.png",
   },
   {
     "id": "q-248",
@@ -5511,7 +5511,7 @@
     "correctIndex": 0,
     "explanation": "Merging-lane signs warn drivers to change lanes safely.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-248-right-lane-ends.png"
   },
   {
     "id": "q-249",
@@ -5528,7 +5528,7 @@
     "correctIndex": 0,
     "explanation": "Yield signs require you to give other road users the right-of-way. You must be ready to stop and proceed only when it is safe.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-249-yield-sign.jpg"
   },
   {
     "id": "q-250",
@@ -5545,7 +5545,7 @@
     "correctIndex": 0,
     "explanation": "At an all-way stop, the driver who comes to a complete stop first has the right-of-way, if safe to proceed.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-250-right-way.png"
   },
   {
     "id": "q-251",
