@@ -4583,7 +4583,7 @@
         "url": "https://www.ontario.ca/page/understanding-demerit-points"
       }
     ],
-    "image": null,
+    "image": "/signs/q-demerit-seatbelts-130.png",
     "notes": "Seatbelt demerit value made explicit."
   },
   {
@@ -4936,7 +4936,7 @@
     "correctIndex": 0,
     "explanation": "School zones carry increased penalties due to vulnerable pedestrians.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-school-zone-speed-48.png"
   },
   {
     "id": "q-216",
@@ -4987,7 +4987,7 @@
     "correctIndex": 0,
     "explanation": "Reduced traction on wet or icy surfaces increases braking distance.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-winter-driving-distance-177.png",
   },
   {
     "id": "q-219",
@@ -5089,7 +5089,7 @@
     "correctIndex": 0,
     "explanation": "This shared lane is meant only for preparing and completing left turns.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-224-centre-lane-arrows"
   },
   {
     "id": "q-225",
@@ -5140,7 +5140,7 @@
     "correctIndex": 0,
     "explanation": "Stopping or reversing on a freeway is extremely dangerous and illegal.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-expressway-exit-169.png"
   },
   {
     "id": "q-228",
@@ -5157,7 +5157,7 @@
     "correctIndex": 0,
     "explanation": "If two vehicles arrive at roughly the same time, the one on the left yields to the right.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-intersections-right-of-way-165.png"
   },
   {
     "id": "q-229",
@@ -5174,7 +5174,7 @@
     "correctIndex": 0,
     "explanation": "G1 drivers must maintain a zero-blood-alcohol level and face strict penalties.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-impaired-zero-g1-191.png"
   },
   {
     "id": "q-230",
@@ -5191,7 +5191,7 @@
     "correctIndex": 0,
     "explanation": "When signals fail, every driver must stop and proceed in turn.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-230-traffice-light-off"
   },
   {
     "id": "q-231",
@@ -5208,7 +5208,7 @@
     "correctIndex": 0,
     "explanation": "A 2-second gap allows safe stopping time. Increase in poor conditions.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-231-following-distance"
   },
   {
     "id": "q-232",
@@ -5225,7 +5225,7 @@
     "correctIndex": 0,
     "explanation": "Cold air flows around bridges, lowering their temperature faster.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-23-bridge-freezes.png"
   },
   {
     "id": "q-233",
@@ -5242,7 +5242,7 @@
     "correctIndex": 0,
     "explanation": "A left turn on red is only allowed when moving from one one-way street to another.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-233-right-turn-on-red"
   },
   {
     "id": "q-234",
@@ -5259,7 +5259,7 @@
     "correctIndex": 0,
     "explanation": "Unless posted otherwise, the default speed limit on many built-up municipal roads is 50 km/h. Drivers must still adjust speed for conditions.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-234-50-in-city"
   },
   {
     "id": "q-235",
@@ -5276,7 +5276,7 @@
     "correctIndex": 0,
     "explanation": "A steady amber light warns that the signal is about to turn red. If you can stop safely, you must stop before entering the intersection.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-235-steady-yellow"
   },
   {
     "id": "q-236",
@@ -5293,7 +5293,7 @@
     "correctIndex": 0,
     "explanation": "Unless prohibited by a sign, you may turn right on red after coming to a complete stop and ensuring it is safe.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-4-right-turn-on-red.png"
   },
   {
     "id": "q-237",
@@ -5310,7 +5310,7 @@
     "correctIndex": 0,
     "explanation": "A 'No Parking' sign means you may not park and leave your vehicle unattended, though you may usually stop briefly to load or unload passengers unless other restrictions apply.",
     "sources": [],
-    "image": null
+    "image": "/signs/no-parking.jpg"
   },
   {
     "id": "q-238",
