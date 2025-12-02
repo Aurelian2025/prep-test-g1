@@ -3408,11 +3408,11 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": "/signs/q-move-over-law-148",
+    "image": "/signs/q-move-over-law-148.png",
     "notes": "Move-over behaviour for emergency/tow vehicles."
   },
   {
-    "id": "q-sharing-cyclists-1m-149",
+    "id": "q-sharing-cyclists-1m-149.png",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "sharing-road",
@@ -3477,7 +3477,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": "/signs/q-motorcycles-visibility-151",
+    "image": "/signs/q-motorcycles-visibility-151.png",
     "notes": "Judging motorcycle speed and distance."
   },
   {
@@ -4904,7 +4904,7 @@
     "correctIndex": 0,
     "explanation": "Mirrors do not show your blind spot. A shoulder check ensures no vehicle or cyclist is beside you.",
     "sources": [],
-    "image": "/signs/q-216-blind-spot - Copy.png"
+    "image": "/signs/q-216-blind-spot-Copy.png"
   },
   {
     "id": "q-214",
@@ -5091,7 +5091,7 @@
     "correctIndex": 0,
     "explanation": "This shared lane is meant only for preparing and completing left turns.",
     "sources": [],
-    "image": "/signs/q-224-centre-lane-arrows"
+    "image": "/signs/q-224-centre-lane-arrows.png"
   },
   {
     "id": "q-225",
@@ -5193,7 +5193,7 @@
     "correctIndex": 0,
     "explanation": "When signals fail, every driver must stop and proceed in turn.",
     "sources": [],
-    "image": "/signs/q-230-traffice-light-off"
+    "image": "/signs/q-230-traffice-light-off.png"
   },
   {
     "id": "q-231",
@@ -5210,7 +5210,7 @@
     "correctIndex": 0,
     "explanation": "A 2-second gap allows safe stopping time. Increase in poor conditions.",
     "sources": [],
-    "image": "/signs/q-231-following-distance"
+    "image": "/signs/q-231-following-distance.png"
   },
   {
     "id": "q-232",
@@ -5244,7 +5244,7 @@
     "correctIndex": 0,
     "explanation": "A left turn on red is only allowed when moving from one one-way street to another.",
     "sources": [],
-    "image": "/signs/q-233-right-turn-on-red"
+    "image": "/signs/q-233-right-turn-on-red.png"
   },
   {
     "id": "q-234",
@@ -5261,7 +5261,7 @@
     "correctIndex": 0,
     "explanation": "Unless posted otherwise, the default speed limit on many built-up municipal roads is 50 km/h. Drivers must still adjust speed for conditions.",
     "sources": [],
-    "image": "/signs/q-234-50-in-city"
+    "image": "/signs/q-234-50-in-city.png"
   },
   {
     "id": "q-235",
@@ -5278,7 +5278,7 @@
     "correctIndex": 0,
     "explanation": "A steady amber light warns that the signal is about to turn red. If you can stop safely, you must stop before entering the intersection.",
     "sources": [],
-    "image": "/signs/q-235-steady-yellow"
+    "image": "/signs/q-235-steady-yellow.png"
   },
   {
     "id": "q-236",
