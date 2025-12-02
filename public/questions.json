@@ -3406,7 +3406,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/highway-driving"
       }
     ],
-    "image": null,
+    "image": "/signs/q-move-over-law-148",
     "notes": "Move-over behaviour for emergency/tow vehicles."
   },
   {
@@ -3429,7 +3429,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-sharing-cyclists-1m-149",
     "notes": "Cyclist passing clearance question."
   },
   {
@@ -3452,7 +3452,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-dooring-cyclist-173.png",
     "notes": "Dooring-prevention technique."
   },
   {
@@ -3475,7 +3475,7 @@
         "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
       }
     ],
-    "image": null,
+    "image": "/signs/q-motorcycles-visibility-151",
     "notes": "Judging motorcycle speed and distance."
   },
   {
