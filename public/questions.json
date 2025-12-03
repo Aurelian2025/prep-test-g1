@@ -855,10 +855,10 @@
   "category": "demerits",
   "question": "How many demerit points are given for careless driving?",
   "choices": [
-    "1. 3 demerit points",
-    "2. 4 demerit points",
-    "3. 5 demerit points",
-    "4. 6 demerit points"
+    "3 demerit points",
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points"
   ],
   "correctIndex": 3,
   "explanation": "Careless driving carries 6 demerit points.",
@@ -1931,10 +1931,10 @@
   "category": "demerits",
   "question": "How many demerit points are assigned for racing or stunt driving?",
   "choices": [
-    "1. 2 demerit points",
-    "2. 4 demerit points",
-    "3. 5 demerit points",
-    "4. 6 demerit points"
+    "2 demerit points",
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points"
   ],
   "correctIndex": 3,
   "explanation": "Racing/stunt driving results in 6 demerit points.",
@@ -2292,10 +2292,10 @@
   "category": "demerits",
   "question": "How many demerit points result from making an improper right turn?",
   "choices": [
-    "1. 2 demerit points",
-    "2. 3 demerit points",
-    "3. 4 demerit points",
-    "4. 5 demerit points"
+    "2 demerit points",
+    "3 demerit points",
+    "4 demerit points",
+    "5 demerit points"
   ],
   "correctIndex": 0,
   "explanation": "Improper turns carry 2 demerit points.",
@@ -2355,10 +2355,10 @@
   "category": "demerits-info",
   "question": "At what point range does a novice driver receive a warning letter?",
   "choices": [
-    "1. 0–1 demerit points",
-    "2. 2–5 demerit points",
-    "3. 9–14 demerit points",
-    "4. 15+ demerit points"
+    "0–1 demerit points",
+    "2–5 demerit points",
+    "9–14 demerit points",
+    "15+ demerit points"
   ],
   "correctIndex": 1,
   "explanation": "Novice drivers receive a warning letter between 2 and 5 points.",
@@ -2395,10 +2395,10 @@
   "category": "demerits",
   "question": "A bus driver who fail to stop at an unprotected railway crossing receives how many demerit points?",
   "choices": [
-    "1. 3 demerit points",
-    "2. 4 demerit points",
-    "3. 5 demerit points",
-    "4. 6 demerit points"
+    "3 demerit points",
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points"
   ],
   "correctIndex": 2,
   "explanation": "Bus drivers must stop at unprotected crossings; failing to do so results in 5 points.",
