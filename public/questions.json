@@ -1847,29 +1847,28 @@
     "image": "/signs/q-demerit-careless-driving-125.png",
     "notes": "Careless-driving penalties with explicit 6 points."
   },
-  {
-    "id": "q-no-crossing-81",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "This sign is posted near a railway track and a path. What does it mean?",
-    "choices": [
-      "Crossing is not permitted at this location",
-      "Pedestrians must cross quickly",
-      "Railway crossing ahead",
-      "School crossing ahead"
-    ],
-    "correctIndex": 0,
-    "explanation": "The person walking symbol with a red circle and slash means pedestrians are not allowed to cross at that specific location.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory and railway signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-crossing.jpg",
-    "notes": "Original question using your no-crossing sign artwork."
-  },
+ {
+  "id": "q-hidden-intersection-81",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this warning sign indicate?",
+  "choices": [
+    "You are approaching a hidden intersection where vehicles may enter unexpectedly",
+    "A rest area is located just ahead",
+    "Only right turns are permitted",
+    "The road becomes a one-way street"
+  ],
+  "correctIndex": 0,
+  "explanation": "The sign warns drivers that a side road or intersection is not easily visible, requiring extra caution.",
+  "sources": [
+    {
+      "title": "Traffic Warning Signs — Driver Safety",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-hidden-intersection.png"
+},
   {
     "id": "q-no-entry-82",
     "brand": "Prep test G1",
@@ -2699,28 +2698,27 @@
     "notes": "Accessible parking rule."
   },
   {
-    "id": "q-rules-no-left-turn-junction-118",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "Approaching an intersection you see this NO LEFT TURN sign. You had planned to turn left. What should you do?",
-    "choices": [
-      "Continue straight or turn right where permitted and find another route",
-      "Turn left anyway if the road looks clear",
-      "Make a U-turn instead of a left turn",
-      "Stop in the intersection and wait for a gap"
-    ],
-    "correctIndex": 0,
-    "explanation": "A no-left-turn sign means you are not allowed to turn left at that location. You must choose another legal route.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No left turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-left-turn.jpg",
-    "notes": "Intersection navigation when left turns are prohibited."
-  },
+  "id": "q-traffic-lights-ahead-118",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this sign mean?",
+  "choices": [
+    "Traffic signal lights are ahead",
+    "Pedestrians have priority",
+    "The road turns sharply",
+    "Railway tracks cross the road"
+  ],
+  "correctIndex": 0,
+  "explanation": "A traffic light symbol warns drivers they will soon encounter a signalized intersection.",
+  "sources": [
+    {
+      "title": "Warning Signs for Urban Areas",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/q-traffic-lights-ahead.png "
+},
   {
     "id": "q-demerit-follow-too-closely-119",
     "brand": "Prep test G1",
@@ -2906,28 +2904,28 @@
     "notes": "Different from earlier construction question: focuses on full closure ahead."
   },
   {
-    "id": "q-road-closed-now-127",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-temporary",
-    "question": "You reach this ROAD CLOSED sign across the lane. What must you do?",
-    "choices": [
-      "Do not drive past the sign; you must not continue on this road",
-      "Drive carefully around the sign if no workers are present",
-      "Proceed slowly but stay on the shoulder",
-      "Use your hazard lights and continue through"
-    ],
-    "correctIndex": 0,
-    "explanation": "A ROAD CLOSED sign across the lane means the road is closed to all through traffic at that point. You must not drive beyond it and should follow any posted detour.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones (Road closed signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/road-closed.jpg",
-    "notes": "Second road-closed question, focusing on what to do at the closure itself."
-  },
+  "id": "q-no-passing-127",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "Passing is allowed only on the right",
+    "Passing is prohibited in this area",
+    "Vehicles must travel in pairs",
+    "Slow vehicles must pull over"
+  ],
+  "correctIndex": 1,
+  "explanation": "The red circle and slash over two side-by-side vehicles indicates that overtaking and passing are not permitted.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Passing Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+}
+,
   {
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
@@ -3756,28 +3754,27 @@
     "notes": "New question focusing on driving technique on slippery roads."
   },
   {
-    "id": "q-speed-limit-80-164",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "You see this sign on a dry, clear highway. What does it tell you about your speed?",
-    "choices": [
-      "You must not drive faster than 80 km/h, but you may drive slower if conditions require",
-      "You must drive exactly 80 km/h",
-      "You must drive at least 80 km/h at all times",
-      "The speed limit applies only to trucks"
-    ],
-    "correctIndex": 0,
-    "explanation": "A black number on a white rectangular sign is the maximum legal speed. You may need to drive slower than 80 km/h if traffic, weather or road conditions are not ideal.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Speed limits",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/speed-limit-80.jpg",
-    "notes": "Second speed-limit-80 question, emphasizing that it is a maximum, not a target."
-  },
+  "id": "q-school-zone-164",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this sign warn drivers about?",
+  "choices": [
+    "School zone, slow down and watch for children crossing the road",
+    "The road is for trucks only",
+    "A playground is closed",
+    "Bicycles have the right of way"
+  ],
+  "correctIndex": 0,
+  "explanation": "The image of walking figures warns drivers to slow down and watch for children near schools or play areas.",
+  "sources": [
+    {
+      "title": "Warning Signs — Official Driver’s Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone.png"
+},
   {
     "id": "q-steep-hill-downgrade-165",
     "brand": "Prep test G1",
@@ -5530,22 +5527,27 @@
     "image": "/signs/q-249-yield-sign.jpg"
   },
   {
-    "id": "q-250",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "intersections",
-    "question": "At a four-way stop, two vehicles arrive at slightly different times. Who should go first?",
-    "choices": [
-      "The vehicle that came to a complete stop first",
-      "The largest vehicle",
-      "The vehicle turning left",
-      "The vehicle with the loudest horn"
-    ],
-    "correctIndex": 0,
-    "explanation": "At an all-way stop, the driver who comes to a complete stop first has the right-of-way, if safe to proceed.",
-    "sources": [],
-    "image": "/signs/q-3-right-way.png"
-  },
+  "id": "q-right-left-curve-ahead-250",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this warning sign indicate?",
+  "choices": [
+    "The road ahead curves first to the right and then to the left",
+    "A single sharp right turn is ahead",
+    "The road becomes a one-way street",
+    "You must turn right at the next intersection"
+  ],
+  "correctIndex": 0,
+  "explanation": "The arrow showing two bends warns drivers that the roadway will curve in two directions and speed should be reduced.",
+  "sources": [
+    {
+      "title": "Warning Signs — Road Curves",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
   {
     "id": "q-251",
     "brand": "Prep test G1",
@@ -5682,23 +5684,28 @@
     "sources": [],
     "image": "/signs/q-258-left-lane-highway.png"
   },
-  {
-    "id": "q-259",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "sharing-road",
-    "question": "A school crossing guard holds up a stop sign at a crosswalk. You must:",
-    "choices": [
-      "Stop and remain stopped until all pedestrians and the guard have cleared your lane",
-      "Slow down but continue through carefully",
-      "Honk to warn pedestrians to hurry",
-      "Stop only if children are present"
-    ],
-    "correctIndex": 0,
-    "explanation": "Crossing guards have authority to stop traffic. Drivers must obey their signals.",
-    "sources": [],
-    "image": "/signs/q-6-school-guard.png"
-  },
+ {
+  "id": "q-stop-ahead-259",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this sign warn a driver of?",
+  "choices": [
+    "A stop sign is coming up ahead",
+    "A stop sign is being removed",
+    "Traffic must yield to you",
+    "Traffic lights are ahead"
+  ],
+  "correctIndex": 0,
+  "explanation": "A symbol of a stop sign inside a warning diamond alerts drivers to prepare to stop soon.",
+  "sources": [
+    {
+      "title": "Advance Traffic Control Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/stop-ahead.jpg"
+},
   {
     "id": "q-260",
     "brand": "Prep test G1",
