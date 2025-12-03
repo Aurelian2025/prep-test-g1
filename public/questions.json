@@ -2030,29 +2030,28 @@
     "image": "/signs/deer-crossing.jpg",
     "notes": "Original deer-crossing question aligned to Ontario warning signs."
   },
-  {
-    "id": "q-divided-highway-begins-89",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "You see this sign on a rural road. What does it mean?",
-    "choices": [
-      "A divided highway begins ahead; keep to the right of the median",
-      "A divided highway ends ahead; lanes will merge",
-      "Two-way traffic becomes one-way",
-      "Passing is now allowed in both directions"
-    ],
-    "correctIndex": 0,
-    "explanation": "This warning sign shows one line splitting around a centre shape, telling you that a divided highway is beginning and you must keep to the right of the median.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-begins.jpg",
-    "notes": "Original divided-highway-begins question: not copied from other practice tests."
-  },
+ {
+  "id": "q-two-way-left-turn-lane-89",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "The lane may be used only for making left turns from either direction",
+    "The lane is for passing slower vehicles",
+    "Left turns are prohibited from this lane",
+    "The lane becomes a right-turn-only lane ahead"
+  ],
+  "correctIndex": 0,
+  "explanation": "Opposing curved arrows show that vehicles traveling in either direction may enter the lane exclusively for making left turns.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Lane Usage",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-left-turn-lane.png"
+},
   {
     "id": "q-tailgater-90",
     "brand": "Prep test G1",
@@ -3087,28 +3086,27 @@
     "notes": "Meeting traffic at a narrow bridge."
   },
   {
-    "id": "q-rules-divided-highway-transition-135",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You are on a two-lane road and see this DIVIDED HIGHWAY BEGINS sign. How does the road layout change?",
-    "choices": [
-      "A median or barrier will separate traffic moving in opposite directions",
-      "The road becomes a gravel surface",
-      "Traffic will now travel only in one direction",
-      "The number of lanes is reduced to one"
-    ],
-    "correctIndex": 0,
-    "explanation": "A divided-highway-begins sign tells you a physical median will separate opposing traffic ahead. Each side becomes its own roadway.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-begins.jpg",
-    "notes": "Transition from two-way road to divided highway."
-  },
+  "id": "q-keep-right-except-to-pass-135",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "You must stay in the right lane unless you are passing another vehicle",
+    "The left lane is closed to all traffic",
+    "Right turns are the only permitted movement",
+    "Passing is not allowed at any time"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign tells drivers to use the right lane for normal travel and only move left to safely pass slower vehicles.",
+  "sources": [
+    {
+      "title": "Regulatory Lane Use Signs — MTO Handbook",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
   {
     "id": "q-rules-divided-highway-ends-136",
     "brand": "Prep test G1",
@@ -3730,28 +3728,27 @@
     "notes": "Original passing-rule question using the sharp-curve-right sign."
   },
   {
-    "id": "q-slippery-when-wet-technique-163",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "It has started raining and you see this sign. How should you respond?",
-    "choices": [
-      "Reduce speed, avoid sudden braking, and steer gently",
-      "Use cruise control to keep a steady speed",
-      "Brake sharply to test road grip",
-      "Speed up to get through the slippery area faster"
-    ],
-    "correctIndex": 0,
-    "explanation": "A slippery-when-wet sign means the surface may be slick in rain. Slow down, avoid sudden movements and hard braking, and keep extra space from other vehicles.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/slippery-when-wet.jpg",
-    "notes": "New question focusing on driving technique on slippery roads."
-  },
+  "id": "q-bicycles-permitted-163",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Bicycles are allowed to use this roadway or lane",
+    "Cyclists must walk their bikes",
+    "Bicycles are prohibited in this area",
+    "Only motor vehicles may use this lane"
+  ],
+  "correctIndex": 0,
+  "explanation": "A green circle indicates a permitted action; here it means bicycles may travel in the lane or roadway.",
+  "sources": [
+    {
+      "title": "Permissive Regulatory Signs — MTO",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-bicycles-permitted.png"
+},
   {
   "id": "q-school-zone-164",
   "brand": "Prep test G1",
@@ -4743,29 +4740,28 @@
     "image": "/signs/railway-crossing.jpg",
     "notes": "Second railway-crossing question, focusing on crossings with no gates or lights."
   },
-  {
-    "id": "q-winding-road-night-207",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "At night, you see this winding road sign and do not know the road. What is the best driving strategy?",
-    "choices": [
-      "Reduce your speed, use low beams when approaching other traffic, and drive cautiously through each curve",
-      "Use high beams continuously and drive at the speed limit",
-      "Drive in the centre of the road to straighten the curves",
-      "Speed up to finish the winding section quickly"
-    ],
-    "correctIndex": 0,
-    "explanation": "On an unfamiliar winding road at night, you should slow down, adjust headlights appropriately, and take each curve carefully to maintain control.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Night driving and curves",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/winding-road.jpg",
-    "notes": "Second winding-road question, focused on night driving strategy."
-  },
+ {
+  "id": "q-truck-entrance-207",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Trucks may be entering or leaving the roadway ahead",
+    "Only trucks may use this lane",
+    "Truck parking is allowed",
+    "Trucks are prohibited"
+  ],
+  "correctIndex": 0,
+  "explanation": "The truck symbol warns drivers to expect slow or turning heavy vehicles entering the lane.",
+  "sources": [
+    {
+      "title": "Commercial Vehicle Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-truck-entrance.png"
+},
   {
     "id": "q-208",
     "brand": "Prep test G1",
@@ -5371,23 +5367,28 @@
     "image": "/signs/q-demerit-obey-officer-133.png",
     "notes": "Distinguishes failing to obey an officer (3 points) from failing to stop for police (7 points)."
   },
-  {
-    "id": "q-241",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "A yellow diamond sign showing a vehicle with wavy skid lines warns drivers to:",
-    "choices": [
-      "Reduce speed because the road may be slippery",
-      "Maintain speed because the lanes are straight",
-      "Expect loose gravel only in summer",
-      "Drive close to the centre line"
-    ],
-    "correctIndex": 0,
-    "explanation": "This sign warns of slippery conditions, especially on bridges or shaded areas.",
-    "sources": [],
-    "image": "/signs/q-218-slippery-sign.png"
-  },
+ {
+  "id": "q-snowmobiles-permitted-241",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "Snowmobiles are allowed on this trail or roadway",
+    "Snowmobiles are prohibited at all times",
+    "Only licensed vehicles may proceed",
+    "Snowmobiles must be transported by trailer"
+  ],
+  "correctIndex": 0,
+  "explanation": "A green circle signals an allowed use; the snowmobile symbol shows permitted snowmobile travel.",
+  "sources": [
+    {
+      "title": "Permitted Vehicles Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-snowmobiles-permitted.png"
+},
   {
     "id": "q-242",
     "brand": "Prep test G1",
@@ -5440,22 +5441,27 @@
     "image": "/signs/q-244-orange-diamond.png"
   },
   {
-    "id": "q-245",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "A yellow diamond sign with a deer symbol warns you to:",
-    "choices": [
-      "Be alert for animals crossing, especially at dawn and dusk",
-      "Expect a zoo nearby",
-      "Stop immediately",
-      "Sound your horn continuously"
-    ],
-    "correctIndex": 0,
-    "explanation": "Wildlife warning signs indicate areas with a higher risk of animal crossings.",
-    "sources": [],
-    "image": "/signs/q-245-deer-crossing.jpg"
-  },
+  "id": "q-no-right-turn-on-red-245",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Right turns are prohibited on red light",
+    "Right turns allowed only on red",
+    "Right lane ends",
+    "U-turns are permitted"
+  ],
+  "correctIndex": 0,
+  "explanation": "Red circle with a slash indicates prohibited movement—in this case, no right turn when red.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Turns",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
   {
     "id": "q-246",
     "brand": "Prep test G1",
