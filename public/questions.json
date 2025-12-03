@@ -862,7 +862,6 @@
   ],
   "correctIndex": 3,
   "explanation": "Careless driving carries 6 demerit points.",
-  "sources": [],
   "image": "/signs/q-careless-driving-38.png"
 },
     "image": "/signs/speed-limit-80.jpg",
@@ -5671,7 +5670,6 @@
   ],
   "correctIndex": 3,
   "explanation": "Failing to remain at a collision carries 7 demerit points.",
-  "sources": [],
   "image": "/signs/q-fail-remain-collision-262.png"
 },
   {
@@ -5824,7 +5822,6 @@
   ],
   "correctIndex": 3,
   "explanation": "Failing to stop for police results in 7 demerit points.",
-  "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
   {
