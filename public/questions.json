@@ -1825,28 +1825,27 @@
     "notes": "Red-light offence with exact demerit value."
   },
   {
-    "id": "q-demerit-careless-driving-80",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
-    "question": "A driver weaves through traffic, cuts others off and is convicted of careless driving. How many demerit points does careless driving carry in Ontario?",
-    "choices": [
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points",
-      "7 demerit points"
-    ],
-    "correctIndex": 2,
-    "explanation": "Careless driving is a serious offence that carries 6 demerit points, along with heavy fines and possible licence suspension.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (careless driving)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/q-demerit-careless-driving-125.png",
-    "notes": "Careless-driving penalties with explicit 6 points."
-  },
+  "id": "q-falling-rocks-80",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this warning sign indicate?",
+  "choices": [
+    "Rock slides or falling debris may be present ahead",
+    "The pavement is extremely rough",
+    "Construction blasting is underway",
+    "You must turn around due to a road closure"
+  ],
+  "correctIndex": 0,
+  "explanation": "The image of stones falling from a cliff alerts drivers to possible falling rock hazards.",
+  "sources": [
+    {
+      "title": "Road Hazard Warnings — MTO",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
  {
   "id": "q-hidden-intersection-81",
   "brand": "Prep test G1",
