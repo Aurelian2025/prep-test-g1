@@ -5816,7 +5816,7 @@
     "correctIndex": 0,
     "explanation": "Correct seatbelt positioning reduces injury risk in a collision.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-266-seatbelt.png"
   },
   {
     "id": "q-267",
@@ -5833,7 +5833,7 @@
     "correctIndex": 0,
     "explanation": "Poor conditions require greater space to stop safely.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-267-snow-distance.png"
   },
   {
     "id": "q-268",
@@ -5850,7 +5850,7 @@
     "correctIndex": 0,
     "explanation": "Lower gears and gentle braking improve control on slippery hills.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-268-icy-hill.png"
   },
   {
     "id": "q-269",
@@ -5867,7 +5867,7 @@
     "correctIndex": 0,
     "explanation": "A plain green light allows left turns but does not give protected right-of-way.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-269-turn-left-on-green.png"
   },
   {
     "id": "q-270",
@@ -5884,7 +5884,7 @@
     "correctIndex": 0,
     "explanation": "Vehicles entering a roadway must yield to traffic already on that road.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-253-back-up-driveway.png"
   },
   {
     "id": "q-271",
@@ -5901,7 +5901,7 @@
     "correctIndex": 0,
     "explanation": "G1 conditions require a qualified accompanying driver in the front passenger seat.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-g1-supervisor-192.png"
   },
   {
     "id": "q-272",
@@ -5918,7 +5918,7 @@
     "correctIndex": 0,
     "explanation": "The railway advance warning sign alerts drivers to an upcoming track crossing.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-272-X-and-2R.png"
   },
   {
     "id": "q-273",
@@ -5935,7 +5935,7 @@
     "correctIndex": 0,
     "explanation": "Loading zones restrict parking to short stops while goods or passengers are actively loaded or unloaded.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-273-loadin-zone.png"
   },
   {
     "id": "q-274",
@@ -5952,7 +5952,7 @@
     "correctIndex": 0,
     "explanation": "Drivers should show courtesy and allow buses to re-enter traffic when it is safe.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-274-transit-bus-leaving.png"
   },
   {
     "id": "q-275",
@@ -5969,7 +5969,7 @@
     "correctIndex": 0,
     "explanation": "Left turns must not interfere with oncoming traffic. Choose a gap that lets you turn smoothly.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-275-turning-left.png"
   },
   {
     "id": "q-276",
@@ -5986,7 +5986,7 @@
     "correctIndex": 0,
     "explanation": "Disobeying traffic lights is a serious offence that carries both fines and demerit points.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-276-running-on-red.png"
   },
   {
     "id": "q-277",
@@ -6003,7 +6003,7 @@
     "correctIndex": 0,
     "explanation": "Turning wheels away from the curb helps prevent the vehicle from rolling into traffic.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-parking-uphill-curb-181.png"
   },
   {
     "id": "q-278",
@@ -6020,7 +6020,7 @@
     "correctIndex": 0,
     "explanation": "Turning wheels toward the curb helps the curb stop the vehicle if it rolls.",
     "sources": [],
-    "image": null
+    "image": "/signs/q-curb-downhill-45.png"
   },
   {
     "id": "q-demerit-stunt-279",
