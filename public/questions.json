@@ -5901,7 +5901,7 @@
     "correctIndex": 0,
     "explanation": "G1 conditions require a qualified accompanying driver in the front passenger seat.",
     "sources": [],
-    "image: "/signs/q-g1-supervisor-192.png",
+    "image: "/signs/q-g1-supervisor-192.png"
   },
   {
     "id": "q-272",
@@ -6003,7 +6003,7 @@
     "correctIndex": 0,
     "explanation": "Turning wheels away from the curb helps prevent the vehicle from rolling into traffic.",
     "sources": [],
-    "image":"/signs/q-parking-uphill-curb-181.png",
+    "image":"/signs/q-parking-uphill-curb-181.png"
   },
   {
     "id": "q-278",
@@ -6020,7 +6020,7 @@
     "correctIndex": 0,
     "explanation": "Turning wheels toward the curb helps the curb stop the vehicle if it rolls.",
     "sources": [],
-    "image":"/signs/q-curb-downhill-45.png"
+    "image": "/signs/q-curb-downhill-45.png"
   },
   {
     "id": "q-demerit-stunt-279",
