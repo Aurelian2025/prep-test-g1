@@ -493,10 +493,10 @@
   "category": "demerits",
   "question": "Disobeying a stop sign or traffic light results in how many demerit points?",
   "choices": [
-    "1. 2 demerit points",
-    "2. 3 demerit points",
-    "3. 4 demerit points",
-    "4. 6 demerit points"
+    "2 demerit points",
+    "3 demerit points",
+    "4 demerit points",
+    "6 demerit points"
   ],
   "correctIndex": 1,
   "explanation": "Failing to obey a stop sign or traffic light earns 3 points.",
