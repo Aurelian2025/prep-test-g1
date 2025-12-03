@@ -1894,28 +1894,28 @@
     "notes": "Original no-entry interpretation for Ontario-style signage."
   },
   {
-    "id": "q-no-left-turn-83",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "You approach an intersection and see this sign. What must you do?",
-    "choices": [
-      "Left turn is prohibited at this intersection",
-      "Turn left only on a green arrow",
-      "Make a left turn from the right lane only",
-      "Stop, then turn left if clear"
-    ],
-    "correctIndex": 0,
-    "explanation": "A left-turn arrow inside a red circle with a diagonal slash is a regulatory sign meaning no left turns are allowed where the sign applies.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No left turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-left-turn.jpg",
-    "notes": "Original no-left-turn scenario for Prep Test G1."
-  },
+  "id": "q-no-stopping-between-arrows-83",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "Stopping is allowed only to load passengers",
+    "No stopping is permitted between the arrows",
+    "Parking is allowed but stopping is not",
+    "Stopping is allowed only at night"
+  ],
+  "correctIndex": 1,
+  "explanation": "The red circle with a slash over the stop symbol means stopping is prohibited anywhere between the directional arrows.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Official MTO Driver’s Handbook",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
+
   {
     "id": "q-ped-crossing-84",
     "brand": "Prep test G1",
