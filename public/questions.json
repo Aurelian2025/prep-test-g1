@@ -487,28 +487,22 @@
     "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
   },
   {
-    "id": "q-school-bus-opposite-22",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "sharing-the-road",
-    "question": "A school bus coming toward you has its upper red lights flashing (no median). What must you do?",
-    "choices": [
-      "Proceed at 20 km/h with caution",
-      "Stop a safe distance away and remain stopped until the red lights stop flashing and the stop arm retracts",
-      "Only slow down if children are visible",
-      "Stop only if you are within 20 metres of the bus"
-    ],
-    "correctIndex": 1,
-    "explanation": "On roads without a median, vehicles in both directions must stop for a school bus with red lights flashing and remain stopped until the lights stop and the stop arm retracts.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with school buses",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/school-bus-red-lights.jpg",
-    "notes": "Original question; complements the earlier school-bus item with the opposite-direction scenario."
-  },
+  "id": "q-stop-obey-22",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "Disobeying a stop sign or traffic light results in how many demerit points?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Failing to obey a stop sign or traffic light earns 3 points.",
+  "sources": [],
+  "image": "/signs/q-stop-obey-22.png"
+},
   {
     "id": "q-seatbelt-23",
     "brand": "Prep test G1",
@@ -855,25 +849,22 @@
     "notes": "Original distance question."
   },
   {
-    "id": "q-demerit-speed-20over-38",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
-    "question": "In Ontario, if you are convicted of driving about 20 km/h over the posted speed limit, how many demerit points are added to your record?",
-    "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points"
-    ],
-    "correctIndex": 1,
-    "explanation": "For speeding 16–29 km/h over the limit in Ontario, you receive 3 demerit points on your driving record.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (speeding 16–29 km/h over limit)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
+  "id": "q-careless-driving-38",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are given for careless driving?",
+  "choices": [
+    "1. 3 demerit points",
+    "2. 4 demerit points",
+    "3. 5 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Careless driving carries 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-careless-driving-38.png"
+},
     "image": "/signs/speed-limit-80.jpg",
     "notes": "Exact points for a moderate speeding conviction."
   },
@@ -1937,28 +1928,22 @@
     "notes": "Original pedestrian-crossing question using your sign artwork."
   },
   {
-    "id": "q-bike-lane-85",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "What does this bicycle sign beside the road indicate?",
-    "choices": [
-      "This lane or part of the road is reserved for bicycles",
-      "Bicycles are prohibited on this road",
-      "Cyclists must walk their bikes",
-      "Bicycles must yield to parked cars"
-    ],
-    "correctIndex": 0,
-    "explanation": "A bike symbol on a lane or sign is used to mark a designated bicycle lane or route. Drivers must not block or drive in the bicycle lane except where permitted.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists & traffic signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/bike-lane.jpg",
-    "notes": "Original bike-lane meaning question for Prep Test G1."
-  },
+  "id": "q-racing-stunt-85",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are assigned for racing or stunt driving?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 4 demerit points",
+    "3. 5 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Racing/stunt driving results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-demerit-stunt-134.png"
+},
   {
     "id": "q-bump-warning-86",
     "brand": "Prep test G1",
@@ -2304,28 +2289,22 @@
     "notes": "Original uncontrolled-crosswalk question."
   },
   {
-    "id": "q-school-bus-yellow-lights-101",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "sharing-the-road",
-    "question": "A school bus ahead of you activates its upper flashing amber (yellow) lights. What does this mean?",
-    "choices": [
-      "You must stop immediately",
-      "The bus is about to stop to load or unload children; be prepared to stop",
-      "You may pass at full speed",
-      "The bus is out of service"
-    ],
-    "correctIndex": 1,
-    "explanation": "Flashing amber lights mean the bus is preparing to stop. Slow down and be ready to stop when the red lights come on.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — School buses",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-school-bus-yellow-lights-76.png",
-    "notes": "Original amber-light school-bus question."
-  },
+  "id": "q-improper-right-101",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points result from making an improper right turn?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 0,
+  "explanation": "Improper turns carry 2 demerit points.",
+  "sources": [],
+ "image": "/signs/q-improper-right-101.png"
+},
   {
     "id": "q-rules-merge-sign-102",
     "brand": "Prep test G1",
@@ -2373,28 +2352,22 @@
     "notes": "Roundabout lane-choice question using the roundabout sign."
   },
   {
-    "id": "q-rules-railway-gates-104",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You approach this railway sign and the gates start to come down. What must you do?",
-    "choices": [
-      "Stop at the stop line or before the gates and wait until they fully rise and lights stop flashing",
-      "Drive around the gates if you do not see a train",
-      "Stop on the tracks to look both ways",
-      "Reverse back onto the highway"
-    ],
-    "correctIndex": 0,
-    "explanation": "When railway crossing gates begin to lower, you must stop and remain stopped until the gates are fully raised and lights stop flashing.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Railway crossings with gates",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
-      }
-    ],
-    "image": "/signs/railway-crossing.jpg",
-    "notes": "Rules-of-the-road question about gated crossings."
-  },
+  "id": "q-warning-letter-104",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits-info",
+  "question": "At what point range does a novice driver receive a warning letter?",
+  "choices": [
+    "1. 0–1 demerit points",
+    "2. 2–5 demerit points",
+    "3. 9–14 demerit points",
+    "4. 15+ demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Novice drivers receive a warning letter between 2 and 5 points.",
+  "sources": [],
+  "image": "/signs/q-warning-letter-104.png"
+},
   {
     "id": "q-rules-construction-speed-105",
     "brand": "Prep test G1",
@@ -2419,28 +2392,22 @@
     "notes": "Construction-zone speed and caution question."
   },
   {
-    "id": "q-rules-no-passing-sign-106",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You are behind a slow vehicle and see this sign. What are you allowed to do?",
-    "choices": [
-      "You must not pass another vehicle where this sign applies",
-      "You may pass if you can speed up quickly enough",
-      "You may pass only motorcycles",
-      "You may pass only when going downhill"
-    ],
-    "correctIndex": 0,
-    "explanation": "A no-passing sign means you are not allowed to overtake another vehicle in that zone, even if the road appears clear.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No passing)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-passing.jpg",
-    "notes": "Clarifies the rule at a no-passing sign."
-  },
+  "id": "q-bus-rail-106",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "A bus driver who fail to stop at an unprotected railway crossing receives how many demerit points?",
+  "choices": [
+    "1. 3 demerit points",
+    "2. 4 demerit points",
+    "3. 5 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Bus drivers must stop at unprotected crossings; failing to do so results in 5 points.",
+  "sources": [],
+  "image": "/signs/q-bus-rail-106.png"
+},
   {
     "id": "q-rules-no-entry-oneway-107",
     "brand": "Prep test G1",
@@ -2465,51 +2432,39 @@
     "notes": "Rules interpretation of the do-not-enter sign."
   },
   {
-    "id": "q-rules-bikelane-pass-108",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You see this bike lane on the right and want to turn right at the next intersection. What is the safest way to do it?",
-    "choices": [
-      "Check for cyclists, signal, merge carefully into the bike lane near the intersection, then turn",
-      "Turn right from the middle lane without signaling",
-      "Drive in the bike lane for a long distance at high speed",
-      "Stop in the bike lane and wait for cyclists to go around you"
-    ],
-    "correctIndex": 0,
-    "explanation": "When turning right across a bike lane, signal, check for cyclists, and move carefully into the lane near the intersection to complete your turn safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/bike-lane.jpg",
-    "notes": "Bike-lane turning rule."
-  },
+  "id": "q-speed-50plus-108",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are issued for driving 50 km/h or more over the posted limit?",
+  "choices": [
+    "1. 3 demerit points",
+    "2. 4 demerit points",
+    "3. 5 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Speeding 50 km/h or more over the limit carries 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-speed-50plus-108.png"
+},
   {
-    "id": "q-rules-no-parking-zone-109",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You see this sign with arrows along the curb. What does it mean?",
-    "choices": [
-      "You must not park in the direction(s) indicated by the arrows",
-      "You may park but only with your hazard lights on",
-      "You may park for 10 minutes only",
-      "Parking is allowed at night only"
-    ],
-    "correctIndex": 0,
-    "explanation": "A no-parking sign means you may not leave your vehicle parked in the signed area between the arrows. Brief stops for loading may be allowed if stopping rules permit.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Parking restrictions (No parking)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/no-parking.jpg",
-    "notes": "Clarifies the meaning of arrows on a no-parking sign."
-  },
+  "id": "q-rail-barrier-109",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "Driving through, around, or under a lowered railway barrier results in how many demerit points?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bypassing a lowered barrier is a 3-point violation.",
+  "sources": [],
+  "image": "/signs/q-rail-barrier-109.png"
+},
   {
     "id": "q-rules-no-stopping-like-sign-110",
     "brand": "Prep test G1",
@@ -2534,28 +2489,22 @@
     "notes": "Conceptual comparison question; uses no-parking image as reference."
   },
   {
-    "id": "q-rules-maximum-40-zone-111",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You see this sign entering a residential street. What is the safest speed choice?",
-    "choices": [
-      "Drive at or below 40 km/h depending on conditions",
-      "Always drive exactly 40 km/h even in heavy rain",
-      "Drive 10 km/h over the limit to keep traffic moving",
-      "The speed limit no longer applies after the first intersection"
-    ],
-    "correctIndex": 0,
-    "explanation": "Maximum speed signs show the highest speed allowed in ideal conditions. In residential areas you may need to drive slower for pedestrians, children or weather.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Speed limits in cities and towns",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/maximum-speed-40.jpg",
-    "notes": "Rules-of-the-road interpretation of a 40 km/h zone."
-  },
+  "id": "q-follow-closely-111",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "Following another vehicle too closely results in how many demerit points?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Following too closely carries 4 demerit points.",
+  "sources": [],
+  "image": "/signs/q-tailgater-189.png"
+},
   {
     "id": "q-rules-hill-downgrade-112",
     "brand": "Prep test G1",
@@ -2626,51 +2575,39 @@
     "notes": "Combines winding road with fog driving advice."
   },
   {
-    "id": "q-rules-pedestrian-zone-115",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "This sign shows a pedestrian with a red circle and slash. Where might you see it and what does it mean?",
-    "choices": [
-      "In areas where pedestrians are not allowed, such as certain tunnels or ramps",
-      "At every school crossing",
-      "At crosswalks where pedestrians always have right-of-way",
-      "Only on bicycle paths"
-    ],
-    "correctIndex": 0,
-    "explanation": "No-pedestrian signs indicate places where people on foot are not permitted, often for safety reasons such as high-speed ramps.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-pedestrians.jpg",
-    "notes": "Clarifies where no-pedestrian zones apply."
-  },
+  "id": "q-fail-yield-115",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are given for failing to yield the right of way?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Failing to yield the right of way results in 3 points.",
+  "sources": [],
+  "image": "/signs/q-fail-yield-115.png"
+},
   {
-    "id": "q-rules-no-bicycles-area-116",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "This sign shows a bicycle in a red circle with a slash. How should drivers and cyclists respond?",
-    "choices": [
-      "Cyclists must not ride in this area; drivers should still watch for them nearby",
-      "Cyclists have priority over cars",
-      "Cyclists must ride on the sidewalk only",
-      "Cyclists may ride but must walk through intersections"
-    ],
-    "correctIndex": 0,
-    "explanation": "No-bicycles signs indicate routes where cycling is not permitted, such as certain bridges or expressways.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-bicycles.jpg",
-    "notes": "Rules question about where cycling is forbidden."
-  },
+  "id": "q-speed-16to29-116",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are applied for speeding 16–29 km/h over the limit?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Speeding 16–29 km/h over the limit carries 3 points.",
+  "sources": [],
+  "image": "/signs/q-speed-16to29-116.png"
+},
   {
     "id": "q-rules-wheelchair-accessible-117",
     "brand": "Prep test G1",
@@ -4410,29 +4347,23 @@
     "image": "/signs/q-205-emergency-vehicle.jpg",
     "notes": "Emergency right-of-way rule."
   },
-  {
-    "id": "q-school-bus-stopped-193",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You are driving on a two-lane road with no median. A school bus ahead has stopped with its red lights flashing and stop arm extended. What must you do?",
-    "choices": [
-      "Slow down and pass carefully if no children are visible",
-      "Stop before reaching the bus and do not move until the red lights stop flashing and the stop arm is folded away",
-      "Sound your horn and drive past at a reduced speed",
-      "Stop only if you are travelling in the same direction as the bus"
-    ],
-    "correctIndex": 1,
-    "explanation": "On a road without a median, drivers in both directions must stop for a school bus with red lights flashing and the stop arm extended, and remain stopped until the signals are off and the arm is folded away.",
-    "sources": [
-      {
-        "title": "Official MTO School Bus Handbook — Stopping-for-school-buses law",
-        "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/stopping-school-buses-law"
-      }
-    ],
-    "image": "/signs/q-206-school-bus-flashing.jpg",
-    "notes": "Covers basic full-stop requirement for school buses on undivided roads."
-  },
+ {
+  "id": "q-improper-left-193",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "Improper left turns carry how many demerit points?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 0,
+  "explanation": "Improper left turns are a 2-point offence.",
+  "sources": [],
+  "image": "/signs/q-improper-left-193.png"
+},
   {
     "id": "q-school-bus-median-194",
     "brand": "Prep test G1",
@@ -4503,28 +4434,22 @@
     "notes": "Parking distance rule near intersections without signals."
   },
   {
-    "id": "q-railway-crossing-stop-distance-197",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "When you are required to stop at a railway crossing, how far from the nearest rail should you stop?",
-    "choices": [
-      "Right on the tracks to see better in both directions",
-      "No closer than one metre from the nearest rail",
-      "At least five metres from the nearest rail",
-      "At least 20 metres from the nearest rail"
-    ],
-    "correctIndex": 2,
-    "explanation": "Drivers must stop at least five metres from the nearest rail when required to stop at a railway crossing, leaving room for trains that are wider than the tracks.",
-    "sources": [
-      {
-        "title": "Ontario Road Safety Resource — Railway crossing safety",
-        "url": "https://ontarioroadsafety.ca/en/topics/railway-crossing-safety/"
-      }
-    ],
-    "image": "/signs/q-210-railway-crossing-1.jpg",
-    "notes": "Basic stopping distance rule at railway crossings."
-  },
+  "id": "q-suspension-197",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits-info",
+  "question": "At how many demerit points is a novice driver's license suspended for 60 days?",
+  "choices": [
+    "1. 9 points",
+    "2. 12 points",
+    "3. 15 points",
+    "4. 20 points"
+  ],
+  "correctIndex": 2,
+  "explanation": "A 30-day licence suspension occurs at 9 or more points.",
+  "sources": [],
+ "image": "/signs/q-suspension-197.png"
+},
   {
     "id": "q-hov-lane-198",
     "brand": "Prep test G1",
@@ -4667,28 +4592,22 @@
     "notes": "Different from the no-entry question; focuses on wrong-way one-way situations."
   },
   {
-    "id": "q-bike-lane-turn-204",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "When this bicycle lane sign and markings appear on the right and you need to turn right at the next intersection, what should you do?",
-    "choices": [
-      "Check for cyclists, signal right, then carefully enter the bike lane near the intersection to turn",
-      "Turn right without signaling because cyclists must yield",
-      "Drive in the bike lane for a long distance before turning",
-      "Never cross the bike lane, even to turn"
-    ],
-    "correctIndex": 0,
-    "explanation": "Where there is a bike lane at the curb, you must check for cyclists, signal, and carefully move across it near the intersection to complete a right turn when safe.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/bike-lane.jpg",
-    "notes": "Second bike-lane question, focusing on turning right across the lane."
-  },
+  "id": "q-school-bus-204",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points result from failing to stop for a school bus with flashing red lights?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 4 demerit points",
+    "3. 5 demerit points",
+    "4. 6 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to stop for a school bus is a 6-point offence.",
+  "sources": [],
+  "image": "/signs/q-school-bus-204.png"
+},
   {
     "id": "q-ped-crossing-waiting-205",
     "brand": "Prep test G1",
@@ -5265,22 +5184,22 @@
     "image": "/signs/q-235-steady-yellow.png"
   },
   {
-    "id": "q-236",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "road-rules",
-    "question": "When may you turn right at a red traffic light in Ontario?",
-    "choices": [
-      "After stopping and making sure the way is clear, unless a sign says no right turn on red",
-      "Any time, without stopping, if no one is coming",
-      "Only at one-way streets",
-      "Never, right turns on red are illegal"
-    ],
-    "correctIndex": 0,
-    "explanation": "Unless prohibited by a sign, you may turn right on red after coming to a complete stop and ensuring it is safe.",
-    "sources": [],
-    "image": "/signs/q-4-right-turn-on-red.png"
-  },
+  "id": "q-speed-30to49-236",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points apply for speeding 30–49 km/h over the limit?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Speeding 30–49 km/h over the limit is a 4-point offence.",
+  "sources": [],
+  "image": "/signs/q-speed-30to49-236.png"
+},
   {
     "id": "q-237",
     "brand": "Prep test G1",
@@ -5299,22 +5218,22 @@
     "image": "/signs/no-parking.jpg"
   },
   {
-    "id": "q-238",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "parking",
-    "question": "A sign with a red circle and slash over a hand or the words 'No Stopping' means:",
-    "choices": [
-      "You may not stop your vehicle here, even briefly, except to obey traffic or police",
-      "You may stop to load people but not goods",
-      "You may park only overnight",
-      "Only trucks may stop here"
-    ],
-    "correctIndex": 0,
-    "explanation": "No stopping zones prohibit stopping for any reason other than obeying traffic controls or police directions.",
-    "sources": [],
-    "image": "/signs/q-238-no-stopping.png"
-  },
+  "id": "q-fail-signal-238",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are assigned for failing to signal?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 3 demerit points",
+    "3. 4 demerit points",
+    "4. 5 demerit points"
+  ],
+  "correctIndex": 0,
+  "explanation": "Failing to signal results in 2 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-signal-238.png"
+},
   {
     "id": "q-demerit-improper-passing-239",
     "brand": "Prep test G1",
@@ -5739,22 +5658,22 @@
     "image": "/signs/q-tired-driver-200.png"
   },
   {
-    "id": "q-262",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "road-rules",
-    "question": "When should you use your horn?",
-    "choices": [
-      "To alert other road users to a possible danger",
-      "To express frustration in traffic",
-      "To greet friends you see",
-      "To signal that you want the car ahead to speed up"
-    ],
-    "correctIndex": 0,
-    "explanation": "The horn is a safety device, not for anger or casual use.",
-    "sources": [],
-    "image": "/signs/q-26-horn.png"
-  },
+  "id": "q-fail-remain-collision-262",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are assigned for failing to remain at a collision?",
+  "choices": [
+    "1. 3 demerit points",
+    "2. 5 demerit points",
+    "3. 6 demerit points",
+    "4. 7 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to remain at a collision carries 7 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
   {
     "id": "q-263",
     "brand": "Prep test G1",
@@ -5892,22 +5811,22 @@
     "image": "/signs/q-253-back-up-driveway.png"
   },
   {
-    "id": "q-271",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "licensing",
-    "question": "A G1 driver must be accompanied by a fully licensed driver who:",
-    "choices": [
-      "Has at least four years of driving experience and a BAC of less than 0.05",
-      "Is over 16 years old with any licence",
-      "Can sit in the back seat",
-      "Drives a commercial vehicle"
-    ],
-    "correctIndex": 0,
-    "explanation": "G1 conditions require a qualified accompanying driver in the front passenger seat.",
-    "sources": [],
-    "image": "/signs/q-g1-supervisor-192.png"
-  },
+  "id": "q-fail-stop-police-271",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerits",
+  "question": "How many demerit points are applied for failing to stop when signaled by police?",
+  "choices": [
+    "1. 2 demerit points",
+    "2. 4 demerit points",
+    "3. 6 demerit points",
+    "4. 7 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to stop for police results in 7 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
   {
     "id": "q-272",
     "brand": "Prep test G1",
