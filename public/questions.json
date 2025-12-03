@@ -1870,28 +1870,27 @@
   "image": "/signs/q-hidden-intersection.png"
 },
   {
-    "id": "q-no-entry-82",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "What does this DO NOT ENTER–style sign mean for drivers approaching it?",
-    "choices": [
-      "You must not enter this roadway from this direction",
-      "Right turns only are allowed",
-      "This is a one-way street in your direction",
-      "Road is open only to local traffic"
-    ],
-    "correctIndex": 0,
-    "explanation": "The white bar on a red circle is used to indicate that the road or lane is closed to traffic from your direction — do not enter.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (Do not enter / Wrong way)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-entry.jpg",
-    "notes": "Original no-entry interpretation for Ontario-style signage."
-  },
+  "id": "q-novice-driver-n-82",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-general",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "The vehicle is being operated by a novice driver",
+    "The vehicle may only travel at low speeds",
+    "The vehicle belongs to a driving school",
+    "Only new vehicles may enter this zone"
+  ],
+  "correctIndex": 0,
+  "explanation": "A large 'N' indicates a new or inexperienced driver is behind the wheel, urging others to allow extra space.",
+  "sources": [
+    {
+      "title": "New Driver Identification Programs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
   {
   "id": "q-no-stopping-between-arrows-83",
   "brand": "Prep test G1",
