@@ -864,9 +864,7 @@
   "explanation": "Careless driving carries 6 demerit points.",
   "image": "/signs/q-careless-driving-38.png"
 },
-    "image": "/signs/speed-limit-80.jpg",
-    "notes": "Exact points for a moderate speeding conviction."
-  },
+
   {
     "id": "q-demerit-school-bus-39",
     "brand": "Prep test G1",
