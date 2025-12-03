@@ -528,7 +528,19 @@ export default function PrepTestG1() {
                 {q.explanation}
               </div>
             )}
-          </div>
+{/* Footer */}
+      <div
+        style={{
+          marginTop: "3rem",
+          textAlign: "center",
+          fontSize: "0.75rem",
+          color: "#666",
+          letterSpacing: "0.5px"
+        }}
+      >
+        Ontario G1 Practice Test © 2025. ALL RIGHTS RESERVED.
+      </div>
+</div>
         </div>
       </div>
     </div>
