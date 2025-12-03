@@ -2972,29 +2972,28 @@
     "image": "/signs/school-bus-red-lights.jpg",
     "notes": "New school-bus question describing the undivided two-lane situation."
   },
-  {
-    "id": "q-rules-no-right-turn-intersection-130",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "At a busy downtown intersection you see this NO RIGHT TURN sign. When can you turn right?",
-    "choices": [
-      "You must not turn right at that intersection while the sign applies",
-      "You may turn right on a green light only",
-      "You may turn right if pedestrians are not present",
-      "You may turn right on a red light only"
-    ],
-    "correctIndex": 0,
-    "explanation": "A no-right-turn sign prohibits right turns at that specific location regardless of signal colour, unless a time plate says otherwise.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No right turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-right-turn.jpg",
-    "notes": "Clarifies that right turns are fully prohibited where signed."
-  },
+ {
+  "id": "q-permitted-action-130",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does a green circle sign typically indicate?",
+  "choices": [
+    "An action is permitted",
+    "A warning of hazards ahead",
+    "An upcoming stop sign",
+    "A lane is closed"
+  ],
+  "correctIndex": 0,
+  "explanation": "Green circles in regulatory signage indicate allowed actions or movements.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+},
   {
     "id": "q-rules-no-u-turn-131",
     "brand": "Prep test G1",
@@ -4608,28 +4607,27 @@
     "notes": "Yield-sign scenario with 3 demerit points."
   },
   {
-    "id": "q-winding-road-201",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "This sign appears before a series of bends in the road. How should you drive?",
-    "choices": [
-      "Reduce speed and be prepared for several curves in a row",
-      "Keep your current speed and brake only in the middle of each curve",
-      "Drive on the centre line to straighten the road",
-      "Stop before each curve and look both ways"
-    ],
-    "correctIndex": 0,
-    "explanation": "A winding road warning sign tells you there are several curves ahead. You should slow down and drive smoothly through each curve, staying in your lane.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Winding road)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/winding-road.jpg",
-    "notes": "New winding-road question focused on driving technique."
-  },
+  "id": "q-red-light-camera-201",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign alert drivers to?",
+  "choices": [
+    "The traffic signal is out of service",
+    "A red light camera is monitoring the intersection",
+    "Only emergency vehicles may proceed on red",
+    "The next light is a pedestrian-activated signal"
+  ],
+  "correctIndex": 1,
+  "explanation": "The camera symbol below the traffic signal indicates that a photo-enforcement device records vehicles that run the red light.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Camera Enforcement",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-red-light-camera.png"
+},
   {
     "id": "q-yield-sign-202",
     "brand": "Prep test G1",
