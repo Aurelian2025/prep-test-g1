@@ -2949,28 +2949,27 @@
     "notes": "New roundabout question focusing on yielding on entry."
   },
   {
-    "id": "q-school-bus-red-lights-129",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "On a two-lane road with no median, a school bus ahead shows this sign and starts flashing red lights. What must you do?",
-    "choices": [
-      "Stop in your lane, whether you are behind or approaching the bus",
-      "Pass the bus slowly if no children are visible",
-      "Stop only if you are directly behind the bus",
-      "Sound your horn and proceed with caution"
-    ],
-    "correctIndex": 0,
-    "explanation": "When a school bus turns on its upper flashing red lights, drivers in both directions on an undivided road must stop and remain stopped until the lights stop flashing and the bus moves again.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — School buses",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/school-bus-red-lights.jpg",
-    "notes": "New school-bus question describing the undivided two-lane situation."
-  },
+  "id": "q-hand-signal-slow-stop-129",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-general",
+  "question": "What does this hand signal indicate from the driver?",
+  "choices": [
+    "The driver is slowing down or stopping",
+    "The driver intends to turn left",
+    "The driver intends to turn right",
+    "The driver is yielding to oncoming traffic"
+  ],
+  "correctIndex": 0,
+  "explanation": "An arm extended downward signifies the driver plans to reduce speed or come to a stop.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals — Official MTO Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
  {
   "id": "q-permitted-action-130",
   "brand": "Prep test G1",
@@ -3040,28 +3039,27 @@
     "notes": "Night driving with a road-ends warning."
   },
   {
-    "id": "q-rules-bump-slow-133",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules",
-    "question": "You see this BUMP warning sign and an advisory speed sign below it. What should you do?",
-    "choices": [
-      "Reduce your speed to about the advisory speed before the bump",
-      "Maintain highway speed and brake hard on the bump",
-      "Drive partly on the shoulder to avoid the bump",
-      "Ignore the advisory speed because it is optional"
-    ],
-    "correctIndex": 0,
-    "explanation": "Bump signs with advisory speeds warn that hitting the bump too fast could cause loss of control. Slow down before reaching it.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Bump/uneven pavement)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/bump-sign.jpg",
-    "notes": "How to use advisory speed with a bump sign."
-  },
+  "id": "q-reserved-lane-bicycles-133",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "The lane ahead is reserved for bicycles",
+    "Bicycles are prohibited from the next lane",
+    "Only buses may use the lane",
+    "The lane is for emergency vehicles only"
+  ],
+  "correctIndex": 0,
+  "explanation": "The bicycle symbol with a downward arrow shows that the lane directly ahead is restricted for bicycle use.",
+  "sources": [
+    {
+      "title": "Reserved Lane Symbols",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
   {
     "id": "q-rules-narrow-bridge-meeting-134",
     "brand": "Prep test G1",
@@ -3772,28 +3770,27 @@
   "image": "/signs/q-school-zone.png"
 },
   {
-    "id": "q-steep-hill-downgrade-165",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "You see this sign before a long downhill grade. What should you do?",
-    "choices": [
-      "Slow down and use a lower gear to help control your speed",
-      "Turn off your engine to save fuel",
-      "Coast in Neutral to go down faster",
-      "Shift into a high gear and brake only at the bottom"
-    ],
-    "correctIndex": 0,
-    "explanation": "A steep hill warning sign means you should reduce speed, shift to a lower gear, and avoid riding your brakes so they do not overheat on the downgrade.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Hills) & downhill driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/steep-hill-downgrade.jpg",
-    "notes": "Original hill-driving technique question."
-  },
+  "id": "q-parking-30-min-165",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Parking is allowed for a maximum of 30 minutes during posted hours",
+    "Parking is completely prohibited in this area",
+    "Only commercial vehicles may park here",
+    "Parking is free and unrestricted at all times"
+  ],
+  "correctIndex": 0,
+  "explanation": "The green P means parking is allowed, while the text below specifies time limits and the days of enforcement.",
+  "sources": [
+    {
+      "title": "Parking Control Signs — Driver's Handbook",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
   {
     "id": "q-stop-sign-where-to-stop-166",
     "brand": "Prep test G1",
@@ -4718,28 +4715,27 @@
     "notes": "Second pedestrian-crossing question, now focusing on a waiting pedestrian."
   },
   {
-    "id": "q-railway-no-gates-206",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-warning",
-    "question": "At this railway crossing sign with no gates or lights, and no train in sight, what is the safest action?",
-    "choices": [
-      "Slow down, look both ways, listen, and cross only when you are sure no train is coming",
-      "Drive through at full speed if the road looks clear",
-      "Stop on the tracks to look for trains",
-      "Use your horn instead of slowing down"
-    ],
-    "correctIndex": 0,
-    "explanation": "At uncontrolled railway crossings, you must approach slowly, look and listen carefully in both directions, and cross only when it is clearly safe.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Railway crossings (Uncontrolled crossings)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
-      }
-    ],
-    "image": "/signs/railway-crossing.jpg",
-    "notes": "Second railway-crossing question, focusing on crossings with no gates or lights."
-  },
+  "id": "q-two-way-traffic-ahead-206",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-warning",
+  "question": "What does this sign warn drivers about?",
+  "choices": [
+    "Two-way traffic is ahead",
+    "One-way road continues",
+    "Passing lane begins",
+    "Road narrows to one lane"
+  ],
+  "correctIndex": 0,
+  "explanation": "The opposing arrows show traffic moving in both directions on the roadway ahead.",
+  "sources": [
+    {
+      "title": "Warning Signs — Road Direction",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
  {
   "id": "q-truck-entrance-207",
   "brand": "Prep test G1",
