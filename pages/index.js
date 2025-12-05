@@ -368,41 +368,53 @@ export default function PrepTestG1() {
   }
 
   // access gate
-  if (!hasAccess) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtons()}
-          </div>
-          <div style={styles.card}>
-            <h2>Access required</h2>
-            <form onSubmit={handleCodeSubmit}>
-              <input
-                type="password"
-                placeholder="Access code"
-                value={codeInput}
-                onChange={(e) => setCodeInput(e.target.value)}
-                style={{
-                  width: '100%',
-                  padding: 8,
-                  borderRadius: 8,
-                  border: '1px solid #ccc',
-                  marginBottom: 8
-                }}
-              />
-              <button style={styles.submitBtn(false)}>Unlock</button>
-            </form>
-            <hr />
-            <button style={styles.submitBtn(false)} onClick={handleSubscribe}>
-              Subscribe · $15/month
-            </button>
-          </div>
+if (!hasAccess) {
+  return (
+    <div style={styles.page}>
+      <div style={styles.container}>
+        <div style={styles.header}>
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+          {renderButtons()}
+        </div>
+        <div style={styles.card}>
+          <h2>Access required</h2>
+          <form onSubmit={handleCodeSubmit}>
+            <input
+              type="password"
+              placeholder="Access code"
+              value={codeInput}
+              onChange={(e) => setCodeInput(e.target.value)}
+              style={{
+                width: '100%',
+                padding: 8,
+                borderRadius: 8,
+                border: '1px solid #ccc',
+                marginBottom: 8
+              }}
+            />
+            <button style={styles.submitBtn(false)}>Unlock</button>
+          </form>
+          <hr />
+          <button style={styles.submitBtn(false)} onClick={handleSubscribe}>
+            Subscribe · $15/month
+          </button>
+
+          {/* NEW: login link */}
+          <p style={{ marginTop: 12, fontSize: 13, color: '#4b5563' }}>
+            Already subscribed?{' '}
+            <a
+              href="/login"
+              style={{ color: '#2563eb', textDecoration: 'underline' }}
+            >
+              Log in to your account
+            </a>
+          </p>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
+
 
   // no active questions (should not normally happen)
   if (!hasQuestionsFlag) {
