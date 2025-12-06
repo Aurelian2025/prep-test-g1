@@ -179,32 +179,51 @@ export default function PrepTestG1() {
   const [accessChecked, setAccessChecked] = useState(false);
 
   useEffect(() => {
-    async function checkAccess() {
-      // 1) Old behavior: check localStorage flag
-      let localHasAccess = false;
-      if (typeof window !== 'undefined') {
-        localHasAccess = window.localStorage.getItem('g1_access_v2') === 'yes';
-      }
-
-      // 2) New behavior: check if user is logged in with Supabase
-      let loggedIn = false;
-      try {
-        const {
-          data: { user },
-        } = await supabase.auth.getUser();
-        if (user) {
-          loggedIn = true;
-        }
-      } catch (err) {
-        console.error('Error checking Supabase user:', err);
-      }
-
-      setHasAccess(localHasAccess || loggedIn);
-      setAccessChecked(true);
+  async function checkAccess() {
+    // 1) Old behavior: check localStorage flag (for now we keep as backup)
+    let localHasAccess = false;
+    if (typeof window !== 'undefined') {
+      localHasAccess = window.localStorage.getItem('g1_access_v2') === 'yes';
     }
 
-    checkAccess();
-  }, []);
+    // 2) New behavior: check Supabase user + subscription_status
+    let subscriptionActive = false;
+
+    try {
+      const {
+        data: { user },
+        error: userError,
+      } = await supabase.auth.getUser();
+
+      if (userError) {
+        console.error('Error getting Supabase user:', userError);
+      }
+
+      if (user) {
+        // Look up this user's profile
+        const { data: profile, error: profileError } = await supabase
+          .from('profiles')
+          .select('subscription_status')
+          .eq('id', user.id)
+          .single();
+
+        if (profileError) {
+          console.error('Error loading profile:', profileError);
+        } else if (profile && profile.subscription_status === 'active') {
+          subscriptionActive = true;
+        }
+      }
+    } catch (err) {
+      console.error('Error checking Supabase user/profile:', err);
+    }
+
+    // 👉 strict Option A: only active subscriptions (plus old localStorage for now)
+    setHasAccess(localHasAccess || subscriptionActive);
+    setAccessChecked(true);
+  }
+
+  checkAccess();
+}, []);
 
   const [allQuestions, setAllQuestions] = useState(null); // full bank
   const [questions, setQuestions] = useState([]); // active set
