@@ -218,7 +218,7 @@ export default function PrepTestG1() {
     }
 
     // 👉 strict Option A: only active subscriptions (plus old localStorage for now)
-    setHasAccess(localHasAccess || subscriptionActive);
+    setHasAccess(subscriptionActive);
     setAccessChecked(true);
   }
 
