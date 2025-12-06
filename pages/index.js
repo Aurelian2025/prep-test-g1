@@ -213,7 +213,7 @@ export default function PrepTestG1() {
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [cardRaised, setCardRaised] = useState(false);
-  const [hasAccess, setHasAccess] = useState(false);
+  
   const [codeInput, setCodeInput] = useState('');
 
   // for the global "Question X of 280" display
