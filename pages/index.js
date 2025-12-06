@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import { supabase } from '../lib/supabaseClient';
 const ACCESS_CODE = 'Lucas';
 
 const styles = {
@@ -175,6 +175,37 @@ function shuffleQuestionChoices(q) {
 }
 
 export default function PrepTestG1() {
+    const [hasAccess, setHasAccess] = useState(false);
+  const [accessChecked, setAccessChecked] = useState(false);
+
+  useEffect(() => {
+    async function checkAccess() {
+      // 1) Old behavior: check localStorage flag
+      let localHasAccess = false;
+      if (typeof window !== 'undefined') {
+        localHasAccess = window.localStorage.getItem('g1_access_v2') === 'yes';
+      }
+
+      // 2) New behavior: check if user is logged in with Supabase
+      let loggedIn = false;
+      try {
+        const {
+          data: { user },
+        } = await supabase.auth.getUser();
+        if (user) {
+          loggedIn = true;
+        }
+      } catch (err) {
+        console.error('Error checking Supabase user:', err);
+      }
+
+      setHasAccess(localHasAccess || loggedIn);
+      setAccessChecked(true);
+    }
+
+    checkAccess();
+  }, []);
+
   const [allQuestions, setAllQuestions] = useState(null); // full bank
   const [questions, setQuestions] = useState([]); // active set
   const [current, setCurrent] = useState(0);
@@ -361,6 +392,17 @@ export default function PrepTestG1() {
           </div>
           <div style={styles.card}>
             <p>Loading questions…</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  if (!accessChecked) {
+    return (
+      <div style={styles.page}>
+        <div style={styles.container}>
+          <div style={styles.card}>
+            <p>Checking access…</p>
           </div>
         </div>
       </div>
