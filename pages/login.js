@@ -74,11 +74,39 @@ export default function LoginPage() {
         setMessage('Account created. You can now log in.');
         setMode('login');
       } else {
+        // LOGIN
         const { error } = await supabase.auth.signInWithPassword({
           email,
           password,
         });
         if (error) throw error;
+
+        // Get the logged-in user
+        const {
+          data: { user },
+          error: userError,
+        } = await supabase.auth.getUser();
+        if (userError) throw userError;
+
+        if (user) {
+          // Ensure profile row exists / is updated
+          const { error: profileError } = await supabase
+            .from('profiles')
+            .upsert(
+              {
+                id: user.id,
+                email: user.email,
+                // subscription_status: keep default 'inactive' for now
+              },
+              { onConflict: 'id' }
+            );
+
+          if (profileError) {
+            console.error('Error upserting profile:', profileError);
+            // not fatal, we still let them in
+          }
+        }
+
         // Logged in successfully – go to main app
         router.push('/');
       }
