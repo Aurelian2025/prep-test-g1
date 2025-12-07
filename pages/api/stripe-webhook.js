@@ -1,3 +1,7 @@
+// pages/api/ping.js
+export default function handler(req, res) {
+  res.status(200).json({ ok: true });
+}
 // pages/api/stripe-webhook.js
 import Stripe from 'stripe';
 import { supabaseAdmin } from '../../lib/supabaseAdmin';
