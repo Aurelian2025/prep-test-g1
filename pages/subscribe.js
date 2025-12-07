@@ -7,7 +7,7 @@ export default function SubscribePage() {
       <h1>Subscribe to access the app</h1>
       <p>Your account doesn’t have an active subscription yet.</p>
 
-      {/* Replace this with your real Stripe Checkout / Payment Link URL */}
+      {/* Replace this with your real Stripe Payment Link or Checkout URL */}
       <a
         href="https://buy.stripe.com/test_your_payment_link_here"
         style={{
