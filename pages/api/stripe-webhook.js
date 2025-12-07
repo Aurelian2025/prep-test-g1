@@ -1,9 +1,10 @@
+// pages/api/stripe-webhook.js
 import Stripe from 'stripe';
 import { supabaseAdmin } from '../../lib/supabaseAdmin';
 
 export const config = {
   api: {
-    bodyParser: false, // we need the raw body to verify Stripe signature
+    bodyParser: false, // ❗ must be false so we get the raw body
   },
 };
 
@@ -11,7 +12,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2023-10-16',
 });
 
-// Helper to read raw body into a buffer (no extra deps)
+// Read raw body into a Buffer
 function getRawBody(req) {
   return new Promise((resolve, reject) => {
     const chunks = [];
@@ -31,11 +32,17 @@ export default async function handler(req, res) {
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 
   if (!sig || !webhookSecret) {
-    return res.status(400).send('Missing Stripe signature or webhook secret');
+    console.error('Missing Stripe signature or webhook secret', {
+      hasSig: !!sig,
+      hasSecret: !!webhookSecret,
+    });
+    return res
+      .status(400)
+      .send('Missing Stripe signature or webhook secret');
   }
 
-  let event;
   const buf = await getRawBody(req);
+  let event;
 
   try {
     event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
@@ -44,9 +51,11 @@ export default async function handler(req, res) {
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
 
+  console.log('✅ Webhook event received:', event.type);
+
   try {
     switch (event.type) {
-      // Fired when someone completes the Payment Link checkout
+      // Payment Link / Checkout completed
       case 'checkout.session.completed': {
         const session = event.data.object;
         const customerEmail =
@@ -76,19 +85,14 @@ export default async function handler(req, res) {
         break;
       }
 
-      // Fired whenever a subscription changes (e.g. canceled, unpaid)
+      // Subscription status changes
       case 'customer.subscription.updated':
       case 'customer.subscription.deleted': {
         const subscription = event.data.object;
         const stripeCustomerId = subscription.customer;
         const status = subscription.status; // 'active', 'canceled', etc.
 
-        let mappedStatus = 'inactive';
-        if (status === 'active') {
-          mappedStatus = 'active';
-        } else {
-          mappedStatus = 'inactive';
-        }
+        const mappedStatus = status === 'active' ? 'active' : 'inactive';
 
         const { error } = await supabaseAdmin
           .from('profiles')
@@ -108,7 +112,7 @@ export default async function handler(req, res) {
         break;
       }
 
-      // Safety: if payment fails, mark as inactive
+      // Mark inactive if payment fails
       case 'invoice.payment_failed': {
         const invoice = event.data.object;
         const stripeCustomerId = invoice.customer;
@@ -132,8 +136,7 @@ export default async function handler(req, res) {
       }
 
       default:
-        // For now, ignore other events
-        break;
+        console.log(`Ignoring unsupported event type: ${event.type}`);
     }
   } catch (err) {
     console.error('Webhook handler error:', err);
