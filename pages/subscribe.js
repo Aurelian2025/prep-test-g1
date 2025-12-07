@@ -9,7 +9,7 @@ export default function SubscribePage() {
 
       {/* Replace this with your real Stripe Payment Link or Checkout URL */}
       <a
-        href="https://buy.stripe.com/test_your_payment_link_here"
+        href="hhttps://buy.stripe.com/test_7sY8wQ4Bm6LJgG14wo1gs00"
         style={{
           display: 'inline-block',
           marginTop: 16,
