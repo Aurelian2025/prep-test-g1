@@ -1,21 +1,19 @@
 // pages/login.js
 import { useState } from 'react';
-import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 import { useRouter } from 'next/router';
+import { createClient } from '@supabase/supabase-js';
+
+// Create a Supabase client using your public anon keys
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+);
 
 export default function LoginPage() {
-  const supabase = useSupabaseClient();
-  const session = useSession();
   const router = useRouter();
-
   const [email, setEmail] = useState('');
   const [sending, setSending] = useState(false);
   const [message, setMessage] = useState('');
-
-  // Already logged in? Go to app
-  if (session && typeof window !== 'undefined') {
-    router.replace('/app');
-  }
 
   async function handleLogin(e) {
     e.preventDefault();
@@ -25,7 +23,8 @@ export default function LoginPage() {
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback`,
+        // After clicking the email link, user will land on /app
+        emailRedirectTo: `${window.location.origin}/app`,
       },
     });
 
