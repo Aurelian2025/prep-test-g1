@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function SubscribePage() {
   // Replace this with your real Stripe Payment Link URL (from Stripe Dashboard)
-  const paymentLinkUrl = 'https://buy.stripe.com/your_sandbox_or_live_link_here';
+  const paymentLinkUrl = 'https://buy.stripe.com/test_7sYcN60l62vt9dz3sk1gs02';
 
   return (
     <main style={{ maxWidth: 640, margin: '40px auto', fontFamily: 'system-ui' }}>
