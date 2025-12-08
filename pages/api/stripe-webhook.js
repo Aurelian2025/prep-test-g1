@@ -1,4 +1,3 @@
-
 // pages/api/stripe-webhook.js
 import Stripe from 'stripe';
 import { supabaseAdmin } from '../../lib/supabaseAdmin';
@@ -66,22 +65,32 @@ export default async function handler(req, res) {
         if (customerEmail) {
           const { error } = await supabaseAdmin
             .from('profiles')
-            .update({
-              subscription_status: 'active',
-              stripe_customer_id: stripeCustomerId,
-            })
-            .eq('email', customerEmail);
+            .upsert(
+              {
+                email: customerEmail,
+                subscription_status: 'active',
+                stripe_customer_id: stripeCustomerId,
+              },
+              {
+                // requires profiles.email to be UNIQUE
+                onConflict: 'email',
+              }
+            );
 
           if (error) {
             console.error(
-              'Error updating profile on checkout.session.completed:',
+              'Error upserting profile on checkout.session.completed:',
               error
             );
           } else {
             console.log(
-              `Marked ${customerEmail} as active (customer ${stripeCustomerId}).`
+              `Upserted profile for ${customerEmail} and marked active (customer ${stripeCustomerId}).`
             );
           }
+        } else {
+          console.warn(
+            'checkout.session.completed received without customer email'
+          );
         }
         break;
       }
