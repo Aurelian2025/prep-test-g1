@@ -21,12 +21,11 @@ export default function LoginPage() {
     setMessage('');
 
     const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        // After clicking the email link, user will land on /app
-        emailRedirectTo: `${window.location.origin}/app`,
-      },
-    });
+  email,
+  options: {
+    emailRedirectTo: `${window.location.origin}/auth/callback`,
+  },
+});
 
     setSending(false);
 
