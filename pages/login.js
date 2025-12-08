@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { createClient } from '@supabase/supabase-js';
 
-// Create a Supabase client using your public anon keys
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
@@ -12,37 +11,41 @@ const supabase = createClient(
 export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState('');
-  const [sending, setSending] = useState(false);
+  const [password, setPassword] = useState('');
+  const [mode, setMode] = useState('login'); // 'login' or 'signup'
+  const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  async function handleLogin(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    setSending(true);
+    setLoading(true);
     setMessage('');
 
-    const { error } = await supabase.auth.signInWithOtp({
-  email,
-  options: {
-    emailRedirectTo: `${window.location.origin}/auth/callback`,
-  },
-});
+    let result, error;
 
-    setSending(false);
+    if (mode === 'signup') {
+      ({ error } = await supabase.auth.signUp({ email, password }));
+    } else {
+      ({ error } = await supabase.auth.signInWithPassword({ email, password }));
+    }
+
+    setLoading(false);
 
     if (error) {
       console.error(error);
       setMessage(error.message);
     } else {
-      setMessage('Check your email for a login link.');
+      setMessage('');
+      router.push('/app'); // protected page – your guard will still run
     }
   }
 
   return (
     <main style={{ maxWidth: 400, margin: '80px auto', fontFamily: 'system-ui' }}>
-      <h1>Sign in</h1>
-      <p>Enter the same email you used to pay via Stripe.</p>
+      <h1>{mode === 'signup' ? 'Create account' : 'Sign in'}</h1>
+      <p>Use the same email you used to pay via Stripe.</p>
 
-      <form onSubmit={handleLogin} style={{ display: 'grid', gap: 12 }}>
+      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12 }}>
         <input
           type="email"
           required
@@ -51,10 +54,37 @@ export default function LoginPage() {
           onChange={(e) => setEmail(e.target.value)}
           style={{ padding: 8 }}
         />
-        <button type="submit" disabled={sending} style={{ padding: 8 }}>
-          {sending ? 'Sending magic link…' : 'Send magic link'}
+        <input
+          type="password"
+          required
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          style={{ padding: 8 }}
+        />
+        <button type="submit" disabled={loading} style={{ padding: 8 }}>
+          {loading
+            ? mode === 'signup'
+              ? 'Creating account…'
+              : 'Signing in…'
+            : mode === 'signup'
+            ? 'Sign up'
+            : 'Sign in'}
         </button>
       </form>
+
+      <button
+        type="button"
+        onClick={() => {
+          setMode(mode === 'signup' ? 'login' : 'signup');
+          setMessage('');
+        }}
+        style={{ marginTop: 12, padding: 4 }}
+      >
+        {mode === 'signup'
+          ? 'Already have an account? Sign in'
+          : "Don't have an account? Sign up"}
+      </button>
 
       {message && <p style={{ marginTop: 12 }}>{message}</p>}
     </main>
