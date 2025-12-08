@@ -8,9 +8,8 @@ export default function AuthCallback() {
   const session = useSession();
 
   useEffect(() => {
-    // When the user is successfully logged in via magic link,
-    // Supabase will create a session. As soon as we see it,
-    // send them to the main app page.
+    // When the magic-link login succeeds, Supabase creates a session.
+    // As soon as we see it, send the user into the app.
     if (session) {
       router.replace('/app'); // change '/app' if your protected page is different
     }
