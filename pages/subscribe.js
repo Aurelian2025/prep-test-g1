@@ -2,30 +2,52 @@
 import Link from 'next/link';
 
 export default function SubscribePage() {
-  return (
-    <main style={{ maxWidth: 500, margin: '80px auto', fontFamily: 'system-ui' }}>
-      <h1>Subscribe to access the app</h1>
-      <p>Your account doesn’t have an active subscription yet.</p>
+  // Replace this with your real Stripe Payment Link URL (from Stripe Dashboard)
+  const paymentLinkUrl = 'https://buy.stripe.com/your_sandbox_or_live_link_here';
 
-      {/* Replace this with your real Stripe Payment Link or Checkout URL */}
-      <a
-        href="https://buy.stripe.com/test_7sY8wQ4Bm6LJgG14wo1gs00"
-        style={{
-          display: 'inline-block',
-          marginTop: 16,
-          padding: '10px 16px',
-          borderRadius: 4,
-          border: 'none',
-          background: '#635bff',
-          color: 'white',
-          textDecoration: 'none',
-        }}
-      >
-        Go to checkout
-      </a>
+  return (
+    <main style={{ maxWidth: 640, margin: '40px auto', fontFamily: 'system-ui' }}>
+      <h1>Upgrade to get access</h1>
 
       <p style={{ marginTop: 16 }}>
-        Already subscribed? <Link href="/login">Sign in</Link>
+        Your account is currently <strong>not active</strong>. To access the app,
+        you need an active subscription.
+      </p>
+
+      <ol style={{ marginTop: 16 }}>
+        <li>Click the button below to complete payment via Stripe Checkout.</li>
+        <li>Come back and sign in with the <strong>same email</strong>.</li>
+        <li>
+          Our Stripe webhook will mark your profile as{' '}
+          <code>subscription_status = 'active'</code>, and you’ll be able to
+          access the app.
+        </li>
+      </ol>
+
+      <div style={{ marginTop: 24 }}>
+        <a
+          href={paymentLinkUrl}
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 18px',
+            background: '#635bff',
+            color: 'white',
+            borderRadius: 6,
+            textDecoration: 'none',
+          }}
+        >
+          Go to Stripe Checkout
+        </a>
+      </div>
+
+      <p style={{ marginTop: 24 }}>
+        Already paid?{' '}
+        <Link href="/login">
+          <span style={{ color: '#635bff', cursor: 'pointer' }}>Sign in again</span>
+        </Link>{' '}
+        with the same email you used at checkout.
       </p>
     </main>
   );
