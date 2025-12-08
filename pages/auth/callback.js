@@ -1,19 +1,30 @@
 // pages/auth/callback.js
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useSession } from '@supabase/auth-helpers-react';
+import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 
 export default function AuthCallback() {
   const router = useRouter();
   const session = useSession();
+  const supabase = useSupabaseClient();
 
   useEffect(() => {
-    // When the magic-link login succeeds, Supabase creates a session.
-    // As soon as we see it, send the user into the app.
+    // If the session is already in context, go to /app
     if (session) {
-      router.replace('/app'); // change '/app' if your protected page is different
+      router.replace('/app');
+      return;
     }
-  }, [session, router]);
+
+    // Otherwise, ask Supabase directly once
+    const checkSession = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (data.session) {
+        router.replace('/app');
+      }
+    };
+
+    checkSession();
+  }, [session, supabase, router]);
 
   return (
     <main style={{ maxWidth: 400, margin: '80px auto', fontFamily: 'system-ui' }}>
