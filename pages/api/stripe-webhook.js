@@ -57,43 +57,43 @@ export default async function handler(req, res) {
     switch (event.type) {
       // Payment Link / Checkout completed
       case 'checkout.session.completed': {
-        const session = event.data.object;
-        const customerEmail =
-          session.customer_details?.email || session.customer_email;
-        const stripeCustomerId = session.customer;
+  const session = event.data.object;
+  const customerEmail =
+    session.customer_details?.email || session.customer_email;
+  const stripeCustomerId = session.customer;
 
-        if (customerEmail) {
-          const { error } = await supabaseAdmin
-            .from('profiles')
-            .upsert(
-              {
-                email: customerEmail,
-                subscription_status: 'active',
-                stripe_customer_id: stripeCustomerId,
-              },
-              {
-                // requires profiles.email to be UNIQUE
-                onConflict: 'email',
-              }
-            );
-
-          if (error) {
-            console.error(
-              'Error upserting profile on checkout.session.completed:',
-              error
-            );
-          } else {
-            console.log(
-              `Upserted profile for ${customerEmail} and marked active (customer ${stripeCustomerId}).`
-            );
-          }
-        } else {
-          console.warn(
-            'checkout.session.completed received without customer email'
-          );
+  if (customerEmail) {
+    const { error } = await supabaseAdmin
+      .from('profiles')
+      .upsert(
+        {
+          email: customerEmail,
+          subscription_status: 'active',
+          stripe_customer_id: stripeCustomerId,
+        },
+        {
+          onConflict: 'email',
         }
-        break;
-      }
+      );
+
+    if (error) {
+      console.error(
+        'Error upserting profile on checkout.session.completed:',
+        error
+      );
+    } else {
+      console.log(
+        `Upserted profile for ${customerEmail} and marked active (customer ${stripeCustomerId}).`
+      );
+    }
+  } else {
+    console.warn(
+      'checkout.session.completed received without customer email'
+    );
+  }
+  break;
+}
+
 
       // Subscription status changes
       case 'customer.subscription.updated':
