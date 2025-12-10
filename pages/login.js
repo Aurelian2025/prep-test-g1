@@ -1,17 +1,26 @@
 // pages/login.js
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { useSupabaseClient } from '@supabase/auth-helpers-react';
+import { supabase } from '../lib/supabaseClient';
 
 export default function LoginPage() {
   const router = useRouter();
-  const supabase = useSupabaseClient();
 
-  const [mode, setMode] = useState<'signin' | 'signup'>('signin');
+  // "mode" determines whether we are signing in or signing up
+  const [mode, setMode] = useState('signin'); // 'signin' or 'signup'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+
+  // Optional: when we land on /login, clear any existing session
+  useEffect(() => {
+    supabase.auth.signOut().catch((err) => {
+      console.warn('Error signing out on /login load', err);
+    });
+  }, []);
+
+  const isSignin = mode === 'signin';
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -19,19 +28,17 @@ export default function LoginPage() {
     setMessage('');
 
     try {
-      if (mode === 'signin') {
+      if (isSignin) {
+        // SIGN IN
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
           password,
         });
 
-        console.log('signIn result:', { data, error });
-
         if (error) {
-          // Typical errors: invalid login, email not confirmed, etc.
-          setMessage(error.message || 'Unable to sign in.');
+          setMessage(error.message);
         } else {
-          // Success → go to the protected /app page
+          // go to protected area
           router.push('/app');
         }
       } else {
@@ -41,27 +48,29 @@ export default function LoginPage() {
           password,
         });
 
-        console.log('signUp result:', { data, error });
-
         if (error) {
-          setMessage(error.message || 'Unable to sign up.');
+          setMessage(error.message);
         } else {
-          // With email confirmation OFF, user can sign in immediately.
+          // If email confirmation is OFF, they can sign in immediately.
+          // If it's ON, they need to click the link they receive.
           setMessage(
-            'Sign up successful. You can now sign in with this email and password.'
+            'Sign up successful. You can now sign in with your email and password.'
           );
           setMode('signin');
         }
       }
     } catch (err) {
-      console.error('Unexpected auth error:', err);
+      console.error(err);
       setMessage('Unexpected error. Please try again.');
     } finally {
       setLoading(false);
     }
   }
 
-  const isSignin = mode === 'signin';
+  function toggleMode() {
+    setMode(isSignin ? 'signup' : 'signin');
+    setMessage('');
+  }
 
   return (
     <main
@@ -69,17 +78,19 @@ export default function LoginPage() {
         maxWidth: 420,
         margin: '80px auto',
         fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-        padding: '0 16px',
       }}
     >
-      <h1 style={{ fontSize: 32, marginBottom: 12 }}>
+      <h1 style={{ fontSize: 32, marginBottom: 8 }}>
         {isSignin ? 'Sign in' : 'Sign up'}
       </h1>
-      <p style={{ marginBottom: 20 }}>
+      <p style={{ marginBottom: 24 }}>
         Use the same email you used when paying via Stripe.
       </p>
 
-      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12 }}>
+      <form
+        onSubmit={handleSubmit}
+        style={{ display: 'grid', gap: 12, marginBottom: 16 }}
+      >
         <input
           type="email"
           required
@@ -89,7 +100,7 @@ export default function LoginPage() {
           style={{
             padding: 10,
             borderRadius: 6,
-            border: '1px solid #ccc',
+            border: '1px solid #d1d5db',
             fontSize: 14,
           }}
         />
@@ -103,7 +114,7 @@ export default function LoginPage() {
           style={{
             padding: 10,
             borderRadius: 6,
-            border: '1px solid #ccc',
+            border: '1px solid #d1d5db',
             fontSize: 14,
           }}
         />
@@ -114,33 +125,34 @@ export default function LoginPage() {
           style={{
             marginTop: 4,
             padding: '10px 16px',
-            borderRadius: 6,
+            borderRadius: 999,
             border: 'none',
-            fontSize: 15,
+            background: '#4f46e5',
+            color: 'white',
             fontWeight: 600,
             cursor: loading ? 'default' : 'pointer',
-            background: '#635bff',
-            color: 'white',
           }}
         >
-          {loading ? (isSignin ? 'Signing in…' : 'Signing up…') : isSignin ? 'Sign in' : 'Sign up'}
+          {loading
+            ? isSignin
+              ? 'Signing in…'
+              : 'Signing up…'
+            : isSignin
+            ? 'Sign in'
+            : 'Sign up'}
         </button>
       </form>
 
       <button
         type="button"
-        onClick={() => {
-          setMessage('');
-          setMode(isSignin ? 'signup' : 'signin');
-        }}
+        onClick={toggleMode}
         style={{
-          marginTop: 12,
-          padding: '8px 0',
-          background: 'none',
           border: 'none',
+          background: 'transparent',
+          padding: 0,
+          marginTop: 4,
           color: '#2563eb',
           cursor: 'pointer',
-          textDecoration: 'underline',
           fontSize: 14,
         }}
       >
@@ -150,7 +162,7 @@ export default function LoginPage() {
       </button>
 
       {message && (
-        <p style={{ marginTop: 12, color: 'crimson', fontSize: 14 }}>{message}</p>
+        <p style={{ marginTop: 16, color: '#b91c1c', fontSize: 14 }}>{message}</p>
       )}
     </main>
   );
