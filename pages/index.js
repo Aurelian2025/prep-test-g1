@@ -178,15 +178,9 @@ export default function PrepTestG1() {
     const [hasAccess, setHasAccess] = useState(false);
   const [accessChecked, setAccessChecked] = useState(false);
 
-  useEffect(() => {
+  // NEW — subscription-only access check
+useEffect(() => {
   async function checkAccess() {
-    // 1) Old localStorage flag (optional backup)
-    let localHasAccess = false;
-    if (typeof window !== 'undefined') {
-      localHasAccess = window.localStorage.getItem('g1_access_v2') === 'yes';
-    }
-
-    // 2) New: check Supabase user + profiles table by email
     let subscriptionActive = false;
 
     try {
@@ -203,7 +197,7 @@ export default function PrepTestG1() {
         const { data: profile, error: profileError } = await supabase
           .from('profiles')
           .select('subscription_status')
-          .eq('email', user.email) // ✅ key change
+          .eq('email', user.email)   // IMPORTANT: profiles keyed by email
           .single();
 
         if (profileError) {
@@ -216,13 +210,14 @@ export default function PrepTestG1() {
       console.error('Error checking Supabase user/profile:', err);
     }
 
-    // If you want access-code AND subscription, use OR here
-    setHasAccess(subscriptionActive || localHasAccess);
+    // ONLY allow access if paid
+    setHasAccess(subscriptionActive);
     setAccessChecked(true);
   }
 
   checkAccess();
 }, []);
+
 
 
   const [allQuestions, setAllQuestions] = useState(null); // full bank
