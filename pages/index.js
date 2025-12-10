@@ -202,10 +202,10 @@ export default function PrepTestG1() {
       if (user) {
         // Look up this user's profile
         const { data: profile, error: profileError } = await supabase
-          .from('profiles')
-          .select('subscription_status')
-          .eq('id', user.id)
-          .single();
+  .from('profiles')
+  .select('subscription_status')
+  .eq('email', user.email)   // ✅ use email
+  .single();
 
         if (profileError) {
           console.error('Error loading profile:', profileError);
