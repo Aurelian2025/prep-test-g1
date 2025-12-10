@@ -1,7 +1,7 @@
 // pages/index.js
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { supabase } from '../lib/supabaseClient';
+import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 
 const styles = {
   page: {
@@ -176,73 +176,94 @@ function shuffleQuestionChoices(q) {
 }
 
 export default function PrepTestG1() {
+  const session = useSession();
+  const supabase = useSupabaseClient();
+
+  const OWNER_PASSWORD = 'Lucas';
+
   const [hasAccess, setHasAccess] = useState(false);
   const [accessChecked, setAccessChecked] = useState(false);
+  const [ownerPassword, setOwnerPassword] = useState('');
+  const [ownerOverride, setOwnerOverride] = useState(false);
 
-  // 🔓 manual override via password "Lucas"
-  const [manualUnlocked, setManualUnlocked] = useState(false);
-  const [overridePassword, setOverridePassword] = useState('');
+  // ✅ Check subscription against Supabase profiles table
+  useEffect(() => {
+    // Owner override always wins
+    if (ownerOverride) {
+      setHasAccess(true);
+      setAccessChecked(true);
+      return;
+    }
 
-  function handleOverrideSubmit(e) {
+    // Not logged in
+    if (!session) {
+      setHasAccess(false);
+      setAccessChecked(true);
+      return;
+    }
+
+    let cancelled = false;
+
+    async function checkAccess() {
+      try {
+        const email = session.user.email;
+        console.log('Checking access for', email);
+
+        const { data: profile, error } = await supabase
+          .from('profiles')
+          .select('subscription_status')
+          .eq('email', email)
+          .maybeSingle();
+
+        if (cancelled) return;
+
+        if (error) {
+          console.error('Error loading profile on index page:', error);
+        } else {
+          console.log('Profile row on index page:', profile);
+        }
+
+        const active = profile?.subscription_status === 'active';
+        setHasAccess(active);
+      } catch (err) {
+        console.error('Unexpected error checking access on index page:', err);
+        setHasAccess(false);
+      } finally {
+        if (!cancelled) setAccessChecked(true);
+      }
+    }
+
+    checkAccess();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [session, supabase, ownerOverride]);
+
+  // Owner password (for you) – bypass subscription
+  const handleOwnerUnlock = (e) => {
     e.preventDefault();
-    if (overridePassword.trim() === 'Lucas') {
-      setManualUnlocked(true);
+    if (ownerPassword.trim() === OWNER_PASSWORD) {
+      setOwnerOverride(true);
+      setHasAccess(true);
+      setAccessChecked(true);
+      setOwnerPassword('');
     } else {
       alert('Incorrect password');
     }
-  }
+  };
 
-  // ✅ NEW: add this logout handler
+  // 🔻 Sign out button in quiz header
   async function handleLogout() {
     try {
       await supabase.auth.signOut();
     } catch (e) {
       console.error('Error signing out', e);
     }
-    // send them back to the login page
     window.location.href = '/login';
   }
-  
-  // ✅ access based ONLY on Supabase subscription_status === 'active'
-  useEffect(() => {
-    async function checkAccess() {
-      let subscriptionActive = false;
 
-      try {
-        const { data, error: sessionError } = await supabase.auth.getSession();
-
-if (sessionError) {
-  console.warn('No Supabase session (this is normal when logged out):', sessionError.message);
-}
-
-const user = data?.session?.user || null;
-
-if (user) {
-  const { data: profile, error: profileError } = await supabase
-    .from('profiles')
-    .select('subscription_status')
-    .eq('email', user.email) // profiles keyed by email
-    .single();
-
-  if (profileError) {
-    console.error('Error loading profile:', profileError);
-  } else if (profile && profile.subscription_status === 'active') {
-    subscriptionActive = true;
-  }
-}
-
-
-      } catch (err) {
-        console.error('Error checking Supabase user/profile:', err);
-      }
-
-      setHasAccess(subscriptionActive);
-      setAccessChecked(true);
-    }
-
-    checkAccess();
-  }, []);
-
+  // QUESTION STATE
   const [allQuestions, setAllQuestions] = useState(null); // full bank
   const [questions, setQuestions] = useState([]); // active set
   const [current, setCurrent] = useState(0);
@@ -251,8 +272,7 @@ if (user) {
   const [correctCount, setCorrectCount] = useState(0);
   const [cardRaised, setCardRaised] = useState(false);
 
-  // for the global "Question X of 280" display
-  const [globalBase, setGlobalBase] = useState(0); // 0 for 1–40, 40 for 41–80, ...
+  const [globalBase, setGlobalBase] = useState(0); // global question number base
   const [globalTotal, setGlobalTotal] = useState(0); // total questions
 
   // load questions
@@ -376,7 +396,7 @@ if (user) {
     </div>
   );
 
-  // Loading state
+  // Loading questions
   if (!allQuestions) {
     return (
       <div style={styles.page}>
@@ -393,8 +413,8 @@ if (user) {
     );
   }
 
-  // Still checking access
-  if (!accessChecked) {
+  // Still checking access / subscription
+  if (!accessChecked && !ownerOverride) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
@@ -406,8 +426,8 @@ if (user) {
     );
   }
 
-  // ❌ No access: not logged in or not an active subscriber AND no Lucas override
-  if (!hasAccess && !manualUnlocked) {
+  // ❌ No subscription access and no owner override
+  if (!hasAccess && !ownerOverride) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
@@ -448,18 +468,18 @@ if (user) {
               </Link>
             </p>
 
-            {/* Manual password override */}
-            <hr style={{ margin: '20px 0' }} />
-            <p style={{ fontSize: 13, color: '#4b5563', marginBottom: 8 }}>
+            {/* Owner / test backdoor */}
+            <hr style={{ margin: '24px 0' }} />
+            <p style={{ fontSize: 13, color: '#4b5563' }}>
               <strong>Owner access:</strong> enter password to bypass
               subscription (for testing).
             </p>
-            <form onSubmit={handleOverrideSubmit} style={{ marginBottom: 8 }}>
+            <form onSubmit={handleOwnerUnlock}>
               <input
                 type="password"
                 placeholder="Password"
-                value={overridePassword}
-                onChange={(e) => setOverridePassword(e.target.value)}
+                value={ownerPassword}
+                onChange={(e) => setOwnerPassword(e.target.value)}
                 style={{
                   width: '100%',
                   padding: 8,
@@ -468,9 +488,7 @@ if (user) {
                   marginBottom: 8,
                 }}
               />
-              <button type="submit" style={styles.submitBtn(false)}>
-                Unlock with password
-              </button>
+              <button style={styles.submitBtn(false)}>Unlock with password</button>
             </form>
           </div>
         </div>
@@ -512,7 +530,7 @@ if (user) {
         }
       `}</style>
 
-            <div style={styles.container}>
+      <div style={styles.container}>
         <div style={styles.header}>
           <div
             style={{
@@ -522,26 +540,22 @@ if (user) {
             }}
           >
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-
-            {/* Small sign out button on the same line as the title */}
             <button
               onClick={handleLogout}
               style={{
+                border: 'none',
                 padding: '6px 12px',
                 borderRadius: 999,
-                border: 'none',
                 background: '#e0e2ff',
-                fontSize: 13,
                 cursor: 'pointer',
+                fontSize: 13,
               }}
             >
               Sign out
             </button>
           </div>
-
           {renderButtons()}
         </div>
-
 
         <div
           style={{
