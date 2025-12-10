@@ -1,13 +1,13 @@
 // pages/login.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import { useSupabaseClient } from '@supabase/auth-helpers-react';
 
 export default function LoginPage() {
-  const supabase = useSupabaseClient();
   const router = useRouter();
+  const supabase = useSupabaseClient();
 
+  const [mode, setMode] = useState('signin'); // 'signin' | 'signup'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -18,44 +18,85 @@ export default function LoginPage() {
     setLoading(true);
     setMessage('');
 
-    console.log('Supabase URL in login page:', process.env.NEXT_PUBLIC_SUPABASE_URL);
+    try {
+      if (mode === 'signup') {
+        // Create Supabase auth user (no profile yet)
+        const { data, error } = await supabase.auth.signUp({
+          email,
+          password,
+        });
+        console.log('signUp result', { data, error });
 
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+        if (error) {
+          setMessage(error.message);
+        } else {
+          setMessage('Sign up successful. You can now sign in with this email.');
+          setMode('signin');
+        }
 
-    console.log('signIn result', { data, error });
+        setLoading(false);
+        return;
+      }
 
-    setLoading(false);
+      // SIGN IN
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+      console.log('signIn result', { data, error });
 
-    if (error) {
-      // Show the error that Supabase returns (most often: "Invalid login credentials")
-      setMessage(error.message || 'Sign in failed.');
-      return;
-    }
+      if (error) {
+        setMessage(error.message || 'Invalid login credentials');
+        setLoading(false);
+        return;
+      }
 
-    // If sign-in worked, we should have a session
-    if (data?.session) {
-      router.push('/app');
-    } else {
-      setMessage('Signed in, but no active session was returned.');
+      // At this point Supabase session should exist on the client.
+      // Now check subscription and decide where to send the user.
+      const { data: profile, error: profileError } = await supabase
+        .from('profiles')
+        .select('subscription_status')
+        .eq('email', email)
+        .maybeSingle();
+
+      if (profileError) {
+        console.error('Error loading profile after login:', profileError);
+      }
+
+      if (profile && profile.subscription_status === 'active') {
+        // Paid → go straight into the app
+        await router.push('/app');
+      } else {
+        // No active sub yet → show paywall
+        await router.push('/subscribe');
+      }
+    } catch (err) {
+      console.error('Unexpected login error:', err);
+      setMessage('Something went wrong. Please try again.');
+    } finally {
+      setLoading(false);
     }
   }
 
   return (
-    <main style={{ maxWidth: 400, margin: '80px auto', fontFamily: 'system-ui' }}>
-      <h1>Sign in</h1>
+    <main
+      style={{
+        maxWidth: 420,
+        margin: '80px auto',
+        fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      }}
+    >
+      <h1>{mode === 'signin' ? 'Sign in' : 'Sign up'}</h1>
       <p>Use the same email you used when paying via Stripe.</p>
 
-      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12 }}>
+      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12, marginTop: 16 }}>
         <input
           type="email"
           required
           placeholder="you@example.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          style={{ padding: 8 }}
+          style={{ padding: 10, borderRadius: 6, border: '1px solid #ddd' }}
         />
         <input
           type="password"
@@ -63,22 +104,81 @@ export default function LoginPage() {
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          style={{ padding: 8 }}
+          style={{ padding: 10, borderRadius: 6, border: '1px solid #ddd' }}
         />
-        <button type="submit" disabled={loading} style={{ padding: 10, fontWeight: 600 }}>
-          {loading ? 'Signing in…' : 'Sign in'}
+
+        <button
+          type="submit"
+          disabled={loading}
+          style={{
+            padding: 12,
+            borderRadius: 6,
+            border: 'none',
+            background: '#4f46e5',
+            color: 'white',
+            fontWeight: 600,
+            cursor: loading ? 'default' : 'pointer',
+            marginTop: 4,
+          }}
+        >
+          {loading
+            ? mode === 'signin'
+              ? 'Signing in…'
+              : 'Signing up…'
+            : mode === 'signin'
+            ? 'Sign in'
+            : 'Sign up'}
         </button>
       </form>
 
       <p style={{ marginTop: 12 }}>
-        Don&apos;t have an account?{' '}
-        <Link href="/signup">
-          <span style={{ color: '#4f46e5', cursor: 'pointer' }}>Sign up</span>
-        </Link>
+        {mode === 'signin' ? (
+          <>
+            Don&apos;t have an account?{' '}
+            <button
+              type="button"
+              onClick={() => {
+                setMode('signup');
+                setMessage('');
+              }}
+              style={{
+                border: 'none',
+                background: 'none',
+                padding: 0,
+                color: '#4f46e5',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+              }}
+            >
+              Sign up
+            </button>
+          </>
+        ) : (
+          <>
+            Already have an account?{' '}
+            <button
+              type="button"
+              onClick={() => {
+                setMode('signin');
+                setMessage('');
+              }}
+              style={{
+                border: 'none',
+                background: 'none',
+                padding: 0,
+                color: '#4f46e5',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+              }}
+            >
+              Sign in
+            </button>
+          </>
+        )}
       </p>
 
       {message && (
-        <p style={{ marginTop: 12, color: 'crimson' }}>
+        <p style={{ marginTop: 8, color: '#dc2626' }}>
           {message}
         </p>
       )}
