@@ -500,7 +500,7 @@ export default function PrepTestG1() {
         }
       `}</style>
 
-      <div style={styles.container}>
+            <div style={styles.container}>
         <div style={styles.header}>
           <div
             style={{
@@ -510,9 +510,26 @@ export default function PrepTestG1() {
             }}
           >
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+
+            {/* Small sign out button on the same line as the title */}
+            <button
+              onClick={handleLogout}
+              style={{
+                padding: '6px 12px',
+                borderRadius: 999,
+                border: 'none',
+                background: '#e0e2ff',
+                fontSize: 13,
+                cursor: 'pointer',
+              }}
+            >
+              Sign out
+            </button>
           </div>
+
           {renderButtons()}
         </div>
+
 
         <div
           style={{
