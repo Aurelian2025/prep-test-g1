@@ -179,7 +179,20 @@ export default function PrepTestG1() {
   const [hasAccess, setHasAccess] = useState(false);
   const [accessChecked, setAccessChecked] = useState(false);
 
-  // ✅ NEW: access based ONLY on Supabase subscription_status === 'active'
+  // 🔓 manual override via password "Lucas"
+  const [manualUnlocked, setManualUnlocked] = useState(false);
+  const [overridePassword, setOverridePassword] = useState('');
+
+  function handleOverrideSubmit(e) {
+    e.preventDefault();
+    if (overridePassword.trim() === 'Lucas') {
+      setManualUnlocked(true);
+    } else {
+      alert('Incorrect password');
+    }
+  }
+
+  // ✅ access based ONLY on Supabase subscription_status === 'active'
   useEffect(() => {
     async function checkAccess() {
       let subscriptionActive = false;
@@ -381,8 +394,8 @@ export default function PrepTestG1() {
     );
   }
 
-  // ❌ No access: not logged in or not an active subscriber
-  if (!hasAccess) {
+  // ❌ No access: not logged in or not an active subscriber AND no Lucas override
+  if (!hasAccess && !manualUnlocked) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
@@ -422,6 +435,31 @@ export default function PrepTestG1() {
                 </span>
               </Link>
             </p>
+
+            {/* Manual password override */}
+            <hr style={{ margin: '20px 0' }} />
+            <p style={{ fontSize: 13, color: '#4b5563', marginBottom: 8 }}>
+              <strong>Owner access:</strong> enter password to bypass
+              subscription (for testing).
+            </p>
+            <form onSubmit={handleOverrideSubmit} style={{ marginBottom: 8 }}>
+              <input
+                type="password"
+                placeholder="Password"
+                value={overridePassword}
+                onChange={(e) => setOverridePassword(e.target.value)}
+                style={{
+                  width: '100%',
+                  padding: 8,
+                  borderRadius: 8,
+                  border: '1px solid #ccc',
+                  marginBottom: 8,
+                }}
+              />
+              <button type="submit" style={styles.submitBtn(false)}>
+                Unlock with password
+              </button>
+            </form>
           </div>
         </div>
       </div>
