@@ -192,6 +192,17 @@ export default function PrepTestG1() {
     }
   }
 
+  // ✅ NEW: add this logout handler
+  async function handleLogout() {
+    try {
+      await supabase.auth.signOut();
+    } catch (e) {
+      console.error('Error signing out', e);
+    }
+    // send them back to the login page
+    window.location.href = '/login';
+  }
+  
   // ✅ access based ONLY on Supabase subscription_status === 'active'
   useEffect(() => {
     async function checkAccess() {
