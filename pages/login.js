@@ -1,24 +1,11 @@
 // pages/login.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-// This will make it VERY obvious if env vars are wrong
-if (!supabaseUrl || !supabaseAnonKey) {
-  // eslint-disable-next-line no-console
-  console.error('Supabase env vars missing', {
-    supabaseUrl,
-    hasAnonKey: !!supabaseAnonKey,
-  });
-}
-
-const supabase = createClient(supabaseUrl, supabaseAnonKey);
+import { useSupabaseClient } from '@supabase/auth-helpers-react';
 
 export default function LoginPage() {
   const router = useRouter();
+  const supabase = useSupabaseClient(); // ✅ use the same client as _app.js
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [mode, setMode] = useState('login'); // 'login' or 'signup'
@@ -51,8 +38,8 @@ export default function LoginPage() {
         console.error('Auth error:', error);
         setMessage(error.message || 'Unknown auth error');
       } else {
-        // success → go to the protected app page
         setMessage('');
+        // ✅ on success, auth-helpers will now know about this session
         router.push('/app');
       }
     } catch (err) {
@@ -68,7 +55,8 @@ export default function LoginPage() {
       style={{
         maxWidth: 400,
         margin: '80px auto',
-        fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        fontFamily:
+          'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
       }}
     >
       <h1>{mode === 'signup' ? 'Sign up' : 'Sign in'}</h1>
@@ -121,23 +109,6 @@ export default function LoginPage() {
           {message}
         </p>
       )}
-
-      <pre
-        style={{
-          marginTop: 24,
-          padding: 8,
-          fontSize: 10,
-          background: '#f3f4f6',
-          color: '#4b5563',
-          borderRadius: 4,
-          overflowX: 'auto',
-        }}
-      >
-        NEXT_PUBLIC_SUPABASE_URL set: {supabaseUrl ? 'yes' : 'NO'}
-        {'\n'}
-        NEXT_PUBLIC_SUPABASE_ANON_KEY set:{' '}
-        {supabaseAnonKey ? 'yes' : 'NO'}
-      </pre>
     </main>
   );
 }
