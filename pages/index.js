@@ -231,7 +231,7 @@ if (user) {
   }
 }
 
-        }
+
       } catch (err) {
         console.error('Error checking Supabase user/profile:', err);
       }
