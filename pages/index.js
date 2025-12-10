@@ -209,27 +209,28 @@ export default function PrepTestG1() {
       let subscriptionActive = false;
 
       try {
-        const {
-          data: { user },
-          error: userError,
-        } = await supabase.auth.getUser();
+        const { data, error: sessionError } = await supabase.auth.getSession();
 
-        if (userError) {
-          console.error('Error getting Supabase user:', userError);
-        }
+if (sessionError) {
+  console.warn('No Supabase session (this is normal when logged out):', sessionError.message);
+}
 
-        if (user) {
-          const { data: profile, error: profileError } = await supabase
-            .from('profiles')
-            .select('subscription_status')
-            .eq('email', user.email) // profiles keyed by email
-            .single();
+const user = data?.session?.user || null;
 
-          if (profileError) {
-            console.error('Error loading profile:', profileError);
-          } else if (profile && profile.subscription_status === 'active') {
-            subscriptionActive = true;
-          }
+if (user) {
+  const { data: profile, error: profileError } = await supabase
+    .from('profiles')
+    .select('subscription_status')
+    .eq('email', user.email) // profiles keyed by email
+    .single();
+
+  if (profileError) {
+    console.error('Error loading profile:', profileError);
+  } else if (profile && profile.subscription_status === 'active') {
+    subscriptionActive = true;
+  }
+}
+
         }
       } catch (err) {
         console.error('Error checking Supabase user/profile:', err);
