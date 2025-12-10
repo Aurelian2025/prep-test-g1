@@ -1,27 +1,19 @@
 // pages/login.js
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { supabase } from '../lib/supabaseClient';
 
 export default function LoginPage() {
   const router = useRouter();
 
-  // just plain strings, no TypeScript here
-  const [mode, setMode] = useState('signin'); // 'signin' | 'signup'
+  // 'signin' | 'signup'
+  const [mode, setMode] = useState('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  // 🔄 Always start this page with a clean auth state
-  useEffect(() => {
-    (async () => {
-      const { data } = await supabase.auth.getUser();
-      if (data.user) {
-        await supabase.auth.signOut();
-      }
-    })();
-  }, []);
+  const isSignin = mode === 'signin';
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -34,35 +26,39 @@ export default function LoginPage() {
         return;
       }
 
-      if (mode === 'signin') {
+      if (isSignin) {
         // -------- SIGN IN --------
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
           password,
         });
 
+        console.log('signInWithPassword result:', { data, error });
+
         if (error) {
-          if (
-            error.message &&
-            error.message.toLowerCase().includes('email not confirmed')
-          ) {
-            setMessage(
-              'Email not confirmed. Please check your inbox for the confirmation link, then try signing in again.'
-            );
-          } else {
-            setMessage(error.message || 'Sign in failed.');
-          }
+          // common errors: invalid login credentials, email not confirmed, etc.
+          setMessage(error.message || 'Sign in failed.');
           return;
         }
 
-        // Signed in successfully -> let /app guard decide where to go
-        router.push('/app');
+        if (!data.session) {
+          // This would be unusual for signInWithPassword, but handle just in case
+          setMessage(
+            'Could not create a session. Please try again, or reset your password.'
+          );
+          return;
+        }
+
+        // Signed in successfully -> go to protected app
+        await router.replace('/app');
       } else {
         // -------- SIGN UP --------
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
         });
+
+        console.log('signUp result:', { data, error });
 
         if (error) {
           if (error.message === 'User already registered') {
@@ -75,7 +71,7 @@ export default function LoginPage() {
           return;
         }
 
-        // If email confirmation is ON, Supabase will not create a session yet.
+        // If email confirmation is ON, no session yet
         if (!data.session) {
           setMessage(
             'Sign up successful. Please check your email and click the confirmation link, then come back here to sign in.'
@@ -83,18 +79,16 @@ export default function LoginPage() {
           return;
         }
 
-        // Email confirmation disabled -> user is logged in immediately
-        router.push('/app');
+        // If confirmation is OFF, we already have a session
+        await router.replace('/app');
       }
     } catch (err) {
-      console.error(err);
+      console.error('Auth error:', err);
       setMessage('Something went wrong. Please try again.');
     } finally {
       setLoading(false);
     }
   }
-
-  const isSignin = mode === 'signin';
 
   return (
     <main
