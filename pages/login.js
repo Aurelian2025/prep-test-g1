@@ -10,17 +10,29 @@ export default function LoginPage() {
   const [mode, setMode] = useState('signin'); // 'signin' | 'signup'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e) {
     e.preventDefault();
-    setLoading(true);
     setMessage('');
+    setLoading(true);
 
     try {
-      if (mode === 'signup') {
-        // Create Supabase auth user (no profile yet)
+      if (mode === 'signin') {
+        const { data, error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
+        console.log('signIn result', { data, error });
+
+        if (error) {
+          setMessage(error.message || 'Invalid login credentials');
+        } else {
+          // Logged in → go to protected app page
+          router.push('/app');
+        }
+      } else {
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
@@ -28,51 +40,17 @@ export default function LoginPage() {
         console.log('signUp result', { data, error });
 
         if (error) {
-          setMessage(error.message);
+          setMessage(error.message || 'Sign up failed');
         } else {
-          setMessage('Sign up successful. You can now sign in with this email.');
+          setMessage(
+            'Sign up successful. You can now sign in with this email.'
+          );
           setMode('signin');
         }
-
-        setLoading(false);
-        return;
-      }
-
-      // SIGN IN
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-      console.log('signIn result', { data, error });
-
-      if (error) {
-        setMessage(error.message || 'Invalid login credentials');
-        setLoading(false);
-        return;
-      }
-
-      // At this point Supabase session should exist on the client.
-      // Now check subscription and decide where to send the user.
-      const { data: profile, error: profileError } = await supabase
-        .from('profiles')
-        .select('subscription_status')
-        .eq('email', email)
-        .maybeSingle();
-
-      if (profileError) {
-        console.error('Error loading profile after login:', profileError);
-      }
-
-      if (profile && profile.subscription_status === 'active') {
-        // Paid → go straight into the app
-        await router.push('/app');
-      } else {
-        // No active sub yet → show paywall
-        await router.push('/subscribe');
       }
     } catch (err) {
-      console.error('Unexpected login error:', err);
-      setMessage('Something went wrong. Please try again.');
+      console.error('Auth error', err);
+      setMessage('Unexpected error. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -81,107 +59,123 @@ export default function LoginPage() {
   return (
     <main
       style={{
-        maxWidth: 420,
-        margin: '80px auto',
-        fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontFamily:
+          'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        background: '#f4f4ff',
+        padding: '24px',
       }}
     >
-      <h1>{mode === 'signin' ? 'Sign in' : 'Sign up'}</h1>
-      <p>Use the same email you used when paying via Stripe.</p>
-
-      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12, marginTop: 16 }}>
-        <input
-          type="email"
-          required
-          placeholder="you@example.com"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={{ padding: 10, borderRadius: 6, border: '1px solid #ddd' }}
-        />
-        <input
-          type="password"
-          required
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          style={{ padding: 10, borderRadius: 6, border: '1px solid #ddd' }}
-        />
-
-        <button
-          type="submit"
-          disabled={loading}
+      <div
+        style={{
+          width: '100%',
+          maxWidth: 420,
+          background: '#fff',
+          borderRadius: 16,
+          padding: '32px 28px',
+          boxShadow: '0 10px 30px rgba(15, 23, 42, 0.12)',
+        }}
+      >
+        <h1
           style={{
-            padding: 12,
-            borderRadius: 6,
-            border: 'none',
-            background: '#4f46e5',
-            color: 'white',
-            fontWeight: 600,
-            cursor: loading ? 'default' : 'pointer',
-            marginTop: 4,
+            fontSize: 32,
+            margin: 0,
+            marginBottom: 8,
+            fontWeight: 800,
           }}
         >
-          {loading
-            ? mode === 'signin'
-              ? 'Signing in…'
-              : 'Signing up…'
-            : mode === 'signin'
-            ? 'Sign in'
-            : 'Sign up'}
-        </button>
-      </form>
-
-      <p style={{ marginTop: 12 }}>
-        {mode === 'signin' ? (
-          <>
-            Don&apos;t have an account?{' '}
-            <button
-              type="button"
-              onClick={() => {
-                setMode('signup');
-                setMessage('');
-              }}
-              style={{
-                border: 'none',
-                background: 'none',
-                padding: 0,
-                color: '#4f46e5',
-                cursor: 'pointer',
-                textDecoration: 'underline',
-              }}
-            >
-              Sign up
-            </button>
-          </>
-        ) : (
-          <>
-            Already have an account?{' '}
-            <button
-              type="button"
-              onClick={() => {
-                setMode('signin');
-                setMessage('');
-              }}
-              style={{
-                border: 'none',
-                background: 'none',
-                padding: 0,
-                color: '#4f46e5',
-                cursor: 'pointer',
-                textDecoration: 'underline',
-              }}
-            >
-              Sign in
-            </button>
-          </>
-        )}
-      </p>
-
-      {message && (
-        <p style={{ marginTop: 8, color: '#dc2626' }}>
-          {message}
+          {mode === 'signin' ? 'Sign in' : 'Sign up'}
+        </h1>
+        <p style={{ margin: 0, marginBottom: 24, color: '#4b5563' }}>
+          Use the same email you used when paying via Stripe.
         </p>
-      )}
+
+        <form onSubmit={handleSubmit}>
+          <div style={{ marginBottom: 14 }}>
+            <input
+              type="email"
+              required
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              style={{
+                width: '100%',
+                padding: '10px 12px',
+                borderRadius: 10,
+                border: '1px solid #d1d5db',
+                fontSize: 14,
+              }}
+            />
+          </div>
+
+          <div style={{ marginBottom: 20 }}>
+            <input
+              type="password"
+              required
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              style={{
+                width: '100%',
+                padding: '10px 12px',
+                borderRadius: 10,
+                border: '1px solid #d1d5db',
+                fontSize: 14,
+              }}
+            />
+          </div>
+
+          <button
+            type="submit"
+            disabled={loading}
+            style={{
+              width: '100%',
+              border: 'none',
+              borderRadius: 999,
+              padding: '10px 16px',
+              fontSize: 15,
+              fontWeight: 600,
+              cursor: loading ? 'default' : 'pointer',
+              background: loading ? '#a5b4fc' : '#4f46e5',
+              color: '#fff',
+              boxShadow: '0 8px 20px rgba(79, 70, 229, 0.35)',
+            }}
+          >
+            {mode === 'signin' ? 'Sign in' : 'Sign up'}
+          </button>
+        </form>
+
+        <button
+          type="button"
+          onClick={() => {
+            setMode(mode === 'signin' ? 'signup' : 'signin');
+            setMessage('');
+          }}
+          style={{
+            marginTop: 16,
+            border: 'none',
+            background: 'transparent',
+            padding: 0,
+            fontSize: 14,
+            color: '#4f46e5',
+            textDecoration: 'underline',
+            cursor: 'pointer',
+          }}
+        >
+          {mode === 'signin'
+            ? "Don't have an account? Sign up"
+            : 'Already have an account? Sign in'}
+        </button>
+
+        {message && (
+          <p style={{ marginTop: 12, color: '#b91c1c', fontSize: 13 }}>
+            {message}
+          </p>
+        )}
+      </div>
     </main>
   );
 }
