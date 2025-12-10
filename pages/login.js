@@ -6,7 +6,8 @@ import { supabase } from '../lib/supabaseClient';
 export default function LoginPage() {
   const router = useRouter();
 
-  const [mode, setMode] = useState<'signin' | 'signup'>('signin');
+  // just plain strings, no TypeScript here
+  const [mode, setMode] = useState('signin'); // 'signin' | 'signup'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -100,7 +101,8 @@ export default function LoginPage() {
       style={{
         maxWidth: 420,
         margin: '80px auto',
-        fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        fontFamily:
+          'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
       }}
     >
       <h1>{isSignin ? 'Sign in' : 'Sign up'}</h1>
