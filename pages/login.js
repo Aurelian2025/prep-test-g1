@@ -1,76 +1,76 @@
 // pages/login.js
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { supabase } from '../lib/supabaseClient';
+import { createClient } from '@supabase/supabase-js';
+
+// One standalone Supabase client just for this page
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+);
 
 export default function LoginPage() {
   const router = useRouter();
 
-  // "mode" determines whether we are signing in or signing up
-  const [mode, setMode] = useState('signin'); // 'signin' or 'signup'
+  const [mode, setMode] = useState('signin'); // 'signin' | 'signup'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  // Optional: when we land on /login, clear any existing session
-  useEffect(() => {
-    supabase.auth.signOut().catch((err) => {
-      console.warn('Error signing out on /login load', err);
-    });
-  }, []);
-
-  const isSignin = mode === 'signin';
-
   async function handleSubmit(e) {
     e.preventDefault();
-    setLoading(true);
     setMessage('');
+    setLoading(true);
 
     try {
-      if (isSignin) {
-        // SIGN IN
+      if (mode === 'signin') {
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
           password,
         });
 
+        console.log('signIn result', { data, error });
+
         if (error) {
-          setMessage(error.message);
-        } else {
-          // go to protected area
-          router.push('/app');
+          // show the *real* error so we know what Supabase is complaining about
+          setMessage(error.message || 'Invalid login credentials');
+          return;
         }
+
+        // success → go to the protected app page
+        router.push('/app');
       } else {
-        // SIGN UP
+        // SIGN-UP
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
         });
 
+        console.log('signUp result', { data, error });
+
         if (error) {
-          setMessage(error.message);
-        } else {
-          // If email confirmation is OFF, they can sign in immediately.
-          // If it's ON, they need to click the link they receive.
-          setMessage(
-            'Sign up successful. You can now sign in with your email and password.'
-          );
-          setMode('signin');
+          setMessage(error.message || 'Sign up failed');
+          return;
         }
+
+        // If you have “Confirm email” disabled in Supabase,
+        // the user can sign in immediately. Otherwise they
+        // must click the email confirmation link first.
+        setMessage(
+          'Sign up successful. You can now sign in with your email and password.'
+        );
+        setMode('signin');
       }
     } catch (err) {
-      console.error(err);
+      console.error('Unexpected auth error', err);
       setMessage('Unexpected error. Please try again.');
     } finally {
       setLoading(false);
     }
   }
 
-  function toggleMode() {
-    setMode(isSignin ? 'signup' : 'signin');
-    setMessage('');
-  }
+  const isSignin = mode === 'signin';
 
   return (
     <main
@@ -87,73 +87,55 @@ export default function LoginPage() {
         Use the same email you used when paying via Stripe.
       </p>
 
-      <form
-        onSubmit={handleSubmit}
-        style={{ display: 'grid', gap: 12, marginBottom: 16 }}
-      >
+      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 12 }}>
         <input
           type="email"
           required
           placeholder="you@example.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          style={{
-            padding: 10,
-            borderRadius: 6,
-            border: '1px solid #d1d5db',
-            fontSize: 14,
-          }}
+          style={{ padding: 10, borderRadius: 6, border: '1px solid #ccc' }}
         />
-
         <input
           type="password"
           required
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          style={{
-            padding: 10,
-            borderRadius: 6,
-            border: '1px solid #d1d5db',
-            fontSize: 14,
-          }}
+          style={{ padding: 10, borderRadius: 6, border: '1px solid #ccc' }}
         />
 
         <button
           type="submit"
           disabled={loading}
           style={{
-            marginTop: 4,
+            marginTop: 8,
             padding: '10px 16px',
-            borderRadius: 999,
+            borderRadius: 6,
             border: 'none',
             background: '#4f46e5',
-            color: 'white',
+            color: '#fff',
             fontWeight: 600,
             cursor: loading ? 'default' : 'pointer',
           }}
         >
-          {loading
-            ? isSignin
-              ? 'Signing in…'
-              : 'Signing up…'
-            : isSignin
-            ? 'Sign in'
-            : 'Sign up'}
+          {loading ? (isSignin ? 'Signing in…' : 'Signing up…') : isSignin ? 'Sign in' : 'Sign up'}
         </button>
       </form>
 
       <button
         type="button"
-        onClick={toggleMode}
+        onClick={() => {
+          setMode(isSignin ? 'signup' : 'signin');
+          setMessage('');
+        }}
         style={{
+          marginTop: 12,
+          padding: '6px 0',
           border: 'none',
           background: 'transparent',
-          padding: 0,
-          marginTop: 4,
-          color: '#2563eb',
+          color: '#4f46e5',
           cursor: 'pointer',
-          fontSize: 14,
         }}
       >
         {isSignin
@@ -162,7 +144,7 @@ export default function LoginPage() {
       </button>
 
       {message && (
-        <p style={{ marginTop: 16, color: '#b91c1c', fontSize: 14 }}>{message}</p>
+        <p style={{ marginTop: 12, color: 'crimson', fontSize: 14 }}>{message}</p>
       )}
     </main>
   );
