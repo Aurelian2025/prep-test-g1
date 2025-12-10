@@ -180,13 +180,13 @@ export default function PrepTestG1() {
 
   useEffect(() => {
   async function checkAccess() {
-    // 1) Old behavior: check localStorage flag (for now we keep as backup)
+    // 1) Old localStorage flag (optional backup)
     let localHasAccess = false;
     if (typeof window !== 'undefined') {
       localHasAccess = window.localStorage.getItem('g1_access_v2') === 'yes';
     }
 
-    // 2) New behavior: check Supabase user + subscription_status
+    // 2) New: check Supabase user + profiles table by email
     let subscriptionActive = false;
 
     try {
@@ -200,12 +200,11 @@ export default function PrepTestG1() {
       }
 
       if (user) {
-        // Look up this user's profile
         const { data: profile, error: profileError } = await supabase
-  .from('profiles')
-  .select('subscription_status')
-  .eq('email', user.email)   // ✅ use email
-  .single();
+          .from('profiles')
+          .select('subscription_status')
+          .eq('email', user.email) // ✅ key change
+          .single();
 
         if (profileError) {
           console.error('Error loading profile:', profileError);
@@ -217,13 +216,14 @@ export default function PrepTestG1() {
       console.error('Error checking Supabase user/profile:', err);
     }
 
-    // 👉 strict Option A: only active subscriptions (plus old localStorage for now)
-    setHasAccess(subscriptionActive);
+    // If you want access-code AND subscription, use OR here
+    setHasAccess(subscriptionActive || localHasAccess);
     setAccessChecked(true);
   }
 
   checkAccess();
 }, []);
+
 
   const [allQuestions, setAllQuestions] = useState(null); // full bank
   const [questions, setQuestions] = useState([]); // active set
