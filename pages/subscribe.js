@@ -17,11 +17,7 @@ export default function SubscribePage() {
       <ol style={{ marginTop: 16 }}>
         <li>Click the button below to complete payment via Stripe Checkout.</li>
         <li>Come back and sign in with the <strong>same email</strong>.</li>
-        <li>
-          Our Stripe webhook will mark your profile as{' '}
-          <code>subscription_status = 'active'</code>, and you’ll be able to
-          access the app.
-        </li>
+
       </ol>
 
       <div style={{ marginTop: 24 }}>
