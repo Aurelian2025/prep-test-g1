@@ -487,7 +487,7 @@ export default function PrepTestG1() {
                   marginBottom: 8,
                 }}
               />
-              <button style={styles.submitBtn(false)}>Unlock with password</button>
+              <button style={styles.submitBtn(false)}>Use special Password</button>
             </form>
           </div>
         </div>
