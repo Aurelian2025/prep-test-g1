@@ -205,6 +205,23 @@ export default async function handler(req, res) {
             );
           }
         }
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://g1-q8un.vercel.app';
+const claimUrl = `${baseUrl}/claim?token=${token}`;
+
+console.log('About to send signup email to:', customerEmail, claimUrl);
+
+await resend.emails.send({
+  from: 'Ontario G1 Practice Test <onboarding@resend.dev>',
+  to: customerEmail,
+  subject: 'Set up your account for Ontario G1 Practice Test',
+  html: `
+    <p>Thanks for your purchase!</p>
+    <p>Click this link to create your password:</p>
+    <p><a href="${claimUrl}">${claimUrl}</a></p>
+  `,
+});
+
+console.log('✅ Sent signup email to:', customerEmail);
 
         break;
       }
