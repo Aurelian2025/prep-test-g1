@@ -471,8 +471,7 @@ export default function PrepTestG1() {
             {/* Owner / test backdoor */}
             <hr style={{ margin: '24px 0' }} />
             <p style={{ fontSize: 13, color: '#4b5563' }}>
-              <strong>Owner access:</strong> enter password to bypass
-              subscription (for testing).
+              <strong>Special Access</strong>
             </p>
             <form onSubmit={handleOwnerUnlock}>
               <input
