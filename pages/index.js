@@ -487,7 +487,7 @@ export default function PrepTestG1() {
                   marginBottom: 8,
                 }}
               />
-              <button style={styles.submitBtn(false)}>Use special Password</button>
+              <button style={styles.submitBtn(false)}>Use special Pass</button>
             </form>
           </div>
         </div>
