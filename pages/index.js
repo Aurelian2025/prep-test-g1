@@ -174,6 +174,73 @@ function shuffleQuestionChoices(q) {
     correctIndex: sh.indexOf(q.correctIndex),
   };
 }
+function CheckpointScreen({ correct, answered, onContinue }) {
+  return (
+    <div className="checkpoint">
+      <div className="card">
+        <div className="face">🙂</div>
+        <h2>Congratulations!</h2>
+        <p>You passed this checkpoint.</p>
+        <p className="score">
+          Score: <strong>{correct}</strong> / {answered}
+        </p>
+
+        <button className="btn" onClick={onContinue}>
+          Continue
+        </button>
+      </div>
+
+      <style jsx>{`
+        .checkpoint {
+          position: fixed;
+          inset: 0;
+          z-index: 9999;
+          background: rgba(244, 244, 255, 0.98);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 24px;
+        }
+        .card {
+          width: 100%;
+          max-width: 520px;
+          background: white;
+          border-radius: 18px;
+          padding: 28px 22px;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+          text-align: center;
+        }
+        .face {
+          font-size: 64px;
+          margin-bottom: 10px;
+        }
+        h2 {
+          margin: 0 0 6px;
+          font-size: 26px;
+        }
+        p {
+          margin: 6px 0;
+          color: #374151;
+        }
+        .score {
+          margin-top: 12px;
+          font-size: 16px;
+        }
+        .btn {
+          margin-top: 18px;
+          border: none;
+          border-radius: 999px;
+          padding: 10px 16px;
+          font-size: 14px;
+          cursor: pointer;
+          background: #4c6fff;
+          color: white;
+          font-weight: 700;
+        }
+      `}</style>
+    </div>
+  );
+}
 
 function EmojiCelebration() {
   const emojis = ["🎉", "🥳", "🚗", "✨", "✅", "🎊"];
@@ -389,25 +456,29 @@ export default function PrepTestG1() {
 
   const isCorrect = picked === q.correctIndex;
 
-  // ✅ Track answers for each 20-question block
+  // Update block counters
   setBlockAnswered((n) => n + 1);
   if (isCorrect) setBlockCorrect((n) => n + 1);
 
-  // Existing behavior (keep this)
-  if (isCorrect) {
-    setCorrectCount((c) => c + 1);
-  }
+  // Existing behavior
+  if (isCorrect) setCorrectCount((c) => c + 1);
 
   setDone(true);
 };
 
 
+
   const next = () => {
-    if (!hasQuestionsFlag) return;
-    setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-    setPicked(null);
-    setDone(false);
-  };
+  if (!hasQuestionsFlag) return;
+
+  // If checkpoint screen is open, don't advance questions
+  if (checkpointOpen) return;
+
+  setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+  setPicked(null);
+  setDone(false);
+};
+
 
   // start a set by index range, and remember its base number
   const startByIndex = (startIdx, endIdx, baseNumber) => {
@@ -481,7 +552,7 @@ export default function PrepTestG1() {
 // 🎉 Celebration at question 20 (18+/20 correct)
 useEffect(() => {
   // Only check exactly at question 20 inside a set
-  if (inSet !== 20) return;
+  if (inSet !== 20 && inSet !== 40) return;
 
   if (blockCorrect >= 18) {
     setShowCelebration(true);
@@ -489,6 +560,21 @@ useEffect(() => {
     return () => clearTimeout(t);
   }
 }, [inSet, blockCorrect]);
+
+useEffect(() => {
+  // Only when user has just submitted the 20th question in a set
+  if (inSet !== 20) return;
+  if (!done) return; // ensures it happens right after submit, not while answering
+
+  // blockAnswered should be 20 at this point if you're counting properly
+  const answered = blockAnswered;
+  const correct = blockCorrect;
+
+  if (answered >= 20 && correct >= 18) {
+    setCheckpointScore({ correct, answered });
+    setCheckpointOpen(true);
+  }
+}, [inSet, done, blockAnswered, blockCorrect]);
 
   // Loading questions
   if (!allQuestions) {
@@ -607,6 +693,20 @@ useEffect(() => {
   // MAIN QUIZ VIEW
   return (
     <div style={styles.page}>
+
+    {checkpointOpen && (
+  <CheckpointScreen
+    correct={checkpointScore.correct}
+    answered={checkpointScore.answered}
+    onContinue={() => {
+      setCheckpointOpen(false);
+      // Reset block counters for the next 20-question chunk
+      setBlockAnswered(0);
+      setBlockCorrect(0);
+    }}
+  />
+)}
+
     {showCelebration && <EmojiCelebration />}
 
       <style jsx global>{`
