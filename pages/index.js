@@ -179,13 +179,24 @@ function shuffleQuestionChoices(q) {
  * Full-screen checkpoint overlay (mobile-friendly).
  * Appears between questions at Q20 and Q40 if 18+/20 correct.
  */
-function CheckpointScreen({ correct, answered, onContinue }) {
+function CheckpointScreen({ correct, answered, passed, onContinue }) {
   return (
     <div className="checkpoint">
       <div className="card">
-        <div className="face">🙂</div>
-        <h2>Congratulations!</h2>
-        <p className="subtitle">You passed!</p>
+        <div className="face">{passed ? '🙂' : '😕'}</div>
+
+        <h2>{passed ? 'Congratulations!' : 'Not quite enough'}</h2>
+
+        {passed ? (
+          <p className="subtitle">You passed!</p>
+        ) : (
+          <p className="subtitle">
+            <strong>{correct}</strong> questions correct out of{' '}
+            <strong>{answered}</strong>.
+            <br />
+            Not quite enough — try again.
+          </p>
+        )}
 
         <div className="score">
           Score: <strong>{correct}</strong> / {answered}
@@ -195,7 +206,9 @@ function CheckpointScreen({ correct, answered, onContinue }) {
           Continue
         </button>
 
-        <div className="hint">Keep going — you’re doing great.</div>
+        <div className="hint">
+          {passed ? 'Keep going — you’re doing great.' : 'You’ve got this — keep practicing.'}
+        </div>
       </div>
 
       <style jsx>{`
@@ -237,6 +250,7 @@ function CheckpointScreen({ correct, answered, onContinue }) {
           color: #334155;
           font-size: 15px;
           font-weight: 600;
+          line-height: 1.35;
         }
         .score {
           margin: 10px auto 18px;
@@ -291,6 +305,7 @@ export default function PrepTestG1() {
   const [checkpointScore, setCheckpointScore] = useState({
     correct: 0,
     answered: 0,
+    passed: false,
   });
 
   // ✅ Check subscription against Supabase profiles table
@@ -521,20 +536,24 @@ export default function PrepTestG1() {
    * Only if 18+/20 correct in the current 20-question block
    */
   useEffect(() => {
-    if (checkpointOpen) return;
-    if (!done) return;
+  if (checkpointOpen) return;
+  if (!done) return;
 
-    const isCheckpointQuestion = inSet === 20 || inSet === 40;
-    if (!isCheckpointQuestion) return;
+  const isCheckpointQuestion = inSet === 20 || inSet === 40;
+  if (!isCheckpointQuestion) return;
 
-    // We only want it after completing a full 20-question block
-    if (blockAnswered < 20) return;
+  // Only after a full 20-question block
+  if (blockAnswered < 20) return;
 
-    if (blockCorrect >= 18) {
-      setCheckpointScore({ correct: blockCorrect, answered: blockAnswered });
-      setCheckpointOpen(true);
-    }
-  }, [inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
+  const passed = blockCorrect >= 18;
+
+  setCheckpointScore({
+    correct: blockCorrect,
+    answered: blockAnswered,
+    passed,
+  });
+  setCheckpointOpen(true);
+}, [inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
   // Loading questions
   if (!allQuestions) {
@@ -654,24 +673,24 @@ export default function PrepTestG1() {
     <div style={styles.page}>
       {/* ✅ checkpoint overlay between questions */}
       {checkpointOpen && (
-        <CheckpointScreen
-          correct={checkpointScore.correct}
-          answered={checkpointScore.answered}
-          onContinue={() => {
-            // close overlay + reset the 20-question block counters
-            setCheckpointOpen(false);
-            setBlockAnswered(0);
-            setBlockCorrect(0);
+  <CheckpointScreen
+    correct={checkpointScore.correct}
+    answered={checkpointScore.answered}
+    passed={checkpointScore.passed}
+    onContinue={() => {
+      setCheckpointOpen(false);
+      setBlockAnswered(0);
+      setBlockCorrect(0);
 
-            // move on to the next question (unless end of set)
-            if (!isLast) {
-              setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-              setPicked(null);
-              setDone(false);
-            }
-          }}
-        />
-      )}
+      if (!isLast) {
+        setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+        setPicked(null);
+        setDone(false);
+      }
+    }}
+  />
+)}
+
 
       <style jsx global>{`
         .question-anim {
