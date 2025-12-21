@@ -411,23 +411,17 @@ export default function PrepTestG1() {
     </div>
   );
 
-// 🎉 Celebration trigger every 20 answered questions
+// 🎉 Celebration at question 20 (18+/20 correct)
 useEffect(() => {
-  if (blockAnswered === 0) return;
-
-  // Trigger at 20, 40, 60, ...
-  if (blockAnswered % 20 !== 0) return;
+  // Only check exactly at question 20 inside a set
+  if (inSet !== 20) return;
 
   if (blockCorrect >= 18) {
     setShowCelebration(true);
     const t = setTimeout(() => setShowCelebration(false), 2200);
     return () => clearTimeout(t);
   }
-
-  // Reset counters for next 20-question block
-  setBlockAnswered(0);
-  setBlockCorrect(0);
-}, [blockAnswered, blockCorrect]);
+}, [inSet, blockCorrect]);
 
   // Loading questions
   if (!allQuestions) {
