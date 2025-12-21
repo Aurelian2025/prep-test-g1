@@ -194,7 +194,7 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
             <strong>{correct}</strong> questions correct out of{' '}
             <strong>{answered}</strong>.
             <br />
-            Not quite enough — try again.
+            Try again.
           </p>
         )}
 
