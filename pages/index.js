@@ -175,6 +175,69 @@ function shuffleQuestionChoices(q) {
   };
 }
 
+function EmojiCelebration() {
+  const emojis = ["🎉", "🥳", "🚗", "✨", "✅", "🎊"];
+
+  const particles = Array.from({ length: 30 }).map((_, i) => {
+    const left = Math.random() * 100;
+    const delay = Math.random() * 0.4;
+    const duration = 1.4 + Math.random() * 0.8;
+    const size = 18 + Math.random() * 22;
+    const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+    return { i, left, delay, duration, size, emoji };
+  });
+
+  return (
+    <div className="celebration">
+      {particles.map((p) => (
+        <span
+          key={p.i}
+          className="particle"
+          style={{
+            left: `${p.left}vw`,
+            animationDelay: `${p.delay}s`,
+            animationDuration: `${p.duration}s`,
+            fontSize: `${p.size}px`,
+          }}
+        >
+          {p.emoji}
+        </span>
+      ))}
+
+      <style jsx>{`
+        .celebration {
+          position: fixed; /* 👈 important */
+          inset: 0;
+          pointer-events: none;
+          overflow: hidden;
+          z-index: 9999;
+        }
+        .particle {
+          position: absolute;
+          top: 70%;
+          animation-name: floatUp;
+          animation-timing-function: ease-out;
+          animation-fill-mode: forwards;
+          filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.18));
+        }
+        @keyframes floatUp {
+          0% {
+            opacity: 0;
+            transform: translateY(0) scale(0.9) rotate(0deg);
+          }
+          10% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(-85vh) scale(1.15) rotate(220deg);
+          }
+        }
+      `}</style>
+    </div>
+  );
+}
+
 export default function PrepTestG1() {
   const session = useSession();
   const supabase = useSupabaseClient();
@@ -356,6 +419,10 @@ export default function PrepTestG1() {
     setDone(false);
     setCorrectCount(0);
     setGlobalBase(baseNumber); // 0 → Question 1, 40 → Question 41, etc.
+    // ✅ RESET checkpoint counters
+  setBlockAnswered(0);
+  setBlockCorrect(0);
+  setShowCelebration(false);
   };
 
   // 7 sets of 40 questions each (0-based indices)
@@ -540,6 +607,8 @@ useEffect(() => {
   // MAIN QUIZ VIEW
   return (
     <div style={styles.page}>
+    {showCelebration && <EmojiCelebration />}
+
       <style jsx global>{`
         .question-anim {
           animation: fadeSlide 0.25s ease-out;
