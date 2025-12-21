@@ -186,6 +186,11 @@ export default function PrepTestG1() {
   const [ownerPassword, setOwnerPassword] = useState('');
   const [ownerOverride, setOwnerOverride] = useState(false);
 
+  // ✅ ADD THESE RIGHT HERE (celebration checkpoint state)
+  const [blockAnswered, setBlockAnswered] = useState(0);
+  const [blockCorrect, setBlockCorrect] = useState(0);
+  const [showCelebration, setShowCelebration] = useState(false);
+  
   // ✅ Check subscription against Supabase profiles table
   useEffect(() => {
     // Owner override always wins
@@ -317,12 +322,22 @@ export default function PrepTestG1() {
   const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
   const submit = () => {
-    if (!q || picked === null || done) return;
-    if (picked === q.correctIndex) {
-      setCorrectCount((c) => c + 1);
-    }
-    setDone(true);
-  };
+  if (!q || picked === null || done) return;
+
+  const isCorrect = picked === q.correctIndex;
+
+  // ✅ Track answers for each 20-question block
+  setBlockAnswered((n) => n + 1);
+  if (isCorrect) setBlockCorrect((n) => n + 1);
+
+  // Existing behavior (keep this)
+  if (isCorrect) {
+    setCorrectCount((c) => c + 1);
+  }
+
+  setDone(true);
+};
+
 
   const next = () => {
     if (!hasQuestionsFlag) return;
@@ -395,6 +410,24 @@ export default function PrepTestG1() {
       </button>
     </div>
   );
+
+// 🎉 Celebration trigger every 20 answered questions
+useEffect(() => {
+  if (blockAnswered === 0) return;
+
+  // Trigger at 20, 40, 60, ...
+  if (blockAnswered % 20 !== 0) return;
+
+  if (blockCorrect >= 18) {
+    setShowCelebration(true);
+    const t = setTimeout(() => setShowCelebration(false), 2200);
+    return () => clearTimeout(t);
+  }
+
+  // Reset counters for next 20-question block
+  setBlockAnswered(0);
+  setBlockCorrect(0);
+}, [blockAnswered, blockCorrect]);
 
   // Loading questions
   if (!allQuestions) {
