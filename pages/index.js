@@ -672,16 +672,24 @@ export default function PrepTestG1() {
   return (
     <div style={styles.page}>
       {/* ✅ checkpoint overlay between questions */}
-      {checkpointOpen && (
+     {checkpointOpen && (
   <CheckpointScreen
     correct={checkpointScore.correct}
     answered={checkpointScore.answered}
     passed={checkpointScore.passed}
     onContinue={() => {
       setCheckpointOpen(false);
+
+      // reset 20-question block counters
       setBlockAnswered(0);
       setBlockCorrect(0);
 
+      // ✅ If we just finished the set (question 40), reset Correct: X
+      if (inSet === 40) {
+        setCorrectCount(0);
+      }
+
+      // move on to next question if not last
       if (!isLast) {
         setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
         setPicked(null);
