@@ -174,20 +174,28 @@ function shuffleQuestionChoices(q) {
     correctIndex: sh.indexOf(q.correctIndex),
   };
 }
+
+/**
+ * Full-screen checkpoint overlay (mobile-friendly).
+ * Appears between questions at Q20 and Q40 if 18+/20 correct.
+ */
 function CheckpointScreen({ correct, answered, onContinue }) {
   return (
     <div className="checkpoint">
       <div className="card">
         <div className="face">🙂</div>
         <h2>Congratulations!</h2>
-        <p>You passed this checkpoint.</p>
-        <p className="score">
+        <p className="subtitle">You passed!</p>
+
+        <div className="score">
           Score: <strong>{correct}</strong> / {answered}
-        </p>
+        </div>
 
         <button className="btn" onClick={onContinue}>
           Continue
         </button>
+
+        <div className="hint">Keep going — you’re doing great.</div>
       </div>
 
       <style jsx>{`
@@ -199,106 +207,64 @@ function CheckpointScreen({ correct, answered, onContinue }) {
           display: flex;
           align-items: center;
           justify-content: center;
-          padding: 24px;
+          padding: max(20px, env(safe-area-inset-top))
+            max(16px, env(safe-area-inset-right))
+            max(20px, env(safe-area-inset-bottom))
+            max(16px, env(safe-area-inset-left));
         }
         .card {
           width: 100%;
           max-width: 520px;
-          background: white;
+          background: #ffffff;
           border-radius: 18px;
-          padding: 28px 22px;
+          padding: 28px 20px;
           box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
           text-align: center;
+          border: 1px solid rgba(76, 111, 255, 0.18);
         }
         .face {
-          font-size: 64px;
+          font-size: 72px;
           margin-bottom: 10px;
+          line-height: 1;
         }
         h2 {
           margin: 0 0 6px;
           font-size: 26px;
+          color: #0f172a;
         }
-        p {
-          margin: 6px 0;
-          color: #374151;
+        .subtitle {
+          margin: 0 0 14px;
+          color: #334155;
+          font-size: 15px;
+          font-weight: 600;
         }
         .score {
-          margin-top: 12px;
+          margin: 10px auto 18px;
           font-size: 16px;
+          color: #0f172a;
+          background: rgba(76, 111, 255, 0.08);
+          border: 1px solid rgba(76, 111, 255, 0.18);
+          border-radius: 14px;
+          padding: 10px 12px;
+          max-width: 280px;
         }
         .btn {
-          margin-top: 18px;
+          width: 100%;
+          max-width: 320px;
           border: none;
           border-radius: 999px;
-          padding: 10px 16px;
-          font-size: 14px;
+          padding: 12px 16px;
+          font-size: 15px;
           cursor: pointer;
           background: #4c6fff;
           color: white;
-          font-weight: 700;
+          font-weight: 800;
+          box-shadow: 0 8px 18px rgba(76, 111, 255, 0.25);
         }
-      `}</style>
-    </div>
-  );
-}
-
-function EmojiCelebration() {
-  const emojis = ["🎉", "🥳", "🚗", "✨", "✅", "🎊"];
-
-  const particles = Array.from({ length: 30 }).map((_, i) => {
-    const left = Math.random() * 100;
-    const delay = Math.random() * 0.4;
-    const duration = 1.4 + Math.random() * 0.8;
-    const size = 18 + Math.random() * 22;
-    const emoji = emojis[Math.floor(Math.random() * emojis.length)];
-    return { i, left, delay, duration, size, emoji };
-  });
-
-  return (
-    <div className="celebration">
-      {particles.map((p) => (
-        <span
-          key={p.i}
-          className="particle"
-          style={{
-            left: `${p.left}vw`,
-            animationDelay: `${p.delay}s`,
-            animationDuration: `${p.duration}s`,
-            fontSize: `${p.size}px`,
-          }}
-        >
-          {p.emoji}
-        </span>
-      ))}
-
-      <style jsx>{`
-        .celebration {
-          position: fixed; /* 👈 important */
-          inset: 0;
-          pointer-events: none;
-          overflow: hidden;
-          z-index: 9999;
-        }
-        .particle {
-          position: absolute;
-          top: 70%;
-          animation-name: floatUp;
-          animation-timing-function: ease-out;
-          animation-fill-mode: forwards;
-          filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.18));
-        }
-        @keyframes floatUp {
-          0% {
-            opacity: 0;
-            transform: translateY(0) scale(0.9) rotate(0deg);
-          }
-          10% {
-            opacity: 1;
-          }
-          100% {
-            opacity: 0;
-            transform: translateY(-85vh) scale(1.15) rotate(220deg);
-          }
+        .hint {
+          margin-top: 14px;
+          font-size: 12px;
+          color: #64748b;
         }
       `}</style>
     </div>
@@ -316,11 +282,17 @@ export default function PrepTestG1() {
   const [ownerPassword, setOwnerPassword] = useState('');
   const [ownerOverride, setOwnerOverride] = useState(false);
 
-  // ✅ ADD THESE RIGHT HERE (celebration checkpoint state)
+  // ✅ 20-question block counters (reset after each checkpoint)
   const [blockAnswered, setBlockAnswered] = useState(0);
   const [blockCorrect, setBlockCorrect] = useState(0);
-  const [showCelebration, setShowCelebration] = useState(false);
-  
+
+  // ✅ Checkpoint overlay state
+  const [checkpointOpen, setCheckpointOpen] = useState(false);
+  const [checkpointScore, setCheckpointScore] = useState({
+    correct: 0,
+    answered: 0,
+  });
+
   // ✅ Check subscription against Supabase profiles table
   useEffect(() => {
     // Owner override always wins
@@ -342,7 +314,6 @@ export default function PrepTestG1() {
     async function checkAccess() {
       try {
         const email = session.user.email;
-        console.log('Checking access for', email);
 
         const { data: profile, error } = await supabase
           .from('profiles')
@@ -354,8 +325,6 @@ export default function PrepTestG1() {
 
         if (error) {
           console.error('Error loading profile on index page:', error);
-        } else {
-          console.log('Profile row on index page:', profile);
         }
 
         const active = profile?.subscription_status === 'active';
@@ -420,8 +389,8 @@ export default function PrepTestG1() {
 
         // default to set 1–40
         setQuestions(ordered.slice(0, 40));
-        setGlobalTotal(ordered.length); // 280 total
-        setGlobalBase(0); // Question 1 of 280
+        setGlobalTotal(ordered.length);
+        setGlobalBase(0);
       })
       .catch(() => {
         setAllQuestions([]);
@@ -443,42 +412,37 @@ export default function PrepTestG1() {
   const q = hasQuestionsFlag ? questions[safeIndex] : null;
   const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
 
-  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0; // position inside current set
+  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0; // 1..40
   const inSetTotal = hasQuestionsFlag ? questions.length : 0;
 
   const totalGlobal = globalTotal || (allQuestions ? allQuestions.length : 0);
-  const globalNumber = inSetTotal ? globalBase + inSet : 0; // 1, 41, 81,...
+  const globalNumber = inSetTotal ? globalBase + inSet : 0;
 
   const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
   const submit = () => {
-  if (!q || picked === null || done) return;
+    if (!q || picked === null || done) return;
 
-  const isCorrect = picked === q.correctIndex;
+    const isCorrect = picked === q.correctIndex;
 
-  // Update block counters
-  setBlockAnswered((n) => n + 1);
-  if (isCorrect) setBlockCorrect((n) => n + 1);
+    // ✅ count within current 20-question block
+    setBlockAnswered((n) => n + 1);
+    if (isCorrect) setBlockCorrect((n) => n + 1);
 
-  // Existing behavior
-  if (isCorrect) setCorrectCount((c) => c + 1);
+    // existing set score
+    if (isCorrect) setCorrectCount((c) => c + 1);
 
-  setDone(true);
-};
-
-
+    setDone(true);
+  };
 
   const next = () => {
-  if (!hasQuestionsFlag) return;
+    if (!hasQuestionsFlag) return;
+    if (checkpointOpen) return; // prevent advancing while overlay is open
 
-  // If checkpoint screen is open, don't advance questions
-  if (checkpointOpen) return;
-
-  setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-  setPicked(null);
-  setDone(false);
-};
-
+    setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+    setPicked(null);
+    setDone(false);
+  };
 
   // start a set by index range, and remember its base number
   const startByIndex = (startIdx, endIdx, baseNumber) => {
@@ -489,11 +453,13 @@ export default function PrepTestG1() {
     setPicked(null);
     setDone(false);
     setCorrectCount(0);
-    setGlobalBase(baseNumber); // 0 → Question 1, 40 → Question 41, etc.
-    // ✅ RESET checkpoint counters
-  setBlockAnswered(0);
-  setBlockCorrect(0);
-  setShowCelebration(false);
+    setGlobalBase(baseNumber);
+
+    // ✅ reset block + checkpoint
+    setBlockAnswered(0);
+    setBlockCorrect(0);
+    setCheckpointOpen(false);
+    setCheckpointScore({ correct: 0, answered: 0 });
   };
 
   // 7 sets of 40 questions each (0-based indices)
@@ -549,32 +515,26 @@ export default function PrepTestG1() {
     </div>
   );
 
-// 🎉 Celebration at question 20 (18+/20 correct)
-useEffect(() => {
-  // Only check exactly at question 20 inside a set
-  if (inSet !== 20 && inSet !== 40) return;
+  /**
+   * ✅ Open checkpoint overlay at Q20 and Q40 (between questions)
+   * Only triggers AFTER submit (done === true)
+   * Only if 18+/20 correct in the current 20-question block
+   */
+  useEffect(() => {
+    if (checkpointOpen) return;
+    if (!done) return;
 
-  if (blockCorrect >= 18) {
-    setShowCelebration(true);
-    const t = setTimeout(() => setShowCelebration(false), 2200);
-    return () => clearTimeout(t);
-  }
-}, [inSet, blockCorrect]);
+    const isCheckpointQuestion = inSet === 20 || inSet === 40;
+    if (!isCheckpointQuestion) return;
 
-useEffect(() => {
-  // Only when user has just submitted the 20th question in a set
-  if (inSet !== 20) return;
-  if (!done) return; // ensures it happens right after submit, not while answering
+    // We only want it after completing a full 20-question block
+    if (blockAnswered < 20) return;
 
-  // blockAnswered should be 20 at this point if you're counting properly
-  const answered = blockAnswered;
-  const correct = blockCorrect;
-
-  if (answered >= 20 && correct >= 18) {
-    setCheckpointScore({ correct, answered });
-    setCheckpointOpen(true);
-  }
-}, [inSet, done, blockAnswered, blockCorrect]);
+    if (blockCorrect >= 18) {
+      setCheckpointScore({ correct: blockCorrect, answered: blockAnswered });
+      setCheckpointOpen(true);
+    }
+  }, [inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
   // Loading questions
   if (!allQuestions) {
@@ -648,7 +608,6 @@ useEffect(() => {
               </Link>
             </p>
 
-            {/* Owner / test backdoor */}
             <hr style={{ margin: '24px 0' }} />
             <p style={{ fontSize: 13, color: '#4b5563' }}>
               <strong>Special Access</strong>
@@ -693,21 +652,26 @@ useEffect(() => {
   // MAIN QUIZ VIEW
   return (
     <div style={styles.page}>
+      {/* ✅ checkpoint overlay between questions */}
+      {checkpointOpen && (
+        <CheckpointScreen
+          correct={checkpointScore.correct}
+          answered={checkpointScore.answered}
+          onContinue={() => {
+            // close overlay + reset the 20-question block counters
+            setCheckpointOpen(false);
+            setBlockAnswered(0);
+            setBlockCorrect(0);
 
-    {checkpointOpen && (
-  <CheckpointScreen
-    correct={checkpointScore.correct}
-    answered={checkpointScore.answered}
-    onContinue={() => {
-      setCheckpointOpen(false);
-      // Reset block counters for the next 20-question chunk
-      setBlockAnswered(0);
-      setBlockCorrect(0);
-    }}
-  />
-)}
-
-    {showCelebration && <EmojiCelebration />}
+            // move on to the next question (unless end of set)
+            if (!isLast) {
+              setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+              setPicked(null);
+              setDone(false);
+            }
+          }}
+        />
+      )}
 
       <style jsx global>{`
         .question-anim {
@@ -771,8 +735,7 @@ useEffect(() => {
 
           <div style={styles.metaRow}>
             <span>
-              Question {globalNumber} of {totalGlobal} · Set {inSet}/
-              {inSetTotal}
+              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
             </span>
             <span>Correct: {correctCount}</span>
           </div>
@@ -791,12 +754,7 @@ useEffect(() => {
               {q.choices.map((c, idx) => (
                 <li key={idx}>
                   <button
-                    style={styles.choiceBtn(
-                      idx,
-                      picked,
-                      q.correctIndex,
-                      done
-                    )}
+                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
                     onClick={() => !done && setPicked(idx)}
                   >
                     <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
@@ -805,9 +763,10 @@ useEffect(() => {
               ))}
             </ul>
 
+            {/* ✅ allow Next even on last question (won’t advance, but won’t break UI) */}
             <button
-              style={styles.submitBtn(picked === null || (done && isLast))}
-              disabled={picked === null || (done && isLast)}
+              style={styles.submitBtn(picked === null && !done)}
+              disabled={picked === null && !done}
               onClick={done ? next : submit}
             >
               {done ? (isLast ? 'End of set' : 'Next question') : 'Submit'}
@@ -822,7 +781,6 @@ useEffect(() => {
               </div>
             )}
 
-            {/* Footer */}
             <div
               style={{
                 marginTop: '3rem',
