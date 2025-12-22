@@ -233,7 +233,7 @@
     "id": "q-school-bus-20m-11",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-the-road",
+    "category": "rules-of-the-road",
     "question": "On a two-way road with no median, a school bus ahead of you stops with its upper red lights flashing. What must you do?",
     "choices": [
       "Slow to 10 km/h and pass with caution",
@@ -256,7 +256,7 @@
     "id": "q-4way-stop-yield-right-12",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+    "category": "rules-of-the-road",
     "question": "At a four-way stop, two vehicles stop at exactly the same time. Who goes first?",
     "choices": [
       "The larger vehicle goes first",
@@ -279,7 +279,7 @@
     "id": "q-right-turn-on-red-13",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "turns",
+    "category": "rules-of-the-road",
     "question": "When is it legal to make a right turn on a red light in Ontario?",
     "choices": [
       "Anytime you signal",
@@ -302,7 +302,7 @@
     "id": "q-headlights-when-14",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "visibility",
+    "category": "rules-of-the-road",
     "question": "When must you turn on your headlights in Ontario?",
     "choices": [
       "Only after dark",
@@ -325,7 +325,7 @@
     "id": "q-school-crossing-guard-15",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "pedestrians",
+    "category": "rules-of-the-road",
     "question": "A school crossing guard steps into the road holding a red-and-white stop sign. What must you do?",
     "choices": [
       "Slow down and pass carefully if no children are on the crosswalk",
@@ -352,7 +352,7 @@
     "id": "q-two-second-rule-16",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "space-management",
+    "category": "rules-of-the-road",
     "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
     "choices": [
       "One second behind the vehicle ahead",
@@ -375,7 +375,7 @@
     "id": "q-yield-be-prepared-to-stop-17",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+    "category": "rules-of-the-road",
     "question": "Approaching a YIELD sign and cross traffic is present. What must you do?",
     "choices": [
       "Proceed without stopping if you signal",
@@ -398,7 +398,7 @@
     "id": "q-roundabout-yield-18",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "roundabouts",
+    "category": "rules-of-the-road",
     "question": "Approaching a roundabout, what must you do before entering?",
     "choices": [
       "Enter quickly and claim your lane",
@@ -421,7 +421,7 @@
     "id": "q-divided-road-bus-19",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-the-road",
+    "category": "rules-of-the-road",
     "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
     "choices": [
       "Stop immediately",
@@ -444,7 +444,7 @@
     "id": "q-pxo-wait-clear-20",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "pedestrians",
+    "category": "rules-of-the-road",
     "question": "At a pedestrian crossover (PXO) with flashing beacons, when can you proceed?",
     "choices": [
       "As soon as the pedestrian steps onto the curb on your half of the road",
@@ -467,7 +467,7 @@
     "id": "q-roundabout-keep-right-21",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "roundabouts",
+    "category": "rules-of-the-road",
     "question": "You see this circular blue sign with white arrows before a roundabout. What should you do?",
     "choices": [
       "Enter quickly and signal left",
@@ -490,7 +490,7 @@
   "id": "q-stop-obey-22",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "Disobeying a stop sign or traffic light results in how many demerit points?",
   "choices": [
     "2 demerit points",
@@ -507,7 +507,7 @@
     "id": "q-seatbelt-23",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safety",
+    "category": "rules-of-the-road",
     "question": "When must seat belts be worn in Ontario?",
     "choices": [
       "Only on highways",
@@ -553,7 +553,7 @@
     "id": "q-icy-bridge-25",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "hazards",
+    "category": "rules-of-the-road",
     "question": "A sign warns “Bridge Freezes Before Road.” What should you do?",
     "choices": [
       "Accelerate to cross quickly",
@@ -576,7 +576,7 @@
     "id": "q-hydroplane-26",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "hazards",
+    "category": "rules-of-the-road",
     "question": "Your tires begin to hydroplane on a wet road. What should you do?",
     "choices": [
       "Brake hard and steer sharply",
@@ -599,7 +599,7 @@
     "id": "q-turn-signal-27",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signals",
+    "category": "rules-of-the-road",
     "question": "How far ahead should you signal before turning or changing lanes?",
     "choices": [
       "At least 30 metres (100 ft)",
@@ -622,7 +622,7 @@
     "id": "q-horn-use-28",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "communication",
+    "category": "rules-of-the-road",
     "question": "When should you use your horn?",
     "choices": [
       "To greet a friend",
@@ -645,7 +645,7 @@
     "id": "q-roadwork-flag-29",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "construction",
+    "category": "rules-of-the-road",
     "question": "A flag person is directing traffic in a construction zone. You must:",
     "choices": [
       "Follow the flag person’s instructions at all times",
@@ -668,7 +668,7 @@
     "id": "q-alcohol-30",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "impairment",
+    "category": "rules-of-the-road",
     "question": "If a driver under 21 has any alcohol in their system while driving, they:",
     "choices": [
       "May receive only a warning",
@@ -691,7 +691,7 @@
     "id": "q-fatigue-31",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "impairment",
+    "category": "rules-of-the-road",
     "question": "You feel drowsy while driving at night. What should you do?",
     "choices": [
       "Open the window and turn up music",
@@ -714,7 +714,7 @@
     "id": "q-fog-32",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "visibility",
+    "category": "rules-of-the-road",
     "question": "When driving in dense fog, you should:",
     "choices": [
       "Use high-beam headlights",
@@ -737,7 +737,7 @@
     "id": "q-child-seat-33",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safety",
+    "category": "rules-of-the-road",
     "question": "Children under 9 kg (20 lb) must be secured in:",
     "choices": [
       "A booster seat",
@@ -760,7 +760,7 @@
     "id": "q-hand-signals-34",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signals",
+    "category": "rules-of-the-road",
     "question": "If your turn signals fail, how can you signal a right turn by hand?",
     "choices": [
       "Left arm straight out",
@@ -783,7 +783,7 @@
     "id": "q-blindspot-35",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "Before changing lanes, you should:",
     "choices": [
       "Signal and immediately move over",
@@ -806,7 +806,7 @@
     "id": "q-crosswalk-36",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "pedestrians",
+    "category": "rules-of-the-road",
     "question": "At an intersection with no marked crosswalk, where should pedestrians cross?",
     "choices": [
       "Anywhere they wish",
@@ -829,7 +829,7 @@
     "id": "q-motorcycle-distance-37",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When following a motorcycle, you should:",
     "choices": [
       "Follow closely to see better",
@@ -852,7 +852,7 @@
   "id": "q-careless-driving-38",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are given for careless driving?",
   "choices": [
     "3 demerit points",
@@ -1126,7 +1126,7 @@
     "id": "q-snowplow-50",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "winter",
+    "category": "rules-of-the-road",
     "question": "You approach a snowplow working on the highway. What should you do?",
     "choices": [
       "Stay well back and do not pass until safe and clear",
@@ -1149,7 +1149,7 @@
     "id": "q-tire-blowout-51",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "If a tire blows out while driving, what should you do first?",
     "choices": [
       "Brake hard immediately to stop the car",
@@ -1172,7 +1172,7 @@
     "id": "q-brake-failure-52",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "Your brake pedal suddenly goes to the floor and braking power is lost. What is your best immediate action?",
     "choices": [
       "Pump the brake pedal several times and downshift to lower gears to slow the vehicle",
@@ -1195,7 +1195,7 @@
     "id": "q-stuck-accelerator-53",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "Your accelerator sticks and the engine races. What should you do first?",
     "choices": [
       "Turn the key to lock to stall the engine",
@@ -1218,7 +1218,7 @@
     "id": "q-yield-emergency-54",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency-vehicles",
+  "category": "rules-of-the-road",
     "question": "An emergency vehicle with flashing lights and siren is approaching from behind on a two-way road. What must you do?",
     "choices": [
       "Maintain your speed so you don’t block traffic",
@@ -1241,7 +1241,7 @@
     "id": "q-four-way-stop-ped-55",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "At a four-way stop, a pedestrian is crossing ahead of you and a car on your right arrives at the same time. What should you do?",
     "choices": [
       "Go first because you arrived at the same time",
@@ -1264,7 +1264,7 @@
     "id": "q-merge-ramp-56",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway",
+    "category": "rules-of-the-road",
     "question": "When using an entrance ramp to merge onto a freeway, you should:",
     "choices": [
       "Stop at the end of the ramp and wait for a large gap",
@@ -1287,7 +1287,7 @@
     "id": "q-exit-ramp-57",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway",
+    "category": "rules-of-the-road",
     "question": "When leaving a freeway, when should you slow down to the exit ramp speed?",
     "choices": [
       "On the freeway lane before the exit",
@@ -1310,7 +1310,7 @@
     "id": "q-curb-uphill-58",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking uphill on a road with a curb, how should you turn your front wheels?",
     "choices": [
       "Toward the curb",
@@ -1333,7 +1333,7 @@
     "id": "q-curb-downhill-59",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking downhill on a road with a curb, how should you turn your front wheels?",
     "choices": [
       "Toward the curb",
@@ -1356,7 +1356,7 @@
     "id": "q-no-curb-hill-60",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking on a hill with no curb, how should you turn your wheels?",
     "choices": [
       "Always straight ahead",
@@ -1379,7 +1379,7 @@
     "id": "q-railway-stop-61",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "railway",
+  "category": "rules-of-the-road",
     "question": "You are approaching a railway crossing with flashing red lights and gates lowering. What must you do?",
     "choices": [
       "Drive around the gates if you don’t see a train",
@@ -1402,7 +1402,7 @@
     "id": "q-school-zone-speed-62",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "speed",
+  "category": "rules-of-the-road",
     "question": "In a school zone where a lower speed limit is posted with times of day, when does that lower limit apply?",
     "choices": [
       "Only when children are visible",
@@ -1425,7 +1425,7 @@
     "id": "q-work-zone-fines-63",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "construction",
+  "category": "rules-of-the-road",
     "question": "In a construction zone, fines for speeding are:",
     "choices": [
       "Reduced because traffic is slower",
@@ -1471,7 +1471,7 @@
     "id": "q-back-up-driveway-65",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "manoeuvres",
+    "category": "rules-of-the-road",
     "question": "When backing out of a driveway into a roadway, you must:",
     "choices": [
       "Rely on your mirrors only",
@@ -1494,7 +1494,7 @@
     "id": "q-reverse-look-66",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "manoeuvres",
+    "category": "rules-of-the-road",
     "question": "When reversing straight, the best way to look is:",
     "choices": [
       "In the rear-view mirror only",
@@ -1517,7 +1517,7 @@
     "id": "q-left-turn-oncoming-67",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "turns",
+    "category": "rules-of-the-road",
     "question": "You are turning left at an intersection and oncoming traffic is approaching. What should you do?",
     "choices": [
       "Turn quickly in front of oncoming traffic",
@@ -1540,7 +1540,7 @@
     "id": "q-lane-change-mirror-68",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "What is the correct order when changing lanes?",
     "choices": [
       "Signal, shoulder check, mirror check, move",
@@ -1563,7 +1563,7 @@
     "id": "q-roundabout-signal-exit-69",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "roundabouts",
+    "category": "rules-of-the-road",
     "question": "When should you signal at a roundabout?",
     "choices": [
       "Signal left while driving around the circle",
@@ -1586,7 +1586,7 @@
     "id": "q-bicycle-door-zone-70",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When passing parked cars you should:",
     "choices": [
       "Drive very close to the parked cars to leave room on your right",
@@ -1609,7 +1609,7 @@
     "id": "q-bicycle-passing-distance-71",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When passing a cyclist, what is the best practice?",
     "choices": [
       "Pass as closely as possible to stay in your lane",
@@ -1632,7 +1632,7 @@
     "id": "q-animal-avoid-swerve-72",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "hazards",
+    "category": "rules-of-the-road",
     "question": "An animal suddenly runs onto the road. What is the safest general response?",
     "choices": [
       "Swerve sharply into the opposite lane",
@@ -1655,7 +1655,7 @@
     "id": "q-black-ice-73",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "winter",
+    "category": "rules-of-the-road",
     "question": "Black ice is:",
     "choices": [
       "Ice that is safe to drive on",
@@ -1678,7 +1678,7 @@
     "id": "q-fog-high-beam-74",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "visibility",
+    "category": "rules-of-the-road",
     "question": "Why should you avoid using high-beam headlights in fog?",
     "choices": [
       "They are not bright enough",
@@ -1701,7 +1701,7 @@
     "id": "q-emergency-shoulder-75",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "If your vehicle breaks down on a highway, what should you do first when you stop on the shoulder?",
     "choices": [
       "Get out and stand beside the vehicle",
@@ -1724,7 +1724,7 @@
     "id": "q-abs-brakes-76",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "In a vehicle with ABS (antilock braking system), how should you brake in an emergency stop?",
     "choices": [
       "Pump the brake pedal rapidly",
@@ -1747,7 +1747,7 @@
     "id": "q-nonabs-brakes-77",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "In a vehicle without ABS, how should you brake on a slippery surface to avoid skidding?",
     "choices": [
       "Brake as hard as possible and hold",
@@ -1770,7 +1770,7 @@
     "id": "q-night-meeting-78",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "visibility",
+    "category": "rules-of-the-road",
     "question": "At night, when should you dim your high-beam headlights for an oncoming vehicle?",
     "choices": [
       "When you are about one block away (approximately 150 metres)",
@@ -1928,7 +1928,7 @@
   "id": "q-racing-stunt-85",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are assigned for racing or stunt driving?",
   "choices": [
     "2 demerit points",
@@ -2036,7 +2036,7 @@
     "id": "q-tailgater-90",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "A vehicle is following you too closely (tailgating). What is a safe response?",
     "choices": [
       "Brake suddenly to warn them",
@@ -2059,7 +2059,7 @@
     "id": "q-road-rage-91",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "attitude",
+  "category": "rules-of-the-road",
     "question": "If another driver behaves aggressively or with road rage, you should:",
     "choices": [
       "React the same way to defend yourself",
@@ -2082,7 +2082,7 @@
     "id": "q-drugs-impairment-92",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "impairment",
+  "category": "rules-of-the-road",
     "question": "Drugs that can impair your driving include:",
     "choices": [
       "Only illegal drugs",
@@ -2105,7 +2105,7 @@
     "id": "q-g1-accompanied-93",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "A G1 driver must be accompanied by a fully licensed driver who:",
     "choices": [
       "Is at least 16 years old with any licence",
@@ -2128,7 +2128,7 @@
     "id": "q-g1-zero-bac-94",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "What is the legal blood alcohol level for a G1 or G2 driver while driving?",
     "choices": [
       "Below the Criminal Code limit only",
@@ -2151,7 +2151,7 @@
     "id": "q-g1-highway-restriction-95",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "Most G1 drivers are not allowed to drive on:",
     "choices": [
       "Any city street",
@@ -2174,7 +2174,7 @@
     "id": "q-seat-position-96",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "Before driving, how should you position your seat?",
     "choices": [
       "So you are far from the controls and must stretch your legs fully",
@@ -2197,7 +2197,7 @@
     "id": "q-mirror-adjust-97",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "When should you adjust your mirrors?",
     "choices": [
       "While driving at highway speed",
@@ -2220,7 +2220,7 @@
     "id": "q-hydroplaning-prevent-98",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "hazards",
+    "category": "rules-of-the-road",
     "question": "Which action helps reduce the risk of hydroplaning?",
     "choices": [
       "Driving faster in the rain",
@@ -2243,7 +2243,7 @@
     "id": "q-driver-distraction-99",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "distraction",
+  "category": "rules-of-the-road",
     "question": "Which of the following is an example of a dangerous distraction while driving?",
     "choices": [
       "Checking mirrors regularly",
@@ -2266,7 +2266,7 @@
     "id": "q-approaching-pedestrian-100",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "pedestrians",
+  "category": "rules-of-the-road",
     "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
     "choices": [
       "Speed up to pass before they step out",
@@ -2289,7 +2289,7 @@
   "id": "q-improper-right-101",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points result from making an improper right turn?",
   "choices": [
     "2 demerit points",
@@ -2306,7 +2306,7 @@
     "id": "q-rules-merge-sign-102",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You see a lane ending and a merge sign ahead. Traffic is heavy but moving. What should you do?",
     "choices": [
       "Signal, adjust your speed, and merge smoothly into the through lane when there is a safe gap",
@@ -2329,7 +2329,7 @@
     "id": "q-rules-roundabout-lane-103",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "This roundabout sign appears before a multi-lane roundabout. You plan to go straight through. Which lane should you normally choose before entering?",
     "choices": [
       "Follow the lane signs and use the correct lane marked for going straight",
@@ -2369,7 +2369,7 @@
     "id": "q-rules-construction-speed-105",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "signs-regulatory",
     "question": "You enter a construction zone marked with this sign and a lower speed limit. What is the correct action?",
     "choices": [
       "Slow to the posted work-zone speed and be prepared for workers and equipment",
@@ -2392,7 +2392,7 @@
   "id": "q-bus-rail-106",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "A bus driver who fail to stop at an unprotected railway crossing receives how many demerit points?",
   "choices": [
     "3 demerit points",
@@ -2409,7 +2409,7 @@
     "id": "q-rules-no-entry-oneway-107",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You approach this NO ENTRY sign at the end of a street. What does it tell you about that road?",
     "choices": [
       "The road is one-way for traffic coming toward you; you must not enter",
@@ -2432,7 +2432,7 @@
   "id": "q-speed-50plus-108",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are issued for driving 50 km/h or more over the posted limit?",
   "choices": [
     "3 demerit points",
@@ -2449,7 +2449,7 @@
   "id": "q-rail-barrier-109",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "Driving through, around, or under a lowered railway barrier results in how many demerit points?",
   "choices": [
     "2 demerit points",
@@ -2466,7 +2466,7 @@
     "id": "q-rules-no-stopping-like-sign-110",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "signs-regulatory",
     "question": "A different sign shows a red circle and slash over a symbol for stopping. How is that different from this no-parking sign?",
     "choices": [
       "No-stopping means you may not stop your vehicle at all, even briefly",
@@ -2489,7 +2489,7 @@
   "id": "q-follow-closely-111",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "Following another vehicle too closely results in how many demerit points?",
   "choices": [
     "2 demerit points",
@@ -2506,7 +2506,7 @@
     "id": "q-rules-hill-downgrade-112",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You see this steep hill sign before a long downgrade. What gear and braking strategy is safest?",
     "choices": [
       "Select a lower gear before the hill and brake gently as needed",
@@ -2529,7 +2529,7 @@
     "id": "q-rules-slippery-curve-113",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "It begins to rain and you see this SLIPPERY WHEN WET sign on a curve. How should you drive?",
     "choices": [
       "Slow down before the curve and avoid sudden steering or braking",
@@ -2552,7 +2552,7 @@
     "id": "q-rules-winding-road-visibility-114",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You see this winding road sign and heavy fog ahead. What is the safest choice?",
     "choices": [
       "Slow down, increase following distance and use low beams",
@@ -2575,7 +2575,7 @@
   "id": "q-fail-yield-115",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are given for failing to yield the right of way?",
   "choices": [
     "2 demerit points",
@@ -2592,7 +2592,7 @@
   "id": "q-speed-16to29-116",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are applied for speeding 16–29 km/h over the limit?",
   "choices": [
     "2 demerit points",
@@ -2609,7 +2609,7 @@
     "id": "q-rules-wheelchair-accessible-117",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You see this wheelchair symbol at a parking space. What must you do as a driver without an accessible parking permit?",
     "choices": [
       "You must not park in the marked accessible space",
@@ -2928,7 +2928,7 @@
     "id": "q-rules-no-u-turn-131",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You miss your turn and see this NO U-TURN sign. How should you correct your route?",
     "choices": [
       "Continue to a place where U-turns or left turns are allowed and change direction there",
@@ -2951,7 +2951,7 @@
     "id": "q-rules-road-ends-warning-132",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You are driving at night and see this ROAD ENDS sign. What should you prepare to do?",
     "choices": [
       "Slow down and be ready to stop or turn where the road ends",
@@ -2996,7 +2996,7 @@
     "id": "q-rules-narrow-bridge-meeting-134",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "Before a narrow bridge you see this sign and an oncoming vehicle. What is the safest approach?",
     "choices": [
       "Slow down, keep right, and be prepared to pass the oncoming vehicle carefully on the bridge",
@@ -3041,7 +3041,7 @@
     "id": "q-rules-divided-highway-ends-136",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "On a highway separated by a median you see this DIVIDED HIGHWAY ENDS sign. What should you expect ahead?",
     "choices": [
       "Opposing traffic will no longer be separated by a median and may be closer to you",
@@ -3064,7 +3064,7 @@
     "id": "q-rules-roundabout-exit-signal-137",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You see this roundabout sign and enter to go straight through. When should you signal?",
     "choices": [
       "Signal right just before you reach your exit from the roundabout",
@@ -3087,7 +3087,7 @@
     "id": "q-safe-attitude-138",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "According to the Official MTO Driver’s Handbook, what is the most important foundation of safe and responsible driving?",
     "choices": [
       "A positive attitude that focuses on safety and sharing the road",
@@ -3110,7 +3110,7 @@
     "id": "q-following-distance-139",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "In good driving conditions on a dry road, what is the recommended minimum following distance behind the vehicle in front of you?",
     "choices": [
       "At least a two-second gap",
@@ -3133,7 +3133,7 @@
     "id": "q-scanning-hazards-140",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "To spot hazards early, how should you scan the road while driving in city traffic?",
     "choices": [
       "Keep your eyes moving, checking far ahead, around and in your mirrors regularly",
@@ -3156,7 +3156,7 @@
     "id": "q-night-driving-speed-141",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "At night, how should you adjust your speed, even if the posted speed limit is higher?",
     "choices": [
       "Drive slowly enough that you can stop within the distance lit by your headlights",
@@ -3179,7 +3179,7 @@
     "id": "q-intersections-right-of-way-142",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "At a four-way stop where all vehicles arrive around the same time, which driver should normally go first?",
     "choices": [
       "The driver who comes to a complete stop first and proceeds when it is safe",
@@ -3202,7 +3202,7 @@
     "id": "q-lane-change-143",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "Before changing lanes on a multi-lane road, what is the correct sequence?",
     "choices": [
       "Check mirrors, signal, shoulder check, then change lanes when safe",
@@ -3225,7 +3225,7 @@
     "id": "q-blind-spots-144",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "Why is a shoulder check important even if you have properly adjusted mirrors?",
     "choices": [
       "There are areas beside your vehicle that mirrors cannot show (blind spots)",
@@ -3248,7 +3248,7 @@
     "id": "q-expressway-merge-145",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When entering an expressway from an on-ramp, what should you do on the acceleration lane?",
     "choices": [
       "Signal, match the speed of traffic, and merge when there is a safe gap",
@@ -3271,7 +3271,7 @@
     "id": "q-expressway-exit-146",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When exiting an expressway, when should you start to slow down?",
     "choices": [
       "After you have entered the deceleration lane or exit ramp",
@@ -3294,7 +3294,7 @@
     "id": "q-emergency-vehicles-147",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "On a two-way road, you hear and see an emergency vehicle with flashing lights and siren approaching from behind. What must you do?",
     "choices": [
       "Move as far to the right as possible and stop until it has passed",
@@ -3317,7 +3317,7 @@
     "id": "q-move-over-law-148",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "On a multi-lane highway, you see a stopped emergency vehicle with flashing lights on the shoulder of your lane. What should you do if traffic allows?",
     "choices": [
       "Move into another lane away from the emergency vehicle and slow down",
@@ -3340,7 +3340,7 @@
     "id": "q-sharing-cyclists-1m-149",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When passing a cyclist on a two-lane road, how should you do it safely?",
     "choices": [
       "Slow down and leave at least one metre of space between your vehicle and the cyclist when passing",
@@ -3363,7 +3363,7 @@
     "id": "q-dooring-cyclist-150",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "You are parked beside a bike lane and want to open your driver’s door. What is the safest way to avoid hitting a cyclist?",
     "choices": [
       "Check mirrors, shoulder check for cyclists, then open the door with your far hand",
@@ -3386,7 +3386,7 @@
     "id": "q-motorcycles-visibility-151",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "Why must you take extra care when judging the speed and distance of oncoming motorcycles?",
     "choices": [
       "They are smaller and can appear farther away and slower than they really are",
@@ -3409,7 +3409,7 @@
     "id": "q-large-trucks-space-152",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When driving near large trucks, why should you avoid travelling for long periods right beside them?",
     "choices": [
       "Trucks have large blind spots and need extra room to maneuver",
@@ -3432,7 +3432,7 @@
     "id": "q-trucks-wide-turns-153",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "A large truck signals a right turn and moves slightly to the left before turning. What should you do?",
     "choices": [
       "Do not move into the space on the right; the truck needs room to turn",
@@ -3455,7 +3455,7 @@
     "id": "q-winter-driving-distance-154",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "On a snowy road with reduced traction, how should you adjust your following distance?",
     "choices": [
       "Increase it well beyond the normal two-second rule",
@@ -3477,7 +3477,7 @@
     "id": "q-black-ice-bridges-155",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "On a near-freezing day, why should you be especially cautious on bridges and overpasses?",
     "choices": [
       "They can freeze and become icy before the rest of the road",
@@ -3500,7 +3500,7 @@
     "id": "q-hydroplaning-156",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "If your vehicle begins to hydroplane on a very wet road, what is the safest action?",
     "choices": [
       "Ease off the accelerator and steer straight until you regain traction",
@@ -3523,7 +3523,7 @@
     "id": "q-headlights-visibility-157",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When must you use your headlights, even during the daytime?",
     "choices": [
       "Whenever visibility is poor enough that you cannot clearly see people or vehicles 150 metres ahead",
@@ -3546,7 +3546,7 @@
     "id": "q-parking-uphill-curb-158",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking uphill on a street with a curb, how should you turn your front wheels?",
     "choices": [
       "Turn the front wheels away from the curb and set the parking brake",
@@ -3796,7 +3796,7 @@
     "id": "q-parking-downhill-no-curb-169",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking downhill on a road with no curb, how should you position your front wheels?",
     "choices": [
       "Turn the wheels toward the right shoulder and set the parking brake",
@@ -3819,7 +3819,7 @@
     "id": "q-parking-fire-hydrant-170",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "Why is parking too close to a fire hydrant prohibited?",
     "choices": [
       "Firefighters must be able to reach the hydrant quickly in an emergency",
@@ -3842,7 +3842,7 @@
     "id": "q-parking-crosswalk-171",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "Why should you never park within a crosswalk or very close to one?",
     "choices": [
       "It blocks visibility for pedestrians and drivers at the crossing",
@@ -3865,7 +3865,7 @@
     "id": "q-railway-stall-172",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "If your vehicle stalls on a railway crossing and a train is approaching, what should you do first?",
     "choices": [
       "Get everyone out of the vehicle and move away from the tracks at a 45° angle towards the train",
@@ -3888,7 +3888,7 @@
     "id": "q-tire-blowout-173",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "If a front tire blows out while you are driving, what is the safest initial reaction?",
     "choices": [
       "Hold the steering wheel firmly, ease off the accelerator and steer straight",
@@ -3911,7 +3911,7 @@
     "id": "q-skid-rear-174",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "On an icy road, your rear wheels begin to skid sideways. What should you do?",
     "choices": [
       "Steer gently in the direction you want the front of the car to go and avoid braking hard",
@@ -3934,7 +3934,7 @@
     "id": "q-fatigue-driving-175",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "You start to feel very drowsy while driving. What is the safest decision?",
     "choices": [
       "Find a safe place to stop and rest before continuing",
@@ -3957,7 +3957,7 @@
     "id": "q-tailgater-176",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "Another driver is following you too closely (tailgating). What is the safest way to respond?",
     "choices": [
       "Gradually increase your following distance and, when safe, change lanes or let them pass",
@@ -3980,7 +3980,7 @@
     "id": "q-mirrors-frequency-177",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "How often should you normally check your mirrors while driving on a straight road with light traffic?",
     "choices": [
       "Every few seconds, and before slowing, turning or changing lanes",
@@ -4003,7 +4003,7 @@
     "id": "q-impaired-zero-g1-178",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "impaired-driving",
+  "category": "rules-of-the-road",
     "question": "For a G1 or G2 driver, what is the legal blood alcohol requirement while driving?",
     "choices": [
       "You must have zero alcohol in your blood (0.00 BAC)",
@@ -4026,7 +4026,7 @@
     "id": "q-g1-supervisor-179",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "Which of the following is a requirement for a G1 driver when driving on public roads?",
     "choices": [
       "A fully licensed driver with at least four years of experience must sit in the front passenger seat",
@@ -4049,7 +4049,7 @@
     "id": "q-g1-roads-restrictions-180",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "Which statement about G1 drivers and high-speed roads is correct?",
     "choices": [
       "G1 drivers are not allowed on certain high-speed expressways unless accompanied by a qualified driving instructor",
@@ -4072,7 +4072,7 @@
     "id": "q-g2-passengers-night-181",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "licensing",
+  "category": "rules-of-the-road",
     "question": "Why does Ontario place certain night-time passenger restrictions on some G2 drivers under 20?",
     "choices": [
       "To reduce the risk of serious collisions when novice drivers carry several teen passengers at night",
@@ -4095,7 +4095,7 @@
     "id": "q-collision-duties-182",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "You are involved in a collision with another vehicle and there are no serious injuries. What are you required to do?",
     "choices": [
       "Stop, exchange information with the other driver and follow reporting requirements",
@@ -4118,7 +4118,7 @@
     "id": "q-turn-signals-183",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When should you use your turn signal?",
     "choices": [
       "Whenever you plan to turn, change lanes, or move away from a parked position",
@@ -4141,7 +4141,7 @@
     "id": "q-back-up-safely-184",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "What is the safest way to back up a vehicle?",
     "choices": [
       "Check all around, look out the rear window and back up slowly",
@@ -4164,7 +4164,7 @@
     "id": "q-pedestrians-turning-185",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You are turning right at an intersection and the light is green. A pedestrian begins crossing the street you are turning into. What must you do?",
     "choices": [
       "Yield to the pedestrian and wait until they have safely crossed",
@@ -4187,7 +4187,7 @@
     "id": "q-crosswalk-uncontrolled-186",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "At a crosswalk without traffic lights but with painted lines and signs, a pedestrian is waiting to cross. What is your responsibility?",
     "choices": [
       "Be prepared to stop and allow the pedestrian to cross safely",
@@ -4210,7 +4210,7 @@
     "id": "q-end-of-set-187",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safe-driving",
+    "category": "rules-of-the-road",
     "question": "You have answered many practice questions in a row and feel your concentration dropping. What is the safest real-world driving habit to learn from this?",
     "choices": [
       "Take regular breaks during long drives to stay alert",
@@ -4233,7 +4233,7 @@
     "id": "q-safe-following-distance-188",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When driving behind another vehicle in good weather, what is the safest minimum following distance?",
     "choices": [
       "At least two seconds behind the vehicle ahead",
@@ -4256,7 +4256,7 @@
     "id": "q-right-of-way-four-way-stop-189",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "At a four-way stop, two vehicles arrive at the same time. Who should proceed first?",
     "choices": [
       "The vehicle on the right has the right-of-way",
@@ -4279,7 +4279,7 @@
     "id": "q-blind-spots-check-190",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "Before changing lanes on a multi-lane road, what must a driver do to check blind spots properly?",
     "choices": [
       "Look over the appropriate shoulder in addition to checking mirrors",
@@ -4302,7 +4302,7 @@
     "id": "q-high-beam-dimming-191",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "When must you dim your high-beam headlights at night?",
     "choices": [
       "Whenever you are within 150 metres of an oncoming vehicle",
@@ -4325,7 +4325,7 @@
     "id": "q-emergency-vehicle-yield-192",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "If an emergency vehicle with flashing lights and siren approaches from behind, what must you do?",
     "choices": [
       "Signal, pull as far right as possible, and stop",
@@ -4348,7 +4348,7 @@
   "id": "q-improper-left-193",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "Improper left turns carry how many demerit points?",
   "choices": [
     "2 demerit points",
@@ -4365,7 +4365,7 @@
     "id": "q-school-bus-median-194",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "You are driving on a roadway divided by a median. A school bus on the opposite side stops with red lights flashing and stop arm extended. What must you do?",
     "choices": [
       "Stop and remain stopped until the bus moves",
@@ -4388,7 +4388,7 @@
     "id": "q-fire-hydrant-distance-195",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "How close are you allowed to park to a fire hydrant in Ontario?",
     "choices": [
       "Within one metre, as long as the hydrant is still visible",
@@ -4411,7 +4411,7 @@
     "id": "q-intersection-parking-distance-196",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules",
+  "category": "rules-of-the-road",
     "question": "On a road without traffic lights, how close are you allowed to park to an intersection or crosswalk?",
     "choices": [
       "You may park right at the corner if you signal",
@@ -4451,7 +4451,7 @@
     "id": "q-hov-lane-198",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-highway",
+  "category": "rules-of-the-road",
     "question": "On a 400-series highway you see diamond symbols and HOV (carpool) lane signs. When are you allowed to use this lane?",
     "choices": [
       "Only when your vehicle has at least two people (or is an eligible vehicle such as a bus, motorcycle, or green-plate vehicle)",
@@ -4592,7 +4592,7 @@
   "id": "q-school-bus-204",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points result from failing to stop for a school bus with flashing red lights?",
   "choices": [
     "2 demerit points",
@@ -4693,7 +4693,7 @@
     "id": "q-move-over-law-209",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-emergency",
+  "category": "rules-of-the-road",
     "question": "You are driving on a multi-lane highway and see a police car stopped on the shoulder ahead with its red and blue lights flashing. What must you do?",
     "choices": [
       "Slow down and move to a lane farther away if it is safe, or slow down and pass cautiously if you cannot change lanes",
@@ -4716,7 +4716,7 @@
     "id": "q-lane-control-signals-210",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-signals",
+  "category": "signs-regulatory",
     "question": "On a bridge you see lane-use control signals above each lane. The lane over you suddenly shows a red “X”. What should you do?",
     "choices": [
       "Change to a lane with a green arrow as soon as you can do so safely",
@@ -4743,7 +4743,7 @@
     "id": "q-uncontrolled-intersection-211",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-intersections",
+  "category": "rules-of-the-road",
     "question": "You are approaching a rural side road intersection with no traffic lights or signs. What is the safest way to proceed?",
     "choices": [
       "Slow down, be ready to stop, and yield to traffic already in the intersection or approaching from your right",
@@ -4766,7 +4766,7 @@
     "id": "q-funeral-procession-212",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-sharing-road",
+  "category": "rules-of-the-road",
     "question": "You are waiting at a green light when a line of vehicles in a clearly marked funeral procession is still moving through the intersection. What should you do?",
     "choices": [
       "Stay stopped and allow the entire procession to clear the intersection before you proceed",
@@ -4793,7 +4793,7 @@
     "id": "q-213",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "Before changing lanes on a multi-lane road, what is the final check you must always perform?",
     "choices": [
       "Check your blind spot by turning your head quickly",
@@ -4810,7 +4810,7 @@
     "id": "q-214",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "When an emergency vehicle approaches with lights and siren activated, you must:",
     "choices": [
       "Move to the nearest curb and stop",
@@ -4827,7 +4827,7 @@
     "id": "q-215",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerits",
+    "category": "demerit-points",
     "question": "Speeding excessively through a school zone may result in:",
     "choices": [
       "Higher fines and demerit points",
@@ -4844,7 +4844,7 @@
     "id": "q-216",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "What headlights should you use when driving in heavy fog?",
     "choices": [
       "Low-beam headlights",
@@ -4861,7 +4861,7 @@
     "id": "q-217",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "When approaching a roundabout, you must:",
     "choices": [
       "Yield to traffic already in the roundabout",
@@ -4878,7 +4878,7 @@
     "id": "q-218",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "Which situation requires a longer stopping distance?",
     "choices": [
       "Wet or icy pavement",
@@ -4895,7 +4895,7 @@
     "id": "q-219",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "Hydroplaning occurs when:",
     "choices": [
       "Your tires ride on top of water and lose road contact",
@@ -4912,7 +4912,7 @@
     "id": "q-220",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway-driving",
+  "category": "rules-of-the-road",
     "question": "When merging onto a freeway, you should:",
     "choices": [
       "Match the speed of traffic in the right lane",
@@ -4929,7 +4929,7 @@
     "id": "q-221",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "If a front tire blows out while driving, what should you do first?",
     "choices": [
       "Grip the wheel firmly and steer straight",
@@ -4946,7 +4946,7 @@
     "id": "q-222",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "You see a sign marking a bus loading zone. What does this mean?",
     "choices": [
       "Only buses may stop here",
@@ -4963,7 +4963,7 @@
     "id": "q-223",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "Parking in a designated accessible parking spot without a permit may result in:",
     "choices": [
       "Significant fines and towing",
@@ -4980,7 +4980,7 @@
     "id": "q-224",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-markings",
+  "category": "rules-of-the-road",
     "question": "A centre lane marked with left-turn arrows in both directions is used for:",
     "choices": [
       "Left turns from either direction",
@@ -4997,7 +4997,7 @@
     "id": "q-225",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "railway",
+  "category": "rules-of-the-road",
     "question": "When must you stop at a railway crossing, even if no train is visible?",
     "choices": [
       "When flashing lights or gates are activated",
@@ -5014,7 +5014,7 @@
     "id": "q-226",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When passing a cyclist, drivers must leave at least:",
     "choices": [
       "1 metre of space",
@@ -5031,7 +5031,7 @@
     "id": "q-227",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway-driving",
+  "category": "rules-of-the-road",
     "question": "If you miss your exit on a freeway, you must:",
     "choices": [
       "Continue to the next exit",
@@ -5048,7 +5048,7 @@
     "id": "q-228",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "At an open (uncontrolled) intersection, who must yield?",
     "choices": [
       "The driver who arrives later",
@@ -5065,7 +5065,7 @@
     "id": "q-229",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerits",
+    "category": "demerit-points",
     "question": "Impaired driving penalties for G1 drivers include:",
     "choices": [
       "Immediate roadside suspension and escalating sanctions",
@@ -5082,7 +5082,7 @@
     "id": "q-230",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "If a traffic signal is completely dark due to a power outage, treat the intersection as:",
     "choices": [
       "A four-way stop",
@@ -5099,7 +5099,7 @@
     "id": "q-231",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "The minimum recommended following distance under ideal conditions is:",
     "choices": [
       "At least 2 seconds",
@@ -5116,7 +5116,7 @@
     "id": "q-232",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "Why do bridges freeze before the rest of the road?",
     "choices": [
       "They are exposed to cold air above and below",
@@ -5133,7 +5133,7 @@
     "id": "q-233",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "In Ontario, when is a left turn on a red light permitted?",
     "choices": [
       "Only from a one-way street onto another one-way street",
@@ -5150,7 +5150,7 @@
     "id": "q-234",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "In the absence of signs, what is the usual maximum speed limit on municipal roads in cities, towns, and villages in Ontario?",
     "choices": [
       "50 km/h",
@@ -5167,7 +5167,7 @@
     "id": "q-235",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "You are facing a steady amber (yellow) traffic light and are far enough back to stop safely. What should you do?",
     "choices": [
       "Stop before the intersection",
@@ -5184,7 +5184,7 @@
   "id": "q-speed-30to49-236",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points apply for speeding 30–49 km/h over the limit?",
   "choices": [
     "2 demerit points",
@@ -5201,7 +5201,7 @@
     "id": "q-237",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "signs-regulatory",
     "question": "A sign with a red 'P' and a red slash through it means:",
     "choices": [
       "No parking is allowed in this area",
@@ -5218,7 +5218,7 @@
   "id": "q-fail-signal-238",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to signal?",
   "choices": [
     "2 demerit points",
@@ -5427,7 +5427,7 @@
     "id": "q-249",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "When you approach a yield sign, you must:",
     "choices": [
       "Slow down, be prepared to stop, and yield the right-of-way if another vehicle or pedestrian is in or approaching the intersection",
@@ -5466,7 +5466,7 @@
     "id": "q-251",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerits",
+    "category": "demerit-points",
     "question": "Under Ontario's escalating sanctions for novice drivers, repeated serious offences can lead to:",
     "choices": [
       "Longer suspensions or cancellation of the novice licence",
@@ -5483,7 +5483,7 @@
     "id": "q-252",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerits",
+    "category": "demerit-points",
     "question": "What blood alcohol concentration (BAC) must G1 drivers maintain while driving?",
     "choices": [
       "Zero BAC (no alcohol at all)",
@@ -5500,7 +5500,7 @@
     "id": "q-253",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "When backing a vehicle in a straight line, how should you look to ensure safety?",
     "choices": [
       "Turn your body and look through the rear window while backing slowly",
@@ -5517,7 +5517,7 @@
     "id": "q-254",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "If you accidentally entered the paved roadway onto the shoulder, you should:",
     "choices": [
       "Ease off the gas, and return to the pavement only when the vehicle is under control and traffic allows",
@@ -5534,7 +5534,7 @@
     "id": "q-255",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "emergency",
+    "category": "rules-of-the-road",
     "question": "A vehicle is coming toward you in your lane. To reduce the risk of a head-on collision, you should:",
     "choices": [
       "Reduce speed, move to the right as far as possible, and be prepared to drive onto the shoulder",
@@ -5551,7 +5551,7 @@
     "id": "q-256",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-control",
+    "category": "rules-of-the-road",
     "question": "If the rear wheels start to skid on a slippery road, you should:",
     "choices": [
       "Steer gently in the direction you want the front of the car to go",
@@ -5568,7 +5568,7 @@
     "id": "q-257",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway-driving",
+  "category": "rules-of-the-road",
     "question": "On a freeway with a posted speed of 100 km/h, driving much slower than other traffic without reason is:",
     "choices": [
       "Dangerous because it can interfere with traffic flow",
@@ -5585,7 +5585,7 @@
     "id": "q-258",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "highway-driving",
+  "category": "rules-of-the-road",
     "question": "On a multi-lane freeway, the left lane is generally used for:",
     "choices": [
       "Passing and faster-moving traffic",
@@ -5624,7 +5624,7 @@
     "id": "q-260",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "At an intersection with a pedestrian crossing but no traffic lights, you should:",
     "choices": [
       "Yield to pedestrians who are in or about to enter the crosswalk",
@@ -5641,7 +5641,7 @@
     "id": "q-261",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "You begin to feel very tired while driving at night. What is the safest thing to do?",
     "choices": [
       "Find a safe place to stop and rest",
@@ -5658,7 +5658,7 @@
   "id": "q-fail-remain-collision-262",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to remain at a collision?",
   "choices": [
     "3 demerit points",
@@ -5674,7 +5674,7 @@
     "id": "q-263",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "vehicle-maintenance",
+  "category": "rules-of-the-road",
     "question": "When is it acceptable to drive with snow or ice covering part of your windshield?",
     "choices": [
       "Never; you must fully clear your windshield and windows before driving",
@@ -5691,7 +5691,7 @@
     "id": "q-264",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "work-zones",
+  "category": "rules-of-the-road",
     "question": "When you see orange construction signs and workers ahead, you should:",
     "choices": [
       "Slow down and obey any reduced speed limit",
@@ -5708,7 +5708,7 @@
     "id": "q-265",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safety",
+  "category": "rules-of-the-road",
     "question": "Where is the safest place to install a child car seat in most passenger vehicles?",
     "choices": [
       "In the rear seat, away from active airbags",
@@ -5725,7 +5725,7 @@
     "id": "q-266",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "safety",
+  "category": "rules-of-the-road",
     "question": "A properly worn seatbelt should:",
     "choices": [
       "Have the lap belt low over the hips and the shoulder belt across the chest",
@@ -5742,7 +5742,7 @@
     "id": "q-267",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "road-rules",
+  "category": "rules-of-the-road",
     "question": "In rain, snow, or poor visibility, how should you adjust your following distance?",
     "choices": [
       "Increase it beyond two seconds",
@@ -5759,7 +5759,7 @@
     "id": "q-268",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "adverse-conditions",
+  "category": "rules-of-the-road",
     "question": "When descending a steep, icy hill, you should:",
     "choices": [
       "Use a lower gear and brake gently",
@@ -5776,7 +5776,7 @@
     "id": "q-269",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signals",
+  "category": "rules-of-the-road",
     "question": "A green light without a green arrow when you are turning left means:",
     "choices": [
       "You may turn left when the way is clear and after yielding to oncoming traffic and pedestrians",
@@ -5793,7 +5793,7 @@
     "id": "q-270",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "When entering a main road from a driveway or private road, you must:",
     "choices": [
       "Yield to all traffic on the main road",
@@ -5810,7 +5810,7 @@
   "id": "q-fail-stop-police-271",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerits",
+  "category": "demerit-points",
   "question": "How many demerit points are applied for failing to stop when signaled by police?",
   "choices": [
     "2 demerit points",
@@ -5826,7 +5826,7 @@
     "id": "q-272",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "railway",
+  "category": "signs-regulatory",
     "question": "A circular yellow sign with a black 'X' and two 'R's warns of:",
     "choices": [
       "An upcoming railway crossing",
@@ -5843,7 +5843,7 @@
     "id": "q-273",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "signs-regulatory",
     "question": "A 'Loading Zone' sign usually means:",
     "choices": [
       "Stopping is allowed only for actively loading or unloading",
@@ -5860,7 +5860,7 @@
     "id": "q-274",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "sharing-road",
+    "category": "rules-of-the-road",
     "question": "When a transit bus signals to leave a stop in a built-up area, you should:",
     "choices": [
       "Yield when safe to allow the bus to re-enter traffic",
@@ -5877,7 +5877,7 @@
     "id": "q-275",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "intersections",
+  "category": "rules-of-the-road",
     "question": "When turning left across oncoming traffic, you should begin your turn when:",
     "choices": [
       "There is a large enough gap to complete the turn without forcing other drivers to slow down suddenly",
@@ -5894,7 +5894,7 @@
     "id": "q-276",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerits",
+    "category": "demerit-points",
     "question": "Running a red light in Ontario can result in:",
     "choices": [
       "Fines and demerit points on your driving record",
@@ -5911,7 +5911,7 @@
     "id": "q-277",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parallel parking uphill with a curb, how should you turn your front wheels?",
     "choices": [
       "Away from the curb",
@@ -5928,7 +5928,7 @@
     "id": "q-278",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "parking",
+  "category": "rules-of-the-road",
     "question": "When parking downhill with a curb, how should you turn your front wheels?",
     "choices": [
       "Toward the curb",
