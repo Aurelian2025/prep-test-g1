@@ -49,7 +49,7 @@
     "id": "q-bike-warning-3",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "This sign appears ahead. What does it warn you about?",
     "choices": [
       "Bicycles are prohibited on this road",
@@ -141,7 +141,7 @@
     "id": "q-road-closed-7",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-temporary",
+    "category": "signs-regulatory",
     "question": "You see this sign ahead. What does it mean for traffic on your approach?",
     "choices": [
       "Detour ahead — reduce speed to 30 km/h",
@@ -187,7 +187,7 @@
     "id": "q-sign-winding-road-9",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "A yellow diamond sign showing a winding arrow means:",
     "choices": [
       "Road ahead is straight",
@@ -919,7 +919,7 @@
     "id": "q-sign-narrow-bridge-41",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "A yellow diamond sign showing a narrowing shape means:",
     "choices": [
       "Wide bridge ahead",
@@ -942,7 +942,7 @@
     "id": "q-sign-divided-highway-42",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "A yellow diamond sign showing one line splitting around a centre shape means:",
     "choices": [
       "Two-way traffic ahead",
@@ -1816,7 +1816,7 @@
   "id": "q-falling-rocks-80",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this warning sign indicate?",
   "choices": [
     "Rock slides or falling debris may be present ahead",
@@ -1838,7 +1838,7 @@
   "id": "q-hidden-intersection-81",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this warning sign indicate?",
   "choices": [
     "You are approaching a hidden intersection where vehicles may enter unexpectedly",
@@ -1860,7 +1860,7 @@
   "id": "q-novice-driver-n-82",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-general",
+  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "The vehicle is being operated by a novice driver",
@@ -1905,7 +1905,7 @@
     "id": "q-ped-crossing-84",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this sign while driving on a city street. What does it mean?",
     "choices": [
       "Pedestrian crossing ahead",
@@ -1945,7 +1945,7 @@
     "id": "q-bump-warning-86",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "This yellow sign appears before a section of road. What is it warning you about?",
     "choices": [
       "A bump or rise in the road surface",
@@ -1968,7 +1968,7 @@
     "id": "q-construction-ahead-87",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-temporary",
+    "category": "signs-regulatory",
     "question": "This orange sign appears on the side of the road. What should you expect?",
     "choices": [
       "Road work or construction zone ahead",
@@ -1991,7 +1991,7 @@
     "id": "q-deer-crossing-88",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this animal symbol sign on a rural highway. What does it warn you about?",
     "choices": [
       "Deer may be crossing the road in this area",
@@ -2632,7 +2632,7 @@
   "id": "q-traffic-lights-ahead-118",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign mean?",
   "choices": [
     "Traffic signal lights are ahead",
@@ -2700,7 +2700,7 @@
     "id": "q-divided-highway-ends-121",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "What does this sign tell you about the road ahead?",
     "choices": [
       "The divided highway is ending and opposing traffic will be closer",
@@ -2723,7 +2723,7 @@
     "id": "q-narrow-bridge-122",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this sign before a bridge. What should you expect?",
     "choices": [
       "A narrow bridge where the lanes or shoulders are reduced",
@@ -2746,7 +2746,7 @@
     "id": "q-road-narrows-123",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "This sign is posted before a section of roadway. What does it mean?",
     "choices": [
       "The road ahead becomes narrower",
@@ -2769,7 +2769,7 @@
     "id": "q-road-ends-124",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this sign as you approach the end of a street. What does it mean?",
     "choices": [
       "The road ends ahead; you must turn or stop",
@@ -2792,7 +2792,7 @@
     "id": "q-railway-approach-125",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this railway crossing sign ahead on a two-lane road with no gates. What should you do?",
     "choices": [
       "Slow down, look and listen for trains, and be prepared to stop if needed",
@@ -2815,7 +2815,7 @@
     "id": "q-road-closed-ahead-126",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-temporary",
+    "category": "signs-regulatory",
     "question": "This orange sign appears on a detour route. What does it tell you about the road ahead?",
     "choices": [
       "The road ahead will be completely closed to traffic",
@@ -2861,7 +2861,7 @@
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this roundabout sign ahead. What is the correct way to enter the roundabout?",
     "choices": [
       "Slow down, yield to traffic already in the roundabout, and enter when there is a safe gap",
@@ -2884,7 +2884,7 @@
   "id": "q-hand-signal-slow-stop-129",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-general",
+  "category": "signs-regulatory",
   "question": "What does this hand signal indicate from the driver?",
   "choices": [
     "The driver is slowing down or stopping",
@@ -3615,7 +3615,7 @@
     "id": "q-sharp-curve-left-speed-161",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this sharp left curve warning sign with an advisory speed plate under it. How should you drive?",
     "choices": [
       "Slow down to about the advisory speed and steer smoothly through the curve",
@@ -3638,7 +3638,7 @@
     "id": "q-sharp-curve-right-passing-162",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "As you approach this sharp right curve sign on a two-lane road, what is the safest approach to passing?",
     "choices": [
       "Do not pass other vehicles in or near the sharp curve",
@@ -3683,7 +3683,7 @@
   "id": "q-school-zone-164",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign warn drivers about?",
   "choices": [
     "School zone, slow down and watch for children crossing the road",
@@ -3750,7 +3750,7 @@
     "id": "q-traffic-signal-ahead-167",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this sign while driving on a high-speed road. What does it warn you about?",
     "choices": [
       "A traffic signal is coming up; be ready to slow down or stop",
@@ -3773,7 +3773,7 @@
     "id": "q-accessible-parking-168",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-information",
+    "category": "signs-regulatory",
     "question": "You see this sign in a parking lot. What does it mean?",
     "choices": [
       "The space is reserved for vehicles displaying an accessible parking permit",
@@ -4609,7 +4609,7 @@
     "id": "q-ped-crossing-waiting-205",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "You see this pedestrian crossing sign and a person waiting at the edge of the crosswalk. What should you do?",
     "choices": [
       "Slow down and be prepared to stop to let the pedestrian cross safely",
@@ -4632,7 +4632,7 @@
   "id": "q-two-way-traffic-ahead-206",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign warn drivers about?",
   "choices": [
     "Two-way traffic is ahead",
@@ -4654,7 +4654,7 @@
   "id": "q-truck-entrance-207",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "Trucks may be entering or leaving the roadway ahead",
@@ -4676,7 +4676,7 @@
     "id": "q-208",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "This triangular orange reflective sign is used on:",
     "choices": [
       "Vehicles that travel slowly, such as farm machinery",
@@ -5320,7 +5320,7 @@
     "id": "q-243",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "A sign showing the pavement higher than the gravel beside it warns of:",
     "choices": [
       "A low or soft shoulder",
@@ -5337,7 +5337,7 @@
     "id": "q-244",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "An orange diamond-shaped sign generally indicates:",
     "choices": [
       "Road work or construction ahead",
@@ -5410,7 +5410,7 @@
     "id": "q-248",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-warning",
+    "category": "signs-regulatory",
     "question": "A sign showing the right lane ending and an arrow bending into the left lane means:",
     "choices": [
       "Right-lane traffic must merge left",
@@ -5444,7 +5444,7 @@
   "id": "q-right-left-curve-ahead-250",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this warning sign indicate?",
   "choices": [
     "The road ahead curves first to the right and then to the left",
@@ -5602,7 +5602,7 @@
   "id": "q-stop-ahead-259",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign warn a driver of?",
   "choices": [
     "A stop sign is coming up ahead",
