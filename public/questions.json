@@ -2918,96 +2918,76 @@
   "image": "/signs/q-permitted-action.png"
 },
   {
-    "id": "q-rules-no-u-turn-131",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You miss your turn and see this NO U-TURN sign. How should you correct your route?",
-    "choices": [
-      "Continue to a place where U-turns or left turns are allowed and change direction there",
-      "Make a quick U-turn anyway if traffic is light",
-      "Reverse down the street to the missed turn",
-      "Stop in your lane and wait for directions"
-    ],
-    "correctIndex": 0,
-    "explanation": "Where a no-U-turn sign is posted, you must not make a U-turn and must wait for a legal place to change direction.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-u-turn.jpg",
-    "notes": "Safe way to recover from a missed turn."
-  },
-  {
-    "id": "q-rules-road-ends-warning-132",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You are driving at night and see this ROAD ENDS sign. What should you prepare to do?",
-    "choices": [
-      "Slow down and be ready to stop or turn where the road ends",
-      "Speed up to reach the end quickly",
-      "Turn off your headlights to see better",
-      "Drive straight ahead; the sign is only a suggestion"
-    ],
-    "correctIndex": 0,
-    "explanation": "A road-ends sign warns that the through road will end. You must slow down and prepare to stop or make the turn indicated.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-ends.jpg",
-    "notes": "Night driving with a road-ends warning."
-  },
-  {
-  "id": "q-reserved-lane-bicycles-133",
+  "id": "q-snowmobile-crossing-sign-131",
+  "brand": "Prep test G1",
+  "lang": "en",
+    "category": "signs-regulatory",
+  "question": "What does this sign warn drivers about?",
+  "choices": [
+    "A designated snowmobile parking area ahead",
+    "A road that is closed during winter months",
+    "Snowmobiles may cross the roadway ahead",
+    "A snowmobile-only route begins here"
+  ],
+  "correctIndex": 2,
+  "explanation": "This yellow diamond-shaped warning sign indicates a location where snowmobiles may cross the road. Drivers should slow down and be alert for snowmobile traffic.",
+  "sources": [],
+  "image": "/signs/snowmobile-parking.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-132",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "signs-regulatory",
-  "question": "What does this sign mean?",
+  "question": "What does this sign indicate?",
   "choices": [
-    "The lane ahead is reserved for bicycles",
-    "Bicycles are prohibited from the next lane",
-    "Only buses may use the lane",
-    "The lane is for emergency vehicles only"
+    "Only the right lane may continue straight",
+    "Right turns are prohibited from the right lane",
+    "Vehicles in the right lane must take the exit",
+    "The right lane is reserved for slow-moving vehicles"
   ],
-  "correctIndex": 0,
-  "explanation": "The bicycle symbol with a downward arrow shows that the lane directly ahead is restricted for bicycle use.",
-  "sources": [
-    {
-      "title": "Reserved Lane Symbols",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-reserved-lane-bicycles.png"
+  "correctIndex": 2,
+  "explanation": "This green guide sign informs drivers that traffic in the right lane is required to exit. Drivers who do not intend to exit should move to another lane in advance.",
+  "sources": [],
+  "image": "/signs/right-lane-must-exit.png"
 },
-  {
-    "id": "q-rules-narrow-bridge-meeting-134",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Before a narrow bridge you see this sign and an oncoming vehicle. What is the safest approach?",
-    "choices": [
-      "Slow down, keep right, and be prepared to pass the oncoming vehicle carefully on the bridge",
-      "Speed up to get onto the bridge first",
-      "Drive down the centre of the bridge",
-      "Stop suddenly at the entrance and block the lane"
-    ],
-    "correctIndex": 0,
-    "explanation": "Narrow-bridge signs warn that there is limited roadway. Reduce speed, stay in your lane and pass opposing traffic carefully.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/narrow-bridge.jpg",
-    "notes": "Meeting traffic at a narrow bridge."
-  },
+
+{
+  "id": "q-hand-signal-right-turn-133",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this hand signal indicate when a driver's left arm is bent upward at a 90-degree angle?",
+  "choices": [
+    "The driver is slowing down or stopping",
+    "The driver intends to turn right",
+    "The driver intends to turn left",
+    "The driver is warning of a vehicle breakdown"
+  ],
+  "correctIndex": 1,
+  "explanation": "When a driver's left arm is bent upward at a 90-degree angle with the hand pointing upward, it indicates an intention to turn right. This hand signal is commonly used when vehicle turn signals are not functioning or are difficult to see.",
+  "sources": [],
+  "image": "/signs/hand-signal-right-turn.png"
+},
+
+{
+  "id": "q-warning-steep-hill-trucks-134",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this road sign warn drivers about?",
+  "choices": [
+    "A truck inspection station ahead",
+    "A steep downhill grade ahead, especially dangerous for trucks",
+    "A construction zone requiring trucks to stop",
+    "A designated truck parking area ahead"
+  ],
+  "correctIndex": 1,
+  "explanation": "This warning sign indicates a steep downhill grade ahead. It alerts drivers—particularly those operating large or heavy vehicles like trucks—to reduce speed and use caution, as descending slopes can increase stopping distance and risk of brake failure.",
+  "sources": [],
+  "image": "/signs/steep-hill.png"
+},
+
   {
   "id": "q-keep-right-except-to-pass-135",
   "brand": "Prep test G1",
@@ -3031,120 +3011,93 @@
   "image": "/signs/q-keep-right-except-to-pass.png"
 },
   {
-    "id": "q-rules-divided-highway-ends-136",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "On a highway separated by a median you see this DIVIDED HIGHWAY ENDS sign. What should you expect ahead?",
-    "choices": [
-      "Opposing traffic will no longer be separated by a median and may be closer to you",
-      "The highway is changing into a parking lot",
-      "The speed limit is automatically doubled",
-      "Only trucks may continue on the road"
-    ],
-    "correctIndex": 0,
-    "explanation": "When the divided highway ends, opposing traffic will again be nearby on the same roadway. Be alert and adjust your driving as needed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-ends.jpg",
-    "notes": "Transition from divided to undivided highway."
-  },
-  {
-    "id": "q-rules-roundabout-exit-signal-137",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You see this roundabout sign and enter to go straight through. When should you signal?",
-    "choices": [
-      "Signal right just before you reach your exit from the roundabout",
-      "Signal left for the entire time you are in the roundabout",
-      "Never signal in a roundabout",
-      "Signal hazard lights while driving through"
-    ],
-    "correctIndex": 0,
-    "explanation": "In a roundabout you signal right just before your exit to show other drivers and pedestrians that you are leaving the circle.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts (Using turn signals)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/roundabout-sign.jpg",
-    "notes": "Roundabout signalling rule."
-  },
-  {
-    "id": "q-safe-attitude-138",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "According to the Official MTO Driver’s Handbook, what is the most important foundation of safe and responsible driving?",
-    "choices": [
-      "A positive attitude that focuses on safety and sharing the road",
-      "Owning the newest and most powerful vehicle",
-      "Driving as fast as traffic will allow",
-      "Relying on other drivers to avoid collisions"
-    ],
-    "correctIndex": 0,
-    "explanation": "The handbook emphasizes that safe driving is not just about skills, but also about your attitude: being courteous, patient and focused on safety for everyone on the road.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (attitude and behaviour)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-safe-attitude-161.png",
-    "notes": "Original attitude-focused question inspired by the Safe and Responsible Driving section."
-  },
-  {
-    "id": "q-following-distance-139",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "In good driving conditions on a dry road, what is the recommended minimum following distance behind the vehicle in front of you?",
-    "choices": [
-      "At least a two-second gap",
-      "Half a second, to react quickly",
-      "No more than one car length",
-      "Only enough space so another car cannot fit in"
-    ],
-    "correctIndex": 0,
-    "explanation": "The handbook describes the two-second rule as a simple way to check you have enough space to react to sudden stops on dry, clear roads. More space is needed in bad conditions.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe following distance (two-second rule)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-following-distance-162.png",
-    "notes": "New question on the two-second following-distance guideline."
-  },
-  {
-    "id": "q-scanning-hazards-140",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "To spot hazards early, how should you scan the road while driving in city traffic?",
-    "choices": [
-      "Keep your eyes moving, checking far ahead, around and in your mirrors regularly",
-      "Stare only at the vehicle directly in front of you",
-      "Look straight down at the road just beyond your hood",
-      "Check your mirrors once at the start of the trip"
-    ],
-    "correctIndex": 0,
-    "explanation": "Safe drivers constantly scan: they look well ahead, side-to-side, and check mirrors often. This helps them see hazards early and react in time.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (scanning for hazards)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-scanning-hazards-163.png",
-    "notes": "Original scanning/observation technique question."
-  },
+  "id": "q-warning-hidden-intersection-136",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this road sign indicate to drivers?",
+  "choices": [
+    "A hidden driveway on the right",
+    "A hidden intersection ahead with a side road joining from the right",
+    "A one-way road with a concealed exit",
+    "A right turn only at the next intersection"
+  ],
+  "correctIndex": 1,
+  "explanation": "This warning sign indicates a hidden intersection ahead where a side road joins from the right. The supplemental 'HIDDEN' tab warns drivers that the side road may be difficult to see due to hills, curves, trees, or other obstructions, so extra caution is required.",
+  "sources": [],
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-regulatory-no-parking-accessible-permit-137",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Parking is not allowed at any time for any vehicle",
+    "Parking is reserved for emergency vehicles only",
+    "Parking is prohibited except for vehicles displaying a valid accessible parking permit",
+    "This area is a passenger loading zone only"
+  ],
+  "correctIndex": 2,
+  "explanation": "This regulatory sign means parking is not permitted for the general public. Only vehicles displaying a valid accessible (disabled) parking permit are allowed to park in this space. Unauthorized vehicles may be fined or towed.",
+  "sources": [],
+  "image": "/signs/handicapped-parking-sign.png"
+},
+
+{
+  "id": "q-regulatory-no-straight-ahead-138",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this traffic sign mean?",
+  "choices": [
+    "You must proceed straight through the intersection",
+    "No right turn allowed",
+    "Going straight ahead is prohibited",
+    "This lane is for through traffic only"
+  ],
+  "correctIndex": 2,
+  "explanation": "This regulatory sign indicates that drivers are not allowed to continue straight through the intersection. Vehicles must turn left or right, as permitted by other signs or signals.",
+  "sources": [],
+  "image": "/signs/no-straight-ahead.png"
+},
+
+{
+  "id": "q-regulatory-no-right-turn-on-red-139",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this traffic sign mean?",
+  "choices": [
+    "Right turns are not allowed at any time",
+    "You may turn right only when the light is red",
+    "Right turns are prohibited when the traffic signal is red",
+    "You must stop and then turn right on red"
+  ],
+  "correctIndex": 2,
+  "explanation": "This regulatory sign indicates that drivers are not permitted to make a right turn when the traffic light is red. Drivers must wait for a green signal before turning right, even if the way appears clear.",
+  "sources": [],
+  "image": "/signs/no-right-turn-on-red.png"
+},
+{
+  "id": "q-regulatory-no-left-turn-on-red-140",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this traffic sign mean?",
+  "choices": [
+    "Left turns are not allowed at any time",
+    "You may turn left only when the light is red",
+    "Left turns are prohibited when the traffic signal is red",
+    "You must stop and then turn left on red"
+  ],
+  "correctIndex": 2,
+  "explanation": "This regulatory sign indicates that drivers are not permitted to make a left turn when the traffic light is red. Drivers must wait until the signal turns green before making a left turn, even if the intersection appears clear.",
+  "sources": [],
+  "image": "/signs/ no-left-turn-on-red.png"
+},
+
   {
     "id": "q-night-driving-speed-141",
     "brand": "Prep test G1",
@@ -3467,28 +3420,23 @@
     "image": "/signs/q-winter-driving-distance-177.png"
   },
   {
-    "id": "q-black-ice-bridges-155",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "On a near-freezing day, why should you be especially cautious on bridges and overpasses?",
-    "choices": [
-      "They can freeze and become icy before the rest of the road",
-      "They are always perfectly dry",
-      "They are heated and never freeze",
-      "They have extra traction compared to other roads"
-    ],
-    "correctIndex": 0,
-    "explanation": "Bridges and overpasses lose heat more quickly and can develop black ice even when nearby roads look clear.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Winter driving (black ice)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/winter-driving"
-      }
-    ],
-    "image": "/signs/q-black-ice-bridges-178.png",
-    "notes": "Explains black ice hazard on bridges."
-  },
+  "id": "q-demerit-rail-crossing-bus-driver-155",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Failing to stop at an unprotected railway crossing (bus drivers only) results in how many demerit points?",
+  "choices": [
+    "3 demerit points",
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "For bus drivers, failing to stop at an unprotected railway crossing results in 5 demerit points.",
+  "sources": [],
+  "image": "/signs/q-railway-stop-47.png"
+},
+
   {
     "id": "q-hydroplaning-156",
     "brand": "Prep test G1",
