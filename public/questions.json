@@ -4530,22 +4530,23 @@
     "notes": "Different from the no-entry question; focuses on wrong-way one-way situations."
   },
   {
-  "id": "q-school-bus-204",
+  "id": "q-bump-warning-204",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerit-points",
-  "question": "How many demerit points result from failing to stop for a school bus with flashing red lights?",
+  "category": "signs-warning",
+  "question": "What should drivers expect ahead?",
   "choices": [
-    "2 demerit points",
-    "4 demerit points",
-    "5 demerit points",
-    "6 demerit points"
+    "A bump in the roadway",
+    "A sharp curve",
+    "A stop sign",
+    "A pedestrian crossing"
   ],
-  "correctIndex": 3,
-  "explanation": "Failing to stop for a school bus is a 6-point offence.",
+  "correctIndex": 0,
+  "explanation": "Drivers should reduce speed to maintain control over uneven pavement.",
   "sources": [],
-  "image": "/signs/q-school-bus-204.png"
+  "image": "/signs/bump-sign.jpg"
 },
+
   {
     "id": "q-ped-crossing-waiting-205",
     "brand": "Prep test G1",
@@ -4631,28 +4632,23 @@
     "image": "/signs/q-217-triangular-sign.png"
   },
   {
-    "id": "q-move-over-law-209",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You are driving on a multi-lane highway and see a police car stopped on the shoulder ahead with its red and blue lights flashing. What must you do?",
-    "choices": [
-      "Slow down and move to a lane farther away if it is safe, or slow down and pass cautiously if you cannot change lanes",
-      "Maintain your speed but turn on your four-way flashers",
-      "Speed up to pass the emergency vehicle quickly so you are not in the danger area",
-      "Move into the lane next to the emergency vehicle to give it a clear shoulder"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ontario’s move-over rules require drivers to slow down and, if possible, move into another lane away from a stopped emergency vehicle with flashing lights. If you cannot safely change lanes, you must still reduce speed and pass with great caution.",
-    "sources": [
-      {
-        "title": "Driving near emergency vehicles – Move over safely",
-        "url": "https://www.ontario.ca/page/driving-near-emergency-vehicles"
-      }
-    ],
-    "image": "/signs/q-212-highway-police.jpg",
-    "notes": "Covers the basic 'move over' requirement for emergency vehicles."
-  },
+  "id": "q-bike-lane-209",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "A lane reserved for bicycles",
+    "Bicycles are prohibited",
+    "Motorcycles only",
+    "Pedestrians only"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign marks a designated lane for bicycle traffic.",
+  "sources": [],
+  "image": "/signs/bike-lane.jpg"
+},
+
   {
     "id": "q-lane-control-signals-210",
     "brand": "Prep test G1",
@@ -4681,191 +4677,176 @@
     "notes": "Explains red X vs green arrow lane-use signals."
   },
   {
-    "id": "q-uncontrolled-intersection-211",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You are approaching a rural side road intersection with no traffic lights or signs. What is the safest way to proceed?",
-    "choices": [
-      "Slow down, be ready to stop, and yield to traffic already in the intersection or approaching from your right",
-      "Maintain your speed because there are no stop or yield signs",
-      "Use your horn and drive through quickly so you are not in the intersection for long",
-      "Stop only if you see headlights from another vehicle"
-    ],
-    "correctIndex": 0,
-    "explanation": "At an uncontrolled intersection you must approach cautiously, be prepared to stop, and yield to traffic already in the intersection. If two vehicles arrive at about the same time, the driver on the left must yield to the driver on the right.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook – Driving through intersections",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-      }
-    ],
-    "image": "/signs/q-214-rural-intersection.jpg",
-    "notes": "Covers right-of-way at uncontrolled intersections."
-  },
-  {
-    "id": "q-funeral-procession-212",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You are waiting at a green light when a line of vehicles in a clearly marked funeral procession is still moving through the intersection. What should you do?",
-    "choices": [
-      "Stay stopped and allow the entire procession to clear the intersection before you proceed",
-      "Drive into the gap between two vehicles in the procession so you don’t wait too long",
-      "Sound your horn to remind them that your light is green",
-      "Turn right on red to get around the procession"
-    ],
-    "correctIndex": 0,
-    "explanation": "Funeral processions are given the right-of-way so they can remain together. Other drivers should be patient and allow the full procession to clear the intersection instead of cutting through or interrupting it.",
-    "sources": [
-      {
-        "title": "Sharing the road and special vehicles – funeral processions",
-        "url": "https://www.funeralwise.com/funeral-arrangements/funeral-processions/"
-      },
-      {
-        "title": "Driving etiquette around funeral processions (right-of-way and courtesy)",
-        "url": "https://legalclarity.org/does-a-funeral-procession-have-the-right-of-way/"
-      }
-    ],
-    "image": "/signs/q-215-funeral-procession.png",
-    "notes": "Courtesy and right-of-way around funeral processions."
-  },
-  {
-    "id": "q-213",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Before changing lanes on a multi-lane road, what is the final check you must always perform?",
-    "choices": [
-      "Check your blind spot by turning your head quickly",
-      "Only rely on your mirrors",
-      "Honk to alert other drivers",
-      "Speed up quickly to merge faster"
-    ],
-    "correctIndex": 0,
-    "explanation": "Mirrors do not show your blind spot. A shoulder check ensures no vehicle or cyclist is beside you.",
-    "sources": [],
-    "image": "/signs/q-216-blind-spot - Copy.png"
-  },
-  {
-    "id": "q-214",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When an emergency vehicle approaches with lights and siren activated, you must:",
-    "choices": [
-      "Move to the nearest curb and stop",
-      "Speed up to stay ahead",
-      "Continue driving at the limit",
-      "Stop immediately in your lane"
-    ],
-    "correctIndex": 0,
-    "explanation": "Drivers must pull to the right and stop until the emergency vehicle passes.",
-    "sources": [],
-    "image": "/signs/q-219-emergency-vehicle.jpg"
-  },
-  {
-    "id": "q-215",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
-    "question": "Speeding excessively through a school zone may result in:",
-    "choices": [
-      "Higher fines and demerit points",
-      "No penalty if it’s after school hours",
-      "A written warning only",
-      "Only a small fine with no points"
-    ],
-    "correctIndex": 0,
-    "explanation": "School zones carry increased penalties due to vulnerable pedestrians.",
-    "sources": [],
-    "image": "/signs/q-school-zone-speed-48.png"
-  },
-  {
-    "id": "q-216",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "What headlights should you use when driving in heavy fog?",
-    "choices": [
-      "Low-beam headlights",
-      "High-beam headlights",
-      "Parking lights only",
-      "No lights at all"
-    ],
-    "correctIndex": 0,
-    "explanation": "High beams reflect back in fog and reduce visibility. Low beams are safest.",
-    "sources": [],
-    "image": "/signs/q-221-headlights.jpg"
-  },
-  {
-    "id": "q-217",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When approaching a roundabout, you must:",
-    "choices": [
-      "Yield to traffic already in the roundabout",
-      "Enter quickly to grab a gap",
-      "Stop completely before entering",
-      "Signal left as you enter"
-    ],
-    "correctIndex": 0,
-    "explanation": "Vehicles inside the roundabout have the right-of-way. Enter when safe.",
-    "sources": [],
-    "image": "/signs/q-222-roundabout.jpg"
-  },
-  {
-    "id": "q-218",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Which situation requires a longer stopping distance?",
-    "choices": [
-      "Wet or icy pavement",
-      "Warm dry pavement",
-      "Light traffic",
-      "Daytime driving only"
-    ],
-    "correctIndex": 0,
-    "explanation": "Reduced traction on wet or icy surfaces increases braking distance.",
-    "sources": [],
-    "image": "/signs/q-winter-driving-distance-177.png"
-  },
-  {
-    "id": "q-219",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Hydroplaning occurs when:",
-    "choices": [
-      "Your tires ride on top of water and lose road contact",
-      "You brake suddenly on dry pavement",
-      "Your car overheats in traffic",
-      "Your wipers stop working"
-    ],
-    "correctIndex": 0,
-    "explanation": "Hydroplaning causes a loss of steering and braking control.",
-    "sources": [],
-    "image": "/signs/q-225-hydroplaning.png"
-  },
-  {
-    "id": "q-220",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When merging onto a freeway, you should:",
-    "choices": [
-      "Match the speed of traffic in the right lane",
-      "Stop at the end of the ramp",
-      "Enter at any speed",
-      "Drive on the shoulder"
-    ],
-    "correctIndex": 0,
-    "explanation": "Accelerating to match traffic allows for a smooth merge.",
-    "sources": [],
-    "image": "/signs/q-226-freeway-entrance.png"
-  },
+  "id": "q-bumps-ahead-211",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "How should drivers react to this sign?",
+  "choices": [
+    "Slow down for multiple bumps",
+    "Change lanes immediately",
+    "Stop completely",
+    "Sound the horn"
+  ],
+  "correctIndex": 0,
+  "explanation": "Multiple bumps ahead require drivers to slow down.",
+  "sources": [],
+  "image": "/signs/bumps-ahead.png"
+},
+{
+  "id": "q-construction-ahead-212",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign warn drivers about?",
+  "choices": [
+    "Construction ahead",
+    "Road closed",
+    "Railway crossing",
+    "School zone"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers should expect workers, equipment, or lane changes.",
+  "sources": [],
+  "image": "/signs/construction-ahead.jpg"
+},
+{
+  "id": "q-deer-crossing-213",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What hazard is shown by this sign?",
+  "choices": [
+    "Wild animals crossing",
+    "Farm vehicles",
+    "Zoo entrance",
+    "Park area"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers should be alert for animals entering the roadway.",
+  "sources": [],
+  "image": "/signs/deer-crossing.jpg"
+},
+{
+  "id": "q-divided-highway-begins-214",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "A divided highway begins",
+    "Two-way traffic ends",
+    "Passing allowed",
+    "Lane ends"
+  ],
+  "correctIndex": 0,
+  "explanation": "Traffic will be separated by a median ahead.",
+  "sources": [],
+  "image": "/signs/divided-highway-begins.jpg"
+},
+{
+  "id": "q-divided-highway-ends-215",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What change should drivers expect?",
+  "choices": [
+    "Oncoming traffic will no longer be separated",
+    "Road narrows",
+    "Speed limit decreases",
+    "Lane ends"
+  ],
+  "correctIndex": 0,
+  "explanation": "Opposing traffic will share the roadway.",
+  "sources": [],
+  "image": "/signs/divided-highway-ends.jpg"
+},
+{
+  "id": "q-do-not-enter-216",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign mean?",
+  "choices": [
+    "Vehicles must not enter",
+    "Stop completely",
+    "Yield to traffic",
+    "No parking"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign prevents vehicles from entering restricted roadways.",
+  "sources": [],
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-hand-signal-right-217",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this hand signal show?",
+  "choices": [
+    "The driver intends to turn right",
+    "The driver is slowing down",
+    "The driver is stopping",
+    "The driver is turning left"
+  ],
+  "correctIndex": 0,
+  "explanation": "An upward bent arm signals a right turn.",
+  "sources": [],
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-accessible-parking-218",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Who may park here?",
+  "choices": [
+    "Vehicles with a valid accessible permit",
+    "Any vehicle after hours",
+    "Delivery vehicles",
+    "Motorcycles"
+  ],
+  "correctIndex": 0,
+  "explanation": "Accessible parking spaces are reserved for permit holders.",
+  "sources": [],
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-hidden-intersection-219",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign warn drivers about?",
+  "choices": [
+    "A hidden intersection ahead",
+    "Traffic lights ahead",
+    "Pedestrian crossing",
+    "Road closure"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cross traffic may not be visible until close.",
+  "sources": [],
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-max-speed-40-220",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Maximum speed is 40 km/h",
+    "Minimum speed is 40 km/h",
+    "Recommended speed",
+    "Speed zone ends"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers must not exceed the posted speed limit.",
+  "sources": [],
+  "image": "/signs/max-speed-40.png"
+},
+
   {
     "id": "q-221",
     "brand": "Prep test G1",
