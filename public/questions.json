@@ -206,8 +206,262 @@
     "image": "/signs/q-sign-winding-road-78.png",
     "notes": "Original winding-road sign question."
   },
+
   {
-    "id": "q-stop-complete-10",
+  "id": "q-swing-bridge-ahead-10",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What should drivers be prepared for ahead?",
+  "choices": [
+    "A bridge that may open to allow boats through",
+    "A permanently closed bridge",
+    "A ferry crossing",
+    "Road construction"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign warns that a movable bridge may open, requiring vehicles to stop and wait.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What environmental rule is enforced here?",
+  "choices": [
+    "Engines must not idle longer than 3 minutes",
+    "Engines must remain on",
+    "Idling is allowed only in winter",
+    "Diesel vehicles are exempt"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign limits engine idling time to reduce emissions and pollution.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What destination does this sign point to?",
+  "choices": [
+    "An airport access route",
+    "A ferry terminal",
+    "A military base",
+    "A train station"
+  ],
+  "correctIndex": 0,
+  "explanation": "The airplane icon directs drivers toward airport facilities.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What information does this symbol provide to other drivers?",
+  "choices": [
+    "The driver is new or inexperienced",
+    "The vehicle is slow-moving",
+    "The car is used for instruction only",
+    "The vehicle is under repair"
+  ],
+  "correctIndex": 0,
+  "explanation": "The 'N' symbol identifies a novice driver and encourages patience from others.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What intention is shown by this hand signal?",
+  "choices": [
+    "A left turn",
+    "A right turn",
+    "Stopping",
+    "Yielding"
+  ],
+  "correctIndex": 0,
+  "explanation": "An arm extended straight out signals the driver's intention to turn left.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What movement must drivers make?",
+  "choices": [
+    "Turn right",
+    "Proceed straight",
+    "Turn left",
+    "Make a U-turn"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign requires all vehicles to turn right at the indicated location.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
+
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What should drivers do when approaching this marker?",
+  "choices": [
+    "Steer away from the obstruction",
+    "Prepare to stop immediately",
+    "Turn left only",
+    "Reduce speed for a curve"
+  ],
+  "correctIndex": 0,
+  "explanation": "Diagonal markings highlight a fixed hazard near the roadway edge.",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Which vehicles are allowed in this lane?",
+  "choices": [
+    "Buses and vehicles carrying two or more people",
+    "All passenger vehicles",
+    "Motorcycles only",
+    "Commercial trucks"
+  ],
+  "correctIndex": 0,
+  "explanation": "The diamond symbol marks an HOV lane reserved for higher-occupancy vehicles and buses.",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "When must drivers obey the posted 40 km/h limit?",
+  "choices": [
+    "When the amber lights are flashing",
+    "At all times of day",
+    "Only during winter months",
+    "Only for school buses"
+  ],
+  "correctIndex": 0,
+  "explanation": "Flashing lights activate the reduced speed limit to improve safety near schools.",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What rule applies from this point forward?",
+  "choices": [
+    "Drivers must not pass until beyond the crossing",
+    "Passing is allowed only for buses",
+    "Vehicles must stop immediately",
+    "Cyclists may overtake traffic"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign enforces a no-passing zone approaching a marked crossing.",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What limitation does this sign communicate?",
+  "choices": [
+    "Vehicles over 3.9 metres tall cannot proceed",
+    "The road narrows to 3.9 metres",
+    "Only wide loads are permitted",
+    "The bridge supports heavy vehicles only"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers of tall vehicles must not enter if their height exceeds the posted clearance.",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
+
+  {
+    "id": "q-stop-complete-21",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -230,7 +484,7 @@
     "notes": "Original question authored for this app. We do not copy third-party practice tests."
   },
   {
-    "id": "q-school-bus-20m-11",
+    "id": "q-school-bus-20m-22",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -253,7 +507,7 @@
     "notes": "Original question; do not copy third-party practice tests."
   },
   {
-    "id": "q-4way-stop-yield-right-12",
+    "id": "q-4way-stop-yield-right-23",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -276,7 +530,7 @@
     "notes": "Original question aligned to the handbook rule."
   },
   {
-    "id": "q-right-turn-on-red-13",
+    "id": "q-right-turn-on-red-24",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -299,7 +553,7 @@
     "notes": "Original wording; mirrors handbook guidance."
   },
   {
-    "id": "q-headlights-when-14",
+    "id": "q-headlights-when-25",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -322,7 +576,7 @@
     "notes": "Original wording; aligns to lighting requirement."
   },
   {
-    "id": "q-school-crossing-guard-15",
+    "id": "q-school-crossing-guard-26",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -349,7 +603,7 @@
     "notes": "Original question; summarizes the rule for school crossings."
   },
   {
-    "id": "q-two-second-rule-16",
+    "id": "q-two-second-rule-27",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -372,7 +626,7 @@
     "notes": "Original question; aligns to handbook guidance."
   },
   {
-    "id": "q-yield-be-prepared-to-stop-17",
+    "id": "q-yield-be-prepared-to-stop-28",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -395,7 +649,7 @@
     "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
   },
   {
-    "id": "q-roundabout-yield-18",
+    "id": "q-roundabout-yield-29",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -418,7 +672,7 @@
     "notes": "Original question aligned to the roundabout entry/yield rules."
   },
   {
-    "id": "q-divided-road-bus-19",
+    "id": "q-divided-road-bus-30",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -441,7 +695,7 @@
     "notes": "Original question; complements the earlier school-bus scenario."
   },
   {
-    "id": "q-pxo-wait-clear-20",
+    "id": "q-pxo-wait-clear-31",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -464,7 +718,7 @@
     "notes": "Original question aligned to PXO rules."
   },
   {
-    "id": "q-roundabout-keep-right-21",
+    "id": "q-roundabout-keep-right-32",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -487,7 +741,7 @@
     "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
   },
   {
-  "id": "q-stop-obey-22",
+  "id": "q-stop-obey-33",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "demerit-points",
@@ -504,7 +758,7 @@
   "image": "/signs/q-stop-obey-22.png"
 },
   {
-    "id": "q-seatbelt-23",
+    "id": "q-seatbelt-34",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -527,7 +781,7 @@
     "notes": "Original question created for Prep Test G1."
   },
   {
-    "id": "q-left-lane-passing-24",
+    "id": "q-left-lane-passing-35",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -550,7 +804,7 @@
     "notes": "Original wording by Prep Test G1."
   },
   {
-    "id": "q-icy-bridge-25",
+    "id": "q-icy-bridge-36",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -573,7 +827,7 @@
     "notes": "Original winter-safety question."
   },
   {
-    "id": "q-hydroplane-26",
+    "id": "q-hydroplane-37",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -596,7 +850,7 @@
     "notes": "Original safety question."
   },
   {
-    "id": "q-turn-signal-27",
+    "id": "q-turn-signal-38",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -619,7 +873,7 @@
     "notes": "Original question; reinforces signaling distance."
   },
   {
-    "id": "q-horn-use-28",
+    "id": "q-horn-use-39",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -642,7 +896,7 @@
     "notes": "Original question; polite road communication."
   },
   {
-    "id": "q-roadwork-flag-29",
+    "id": "q-roadwork-flag-40",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -664,258 +918,7 @@
     "image": "/signs/q-27-person-directing-traffic.png",
     "notes": "Original work-zone question."
   },
-  {
-    "id": "q-alcohol-30",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "If a driver under 21 has any alcohol in their system while driving, they:",
-    "choices": [
-      "May receive only a warning",
-      "Are subject to zero tolerance and licence suspension",
-      "May continue if accompanied by an adult",
-      "Are exempt on weekends"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ontario has a zero BAC requirement for drivers under 21 and for novice drivers (G1/G2).",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Impaired driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
-      }
-    ],
-    "image": "/signs/q-28-impaired-driver.png",
-    "notes": "Original question; zero tolerance policy."
-  },
-  {
-    "id": "q-fatigue-31",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "You feel drowsy while driving at night. What should you do?",
-    "choices": [
-      "Open the window and turn up music",
-      "Pull over safely and rest",
-      "Drive faster to finish sooner",
-      "Drink coffee and keep going"
-    ],
-    "correctIndex": 1,
-    "explanation": "If you’re sleepy, stop in a safe place and rest. Fatigue is dangerous.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Fatigue and safe driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/fatigue"
-      }
-    ],
-    "image": "/signs/q-29-driver-tired.png",
-    "notes": "Original question; rest and alertness."
-  },
-  {
-    "id": "q-fog-32",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When driving in dense fog, you should:",
-    "choices": [
-      "Use high-beam headlights",
-      "Use low-beam headlights and reduce speed",
-      "Turn off lights completely",
-      "Drive close to centre line for guidance"
-    ],
-    "correctIndex": 1,
-    "explanation": "Use low beams in fog and slow down; high beams reflect back and reduce visibility.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Fog)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-30-fog.png",
-    "notes": "Original fog-safety question."
-  },
-  {
-    "id": "q-child-seat-33",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Children under 9 kg (20 lb) must be secured in:",
-    "choices": [
-      "A booster seat",
-      "A rear-facing child car seat",
-      "A seat belt only",
-      "A front passenger seat with airbag on"
-    ],
-    "correctIndex": 1,
-    "explanation": "Infants under 9 kg (20 lb) must travel in a rear-facing child car seat.",
-    "sources": [
-      {
-        "title": "Ontario — Child car seats",
-        "url": "https://www.ontario.ca/page/child-car-seats"
-      }
-    ],
-    "image": "/signs/q-31-child-seat.png",
-    "notes": "Original child-seat question."
-  },
-  {
-    "id": "q-hand-signals-34",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "If your turn signals fail, how can you signal a right turn by hand?",
-    "choices": [
-      "Left arm straight out",
-      "Left arm out and bent up at the elbow",
-      "Left arm out and bent down",
-      "Wave your hand in a circle"
-    ],
-    "correctIndex": 1,
-    "explanation": "Left arm out and bent up at 90° means a right turn by hand signal.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Signalling",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/signalling"
-      }
-    ],
-    "image": "/signs/q-35-left-hand-up-signal.png",
-    "notes": "Original hand-signal question."
-  },
-  {
-    "id": "q-blindspot-35",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Before changing lanes, you should:",
-    "choices": [
-      "Signal and immediately move over",
-      "Check mirrors and blind spots by looking over your shoulder",
-      "Rely only on your mirrors",
-      "Sound your horn"
-    ],
-    "correctIndex": 1,
-    "explanation": "Always check mirrors and blind spots by shoulder check before changing lanes.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Changing Lanes",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-33-blind-spot.png",
-    "notes": "Original blind-spot question."
-  },
-  {
-    "id": "q-crosswalk-36",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "At an intersection with no marked crosswalk, where should pedestrians cross?",
-    "choices": [
-      "Anywhere they wish",
-      "In line with sidewalks on either side",
-      "Halfway across the intersection",
-      "At a diagonal angle"
-    ],
-    "correctIndex": 1,
-    "explanation": "Pedestrians cross in a straight line between sidewalks even if no lines are painted.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Pedestrian Safety",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
-      }
-    ],
-    "image": "/signs/q-34-intersection-without-crosswalk.png",
-    "notes": "Original pedestrian question."
-  },
-  {
-    "id": "q-motorcycle-distance-37",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When following a motorcycle, you should:",
-    "choices": [
-      "Follow closely to see better",
-      "Maintain at least a 2-second distance or more",
-      "Use your high beams to be seen",
-      "Pass immediately"
-    ],
-    "correctIndex": 1,
-    "explanation": "Allow extra space when following motorcycles; they can stop and maneuver quickly.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the Road (Motorcycles)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-35-car-motocycle.png",
-    "notes": "Original distance question."
-  },
-  {
-  "id": "q-careless-driving-38",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "How many demerit points are given for careless driving?",
-  "choices": [
-    "3 demerit points",
-    "4 demerit points",
-    "5 demerit points",
-    "6 demerit points"
-  ],
-  "correctIndex": 3,
-  "explanation": "Careless driving carries 6 demerit points.",
-  "image": "/signs/q-careless-driving-38.png"
-},
-
-  {
-    "id": "q-demerit-school-bus-39",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
-    "question": "You pass this school bus while its red lights are flashing and stop arm is out. If convicted, how many demerit points do you receive in Ontario?",
-    "choices": [
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points",
-      "7 demerit points"
-    ],
-    "correctIndex": 2,
-    "explanation": "Failing to stop for a school bus with flashing red lights carries 6 demerit points plus a large fine, even for a first offence.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (failing to stop for school bus)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      },
-      {
-        "title": "Ontario — Stopping for school buses",
-        "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-truck-handbook/stopping-school-buses"
-      }
-    ],
-    "image": "/signs/school-bus-red-lights.jpg",
-    "notes": "School-bus offence with explicit 6-point penalty."
-  },
-  {
-    "id": "q-demerit-stop-sign-40",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
-    "question": "You roll through this STOP sign without fully stopping and are convicted. How many demerit points are added?",
-    "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points"
-    ],
-    "correctIndex": 1,
-    "explanation": "Failing to obey a stop sign in Ontario results in 3 demerit points on your record.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (failing to obey a stop sign)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/stop-sign.jpg",
-    "notes": "Stop-sign offence with specific points."
-  },
-  {
+  
     "id": "q-sign-narrow-bridge-41",
     "brand": "Prep test G1",
     "lang": "en",
