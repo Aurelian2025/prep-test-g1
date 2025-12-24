@@ -1893,22 +1893,28 @@
     "notes": "Original pedestrian-crossing question using your sign artwork."
   },
   {
-  "id": "q-racing-stunt-85",
+  "id": "q-no-stopping-between-arrows-85",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "demerit-points",
-  "question": "How many demerit points are assigned for racing or stunt driving?",
+  "category": "signs-regulatory",
+  "question": "How should drivers respond to this sign?",
   "choices": [
-    "2 demerit points",
-    "4 demerit points",
-    "5 demerit points",
-    "6 demerit points"
+    "Vehicles may stop briefly for passengers",
+    "Drivers must not stop anywhere between the arrows shown",
+    "Parking is allowed during off-peak hours",
+    "Stopping is allowed for deliveries only"
   ],
-  "correctIndex": 3,
-  "explanation": "Racing/stunt driving results in 6 demerit points.",
-  "sources": [],
-  "image": "/signs/q-demerit-stunt-134.png"
+  "correctIndex": 1,
+  "explanation": "The symbol indicates that stopping is completely forbidden along the section of road marked by the arrows.",
+  "sources": [
+    {
+      "title": "Regulatory Road Signs — MTO Handbook",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-no-stopping-between-arrows.png"
 },
+
   {
     "id": "q-bump-warning-86",
     "brand": "Prep test G1",
@@ -2001,258 +2007,252 @@
   "image": "/signs/q-two-way-left-turn-lane.png"
 },
   {
-    "id": "q-tailgater-90",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "A vehicle is following you too closely (tailgating). What is a safe response?",
-    "choices": [
-      "Brake suddenly to warn them",
-      "Speed up to get away",
-      "Gradually slow down and increase your space in front, then change lanes when safe to let them pass",
-      "Ignore them completely"
-    ],
-    "correctIndex": 2,
-    "explanation": "Don’t brake suddenly. Increase your following distance ahead and, when safe, move to another lane or allow the tailgater to pass.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Space management)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-tailgater-65.png",
-    "notes": "Original tailgating response question."
-  },
-  {
-    "id": "q-road-rage-91",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "If another driver behaves aggressively or with road rage, you should:",
-    "choices": [
-      "React the same way to defend yourself",
-      "Make eye contact and gesture back",
-      "Stay calm, avoid eye contact, and give them space",
-      "Follow them to confront them"
-    ],
-    "correctIndex": 2,
-    "explanation": "Stay calm, avoid escalating, and give aggressive drivers space. Do not engage or retaliate.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Attitude)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-road-rage-66.png",
-    "notes": "Original road-rage attitude question."
-  },
-  {
-    "id": "q-drugs-impairment-92",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Drugs that can impair your driving include:",
-    "choices": [
-      "Only illegal drugs",
-      "Illegal drugs, some prescription medications, and some over-the-counter drugs",
-      "Only alcohol and tobacco",
-      "Only drugs taken without food"
-    ],
-    "correctIndex": 1,
-    "explanation": "Many substances, including some prescription and over-the-counter medications, can impair your driving. Always read labels and follow medical advice.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Impaired driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
-      }
-    ],
-    "image": "/signs/q-impaired-zero-g1-191.png",
-    "notes": "Original drug-impairment awareness question."
-  },
-  {
-    "id": "q-g1-accompanied-93",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "A G1 driver must be accompanied by a fully licensed driver who:",
-    "choices": [
-      "Is at least 16 years old with any licence",
-      "Has at least four years of driving experience and a blood alcohol level of less than 0.05",
-      "Has a motorcycle licence only",
-      "Has a G2 licence with one year of experience"
-    ],
-    "correctIndex": 1,
-    "explanation": "G1 drivers must be accompanied by a fully licensed driver with at least four years of driving experience and a blood alcohol level under 0.05.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Graduated licensing",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
-      }
-    ],
-    "image": "/signs/q-g1-accompanied-68.png",
-    "notes": "Original G1 accompanying-driver question."
-  },
-  {
-    "id": "q-g1-zero-bac-94",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "What is the legal blood alcohol level for a G1 or G2 driver while driving?",
-    "choices": [
-      "Below the Criminal Code limit only",
-      "0.05 or under",
-      "Zero—no alcohol in the blood",
-      "Any level is acceptable with supervision"
-    ],
-    "correctIndex": 2,
-    "explanation": "Novice drivers (G1, G2) must have a blood alcohol concentration of zero while driving.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Graduated licensing & Impaired driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
-      }
-    ],
-    "image": "/signs/q-g1-zero-bac-69.png",
-    "notes": "Original zero-BAC requirement question."
-  },
-  {
-    "id": "q-g1-highway-restriction-95",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Most G1 drivers are not allowed to drive on:",
-    "choices": [
-      "Any city street",
-      "Any road with a speed limit over 60 km/h",
-      "Certain high-speed expressways such as 400-series highways, unless accompanied by an approved driving instructor in a dual-control car",
-      "Any road at night"
-    ],
-    "correctIndex": 2,
-    "explanation": "G1 drivers are restricted from certain high-speed expressways unless with an approved driving instructor in a dual-control car.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Graduated licensing restrictions",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-your-driver-s-licence"
-      }
-    ],
-    "image": "/signs/q-g1-highway-restriction-70.png",
-    "notes": "Original G1 expressway-restriction question."
-  },
-  {
-    "id": "q-seat-position-96",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Before driving, how should you position your seat?",
-    "choices": [
-      "So you are far from the controls and must stretch your legs fully",
-      "So you can reach the pedals and controls comfortably with a slight bend in your arms and legs",
-      "As close to the steering wheel as possible",
-      "Reclined far back to be relaxed"
-    ],
-    "correctIndex": 1,
-    "explanation": "Sit close enough to reach the pedals and controls comfortably with a slight bend in your arms and legs for good control.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Seating position)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
-      }
-    ],
-    "image": "/signs/q-seat-position-71.png",
-    "notes": "Original seating-position question."
-  },
-  {
-    "id": "q-mirror-adjust-97",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When should you adjust your mirrors?",
-    "choices": [
-      "While driving at highway speed",
-      "Before you start driving, when the vehicle is stopped",
-      "Only at night",
-      "Only if they are dirty"
-    ],
-    "correctIndex": 1,
-    "explanation": "Adjust mirrors before driving so you have a clear view behind and to the sides.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Mirrors)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
-      }
-    ],
-    "image": "/signs/q-mirror-adjust-72.png",
-    "notes": "Original mirror-setup question."
-  },
-  {
-    "id": "q-hydroplaning-prevent-98",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Which action helps reduce the risk of hydroplaning?",
-    "choices": [
-      "Driving faster in the rain",
-      "Using worn tires",
-      "Reducing speed on wet roads and ensuring tires are in good condition",
-      "Coasting in Neutral"
-    ],
-    "correctIndex": 2,
-    "explanation": "Slowing down in wet conditions and having good tires with proper tread helps prevent hydroplaning.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-hydroplaning-prevent-73.png",
-    "notes": "Original hydroplaning-prevention question."
-  },
-  {
-    "id": "q-driver-distraction-99",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "Which of the following is an example of a dangerous distraction while driving?",
-    "choices": [
-      "Checking mirrors regularly",
-      "Scanning the road ahead",
-      "Texting or using a handheld phone",
-      "Adjusting your seat before driving"
-    ],
-    "correctIndex": 2,
-    "explanation": "Using a handheld phone or texting while driving is a dangerous distraction and is illegal in Ontario.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Distracted driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-driver-distraction-74.png",
-    "notes": "Original distraction-awareness question."
-  },
-  {
-    "id": "q-approaching-pedestrian-100",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
-    "choices": [
-      "Speed up to pass before they step out",
-      "Be prepared to yield and allow the pedestrian to cross safely",
-      "Ignore them because there is no traffic light",
-      "Honk to discourage them from crossing"
-    ],
-    "correctIndex": 1,
-    "explanation": "Be prepared to yield to pedestrians at crosswalks and allow them to cross safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Pedestrian safety",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
-      }
-    ],
-    "image": "/signs/q-approaching-pedestrian-75.png",
-    "notes": "Original uncontrolled-crosswalk question."
-  },
+  "id": "q-traffic-lights-ahead-90",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What is the purpose of this warning sign?",
+  "choices": [
+    "To alert drivers of traffic signals ahead",
+    "To indicate a pedestrian-only crossing",
+    "To warn of a railway crossing",
+    "To show a road closure ahead"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign prepares drivers for an upcoming intersection controlled by traffic lights.",
+  "sources": [
+    {
+      "title": "Warning Signs — Ontario Roads",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/q-traffic-lights-ahead.png"
+},
+
+{
+  "id": "q-traffic-lights-ahead-91",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What is the purpose of this warning sign?",
+  "choices": [
+    "To alert drivers of traffic signals ahead",
+    "To indicate a pedestrian-only crossing",
+    "To warn of a railway crossing",
+    "To show a road closure ahead"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign prepares drivers for an upcoming intersection controlled by traffic lights.",
+  "sources": [
+    {
+      "title": "Warning Signs — Ontario Roads",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/q-traffic-lights-ahead.png"
+},
+
+{
+  "id": "q-school-zone-92",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What should drivers be prepared for when seeing this sign?",
+  "choices": [
+    "Children may be present near the roadway",
+    "A truck inspection station is ahead",
+    "A playground is closed",
+    "Cyclists must dismount"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign alerts drivers to slow down and be cautious due to children in a school area.",
+  "sources": [
+    {
+      "title": "School Area Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone.png"
+},
+
+{
+  "id": "q-hidden-intersection-93",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Why is extra caution required at this location?",
+  "choices": [
+    "A side road may be difficult to see",
+    "Traffic lights are malfunctioning",
+    "The road becomes divided",
+    "There is a toll booth ahead"
+  ],
+  "correctIndex": 0,
+  "explanation": "The sign warns that an approaching intersection may not be clearly visible to drivers.",
+  "sources": [
+    {
+      "title": "Intersection Warning Signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-hidden-intersection.png"
+},
+
+{
+  "id": "q-no-passing-94",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What driving action is restricted by this sign?",
+  "choices": [
+    "Overtaking other vehicles",
+    "Driving below the speed limit",
+    "Using headlights",
+    "Turning left"
+  ],
+  "correctIndex": 0,
+  "explanation": "This regulatory sign clearly states that passing other vehicles is not permitted in this zone.",
+  "sources": [
+    {
+      "title": "Passing Regulations — Ontario",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+},
+
+{
+  "id": "q-right-left-curve-ahead-95",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What road condition does this sign describe?",
+  "choices": [
+    "A series of curves starting right then left",
+    "A sharp right turn only",
+    "A roundabout ahead",
+    "A merge lane begins"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers are warned that the road will bend twice and should adjust speed accordingly.",
+  "sources": [
+    {
+      "title": "Curve Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
+
+{
+  "id": "q-stop-ahead-96",
+  "brand": "Prep test G1",
+  "lang": "en",
+ "category": "signs-regulatory",
+  "question": "What should a driver expect after seeing this sign?",
+  "choices": [
+    "A stop sign shortly ahead",
+    "A yield sign ahead",
+    "A pedestrian crossing only",
+    "A green light"
+  ],
+  "correctIndex": 0,
+  "explanation": "This advance warning sign gives drivers time to prepare to stop.",
+  "sources": [
+    {
+      "title": "Advance Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/stop-ahead.jpg"
+},
+
+{
+  "id": "q-permitted-action-97",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What is the general meaning of a green circle traffic sign?",
+  "choices": [
+    "A movement or action is allowed",
+    "Danger exists ahead",
+    "Traffic must stop",
+    "The road is closed"
+  ],
+  "correctIndex": 0,
+  "explanation": "Green circle signs indicate actions that drivers are permitted to take.",
+  "sources": [
+    {
+      "title": "Permissive Regulatory Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+},
+
+{
+  "id": "q-red-light-camera-98",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Why is this sign posted at an intersection?",
+  "choices": [
+    "To warn that a camera enforces red light violations",
+    "To show the signal is pedestrian-controlled",
+    "To indicate flashing lights only",
+    "To mark a school crossing"
+  ],
+  "correctIndex": 0,
+  "explanation": "The sign informs drivers that running a red light may result in a recorded offence.",
+  "sources": [
+    {
+      "title": "Traffic Enforcement Cameras",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-red-light-camera.png"
+},
+
+{
+  "id": "q-truck-entrance-99",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What potential hazard does this sign highlight?",
+  "choices": [
+    "Large trucks may enter the roadway",
+    "Truck-only parking begins",
+    "Weigh station ahead",
+    "Trucks are banned"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers should be alert for slow-moving or turning trucks near entrances.",
+  "sources": [
+    {
+      "title": "Heavy Vehicle Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-100",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign indicate?",
+  "choices": [
+    "Only the right lane may continue straight",
+    "Right turns are prohibited from the right lane",
+    "Vehicles in the right lane must take the exit",
+    "The right lane is reserved for slow-moving vehicles"
+  ],
+  "correctIndex": 2,
+  "explanation": "This green guide sign informs drivers that traffic in the right lane is required to exit. Drivers who do not intend to exit should move to another lane in advance.",
+  "sources": [],
+  "image": "/signs/right-lane-must-exit.png"
+},
+
   {
   "id": "q-improper-right-101",
   "brand": "Prep test G1",
@@ -2414,22 +2414,29 @@
   "image": "/signs/q-speed-50plus-108.png"
 },
   {
-  "id": "q-rail-barrier-109",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "Driving through, around, or under a lowered railway barrier results in how many demerit points?",
-  "choices": [
-    "2 demerit points",
-    "3 demerit points",
-    "4 demerit points",
-    "6 demerit points"
-  ],
-  "correctIndex": 1,
-  "explanation": "Bypassing a lowered barrier is a 3-point violation.",
-  "sources": [],
-  "image": "/signs/q-rail-barrier-109.png"
-},
+    "id": "q-alcohol-109",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "If a driver under 21 has any alcohol in their system while driving, they:",
+    "choices": [
+      "May receive only a warning",
+      "Are subject to zero tolerance and licence suspension",
+      "May continue if accompanied by an adult",
+      "Are exempt on weekends"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ontario has a zero BAC requirement for drivers under 21 and for novice drivers (G1/G2).",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Impaired driving",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
+      }
+    ],
+    "image": "/signs/q-28-impaired-driver.png",
+    "notes": "Original question; zero tolerance policy."
+  },
+
   {
     "id": "q-rules-no-stopping-like-sign-110",
     "brand": "Prep test G1",
@@ -2540,39 +2547,53 @@
     "notes": "Combines winding road with fog driving advice."
   },
   {
-  "id": "q-fail-yield-115",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "How many demerit points are given for failing to yield the right of way?",
-  "choices": [
-    "2 demerit points",
-    "3 demerit points",
-    "4 demerit points",
-    "5 demerit points"
-  ],
-  "correctIndex": 1,
-  "explanation": "Failing to yield the right of way results in 3 points.",
-  "sources": [],
-  "image": "/signs/q-fail-yield-115.png"
-},
+    "id": "q-fatigue-115",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "You feel drowsy while driving at night. What should you do?",
+    "choices": [
+      "Open the window and turn up music",
+      "Pull over safely and rest",
+      "Drive faster to finish sooner",
+      "Drink coffee and keep going"
+    ],
+    "correctIndex": 1,
+    "explanation": "If you’re sleepy, stop in a safe place and rest. Fatigue is dangerous.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Fatigue and safe driving",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/fatigue"
+      }
+    ],
+    "image": "/signs/q-29-driver-tired.png",
+    "notes": "Original question; rest and alertness."
+  },
+
   {
-  "id": "q-speed-16to29-116",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "How many demerit points are applied for speeding 16–29 km/h over the limit?",
-  "choices": [
-    "2 demerit points",
-    "3 demerit points",
-    "4 demerit points",
-    "5 demerit points"
-  ],
-  "correctIndex": 1,
-  "explanation": "Speeding 16–29 km/h over the limit carries 3 points.",
-  "sources": [],
-  "image": "/signs/q-speed-16to29-116.png"
-},
+    "id": "q-approaching-pedestrian-116",
+    "brand": "Prep test G1",
+    "lang": "en",
+  "category": "rules-of-the-road",
+    "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
+    "choices": [
+      "Speed up to pass before they step out",
+      "Be prepared to yield and allow the pedestrian to cross safely",
+      "Ignore them because there is no traffic light",
+      "Honk to discourage them from crossing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be prepared to yield to pedestrians at crosswalks and allow them to cross safely.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Pedestrian safety",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
+      }
+    ],
+    "image": "/signs/q-approaching-pedestrian-75.png",
+    "notes": "Original uncontrolled-crosswalk question."
+  },
+
   {
     "id": "q-rules-wheelchair-accessible-117",
     "brand": "Prep test G1",
@@ -2597,73 +2618,77 @@
     "notes": "Accessible parking rule."
   },
   {
-  "id": "q-traffic-lights-ahead-118",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "What does this sign mean?",
-  "choices": [
-    "Traffic signal lights are ahead",
-    "Pedestrians have priority",
-    "The road turns sharply",
-    "Railway tracks cross the road"
-  ],
-  "correctIndex": 0,
-  "explanation": "A traffic light symbol warns drivers they will soon encounter a signalized intersection.",
-  "sources": [
-    {
-      "title": "Warning Signs for Urban Areas",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/q-traffic-lights-ahead.png "
-},
-  {
-    "id": "q-demerit-follow-too-closely-119",
+    "id": "q-driver-distraction-118",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerit-points",
-    "question": "A driver is convicted of following another vehicle too closely (tailgating). How many demerit points are added?",
+  "category": "rules-of-the-road",
+    "question": "Which of the following is an example of a dangerous distraction while driving?",
     "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points"
+      "Checking mirrors regularly",
+      "Scanning the road ahead",
+      "Texting or using a handheld phone",
+      "Adjusting your seat before driving"
     ],
     "correctIndex": 2,
-    "explanation": "Following too closely is a 4-point offence in Ontario because it greatly increases the risk of rear-end collisions.",
+    "explanation": "Using a handheld phone or texting while driving is a dangerous distraction and is illegal in Ontario.",
     "sources": [
       {
-        "title": "Ontario — Demerit points table (following too closely)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
+        "title": "Official MTO Driver’s Handbook — Distracted driving",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
       }
     ],
-    "image": "/signs/q-demerit-follow-too-closely-126.png",
-    "notes": "Tailgating question with 4-point penalty."
+    "image": "/signs/q-driver-distraction-74.png",
+    "notes": "Original distraction-awareness question."
   },
-  {
-    "id": "q-demerit-handheld-120",
+
+   {
+    "id": "q-hydroplaning-prevent-119",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "demerit-points",
-    "question": "You are convicted of using a hand-held phone while driving. How many demerit points does this add to your record?",
+    "category": "rules-of-the-road",
+    "question": "Which action helps reduce the risk of hydroplaning?",
     "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points"
+      "Driving faster in the rain",
+      "Using worn tires",
+      "Reducing speed on wet roads and ensuring tires are in good condition",
+      "Coasting in Neutral"
     ],
-    "correctIndex": 1,
-    "explanation": "Distracted driving with a hand-held device carries 3 demerit points in Ontario, along with significant fines and other penalties.",
+    "correctIndex": 2,
+    "explanation": "Slowing down in wet conditions and having good tires with proper tread helps prevent hydroplaning.",
     "sources": [
       {
-        "title": "Ontario — Understanding demerit points (hand-held wireless device)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
       }
     ],
-    "image": "/signs/q-demerit-handheld-127.png",
-    "notes": "Exact demerit total for a hand-held phone offence."
+    "image": "/signs/q-hydroplaning-prevent-73.png",
+    "notes": "Original hydroplaning-prevention question."
   },
+
+  {
+    "id": "q-mirror-adjust-120",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "When should you adjust your mirrors?",
+    "choices": [
+      "While driving at highway speed",
+      "Before you start driving, when the vehicle is stopped",
+      "Only at night",
+      "Only if they are dirty"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adjust mirrors before driving so you have a clear view behind and to the sides.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Mirrors)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
+      }
+    ],
+    "image": "/signs/q-mirror-adjust-72.png",
+    "notes": "Original mirror-setup question."
+  },
+
   {
     "id": "q-divided-highway-ends-121",
     "brand": "Prep test G1",
