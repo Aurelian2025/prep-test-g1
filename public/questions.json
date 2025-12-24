@@ -1110,258 +1110,257 @@
     "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
   },
   {
-    "id": "q-snowplow-50",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "You approach a snowplow working on the highway. What should you do?",
-    "choices": [
-      "Stay well back and do not pass until safe and clear",
-      "Pass immediately on the right",
-      "Sound horn to get it to move over",
-      "Flash high beams to signal you are behind"
-    ],
-    "correctIndex": 0,
-    "explanation": "Stay well back; snowplows throw snow and sand and may obscure your view. Pass only when safe and legal.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter Driving)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-38-snowplow.png",
-    "notes": "Original winter-driving question."
-  },
-  {
-    "id": "q-tire-blowout-51",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "If a tire blows out while driving, what should you do first?",
-    "choices": [
-      "Brake hard immediately to stop the car",
-      "Hold the wheel firmly, ease off the accelerator, and steer straight",
-      "Shift to Neutral and turn off the ignition",
-      "Accelerate slightly to regain control"
-    ],
-    "correctIndex": 1,
-    "explanation": "Grip the wheel, ease off the gas, and steer straight until you can slow and move off the road safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency situations (Tire blowouts)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-37-front-tire.jpg",
-    "notes": "Original emergency-control question."
-  },
-  {
-    "id": "q-brake-failure-52",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Your brake pedal suddenly goes to the floor and braking power is lost. What is your best immediate action?",
-    "choices": [
-      "Pump the brake pedal several times and downshift to lower gears to slow the vehicle",
-      "Turn off the engine at once",
-      "Pull the parking brake hard in one motion",
-      "Swerve onto the shoulder immediately"
-    ],
-    "correctIndex": 0,
-    "explanation": "Pump the brakes to build pressure and use engine braking. Apply parking brake gradually if needed; steer to a safe stop.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency situations (Brake failure)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-38-brake-pedal.png",
-    "notes": "Original brake-failure sequence."
-  },
-  {
-    "id": "q-stuck-accelerator-53",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Your accelerator sticks and the engine races. What should you do first?",
-    "choices": [
-      "Turn the key to lock to stall the engine",
-      "Shift to Neutral, steer to a safe place, and apply brakes",
-      "Turn on cruise control to stabilize speed",
-      "Shut off all electrical systems"
-    ],
-    "correctIndex": 1,
-    "explanation": "Shift to Neutral to disconnect engine power, steer to a safe place, and brake smoothly. Do not switch ignition to lock while moving.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency situations (Stuck accelerator)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-39-gear-shift.png",
-    "notes": "Original stuck-accelerator sequence."
-  },
-  {
-    "id": "q-yield-emergency-54",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "An emergency vehicle with flashing lights and siren is approaching from behind on a two-way road. What must you do?",
-    "choices": [
-      "Maintain your speed so you don’t block traffic",
-      "Pull as far to the right as possible and stop until it has passed",
-      "Speed up to stay ahead of it",
-      "Stop in the left lane"
-    ],
-    "correctIndex": 1,
-    "explanation": "Safely pull to the right edge and stop, yielding to the emergency vehicle. Check for additional emergency vehicles before rejoining traffic.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road (Emergency vehicles)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-40-emergency-vehicle.jpg",
-    "notes": "Original emergency-yield question."
-  },
-  {
-    "id": "q-four-way-stop-ped-55",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "At a four-way stop, a pedestrian is crossing ahead of you and a car on your right arrives at the same time. What should you do?",
-    "choices": [
-      "Go first because you arrived at the same time",
-      "Wave the other driver through and ignore the pedestrian",
-      "Yield to the pedestrian first, then allow the car on your right to go before you",
-      "Proceed quickly before anyone else moves"
-    ],
-    "correctIndex": 2,
-    "explanation": "Pedestrians in the crosswalk go first. After they clear, the car on your right has the right-of-way at a four-way stop.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driving through intersections",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-      }
-    ],
-    "image": "/signs/q-41-pedestrian-crossing.png",
-    "notes": "Original intersection question for Prep test G1."
-  },
-  {
-    "id": "q-merge-ramp-56",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When using an entrance ramp to merge onto a freeway, you should:",
-    "choices": [
-      "Stop at the end of the ramp and wait for a large gap",
-      "Drive slowly and merge at whatever speed feels comfortable",
-      "Use the acceleration lane to match the speed of highway traffic and merge when safe",
-      "Signal only after you have already merged"
-    ],
-    "correctIndex": 2,
-    "explanation": "Use the acceleration lane to reach the speed of traffic on the freeway, signal, shoulder check, and merge when there is a safe gap.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Freeway driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
-      }
-    ],
-    "image": "/signs/q-42-entering-freeway.png",
-    "notes": "Original freeway merging question."
-  },
-  {
-    "id": "q-exit-ramp-57",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When leaving a freeway, when should you slow down to the exit ramp speed?",
-    "choices": [
-      "On the freeway lane before the exit",
-      "Only after you are on the exit ramp and see the lower speed posted",
-      "As soon as you see the first exit sign",
-      "Only if there is traffic behind you"
-    ],
-    "correctIndex": 1,
-    "explanation": "Maintain freeway speed until you are actually on the exit ramp, then slow to the posted ramp speed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Freeway driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/freeway-driving"
-      }
-    ],
-    "image": "/signs/q-exit-ramp-43.png",
-    "notes": "Original exit-ramp speed question."
-  },
-  {
-    "id": "q-curb-uphill-58",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When parking uphill on a road with a curb, how should you turn your front wheels?",
-    "choices": [
-      "Toward the curb",
-      "Straight ahead",
-      "Away from the curb",
-      "It does not matter"
-    ],
-    "correctIndex": 2,
-    "explanation": "Uphill with a curb: turn the wheels away from the curb so if the vehicle rolls, the front tire will roll back into the curb.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Parking",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/q-curb-uphill-44.png",
-    "notes": "Original question about parking on hills."
-  },
-  {
-    "id": "q-curb-downhill-59",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When parking downhill on a road with a curb, how should you turn your front wheels?",
-    "choices": [
-      "Toward the curb",
-      "Straight ahead",
-      "Away from the curb",
-      "Always use the parking brake only"
-    ],
-    "correctIndex": 0,
-    "explanation": "Downhill with a curb: turn your wheels toward the curb so the vehicle would roll into the curb, not into traffic.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Parking",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/q-curb-downhill-45.png",
-    "notes": "Original downhill-parking question."
-  },
-  {
-    "id": "q-no-curb-hill-60",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When parking on a hill with no curb, how should you turn your wheels?",
-    "choices": [
-      "Always straight ahead",
-      "So the vehicle would roll away from the road if it moved",
-      "So the vehicle would roll into the road if it moved",
-      "Wheel direction does not matter"
-    ],
-    "correctIndex": 1,
-    "explanation": "Without a curb, turn your wheels so the vehicle would roll off the road, not into traffic, if it moved.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Parking",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/q-no-curb-hill-46.png",
-    "notes": "Original hill-parking detail question."
-  },
+  "id": "q-water-over-road-50",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What driving condition may exist ahead?",
+  "choices": [
+    "Water may be flowing across the roadway",
+    "A bridge has collapsed",
+    "A ferry crossing is required",
+    "The road is permanently flooded"
+  ],
+  "correctIndex": 0,
+  "explanation": "The sign alerts drivers that water accumulation may affect traction and visibility.",
+  "sources": [
+    {
+      "title": "Water Hazard Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-water-over-road.png"
+},
+
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What hazard should drivers be alert for?",
+  "choices": [
+    "Falling rocks near the roadway",
+    "Loose gravel on pavement",
+    "Blasting operations",
+    "Uneven pavement"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign warns of possible rockslides or falling debris from nearby slopes.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What change in traffic flow does this sign warn of?",
+  "choices": [
+    "Vehicles will be traveling in both directions",
+    "A one-way street begins",
+    "A divided highway starts",
+    "Passing lanes increase"
+  ],
+  "correctIndex": 0,
+  "explanation": "Opposing arrows alert drivers that oncoming traffic will be present ahead.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What action is the driver communicating with this hand signal?",
+  "choices": [
+    "Reducing speed or stopping",
+    "Turning left",
+    "Turning right",
+    "Changing lanes"
+  ],
+  "correctIndex": 0,
+  "explanation": "A downward-pointing arm indicates the driver intends to slow down or stop.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Who may use the lane indicated by this sign?",
+  "choices": [
+    "Bicycles only",
+    "All motor vehicles",
+    "Buses and taxis",
+    "Emergency vehicles only"
+  ],
+  "correctIndex": 0,
+  "explanation": "The symbol and arrow indicate that the lane ahead is designated exclusively for bicycles.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What parking rule applies in this area?",
+  "choices": [
+    "Parking is allowed but limited to 30 minutes",
+    "Parking is prohibited at all times",
+    "Only emergency vehicles may park",
+    "Parking is unrestricted"
+  ],
+  "correctIndex": 0,
+  "explanation": "The sign allows parking but limits how long a vehicle may remain during posted hours.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
+
+{
+  "id": "q-snowmobiles-permitted-56",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What type of vehicle use is allowed here?",
+  "choices": [
+    "Snowmobile travel is permitted",
+    "Snowmobiles must stop",
+    "Snowmobiles are restricted to trailers",
+    "Only cars may proceed"
+  ],
+  "correctIndex": 0,
+  "explanation": "The green circle and snowmobile symbol show that snowmobiles are allowed on this route.",
+  "sources": [
+    {
+      "title": "Snowmobile Use Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-snowmobiles-permitted.png"
+},
+
+{
+  "id": "q-bicycles-permitted-57",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What does this sign tell road users?",
+  "choices": [
+    "Cyclists are allowed to travel here",
+    "Cyclists must dismount",
+    "This lane is closed to bicycles",
+    "Only pedestrians may use this area"
+  ],
+  "correctIndex": 0,
+  "explanation": "A green circle indicates permission; the bicycle symbol confirms cyclists may use this roadway or lane.",
+  "sources": [
+    {
+      "title": "Cycling Regulations — Ontario",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-bicycles-permitted.png"
+},
+
+{
+  "id": "q-keep-right-except-to-pass-58",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What driving behaviour does this sign require?",
+  "choices": [
+    "Remain in the right lane unless overtaking another vehicle",
+    "Use the left lane at all times",
+    "Avoid changing lanes",
+    "Pass only on the shoulder"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers should normally stay right and only move left briefly to pass slower traffic.",
+  "sources": [
+    {
+      "title": "Lane Discipline Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
+
+{
+  "id": "q-two-way-left-turn-lane-59",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "How may this centre lane be used?",
+  "choices": [
+    "For left turns by traffic from both directions",
+    "For passing slower vehicles",
+    "For right turns only",
+    "For parking during off-peak hours"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign shows that vehicles traveling in either direction may use the lane only to make left turns.",
+  "sources": [
+    {
+      "title": "Lane Control Signs — MTO",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-left-turn-lane.png"
+},
+{
+  "id": "q-no-right-turn-on-red-60",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What restriction does this sign place on drivers?",
+  "choices": [
+    "Turning right is not allowed when the signal is red",
+    "Right turns must be made on red lights",
+    "Only buses may turn right",
+    "U-turns are required"
+  ],
+  "correctIndex": 0,
+  "explanation": "The red slash over the right-turn arrow means drivers must wait for a green signal before turning right.",
+  "sources": [
+    {
+      "title": "Turning Restrictions — Ontario",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
+
   {
     "id": "q-railway-stop-61",
     "brand": "Prep test G1",
@@ -1455,28 +1454,22 @@
     "notes": "Original shoulder-use question."
   },
   {
-    "id": "q-back-up-driveway-65",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When backing out of a driveway into a roadway, you must:",
-    "choices": [
-      "Rely on your mirrors only",
-      "Back out quickly to avoid blocking traffic",
-      "Yield to all pedestrians, cyclists, and vehicles on the road",
-      "Honk the horn and back out without stopping"
-    ],
-    "correctIndex": 2,
-    "explanation": "When backing out, you must yield to road users and ensure the way is clear before moving.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Backing up)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-back-up-driveway-51.png",
-    "notes": "Original backing-out question."
-  },
+  "id": "q-demerit-speeding-40-under-80-65",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Speeding 40 km/h or more over the limit in a zone under 80 km/h results in how many demerit points?",
+  "choices": [
+    "3 demerit points",
+    "4 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Speeding 40 km/h or more over the limit in a zone under 80 km/h results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-speed-50plus-108.png"
+},
   {
     "id": "q-reverse-look-66",
     "brand": "Prep test G1",
@@ -1570,28 +1563,22 @@
     "notes": "Original signalling-at-roundabout question."
   },
   {
-    "id": "q-bicycle-door-zone-70",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When passing parked cars you should:",
-    "choices": [
-      "Drive very close to the parked cars to leave room on your right",
-      "Leave enough space so you won’t hit an opened door (avoid the door zone)",
-      "Honk to warn parked drivers",
-      "Use your high beams"
-    ],
-    "correctIndex": 1,
-    "explanation": "Leave space between your vehicle and parked cars so you will not strike a suddenly opened door or a cyclist.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-bicycle-door-zone-56.png",
-    "notes": "Original cyclist door-zone question."
-  },
+  "id": "q-demerit-speeding-50-plus-70",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Speeding 50 km/h or more over the speed limit results in how many demerit points?",
+  "choices": [
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Speeding 50 km/h or more over the limit results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-speed-50plus-108.png"
+},
   {
     "id": "q-bicycle-passing-distance-71",
     "brand": "Prep test G1",
@@ -1685,28 +1672,22 @@
     "notes": "Original follow-up fog question."
   },
   {
-    "id": "q-emergency-shoulder-75",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "If your vehicle breaks down on a highway, what should you do first when you stop on the shoulder?",
-    "choices": [
-      "Get out and stand beside the vehicle",
-      "Park as far off the roadway as possible, turn on hazard lights, and stay inside with seat belt fastened if it’s safe",
-      "Open the hood and stand in front of the car",
-      "Walk along the highway to get help"
-    ],
-    "correctIndex": 1,
-    "explanation": "Pull as far off the road as possible, switch on hazard lights, and stay inside if it’s safe until help arrives.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency situations",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-emergency-shoulder-61.png",
-    "notes": "Original breakdown-on-highway question."
-  },
+  "id": "q-demerit-school-bus-stop-75",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Failing to stop for a school bus results in how many demerit points?",
+  "choices": [
+    "3 demerit points",
+    "4 demerit points",
+    "5 demerit points",
+    "6 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to stop for a school bus results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-school-bus-204.png"
+},
   {
     "id": "q-abs-brakes-76",
     "brand": "Prep test G1",
