@@ -553,28 +553,22 @@
     "notes": "Original wording; mirrors handbook guidance."
   },
   {
-    "id": "q-headlights-when-25",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When must you turn on your headlights in Ontario?",
-    "choices": [
-      "Only after dark",
-      "From sunset exactly to sunrise only",
-      "Half an hour before sunset to half an hour after sunrise, and whenever visibility is under about 150 m (e.g., fog, rain, snow)",
-      "Only on highways"
-    ],
-    "correctIndex": 2,
-    "explanation": "Headlights are required from one-half hour before sunset to one-half hour after sunrise, and any time poor light conditions prevent you from clearly seeing people or vehicles less than 150 metres away.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Lighting)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
-      }
-    ],
-    "image": "/signs/q-5-headlights.jpg",
-    "notes": "Original wording; aligns to lighting requirement."
-  },
+  "id": "q-demerit-fail-remain-25",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Failing to remain at the scene of a collision results in how many demerit points?",
+  "choices": [
+    "2 demerit points",
+    "3 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to remain at the scene of a collision results in 7 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
   {
     "id": "q-school-crossing-guard-26",
     "brand": "Prep test G1",
@@ -672,28 +666,22 @@
     "notes": "Original question aligned to the roundabout entry/yield rules."
   },
   {
-    "id": "q-divided-road-bus-30",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
-    "choices": [
-      "Stop immediately",
-      "Proceed with caution; only vehicles behind the bus must stop",
-      "Honk and pass",
-      "Stop for 3 seconds, then proceed"
-    ],
-    "correctIndex": 1,
-    "explanation": "On roads with a median, only vehicles behind the bus must stop for its flashing red lights. Opposing traffic may proceed with caution.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-12-school-bus-median.jpg",
-    "notes": "Original question; complements the earlier school-bus scenario."
-  },
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Failing to stop when signaled or asked by a police officer results in how many demerit points?",
+  "choices": [
+    "3 demerit points",
+    "5 demerit points",
+    "7 demerit points",
+    "9 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Failing to stop when signaled or asked by a police officer results in 7 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
   {
     "id": "q-pxo-wait-clear-31",
     "brand": "Prep test G1",
@@ -741,22 +729,29 @@
     "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
   },
   {
-  "id": "q-stop-obey-33",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "Disobeying a stop sign or traffic light results in how many demerit points?",
-  "choices": [
-    "2 demerit points",
-    "3 demerit points",
-    "4 demerit points",
-    "6 demerit points"
-  ],
-  "correctIndex": 1,
-  "explanation": "Failing to obey a stop sign or traffic light earns 3 points.",
-  "sources": [],
-  "image": "/signs/q-stop-obey-22.png"
-},
+    "id": "q-divided-road-bus-33”,
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
+    "choices": [
+      "Stop immediately",
+      "Proceed with caution; only vehicles behind the bus must stop",
+      "Honk and pass",
+      "Stop for 3 seconds, then proceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "On roads with a median, only vehicles behind the bus must stop for its flashing red lights. Opposing traffic may proceed with caution.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
   {
     "id": "q-seatbelt-34",
     "brand": "Prep test G1",
@@ -781,28 +776,22 @@
     "notes": "Original question created for Prep Test G1."
   },
   {
-    "id": "q-left-lane-passing-35",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "On a multi-lane highway, which lane should you normally drive in?",
-    "choices": [
-      "Left lane at all times",
-      "Right lane except when passing",
-      "Centre lane for steady speed",
-      "Whichever lane has less traffic"
-    ],
-    "correctIndex": 1,
-    "explanation": "Keep to the right except when passing or preparing for a left turn. Use the left lane mainly for passing.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Lane discipline)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-22-highway.jpg",
-    "notes": "Original wording by Prep Test G1."
-  },
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Careless driving results in how many demerit points?",
+  "choices": [
+    "2 demerit points",
+    "3 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Careless driving results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
   {
     "id": "q-icy-bridge-36",
     "brand": "Prep test G1",
@@ -896,28 +885,23 @@
     "notes": "Original question; polite road communication."
   },
   {
-    "id": "q-roadwork-flag-40",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "A flag person is directing traffic in a construction zone. You must:",
-    "choices": [
-      "Follow the flag person’s instructions at all times",
-      "Ignore them if a traffic light shows green",
-      "Proceed slowly without stopping",
-      "Sound your horn before passing"
-    ],
-    "correctIndex": 0,
-    "explanation": "Flag persons override signs and signals. You must obey their directions.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/q-27-person-directing-traffic.png",
-    "notes": "Original work-zone question."
-  },
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Racing results in how many demerit points?",
+  "choices": [
+    "3 demerit points",
+    "4 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Racing results in 6 demerit points.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
+
   {
     "id": "q-sign-narrow-bridge-41",
     "brand": "Prep test G1",
