@@ -507,7 +507,7 @@
     "notes": "Original question; do not copy third-party practice tests."
   },
   {
-  "id": "q-drink-drive-first-offence-01",
+  "id": "q-drink-drive-first-offence-23",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "alcohol-and-driving",
@@ -1425,28 +1425,21 @@
     "notes": "Original question emphasizing increased fines."
   },
   {
-    "id": "q-shoulder-use-64",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "The shoulder of the road is mainly for:",
-    "choices": [
-      "Driving faster than traffic",
-      "Passing slower vehicles",
-      "Emergency stopping or breakdowns when necessary",
-      "Parking all day"
-    ],
-    "correctIndex": 2,
-    "explanation": "The shoulder is not a travel lane; it is mainly for emergency stops or breakdowns when necessary and allowed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Road position)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-shoulder-use-50.png",
-    "notes": "Original shoulder-use question."
-  },
+  "id": "q-impaired-driving-bac-64”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "alcohol-and-driving",
+  "question": "A driver can be convicted of impaired driving when their blood alcohol concentration reaches which level?",
+  "choices": [
+    "0.03%",
+    "0.05%",
+    "0.08%",
+    "1.0%"
+  ],
+  "correctIndex": 2,
+  "explanation": "In Ontario and across Canada, a blood alcohol concentration of 0.08% or higher is the legal threshold for a criminal impaired driving conviction.",
+  "image": "/signs/q-blood-alcohol.png"
+},
   {
   "id": "q-demerit-speeding-40-under-80-65",
   "brand": "Prep test G1",
@@ -1706,28 +1699,22 @@
     "notes": "Original ABS-use question."
   },
   {
-    "id": "q-nonabs-brakes-77",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "In a vehicle without ABS, how should you brake on a slippery surface to avoid skidding?",
-    "choices": [
-      "Brake as hard as possible and hold",
-      "Apply and release the brakes (threshold braking) to avoid wheel lockup",
-      "Use only the parking brake",
-      "Turn off the engine while braking"
-    ],
-    "correctIndex": 1,
-    "explanation": "On slippery roads without ABS, brake just enough to slow without locking the wheels, releasing and reapplying if they start to lock.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency braking",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-nonabs-brakes-63.png",
-    "notes": "Original non-ABS braking question."
-  },
+  "id": "q-disabled-truck-warning-distance-77”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "emergency-situations",
+  "question": "If a truck is disabled on a roadway where the speed limit is over 60 km/h, approximately how far in front of and behind the vehicle must warning devices such as flares or reflectors be placed?",
+  "choices": [
+    "15 m (50 ft.)",
+    "30 m (100 ft.)",
+    "60 m (200 ft.)",
+    "90 m (300 ft.)"
+  ],
+  "correctIndex": 3,
+  "explanation": "On roads where the speed limit exceeds 60 km/h, warning devices must be placed about 30 m (100 ft.) ahead of and behind a disabled truck to give approaching drivers adequate warning.",
+  "image": "/signs/q-disabled-truck-warning-distance.png"
+},
+
   {
     "id": "q-night-meeting-78",
     "brand": "Prep test G1",
@@ -2288,28 +2275,22 @@
     "notes": "Uses road-narrows sign to talk about safe merging."
   },
   {
-    "id": "q-rules-roundabout-lane-103",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "This roundabout sign appears before a multi-lane roundabout. You plan to go straight through. Which lane should you normally choose before entering?",
-    "choices": [
-      "Follow the lane signs and use the correct lane marked for going straight",
-      "Always use the left lane for every exit",
-      "Always use the right lane for every exit",
-      "Stop in any lane and decide later"
-    ],
-    "correctIndex": 0,
-    "explanation": "Before entering a roundabout, choose the lane that matches your intended exit as shown on lane-use signs or arrows. This helps traffic flow smoothly and safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts and lane choice",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/roundabout-sign.jpg",
-    "notes": "Roundabout lane-choice question using the roundabout sign."
-  },
+  "id": "q-change-address-notification-103”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "licensing-and-documents",
+  "question": "After a licensed driver changes their name or home address, how quickly must the Ministry of Transportation be notified?",
+  "choices": [
+    "Within 6 days",
+    "Within 15 days",
+    "Within 30 days",
+    "At any time prior to renewal of licence"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ontario drivers are required by law to notify the Ministry of Transportation within six days of any change to their name or address.",
+  "image": "/signs/q-change-address-notification.png"
+},
+
   {
   "id": "q-warning-letter-104",
   "brand": "Prep test G1",
@@ -2660,28 +2641,21 @@
   },
 
   {
-    "id": "q-mirror-adjust-120",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "When should you adjust your mirrors?",
-    "choices": [
-      "While driving at highway speed",
-      "Before you start driving, when the vehicle is stopped",
-      "Only at night",
-      "Only if they are dirty"
-    ],
-    "correctIndex": 1,
-    "explanation": "Adjust mirrors before driving so you have a clear view behind and to the sides.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Getting ready to drive (Mirrors)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/getting-ready-drive"
-      }
-    ],
-    "image": "/signs/q-mirror-adjust-72.png",
-    "notes": "Original mirror-setup question."
-  },
+  "id": "q-demerit-interview-120",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Under Ontario’s demerit point system, at what point total may a driver be required to attend an interview and undergo a re-examination of driving skills?",
+  "choices": [
+    "When 9 demerit points have been accumulated",
+    "When 3 demerit points have been accumulated",
+    "When 6 demerit points have been accumulated",
+    "When 15 demerit points have been accumulated"
+  ],
+  "correctIndex": 0,
+  "explanation": "When a fully licensed driver reaches 9 demerit points, the Ministry may require the driver to attend an interview and may order a re-examination to assess driving ability.",
+  "image": "/signs/q-demerit-interview.png"
+},
 
   {
     "id": "q-divided-highway-ends-121",
@@ -4142,28 +4116,22 @@
     "notes": "Unsignalized crosswalk behaviour."
   },
   {
-    "id": "q-end-of-set-187",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "You have answered many practice questions in a row and feel your concentration dropping. What is the safest real-world driving habit to learn from this?",
-    "choices": [
-      "Take regular breaks during long drives to stay alert",
-      "Force yourself to continue driving without a break",
-      "Increase your speed so the trip ends sooner",
-      "Use your phone to stay entertained while driving"
-    ],
-    "correctIndex": 0,
-    "explanation": "Just like with studying, long periods of driving can cause fatigue and lost focus. Taking regular breaks helps you stay alert and safe.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driver fatigue and long trips",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-tired-driver-200.png",
-    "notes": "Playful end-of-set question reinforcing the message about taking breaks."
-  },
+  "id": "q-safe-speed-stopping-distance-187”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "rules-of-the-road",
+  "question": "No matter the driving conditions, you should always travel at a speed that allows you to do what?",
+  "choices": [
+    "Stop within 90 metres (300 feet)",
+    "Stop within 60 metres (200 feet)",
+    "Stop within a safe distance",
+    "Stop within 150 metres (500 feet)"
+  ],
+  "correctIndex": 2,
+  "explanation": "Drivers must always adjust their speed so they can stop safely within the distance they can see ahead, taking into account road, traffic, and weather conditions.",
+  "image": "/signs/q-safe-speed-stopping.png"
+},
+
   {
     "id": "q-safe-following-distance-188",
     "brand": "Prep test G1",
@@ -4961,22 +4929,22 @@
     "image": "/signs/q-expressway-exit-169.png"
   },
   {
-    "id": "q-228",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "At an open (uncontrolled) intersection, who must yield?",
-    "choices": [
-      "The driver who arrives later",
-      "The driver on the right",
-      "The driver on the left",
-      "No one must yield"
-    ],
-    "correctIndex": 0,
-    "explanation": "If two vehicles arrive at roughly the same time, the one on the left yields to the right.",
-    "sources": [],
-    "image": "/signs/q-intersections-right-of-way-165.png"
-  },
+  "id": "q-speeding-50-over-penalty-228”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "penalties-and-suspensions",
+  "question": "A driver is convicted of travelling 50 km/h (30 mph) or more above the posted speed limit. Which penalty may be imposed by the court?",
+  "choices": [
+    "Suspension of licence for 6 months",
+    "Suspension of licence for 30 days",
+    "Impoundment of motor vehicle for 6 months",
+    "Imprisonment of person for 6 months"
+  ],
+  "correctIndex": 1,
+  "explanation": “If driving 50 km/h or more over the speed limit the court may impose a licence suspension for 30 days, along with other penalties such as fines and demerit points.",
+  "image": "/signs/q-speeding-50-over-penalty.png"
+},
+
   {
     "id": "q-229",
     "brand": "Prep test G1",
@@ -5542,7 +5510,7 @@
   "id": "q-railway-crossing-260",
   "brand": "Prep test G1",
   "lang": "en",
-  "category": "signs-warning",
+  "category": "signs-regulatory",
   "question": "What does this sign warn of?",
   "choices": [
     "A railway crossing ahead",
@@ -5606,22 +5574,22 @@
     "image": "/signs/q-263-windshield-covered-snow.png"
   },
   {
-    "id": "q-264",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
-    "question": "When you see orange construction signs and workers ahead, you should:",
-    "choices": [
-      "Slow down and obey any reduced speed limit",
-      "Maintain your usual speed to clear the zone quickly",
-      "Honk to warn workers",
-      "Use high-beam headlights"
-    ],
-    "correctIndex": 0,
-    "explanation": "Work zones often have reduced speed limits to protect workers and drivers.",
-    "sources": [],
-    "image": "/signs/q-264-construction.png"
-  },
+  "id": "q-report-collision-damage-264”,
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "collisions-and-reporting",
+  "question": "A motor vehicle collision must be reported to the police if there are injuries or if the total property damage is more than what amount?",
+  "choices": [
+    "$100",
+    "$300",
+    "$500",
+    "$1000"
+  ],
+  "correctIndex": 3,
+  "explanation": "In Ontario, a collision must be reported to the police if anyone is injured or if the total damage to all vehicles and property exceeds $1,000.",
+  "image": "/signs/q-collision-damage.png"
+},
+
   {
     "id": "q-265",
     "brand": "Prep test G1",
