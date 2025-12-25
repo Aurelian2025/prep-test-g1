@@ -1425,7 +1425,7 @@
     "notes": "Original question emphasizing increased fines."
   },
   {
-  "id": "q-impaired-driving-bac-64”,
+  "id": "q-impaired-driving-bac-64",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "alcohol-and-driving",
@@ -1699,7 +1699,7 @@
     "notes": "Original ABS-use question."
   },
   {
-  "id": "q-disabled-truck-warning-distance-77”,
+  "id": "q-disabled-truck-warning-distance-77",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "emergency-situations",
@@ -2007,7 +2007,7 @@
       "url": "https://www.ontario.ca"
     }
   ],
-  "image": "/q-traffic-lights-ahead.png"
+  "image": "/signs/q-traffic-lights-ahead.png"
 },
 
 {
@@ -2030,7 +2030,7 @@
       "url": "https://www.ontario.ca"
     }
   ],
-  "image": "/q-traffic-lights-ahead.png"
+  "image": "/signs/q-traffic-lights-ahead.png"
 },
 
 {
@@ -2275,7 +2275,7 @@
     "notes": "Uses road-narrows sign to talk about safe merging."
   },
   {
-  "id": "q-change-address-notification-103”,
+  "id": "q-change-address-notification-103",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "licensing-and-documents",
@@ -3063,7 +3063,7 @@
   "correctIndex": 2,
   "explanation": "This regulatory sign indicates that drivers are not permitted to make a left turn when the traffic light is red. Drivers must wait until the signal turns green before making a left turn, even if the intersection appears clear.",
   "sources": [],
-  "image": "/signs/ no-left-turn-on-red.png"
+  "image": "/signs/no-left-turn-on-red.png"
 },
 
   {
@@ -4116,7 +4116,7 @@
     "notes": "Unsignalized crosswalk behaviour."
   },
   {
-  "id": "q-safe-speed-stopping-distance-187”,
+  "id": "q-safe-speed-stopping-distance-187",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "rules-of-the-road",
@@ -4929,7 +4929,7 @@
     "image": "/signs/q-expressway-exit-169.png"
   },
   {
-  "id": "q-speeding-50-over-penalty-228”,
+  "id": "q-speeding-50-over-penalty-228",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "penalties-and-suspensions",
@@ -4941,7 +4941,7 @@
     "Imprisonment of person for 6 months"
   ],
   "correctIndex": 1,
-  "explanation": “If driving 50 km/h or more over the speed limit the court may impose a licence suspension for 30 days, along with other penalties such as fines and demerit points.",
+  "explanation": "If driving 50 km/h or more over the speed limit the court may impose a licence suspension for 30 days, along with other penalties such as fines and demerit points.",
   "image": "/signs/q-speeding-50-over-penalty.png"
 },
 
@@ -5574,7 +5574,7 @@
     "image": "/signs/q-263-windshield-covered-snow.png"
   },
   {
-  "id": "q-report-collision-damage-264”,
+  "id": "q-report-collision-damage-264",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "collisions-and-reporting",
