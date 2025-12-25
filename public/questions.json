@@ -507,28 +507,22 @@
     "notes": "Original question; do not copy third-party practice tests."
   },
   {
-    "id": "q-4way-stop-yield-right-23",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "At a four-way stop, two vehicles stop at exactly the same time. Who goes first?",
-    "choices": [
-      "The larger vehicle goes first",
-      "The vehicle on the left goes first",
-      "The vehicle on the right goes first",
-      "Whoever flashes headlights first"
-    ],
-    "correctIndex": 2,
-    "explanation": "If two vehicles stop at the same time at an all-way stop, the vehicle on the left must yield to the vehicle on the right.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driving through intersections",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-      }
-    ],
-    "image": "/signs/q-3-right-way.png",
-    "notes": "Original question aligned to the handbook rule."
-  },
+  "id": "q-drink-drive-first-offence-01",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "alcohol-and-driving",
+  "question": "Following a first conviction for drinking and driving, how long is a driver’s licence suspended?",
+  "choices": [
+    "1 month",
+    "3 months",
+    "6 months",
+    "1 year"
+  ],
+  "correctIndex": 3,
+  "explanation": "A first conviction for drinking and driving results in a one-year licence suspension, in addition to other penalties such as fines and mandatory education programs.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+
   {
     "id": "q-right-turn-on-red-24",
     "brand": "Prep test G1",
