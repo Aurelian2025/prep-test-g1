@@ -586,72 +586,41 @@ export default function PrepTestG1() {
   }
 
   // ❌ No subscription access and no owner override
-  if (!hasAccess && !ownerOverride) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          </div>
-          <div style={styles.card}>
-            <h2>Access required</h2>
-            <p style={{ marginBottom: 12 }}>
-              To use this practice test, you need an{' '}
-              <strong>active subscription</strong>.
-            </p>
-            <p style={{ marginBottom: 12 }}>
-              If you haven&apos;t subscribed yet, click below to start:
-            </p>
-            <Link href="/subscribe" legacyBehavior>
-              <a
-                style={{
-                  display: 'inline-block',
-                  padding: '10px 18px',
-                  background: '#635bff',
-                  color: '#fff',
-                  borderRadius: 999,
-                  textDecoration: 'none',
-                  fontWeight: 600,
-                }}
-              >
-                Subscribe · $15/month
-              </a>
-            </Link>
+  // ❌ No subscription access and no owner override
+if (!hasAccess && !ownerOverride) {
+  return (
+    <div style={styles.page}>
+      <div style={styles.container}>
+        <div style={styles.header}>
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+        </div>
 
-            <p style={{ marginTop: 16, fontSize: 13, color: '#4b5563' }}>
-              Already subscribed?{' '}
-              <Link href="/login">
-                <span style={{ color: '#2563eb', cursor: 'pointer' }}>
-                  Log in to your account
-                </span>
-              </Link>
-            </p>
+        <div style={styles.card}>
+          <p style={{ fontSize: 14, color: '#4b5563' }}>
+            <strong>Special Access</strong>
+          </p>
 
-            <hr style={{ margin: '24px 0' }} />
-            <p style={{ fontSize: 13, color: '#4b5563' }}>
-              <strong>Special Access</strong>
-            </p>
-            <form onSubmit={handleOwnerUnlock}>
-              <input
-                type="password"
-                placeholder="Password"
-                value={ownerPassword}
-                onChange={(e) => setOwnerPassword(e.target.value)}
-                style={{
-                  width: '100%',
-                  padding: 8,
-                  borderRadius: 8,
-                  border: '1px solid #ccc',
-                  marginBottom: 8,
-                }}
-              />
-              <button style={styles.submitBtn(false)}>Use special Pass</button>
-            </form>
-          </div>
+          <form onSubmit={handleOwnerUnlock}>
+            <input
+              type="password"
+              placeholder="Password"
+              value={ownerPassword}
+              onChange={(e) => setOwnerPassword(e.target.value)}
+              style={{
+                width: '100%',
+                padding: 8,
+                borderRadius: 8,
+                border: '1px solid #ccc',
+                marginBottom: 8,
+              }}
+            />
+            <button style={styles.submitBtn(false)}>Use special Pass</button>
+          </form>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   // No questions (should not normally happen)
   if (!hasQuestionsFlag) {
