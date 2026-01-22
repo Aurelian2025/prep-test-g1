@@ -1,98 +1,97 @@
 // pages/index.js
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
+import { useEffect, useMemo, useState } from "react";
+import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
 const styles = {
   page: {
     fontFamily:
       'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-    background: '#f4f4ff',
-    minHeight: '100vh',
+    background: "#f4f4ff",
+    minHeight: "100vh",
     margin: 0,
     padding: 0,
   },
   container: {
     maxWidth: 900,
-    margin: '0 auto',
-    padding: '16px 16px 40px',
+    margin: "0 auto",
+    padding: "16px 16px 40px",
   },
   header: {
-    position: 'sticky',
+    position: "sticky",
     top: 0,
     zIndex: 20,
-    background: '#f4f4ff',
-    padding: '8px 0 10px',
+    background: "#f4f4ff",
+    padding: "8px 0 10px",
     marginBottom: 12,
-    borderBottom: '1px solid #dde0ff',
+    borderBottom: "1px solid #dde0ff",
   },
   title: {
     fontSize: 32,
     fontWeight: 900,
     margin: 0,
-    color: '#0353a4',
+    color: "#0353a4",
   },
   buttonsRow: {
-    display: 'flex',
+    display: "flex",
     gap: 8,
-    justifyContent: 'flex-end',
+    justifyContent: "flex-end",
     marginTop: 8,
-    flexWrap: 'wrap',
+    flexWrap: "wrap",
   },
   btn: {
-    border: 'none',
+    border: "none",
     borderRadius: 999,
-    padding: '6px 12px',
+    padding: "6px 12px",
     fontSize: 13,
-    cursor: 'pointer',
-    boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+    cursor: "pointer",
+    boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
   },
   card: {
     marginTop: 16,
-    background: '#fff',
+    background: "#fff",
     borderRadius: 16,
     padding: 16,
-    boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
-    transition: 'box-shadow 0.2s ease, transform 0.2s ease',
+    boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
+    transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
   metaRow: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
     fontSize: 16,
     fontWeight: 600,
-    color: '#4c6fff',
+    color: "#4c6fff",
     marginBottom: 12,
   },
   progressOuter: {
-    width: '100%',
+    width: "100%",
     height: 6,
     borderRadius: 999,
-    background: '#e0e2ff',
-    overflow: 'hidden',
+    background: "#e0e2ff",
+    overflow: "hidden",
     marginBottom: 10,
   },
   progressInner: {
-    height: '100%',
+    height: "100%",
     borderRadius: 999,
-    background: '#4c6fff',
-    transition: 'width 0.25s ease',
+    background: "#4c6fff",
+    transition: "width 0.25s ease",
   },
   imgWrap: {
-    textAlign: 'center',
+    textAlign: "center",
     marginBottom: 12,
   },
   img: {
     maxWidth: 200,
     maxHeight: 160,
-    width: 'auto',
-    height: 'auto',
+    width: "auto",
+    height: "auto",
   },
   promptArea: {
     minHeight: 220,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-end',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
     marginBottom: 8,
   },
   questionText: {
@@ -101,56 +100,56 @@ const styles = {
     marginBottom: 10,
   },
   choices: {
-    listStyle: 'none',
+    listStyle: "none",
     padding: 0,
-    margin: '8px 0',
+    margin: "8px 0",
   },
   choiceBtn: (idx, picked, correctIndex, done) => {
-    let border = '#d0d0ff';
-    let background = '#f8f8ff';
+    let border = "#d0d0ff";
+    let background = "#f8f8ff";
 
     if (!done) {
       if (picked === idx) {
-        border = '#4c6fff';
-        background = '#e4e7ff';
+        border = "#4c6fff";
+        background = "#e4e7ff";
       }
     } else {
       if (idx === correctIndex) {
-        border = '#1b8a3a';
-        background = '#e3f7e8';
+        border = "#1b8a3a";
+        background = "#e3f7e8";
       } else if (idx === picked && picked !== correctIndex) {
-        border = '#c62828';
-        background = '#fde5e5';
+        border = "#c62828";
+        background = "#fde5e5";
       }
     }
 
     return {
-      width: '100%',
-      textAlign: 'left',
+      width: "100%",
+      textAlign: "left",
       borderRadius: 12,
-      border: '1px solid ' + border,
+      border: "1px solid " + border,
       background,
-      padding: '8px 10px',
+      padding: "8px 10px",
       marginBottom: 6,
-      cursor: 'pointer',
+      cursor: "pointer",
       fontSize: 14,
     };
   },
   submitBtn: (disabled) => ({
-    border: 'none',
+    border: "none",
     borderRadius: 999,
-    padding: '8px 16px',
+    padding: "8px 16px",
     fontSize: 14,
-    cursor: disabled ? 'default' : 'pointer',
-    background: disabled ? '#d3d3e6' : '#4c6fff',
-    color: '#fff',
+    cursor: disabled ? "default" : "pointer",
+    background: disabled ? "#d3d3e6" : "#4c6fff",
+    color: "#fff",
     marginTop: 4,
   }),
   explanation: {
     marginTop: 10,
-    padding: '8px 10px',
+    padding: "8px 10px",
     borderRadius: 10,
-    background: '#f1fff1',
+    background: "#f1fff1",
     fontSize: 13,
   },
 };
@@ -177,21 +176,20 @@ function shuffleQuestionChoices(q) {
 
 /**
  * Full-screen checkpoint overlay (mobile-friendly).
- * Appears between questions at Q20 and Q40 if 18+/20 correct.
  */
 function CheckpointScreen({ correct, answered, passed, onContinue }) {
   return (
     <div className="checkpoint">
       <div className="card">
-        <div className="face">{passed ? '🙂' : '😕'}</div>
+        <div className="face">{passed ? "🙂" : "😕"}</div>
 
-        <h2>{passed ? 'Congratulations!' : 'Not quite enough'}</h2>
+        <h2>{passed ? "Congratulations!" : "Not quite enough"}</h2>
 
         {passed ? (
           <p className="subtitle">You passed!</p>
         ) : (
           <p className="subtitle">
-            <strong>{correct}</strong> questions correct out of{' '}
+            <strong>{correct}</strong> questions correct out of{" "}
             <strong>{answered}</strong>.
             <br />
             Try again.
@@ -207,7 +205,9 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
         </button>
 
         <div className="hint">
-          {passed ? 'Keep going — you’re doing great.' : 'You’ve got this — keep practicing.'}
+          {passed
+            ? "Keep going — you’re doing great."
+            : "You’ve got this — keep practicing."}
         </div>
       </div>
 
@@ -285,105 +285,30 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
   );
 }
 
+const ACCESS_STORAGE_KEY = "g1_access_key";
+
 export default function PrepTestG1() {
-  const session = useSession();
   const supabase = useSupabaseClient();
 
-  const OWNER_PASSWORD = 'iPassed';
+  // Owner/master override (for you only)
+  const OWNER_PASSWORD = "iPassed";
 
+  // Access/login state
   const [hasAccess, setHasAccess] = useState(false);
   const [accessChecked, setAccessChecked] = useState(false);
-  const [ownerPassword, setOwnerPassword] = useState('');
+  const [passwordInput, setPasswordInput] = useState("");
   const [ownerOverride, setOwnerOverride] = useState(false);
+  const [accessError, setAccessError] = useState("");
 
-  // ✅ 20-question block counters (reset after each checkpoint)
   const [blockAnswered, setBlockAnswered] = useState(0);
   const [blockCorrect, setBlockCorrect] = useState(0);
 
-  // ✅ Checkpoint overlay state
   const [checkpointOpen, setCheckpointOpen] = useState(false);
   const [checkpointScore, setCheckpointScore] = useState({
     correct: 0,
     answered: 0,
     passed: false,
   });
-
-  // ✅ Check subscription against Supabase profiles table
-  useEffect(() => {
-    // Owner override always wins
-    if (ownerOverride) {
-      setHasAccess(true);
-      setAccessChecked(true);
-      return;
-    }
-
-    // Not logged in
-    if (!session) {
-      setHasAccess(false);
-      setAccessChecked(true);
-      return;
-    }
-
-    let cancelled = false;
-
-    async function checkAccess() {
-      try {
-        const email = session.user.email;
-
-        const { data: profile, error } = await supabase
-          .from('profiles')
-          .select('subscription_status')
-          .eq('email', email)
-          .maybeSingle();
-
-        if (cancelled) return;
-
-        if (error) {
-          console.error('Error loading profile on index page:', error);
-        }
-
-        const active = profile?.subscription_status === 'active';
-        setHasAccess(active);
-      } catch (err) {
-        console.error('Unexpected error checking access on index page:', err);
-        setHasAccess(false);
-      } finally {
-        if (!cancelled) setAccessChecked(true);
-      }
-    }
-
-    checkAccess();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [session, supabase, ownerOverride]);
-
-  // Owner password (for you) – bypass subscription
-  const handleOwnerUnlock = (e) => {
-    e.preventDefault();
-    if (ownerPassword.trim() === OWNER_PASSWORD) {
-      setOwnerOverride(true);
-      setHasAccess(true);
-      setAccessChecked(true);
-      setOwnerPassword('');
-    } else {
-      alert('Incorrect password');
-    }
-  };
-
-  // 🔻 Sign out button in quiz header
-  async function handleLogout() {
-  try {
-    await supabase.auth.signOut();
-  } catch (e) {
-    console.error('Error signing out', e);
-  }
-
-  // Redirect back to Special Access page
-  window.location.href = '/';
-}
-
 
   // QUESTION STATE
   const [allQuestions, setAllQuestions] = useState(null); // full bank
@@ -394,18 +319,17 @@ export default function PrepTestG1() {
   const [correctCount, setCorrectCount] = useState(0);
   const [cardRaised, setCardRaised] = useState(false);
 
-  const [globalBase, setGlobalBase] = useState(0); // global question number base
-  const [globalTotal, setGlobalTotal] = useState(0); // total questions
+  const [globalBase, setGlobalBase] = useState(0);
+  const [globalTotal, setGlobalTotal] = useState(0);
 
   // load questions
   useEffect(() => {
-    fetch('/questions.json')
+    fetch("/questions.json")
       .then((r) => r.json())
       .then((data) => {
         const ordered = data.map(shuffleQuestionChoices);
         setAllQuestions(ordered);
 
-        // default to set 1–40
         setQuestions(ordered.slice(0, 40));
         setGlobalTotal(ordered.length);
         setGlobalBase(0);
@@ -419,6 +343,169 @@ export default function PrepTestG1() {
 
   const hasQuestionsFlag = questions.length > 0;
 
+  // ---------- Access control helpers ----------
+  async function validateKeyAgainstSupabase(accessKey) {
+    if (!accessKey) return { ok: false, reason: "missing" };
+
+    // IMPORTANT:
+    // This table must exist: public.access_keys
+    // Columns: key (text PK), expires_at (timestamptz), disabled (bool)
+    const { data, error } = await supabase
+      .from("access_keys")
+      .select("key, expires_at, disabled")
+      .eq("key", accessKey)
+      .maybeSingle();
+
+    if (error) {
+      console.error("Error checking access key:", error);
+      return { ok: false, reason: "error" };
+    }
+
+    if (!data) return { ok: false, reason: "invalid" };
+    if (data.disabled) return { ok: false, reason: "disabled" };
+
+    const expired =
+      !data.expires_at || new Date(data.expires_at).getTime() <= Date.now();
+    if (expired) return { ok: false, reason: "expired" };
+
+    return { ok: true };
+  }
+
+  function clearAccess() {
+    try {
+      localStorage.removeItem(ACCESS_STORAGE_KEY);
+    } catch (_) {}
+    setHasAccess(false);
+    setOwnerOverride(false);
+    setPasswordInput("");
+  }
+
+  // Check access on load + repeat (auto-kick)
+  useEffect(() => {
+    let cancelled = false;
+    let intervalId = null;
+    let isChecking = false;
+
+    async function checkAccessLoop() {
+      if (cancelled) return;
+      if (ownerOverride) {
+        setHasAccess(true);
+        setAccessChecked(true);
+        return;
+      }
+
+      if (isChecking) return;
+      isChecking = true;
+
+      try {
+        const savedKey =
+          typeof window !== "undefined"
+            ? localStorage.getItem(ACCESS_STORAGE_KEY)
+            : null;
+
+        if (!savedKey) {
+          if (!cancelled) {
+            setHasAccess(false);
+            setAccessChecked(true);
+          }
+          return;
+        }
+
+        const result = await validateKeyAgainstSupabase(savedKey);
+
+        if (cancelled) return;
+
+        if (!result.ok) {
+          clearAccess();
+          setAccessError(
+            result.reason === "expired"
+              ? "Your access has expired."
+              : result.reason === "disabled"
+              ? "Your access has been disabled."
+              : "Access is no longer valid."
+          );
+          setHasAccess(false);
+        } else {
+          setAccessError("");
+          setHasAccess(true);
+        }
+      } finally {
+        if (!cancelled) setAccessChecked(true);
+        isChecking = false;
+      }
+    }
+
+    // Initial check
+    checkAccessLoop();
+
+    // Periodic check (auto logout while tab open)
+    intervalId = setInterval(checkAccessLoop, 60 * 1000);
+
+    // Check again when returning to tab
+    const onFocus = () => checkAccessLoop();
+    window.addEventListener("focus", onFocus);
+
+    return () => {
+      cancelled = true;
+      if (intervalId) clearInterval(intervalId);
+      window.removeEventListener("focus", onFocus);
+    };
+  }, [supabase, ownerOverride]);
+
+  // Handle password submit
+  const handleAccessSubmit = async (e) => {
+    e.preventDefault();
+    setAccessError("");
+
+    const entered = passwordInput.trim();
+    if (!entered) {
+      setAccessError("Enter your password.");
+      return;
+    }
+
+    // Owner override
+    if (entered === OWNER_PASSWORD) {
+      setOwnerOverride(true);
+      setHasAccess(true);
+      setAccessChecked(true);
+      setPasswordInput("");
+      return;
+    }
+
+    // Normal user password -> validate against Supabase table
+    const result = await validateKeyAgainstSupabase(entered);
+    if (!result.ok) {
+      setHasAccess(false);
+      setAccessChecked(true);
+      setAccessError(
+        result.reason === "invalid"
+          ? "Incorrect password."
+          : result.reason === "expired"
+          ? "Your access has expired."
+          : result.reason === "disabled"
+          ? "Your access has been disabled."
+          : "Unable to verify access right now."
+      );
+      return;
+    }
+
+    // Save key locally for persistence
+    try {
+      localStorage.setItem(ACCESS_STORAGE_KEY, entered);
+    } catch (_) {}
+
+    setHasAccess(true);
+    setAccessChecked(true);
+    setPasswordInput("");
+  };
+
+  // Sign out (clears local access)
+  async function handleLogout() {
+    clearAccess();
+    window.location.href = "/";
+  }
+
+  // ---------- Quiz logic ----------
   let safeIndex = current;
   if (hasQuestionsFlag) {
     if (safeIndex < 0) safeIndex = 0;
@@ -443,11 +530,9 @@ export default function PrepTestG1() {
 
     const isCorrect = picked === q.correctIndex;
 
-    // ✅ count within current 20-question block
     setBlockAnswered((n) => n + 1);
     if (isCorrect) setBlockCorrect((n) => n + 1);
 
-    // existing set score
     if (isCorrect) setCorrectCount((c) => c + 1);
 
     setDone(true);
@@ -455,17 +540,16 @@ export default function PrepTestG1() {
 
   const next = () => {
     if (!hasQuestionsFlag) return;
-    if (checkpointOpen) return; // prevent advancing while overlay is open
+    if (checkpointOpen) return;
 
     setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
     setPicked(null);
     setDone(false);
   };
 
-  // start a set by index range, and remember its base number
   const startByIndex = (startIdx, endIdx, baseNumber) => {
     if (!allQuestions) return;
-    const subset = allQuestions.slice(startIdx, endIdx + 1); // inclusive
+    const subset = allQuestions.slice(startIdx, endIdx + 1);
     setQuestions(subset);
     setCurrent(0);
     setPicked(null);
@@ -473,90 +557,82 @@ export default function PrepTestG1() {
     setCorrectCount(0);
     setGlobalBase(baseNumber);
 
-    // ✅ reset block + checkpoint
     setBlockAnswered(0);
     setBlockCorrect(0);
     setCheckpointOpen(false);
     setCheckpointScore({ correct: 0, answered: 0 });
   };
 
-  // 7 sets of 40 questions each (0-based indices)
-  const start1 = () => startByIndex(0, 39, 1 - 1); // 1–40
-  const start41 = () => startByIndex(40, 79, 41 - 1); // 41–80
-  const start81 = () => startByIndex(80, 119, 81 - 1); // 81–120
-  const start121 = () => startByIndex(120, 159, 121 - 1); // 121–160
-  const start161 = () => startByIndex(160, 199, 161 - 1); // 161–200
-  const start201 = () => startByIndex(200, 239, 201 - 1); // 201–240
-  const start241 = () => startByIndex(240, 279, 241 - 1); // 241–280
+  const start1 = () => startByIndex(0, 39, 1 - 1);
+  const start41 = () => startByIndex(40, 79, 41 - 1);
+  const start81 = () => startByIndex(80, 119, 81 - 1);
+  const start121 = () => startByIndex(120, 159, 121 - 1);
+  const start161 = () => startByIndex(160, 199, 161 - 1);
+  const start201 = () => startByIndex(200, 239, 201 - 1);
+  const start241 = () => startByIndex(240, 279, 241 - 1);
 
   const renderButtons = () => (
     <div style={styles.buttonsRow}>
-      <button onClick={start1} style={{ ...styles.btn, background: '#ffe6a7' }}>
+      <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
         Start 1–40
       </button>
       <button
         onClick={start41}
-        style={{ ...styles.btn, background: '#ffd5f2' }}
+        style={{ ...styles.btn, background: "#ffd5f2" }}
       >
         Start 41–80
       </button>
       <button
         onClick={start81}
-        style={{ ...styles.btn, background: '#e0c3ff' }}
+        style={{ ...styles.btn, background: "#e0c3ff" }}
       >
         Start 81–120
       </button>
       <button
         onClick={start121}
-        style={{ ...styles.btn, background: '#c1ffd7' }}
+        style={{ ...styles.btn, background: "#c1ffd7" }}
       >
         Start 121–160
       </button>
       <button
         onClick={start161}
-        style={{ ...styles.btn, background: '#b3e6ff' }}
+        style={{ ...styles.btn, background: "#b3e6ff" }}
       >
         Start 161–200
       </button>
       <button
         onClick={start201}
-        style={{ ...styles.btn, background: '#d4c4ff' }}
+        style={{ ...styles.btn, background: "#d4c4ff" }}
       >
         Start 201–240
       </button>
       <button
         onClick={start241}
-        style={{ ...styles.btn, background: '#baf2ff' }}
+        style={{ ...styles.btn, background: "#baf2ff" }}
       >
         Start 241–280
       </button>
     </div>
   );
 
-  /**
-   * ✅ Open checkpoint overlay at Q20 and Q40 (between questions)
-   * Only triggers AFTER submit (done === true)
-   * Only if 18+/20 correct in the current 20-question block
-   */
   useEffect(() => {
-  if (checkpointOpen) return;
-  if (!done) return;
+    if (checkpointOpen) return;
+    if (!done) return;
 
-  const isCheckpointQuestion = inSet === 20 || inSet === 40;
-  if (!isCheckpointQuestion) return;
+    const isCheckpointQuestion = inSet === 20 || inSet === 40;
+    if (!isCheckpointQuestion) return;
 
-  // Only after a full 20-question block
-  if (blockAnswered < 20) return;
+    if (blockAnswered < 20) return;
 
-  const passed = blockCorrect >= 18;
+    const passed = blockCorrect >= 18;
 
-  setCheckpointScore({
-    correct: blockCorrect,
-    answered: blockAnswered,
-    passed,
-  });
-  setCheckpointOpen(true);
-}, [inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
+    setCheckpointScore({
+      correct: blockCorrect,
+      answered: blockAnswered,
+      passed,
+    });
+    setCheckpointOpen(true);
+  }, [inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
   // Loading questions
   if (!allQuestions) {
@@ -575,7 +651,7 @@ export default function PrepTestG1() {
     );
   }
 
-  // Still checking access / subscription
+  // Still checking access
   if (!accessChecked && !ownerOverride) {
     return (
       <div style={styles.page}>
@@ -588,44 +664,49 @@ export default function PrepTestG1() {
     );
   }
 
-  // ❌ No subscription access and no owner override
-  // ❌ No subscription access and no owner override
-if (!hasAccess && !ownerOverride) {
-  return (
-    <div style={styles.page}>
-      <div style={styles.container}>
-        <div style={styles.header}>
-          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-        </div>
+  // No access => show Special Access screen
+  if (!hasAccess && !ownerOverride) {
+    return (
+      <div style={styles.page}>
+        <div style={styles.container}>
+          <div style={styles.header}>
+            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+          </div>
 
-        <div style={styles.card}>
-          <p style={{ fontSize: 14, color: '#4b5563' }}>
-            <strong>Special Access</strong>
-          </p>
+          <div style={styles.card}>
+            <p style={{ fontSize: 14, color: "#4b5563" }}>
+              <strong>Special Access</strong>
+            </p>
 
-          <form onSubmit={handleOwnerUnlock}>
-            <input
-              type="password"
-              placeholder="Password"
-              value={ownerPassword}
-              onChange={(e) => setOwnerPassword(e.target.value)}
-              style={{
-                width: '100%',
-                padding: 8,
-                borderRadius: 8,
-                border: '1px solid #ccc',
-                marginBottom: 8,
-              }}
-            />
-            <button style={styles.submitBtn(false)}>Use special Pass</button>
-          </form>
+            {accessError ? (
+              <p style={{ marginTop: 6, color: "#b91c1c", fontSize: 13 }}>
+                {accessError}
+              </p>
+            ) : null}
+
+            <form onSubmit={handleAccessSubmit}>
+              <input
+                type="password"
+                placeholder="Password"
+                value={passwordInput}
+                onChange={(e) => setPasswordInput(e.target.value)}
+                style={{
+                  width: "100%",
+                  padding: 8,
+                  borderRadius: 8,
+                  border: "1px solid #ccc",
+                  marginBottom: 8,
+                }}
+              />
+              <button style={styles.submitBtn(false)}>Use special Pass</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
-  // No questions (should not normally happen)
+  // No questions
   if (!hasQuestionsFlag) {
     return (
       <div style={styles.page}>
@@ -643,34 +724,29 @@ if (!hasAccess && !ownerOverride) {
   // MAIN QUIZ VIEW
   return (
     <div style={styles.page}>
-      {/* ✅ checkpoint overlay between questions */}
-     {checkpointOpen && (
-  <CheckpointScreen
-    correct={checkpointScore.correct}
-    answered={checkpointScore.answered}
-    passed={checkpointScore.passed}
-    onContinue={() => {
-      setCheckpointOpen(false);
+      {checkpointOpen && (
+        <CheckpointScreen
+          correct={checkpointScore.correct}
+          answered={checkpointScore.answered}
+          passed={checkpointScore.passed}
+          onContinue={() => {
+            setCheckpointOpen(false);
 
-      // reset 20-question block counters
-      setBlockAnswered(0);
-      setBlockCorrect(0);
+            setBlockAnswered(0);
+            setBlockCorrect(0);
 
-      // ✅ If we just finished the set (question 40), reset Correct: X
-      if (inSet === 40) {
-        setCorrectCount(0);
-      }
+            if (inSet === 40) {
+              setCorrectCount(0);
+            }
 
-      // move on to next question if not last
-      if (!isLast) {
-        setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-        setPicked(null);
-        setDone(false);
-      }
-    }}
-  />
-)}
-
+            if (!isLast) {
+              setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
+              setPicked(null);
+              setDone(false);
+            }
+          }}
+        />
+      )}
 
       <style jsx global>{`
         .question-anim {
@@ -692,20 +768,20 @@ if (!hasAccess && !ownerOverride) {
         <div style={styles.header}>
           <div
             style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
             }}
           >
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
             <button
               onClick={handleLogout}
               style={{
-                border: 'none',
-                padding: '6px 12px',
+                border: "none",
+                padding: "6px 12px",
                 borderRadius: 999,
-                background: '#e0e2ff',
-                cursor: 'pointer',
+                background: "#e0e2ff",
+                cursor: "pointer",
                 fontSize: 13,
               }}
             >
@@ -720,8 +796,8 @@ if (!hasAccess && !ownerOverride) {
             ...styles.card,
             ...(cardRaised
               ? {
-                  boxShadow: '0 10px 24px rgba(0, 0, 0, 0.16)',
-                  transform: 'translateY(-2px)',
+                  boxShadow: "0 10px 24px rgba(0, 0, 0, 0.16)",
+                  transform: "translateY(-2px)",
                 }
               : {}),
           }}
@@ -762,31 +838,30 @@ if (!hasAccess && !ownerOverride) {
               ))}
             </ul>
 
-            {/* ✅ allow Next even on last question (won’t advance, but won’t break UI) */}
             <button
               style={styles.submitBtn(picked === null && !done)}
               disabled={picked === null && !done}
               onClick={done ? next : submit}
             >
-              {done ? (isLast ? 'End of set' : 'Next question') : 'Submit'}
+              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
             </button>
 
             {done && (
               <div style={styles.explanation}>
                 <strong>
-                  {picked === q.correctIndex ? 'Correct!' : 'Not quite.'}
-                </strong>{' '}
+                  {picked === q.correctIndex ? "Correct!" : "Not quite."}
+                </strong>{" "}
                 {q.explanation}
               </div>
             )}
 
             <div
               style={{
-                marginTop: '3rem',
-                textAlign: 'center',
-                fontSize: '0.75rem',
-                color: '#666',
-                letterSpacing: '0.5px',
+                marginTop: "3rem",
+                textAlign: "center",
+                fontSize: "0.75rem",
+                color: "#666",
+                letterSpacing: "0.5px",
               }}
             >
               Ontario G1 Practice Test © 2025. ALL RIGHTS RESERVED.
