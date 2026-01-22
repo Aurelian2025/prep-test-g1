@@ -289,7 +289,7 @@ export default function PrepTestG1() {
   const session = useSession();
   const supabase = useSupabaseClient();
 
-  const OWNER_PASSWORD = 'Lucas';
+  const OWNER_PASSWORD = 'iPassed';
 
   const [hasAccess, setHasAccess] = useState(false);
   const [accessChecked, setAccessChecked] = useState(false);
