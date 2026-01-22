@@ -374,13 +374,16 @@ export default function PrepTestG1() {
 
   // 🔻 Sign out button in quiz header
   async function handleLogout() {
-    try {
-      await supabase.auth.signOut();
-    } catch (e) {
-      console.error('Error signing out', e);
-    }
-    window.location.href = '/login';
+  try {
+    await supabase.auth.signOut();
+  } catch (e) {
+    console.error('Error signing out', e);
   }
+
+  // Redirect back to Special Access page
+  window.location.href = '/';
+}
+
 
   // QUESTION STATE
   const [allQuestions, setAllQuestions] = useState(null); // full bank
