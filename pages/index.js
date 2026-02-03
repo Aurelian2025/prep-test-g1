@@ -291,7 +291,7 @@ export default function PrepTestG1() {
   const supabase = useSupabaseClient();
 
   // Owner/master override (for you only)
-  const OWNER_PASSWORD = "Passed";
+  const OWNER_PASSWORD = "Lucas";
 
   // Access/login state
   const [hasAccess, setHasAccess] = useState(false);
