@@ -23,7 +23,7 @@
     "notes": "Original question aligned to Ontario signage."
   },
   {
-    "id": "q-speed-limit-80-2",
+    "id": "q-speed-limit-80-21",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "signs-regulatory",
@@ -69,7 +69,7 @@
     "notes": "Original question aligned to Ontario warning sign conventions."
   },
   {
-    "id": "q-no-pedestrians-4",
+    "id": "q-no-pedestrians-23",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "signs-regulatory",
@@ -115,7 +115,7 @@
     "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
   },
   {
-    "id": "q-no-passing-6",
+    "id": "q-no-passing-25",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "signs-regulatory",
@@ -161,7 +161,7 @@
     "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
   },
   {
-    "id": "q-sign-keep-right-island-8",
+    "id": "q-sign-keep-right-island-27",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "signs-regulatory",
@@ -208,7 +208,7 @@
   },
 
   {
-  "id": "q-swing-bridge-ahead-10",
+  "id": "q-swing-bridge-ahead-29",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "signs-regulatory",
@@ -461,7 +461,7 @@
 },
 
   {
-    "id": "q-stop-complete-21",
+    "id": "q-stop-complete-2",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -507,7 +507,7 @@
     "notes": "Original question; do not copy third-party practice tests."
   },
   {
-  "id": "q-drink-drive-first-offence-23",
+  "id": "q-drink-drive-first-offence-4",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "alcohol-and-driving",
@@ -547,7 +547,7 @@
     "notes": "Original wording; mirrors handbook guidance."
   },
   {
-  "id": "q-demerit-fail-remain-25",
+  "id": "q-demerit-fail-remain-6",
   "brand": "Prep test G1",
   "lang": "en",
   "category": "demerit-points",
@@ -591,7 +591,7 @@
     "notes": "Original question; summarizes the rule for school crossings."
   },
   {
-    "id": "q-two-second-rule-27",
+    "id": "q-two-second-rule-8",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
@@ -637,7 +637,7 @@
     "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
   },
   {
-    "id": "q-roundabout-yield-29",
+    "id": "q-roundabout-yield-10",
     "brand": "Prep test G1",
     "lang": "en",
     "category": "rules-of-the-road",
