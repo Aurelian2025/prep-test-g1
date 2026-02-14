@@ -527,10 +527,26 @@ export default function PrepTestG1() {
     clearTrialLock();
   };
 
-  // Sign out (clears local access) — ORIGINAL UI/FUNCTIONALITY
+  // Sign out (clears local access) — FIXED
   async function handleLogout() {
-    clearAccess();
-    window.location.href = "/";
+    try {
+      localStorage.removeItem(ACCESS_STORAGE_KEY);
+      localStorage.removeItem(TRIAL_LOCK_KEY);
+    } catch (_) {}
+
+    setHasAccess(false);
+    setOwnerOverride(false);
+    setPasswordInput("");
+    setAccessError("");
+    setTrialLocked(false);
+    setAccessChecked(true);
+
+    try {
+      await supabase.auth.signOut();
+    } catch (_) {}
+
+    // Force a real navigation (works even if already on "/")
+    window.location.assign("/");
   }
 
   // ---------- Quiz logic ----------
