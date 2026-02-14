@@ -77,8 +77,16 @@ const styles = {
     background: "#4c6fff",
     transition: "width 0.25s ease",
   },
-  imgWrap: { textAlign: "center", marginBottom: 12 },
-  img: { maxWidth: 200, maxHeight: 160, width: "auto", height: "auto" },
+  imgWrap: {
+    textAlign: "center",
+    marginBottom: 12,
+  },
+  img: {
+    maxWidth: 200,
+    maxHeight: 160,
+    width: "auto",
+    height: "auto",
+  },
   promptArea: {
     minHeight: 220,
     display: "flex",
@@ -86,11 +94,20 @@ const styles = {
     justifyContent: "flex-end",
     marginBottom: 8,
   },
-  questionText: { fontSize: 16, fontWeight: 600, marginBottom: 10 },
-  choices: { listStyle: "none", padding: 0, margin: "8px 0" },
+  questionText: {
+    fontSize: 16,
+    fontWeight: 600,
+    marginBottom: 10,
+  },
+  choices: {
+    listStyle: "none",
+    padding: 0,
+    margin: "8px 0",
+  },
   choiceBtn: (idx, picked, correctIndex, done) => {
     let border = "#d0d0ff";
     let background = "#f8f8ff";
+
     if (!done) {
       if (picked === idx) {
         border = "#4c6fff";
@@ -105,6 +122,7 @@ const styles = {
         background = "#fde5e5";
       }
     }
+
     return {
       width: "100%",
       textAlign: "left",
@@ -155,61 +173,8 @@ function shuffleQuestionChoices(q) {
   };
 }
 
-function CheckpointScreen({ correct, answered, passed, onContinue }) {
-  return (
-    <div className="checkpoint">
-      <div className="card">
-        <div className="face">{passed ? "🙂" : "😕"}</div>
-        <h2>{passed ? "Congratulations!" : "Not quite enough"}</h2>
-        {passed ? (
-          <p className="subtitle">You passed!</p>
-        ) : (
-          <p className="subtitle">
-            <strong>{correct}</strong> questions correct out of{" "}
-            <strong>{answered}</strong>.
-            <br />
-            Try again.
-          </p>
-        )}
-        <div className="score">
-          Score: <strong>{correct}</strong> / {answered}
-        </div>
-        <button className="btn" onClick={onContinue}>
-          Continue
-        </button>
-        <div className="hint">
-          {passed
-            ? "Keep going — you’re doing great."
-            : "You’ve got this — keep practicing."}
-        </div>
-      </div>
-      <style jsx>{`
-        .checkpoint {
-          position: fixed;
-          inset: 0;
-          z-index: 9999;
-          background: rgba(244, 244, 255, 0.98);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          padding: 20px;
-        }
-        .card {
-          width: 100%;
-          max-width: 520px;
-          background: #ffffff;
-          border-radius: 18px;
-          padding: 28px 20px;
-          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-          text-align: center;
-        }
-      `}</style>
-    </div>
-  );
-}
-
 const ACCESS_STORAGE_KEY = "g1_access_key";
-const FREE_PROGRESS_KEY = "g1_free_progress";
+const FREE_PROGRESS_KEY = "g1_free_lock";
 const FREE_LIMIT = 20;
 
 export default function PrepTestG1() {
@@ -217,11 +182,9 @@ export default function PrepTestG1() {
   const OWNER_PASSWORD = "Lucas1";
 
   const [hasAccess, setHasAccess] = useState(false);
-  const [accessChecked, setAccessChecked] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
-  const [ownerOverride, setOwnerOverride] = useState(false);
   const [accessError, setAccessError] = useState("");
-  const [freeMode, setFreeMode] = useState(true);
+  const [freeLocked, setFreeLocked] = useState(false);
 
   const [allQuestions, setAllQuestions] = useState(null);
   const [questions, setQuestions] = useState([]);
@@ -238,12 +201,10 @@ export default function PrepTestG1() {
         setAllQuestions(ordered);
         setQuestions(ordered.slice(0, 40));
       });
-  }, []);
 
-  useEffect(() => {
-    const used = localStorage.getItem(FREE_PROGRESS_KEY);
-    if (used === "locked") setFreeMode(false);
-    setAccessChecked(true);
+    if (localStorage.getItem(FREE_PROGRESS_KEY) === "locked") {
+      setFreeLocked(true);
+    }
   }, []);
 
   async function validateKeyAgainstSupabase(accessKey) {
@@ -265,10 +226,8 @@ export default function PrepTestG1() {
     const entered = passwordInput.trim();
 
     if (entered === OWNER_PASSWORD) {
-      setOwnerOverride(true);
       setHasAccess(true);
-      setFreeMode(false);
-      localStorage.setItem(FREE_PROGRESS_KEY, "locked");
+      setFreeLocked(false);
       return;
     }
 
@@ -279,43 +238,37 @@ export default function PrepTestG1() {
     }
 
     localStorage.setItem(ACCESS_STORAGE_KEY, entered);
-    localStorage.setItem(FREE_PROGRESS_KEY, "locked");
-
     setHasAccess(true);
-    setFreeMode(false);
+    setFreeLocked(false);
   };
 
   const handleLogout = () => {
     localStorage.removeItem(ACCESS_STORAGE_KEY);
     setHasAccess(false);
-    setOwnerOverride(false);
   };
 
   const q = questions[current];
-  const isLast = current === questions.length - 1;
 
   const submit = () => {
     if (picked === null || done) return;
+
     if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
     setDone(true);
 
-    if (freeMode && current + 1 >= FREE_LIMIT) {
+    if (!hasAccess && current + 1 >= FREE_LIMIT) {
       localStorage.setItem(FREE_PROGRESS_KEY, "locked");
-      setFreeMode(false);
+      setFreeLocked(true);
     }
   };
 
   const next = () => {
-    if (isLast) return;
-    if (freeMode && current + 1 >= FREE_LIMIT) return;
+    if (!hasAccess && current + 1 >= FREE_LIMIT) return;
     setCurrent((c) => c + 1);
     setPicked(null);
     setDone(false);
   };
 
-  if (!accessChecked) return null;
-
-  if (!hasAccess && !freeMode) {
+  if (freeLocked && !hasAccess) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
@@ -336,12 +289,14 @@ export default function PrepTestG1() {
     );
   }
 
+  if (!q) return null;
+
   return (
     <div style={styles.page}>
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          {!freeMode && (
+          {hasAccess && (
             <button onClick={handleLogout} style={styles.btn}>
               Sign out
             </button>
@@ -349,10 +304,17 @@ export default function PrepTestG1() {
         </div>
 
         <div style={styles.card}>
-          <div style={styles.questionText}>{q?.question}</div>
+          <div style={styles.promptArea}>
+            {q.image && (
+              <div style={styles.imgWrap}>
+                <img src={q.image} style={styles.img} />
+              </div>
+            )}
+            <div style={styles.questionText}>{q.question}</div>
+          </div>
 
           <ul style={styles.choices}>
-            {q?.choices.map((c, idx) => (
+            {q.choices.map((c, idx) => (
               <li key={idx}>
                 <button
                   style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
