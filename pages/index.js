@@ -293,9 +293,8 @@ export default function PrepTestG1() {
   // Owner/master override (for you only)
   const OWNER_PASSWORD = "Lucas1";
 
-  // Preview mode
+  // Preview rules (every refresh starts in preview until they choose to login)
   const PREVIEW_COUNT = 20;
-  const [previewDone, setPreviewDone] = useState(false);
 
   // Access/login state
   const [hasAccess, setHasAccess] = useState(false);
@@ -303,6 +302,9 @@ export default function PrepTestG1() {
   const [passwordInput, setPasswordInput] = useState("");
   const [ownerOverride, setOwnerOverride] = useState(false);
   const [accessError, setAccessError] = useState("");
+
+  // Session mode: preview (default), auth (password screen), full (hasAccess/ownerOverride)
+  const [authGateOpen, setAuthGateOpen] = useState(false);
 
   const [blockAnswered, setBlockAnswered] = useState(0);
   const [blockCorrect, setBlockCorrect] = useState(0);
@@ -326,7 +328,8 @@ export default function PrepTestG1() {
   const [globalBase, setGlobalBase] = useState(0);
   const [globalTotal, setGlobalTotal] = useState(0);
 
-  const isPreview = !hasAccess && !ownerOverride && !previewDone;
+  const isPreview = !authGateOpen && !hasAccess && !ownerOverride;
+  const isFull = hasAccess || ownerOverride;
 
   // load questions
   useEffect(() => {
@@ -336,7 +339,7 @@ export default function PrepTestG1() {
         const ordered = data.map(shuffleQuestionChoices);
         setAllQuestions(ordered);
 
-        // default set — will be overridden by preview effect if needed
+        // default values — actual set will be enforced by effect below
         setQuestions(ordered.slice(0, 40));
         setGlobalTotal(ordered.length);
         setGlobalBase(0);
@@ -350,49 +353,10 @@ export default function PrepTestG1() {
 
   const hasQuestionsFlag = questions.length > 0;
 
-  // When in preview: force first 20 questions and lock navigation sets
-  useEffect(() => {
-    if (!allQuestions) return;
-
-    if (isPreview) {
-      const subset = allQuestions.slice(0, PREVIEW_COUNT);
-      setQuestions(subset);
-      setCurrent(0);
-      setPicked(null);
-      setDone(false);
-      setCorrectCount(0);
-      setGlobalBase(0);
-
-      setBlockAnswered(0);
-      setBlockCorrect(0);
-      setCheckpointOpen(false);
-      setCheckpointScore({ correct: 0, answered: 0, passed: false });
-    } else {
-      // if user just unlocked, return to default first 40
-      // (keeps your original workflow)
-      if (questions.length === PREVIEW_COUNT) {
-        setQuestions(allQuestions.slice(0, 40));
-        setCurrent(0);
-        setPicked(null);
-        setDone(false);
-        setCorrectCount(0);
-        setGlobalBase(0);
-
-        setBlockAnswered(0);
-        setBlockCorrect(0);
-        setCheckpointOpen(false);
-        setCheckpointScore({ correct: 0, answered: 0, passed: false });
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [allQuestions, isPreview]);
-
   // ---------- Access control helpers ----------
   async function validateKeyAgainstSupabase(accessKey) {
     if (!accessKey) return { ok: false, reason: "missing" };
 
-    // Table: public.access_keys
-    // Columns: key (text PK), expires_at (timestamptz), disabled (bool)
     const { data, error } = await supabase
       .from("access_keys")
       .select("key, expires_at, disabled")
@@ -423,7 +387,87 @@ export default function PrepTestG1() {
     setPasswordInput("");
   }
 
-  // Check access on load + repeat (auto-kick)
+  // Force the active question set depending on mode
+  useEffect(() => {
+    if (!allQuestions) return;
+
+    // Preview: exactly first 20
+    if (isPreview) {
+      setQuestions(allQuestions.slice(0, PREVIEW_COUNT));
+      setCurrent(0);
+      setPicked(null);
+      setDone(false);
+      setCorrectCount(0);
+      setGlobalBase(0);
+
+      setBlockAnswered(0);
+      setBlockCorrect(0);
+
+      setCheckpointOpen(false);
+      setCheckpointScore({ correct: 0, answered: 0, passed: false });
+      return;
+    }
+
+    // Auth gate open but not full: keep whatever was on screen (preview set)
+    // Full: default to first 40 on entry (same as original initial behavior)
+    if (isFull) {
+      // If currently still on preview subset, reset to default full set
+      if (questions.length === PREVIEW_COUNT) {
+        setQuestions(allQuestions.slice(0, 40));
+        setCurrent(0);
+        setPicked(null);
+        setDone(false);
+        setCorrectCount(0);
+        setGlobalBase(0);
+
+        setBlockAnswered(0);
+        setBlockCorrect(0);
+
+        setCheckpointOpen(false);
+        setCheckpointScore({ correct: 0, answered: 0, passed: false });
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allQuestions, isPreview, isFull]);
+
+  // Open auth gate (password screen). If a saved key exists and is valid, auto-enter full app.
+  async function openAuthGate({ tryAutoLogin } = { tryAutoLogin: true }) {
+    setAccessError("");
+    setAuthGateOpen(true);
+
+    if (!tryAutoLogin) return;
+
+    let savedKey = null;
+    try {
+      savedKey =
+        typeof window !== "undefined"
+          ? localStorage.getItem(ACCESS_STORAGE_KEY)
+          : null;
+    } catch (_) {
+      savedKey = null;
+    }
+
+    if (!savedKey) return;
+
+    const result = await validateKeyAgainstSupabase(savedKey);
+    if (result.ok) {
+      setHasAccess(true);
+      setAccessChecked(true);
+      setAuthGateOpen(false);
+      setPasswordInput("");
+    } else {
+      // keep gate open; do not clear key here (user may want to re-enter)
+      setAccessError(
+        result.reason === "expired"
+          ? "Your access has expired."
+          : result.reason === "disabled"
+          ? "Your access has been disabled."
+          : "Access is no longer valid."
+      );
+    }
+  }
+
+  // Check access on interval + focus (kick-out). Do NOT auto-enter full app while in preview.
   useEffect(() => {
     let cancelled = false;
     let intervalId = null;
@@ -432,10 +476,18 @@ export default function PrepTestG1() {
     async function checkAccessLoop() {
       if (cancelled) return;
 
-      // In preview, we DON'T block the UI waiting for access check.
-      // We still allow existing saved keys to unlock immediately.
+      // owner override always full
       if (ownerOverride) {
         setHasAccess(true);
+        setAccessChecked(true);
+        return;
+      }
+
+      // In preview we do NOT auto-login. We only validate while in full app,
+      // or while auth gate is open (so we can auto-login there if key is valid).
+      const shouldValidateNow = isFull || authGateOpen;
+
+      if (!shouldValidateNow) {
         setAccessChecked(true);
         return;
       }
@@ -458,10 +510,10 @@ export default function PrepTestG1() {
         }
 
         const result = await validateKeyAgainstSupabase(savedKey);
-
         if (cancelled) return;
 
         if (!result.ok) {
+          // If key becomes invalid while in full app -> kick out immediately to auth gate
           clearAccess();
           setAccessError(
             result.reason === "expired"
@@ -471,9 +523,16 @@ export default function PrepTestG1() {
               : "Access is no longer valid."
           );
           setHasAccess(false);
+          setAuthGateOpen(true);
         } else {
           setAccessError("");
           setHasAccess(true);
+
+          // If auth gate is open and key is valid, close it and go full
+          if (authGateOpen) {
+            setAuthGateOpen(false);
+            setPasswordInput("");
+          }
         }
       } finally {
         if (!cancelled) setAccessChecked(true);
@@ -481,13 +540,10 @@ export default function PrepTestG1() {
       }
     }
 
-    // Initial check
     checkAccessLoop();
 
-    // Periodic check (auto logout while tab open)
     intervalId = setInterval(checkAccessLoop, 60 * 1000);
 
-    // Check again when returning to tab
     const onFocus = () => checkAccessLoop();
     window.addEventListener("focus", onFocus);
 
@@ -496,7 +552,7 @@ export default function PrepTestG1() {
       if (intervalId) clearInterval(intervalId);
       window.removeEventListener("focus", onFocus);
     };
-  }, [supabase, ownerOverride]);
+  }, [supabase, ownerOverride, isFull, authGateOpen]);
 
   // Handle password submit
   const handleAccessSubmit = async (e) => {
@@ -514,6 +570,7 @@ export default function PrepTestG1() {
       setOwnerOverride(true);
       setHasAccess(true);
       setAccessChecked(true);
+      setAuthGateOpen(false);
       setPasswordInput("");
       return;
     }
@@ -535,20 +592,25 @@ export default function PrepTestG1() {
       return;
     }
 
-    // Save key locally for persistence (only after paid access)
+    // Save key locally for persistence
     try {
       localStorage.setItem(ACCESS_STORAGE_KEY, entered);
     } catch (_) {}
 
     setHasAccess(true);
     setAccessChecked(true);
+    setAuthGateOpen(false);
     setPasswordInput("");
   };
 
-  // Sign out (clears local access)
+  // Sign out: go to password screen (NOT preview)
   async function handleLogout() {
     clearAccess();
-    window.location.href = "/";
+    setCheckpointOpen(false);
+    setCheckpointScore({ correct: 0, answered: 0, passed: false });
+    setAccessError("");
+    setAuthGateOpen(true);
+    if (typeof window !== "undefined") window.scrollTo(0, 0);
   }
 
   // ---------- Quiz logic ----------
@@ -563,7 +625,7 @@ export default function PrepTestG1() {
   const q = hasQuestionsFlag ? questions[safeIndex] : null;
   const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
 
-  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0; // 1..N
+  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0;
   const inSetTotal = hasQuestionsFlag ? questions.length : 0;
 
   const totalGlobal = globalTotal || (allQuestions ? allQuestions.length : 0);
@@ -588,13 +650,6 @@ export default function PrepTestG1() {
     if (!hasQuestionsFlag) return;
     if (checkpointOpen) return;
 
-    // Preview ends after 20 questions -> go to Special Access screen
-    if (isPreview && isLast) {
-      setPreviewDone(true);
-      if (typeof window !== "undefined") window.scrollTo(0, 0);
-      return;
-    }
-
     setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
     setPicked(null);
     setDone(false);
@@ -602,6 +657,13 @@ export default function PrepTestG1() {
 
   const startByIndex = (startIdx, endIdx, baseNumber) => {
     if (!allQuestions) return;
+
+    // In preview, Start buttons should behave like "Login" (same UI, but prompts auth)
+    if (isPreview) {
+      openAuthGate({ tryAutoLogin: true });
+      return;
+    }
+
     const subset = allQuestions.slice(startIdx, endIdx + 1);
     setQuestions(subset);
     setCurrent(0);
@@ -668,7 +730,36 @@ export default function PrepTestG1() {
     </div>
   );
 
-  // Checkpoints (disable during preview)
+  // Preview-only: show Continue screen AFTER 20 questions
+  useEffect(() => {
+    if (!isPreview) return;
+    if (checkpointOpen) return;
+    if (!done) return;
+
+    const isPreviewEnd = inSet === PREVIEW_COUNT;
+    if (!isPreviewEnd) return;
+
+    if (blockAnswered < PREVIEW_COUNT) return;
+
+    const passed = blockCorrect >= 18;
+
+    setCheckpointScore({
+      correct: blockCorrect,
+      answered: blockAnswered,
+      passed,
+    });
+    setCheckpointOpen(true);
+  }, [
+    isPreview,
+    checkpointOpen,
+    done,
+    inSet,
+    blockAnswered,
+    blockCorrect,
+    PREVIEW_COUNT,
+  ]);
+
+  // Full-mode checkpoints (original behavior)
   useEffect(() => {
     if (isPreview) return;
     if (checkpointOpen) return;
@@ -687,7 +778,7 @@ export default function PrepTestG1() {
       passed,
     });
     setCheckpointOpen(true);
-  }, [inSet, done, blockAnswered, blockCorrect, checkpointOpen, isPreview]);
+  }, [isPreview, inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
   // Loading questions
   if (!allQuestions) {
@@ -696,8 +787,7 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {/* In preview we don’t show set jump buttons */}
-            {!isPreview ? renderButtons() : null}
+            {renderButtons()}
           </div>
           <div style={styles.card}>
             <p>Loading questions…</p>
@@ -720,8 +810,8 @@ export default function PrepTestG1() {
     );
   }
 
-  // After preview is completed, require password (original screen)
-  if (!hasAccess && !ownerOverride && previewDone) {
+  // Auth gate open (password screen) — appears after preview continue, logout, or Login click
+  if (authGateOpen && !hasAccess && !ownerOverride) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
@@ -769,7 +859,7 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {!isPreview ? renderButtons() : null}
+            {renderButtons()}
           </div>
           <div style={styles.card}>No questions available.</div>
         </div>
@@ -777,15 +867,24 @@ export default function PrepTestG1() {
     );
   }
 
-  // MAIN QUIZ VIEW (used for both preview and full access)
+  // MAIN QUIZ VIEW (preview + full use the same UI)
   return (
     <div style={styles.page}>
-      {checkpointOpen && !isPreview && (
+      {checkpointOpen && (
         <CheckpointScreen
           correct={checkpointScore.correct}
           answered={checkpointScore.answered}
           passed={checkpointScore.passed}
           onContinue={() => {
+            // Preview end: Continue -> password screen
+            if (isPreview) {
+              setCheckpointOpen(false);
+              setAuthGateOpen(true);
+              if (typeof window !== "undefined") window.scrollTo(0, 0);
+              return;
+            }
+
+            // Full app: original continue behavior
             setCheckpointOpen(false);
 
             setBlockAnswered(0);
@@ -831,8 +930,8 @@ export default function PrepTestG1() {
           >
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
 
-            {/* Hide Sign out in preview (same UI otherwise) */}
-            {(hasAccess || ownerOverride) && (
+            {/* Right-side button: Sign out in full app, Login in preview */}
+            {isFull ? (
               <button
                 onClick={handleLogout}
                 style={{
@@ -846,11 +945,25 @@ export default function PrepTestG1() {
               >
                 Sign out
               </button>
+            ) : (
+              <button
+                onClick={() => openAuthGate({ tryAutoLogin: true })}
+                style={{
+                  border: "none",
+                  padding: "6px 12px",
+                  borderRadius: 999,
+                  background: "#e0e2ff",
+                  cursor: "pointer",
+                  fontSize: 13,
+                }}
+              >
+                Login
+              </button>
             )}
           </div>
 
-          {/* Hide set jump buttons in preview so preview is strictly first 20 */}
-          {!isPreview ? renderButtons() : null}
+          {/* Start buttons always visible, same UI */}
+          {renderButtons()}
         </div>
 
         <div
@@ -905,13 +1018,7 @@ export default function PrepTestG1() {
               disabled={picked === null && !done}
               onClick={done ? next : submit}
             >
-              {done
-                ? isPreview && isLast
-                  ? "Continue"
-                  : isLast
-                  ? "End of set"
-                  : "Next question"
-                : "Submit"}
+              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
             </button>
 
             {done && (
