@@ -286,7 +286,7 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
 }
 
 const ACCESS_STORAGE_KEY = "g1_access_key";
-const TRIAL_LOCK_KEY = "g1_trial_locked_v1";
+const TRIAL_LOCK_KEY = "g1_trial_locked_after_20_v1";
 
 export default function PrepTestG1() {
   const supabase = useSupabaseClient();
@@ -301,7 +301,7 @@ export default function PrepTestG1() {
   const [ownerOverride, setOwnerOverride] = useState(false);
   const [accessError, setAccessError] = useState("");
 
-  // Trial lock state
+  // NEW: lock only after first 20 questions (module 1)
   const [trialLocked, setTrialLocked] = useState(false);
 
   const [blockAnswered, setBlockAnswered] = useState(0);
@@ -345,7 +345,7 @@ export default function PrepTestG1() {
       });
   }, []);
 
-  // read trial lock flag (CLIENT ONLY)
+  // NEW: read trial lock on client only
   useEffect(() => {
     if (typeof window === "undefined") return;
     try {
@@ -359,6 +359,9 @@ export default function PrepTestG1() {
   async function validateKeyAgainstSupabase(accessKey) {
     if (!accessKey) return { ok: false, reason: "missing" };
 
+    // IMPORTANT:
+    // This table must exist: public.access_keys
+    // Columns: key (text PK), expires_at (timestamptz), disabled (bool)
     const { data, error } = await supabase
       .from("access_keys")
       .select("key, expires_at, disabled")
@@ -380,24 +383,35 @@ export default function PrepTestG1() {
     return { ok: true };
   }
 
+  // NEW: lock setter
   function setTrialLockOn() {
-    if (typeof window !== "undefined") {
-      try {
+    try {
+      if (typeof window !== "undefined") {
         localStorage.setItem(TRIAL_LOCK_KEY, "1");
-      } catch (_) {}
-    }
+      }
+    } catch (_) {}
     setTrialLocked(true);
   }
 
+  // NEW: unlock trial lock (after valid password)
+  function clearTrialLock() {
+    try {
+      if (typeof window !== "undefined") {
+        localStorage.removeItem(TRIAL_LOCK_KEY);
+      }
+    } catch (_) {}
+    setTrialLocked(false);
+  }
+
   function clearAccess() {
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.removeItem(ACCESS_STORAGE_KEY);
-      } catch (_) {}
-    }
+    try {
+      localStorage.removeItem(ACCESS_STORAGE_KEY);
+      localStorage.removeItem(TRIAL_LOCK_KEY); // NEW: reset to free-first-20 after sign out
+    } catch (_) {}
     setHasAccess(false);
     setOwnerOverride(false);
     setPasswordInput("");
+    setTrialLocked(false);
   }
 
   // Check access on load + repeat (auto-kick)
@@ -423,7 +437,6 @@ export default function PrepTestG1() {
             ? localStorage.getItem(ACCESS_STORAGE_KEY)
             : null;
 
-        // No key is OK (free first 20). Just mark checked.
         if (!savedKey) {
           if (!cancelled) {
             setHasAccess(false);
@@ -464,13 +477,12 @@ export default function PrepTestG1() {
 
     // Check again when returning to tab
     const onFocus = () => checkAccessLoop();
-    if (typeof window !== "undefined") window.addEventListener("focus", onFocus);
+    window.addEventListener("focus", onFocus);
 
     return () => {
       cancelled = true;
       if (intervalId) clearInterval(intervalId);
-      if (typeof window !== "undefined")
-        window.removeEventListener("focus", onFocus);
+      window.removeEventListener("focus", onFocus);
     };
   }, [supabase, ownerOverride]);
 
@@ -491,6 +503,7 @@ export default function PrepTestG1() {
       setHasAccess(true);
       setAccessChecked(true);
       setPasswordInput("");
+      clearTrialLock(); // NEW
       return;
     }
 
@@ -512,18 +525,17 @@ export default function PrepTestG1() {
     }
 
     // Save key locally for persistence
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.setItem(ACCESS_STORAGE_KEY, entered);
-      } catch (_) {}
-    }
+    try {
+      localStorage.setItem(ACCESS_STORAGE_KEY, entered);
+    } catch (_) {}
 
     setHasAccess(true);
     setAccessChecked(true);
     setPasswordInput("");
+    clearTrialLock(); // NEW
   };
 
-  // Sign out (exact UI position + behavior from your original file)
+  // Sign out (clears local access)
   async function handleLogout() {
     clearAccess();
     window.location.href = "/";
@@ -549,7 +561,8 @@ export default function PrepTestG1() {
 
   const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
 
-  const isFirstModule = globalBase === 0;
+  // NEW: define module 1 as base 0 (Start 1–40)
+  const isModule1 = globalBase === 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
@@ -568,14 +581,11 @@ export default function PrepTestG1() {
     if (!hasQuestionsFlag) return;
     if (checkpointOpen) return;
 
-    // Hard stop: after Q20 of module 1, lock unless user has access
-    if (!ownerOverride && !hasAccess && isFirstModule && inSet >= 20) {
+    // NEW: after Q20 of module 1, lock unless access
+    if (!ownerOverride && !hasAccess && isModule1 && inSet >= 20) {
       setTrialLockOn();
       return;
     }
-
-    // If already trialLocked and still no access, don't move
-    if (!ownerOverride && !hasAccess && trialLocked) return;
 
     setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
     setPicked(null);
@@ -583,13 +593,13 @@ export default function PrepTestG1() {
   };
 
   const startByIndex = (startIdx, endIdx, baseNumber) => {
-    // If trialLocked and no access => keep locked
+    // NEW: if locked and no access, keep user on Special Access
     if (!ownerOverride && !hasAccess && trialLocked) {
       setTrialLockOn();
       return;
     }
 
-    // If user has no access, only allow starting module 1
+    // NEW: only allow module 1 without access
     if (!ownerOverride && !hasAccess && baseNumber !== 0) {
       setTrialLockOn();
       return;
@@ -711,7 +721,7 @@ export default function PrepTestG1() {
     );
   }
 
-  // Gate ONLY when trialLocked is ON and user doesn't have access
+  // NEW: show Special Access ONLY after the first-20 lock happens
   if (trialLocked && !hasAccess && !ownerOverride) {
     return (
       <div style={styles.page}>
@@ -777,8 +787,8 @@ export default function PrepTestG1() {
           answered={checkpointScore.answered}
           passed={checkpointScore.passed}
           onContinue={() => {
-            // After Q20 of module 1 (free), lock unless user has access
-            if (!ownerOverride && !hasAccess && isFirstModule && inSet === 20) {
+            // NEW: after the 20-question checkpoint in module 1, lock unless access
+            if (!ownerOverride && !hasAccess && isModule1 && inSet === 20) {
               setCheckpointOpen(false);
               setBlockAnswered(0);
               setBlockCorrect(0);
