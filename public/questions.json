@@ -23,27 +23,27 @@
     "notes": "Original question aligned to Ontario signage."
   },
   {
-    "id": "q-speed-limit-80-21",
+    "id": "q-stop-complete-2",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-regulatory",
-    "question": "What does this sign indicate?",
+    "category": "rules-of-the-road",
+    "question": "At a stop sign, where must you stop if a stop line is painted?",
     "choices": [
-      "Recommended maximum speed 80 km/h",
-      "Minimum speed 80 km/h",
-      "Maximum legal speed 80 km/h under ideal conditions",
-      "Speed must always be 80 km/h regardless of conditions"
+      "Anywhere before the intersection",
+      "Beside the stop sign post",
+      "At the painted stop line",
+      "Halfway into the intersection to see better"
     ],
     "correctIndex": 2,
-    "explanation": "A white rectangular sign with black numerals indicates the maximum legal speed in kilometres per hour under ideal driving conditions.",
+    "explanation": "You must come to a complete stop at the painted stop line. If there’s no stop line, stop at the crosswalk; if none, at the edge of the sidewalk; if none, at the edge of the intersection.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+        "title": "Official MTO Driver’s Handbook — Stopping",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
       }
     ],
-    "image": "/signs/speed-limit-80.jpg",
-    "notes": "Original question aligned with Ontario speed limit signage."
+    "image": "/signs/q-1-stop-painted-line.png",
+    "notes": "Original question authored for this app. We do not copy third-party practice tests."
   },
   {
     "id": "q-bike-warning-3",
@@ -69,28 +69,21 @@
     "notes": "Original question aligned to Ontario warning sign conventions."
   },
   {
-    "id": "q-no-pedestrians-23",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "What does this regulatory sign mean?",
-    "choices": [
-      "Pedestrian crossover ahead",
-      "School crossing ahead",
-      "No pedestrians are allowed beyond this point",
-      "Pedestrians must yield to vehicles"
-    ],
-    "correctIndex": 2,
-    "explanation": "A pedestrian symbol within a red circle with a slash means pedestrians are prohibited beyond that sign.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
-      }
-    ],
-    "image": "/signs/no-crossing.jpg",
-    "notes": "Original question; matches Ontario regulatory prohibition style."
-  },
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "alcohol-and-driving",
+  "question": "Following a first conviction for drinking and driving, how long is a driver’s licence suspended?",
+  "choices": [
+    "1 month",
+    "3 months",
+    "6 months",
+    "1 year"
+  ],
+  "correctIndex": 3,
+  "explanation": "A first conviction for drinking and driving results in a one-year licence suspension, in addition to other penalties such as fines and mandatory education programs.",
+  "image": "/signs/q-blood-alcohol.png"
+},
   {
     "id": "q-do-not-enter-5",
     "brand": "Prep test G1",
@@ -115,28 +108,22 @@
     "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
   },
   {
-    "id": "q-no-passing-25",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
-    "question": "This sign shows two cars side-by-side within a red circle. What does it mean?",
-    "choices": [
-      "Passing is allowed if you signal",
-      "No passing — you must not overtake other vehicles here",
-      "Use the left lane only",
-      "Keep right except to pass"
-    ],
-    "correctIndex": 1,
-    "explanation": "A red circle is a prohibition. The two-car symbol indicates NO PASSING — do not overtake other vehicles where this sign applies.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
-      }
-    ],
-    "image": "/signs/no-passing.jpg",
-    "notes": "Original question; ties sign meaning to passing rules."
-  },
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Failing to remain at the scene of a collision results in how many demerit points?",
+  "choices": [
+    "2 demerit points",
+    "3 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "Failing to remain at the scene of a collision results in 7 demerit points.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
   {
     "id": "q-road-closed-7",
     "brand": "Prep test G1",
@@ -161,27 +148,27 @@
     "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
   },
   {
-    "id": "q-sign-keep-right-island-27",
+    "id": "q-two-second-rule-8",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "signs-regulatory",
-    "question": "A rectangular sign with an arrow curving around a traffic island and the words 'KEEP RIGHT' means:",
+    "category": "rules-of-the-road",
+    "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
     "choices": [
-      "You may pass on either side",
-      "Traffic must keep to the right of the island or obstruction",
-      "Left turns only",
-      "Right turn prohibited"
+      "One second behind the vehicle ahead",
+      "Two seconds behind the vehicle ahead",
+      "Three car lengths at any speed",
+      "Five seconds only on highways"
     ],
     "correctIndex": 1,
-    "explanation": "The sign means you must keep right of the traffic island or obstruction.",
+    "explanation": "Use at least the two-second rule to maintain a safe following distance under good conditions. Increase the gap in poor weather or when visibility is low.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+        "url": "https://www.ontario.ca/book/export/html/80365"
       }
     ],
-    "image": "/signs/q-sign-keep-right-island-77.png",
-    "notes": "Original keep-right sign question."
+    "image": "/signs/q-7-following-disctance.png",
+    "notes": "Original question; aligns to handbook guidance."
   },
   {
     "id": "q-sign-winding-road-9",
@@ -206,30 +193,29 @@
     "image": "/signs/q-sign-winding-road-78.png",
     "notes": "Original winding-road sign question."
   },
-
   {
-  "id": "q-swing-bridge-ahead-29",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "What should drivers be prepared for ahead?",
-  "choices": [
-    "A bridge that may open to allow boats through",
-    "A permanently closed bridge",
-    "A ferry crossing",
-    "Road construction"
-  ],
-  "correctIndex": 0,
-  "explanation": "This sign warns that a movable bridge may open, requiring vehicles to stop and wait.",
-  "sources": [
-    {
-      "title": "Bridge Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-swing-bridge-ahead.png"
-},
-
+    "id": "q-roundabout-yield-10",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Approaching a roundabout, what must you do before entering?",
+    "choices": [
+      "Enter quickly and claim your lane",
+      "Stop in the entry lane even if no one is coming",
+      "Yield to traffic already in the roundabout and to pedestrians, and enter when there is a safe gap",
+      "Signal left and enter immediately"
+    ],
+    "correctIndex": 2,
+    "explanation": "Slow down and yield to circulating traffic and pedestrians. Enter only when there is a safe gap; then signal right when exiting.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/q-11-roundabout.jpg",
+    "notes": "Original question aligned to the roundabout entry/yield rules."
+  },
 {
   "id": "q-no-idling-3min-11",
   "brand": "Prep test G1",
@@ -459,29 +445,28 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
-
-  {
-    "id": "q-stop-complete-2",
+{
+    "id": "q-speed-limit-80-21",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "At a stop sign, where must you stop if a stop line is painted?",
+    "category": "signs-regulatory",
+    "question": "What does this sign indicate?",
     "choices": [
-      "Anywhere before the intersection",
-      "Beside the stop sign post",
-      "At the painted stop line",
-      "Halfway into the intersection to see better"
+      "Recommended maximum speed 80 km/h",
+      "Minimum speed 80 km/h",
+      "Maximum legal speed 80 km/h under ideal conditions",
+      "Speed must always be 80 km/h regardless of conditions"
     ],
     "correctIndex": 2,
-    "explanation": "You must come to a complete stop at the painted stop line. If there’s no stop line, stop at the crosswalk; if none, at the edge of the sidewalk; if none, at the edge of the intersection.",
+    "explanation": "A white rectangular sign with black numerals indicates the maximum legal speed in kilometres per hour under ideal driving conditions.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Stopping",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
       }
     ],
-    "image": "/signs/q-1-stop-painted-line.png",
-    "notes": "Original question authored for this app. We do not copy third-party practice tests."
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
   },
   {
     "id": "q-school-bus-20m-22",
@@ -507,22 +492,28 @@
     "notes": "Original question; do not copy third-party practice tests."
   },
   {
-  "id": "q-drink-drive-first-offence-4",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "alcohol-and-driving",
-  "question": "Following a first conviction for drinking and driving, how long is a driver’s licence suspended?",
-  "choices": [
-    "1 month",
-    "3 months",
-    "6 months",
-    "1 year"
-  ],
-  "correctIndex": 3,
-  "explanation": "A first conviction for drinking and driving results in a one-year licence suspension, in addition to other penalties such as fines and mandatory education programs.",
-  "image": "/signs/q-blood-alcohol.png"
-},
-
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "What does this regulatory sign mean?",
+    "choices": [
+      "Pedestrian crossover ahead",
+      "School crossing ahead",
+      "No pedestrians are allowed beyond this point",
+      "Pedestrians must yield to vehicles"
+    ],
+    "correctIndex": 2,
+    "explanation": "A pedestrian symbol within a red circle with a slash means pedestrians are prohibited beyond that sign.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
   {
     "id": "q-right-turn-on-red-24",
     "brand": "Prep test G1",
@@ -547,22 +538,29 @@
     "notes": "Original wording; mirrors handbook guidance."
   },
   {
-  "id": "q-demerit-fail-remain-6",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "Failing to remain at the scene of a collision results in how many demerit points?",
-  "choices": [
-    "2 demerit points",
-    "3 demerit points",
-    "6 demerit points",
-    "7 demerit points"
-  ],
-  "correctIndex": 3,
-  "explanation": "Failing to remain at the scene of a collision results in 7 demerit points.",
-  "sources": [],
-  "image": "/signs/q-fail-remain-collision-262.png"
-},
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "This sign shows two cars side-by-side within a red circle. What does it mean?",
+    "choices": [
+      "Passing is allowed if you signal",
+      "No passing — you must not overtake other vehicles here",
+      "Use the left lane only",
+      "Keep right except to pass"
+    ],
+    "correctIndex": 1,
+    "explanation": "A red circle is a prohibition. The two-car symbol indicates NO PASSING — do not overtake other vehicles where this sign applies.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
+
   {
     "id": "q-school-crossing-guard-26",
     "brand": "Prep test G1",
@@ -591,27 +589,27 @@
     "notes": "Original question; summarizes the rule for school crossings."
   },
   {
-    "id": "q-two-second-rule-8",
+    "id": "q-sign-keep-right-island-27",
     "brand": "Prep test G1",
     "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
+    "category": "signs-regulatory",
+    "question": "A rectangular sign with an arrow curving around a traffic island and the words 'KEEP RIGHT' means:",
     "choices": [
-      "One second behind the vehicle ahead",
-      "Two seconds behind the vehicle ahead",
-      "Three car lengths at any speed",
-      "Five seconds only on highways"
+      "You may pass on either side",
+      "Traffic must keep to the right of the island or obstruction",
+      "Left turns only",
+      "Right turn prohibited"
     ],
     "correctIndex": 1,
-    "explanation": "Use at least the two-second rule to maintain a safe following distance under good conditions. Increase the gap in poor weather or when visibility is low.",
+    "explanation": "The sign means you must keep right of the traffic island or obstruction.",
     "sources": [
       {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
-        "url": "https://www.ontario.ca/book/export/html/80365"
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
       }
     ],
-    "image": "/signs/q-7-following-disctance.png",
-    "notes": "Original question; aligns to handbook guidance."
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
   },
   {
     "id": "q-yield-be-prepared-to-stop-28",
@@ -637,28 +635,27 @@
     "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
   },
   {
-    "id": "q-roundabout-yield-10",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
-    "question": "Approaching a roundabout, what must you do before entering?",
-    "choices": [
-      "Enter quickly and claim your lane",
-      "Stop in the entry lane even if no one is coming",
-      "Yield to traffic already in the roundabout and to pedestrians, and enter when there is a safe gap",
-      "Signal left and enter immediately"
-    ],
-    "correctIndex": 2,
-    "explanation": "Slow down and yield to circulating traffic and pedestrians. Enter only when there is a safe gap; then signal right when exiting.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/q-11-roundabout.jpg",
-    "notes": "Original question aligned to the roundabout entry/yield rules."
-  },
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "What should drivers be prepared for ahead?",
+  "choices": [
+    "A bridge that may open to allow boats through",
+    "A permanently closed bridge",
+    "A ferry crossing",
+    "Road construction"
+  ],
+  "correctIndex": 0,
+  "explanation": "This sign warns that a movable bridge may open, requiring vehicles to stop and wait.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
   {
   "id": "q-demerit-fail-stop-police-30",
   "brand": "Prep test G1",
