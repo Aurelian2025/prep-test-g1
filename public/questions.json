@@ -13,12 +13,7 @@
     ],
     "correctIndex": 1,
     "explanation": "A red circle with a slash always means a prohibition. The arrow pointing left with a slash means no left turns are allowed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
+    
     "image": "/signs/no-left-turn.jpg",
     "notes": "Original question aligned to Ontario signage."
   },
