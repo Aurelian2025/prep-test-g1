@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ نشان کیا ظاہر کرتا ہے؟",
+    "choices": [
+      "تجویز کردہ زیادہ سے زیادہ رفتار 80 کلومیٹر فی گھنٹہ",
+      "کم از کم رفتار 80 کلومیٹر فی گھنٹہ",
+      "مثالی حالات میں قانونی زیادہ سے زیادہ رفتار 80 کلومیٹر فی گھنٹہ",
+      "حالات سے قطع نظر رفتار ہمیشہ 80 کلومیٹر فی گھنٹہ ہونی چاہیے"
+    ],
+    "correctIndex": 2,
+    "explanation": "سفید مستطیل نشان جس پر سیاہ اعداد ہوں، مثالی ڈرائیونگ حالات میں کلومیٹر فی گھنٹہ میں قانونی زیادہ سے زیادہ رفتار ظاہر کرتا ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "دو طرفہ سڑک پر جس میں درمیان میں میڈین نہیں ہے، آپ کے آگے ایک اسکول بس اپنی اوپری سرخ بتیاں چمکاتے ہوئے رکتی ہے۔ آپ کو کیا کرنا چاہیے؟",
+    "choices": [
+      "رفتار 10 کلومیٹر فی گھنٹہ تک کم کریں اور احتیاط سے گزر جائیں",
+      "کم از کم 20 میٹر پیچھے رکیں اور تب تک رکے رہیں جب تک بتیاں چمکنا بند نہ کر دیں اور اسٹاپ آرم واپس نہ ہو جائے",
+      "اگر سڑک پر بچے نظر نہ آئیں تو گزر جائیں",
+      "صرف تب رکیں جب آپ مخالف سمت سے آ رہے ہوں"
+    ],
+    "correctIndex": 1,
+    "explanation": "جب اسکول بس اپنی سرخ چمکتی بتیاں (اور/یا اسٹاپ آرم) فعال کرتی ہے تو آپ کو رکنا چاہیے۔ اگر آپ بس کے پیچھے ہیں تو کم از کم 20 میٹر پیچھے رکیں اور تب تک رکے رہیں جب تک سرخ بتیاں چمکنا بند نہ کر دیں اور اسٹاپ آرم واپس نہ ہو جائے۔ جن سڑکوں پر میڈین ہو، وہاں صرف بس کے پیچھے والی گاڑیوں کو رکنا ہوتا ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ ریگولیٹری نشان کیا مطلب رکھتا ہے؟",
+    "choices": [
+      "آگے پیدل گزرگاہ",
+      "آگے اسکول کراسنگ",
+      "اس مقام کے بعد پیدل چلنے والوں کی اجازت نہیں",
+      "پیدل چلنے والوں کو گاڑیوں کو راستہ دینا چاہیے"
+    ],
+    "correctIndex": 2,
+    "explanation": "سرخ دائرے میں ترچھی لکیر کے ساتھ پیدل چلنے والے کا نشان ظاہر کرتا ہے کہ اس نشان کے بعد پیدل چلنے والے ممنوع ہیں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "اونٹاریو میں سرخ بتی پر دائیں طرف مڑنا کب قانونی ہے؟",
+    "choices": [
+      "جب بھی آپ سگنل دیں",
+      "صرف جب پولیس افسر آپ کو آگے جانے کا اشارہ دے",
+      "مکمل طور پر رکنے کے بعد اور صرف اگر کوئی نشان اسے منع نہ کرے، اور پیدل چلنے والوں اور ٹریفک کو راستہ دیں",
+      "صرف سورج نکلنے اور غروب ہونے کے درمیان"
+    ],
+    "correctIndex": 2,
+    "explanation": "آپ سرخ بتی پر مکمل طور پر رکنے کے بعد دائیں مڑ سکتے ہیں، بشرطیکہ اسے منع کرنے والا کوئی نشان نہ ہو اور آپ پیدل چلنے والوں اور دیگر سڑک استعمال کرنے والوں کو راستہ دیں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "اس نشان میں سرخ دائرے کے اندر دو گاڑیاں ساتھ ساتھ دکھائی گئی ہیں۔ اس کا کیا مطلب ہے؟",
+    "choices": [
+      "اگر آپ سگنل دیں تو اوورٹیک کر سکتے ہیں",
+      "اوورٹیک ممنوع — یہاں دیگر گاڑیوں کو پار نہ کریں",
+      "صرف بائیں لین استعمال کریں",
+      "اوورٹیک کے علاوہ دائیں رہیں"
+    ],
+    "correctIndex": 1,
+    "explanation": "سرخ دائرہ ممانعت کو ظاہر کرتا ہے۔ دو گاڑیوں کا نشان NO PASSING کو ظاہر کرتا ہے — جہاں یہ نشان لاگو ہو وہاں دیگر گاڑیوں کو پار نہ کریں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
