@@ -1113,4 +1113,118 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "驾驶员应注意什么危险？",
+  "choices": [
+    "道路附近可能有落石",
+    "路面有松散的碎石",
+    "正在进行爆破作业",
+    "路面不平"
+  ],
+  "correctIndex": 0,
+  "explanation": "此标志警告前方可能发生山体滑落或附近坡面掉落碎石。",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "此标志警告交通流将发生什么变化？",
+  "choices": [
+    "车辆将双向行驶",
+    "单行道开始",
+    "分隔式公路开始",
+    "超车车道增加"
+  ],
+  "correctIndex": 0,
+  "explanation": "相对的箭头提醒驾驶员前方将有迎面来车。",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "驾驶员用这个手势表示什么行动？",
+  "choices": [
+    "减速或停车",
+    "左转",
+    "右转",
+    "变换车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "手臂向下表示驾驶员打算减速或停车。",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "谁可以使用该标志所示的车道？",
+  "choices": [
+    "仅限自行车",
+    "所有机动车",
+    "公交车和出租车",
+    "仅限紧急车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "该符号和箭头表示前方车道专供自行车使用。",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "此区域适用什么停车规定？",
+  "choices": [
+    "允许停车，但限时30分钟",
+    "始终禁止停车",
+    "仅紧急车辆可停车",
+    "停车不受限制"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志允许停车，但限制车辆在规定时间内可停留的时长。",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
