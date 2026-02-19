@@ -324,5 +324,119 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Que doivent faire les conducteurs en approchant ce repère?",
+  "choices": [
+    "Se diriger à l’écart de l’obstruction",
+    "Se préparer à s’arrêter immédiatement",
+    "Tourner à gauche seulement",
+    "Réduire la vitesse pour une courbe"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les marques diagonales signalent un danger fixe près du bord de la chaussée.",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quels véhicules sont autorisés dans cette voie?",
+  "choices": [
+    "Les autobus et les véhicules transportant deux personnes ou plus",
+    "Tous les véhicules de tourisme",
+    "Les motocyclettes seulement",
+    "Les camions commerciaux"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole en losange indique une voie VMO réservée aux véhicules à occupation multiple et aux autobus.",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quand les conducteurs doivent-ils respecter la limite de 40 km/h affichée?",
+  "choices": [
+    "Lorsque les feux jaunes clignotent",
+    "En tout temps de la journée",
+    "Seulement pendant les mois d’hiver",
+    "Seulement pour les autobus scolaires"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les feux clignotants activent la limite de vitesse réduite pour améliorer la sécurité près des écoles.",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle règle s’applique à partir de ce point?",
+  "choices": [
+    "Les conducteurs ne doivent pas dépasser avant d’avoir franchi le passage",
+    "Le dépassement est permis seulement pour les autobus",
+    "Les véhicules doivent s’arrêter immédiatement",
+    "Les cyclistes peuvent dépasser la circulation"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau impose une zone d’interdiction de dépassement à l’approche d’un passage marqué.",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle limitation ce panneau indique-t-il?",
+  "choices": [
+    "Les véhicules de plus de 3,9 mètres de hauteur ne peuvent pas passer",
+    "La route se rétrécit à 3,9 mètres",
+    "Seuls les chargements larges sont permis",
+    "Le pont supporte seulement les véhicules lourds"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs de véhicules hauts ne doivent pas entrer si leur hauteur dépasse le dégagement affiché.",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
 
