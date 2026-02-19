@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس نشان کے قریب پہنچتے وقت ڈرائیوروں کو کیا کرنا چاہیے؟",
+  "choices": [
+    "رکاوٹ سے دور مڑیں",
+    "فوراً رکنے کے لیے تیار رہیں",
+    "صرف بائیں مڑیں",
+    "موڑ کے لیے رفتار کم کریں"
+  ],
+  "correctIndex": 0,
+  "explanation": "ترچھی لکیریں سڑک کے کنارے کے قریب ایک مستقل خطرے کو ظاہر کرتی ہیں۔",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس لین میں کن گاڑیوں کو اجازت ہے؟",
+  "choices": [
+    "بسیں اور دو یا زیادہ افراد لے جانے والی گاڑیاں",
+    "تمام مسافر گاڑیاں",
+    "صرف موٹر سائیکلیں",
+    "کمرشل ٹرک"
+  ],
+  "correctIndex": 0,
+  "explanation": "ہیرا نما نشان ایک HOV لین کو ظاہر کرتا ہے جو زیادہ افراد والی گاڑیوں اور بسوں کے لیے مخصوص ہے۔",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ڈرائیوروں کو دکھائی گئی 40 کلومیٹر فی گھنٹہ کی حد کی پابندی کب کرنی چاہیے؟",
+  "choices": [
+    "جب پیلی لائٹس چمک رہی ہوں",
+    "دن کے ہر وقت",
+    "صرف سردیوں کے مہینوں میں",
+    "صرف اسکول بسوں کے لیے"
+  ],
+  "correctIndex": 0,
+  "explanation": "چمکتی ہوئی لائٹس اسکولوں کے قریب حفاظت بہتر بنانے کے لیے کم رفتار کی حد کو فعال کرتی ہیں۔",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس مقام سے آگے کون سا اصول لاگو ہوتا ہے؟",
+  "choices": [
+    "ڈرائیوروں کو کراسنگ سے آگے جانے تک اوورٹیک نہیں کرنا چاہیے",
+    "صرف بسوں کو اوورٹیک کی اجازت ہے",
+    "گاڑیوں کو فوراً رکنا چاہیے",
+    "سائیکل سوار ٹریفک کو پیچھے چھوڑ سکتے ہیں"
+  ],
+  "correctIndex": 0,
+  "explanation": "یہ نشان نشان زدہ کراسنگ کے قریب نو پاسنگ زون نافذ کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہ نشان کون سی حد بتاتا ہے؟",
+  "choices": [
+    "3.9 میٹر سے زیادہ اونچائی والی گاڑیاں آگے نہیں جا سکتیں",
+    "سڑک 3.9 میٹر تک تنگ ہو جاتی ہے",
+    "صرف چوڑے بوجھ کی اجازت ہے",
+    "پل صرف بھاری گاڑیوں کو سہارا دیتا ہے"
+  ],
+  "correctIndex": 0,
+  "explanation": "اونچی گاڑیوں کے ڈرائیور داخل نہ ہوں اگر ان کی اونچائی دکھائے گئے کلیئرنس سے زیادہ ہے۔",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
