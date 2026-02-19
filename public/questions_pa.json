@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਸ਼ਾਨੀ ਸੜਕ ਦੇ ਦਰਵਾਜ਼ੇ ‘ਤੇ ਲੱਗੀ ਹੋਈ ਹੈ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਲੰਘਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ",
+      "ਪੈਦਲ ਯਾਤਰੀ ਸਿਰਫ਼ ਇਸ ਨਿਸ਼ਾਨੀ ‘ਤੇ ਹੀ ਲੰਘ ਸਕਦੇ ਹਨ",
+      "ਅੱਗੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਦਾ ਕ੍ਰਾਸਵਾਕ ਹੈ",
+      "ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਪਹਿਲਾ ਹੱਕ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਲਾਲ ਗੋਲ ਵਿੱਚ ਤਿਰਛੀ ਲਕੀਰ ਨਾਲ ਬਣਿਆ ਪੈਦਲ ਯਾਤਰੀ ਦਾ ਨਿਸ਼ਾਨ ਦੱਸਦਾ ਹੈ ਕਿ ਉਸ ਖੇਤਰ ਵਿੱਚ ਪੈਦਲ ਯਾਤਰੀ ਮਨਾਹੀ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਸਰਦੀ ਦੇ ਟ੍ਰੇਲ ਦੇ ਦਰਵਾਜ਼ੇ ‘ਤੇ ਇਹ ਨਿਸ਼ਾਨੀ ਵੇਖਦੇ ਹੋ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਇਸ ਨਿਸ਼ਾਨੀ ਤੋਂ ਅੱਗੇ ਸਨੋਮੋਬਾਈਲ ਮਨਾਹੀ ਹਨ",
+      "ਸਨੋਮੋਬਾਈਲ ਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ",
+      "ਸਨੋਮੋਬਾਈਲ ਟ੍ਰੇਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ",
+      "ਸਨੋਮੋਬਾਈਲ ਨੂੰ ਹੋਰ ਵਾਹਨਾਂ ਤੋਂ ਪਹਿਲਾ ਹੱਕ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਲਾਲ ਗੋਲ ਵਿੱਚ ਤਿਰਛੀ ਲਕੀਰ ਨਾਲ ਸਨੋਮੋਬਾਈਲ ਦਾ ਨਿਸ਼ਾਨ ਦੱਸਦਾ ਹੈ ਕਿ ਉਸ ਨਿਸ਼ਾਨੀ ਤੋਂ ਅੱਗੇ ਸਨੋਮੋਬਾਈਲ ਮਨਾਹੀ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਚੌਰਾਹੇ ‘ਤੇ ਇਹ ਨਿਸ਼ਾਨੀ ਵੇਖਦੇ ਹੋ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਇਸ ਚੌਰਾਹੇ ‘ਤੇ ਸੱਜੇ ਮੋੜ ਮਨਾਹੀ ਹਨ",
+      "ਸੱਜੇ ਮੋੜ ਸਿਰਫ਼ ਹਰੇ ਬੱਤੀ ‘ਤੇ ਹੀ ਮਨਜ਼ੂਰ ਹਨ",
+      "ਤੁਹਾਨੂੰ ਚੌਰਾਹੇ ‘ਤੇ ਸੱਜੇ ਮੋੜਨਾ ਲਾਜ਼ਮੀ ਹੈ",
+      "ਅੱਗੇ ਸੱਜਾ ਲੇਨ ਖਤਮ ਹੁੰਦਾ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਲਾਲ ਗੋਲ ਅਤੇ ਤਿਰਛੀ ਲਕੀਰ ਵਿੱਚ ਕਾਲਾ ਸੱਜੇ ਮੋੜ ਦਾ ਤੀਰ ਇੱਕ ਨਿਯਮਕ ਨਿਸ਼ਾਨ ਹੈ ਜੋ ਦੱਸਦਾ ਹੈ ਕਿ ਜਿੱਥੇ ਇਹ ਨਿਸ਼ਾਨ ਲਾਗੂ ਹੈ ਉੱਥੇ ਸੱਜੇ ਮੋੜ ਮਨਾਹੀ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਸ਼ਾਨ ਡਰਾਈਵਰਾਂ ਨੂੰ ਯੂ-ਟਰਨ ਬਾਰੇ ਕੀ ਦੱਸਦਾ ਹੈ?",
+    "choices": [
+      "ਯੂ-ਟਰਨ ਮਨਾਹੀ ਹਨ",
+      "ਯੂ-ਟਰਨ ਸਿਰਫ਼ ਰਾਤ ਨੂੰ ਮਨਜ਼ੂਰ ਹਨ",
+      "ਜੇ ਟ੍ਰੈਫਿਕ ਨਾ ਹੋਵੇ ਤਾਂ ਯੂ-ਟਰਨ ਮਨਜ਼ੂਰ ਹਨ",
+      "ਅਗਲੇ ਚੌਰਾਹੇ ‘ਤੇ ਯੂ-ਟਰਨ ਲਾਜ਼ਮੀ ਹਨ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਲਾਲ ਗੋਲ ਅਤੇ ਤਿਰਛੀ ਲਕੀਰ ਨਾਲ ਮੁੜਿਆ ਯੂ-ਆਕਾਰ ਦਾ ਤੀਰ ਇੱਕ ਨਿਯਮਕ ਨਿਸ਼ਾਨ ਹੈ ਜੋ ਦੱਸਦਾ ਹੈ ਕਿ ਜਿੱਥੇ ਇਹ ਨਿਸ਼ਾਨ ਲਾਗੂ ਹੈ ਉੱਥੇ ਯੂ-ਟਰਨ ਮਨਾਹੀ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਅੱਗੇ ਕਿਹੜੀ ਡਰਾਈਵਿੰਗ ਸਥਿਤੀ ਹੋ ਸਕਦੀ ਹੈ?",
+    "choices": [
+      "ਸੜਕ ‘ਤੇ ਪਾਣੀ ਵਗ ਰਿਹਾ ਹੋ ਸਕਦਾ ਹੈ",
+      "ਇੱਕ ਪੁਲ ਢਹਿ ਗਿਆ ਹੈ",
+      "ਫੈਰੀ ਕਰਾਸਿੰਗ ਦੀ ਲੋੜ ਹੈ",
+      "ਸੜਕ ਸਦਾ ਲਈ ਪਾਣੀ ਨਾਲ ਭਰੀ ਹੋਈ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਡਰਾਈਵਰਾਂ ਨੂੰ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ ਕਿ ਪਾਣੀ ਇਕੱਠਾ ਹੋਣ ਨਾਲ ਗ੍ਰਿਪ ਅਤੇ ਦਿੱਖ ‘ਤੇ ਅਸਰ ਪੈ ਸਕਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
