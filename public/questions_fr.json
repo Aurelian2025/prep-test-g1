@@ -1425,5 +1425,70 @@
   "explanation": "Un excès de vitesse de 50 km/h ou plus au-dessus de la limite entraîne 6 points d’inaptitude.",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-bicycle-passing-distance-71",
+    "question": "Lorsque vous dépassez un cycliste, quelle est la meilleure pratique?",
+    "choices": [
+      "Passer le plus près possible pour rester dans votre voie",
+      "Ralentir et laisser beaucoup d’espace, changer de voie si nécessaire et sécuritaire",
+      "Klaxonner jusqu’à ce que le cycliste se range",
+      "Dépasser le cycliste par la droite"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ralentissez et laissez un large espace lorsque vous dépassez des cyclistes, en vous déplaçant partiellement ou complètement dans la voie suivante lorsque c’est sécuritaire.",
+    "image": "/signs/q-bicycle-passing-distance-57.png"
+  },
+  {
+    "id": "q-animal-avoid-swerve-72",
+    "question": "Un animal surgit soudainement sur la route. Quelle est la réponse générale la plus sûre?",
+    "choices": [
+      "Faire un écart brusque dans la voie opposée",
+      "Freiner fermement en ligne droite et être prêt à s’arrêter si c’est sécuritaire",
+      "Éteindre vos phares",
+      "Accélérer pour passer plus vite"
+    ],
+    "correctIndex": 1,
+    "explanation": "Freinez en ligne droite et évitez de faire un écart vers la circulation en sens inverse ou hors de la route, ce qui peut causer une collision plus grave.",
+    "image": "/signs/q-animal-avoid-swerve-58.png"
+  },
+  {
+    "id": "q-black-ice-73",
+    "question": "Le verglas est :",
+    "choices": [
+      "De la glace sur laquelle il est sécuritaire de conduire",
+      "Une fine couche de glace presque invisible sur la route",
+      "De la glace qui se forme seulement pendant la journée",
+      "De la glace que l’on voit seulement sur les routes de gravier"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le verglas est une fine couche de glace presque invisible sur la chaussée. Ralentissez et conduisez en douceur dans les conditions où il peut se former.",
+    "image": "/signs/q-black-ice-59.png"
+  },
+  {
+    "id": "q-fog-high-beam-74",
+    "question": "Pourquoi devriez-vous éviter d’utiliser les feux de route dans le brouillard?",
+    "choices": [
+      "Ils ne sont pas assez lumineux",
+      "Ils se reflètent sur le brouillard et réduisent votre capacité à voir devant",
+      "Ils surchauffent les ampoules",
+      "Ils consomment trop de carburant"
+    ],
+    "correctIndex": 1,
+    "explanation": "Les feux de route se reflètent sur les gouttelettes de brouillard et peuvent rendre la vision plus difficile. Utilisez les feux de croisement et ralentissez.",
+    "image": "/signs/q-fog-high-beam-60.png"
+  },
+  {
+  "id": "q-demerit-school-bus-stop-75",
+  "question": "Ne pas s’arrêter pour un autobus scolaire entraîne combien de points d’inaptitude?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ne pas s’arrêter pour un autobus scolaire entraîne 6 points d’inaptitude.",
+  "image": "/signs/q-school-bus-204.png"
+},
 
 
