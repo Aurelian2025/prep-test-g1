@@ -210,5 +210,119 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle règle environnementale est appliquée ici?",
+  "choices": [
+    "Les moteurs ne doivent pas tourner au ralenti plus de 3 minutes",
+    "Les moteurs doivent rester en marche",
+    "Le ralenti est autorisé seulement en hiver",
+    "Les véhicules diesel sont exemptés"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau limite le temps de marche au ralenti afin de réduire les émissions et la pollution.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle destination ce panneau indique-t-il?",
+  "choices": [
+    "Un accès à l’aéroport",
+    "Un terminal de traversier",
+    "Une base militaire",
+    "Une gare ferroviaire"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’icône d’avion dirige les conducteurs vers les installations de l’aéroport.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle information ce symbole fournit-il aux autres conducteurs?",
+  "choices": [
+    "Le conducteur est nouveau ou inexpérimenté",
+    "Le véhicule roule lentement",
+    "La voiture est utilisée uniquement pour l’enseignement",
+    "Le véhicule est en réparation"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole « N » identifie un conducteur novice et encourage la patience des autres.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle intention est indiquée par ce signal de la main?",
+  "choices": [
+    "Un virage à gauche",
+    "Un virage à droite",
+    "Arrêt",
+    "Céder le passage"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un bras tendu horizontalement indique l’intention du conducteur de tourner à gauche.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quel mouvement les conducteurs doivent-ils effectuer?",
+  "choices": [
+    "Tourner à droite",
+    "Continuer tout droit",
+    "Tourner à gauche",
+    "Faire un demi-tour"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau exige que tous les véhicules tournent à droite à l’endroit indiqué.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
 
