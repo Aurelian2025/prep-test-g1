@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое экологическое правило применяется здесь?",
+  "choices": [
+    "Двигателю нельзя работать на холостом ходу более 3 минут",
+    "Двигатели должны оставаться включёнными",
+    "Работа на холостом ходу разрешена только зимой",
+    "Дизельные автомобили освобождаются от правила"
+  ],
+  "correctIndex": 0,
+  "explanation": "Этот знак ограничивает время работы двигателя на холостом ходу, чтобы снизить выбросы и загрязнение.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "К какому пункту назначения указывает этот знак?",
+  "choices": [
+    "Подъезд к аэропорту",
+    "Паромный терминал",
+    "Военная база",
+    "Железнодорожная станция"
+  ],
+  "correctIndex": 0,
+  "explanation": "Значок самолёта направляет водителей к объектам аэропорта.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какую информацию этот символ сообщает другим водителям?",
+  "choices": [
+    "Водитель новичок или малоопытный",
+    "Транспортное средство движется медленно",
+    "Автомобиль используется только для обучения",
+    "Транспортное средство находится в ремонте"
+  ],
+  "correctIndex": 0,
+  "explanation": "Символ «N» обозначает начинающего водителя и призывает других к терпению.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое намерение показывает этот ручной сигнал?",
+  "choices": [
+    "Поворот налево",
+    "Поворот направо",
+    "Остановка",
+    "Уступить дорогу"
+  ],
+  "correctIndex": 0,
+  "explanation": "Рука, вытянутая прямо в сторону, показывает намерение водителя повернуть налево.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое действие должны выполнить водители?",
+  "choices": [
+    "Повернуть направо",
+    "Продолжить движение прямо",
+    "Повернуть налево",
+    "Сделать разворот"
+  ],
+  "correctIndex": 0,
+  "explanation": "Этот знак требует, чтобы все транспортные средства повернули направо в указанном месте.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
