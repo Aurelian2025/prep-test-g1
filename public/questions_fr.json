@@ -1,1 +1,104 @@
+[
+{
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "signs-regulatory",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Les virages à gauche sont autorisés seulement la nuit",
+    "Aucun virage à gauche n’est permis en tout temps",
+    "Une voie de virage à gauche commence plus loin",
+    "Les demi-tours sont permis avec prudence"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un cercle rouge avec une barre diagonale indique toujours une interdiction. La flèche pointant vers la gauche avec une barre signifie qu’aucun virage à gauche n’est permis.",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "rules-of-the-road",
+  "question": "À un panneau d’arrêt, où devez-vous vous arrêter si une ligne d’arrêt est peinte?",
+  "choices": [
+    "N’importe où avant l’intersection",
+    "À côté du poteau du panneau d’arrêt",
+    "À la ligne d’arrêt peinte",
+    "À mi-chemin dans l’intersection pour mieux voir"
+  ],
+  "correctIndex": 2,
+  "explanation": "Vous devez effectuer un arrêt complet à la ligne d’arrêt peinte. S’il n’y a pas de ligne d’arrêt, arrêtez-vous au passage pour piétons; s’il n’y en a pas, au bord du trottoir; s’il n’y en a pas, au bord de l’intersection.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "signs-regulatory",
+  "question": "Ce panneau apparaît plus loin. Que vous avertit-il?",
+  "choices": [
+    "Les bicyclettes sont interdites sur cette route",
+    "Attendez-vous à des cyclistes; la circulation à vélo peut traverser ou partager la route",
+    "Un sentier à usage partagé commence; les véhicules motorisés doivent s’arrêter",
+    "La voie cyclable se termine; fusionnez immédiatement à droite"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un symbole de bicyclette dans un losange jaune est un panneau d’avertissement indiquant de surveiller les cyclistes et d’être prêt à ralentir ou à céder le passage au besoin.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "alcohol-and-driving",
+  "question": "À la suite d’une première condamnation pour conduite avec facultés affaiblies, pendant combien de temps le permis de conduire est-il suspendu?",
+  "choices": [
+    "1 mois",
+    "3 mois",
+    "6 mois",
+    "1 an"
+  ],
+  "correctIndex": 3,
+  "explanation": "Une première condamnation pour conduite avec facultés affaiblies entraîne une suspension du permis d’un an, en plus d’autres pénalités comme des amendes et des programmes d’éducation obligatoires.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "signs-regulatory",
+  "question": "Vous voyez ce panneau à l’entrée d’une chaussée. Que devez-vous faire?",
+  "choices": [
+    "Avancer lentement et rester à droite",
+    "Entrer seulement si la circulation est légère",
+    "Ne pas entrer — la route est pour la circulation en sens inverse",
+    "S’arrêter puis avancer si la voie est libre"
+  ],
+  "correctIndex": 2,
+  "explanation": "Le cercle rouge avec une barre horizontale blanche signifie NE PAS ENTRER — vous faites face à la circulation en sens inverse (par exemple, à l’entrée interdite d’une rue à sens unique).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
