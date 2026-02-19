@@ -1622,68 +1622,67 @@
 },
 {
     "id": "q-bump-warning-86",
-    "question": "Ce panneau jaune apparaît avant une section de route. De quoi vous avertit-il?",
+    "question": "Esta señal amarilla aparece antes de un tramo de la carretera. ¿De qué le advierte?",
     "choices": [
-      "D’une bosse ou d’une élévation de la chaussée",
-      "D’un pont sans garde-fou",
-      "De gravier meuble sur l’accotement",
-      "D’un passage à niveau sans barrières"
+      "Un bache o elevación en la superficie de la carretera",
+      "Un puente sin barandilla",
+      "Grava suelta en el arcén",
+      "Un cruce ferroviario sin barreras"
     ],
     "correctIndex": 0,
-    "explanation": "Un panneau en losange jaune avec le mot BUMP ou un symbole de bosse avertit d’une élévation ou d’un creux soudain dans la route afin que vous puissiez ralentir et éviter de perdre le contrôle.",
+    "explanation": "Una señal amarilla en forma de rombo con la palabra BUMP o un símbolo de bache advierte de una elevación o depresión repentina en la carretera para que pueda reducir la velocidad y evitar perder el control.",
     "image": "/signs/bump-sign.jpg"
   },
   {
     "id": "q-construction-ahead-87",
-    "question": "Ce panneau orange apparaît sur le côté de la route. À quoi devez-vous vous attendre?",
+    "question": "Esta señal naranja aparece al lado de la carretera. ¿Qué debe esperar?",
     "choices": [
-      "Des travaux routiers ou une zone de construction plus loin",
-      "Un accotement pavé plus loin",
-      "Une aire de stationnement plus loin",
-      "La fin de toutes les limites de vitesse"
+      "Trabajos en la carretera o zona de construcción más adelante",
+      "Arcén pavimentado más adelante",
+      "Área de estacionamiento más adelante",
+      "Fin de todos los límites de velocidad"
     ],
     "correctIndex": 0,
-    "explanation": "Les panneaux de construction orange avertissent que vous entrez ou approchez d’une zone de travaux. Vous devez ralentir, surveiller les travailleurs et l’équipement et respecter les panneaux affichés.",
+    "explanation": "Las señales naranjas de construcción advierten que está entrando o acercándose a una zona de obras. Debe reducir la velocidad, estar atento a los trabajadores y equipos, y obedecer las señales.",
     "image": "/signs/construction-ahead.jpg"
   },
   {
     "id": "q-deer-crossing-88",
-    "question": "Vous voyez ce panneau avec un symbole d’animal sur une route rurale. De quoi vous avertit-il?",
+    "question": "Ve esta señal con el símbolo de un animal en una carretera rural. ¿De qué le advierte?",
     "choices": [
-      "Des cerfs peuvent traverser la route dans cette zone",
-      "Les animaux de ferme sont clôturés et ne peuvent pas traverser",
-      "Entrée du zoo plus loin",
-      "La chasse est autorisée sur la chaussée"
+      "Puede haber ciervos cruzando la carretera en esta zona",
+      "Los animales de granja están cercados y no pueden cruzar",
+      "Entrada al zoológico más adelante",
+      "Se permite la caza en la carretera"
     ],
     "correctIndex": 0,
-    "explanation": "Un symbole de cerf sur un panneau d’avertissement jaune signifie que des cerfs se trouvent souvent dans la région et peuvent traverser soudainement la route. Ralentissez et soyez prêt à vous arrêter.",
+    "explanation": "El símbolo de un ciervo en una señal amarilla de advertencia significa que los ciervos se encuentran comúnmente en la zona y pueden cruzar repentinamente la carretera. Reduzca la velocidad y prepárese para detenerse.",
     "image": "/signs/deer-crossing.jpg"
   },
  {
   "id": "q-two-way-left-turn-lane-89",
-  "question": "Que signifie ce panneau?",
+  "question": "¿Qué indica esta señal?",
   "choices": [
-    "La voie peut être utilisée seulement pour effectuer des virages à gauche dans les deux sens",
-    "La voie est destinée à dépasser les véhicules plus lents",
-    "Les virages à gauche sont interdits depuis cette voie",
-    "La voie devient une voie de virage à droite uniquement plus loin"
+    "El carril puede usarse solo para giros a la izquierda desde cualquiera de las dos direcciones",
+    "El carril es para adelantar vehículos más lentos",
+    "Los giros a la izquierda están prohibidos desde este carril",
+    "El carril se convierte en un carril solo para girar a la derecha más adelante"
   ],
   "correctIndex": 0,
-  "explanation": "Les flèches courbées opposées indiquent que les véhicules circulant dans les deux sens peuvent entrer dans cette voie exclusivement pour effectuer des virages à gauche.",
+  "explanation": "Las flechas curvas opuestas indican que los vehículos que circulan en cualquiera de las direcciones pueden entrar en el carril exclusivamente para hacer giros a la izquierda.",
    "image": "/signs/q-two-way-left-turn-lane.png"
 },
   {
   "id": "q-traffic-lights-ahead-90",
-  "question": "Quel est l’objectif de ce panneau d’avertissement?",
+  "question": "¿Cuál es el propósito de esta señal de advertencia?",
   "choices": [
-    "Avertir les conducteurs de feux de circulation plus loin",
-    "Indiquer un passage réservé aux piétons",
-    "Avertir d’un passage à niveau",
-    "Indiquer une fermeture de route plus loin"
+    "Alertar a los conductores de semáforos más adelante",
+    "Indicar un cruce solo para peatones",
+    "Advertir de un cruce ferroviario",
+    "Mostrar un cierre de carretera más adelante"
   ],
   "correctIndex": 0,
-  "explanation": "Ce panneau prépare les conducteurs à une intersection à venir contrôlée par des feux de circulation.",
+  "explanation": "Esta señal prepara a los conductores para una intersección próxima controlada por semáforos.",
    "image": "/signs/q-traffic-lights-ahead.png"
 },
 
-  
