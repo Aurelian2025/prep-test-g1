@@ -1360,4 +1360,69 @@
   "explanation": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣6个扣分点。",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-reverse-look-66",
+    "question": "倒车直行时，最佳的观察方式是：",
+    "choices": [
+      "只看后视镜",
+      "慢速倒车时通过后窗从右肩后方查看",
+      "看信息娱乐屏幕",
+      "只看侧后视镜"
+    ],
+    "correctIndex": 1,
+    "explanation": "倒车时转动身体，通过后窗从右肩后方查看，并在慢速倒车时注意周围情况。",
+    "image": "/signs/q-reverse-look-52.png"
+  },
+  {
+    "id": "q-left-turn-oncoming-67",
+    "question": "您在路口左转，迎面来车正在接近。您应该怎么做？",
+    "choices": [
+      "迅速在迎面来车前左转",
+      "驶入路口，只有在有安全空隙时或信号灯变为黄灯/红灯且迎面来车已停止后再转弯",
+      "从右侧车道左转以节省时间",
+      "在行人横道后停车，只等待绿色箭头"
+    ],
+    "correctIndex": 1,
+    "explanation": "在安全时驶入路口，让迎面来车和行人先行，只有在有安全空隙时才完成左转。",
+    "image": "/signs/q-left-turn-oncoming-53.png"
+  },
+  {
+    "id": "q-lane-change-mirror-68",
+    "question": "变更车道时的正确顺序是什么？",
+    "choices": [
+      "打转向灯，肩部检查，查看后视镜，变道",
+      "查看后视镜，打转向灯，检查盲点（肩部检查），在安全时变道",
+      "变道，然后打转向灯，然后查看后视镜",
+      "只进行肩部检查"
+    ],
+    "correctIndex": 1,
+    "explanation": "查看后视镜，打转向灯，检查盲点（肩部检查），然后在安全时进入车道。",
+    "image": "/signs/q-lane-change-mirror-54.png"
+  },
+  {
+    "id": "q-roundabout-signal-exit-69",
+    "question": "在环形交叉路口应何时打转向灯？",
+    "choices": [
+      "在环岛内行驶时打左转向灯",
+      "在即将驶出前打右转向灯",
+      "完全不打转向灯",
+      "在环岛内打开危险警示灯"
+    ],
+    "correctIndex": 1,
+    "explanation": "当经过您计划驶出的前一个出口时打右转向灯，以表明您将驶出环岛。",
+    "image": "/signs/q-roundabout-signal-exit-55.png"
+  },
+  {
+  "id": "q-demerit-speeding-50-plus-70",
+  "question": "超速50公里/小时或以上会被扣多少分？",
+  "choices": [
+    "4分",
+    "5分",
+    "6分",
+    "7分"
+  ],
+  "correctIndex": 2,
+  "explanation": "超速50公里/小时或以上会被扣6分。",
+  "image": "/signs/q-speed-50plus-108.png"
+},
 
