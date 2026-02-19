@@ -101,4 +101,113 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "demerit-points",
+  "question": "未留在碰撞现场会被记多少扣分？",
+  "choices": [
+    "2 分扣分",
+    "3 分扣分",
+    "6 分扣分",
+    "7 分扣分"
+  ],
+  "correctIndex": 3,
+  "explanation": "未留在碰撞现场将被记 7 分扣分。",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "signs-regulatory",
+  "question": "前方出现此标志。对您行驶方向的交通意味着什么？",
+  "choices": [
+    "前方绕行——将车速降至 30 公里/小时",
+    "道路对所有车辆封闭——不要继续前行",
+    "此路禁止停车",
+    "允许临时施工通行"
+  ],
+  "correctIndex": 1,
+  "explanation": "“道路封闭”标志表示该道路对交通关闭。不要继续前行；请按照绕行标志或指示行驶。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "rules-of-the-road",
+  "question": "在良好条件下，大多数乘用车的最小安全跟车距离是多少？",
+  "choices": [
+    "在前车后方一秒",
+    "在前车后方两秒",
+    "任何车速下三车长",
+    "仅在高速公路上五秒"
+  ],
+  "correctIndex": 1,
+  "explanation": "在良好条件下，至少使用两秒规则来保持安全的跟车距离。在恶劣天气或能见度低时应增加间距。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "signs-regulatory",
+  "question": "带有弯曲箭头的黄色菱形标志表示：",
+  "choices": [
+    "前方道路笔直",
+    "前方道路有一系列弯道；减速并谨慎驾驶",
+    "前方只有一个急弯",
+    "前方有铺装路肩"
+  ],
+  "correctIndex": 1,
+  "explanation": "弯曲道路标志警告前方有多个弯道。请减速并准备随时改变方向。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "rules-of-the-road",
+  "question": "接近环形交叉路口时，在进入前必须怎么做？",
+  "choices": [
+    "快速进入并占据车道",
+    "即使没有车辆也在入口车道停车",
+    "让行已在环岛内的车辆和行人，在有安全间隙时进入",
+    "打左转向灯并立即进入"
+  ],
+  "correctIndex": 2,
+  "explanation": "减速并让行环岛内的车辆和行人。只有在有安全间隙时才进入；驶出时打右转向灯。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
 
