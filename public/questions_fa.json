@@ -553,4 +553,116 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "یک نگهبان گذرگاه مدرسه با در دست داشتن علامت توقف قرمز و سفید وارد جاده می‌شود. شما باید چه کار کنید؟",
+    "choices": [
+      "اگر کودکی در گذرگاه عابر پیاده نیست، سرعت را کم کنید و با احتیاط عبور کنید",
+      "توقف کنید، سپس اگر نگهبان فقط به کودکان اشاره کرد، حرکت کنید",
+      "پیش از گذرگاه توقف کنید و تا زمانی که همه افراد، از جمله نگهبان، کاملاً از مسیر خارج نشده‌اند و حرکت ایمن نباشد، در حالت توقف بمانید",
+      "برای هشدار دادن به دیگران بوق بزنید و حرکت کنید"
+    ],
+    "correctIndex": 2,
+    "explanation": "شما باید پیش از رسیدن به گذرگاه توقف کنید و تا زمانی که همه افراد — از جمله نگهبان گذرگاه مدرسه — کاملاً از مسیر خارج نشده‌اند و ادامه حرکت ایمن نباشد، در حالت توقف بمانید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یک علامت مستطیلی با فلشی که دور یک جزیره ترافیکی می‌چرخد و کلمات 'KEEP RIGHT' روی آن نوشته شده است، به این معناست:",
+    "choices": [
+      "می‌توانید از هر طرف عبور کنید",
+      "ترافیک باید در سمت راست جزیره یا مانع حرکت کند",
+      "فقط گردش به چپ",
+      "گردش به راست ممنوع است"
+    ],
+    "correctIndex": 1,
+    "explanation": "این علامت به این معناست که باید در سمت راست جزیره ترافیکی یا مانع حرکت کنید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "هنگام نزدیک شدن به علامت حق تقدم (YIELD) و در صورت وجود ترافیک عبوری، چه باید بکنید؟",
+    "choices": [
+      "اگر راهنما بزنید، بدون توقف ادامه دهید",
+      "سرعت را کم کنید، آماده توقف باشید و به وسایل نقلیه و عابران پیاده حق تقدم بدهید؛ در صورت لزوم توقف کنید",
+      "همیشه حداقل سه ثانیه به طور کامل توقف کنید",
+      "برای ادغام قبل از سایر وسایل نقلیه سرعت بگیرید"
+    ],
+    "correctIndex": 1,
+    "explanation": "علامت حق تقدم به این معناست که باید سرعت را کم کنید، آماده توقف باشید و به ترافیک جاده‌ای که وارد آن می‌شوید و همچنین به عابران پیاده حق تقدم بدهید. در صورت نیاز توقف کنید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "رانندگان در جلو باید برای چه چیزی آماده باشند؟",
+  "choices": [
+    "پلی که ممکن است برای عبور قایق‌ها باز شود",
+    "پلی که به طور دائم بسته است",
+    "عبور با کشتی",
+    "ساخت‌وساز جاده"
+  ],
+  "correctIndex": 0,
+  "explanation": "این علامت هشدار می‌دهد که یک پل متحرک ممکن است باز شود و وسایل نقلیه باید توقف کرده و منتظر بمانند.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "عدم توقف هنگام اشاره یا دستور افسر پلیس منجر به چند امتیاز منفی می‌شود؟",
+  "choices": [
+    "3 امتیاز منفی",
+    "5 امتیاز منفی",
+    "7 امتیاز منفی",
+    "9 امتیاز منفی"
+  ],
+  "correctIndex": 2,
+  "explanation": "عدم توقف هنگام اشاره یا دستور افسر پلیس منجر به 7 امتیاز منفی می‌شود.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
