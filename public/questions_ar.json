@@ -101,3 +101,112 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "demerit-points",
+  "question": "عدم البقاء في موقع التصادم يؤدي إلى كم نقطة جزائية؟",
+  "choices": [
+    "نقطتان جزائيتان",
+    "3 نقاط جزائية",
+    "6 نقاط جزائية",
+    "7 نقاط جزائية"
+  ],
+  "correctIndex": 3,
+  "explanation": "عدم البقاء في موقع التصادم يؤدي إلى 7 نقاط جزائية.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "signs-regulatory",
+  "question": "ترى هذه الإشارة أمامك. ماذا تعني لحركة المرور في اتجاهك؟",
+  "choices": [
+    "تحويلة أمامك — خفّض السرعة إلى 30 كم/س",
+    "الطريق مغلق أمام جميع المركبات — لا تتابع السير",
+    "ممنوع التوقف على هذا الطريق",
+    "مسموح دخول مؤقت لأعمال البناء"
+  ],
+  "correctIndex": 1,
+  "explanation": "تعني إشارة «الطريق مغلق» أن الطريق مغلق أمام حركة المرور. لا تتابع السير؛ اتبع التحويلات أو التعليمات الموضوعة.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "rules-of-the-road",
+  "question": "ما هي أقل مسافة متابعة آمنة في ظروف جيدة لمعظم مركبات الركاب؟",
+  "choices": [
+    "ثانية واحدة خلف المركبة الأمامية",
+    "ثانيتان خلف المركبة الأمامية",
+    "ثلاثة أطوال سيارة عند أي سرعة",
+    "خمس ثوانٍ فقط على الطرق السريعة"
+  ],
+  "correctIndex": 1,
+  "explanation": "استخدم على الأقل قاعدة الثانيتين للحفاظ على مسافة متابعة آمنة في الظروف الجيدة. زِد المسافة في الطقس السيئ أو عند ضعف الرؤية.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "signs-regulatory",
+  "question": "تعني إشارة ماسية صفراء يظهر عليها سهم متعرج:",
+  "choices": [
+    "الطريق أمامك مستقيم",
+    "الطريق أمامك يحتوي على سلسلة من المنحنيات؛ خفّض السرعة وقد بحذر",
+    "منعطف حاد واحد فقط أمامك",
+    "كتف طريق معبّد أمامك"
+  ],
+  "correctIndex": 1,
+  "explanation": "تشير علامة الطريق المتعرج إلى وجود عدة منحنيات أمامك. خفّض السرعة واستعد لتغيير الاتجاه.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "rules-of-the-road",
+  "question": "عند الاقتراب من دوّار، ماذا يجب أن تفعل قبل الدخول؟",
+  "choices": [
+    "ادخل بسرعة واحتل مسارك",
+    "توقف في مسار الدخول حتى لو لم يكن هناك أحد",
+    "أعطِ الأفضلية للمركبات داخل الدوّار وللمشاة، وادخل عندما تتوفر فجوة آمنة",
+    "أشر إلى اليسار وادخل فورًا"
+  ],
+  "correctIndex": 2,
+  "explanation": "خفّض السرعة وأعطِ الأفضلية لحركة المرور داخل الدوّار وللمشاة. ادخل فقط عند توفر فجوة آمنة؛ ثم أشر إلى اليمين عند الخروج.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
