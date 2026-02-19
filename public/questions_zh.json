@@ -1686,4 +1686,72 @@
   "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
    "image": "/signs/q-traffic-lights-ahead.png"
 },
+{
+  "id": "q-traffic-lights-ahead-91",
+  "question": "这个警告标志的目的是什么？",
+  "choices": [
+    "提醒驾驶员前方有交通信号灯",
+    "表示前方是仅供行人使用的过道",
+    "警告前方有铁路道口",
+    "显示前方道路封闭"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
+  "image": "/signs/q-traffic-lights-ahead.png"
+},
 
+{
+  "id": "q-school-zone-92",
+  "question": "看到这个标志时，驾驶员应准备什么？",
+  "choices": [
+    "道路附近可能有儿童",
+    "前方有卡车检查站",
+    "游乐场已关闭",
+    "骑自行车的人必须下车推行"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员在学校区域要减速并保持警惕，因为可能有儿童出现。",
+  "image": "/signs/q-school-zone.png"
+},
+
+{
+  "id": "q-hidden-intersection-93",
+  "question": "为什么在这个位置需要格外小心？",
+  "choices": [
+    "侧路可能难以看见",
+    "交通信号灯故障",
+    "道路变为分隔式",
+    "前方有收费站"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志警告驾驶员，前方的交叉路口可能不容易被看见。",
+  "image": "/signs/q-hidden-intersection.png"
+},
+
+{
+  "id": "q-no-passing-94",
+  "question": "这个标志限制了哪种驾驶行为？",
+  "choices": [
+    "超车",
+    "低于限速行驶",
+    "使用前灯",
+    "左转"
+  ],
+  "correctIndex": 0,
+  "explanation": "该管制标志明确表示在此区域内不允许超越其他车辆。",
+  "image": "/signs/q-no-passing.png"
+},
+
+{
+  "id": "q-right-left-curve-ahead-95",
+  "question": "这个标志描述了什么道路情况？",
+  "choices": [
+    "一系列弯道，先向右再向左",
+    "只有一个急右弯",
+    "前方有环形交叉路口",
+    "前方开始并入车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员道路将连续两次弯曲，应相应调整车速。",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
