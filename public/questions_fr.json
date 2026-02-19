@@ -1755,5 +1755,72 @@
   "explanation": "Les conducteurs sont avertis que la route fera deux virages et doivent ajuster leur vitesse en conséquence.",
   "image": "/signs/q-right-left-curve-ahead.png"
 },
-  
+{
+  "id": "q-stop-ahead-96",
+  "question": "Que doit s’attendre à voir un conducteur après avoir vu ce panneau ?",
+  "choices": [
+    "Un panneau d’arrêt un peu plus loin",
+    "Un panneau de cédez le passage plus loin",
+    "Un passage pour piétons seulement",
+    "Un feu vert"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau d’avertissement avancé donne aux conducteurs le temps de se préparer à s’arrêter.",
+  "image": "/signs/stop-ahead.jpg"
+},
+
+{
+  "id": "q-permitted-action-97",
+  "question": "Quelle est la signification générale d’un panneau de signalisation en cercle vert ?",
+  "choices": [
+    "Un mouvement ou une action est autorisé",
+    "Un danger existe plus loin",
+    "La circulation doit s’arrêter",
+    "La route est fermée"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux en cercle vert indiquent les actions que les conducteurs sont autorisés à effectuer.",
+  "image": "/signs/q-permitted-action.png"
+},
+
+{
+  "id": "q-red-light-camera-98",
+  "question": "Pourquoi ce panneau est-il installé à une intersection ?",
+  "choices": [
+    "Pour avertir qu’une caméra contrôle les infractions aux feux rouges",
+    "Pour indiquer que le signal est contrôlé par les piétons",
+    "Pour indiquer uniquement des feux clignotants",
+    "Pour signaler un passage scolaire"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le panneau informe les conducteurs que brûler un feu rouge peut entraîner une infraction enregistrée.",
+  "image": "/signs/q-red-light-camera.png"
+},
+
+{
+  "id": "q-truck-entrance-99",
+  "question": "Quel danger potentiel ce panneau met-il en évidence ?",
+  "choices": [
+    "De gros camions peuvent entrer sur la chaussée",
+    "Le stationnement réservé aux camions commence",
+    "Poste de pesée plus loin",
+    "Les camions sont interdits"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent être attentifs aux camions lents ou qui tournent près des entrées.",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-100",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Seule la voie de droite peut continuer tout droit",
+    "Les virages à droite sont interdits depuis la voie de droite",
+    "Les véhicules dans la voie de droite doivent prendre la sortie",
+    "La voie de droite est réservée aux véhicules lents"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau-guide vert informe les conducteurs que la circulation dans la voie de droite doit obligatoirement prendre la sortie. Les conducteurs qui ne souhaitent pas sortir doivent changer de voie à l’avance.",
+  "image": "/signs/right-lane-must-exit.png"
+},  
 
