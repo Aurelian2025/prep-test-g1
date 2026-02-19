@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Этот знак установлен у въезда на дорогу. Что он означает?",
+    "choices": [
+      "Пешеходам запрещено переходить",
+      "Пешеходы должны переходить только у этого знака",
+      "Впереди пешеходный переход",
+      "Пешеходы имеют преимущество"
+    ],
+    "correctIndex": 0,
+    "explanation": "Символ пешехода в красном круге с диагональной линией означает, что пешеходам запрещено находиться в этой зоне.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Вы видите этот знак у входа на зимнюю трассу. Что он означает?",
+    "choices": [
+      "Снегоходам запрещено движение за этим знаком",
+      "Снегоходы должны снизить скорость",
+      "Начало трассы для снегоходов",
+      "Снегоходы имеют приоритет над другими транспортными средствами"
+    ],
+    "correctIndex": 0,
+    "explanation": "Символ снегохода в красном круге с диагональной линией означает, что снегоходам запрещено движение за этим знаком.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Вы видите этот знак на перекрёстке. Что он означает?",
+    "choices": [
+      "Поворот направо на этом перекрёстке запрещён",
+      "Поворот направо разрешён только на зелёный сигнал",
+      "Вы должны повернуть направо на перекрёстке",
+      "Правая полоса заканчивается впереди"
+    ],
+    "correctIndex": 0,
+    "explanation": "Чёрная стрелка поворота направо в красном круге с диагональной линией — это регулирующий знак, означающий, что поворот направо запрещён там, где действует знак.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Что этот знак сообщает водителям о разворотах?",
+    "choices": [
+      "Развороты запрещены",
+      "Развороты разрешены только ночью",
+      "Развороты разрешены, если нет движения",
+      "Разворот обязателен на следующем перекрёстке"
+    ],
+    "correctIndex": 0,
+    "explanation": "Изогнутая стрелка в форме U в красном круге с диагональной линией — это регулирующий знак, означающий, что развороты запрещены там, где действует знак.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Какие дорожные условия могут быть впереди?",
+    "choices": [
+      "Вода может пересекать проезжую часть",
+      "Мост обрушился",
+      "Требуется переправа на пароме",
+      "Дорога постоянно затоплена"
+    ],
+    "correctIndex": 0,
+    "explanation": "Этот знак предупреждает водителей о том, что скопление воды может повлиять на сцепление и видимость.",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
