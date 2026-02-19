@@ -1425,4 +1425,69 @@
   "explanation": "超速50公里/小时或以上会被扣6分。",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-bicycle-passing-distance-71",
+    "question": "超越骑自行车的人时，最佳做法是什么？",
+    "choices": [
+      "尽量贴近通过以保持在自己的车道内",
+      "减速并留出充足空间，如有需要且安全时变更车道",
+      "一直鸣喇叭直到骑车人让开",
+      "从骑车人的右侧超车"
+    ],
+    "correctIndex": 1,
+    "explanation": "超越骑自行车的人时应减速并保持较大安全距离，在安全的情况下可部分或完全进入旁边车道。",
+    "image": "/signs/q-bicycle-passing-distance-57.png"
+  },
+  {
+    "id": "q-animal-avoid-swerve-72",
+    "question": "一只动物突然跑到路上。最安全的一般做法是什么？",
+    "choices": [
+      "猛打方向盘驶入对向车道",
+      "直线用力刹车，并在安全情况下准备停车",
+      "关闭车灯",
+      "加速更快通过"
+    ],
+    "correctIndex": 1,
+    "explanation": "应直线刹车，避免转向驶入迎面来车或冲出道路，这可能导致更严重的碰撞。",
+    "image": "/signs/q-animal-avoid-swerve-58.png"
+  },
+  {
+    "id": "q-black-ice-73",
+    "question": "黑冰是：",
+    "choices": [
+      "可以安全驾驶的冰面",
+      "路面上一层薄而几乎看不见的冰",
+      "只在白天形成的冰",
+      "只在碎石路上能看到的冰"
+    ],
+    "correctIndex": 1,
+    "explanation": "黑冰是路面上一层几乎看不见的薄冰。在可能形成黑冰的情况下，应减速并平稳驾驶。",
+    "image": "/signs/q-black-ice-59.png"
+  },
+  {
+    "id": "q-fog-high-beam-74",
+    "question": "为什么在雾中应避免使用远光灯？",
+    "choices": [
+      "亮度不够",
+      "远光灯会被雾气反射，降低前方能见度",
+      "会使灯泡过热",
+      "会消耗过多燃油"
+    ],
+    "correctIndex": 1,
+    "explanation": "远光灯会被雾滴反射，使视线更加模糊。应使用近光灯并减速行驶。",
+    "image": "/signs/q-fog-high-beam-60.png"
+  },
+  {
+  "id": "q-demerit-school-bus-stop-75",
+  "question": "未为校车停车会被扣多少记分？",
+  "choices": [
+    "扣3分",
+    "扣4分",
+    "扣5分",
+    "扣6分"
+  ],
+  "correctIndex": 3,
+  "explanation": "未为校车停车会被扣6分。",
+  "image": "/signs/q-school-bus-204.png"
+},
 
