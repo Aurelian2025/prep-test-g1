@@ -1424,3 +1424,68 @@
   "explanation": "Exceder la velocidad en 50 km/h o más sobre el límite resulta en 6 puntos de demérito.",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-bicycle-passing-distance-71",
+    "question": "Al adelantar a un ciclista, ¿cuál es la mejor práctica?",
+    "choices": [
+      "Pasar lo más cerca posible para permanecer en su carril",
+      "Reducir la velocidad y dejar mucho espacio, cambiando de carril si es necesario y seguro",
+      "Tocar la bocina hasta que el ciclista se aparte",
+      "Adelantar al ciclista por la derecha"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reduzca la velocidad y deje un amplio espacio al adelantar a ciclistas, moviéndose parcial o completamente al carril siguiente cuando sea seguro.",
+    "image": "/signs/q-bicycle-passing-distance-57.png"
+  },
+  {
+    "id": "q-animal-avoid-swerve-72",
+    "question": "Un animal irrumpe repentinamente en la carretera. ¿Cuál es la respuesta general más segura?",
+    "choices": [
+      "Girar bruscamente hacia el carril contrario",
+      "Frenar con firmeza en línea recta y estar preparado para detenerse si es seguro",
+      "Apagar los faros",
+      "Acelerar para pasar más rápido"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frene en línea recta y evite desviarse hacia el tráfico que viene en sentido contrario o fuera de la carretera, lo que puede causar una colisión más grave.",
+    "image": "/signs/q-animal-avoid-swerve-58.png"
+  },
+  {
+    "id": "q-black-ice-73",
+    "question": "El hielo negro es:",
+    "choices": [
+      "Hielo sobre el que es seguro conducir",
+      "Una capa delgada y casi invisible de hielo en la carretera",
+      "Hielo que solo se forma durante el día",
+      "Hielo que solo se ve en caminos de grava"
+    ],
+    "correctIndex": 1,
+    "explanation": "El hielo negro es una capa casi invisible de hielo sobre el pavimento. Reduzca la velocidad y conduzca suavemente en condiciones en las que pueda formarse.",
+    "image": "/signs/q-black-ice-59.png"
+  },
+  {
+    "id": "q-fog-high-beam-74",
+    "question": "¿Por qué debe evitar usar las luces altas en la niebla?",
+    "choices": [
+      "No son lo suficientemente brillantes",
+      "Se reflejan en la niebla y reducen su capacidad para ver hacia adelante",
+      "Sobrecalientan las bombillas",
+      "Consumen demasiado combustible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Las luces altas se reflejan en las gotas de niebla y pueden dificultar la visión. Use las luces bajas y reduzca la velocidad.",
+    "image": "/signs/q-fog-high-beam-60.png"
+  },
+  {
+  "id": "q-demerit-school-bus-stop-75",
+  "question": "No detenerse ante un autobús escolar resulta en cuántos puntos de demérito?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "No detenerse ante un autobús escolar resulta en 6 puntos de demérito.",
+  "image": "/signs/q-school-bus-204.png"
+},
