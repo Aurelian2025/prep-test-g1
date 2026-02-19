@@ -775,4 +775,113 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Знак предупреждает: «Мост замерзает раньше дороги». Что вы должны сделать?",
+    "choices": [
+      "Ускориться, чтобы быстрее проехать",
+      "Резко затормозить перед мостом",
+      "Снизить скорость и избегать резких движений на мосту",
+      "Ехать по центру дороги"
+    ],
+    "correctIndex": 2,
+    "explanation": "Мосты замерзают первыми. Снизьте скорость и избегайте резкого торможения или резкого поворота руля на мосту.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Ваши шины начинают аквапланировать на мокрой дороге. Что вы должны сделать?",
+    "choices": [
+      "Резко затормозить и резко повернуть",
+      "Отпустить газ и держать колёса прямо, пока сцепление не восстановится",
+      "Ускориться, чтобы восстановить сцепление",
+      "Крутить руль туда-сюда, чтобы стряхнуть воду"
+    ],
+    "correctIndex": 1,
+    "explanation": "Отпустите педаль газа и держите колёса прямо, пока сцепление не восстановится.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "За какое расстояние до поворота или смены полосы нужно включать сигнал поворота?",
+    "choices": [
+      "Не менее 30 метров (100 футов)",
+      "Прямо в момент поворота руля",
+      "За пять длин автомобиля",
+      "Только если кто-то едет позади вас"
+    ],
+    "correctIndex": 0,
+    "explanation": "Подавайте сигнал заранее — не менее чем за 30 метров (100 футов) до поворота или смены полосы.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Когда следует использовать звуковой сигнал?",
+    "choices": [
+      "Чтобы поприветствовать друга",
+      "Чтобы предупредить других о возможной опасности",
+      "Когда загорится зелёный свет",
+      "Когда вы злитесь на других водителей"
+    ],
+    "correctIndex": 1,
+    "explanation": "Используйте звуковой сигнал только для предупреждения других, когда это необходимо, чтобы избежать столкновения.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Участие в гонках приводит к скольким штрафным баллам?",
+  "choices": [
+    "3 штрафных балла",
+    "4 штрафных балла",
+    "6 штрафных баллов",
+    "7 штрафных баллов"
+  ],
+  "correctIndex": 2,
+  "explanation": "Участие в гонках приводит к 6 штрафным баллам.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
