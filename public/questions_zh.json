@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "该标志设置在道路入口处。它表示什么？",
+    "choices": [
+      "禁止行人通行",
+      "行人必须只在此标志处过街",
+      "前方有人行横道",
+      "行人拥有优先通行权"
+    ],
+    "correctIndex": 0,
+    "explanation": "红色圆圈内带斜杠的行人图案表示该区域禁止行人通行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "你在冬季小径入口处看到此标志。它表示什么？",
+    "choices": [
+      "此标志之后禁止雪地摩托通行",
+      "雪地摩托必须减速",
+      "雪地摩托小径开始",
+      "雪地摩托优先于其他车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "红色圆圈内带斜杠的雪地摩托图案表示该标志之后禁止雪地摩托通行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "你在路口看到此标志。它表示什么？",
+    "choices": [
+      "该路口禁止右转",
+      "仅在绿灯时允许右转",
+      "你必须在路口右转",
+      "前方右侧车道结束"
+    ],
+    "correctIndex": 0,
+    "explanation": "红色圆圈带斜杠内的黑色右转箭头是一个管制标志，表示在标志适用的地方禁止右转。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "此标志告诉驾驶员关于掉头的什么信息？",
+    "choices": [
+      "禁止掉头",
+      "仅在夜间允许掉头",
+      "如果没有来车则允许掉头",
+      "在下一个路口必须掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "带有红色圆圈和斜杠的U形弯箭头是一个管制标志，表示在标志适用的地方禁止掉头。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "前方可能出现什么驾驶状况？",
+    "choices": [
+      "道路上可能有水流经过",
+      "桥梁已坍塌",
+      "需要乘坐渡船通行",
+      "道路永久被淹没"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员，积水可能会影响抓地力和能见度。",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
