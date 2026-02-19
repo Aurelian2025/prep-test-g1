@@ -1235,10 +1235,7 @@
 
 {
   "id": "q-snowmobiles-permitted-56",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "What type of vehicle use is allowed here?",
+    "question": "What type of vehicle use is allowed here?",
   "choices": [
     "Snowmobile travel is permitted",
     "Snowmobiles must stop",
@@ -1247,20 +1244,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The green circle and snowmobile symbol show that snowmobiles are allowed on this route.",
-  "sources": [
-    {
-      "title": "Snowmobile Use Regulations",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-snowmobiles-permitted.png"
+    "image": "/signs/q-snowmobiles-permitted.png"
 },
 
 {
   "id": "q-bicycles-permitted-57",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign tell road users?",
   "choices": [
     "Cyclists are allowed to travel here",
@@ -1270,12 +1258,6 @@
   ],
   "correctIndex": 0,
   "explanation": "A green circle indicates permission; the bicycle symbol confirms cyclists may use this roadway or lane.",
-  "sources": [
-    {
-      "title": "Cycling Regulations — Ontario",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-bicycles-permitted.png"
 },
 
