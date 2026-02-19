@@ -1556,4 +1556,69 @@
   "explanation": "图中从悬崖落下的石头提醒驾驶员前方可能有落石危险。",
   "image": "/signs/q-falling-rocks.png"
 },
+{
+  "id": "q-hidden-intersection-81",
+  "question": "此警告标志表示什么？",
+  "choices": [
+    "前方有一个隐藏的交叉路口，可能有车辆突然驶出",
+    "前方不远处有休息区",
+    "只允许右转",
+    "道路将变为单行道"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员前方的侧路或交叉路口不易看见，需要格外小心。",
+  "image": "/signs/q-hidden-intersection.png"
+},
+  {
+  "id": "q-novice-driver-n-82",
+  "question": "此标志表示什么？",
+  "choices": [
+    "该车辆由新手司机驾驶",
+    "该车辆只能以低速行驶",
+    "该车辆属于驾驶学校",
+    "只有新车才能进入此区域"
+  ],
+  "correctIndex": 0,
+  "explanation": "一个大的“N”表示有新手或缺乏经验的驾驶员在驾驶，提醒其他车辆给予更多空间。",
+  "image": "/signs/q-novice-driver.png"
+},
+  {
+  "id": "q-no-stopping-between-arrows-83",
+  "question": "此标志是什么意思？",
+  "choices": [
+    "仅允许为上下乘客而短暂停车",
+    "箭头之间禁止停车",
+    "允许停车但不允许临时停靠",
+    "只允许在夜间停车"
+  ],
+  "correctIndex": 1,
+  "explanation": "带斜杠的红色圆圈覆盖在停车符号上，表示在箭头所指示的范围内任何地方都禁止停车。",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
+  {
+    "id": "q-ped-crossing-84",
+    "question": "在城市街道上驾驶时看到此标志，它表示什么？",
+    "choices": [
+      "前方有人行横道",
+      "此点之后禁止行人通行",
+      "仅为学校区域",
+      "行人必须让车辆先行"
+    ],
+    "correctIndex": 0,
+    "explanation": "黄色菱形标志上有行走的人，表示有人行横道区域。准备减速或停车，让行人通过道路。",
+    "image": "/signs/pedestrian-crossing.jpg"
+  },
+  {
+  "id": "q-no-stopping-between-arrows-85",
+  "question": "驾驶员应如何应对此标志？",
+  "choices": [
+    "车辆可以短暂停车接送乘客",
+    "驾驶员不得在箭头所示范围内任何地方停车",
+    "非高峰时段允许停车",
+    "仅允许为送货而停车"
+  ],
+  "correctIndex": 1,
+  "explanation": "该符号表示在箭头标示的路段上完全禁止停车。",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
 
