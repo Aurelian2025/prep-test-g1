@@ -553,4 +553,116 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Школьный регулировщик выходит на дорогу с красно-белым знаком «СТОП». Что вы должны сделать?",
+    "choices": [
+      "Снизить скорость и осторожно проехать, если на пешеходном переходе нет детей",
+      "Остановиться, затем продолжить движение, если регулировщик пропускает только детей",
+      "Остановиться перед переходом и оставаться остановленным, пока все, включая регулировщика, полностью не покинут проезжую часть и движение не станет безопасным",
+      "Посигналить, чтобы предупредить других, и продолжить движение"
+    ],
+    "correctIndex": 2,
+    "explanation": "Вы должны остановиться перед переходом и оставаться остановленным, пока все люди — включая школьного регулировщика — полностью не покинут проезжую часть и движение не станет безопасным.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Прямоугольный знак со стрелкой, огибающей островок безопасности, и словами «KEEP RIGHT» означает:",
+    "choices": [
+      "Можно проехать с любой стороны",
+      "Движение должно держаться правой стороны островка или препятствия",
+      "Только поворот налево",
+      "Поворот направо запрещён"
+    ],
+    "correctIndex": 1,
+    "explanation": "Знак означает, что вы должны держаться правой стороны островка безопасности или препятствия.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "При приближении к знаку YIELD и наличии поперечного движения. Что вы должны сделать?",
+    "choices": [
+      "Продолжить движение без остановки, если подали сигнал",
+      "Снизить скорость, быть готовым остановиться и уступить дорогу транспорту и пешеходам; при необходимости остановиться",
+      "Всегда полностью останавливаться как минимум на три секунды",
+      "Ускориться, чтобы встроиться раньше других автомобилей"
+    ],
+    "correctIndex": 1,
+    "explanation": "Знак YIELD означает, что вы должны снизить скорость, быть готовым остановиться и уступить дорогу транспорту на дороге, на которую вы въезжаете, и пешеходам. При необходимости остановитесь.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "К чему водители должны быть готовы впереди?",
+  "choices": [
+    "Мост, который может открываться для пропуска судов",
+    "Мост, постоянно закрытый",
+    "Паромная переправа",
+    "Дорожные работы"
+  ],
+  "correctIndex": 0,
+  "explanation": "Этот знак предупреждает, что разводной мост может открыться, и транспортным средствам придётся остановиться и подождать.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Неподчинение требованию полицейского остановиться приводит к скольким штрафным баллам?",
+  "choices": [
+    "3 штрафных балла",
+    "5 штрафных баллов",
+    "7 штрафных баллов",
+    "9 штрафных баллов"
+  ],
+  "correctIndex": 2,
+  "explanation": "Неподчинение требованию полицейского остановиться приводит к 7 штрафным баллам.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
