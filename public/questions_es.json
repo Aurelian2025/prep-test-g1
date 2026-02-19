@@ -1489,3 +1489,69 @@
   "explanation": "No detenerse ante un autobús escolar resulta en 6 puntos de demérito.",
   "image": "/signs/q-school-bus-204.png"
 },
+{
+    "id": "q-abs-brakes-76",
+    "question": "En un vehículo con ABS (sistema de frenos antibloqueo), ¿cómo debe frenar en una parada de emergencia?",
+    "choices": [
+      "Bombear el pedal del freno rápidamente",
+      "Presionar el pedal del freno firmemente y mantenerlo mientras dirige",
+      "Usar solo el freno de estacionamiento",
+      "Cambiar a neutral y dejar que el vehículo avance por inercia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Con ABS, aplique una presión firme y continua al pedal del freno y dirija el vehículo hacia donde desea ir.",
+    "image": "/signs/q-abs-brakes-62.png"
+  },
+  {
+  "id": "q-disabled-truck-warning-distance-77",
+  "question": "Si un camión queda inmovilizado en una carretera donde el límite de velocidad es superior a 60 km/h, ¿a qué distancia aproximada delante y detrás del vehículo deben colocarse dispositivos de advertencia como bengalas o reflectores?",
+  "choices": [
+    "15 m (50 ft.)",
+    "30 m (100 ft.)",
+    "60 m (200 ft.)",
+    "90 m (300 ft.)"
+  ],
+  "correctIndex": 3,
+  "explanation": "En carreteras donde el límite de velocidad supera los 60 km/h, los dispositivos de advertencia deben colocarse a unos 30 m (100 ft.) delante y detrás de un camión inmovilizado para dar aviso adecuado a los conductores que se acercan.",
+  "image": "/signs/q-disabled-truck-warning-distance.png"
+},
+
+  {
+    "id": "q-night-meeting-78",
+    "question": "Por la noche, ¿cuándo debe bajar las luces altas para un vehículo que viene en sentido contrario?",
+    "choices": [
+      "Cuando esté aproximadamente a una cuadra (unos 150 metros)",
+      "Solo cuando el otro conductor haga señales con las luces",
+      "Cuando el otro vehículo esté justo frente a usted",
+      "Nunca; las luces altas deben permanecer encendidas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Baje las luces altas cuando esté a unos 150 metros del tráfico que viene en sentido contrario para no deslumbrar a otros conductores.",
+    "image": "/signs/q-night-meeting-64.png"
+  },
+  {
+    "id": "q-demerit-red-light-79",
+    "question": "Usted pasa por una luz roja fija después de que cambia y es declarado culpable. ¿Cuántos puntos de demérito recibe?",
+    "choices": [
+      "2 puntos de demérito",
+      "3 puntos de demérito",
+      "4 puntos de demérito",
+      "6 puntos de demérito"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pasarse un semáforo en rojo en Ontario se considera no obedecer una señal de tráfico y conlleva 3 puntos de demérito.",
+    "image": "/signs/traffic-signal-ahead.jpg"
+  },
+  {
+  "id": "q-falling-rocks-80",
+  "question": "¿Qué indica esta señal de advertencia?",
+  "choices": [
+    "Puede haber desprendimientos de rocas o escombros más adelante",
+    "El pavimento es extremadamente irregular",
+    "Se están realizando explosiones de construcción",
+    "Debe dar la vuelta debido al cierre de la carretera"
+  ],
+  "correctIndex": 0,
+  "explanation": "La imagen de piedras cayendo de un acantilado advierte a los conductores sobre posibles peligros de caída de rocas.",
+  "image": "/signs/q-falling-rocks.png"
+},
