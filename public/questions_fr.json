@@ -101,4 +101,114 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+  {
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "demerit-points",
+  "question": "Ne pas demeurer sur les lieux d’une collision entraîne combien de points d’inaptitude?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ne pas demeurer sur les lieux d’une collision entraîne 7 points d’inaptitude.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "signs-regulatory",
+  "question": "Vous voyez ce panneau devant vous. Que signifie-t-il pour la circulation dans votre direction?",
+  "choices": [
+    "Détour devant — réduisez la vitesse à 30 km/h",
+    "Route fermée à toute circulation — ne pas avancer",
+    "Arrêt interdit sur cette route",
+    "Accès temporaire au chantier permis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un panneau ROUTE FERMÉE signifie que la chaussée est fermée à la circulation. Ne continuez pas; suivez les détours ou les instructions affichées.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "rules-of-the-road",
+  "question": "Quelle est la distance minimale de suivi sécuritaire dans de bonnes conditions pour la plupart des véhicules de tourisme?",
+  "choices": [
+    "Une seconde derrière le véhicule devant",
+    "Deux secondes derrière le véhicule devant",
+    "Trois longueurs de voiture à toute vitesse",
+    "Cinq secondes seulement sur l’autoroute"
+  ],
+  "correctIndex": 1,
+  "explanation": "Utilisez au moins la règle des deux secondes pour maintenir une distance de suivi sécuritaire dans de bonnes conditions. Augmentez l’écart par mauvais temps ou lorsque la visibilité est réduite.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "signs-regulatory",
+  "question": "Un panneau en losange jaune montrant une flèche sinueuse signifie :",
+  "choices": [
+    "La route devant est droite",
+    "La route devant comporte une série de courbes; réduisez la vitesse et conduisez avec prudence",
+    "Une seule courbe prononcée devant",
+    "Accotement pavé devant"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un panneau de route sinueuse avertit de plusieurs courbes à venir. Ralentissez et soyez prêt à changer de direction.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "fr",
+  "category": "rules-of-the-road",
+  "question": "En approchant d’un carrefour giratoire, que devez-vous faire avant d’y entrer?",
+  "choices": [
+    "Entrer rapidement et prendre votre voie",
+    "Vous arrêter dans la voie d’entrée même si personne n’arrive",
+    "Céder le passage à la circulation déjà dans le carrefour giratoire et aux piétons, puis entrer lorsqu’il y a un écart sécuritaire",
+    "Signaler à gauche et entrer immédiatement"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ralentissez et cédez le passage à la circulation dans le carrefour giratoire et aux piétons. Entrez seulement lorsqu’il y a un écart sécuritaire; puis signalez à droite en sortant.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
+
 
