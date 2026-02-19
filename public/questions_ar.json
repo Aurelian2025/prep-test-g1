@@ -553,3 +553,115 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "يتقدم حارس عبور مدرسي إلى الطريق حاملاً لافتة توقف حمراء وبيضاء. ماذا يجب أن تفعل؟",
+    "choices": [
+      "خفف السرعة ومرّ بحذر إذا لم يكن هناك أطفال على ممر المشاة",
+      "توقف ثم تابع إذا أشار الحارس فقط للأطفال بالعبور",
+      "توقف قبل الممر وابقَ متوقفًا حتى يغادر الجميع، بما فيهم الحارس، الطريق بالكامل ويصبح من الآمن المتابعة",
+      "استخدم البوق لتنبيه الآخرين وتابع السير"
+    ],
+    "correctIndex": 2,
+    "explanation": "يجب أن تتوقف قبل الوصول إلى الممر وأن تبقى متوقفًا حتى يغادر جميع الأشخاص — بما فيهم حارس عبور المدرسة — الطريق بالكامل ويصبح من الآمن المتابعة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "تعني لافتة مستطيلة عليها سهم يلتف حول جزيرة مرورية وكلمات 'KEEP RIGHT':",
+    "choices": [
+      "يمكنك المرور من أي جانب",
+      "يجب على حركة المرور البقاء إلى يمين الجزيرة أو العائق",
+      "الانعطاف يسار فقط",
+      "الانعطاف يمين ممنوع"
+    ],
+    "correctIndex": 1,
+    "explanation": "تعني اللافتة أنه يجب عليك البقاء إلى يمين الجزيرة المرورية أو العائق.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "عند الاقتراب من إشارة أعطِ الأفضلية (YIELD) ووجود حركة مرور عابرة، ماذا يجب أن تفعل؟",
+    "choices": [
+      "تابع دون توقف إذا استخدمت الإشارة",
+      "خفف السرعة، وكن مستعدًا للتوقف، وأعطِ حق المرور للمركبات والمشاة؛ توقف إذا لزم الأمر",
+      "توقف دائمًا توقفًا كاملاً لمدة ثلاث ثوانٍ على الأقل",
+      "زد السرعة للاندماج قبل المركبات الأخرى"
+    ],
+    "correctIndex": 1,
+    "explanation": "تعني إشارة أعطِ الأفضلية أنه يجب عليك تخفيف السرعة والاستعداد للتوقف وإعطاء حق المرور للمركبات على الطريق الذي تدخل إليه وللمشاة. توقف إذا لزم الأمر.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما الذي يجب أن يستعد له السائقون في الأمام؟",
+  "choices": [
+    "جسر قد يفتح للسماح بمرور القوارب",
+    "جسر مغلق بشكل دائم",
+    "عبور عبّارة",
+    "أعمال طرق"
+  ],
+  "correctIndex": 0,
+  "explanation": "تحذر هذه اللافتة من أن جسرًا متحركًا قد يفتح، مما يتطلب من المركبات التوقف والانتظار.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "عدم التوقف عندما يشير إليك ضابط الشرطة أو يطلب منك التوقف يؤدي إلى كم عدد نقاط المخالفة؟",
+  "choices": [
+    "3 نقاط مخالفة",
+    "5 نقاط مخالفة",
+    "7 نقاط مخالفة",
+    "9 نقاط مخالفة"
+  ],
+  "correctIndex": 2,
+  "explanation": "عدم التوقف عندما يشير إليك ضابط الشرطة أو يطلب منك التوقف يؤدي إلى 7 نقاط مخالفة.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
