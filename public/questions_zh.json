@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在带有闪烁信号灯的行人过街处（PXO），何时可以继续前行？",
+    "choices": [
+      "当行人走上你这一侧道路的人行道时即可",
+      "减速并鸣喇叭后",
+      "只有当行人完全过街并完全离开车道且安全时",
+      "如果你要右转，任何时候都可以"
+    ],
+    "correctIndex": 2,
+    "explanation": "在PXO处必须为行人停车，并保持停车状态，直到他们完全过街并完全离开车道。只有在安全时才可以继续前行。",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在进入环形交叉路口前看到这个带白色箭头的蓝色圆形标志。你应该怎么做？",
+    "choices": [
+      "快速进入并打左转信号",
+      "靠右行驶，逆时针方向行驶，并让已经在环岛内的车辆和行人先行",
+      "停车等待绿灯",
+      "必须在下一个出口掉头"
+    ],
+    "correctIndex": 1,
+    "explanation": "减速接近，保持在中央岛的右侧，让行给行人和已经在环形交叉路口内的车辆，并在有安全空隙时进入。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在由中央隔离带分隔的道路上，对向一侧的校车亮起红灯并停车。你必须怎么做？",
+    "choices": [
+      "立即停车",
+      "小心前行；只有在校车后方的车辆必须停车",
+      "鸣喇叭并超车",
+      "停车3秒后再前行"
+    ],
+    "correctIndex": 1,
+    "explanation": "在有中央隔离带的道路上，只有在校车后方的车辆必须在其红灯闪烁时停车。对向车流可以谨慎前行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在安大略省，何时必须系安全带？",
+    "choices": [
+      "只在高速公路上",
+      "只要车辆在行驶",
+      "只在车速超过50公里/小时时",
+      "只在有乘客时"
+    ],
+    "correctIndex": 1,
+    "explanation": "只要车辆在行驶，驾驶员和乘客都必须系安全带。驾驶员对16岁以下的乘客负责。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "粗心驾驶会被记多少扣分？",
+  "choices": [
+    "2 分扣分",
+    "3 分扣分",
+    "6 分扣分",
+    "7 分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "粗心驾驶会被记 6 分扣分。",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
