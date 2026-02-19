@@ -998,3 +998,117 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Esta señal está colocada en la entrada de una vía. ¿Qué significa?",
+    "choices": [
+      "No se permite el paso de peatones",
+      "Los peatones deben cruzar solo en esta señal",
+      "Cruce peatonal más adelante",
+      "Los peatones tienen el derecho de paso"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un símbolo de peatón dentro de un círculo rojo con una línea diagonal significa que los peatones están prohibidos en esa área.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal en la entrada de un sendero invernal. ¿Qué significa?",
+    "choices": [
+      "Las motonieves no están permitidas más allá de esta señal",
+      "Las motonieves deben reducir la velocidad",
+      "Comienza el sendero para motonieves",
+      "Las motonieves tienen prioridad sobre otros vehículos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un símbolo de motonieve dentro de un círculo rojo con una línea diagonal significa que las motonieves están prohibidas más allá de esa señal.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal en una intersección. ¿Qué significa?",
+    "choices": [
+      "No se permiten giros a la derecha en esta intersección",
+      "Los giros a la derecha están permitidos solo con luz verde",
+      "Debe girar a la derecha en la intersección",
+      "El carril derecho termina más adelante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una flecha negra de giro a la derecha dentro de un círculo rojo con una línea diagonal es una señal reglamentaria que significa que los giros a la derecha están prohibidos donde la señal se aplica.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué les indica esta señal a los conductores sobre los giros en U?",
+    "choices": [
+      "Los giros en U no están permitidos",
+      "Los giros en U están permitidos solo por la noche",
+      "Los giros en U están permitidos si no viene tráfico",
+      "Los giros en U son obligatorios en la próxima intersección"
+    ],
+    "correctIndex": 0,
+    "explanation": "La flecha curva en forma de U dentro de un círculo rojo con una línea diagonal es una señal reglamentaria que significa que los giros en U están prohibidos donde la señal se aplica.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué condición de conducción puede existir más adelante?",
+    "choices": [
+      "Puede haber agua fluyendo sobre la calzada",
+      "Un puente se ha derrumbado",
+      "Se requiere un cruce en ferry",
+      "La carretera está permanentemente inundada"
+    ],
+    "correctIndex": 0,
+    "explanation": "La señal alerta a los conductores de que la acumulación de agua puede afectar la tracción y la visibilidad.",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
