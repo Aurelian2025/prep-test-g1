@@ -1113,4 +1113,118 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ڈرائیوروں کو کس خطرے کے بارے میں ہوشیار رہنا چاہیے؟",
+  "choices": [
+    "سڑک کے قریب گرتے ہوئے پتھر",
+    "سڑک پر ڈھیلی بجری",
+    "دھماکے کی کارروائیاں",
+    "ناہموار سڑک"
+  ],
+  "correctIndex": 0,
+  "explanation": "یہ نشان قریب کی ڈھلوانوں سے پتھر یا ملبہ گرنے کے امکان سے خبردار کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہ نشان ٹریفک کے بہاؤ میں کس تبدیلی کی وارننگ دیتا ہے؟",
+  "choices": [
+    "گاڑیاں دونوں سمتوں میں چلیں گی",
+    "ایک طرفہ سڑک شروع ہوتی ہے",
+    "تقسیم شدہ شاہراہ شروع ہوتی ہے",
+    "اوورٹیکنگ لینز بڑھتی ہیں"
+  ],
+  "correctIndex": 0,
+  "explanation": "مخالف سمت میں تیر ڈرائیوروں کو خبردار کرتے ہیں کہ آگے سامنے سے آنے والی ٹریفک ہوگی۔",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہ ہاتھ کا اشارہ ڈرائیور کون سی کارروائی ظاہر کر رہا ہے؟",
+  "choices": [
+    "رفتار کم کرنا یا رکنا",
+    "بائیں مڑنا",
+    "دائیں مڑنا",
+    "لین تبدیل کرنا"
+  ],
+  "correctIndex": 0,
+  "explanation": "نیچے کی طرف اشارہ کرتا ہوا بازو ظاہر کرتا ہے کہ ڈرائیور رفتار کم کرنے یا رکنے کا ارادہ رکھتا ہے۔",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس نشان کے ذریعے ظاہر کی گئی لین کو کون استعمال کر سکتا ہے؟",
+  "choices": [
+    "صرف سائیکلیں",
+    "تمام موٹر گاڑیاں",
+    "بسیں اور ٹیکسیاں",
+    "صرف ایمرجنسی گاڑیاں"
+  ],
+  "correctIndex": 0,
+  "explanation": "علامت اور تیر ظاہر کرتے ہیں کہ آگے والی لین خاص طور پر سائیکلوں کے لیے مخصوص ہے۔",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس علاقے میں کون سا پارکنگ اصول لاگو ہوتا ہے؟",
+  "choices": [
+    "پارکنگ کی اجازت ہے لیکن 30 منٹ تک محدود",
+    "ہر وقت پارکنگ ممنوع ہے",
+    "صرف ایمرجنسی گاڑیاں پارک کر سکتی ہیں",
+    "پارکنگ پر کوئی پابندی نہیں"
+  ],
+  "correctIndex": 0,
+  "explanation": "یہ نشان پارکنگ کی اجازت دیتا ہے لیکن مقررہ اوقات میں گاڑی کے کھڑے رہنے کی مدت کو محدود کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
