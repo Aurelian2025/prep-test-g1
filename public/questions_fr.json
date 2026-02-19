@@ -1490,5 +1490,71 @@
   "explanation": "Ne pas s’arrêter pour un autobus scolaire entraîne 6 points d’inaptitude.",
   "image": "/signs/q-school-bus-204.png"
 },
+{
+    "id": "q-abs-brakes-76",
+    "question": "Dans un véhicule équipé de l’ABS (système de freinage antiblocage), comment devez-vous freiner lors d’un arrêt d’urgence?",
+    "choices": [
+      "Pomper rapidement la pédale de frein",
+      "Appuyer fermement sur la pédale de frein et la maintenir tout en dirigeant le véhicule",
+      "Utiliser seulement le frein de stationnement",
+      "Mettre au point mort et rouler en roue libre"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avec l’ABS, appliquez une pression ferme et continue sur la pédale de frein et dirigez le véhicule dans la direction où vous voulez aller.",
+    "image": "/signs/q-abs-brakes-62.png"
+  },
+  {
+  "id": "q-disabled-truck-warning-distance-77",
+  "question": "Si un camion est immobilisé sur une route où la limite de vitesse dépasse 60 km/h, à quelle distance approximative devant et derrière le véhicule doit-on placer des dispositifs d’avertissement comme des fusées éclairantes ou des réflecteurs?",
+  "choices": [
+    "15 m (50 ft.)",
+    "30 m (100 ft.)",
+    "60 m (200 ft.)",
+    "90 m (300 ft.)"
+  ],
+  "correctIndex": 3,
+  "explanation": "Sur les routes où la limite de vitesse dépasse 60 km/h, les dispositifs d’avertissement doivent être placés à environ 30 m (100 ft.) devant et derrière un camion immobilisé afin de prévenir adéquatement les conducteurs qui approchent.",
+  "image": "/signs/q-disabled-truck-warning-distance.png"
+},
+
+  {
+    "id": "q-night-meeting-78",
+    "question": "La nuit, quand devez-vous baisser vos feux de route pour un véhicule venant en sens inverse?",
+    "choices": [
+      "Lorsque vous êtes à environ un pâté de maisons (environ 150 mètres)",
+      "Seulement lorsque l’autre conducteur fait des appels de phares",
+      "Lorsque l’autre véhicule est juste devant vous",
+      "Jamais; les feux de route doivent rester allumés"
+    ],
+    "correctIndex": 0,
+    "explanation": "Baissez vos feux de route lorsque vous êtes à environ 150 mètres d’un véhicule venant en sens inverse afin de ne pas éblouir les autres conducteurs.",
+    "image": "/signs/q-night-meeting-64.png"
+  },
+  {
+    "id": "q-demerit-red-light-79",
+    "question": "Vous traversez un feu rouge fixe après qu’il a changé et vous êtes reconnu coupable. Combien de points d’inaptitude recevez-vous?",
+    "choices": [
+      "2 points d’inaptitude",
+      "3 points d’inaptitude",
+      "4 points d’inaptitude",
+      "6 points d’inaptitude"
+    ],
+    "correctIndex": 1,
+    "explanation": "Griller un feu rouge en Ontario est considéré comme le non-respect d’un signal de circulation et entraîne 3 points d’inaptitude.",
+    "image": "/signs/traffic-signal-ahead.jpg"
+  },
+  {
+  "id": "q-falling-rocks-80",
+  "question": "Que signifie ce panneau d’avertissement?",
+  "choices": [
+    "Des chutes de pierres ou des débris peuvent être présents plus loin",
+    "La chaussée est extrêmement cahoteuse",
+    "Des travaux de dynamitage sont en cours",
+    "Vous devez faire demi-tour en raison d’une fermeture de route"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’image de pierres tombant d’une falaise avertit les conducteurs de la possibilité de chutes de pierres.",
+  "image": "/signs/q-falling-rocks.png"
+},
 
 
