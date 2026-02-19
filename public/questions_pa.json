@@ -1113,4 +1113,118 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਡਰਾਈਵਰਾਂ ਨੂੰ ਕਿਸ ਖਤਰੇ ਲਈ ਸਚੇਤ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ?",
+  "choices": [
+    "ਸੜਕ ਦੇ ਨੇੜੇ ਪੱਥਰ ਡਿੱਗ ਸਕਦੇ ਹਨ",
+    "ਸੜਕ ‘ਤੇ ਢਿੱਲੀ ਬਜਰੀ",
+    "ਧਮਾਕੇ ਦੀ ਕਾਰਵਾਈ",
+    "ਅਸਮਾਨ ਸੜਕ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਨੇੜਲੇ ਢਲਾਣਾਂ ਤੋਂ ਪੱਥਰ ਜਾਂ ਮਲਬਾ ਡਿੱਗਣ ਦੀ ਸੰਭਾਵਨਾ ਬਾਰੇ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਨਿਸ਼ਾਨ ਟ੍ਰੈਫਿਕ ਦੇ ਪ੍ਰਵਾਹ ਵਿੱਚ ਕਿਹੜੇ ਬਦਲਾਅ ਦੀ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ?",
+  "choices": [
+    "ਵਾਹਨ ਦੋਹਾਂ ਦਿਸ਼ਾਵਾਂ ਵਿੱਚ ਚੱਲਣਗੇ",
+    "ਇੱਕ-ਮਾਰਗ ਵਾਲੀ ਸੜਕ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ",
+    "ਵੰਡਿਆ ਹੋਇਆ ਹਾਈਵੇ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ",
+    "ਓਵਰਟੇਕ ਕਰਨ ਵਾਲੀਆਂ ਲੇਨਾਂ ਵੱਧਦੀਆਂ ਹਨ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਵਿਰੋਧੀ ਤੀਰ ਡਰਾਈਵਰਾਂ ਨੂੰ ਚੇਤਾਵਨੀ ਦਿੰਦੇ ਹਨ ਕਿ ਅੱਗੇ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਹੋਵੇਗੀ।",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਹੱਥ ਦੇ ਸੰਕੇਤ ਨਾਲ ਡਰਾਈਵਰ ਕਿਹੜੀ ਕਾਰਵਾਈ ਦੱਸ ਰਿਹਾ ਹੈ?",
+  "choices": [
+    "ਗਤੀ ਘਟਾਉਣਾ ਜਾਂ ਰੁਕਣਾ",
+    "ਖੱਬੇ ਮੁੜਨਾ",
+    "ਸੱਜੇ ਮੁੜਨਾ",
+    "ਲੇਨ ਬਦਲਣਾ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਹੇਠਾਂ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਬਾਂਹ ਦੱਸਦਾ ਹੈ ਕਿ ਡਰਾਈਵਰ ਗਤੀ ਘਟਾਉਣ ਜਾਂ ਰੁਕਣ ਦਾ ਇਰਾਦਾ ਰੱਖਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਨਿਸ਼ਾਨ ਨਾਲ ਦਰਸਾਈ ਲੇਨ ਨੂੰ ਕੌਣ ਵਰਤ ਸਕਦਾ ਹੈ?",
+  "choices": [
+    "ਸਿਰਫ਼ ਸਾਈਕਲਾਂ",
+    "ਸਾਰੇ ਮੋਟਰ ਵਾਹਨ",
+    "ਬੱਸਾਂ ਅਤੇ ਟੈਕਸੀਆਂ",
+    "ਸਿਰਫ਼ ਐਮਰਜੈਂਸੀ ਵਾਹਨ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਨਿਸ਼ਾਨ ਅਤੇ ਤੀਰ ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ ਅੱਗੇ ਵਾਲੀ ਲੇਨ ਸਿਰਫ਼ ਸਾਈਕਲਾਂ ਲਈ ਨਿਰਧਾਰਿਤ ਹੈ।",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਖੇਤਰ ਵਿੱਚ ਕਿਹੜਾ ਪਾਰਕਿੰਗ ਨਿਯਮ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+  "choices": [
+    "ਪਾਰਕਿੰਗ ਦੀ ਇਜਾਜ਼ਤ ਹੈ ਪਰ 30 ਮਿੰਟ ਲਈ ਸੀਮਿਤ",
+    "ਹਮੇਸ਼ਾਂ ਲਈ ਪਾਰਕਿੰਗ ਮਨਾਹੀ ਹੈ",
+    "ਸਿਰਫ਼ ਐਮਰਜੈਂਸੀ ਵਾਹਨ ਪਾਰਕ ਕਰ ਸਕਦੇ ਹਨ",
+    "ਪਾਰਕਿੰਗ ‘ਤੇ ਕੋਈ ਪਾਬੰਦੀ ਨਹੀਂ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਪਾਰਕਿੰਗ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ ਪਰ ਦਰਸਾਏ ਸਮੇਂ ਦੌਰਾਨ ਵਾਹਨ ਕਿੰਨਾ ਸਮਾਂ ਰਹਿ ਸਕਦਾ ਹੈ ਉਸਦੀ ਸੀਮਾ ਰੱਖਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
