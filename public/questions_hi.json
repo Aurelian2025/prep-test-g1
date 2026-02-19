@@ -553,4 +553,116 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "एक स्कूल क्रॉसिंग गार्ड लाल और सफेद स्टॉप संकेत पकड़े हुए सड़क पर आता है। आपको क्या करना चाहिए?",
+    "choices": [
+      "यदि क्रॉसवॉक पर बच्चे नहीं हैं तो धीमे चलें और सावधानी से आगे बढ़ें",
+      "रुकें, फिर आगे बढ़ें यदि गार्ड केवल बच्चों को पार करने का संकेत दे",
+      "क्रॉसिंग से पहले रुकें और तब तक रुके रहें जब तक सभी लोग, गार्ड सहित, पूरी सड़क खाली न कर दें और आगे बढ़ना सुरक्षित न हो",
+      "दूसरों को सचेत करने के लिए हॉर्न बजाएं और आगे बढ़ें"
+    ],
+    "correctIndex": 2,
+    "explanation": "आपको क्रॉसिंग तक पहुँचने से पहले रुकना चाहिए और तब तक रुके रहना चाहिए जब तक सभी लोग — स्कूल क्रॉसिंग गार्ड सहित — पूरी सड़क खाली न कर दें और आगे बढ़ना सुरक्षित न हो।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "एक आयताकार संकेत जिस पर ट्रैफिक आइलैंड के चारों ओर मुड़ता हुआ तीर और 'KEEP RIGHT' शब्द हैं, का अर्थ है:",
+    "choices": [
+      "आप किसी भी तरफ से गुजर सकते हैं",
+      "ट्रैफिक को आइलैंड या अवरोध के दाईं ओर रहना चाहिए",
+      "केवल बाएं मुड़ना",
+      "दाएं मुड़ना प्रतिबंधित है"
+    ],
+    "correctIndex": 1,
+    "explanation": "इस संकेत का अर्थ है कि आपको ट्रैफिक आइलैंड या अवरोध के दाईं ओर रहना चाहिए।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "YIELD संकेत के पास पहुँचते समय और क्रॉस ट्रैफिक मौजूद हो तो आपको क्या करना चाहिए?",
+    "choices": [
+      "यदि आप सिग्नल देते हैं तो बिना रुके आगे बढ़ें",
+      "धीमे हों, रुकने के लिए तैयार रहें और वाहनों व पैदल यात्रियों को रास्ता दें; आवश्यकता हो तो रुकें",
+      "हमेशा कम से कम तीन सेकंड के लिए पूरी तरह रुकें",
+      "अन्य वाहनों से पहले मिल जाने के लिए गति बढ़ाएँ"
+    ],
+    "correctIndex": 1,
+    "explanation": "YIELD संकेत का अर्थ है कि आपको धीमा होना चाहिए, रुकने के लिए तैयार रहना चाहिए और जिस सड़क पर आप प्रवेश कर रहे हैं उस पर चल रहे वाहनों और पैदल यात्रियों को रास्ता देना चाहिए। आवश्यकता हो तो रुकें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "आगे ड्राइवरों को किसके लिए तैयार रहना चाहिए?",
+  "choices": [
+    "एक पुल जो नावों को गुजरने देने के लिए खुल सकता है",
+    "एक स्थायी रूप से बंद पुल",
+    "फेरी क्रॉसिंग",
+    "सड़क निर्माण"
+  ],
+  "correctIndex": 0,
+  "explanation": "यह संकेत चेतावनी देता है कि एक चलने वाला पुल खुल सकता है, जिसके कारण वाहनों को रुककर इंतज़ार करना पड़ सकता है।",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "जब पुलिस अधिकारी संकेत दे या रुकने के लिए कहे और आप न रुकें, तो कितने डिमेरिट अंक लगते हैं?",
+  "choices": [
+    "3 डिमेरिट अंक",
+    "5 डिमेरिट अंक",
+    "7 डिमेरिट अंक",
+    "9 डिमेरिट अंक"
+  ],
+  "correctIndex": 2,
+  "explanation": "जब पुलिस अधिकारी संकेत दे या रुकने के लिए कहे और आप न रुकें, तो 7 डिमेरिट अंक लगते हैं।",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
