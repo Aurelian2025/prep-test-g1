@@ -775,4 +775,113 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "एक संकेत चेतावनी देता है: «पुल सड़क से पहले जमता है।» आपको क्या करना चाहिए?",
+    "choices": [
+      "जल्दी पार करने के लिए तेज़ी से चलाएँ",
+      "पुल से पहले ज़ोर से ब्रेक लगाएँ",
+      "गति कम करें और पुल पर अचानक हरकतों से बचें",
+      "सड़क के बीच में चलाएँ"
+    ],
+    "correctIndex": 2,
+    "explanation": "पुल पहले जमते हैं। गति कम करें और पुल पर तेज़ ब्रेक या अचानक मोड़ने से बचें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "गीली सड़क पर आपके टायर हाइड्रोप्लेन करने लगते हैं। आपको क्या करना चाहिए?",
+    "choices": [
+      "ज़ोर से ब्रेक लगाएँ और तीखा मोड़ लें",
+      "एक्सेलेरेटर छोड़ दें और पकड़ वापस आने तक पहियों को सीधा रखें",
+      "पकड़ वापस पाने के लिए तेज़ करें",
+      "पानी हटाने के लिए स्टीयरिंग को आगे-पीछे घुमाएँ"
+    ],
+    "correctIndex": 1,
+    "explanation": "एक्सेलेरेटर धीरे से छोड़ दें और पकड़ वापस आने तक पहियों को सीधा रखें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "मुड़ने या लेन बदलने से पहले आपको कितनी दूरी पहले संकेत देना चाहिए?",
+    "choices": [
+      "कम से कम 30 मीटर (100 फीट)",
+      "जैसे ही आप स्टीयरिंग घुमाएँ",
+      "पाँच कार की लंबाई पहले",
+      "केवल जब आपके पीछे कोई हो"
+    ],
+    "correctIndex": 0,
+    "explanation": "अच्छी तरह पहले संकेत दें — मुड़ने या लेन बदलने से कम से कम 30 मीटर (100 फीट) पहले।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "आपको हॉर्न कब इस्तेमाल करना चाहिए?",
+    "choices": [
+      "दोस्त को अभिवादन करने के लिए",
+      "संभावित खतरे के बारे में दूसरों को चेतावनी देने के लिए",
+      "जब बत्ती हरी हो जाए",
+      "जब आप अन्य चालकों पर गुस्सा हों"
+    ],
+    "correctIndex": 1,
+    "explanation": "हॉर्न केवल तब इस्तेमाल करें जब टक्कर से बचने के लिए दूसरों को चेतावनी देना आवश्यक हो।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "रेसिंग करने पर कितने डिमेरिट अंक मिलते हैं?",
+  "choices": [
+    "3 डिमेरिट अंक",
+    "4 डिमेरिट अंक",
+    "6 डिमेरिट अंक",
+    "7 डिमेरिट अंक"
+  ],
+  "correctIndex": 2,
+  "explanation": "रेसिंग करने पर 6 डिमेरिट अंक मिलते हैं।",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
