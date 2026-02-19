@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "signs-regulatory",
+  "question": "Что означает этот знак?",
+  "choices": [
+    "Поворот налево разрешён только ночью",
+    "Поворот налево запрещён в любое время",
+    "Впереди начинается полоса для поворота налево",
+    "Разворот разрешён с осторожностью"
+  ],
+  "correctIndex": 1,
+  "explanation": "Красный круг с диагональной линией всегда означает запрет. Стрелка влево с перечёркиванием означает, что поворот налево запрещён.",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "rules-of-the-road",
+  "question": "На знаке «Стоп», где вы должны остановиться, если нанесена стоп-линия?",
+  "choices": [
+    "В любом месте перед перекрёстком",
+    "Рядом со столбом знака «Стоп»",
+    "На нанесённой стоп-линии",
+    "Наполовину заехав на перекрёсток, чтобы лучше видеть"
+  ],
+  "correctIndex": 2,
+  "explanation": "Вы должны полностью остановиться на нанесённой стоп-линии. Если стоп-линии нет, остановитесь у пешеходного перехода; если его нет, у края тротуара; если и его нет, у края перекрёстка.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "signs-regulatory",
+  "question": "Впереди появляется этот знак. О чём он предупреждает?",
+  "choices": [
+    "Велосипеды запрещены на этой дороге",
+    "Ожидайте велосипедистов; велосипедное движение может пересекать дорогу или двигаться по ней вместе с автомобилями",
+    "Начинается общая дорожка; автомобили должны остановиться",
+    "Велосипедная полоса заканчивается; немедленно перестройтесь вправо"
+  ],
+  "correctIndex": 1,
+  "explanation": "Жёлтый ромб с символом велосипеда — это предупреждающий знак о возможном присутствии велосипедистов. Будьте готовы снизить скорость или уступить дорогу при необходимости.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "alcohol-and-driving",
+  "question": "После первого осуждения за вождение в состоянии опьянения на какой срок приостанавливается водительское удостоверение?",
+  "choices": [
+    "1 месяц",
+    "3 месяца",
+    "6 месяцев",
+    "1 год"
+  ],
+  "correctIndex": 3,
+  "explanation": "Первое осуждение за вождение в состоянии опьянения приводит к приостановке водительского удостоверения на один год, а также к другим наказаниям, таким как штрафы и обязательные образовательные программы.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "signs-regulatory",
+  "question": "Вы видите этот знак у въезда на дорогу. Что вы должны сделать?",
+  "choices": [
+    "Двигаться медленно и держаться правой стороны",
+    "Въезжать только при слабом движении",
+    "Не въезжать — дорога предназначена для движения в противоположном направлении",
+    "Остановиться и затем продолжить, если путь свободен"
+  ],
+  "correctIndex": 2,
+  "explanation": "Красный круг с белой горизонтальной полосой означает «ВЪЕЗД ЗАПРЕЩЁН» — вы находитесь перед встречным движением (например, на неправильном конце улицы с односторонним движением).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
