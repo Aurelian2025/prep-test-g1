@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این تابلو چه چیزی را نشان می‌دهد؟",
+    "choices": [
+      "حداکثر سرعت پیشنهادی ۸۰ کیلومتر در ساعت",
+      "حداقل سرعت ۸۰ کیلومتر در ساعت",
+      "حداکثر سرعت قانونی ۸۰ کیلومتر در ساعت در شرایط ایده‌آل",
+      "سرعت باید همیشه ۸۰ کیلومتر در ساعت باشد بدون توجه به شرایط"
+    ],
+    "correctIndex": 2,
+    "explanation": "تابلوی مستطیلی سفید با اعداد سیاه نشان‌دهنده حداکثر سرعت قانونی به کیلومتر در ساعت در شرایط رانندگی ایده‌آل است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "در یک جاده دوطرفه بدون میانه، یک اتوبوس مدرسه در جلوی شما با چراغ‌های قرمز بالایی چشمک‌زن متوقف می‌شود. شما چه باید بکنید؟",
+    "choices": [
+      "سرعت را به ۱۰ کیلومتر در ساعت کاهش دهید و با احتیاط عبور کنید",
+      "حداقل ۲۰ متر پشت آن توقف کنید و تا زمانی که چراغ‌ها خاموش شوند و بازوی توقف جمع شود، متوقف بمانید",
+      "اگر کودکی در جاده دیده نمی‌شود عبور کنید",
+      "فقط اگر از جهت مخالف نزدیک می‌شوید توقف کنید"
+    ],
+    "correctIndex": 1,
+    "explanation": "وقتی اتوبوس مدرسه چراغ‌های قرمز چشمک‌زن خود (و/یا بازوی توقف) را فعال می‌کند، باید توقف کنید. اگر پشت اتوبوس هستید، حداقل ۲۰ متر پشت آن توقف کنید و تا زمانی که چراغ‌های قرمز چشمک‌زن متوقف شوند و بازوی توقف جمع شود، متوقف بمانید. در جاده‌هایی با میانه، فقط وسایل نقلیه پشت اتوبوس باید توقف کنند.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این علامت مقرراتی چه معنایی دارد؟",
+    "choices": [
+      "گذرگاه عابر پیاده در پیش است",
+      "عبور مدرسه در پیش است",
+      "پس از این نقطه عابران پیاده مجاز نیستند",
+      "عابران پیاده باید به وسایل نقلیه حق تقدم بدهند"
+    ],
+    "correctIndex": 2,
+    "explanation": "نماد عابر پیاده درون دایره قرمز با خط مورب نشان می‌دهد که عبور عابران پیاده پس از این علامت ممنوع است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "در انتاریو چه زمانی پیچیدن به راست در چراغ قرمز قانونی است؟",
+    "choices": [
+      "هر زمان که راهنما بزنید",
+      "فقط زمانی که پلیس به شما اجازه عبور دهد",
+      "پس از توقف کامل و فقط در صورتی که علامتی آن را ممنوع نکرده باشد و به عابران و ترافیک راه بدهید",
+      "فقط بین طلوع و غروب خورشید"
+    ],
+    "correctIndex": 2,
+    "explanation": "می‌توانید پس از توقف کامل در چراغ قرمز به راست بپیچید، به شرطی که علامتی آن را ممنوع نکرده باشد و به عابران پیاده و دیگر کاربران جاده حق تقدم بدهید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این تابلو دو خودرو را در کنار هم داخل یک دایره قرمز نشان می‌دهد. معنای آن چیست؟",
+    "choices": [
+      "در صورت راهنما زدن می‌توانید سبقت بگیرید",
+      "سبقت ممنوع — در اینجا نباید از وسایل نقلیه دیگر جلو بزنید",
+      "فقط از خط چپ استفاده کنید",
+      "جز برای سبقت گرفتن در سمت راست بمانید"
+    ],
+    "correctIndex": 1,
+    "explanation": "دایره قرمز نشان‌دهنده ممنوعیت است. نماد دو خودرو نشان می‌دهد سبقت ممنوع است — در جایی که این تابلو اعمال می‌شود از وسایل نقلیه دیگر سبقت نگیرید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
