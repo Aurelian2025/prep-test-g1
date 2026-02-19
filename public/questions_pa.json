@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਸਾਈਨ ਕੀ ਦਰਸਾਉਂਦਾ ਹੈ?",
+    "choices": [
+      "ਸੁਝਾਈ ਗਈ ਵੱਧ ਤੋਂ ਵੱਧ ਗਤੀ 80 ਕਿਮੀ/ਘੰਟਾ",
+      "ਘੱਟੋ-ਘੱਟ ਗਤੀ 80 ਕਿਮੀ/ਘੰਟਾ",
+      "ਆਦਰਸ਼ ਹਾਲਾਤਾਂ ਵਿੱਚ ਕਾਨੂੰਨੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਤੀ 80 ਕਿਮੀ/ਘੰਟਾ",
+      "ਹਾਲਾਤਾਂ ਤੋਂ ਬਿਨਾਂ ਦੇਖੇ ਗਤੀ ਹਮੇਸ਼ਾ 80 ਕਿਮੀ/ਘੰਟਾ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ"
+    ],
+    "correctIndex": 2,
+    "explanation": "ਕਾਲੇ ਅੰਕਾਂ ਵਾਲਾ ਸਫ਼ੈਦ ਆਯਾਤਾਕਾਰ ਸਾਈਨ ਆਦਰਸ਼ ਡਰਾਈਵਿੰਗ ਹਾਲਾਤਾਂ ਵਿੱਚ ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਵਿੱਚ ਕਾਨੂੰਨੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਤੀ ਦਰਸਾਉਂਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਦੋ-ਤਰਫ਼ਾ ਸੜਕ ਜਿਸ ਵਿੱਚ ਵਿਚਕਾਰ ਮੀਡੀਅਨ ਨਹੀਂ ਹੈ, ਤੁਹਾਡੇ ਅੱਗੇ ਇੱਕ ਸਕੂਲ ਬੱਸ ਆਪਣੀਆਂ ਉੱਪਰੀ ਲਾਲ ਬੱਤੀਆਂ ਝਲਮਲਾ ਰਹੀ ਹੋਈਆਂ ਰੁਕਦੀ ਹੈ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "10 ਕਿਮੀ/ਘੰਟਾ ਤੱਕ ਹੌਲੀ ਕਰੋ ਅਤੇ ਸਾਵਧਾਨੀ ਨਾਲ ਲੰਘੋ",
+      "ਘੱਟੋ-ਘੱਟ 20 ਮੀਟਰ ਪਿੱਛੇ ਰੁਕੋ ਅਤੇ ਰੁਕੇ ਰਹੋ ਜਦੋਂ ਤੱਕ ਬੱਤੀਆਂ ਝਲਮਲਾਉਣ ਬੰਦ ਨਾ ਹੋਣ ਅਤੇ ਸਟਾਪ ਬਾਂਹ ਵਾਪਸ ਨਾ ਮੁੜੇ",
+      "ਜੇ ਸੜਕ ‘ਤੇ ਕੋਈ ਬੱਚੇ ਨਾ ਦਿਸਣ ਤਾਂ ਲੰਘ ਜਾਓ",
+      "ਕੇਵਲ ਜਦੋਂ ਤੁਸੀਂ ਉਲਟੀ ਦਿਸ਼ਾ ਤੋਂ ਆ ਰਹੇ ਹੋ ਤਾਂ ਰੁਕੋ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਜਦੋਂ ਸਕੂਲ ਬੱਸ ਆਪਣੀਆਂ ਲਾਲ ਝਲਮਲਾਉਣ ਵਾਲੀਆਂ ਬੱਤੀਆਂ (ਅਤੇ/ਜਾਂ ਸਟਾਪ ਬਾਂਹ) ਚਾਲੂ ਕਰਦੀ ਹੈ, ਤੁਹਾਨੂੰ ਰੁਕਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਜੇ ਤੁਸੀਂ ਬੱਸ ਦੇ ਪਿੱਛੇ ਹੋ, ਘੱਟੋ-ਘੱਟ 20 ਮੀਟਰ ਪਿੱਛੇ ਰੁਕੋ ਅਤੇ ਰੁਕੇ ਰਹੋ ਜਦੋਂ ਤੱਕ ਲਾਲ ਬੱਤੀਆਂ ਝਲਮਲਾਉਣ ਬੰਦ ਨਾ ਹੋਣ ਅਤੇ ਸਟਾਪ ਬਾਂਹ ਵਾਪਸ ਨਾ ਮੁੜੇ। ਜਿਨ੍ਹਾਂ ਸੜਕਾਂ ‘ਤੇ ਮੀਡੀਅਨ ਹੁੰਦਾ ਹੈ, ਉੱਥੇ ਸਿਰਫ਼ ਬੱਸ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਵਾਹਨਾਂ ਨੂੰ ਰੁਕਣਾ ਪੈਂਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਯਮਕ ਸਾਈਨ ਕੀ ਮਤਲਬ ਰੱਖਦਾ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਪੈਦਲ ਪਾਰ ਪਥ",
+      "ਅੱਗੇ ਸਕੂਲ ਕ੍ਰਾਸਿੰਗ",
+      "ਇਸ ਬਿੰਦੂ ਤੋਂ ਅੱਗੇ ਪੈਦਲ ਯਾਤਰੀ ਮਨਾਹ ਹਨ",
+      "ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਵਾਹਨਾਂ ਨੂੰ ਰਸਤਾ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ"
+    ],
+    "correctIndex": 2,
+    "explanation": "ਲਾਲ ਗੋਲ ਵਿੱਚ ਲਕੀਰ ਨਾਲ ਪੈਦਲ ਯਾਤਰੀ ਦਾ ਚਿੰਨ੍ਹ ਦੱਸਦਾ ਹੈ ਕਿ ਇਸ ਸਾਈਨ ਤੋਂ ਅੱਗੇ ਪੈਦਲ ਯਾਤਰੀ ਮਨਾਹ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਓਨਟਾਰੀਓ ਵਿੱਚ ਲਾਲ ਬੱਤੀ ‘ਤੇ ਸੱਜੇ ਵੱਲ ਮੋੜਨਾ ਕਦੋਂ ਕਾਨੂੰਨੀ ਹੈ?",
+    "choices": [
+      "ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਸਿਗਨਲ ਦਿੰਦੇ ਹੋ",
+      "ਕੇਵਲ ਜਦੋਂ ਪੁਲਿਸ ਅਧਿਕਾਰੀ ਤੁਹਾਨੂੰ ਇਸ਼ਾਰਾ ਕਰੇ",
+      "ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣ ਤੋਂ ਬਾਅਦ ਅਤੇ ਜੇ ਮਨਾਹ ਕਰਨ ਵਾਲਾ ਕੋਈ ਸਾਈਨ ਨਾ ਹੋਵੇ, ਅਤੇ ਤੁਸੀਂ ਪੈਦਲ ਯਾਤਰੀਆਂ ਅਤੇ ਟ੍ਰੈਫ਼ਿਕ ਨੂੰ ਰਸਤਾ ਦਿਓ",
+      "ਕੇਵਲ ਸੂਰਜ ਚੜ੍ਹਨ ਅਤੇ ਡੁੱਬਣ ਦੇ ਵਿਚਕਾਰ"
+    ],
+    "correctIndex": 2,
+    "explanation": "ਤੁਸੀਂ ਲਾਲ ਬੱਤੀ ‘ਤੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣ ਤੋਂ ਬਾਅਦ ਸੱਜੇ ਵੱਲ ਮੋੜ ਸਕਦੇ ਹੋ, ਜੇ ਮਨਾਹ ਕਰਨ ਵਾਲਾ ਕੋਈ ਸਾਈਨ ਨਾ ਹੋਵੇ ਅਤੇ ਤੁਸੀਂ ਪੈਦਲ ਯਾਤਰੀਆਂ ਅਤੇ ਹੋਰ ਸੜਕ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਰਸਤਾ ਦਿਓ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਸ ਸਾਈਨ ਵਿੱਚ ਲਾਲ ਗੋਲ ਵਿੱਚ ਦੋ ਕਾਰਾਂ ਇਕੱਠੀਆਂ ਦਿਖਾਈਆਂ ਗਈਆਂ ਹਨ। ਇਸਦਾ ਕੀ ਮਤਲਬ ਹੈ?",
+    "choices": [
+      "ਜੇ ਤੁਸੀਂ ਸਿਗਨਲ ਦਿਓ ਤਾਂ ਓਵਰਟੇਕ ਕਰ ਸਕਦੇ ਹੋ",
+      "ਓਵਰਟੇਕ ਮਨਾਹ ਹੈ — ਇੱਥੇ ਹੋਰ ਵਾਹਨਾਂ ਨੂੰ ਪਾਰ ਨਾ ਕਰੋ",
+      "ਕੇਵਲ ਖੱਬਾ ਲੇਨ ਵਰਤੋ",
+      "ਓਵਰਟੇਕ ਤੋਂ ਇਲਾਵਾ ਸੱਜੇ ਰਹੋ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਲਾਲ ਗੋਲ ਮਨਾਹੀ ਦਰਸਾਉਂਦਾ ਹੈ। ਦੋ ਕਾਰਾਂ ਦਾ ਚਿੰਨ੍ਹ NO PASSING ਦੱਸਦਾ ਹੈ — ਜਿੱਥੇ ਇਹ ਸਾਈਨ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਉੱਥੇ ਹੋਰ ਵਾਹਨਾਂ ਨੂੰ ਪਾਰ ਨਾ ਕਰੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
