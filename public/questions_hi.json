@@ -101,4 +101,113 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "demerit-points",
+  "question": "टक्कर के स्थान पर न रुकने पर कितने डिमेरिट अंक मिलते हैं?",
+  "choices": [
+    "2 डिमेरिट अंक",
+    "3 डिमेरिट अंक",
+    "6 डिमेरिट अंक",
+    "7 डिमेरिट अंक"
+  ],
+  "correctIndex": 3,
+  "explanation": "टक्कर के स्थान पर न रुकने पर 7 डिमेरिट अंक मिलते हैं।",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "signs-regulatory",
+  "question": "आप आगे यह संकेत देखते हैं। आपकी दिशा में यातायात के लिए इसका क्या अर्थ है?",
+  "choices": [
+    "आगे डिटूर है — गति 30 किमी/घंटा तक कम करें",
+    "सड़क सभी यातायात के लिए बंद है — आगे न बढ़ें",
+    "इस सड़क पर रुकना मना है",
+    "अस्थायी निर्माण प्रवेश की अनुमति है"
+  ],
+  "correctIndex": 1,
+  "explanation": "ROAD CLOSED संकेत का अर्थ है कि सड़क यातायात के लिए बंद है। आगे न बढ़ें; लगाए गए डिटूर या निर्देशों का पालन करें।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "rules-of-the-road",
+  "question": "अच्छी परिस्थितियों में अधिकांश यात्री वाहनों के लिए न्यूनतम सुरक्षित फॉलोइंग दूरी क्या है?",
+  "choices": [
+    "आगे वाले वाहन से एक सेकंड पीछे",
+    "आगे वाले वाहन से दो सेकंड पीछे",
+    "किसी भी गति पर तीन कार की लंबाई",
+    "केवल हाईवे पर पाँच सेकंड"
+  ],
+  "correctIndex": 1,
+  "explanation": "अच्छी परिस्थितियों में सुरक्षित फॉलोइंग दूरी बनाए रखने के लिए कम से कम दो-सेकंड नियम का उपयोग करें। खराब मौसम या कम दृश्यता में दूरी बढ़ाएँ।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "signs-regulatory",
+  "question": "पीले हीरे के आकार का संकेत जिसमें मुड़ता हुआ तीर दिखता है, इसका अर्थ है:",
+  "choices": [
+    "आगे सड़क सीधी है",
+    "आगे सड़क में कई मोड़ हैं; गति कम करें और सावधानी से चलाएँ",
+    "आगे केवल एक तीखा मोड़ है",
+    "आगे पक्का कंधा है"
+  ],
+  "correctIndex": 1,
+  "explanation": "वाइंडिंग रोड संकेत आगे कई मोड़ों की चेतावनी देता है। गति कम करें और दिशा बदलने के लिए तैयार रहें।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "rules-of-the-road",
+  "question": "राउंडअबाउट के पास पहुँचते समय, प्रवेश करने से पहले आपको क्या करना चाहिए?",
+  "choices": [
+    "तेज़ी से प्रवेश करें और अपनी लेन ले लें",
+    "भले ही कोई न आ रहा हो, प्रवेश लेन में रुकें",
+    "राउंडअबाउट में पहले से मौजूद ट्रैफिक और पैदल यात्रियों को रास्ता दें, और सुरक्षित अंतर मिलने पर प्रवेश करें",
+    "बाएँ संकेत दें और तुरंत प्रवेश करें"
+  ],
+  "correctIndex": 2,
+  "explanation": "गति कम करें और घूमते हुए ट्रैफिक और पैदल यात्रियों को रास्ता दें। केवल सुरक्षित अंतर होने पर प्रवेश करें; बाहर निकलते समय दाएँ संकेत दें।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
 
