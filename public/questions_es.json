@@ -1294,3 +1294,68 @@
   "explanation": "La línea roja sobre la flecha de giro a la derecha significa que los conductores deben esperar una luz verde antes de girar a la derecha.",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+    "id": "q-railway-stop-61",
+    "question": "Se acerca a un cruce ferroviario con luces rojas intermitentes y barreras que descienden. ¿Qué debe hacer?",
+    "choices": [
+      "Pasar alrededor de las barreras si no ve un tren",
+      "Detenerse al menos a 5 metros del cruce y permanecer detenido hasta que las luces dejen de parpadear y las barreras estén completamente levantadas",
+      "Reducir la velocidad pero continuar con cuidado",
+      "Detenerse y luego avanzar cuando crea que es seguro, incluso si las luces siguen parpadeando"
+    ],
+    "correctIndex": 1,
+    "explanation": "Debe detenerse al menos a 5 metros de las vías y permanecer detenido hasta que las luces dejen de parpadear y las barreras estén completamente levantadas.",
+    "image": "/signs/q-railway-stop-47.png"
+  },
+  {
+    "id": "q-school-zone-speed-62",
+    "question": "En una zona escolar donde se indica un límite de velocidad más bajo con horarios del día, ¿cuándo se aplica ese límite?",
+    "choices": [
+      "Solo cuando se ven niños",
+      "Solo si el tráfico es intenso",
+      "Durante los horarios indicados en la señal (por ejemplo, horas escolares en días de escuela)",
+      "Solo en verano"
+    ],
+    "correctIndex": 2,
+    "explanation": "Obedezca la velocidad reducida durante los horarios indicados en la señal, a menudo en días de escuela durante las horas de llegada y salida.",
+    "image": "/signs/q-school-zone-speed-48.png"
+  },
+  {
+    "id": "q-work-zone-fines-63",
+    "question": "En una zona de construcción, las multas por exceso de velocidad son:",
+    "choices": [
+      "Reducidas porque el tráfico es más lento",
+      "Las mismas que en cualquier otra carretera",
+      "Duplicadas en comparación con la misma infracción fuera de una zona de trabajo",
+      "Solo se aplican si hay trabajadores presentes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Las multas por exceso de velocidad son más altas —a menudo duplicadas— en zonas de construcción designadas, incluso si los trabajadores no siempre son visibles.",
+    "image": "/signs/q-work-zone-fines-49.png"
+  },
+  {
+  "id": "q-impaired-driving-bac-64",
+  "question": "Un conductor puede ser condenado por conducir bajo los efectos del alcohol cuando su concentración de alcohol en sangre alcanza qué nivel?",
+  "choices": [
+    "0.03%",
+    "0.05%",
+    "0.08%",
+    "1.0%"
+  ],
+  "correctIndex": 2,
+  "explanation": "En Ontario y en todo Canadá, una concentración de alcohol en sangre de 0.08% o más es el umbral legal para una condena penal por conducción bajo los efectos del alcohol.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+  {
+  "id": "q-demerit-speeding-40-under-80-65",
+  "question": "¿Exceder la velocidad en 40 km/h o más sobre el límite en una zona de menos de 80 km/h resulta en cuántos puntos de demérito?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Exceder la velocidad en 40 km/h o más sobre el límite en una zona de menos de 80 km/h resulta en 6 puntos de demérito.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
