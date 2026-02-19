@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह संकेत क्या दर्शाता है?",
+    "choices": [
+      "अनुशंसित अधिकतम गति 80 किमी/घंटा",
+      "न्यूनतम गति 80 किमी/घंटा",
+      "आदर्श परिस्थितियों में अधिकतम कानूनी गति 80 किमी/घंटा",
+      "परिस्थितियों की परवाह किए बिना गति हमेशा 80 किमी/घंटा होनी चाहिए"
+    ],
+    "correctIndex": 2,
+    "explanation": "काले अंकों वाला सफेद आयताकार संकेत आदर्श ड्राइविंग परिस्थितियों में किलोमीटर प्रति घंटा में अधिकतम कानूनी गति दर्शाता है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "बिना मेडियन वाली दो-तरफा सड़क पर, आपके आगे एक स्कूल बस अपनी ऊपरी लाल बत्तियाँ चमकाते हुए रुकती है। आपको क्या करना चाहिए?",
+    "choices": [
+      "10 किमी/घंटा तक धीमा करें और सावधानी से आगे बढ़ें",
+      "कम से कम 20 मीटर पीछे रुकें और तब तक रुके रहें जब तक बत्तियाँ चमकना बंद न कर दें और स्टॉप आर्म वापस न हो जाए",
+      "यदि सड़क पर बच्चे दिखाई न दें तो आगे बढ़ें",
+      "केवल तब रुकें जब आप विपरीत दिशा से आ रहे हों"
+    ],
+    "correctIndex": 1,
+    "explanation": "जब स्कूल बस अपनी लाल चमकती बत्तियाँ (और/या स्टॉप आर्म) सक्रिय करती है, तो आपको रुकना चाहिए। यदि आप बस के पीछे हैं, तो कम से कम 20 मीटर पीछे रुकें और तब तक रुके रहें जब तक लाल बत्तियाँ चमकना बंद न कर दें और स्टॉप आर्म वापस न हो जाए। मेडियन वाली सड़कों पर केवल बस के पीछे वाले वाहनों को रुकना होता है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह नियामक संकेत क्या दर्शाता है?",
+    "choices": [
+      "आगे पैदल पार पथ",
+      "आगे स्कूल क्रॉसिंग",
+      "इस बिंदु के आगे पैदल चलना प्रतिबंधित है",
+      "पैदल यात्रियों को वाहनों को रास्ता देना चाहिए"
+    ],
+    "correctIndex": 2,
+    "explanation": "लाल गोले और तिरछी रेखा के भीतर पैदल यात्री का चिन्ह दर्शाता है कि उस संकेत के आगे पैदल चलना प्रतिबंधित है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ओंटारियो में लाल बत्ती पर दाएँ मुड़ना कब कानूनी है?",
+    "choices": [
+      "जब भी आप सिग्नल दें",
+      "केवल जब पुलिस अधिकारी आपको आगे बढ़ने का संकेत दे",
+      "पूरी तरह रुकने के बाद और केवल तब जब इसे रोकने वाला कोई संकेत न हो, तथा पैदल यात्रियों और ट्रैफिक को रास्ता दें",
+      "केवल सूर्योदय और सूर्यास्त के बीच"
+    ],
+    "correctIndex": 2,
+    "explanation": "आप लाल बत्ती पर पूरी तरह रुकने के बाद दाएँ मुड़ सकते हैं, बशर्ते इसे रोकने वाला कोई संकेत न हो और आप पैदल यात्रियों तथा अन्य सड़क उपयोगकर्ताओं को रास्ता दें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "इस संकेत में लाल गोले के अंदर दो कारें साथ-साथ दिखाई गई हैं। इसका क्या अर्थ है?",
+    "choices": [
+      "यदि आप संकेत दें तो ओवरटेक कर सकते हैं",
+      "ओवरटेक निषिद्ध — यहाँ अन्य वाहनों को पार नहीं करना चाहिए",
+      "केवल बाएँ लेन का उपयोग करें",
+      "ओवरटेक करने के अलावा दाएँ रहें"
+    ],
+    "correctIndex": 1,
+    "explanation": "लाल गोला प्रतिबंध दर्शाता है। दो कारों का चिन्ह NO PASSING दर्शाता है — जहाँ यह संकेत लागू हो, वहाँ अन्य वाहनों को पार न करें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
