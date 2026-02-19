@@ -209,3 +209,117 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué norma ambiental se aplica aquí?",
+  "choices": [
+    "Los motores no deben permanecer en ralentí más de 3 minutos",
+    "Los motores deben permanecer encendidos",
+    "El ralentí está permitido solo en invierno",
+    "Los vehículos diésel están exentos"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal limita el tiempo de ralentí del motor para reducir las emisiones y la contaminación.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿A qué destino apunta esta señal?",
+  "choices": [
+    "Una ruta de acceso al aeropuerto",
+    "Una terminal de ferry",
+    "Una base militar",
+    "Una estación de tren"
+  ],
+  "correctIndex": 0,
+  "explanation": "El ícono de avión dirige a los conductores hacia las instalaciones del aeropuerto.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué información proporciona este símbolo a otros conductores?",
+  "choices": [
+    "El conductor es nuevo o inexperto",
+    "El vehículo se mueve lentamente",
+    "El automóvil se usa solo para instrucción",
+    "El vehículo está en reparación"
+  ],
+  "correctIndex": 0,
+  "explanation": "El símbolo «N» identifica a un conductor novato y anima a los demás a tener paciencia.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué intención muestra esta señal con la mano?",
+  "choices": [
+    "Un giro a la izquierda",
+    "Un giro a la derecha",
+    "Detenerse",
+    "Ceder el paso"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un brazo extendido hacia afuera indica la intención del conductor de girar a la izquierda.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué movimiento deben hacer los conductores?",
+  "choices": [
+    "Girar a la derecha",
+    "Seguir recto",
+    "Girar a la izquierda",
+    "Hacer un giro en U"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal exige que todos los vehículos giren a la derecha en el lugar indicado.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
