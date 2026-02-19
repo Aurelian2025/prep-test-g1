@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Что означает этот знак?",
+    "choices": [
+      "Рекомендуемая максимальная скорость 80 км/ч",
+      "Минимальная скорость 80 км/ч",
+      "Максимально допустимая скорость 80 км/ч при идеальных условиях",
+      "Скорость всегда должна быть 80 км/ч независимо от условий"
+    ],
+    "correctIndex": 2,
+    "explanation": "Белый прямоугольный знак с чёрными цифрами указывает максимально допустимую скорость в километрах в час при идеальных условиях движения.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "На двухполосной дороге без разделительной полосы впереди вас школьный автобус остановился с мигающими верхними красными огнями. Что вы должны сделать?",
+    "choices": [
+      "Снизить скорость до 10 км/ч и осторожно проехать",
+      "Остановиться не менее чем в 20 метрах позади и оставаться остановленным, пока огни не перестанут мигать и не уберётся знак «Стоп»",
+      "Проехать, если на дороге не видно детей",
+      "Остановиться только если вы приближаетесь со встречного направления"
+    ],
+    "correctIndex": 1,
+    "explanation": "Когда школьный автобус включает мигающие красные огни (и/или знак «Стоп»), вы должны остановиться. Если вы находитесь позади автобуса, остановитесь не менее чем в 20 метрах и оставайтесь остановленными, пока красные огни не перестанут мигать и знак «Стоп» не уберётся. На дорогах с разделительной полосой останавливаться должны только транспортные средства позади автобуса.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Что означает этот предписывающий знак?",
+    "choices": [
+      "Впереди пешеходный переход",
+      "Впереди школьный переход",
+      "Пешеходам запрещено движение дальше этой точки",
+      "Пешеходы должны уступать дорогу транспортным средствам"
+    ],
+    "correctIndex": 2,
+    "explanation": "Символ пешехода внутри красного круга с диагональной линией означает, что движение пешеходов за этим знаком запрещено.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Когда в Онтарио разрешено поворачивать направо на красный свет?",
+    "choices": [
+      "В любое время, если вы включили сигнал поворота",
+      "Только когда полицейский подаёт вам сигнал двигаться",
+      "После полной остановки и только если нет запрещающего знака, уступив дорогу пешеходам и транспорту",
+      "Только между восходом и заходом солнца"
+    ],
+    "correctIndex": 2,
+    "explanation": "Вы можете повернуть направо на красный свет после полной остановки, если нет запрещающего знака и вы уступаете дорогу пешеходам и другим участникам движения.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Этот знак показывает две машины рядом в красном круге. Что это означает?",
+    "choices": [
+      "Обгон разрешён, если вы подали сигнал",
+      "Обгон запрещён — здесь нельзя обгонять другие транспортные средства",
+      "Используйте только левую полосу",
+      "Держитесь правой стороны, кроме случаев обгона"
+    ],
+    "correctIndex": 1,
+    "explanation": "Красный круг означает запрет. Символ двух автомобилей указывает ЗАПРЕТ ОБГОНА — не обгоняйте другие транспортные средства там, где действует этот знак.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
