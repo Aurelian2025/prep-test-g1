@@ -1227,5 +1227,73 @@
   ],
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-snowmobiles-permitted-56",
+    "question": "Quel type de véhicule est autorisé ici ?",
+  "choices": [
+    "La circulation des motoneiges est permise",
+    "Les motoneiges doivent s’arrêter",
+    "Les motoneiges doivent être transportées sur remorque",
+    "Seules les voitures peuvent continuer"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le cercle vert et le symbole de motoneige indiquent que les motoneiges sont autorisées sur cet itinéraire.",
+    "image": "/signs/q-snowmobiles-permitted.png"
+},
+
+{
+  "id": "q-bicycles-permitted-57",
+  "question": "Que dit ce panneau aux usagers de la route ?",
+  "choices": [
+    "Les cyclistes sont autorisés à circuler ici",
+    "Les cyclistes doivent descendre de leur vélo",
+    "Cette voie est fermée aux vélos",
+    "Seuls les piétons peuvent utiliser cette zone"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un cercle vert indique une permission; le symbole du vélo confirme que les cyclistes peuvent utiliser cette route ou cette voie.",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+
+{
+  "id": "q-keep-right-except-to-pass-58",
+  "question": "Quel comportement de conduite ce panneau exige-t-il ?",
+  "choices": [
+    "Rester dans la voie de droite sauf pour dépasser un autre véhicule",
+    "Utiliser la voie de gauche en tout temps",
+    "Éviter de changer de voie",
+    "Dépasser uniquement sur l’accotement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent normalement rester à droite et se déplacer à gauche seulement pour dépasser un trafic plus lent.",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
+
+{
+  "id": "q-two-way-left-turn-lane-59",
+  "question": "Comment cette voie centrale peut-elle être utilisée ?",
+  "choices": [
+    "Pour les virages à gauche par la circulation venant des deux directions",
+    "Pour dépasser les véhicules plus lents",
+    "Pour les virages à droite seulement",
+    "Pour le stationnement hors des heures de pointe"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau indique que les véhicules circulant dans les deux sens peuvent utiliser la voie uniquement pour effectuer des virages à gauche.",
+  "image": "/signs/q-two-way-left-turn-lane.png"
+},
+{
+  "id": "q-no-right-turn-on-red-60",
+  "question": "Quelle restriction ce panneau impose-t-il aux conducteurs ?",
+  "choices": [
+    "Il est interdit de tourner à droite lorsque le feu est rouge",
+    "Les virages à droite doivent être faits au feu rouge",
+    "Seuls les autobus peuvent tourner à droite",
+    "Les demi-tours sont obligatoires"
+  ],
+  "correctIndex": 0,
+  "explanation": "La barre rouge sur la flèche de virage à droite signifie que les conducteurs doivent attendre un feu vert avant de tourner à droite.",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
 
 
