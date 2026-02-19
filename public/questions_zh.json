@@ -1889,3 +1889,69 @@
     "explanation": "在施工区内，必须遵守规定的施工限速，并特别注意工人和车道变化。",
      "image": "/signs/construction-ahead.jpg"
   },
+{
+  "id": "q-bus-rail-106",
+  "question": "公交车司机在未受保护的铁路道口未停车会被扣多少分？",
+  "choices": [
+    "3 分违章扣分",
+    "4 分违章扣分",
+    "5 分违章扣分",
+    "6 分违章扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "公交车司机必须在未受保护的道口停车；未停车将被扣 5 分。",
+  "image": "/signs/q-bus-rail-106.png"
+},
+  {
+    "id": "q-rules-no-entry-oneway-107",
+    "question": "您在街道尽头看到此“禁止进入”标志。它告诉您关于这条道路的什么信息？",
+    "choices": [
+      "该道路为单行道，来车方向朝向您；您不得进入",
+      "该道路仅在夜间关闭",
+      "您可以进入但必须立即左转",
+      "这只是建议使用其他路线"
+    ],
+    "correctIndex": 0,
+    "explanation": "禁止进入标志表示您正面对该道路或车道的错误行驶方向。您不得进入。",
+      "image": "/signs/do-not-enter.jpg"
+  },
+  {
+  "id": "q-speed-50plus-108",
+  "question": "以超过限速 50 公里/小时或以上驾驶会被扣多少分？",
+  "choices": [
+    "3 分违章扣分",
+    "4 分违章扣分",
+    "5 分违章扣分",
+    "6 分违章扣分"
+  ],
+  "correctIndex": 3,
+  "explanation": "超速 50 公里/小时或以上将被扣 6 分。",
+  "image": "/signs/q-speed-50plus-108.png"
+},
+  {
+    "id": "q-alcohol-109",
+    "question": "如果 21 岁以下的驾驶员在驾驶时体内有任何酒精，他们：",
+    "choices": [
+      "可能只会收到警告",
+      "将受到零容忍规定并被吊销驾照",
+      "若有成年人陪同可继续驾驶",
+      "周末可豁免"
+    ],
+    "correctIndex": 1,
+    "explanation": "安大略省对 21 岁以下驾驶员以及新手驾驶员（G1/G2）实行零酒精含量要求。",
+    "image": "/signs/q-28-impaired-driver.png"
+  },
+
+  {
+    "id": "q-rules-no-stopping-like-sign-110",
+    "question": "另一种标志显示一个红色圆圈和斜杠覆盖在停车符号上。它与此禁止停车标志有何不同？",
+    "choices": [
+      "禁止停车表示您完全不得停车，即使是短暂停车也不允许",
+      "禁止停车表示仅允许夜间停车",
+      "禁止停车和禁止停放意思完全相同",
+      "禁止停车仅适用于自行车"
+    ],
+    "correctIndex": 0,
+    "explanation": "禁止停车标志允许短暂停车以接送乘客或装卸物品。禁止停靠标志则不允许您完全停车，除非为遵守交通管制。",
+      "image": "/signs/no-parking.jpg"
+  },
