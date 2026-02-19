@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ نشان سڑک کے داخلے پر لگا ہوا ہے۔ اس کا کیا مطلب ہے؟",
+    "choices": [
+      "پیدل چلنے والوں کو گزرنے کی اجازت نہیں ہے",
+      "پیدل چلنے والوں کو صرف اسی نشان پر گزرنا چاہیے",
+      "آگے پیدل گزرگاہ ہے",
+      "پیدل چلنے والوں کو حقِ راست حاصل ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "سرخ دائرے میں ترچھی لکیر کے ساتھ پیدل چلنے والے کی علامت کا مطلب ہے کہ اس علاقے میں پیدل چلنے والوں کا داخلہ ممنوع ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "آپ سردیوں کے ٹریل کے داخلے پر یہ نشان دیکھتے ہیں۔ اس کا کیا مطلب ہے؟",
+    "choices": [
+      "اس نشان کے آگے سنو موبائل کی اجازت نہیں ہے",
+      "سنو موبائل کو رفتار کم کرنی چاہیے",
+      "سنو موبائل ٹریل شروع ہوتا ہے",
+      "سنو موبائل کو دیگر گاڑیوں پر ترجیح حاصل ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "سرخ دائرے میں ترچھی لکیر کے ساتھ سنو موبائل کی علامت کا مطلب ہے کہ اس نشان کے آگے سنو موبائل ممنوع ہیں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "آپ ایک چوراہے پر یہ نشان دیکھتے ہیں۔ اس کا کیا مطلب ہے؟",
+    "choices": [
+      "اس چوراہے پر دائیں مڑنا منع ہے",
+      "دائیں مڑنا صرف سبز بتی پر اجازت ہے",
+      "آپ کو چوراہے پر دائیں مڑنا ہوگا",
+      "آگے دائیں لین ختم ہو جاتی ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "سرخ دائرے اور ترچھی لکیر کے اندر سیاہ دائیں مڑنے کا تیر ایک ضابطہ جاتی نشان ہے جو ظاہر کرتا ہے کہ جہاں یہ نشان لاگو ہو وہاں دائیں مڑنا ممنوع ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ نشان ڈرائیوروں کو یو ٹرن کے بارے میں کیا بتاتا ہے؟",
+    "choices": [
+      "یو ٹرن کی اجازت نہیں ہے",
+      "یو ٹرن صرف رات کو اجازت ہے",
+      "اگر ٹریفک نہ ہو تو یو ٹرن کی اجازت ہے",
+      "اگلے چوراہے پر یو ٹرن کرنا لازمی ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "سرخ دائرے اور ترچھی لکیر کے ساتھ یو شکل کا مڑا ہوا تیر ایک ضابطہ جاتی نشان ہے جو ظاہر کرتا ہے کہ جہاں یہ نشان لاگو ہو وہاں یو ٹرن ممنوع ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "آگے کون سی ڈرائیونگ حالت موجود ہو سکتی ہے؟",
+    "choices": [
+      "سڑک پر پانی بہہ رہا ہو سکتا ہے",
+      "ایک پل گر گیا ہے",
+      "فیری کراسنگ درکار ہے",
+      "سڑک مستقل طور پر زیرِ آب ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "یہ نشان ڈرائیوروں کو خبردار کرتا ہے کہ پانی جمع ہونے سے گرفت اور نظر پر اثر پڑ سکتا ہے۔",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
