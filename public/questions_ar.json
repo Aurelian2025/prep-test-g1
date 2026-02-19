@@ -438,3 +438,118 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ماذا تشير هذه العلامة؟",
+    "choices": [
+      "السرعة القصوى الموصى بها 80 كم/س",
+      "السرعة الدنيا 80 كم/س",
+      "السرعة القانونية القصوى 80 كم/س في ظروف مثالية",
+      "يجب أن تكون السرعة دائمًا 80 كم/س بغض النظر عن الظروف"
+    ],
+    "correctIndex": 2,
+    "explanation": "تشير العلامة المستطيلة البيضاء ذات الأرقام السوداء إلى السرعة القانونية القصوى بالكيلومترات في الساعة في ظروف القيادة المثالية.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "على طريق باتجاهين دون جزيرة وسطى، تتوقف حافلة مدرسية أمامك مع وميض أضوائها الحمراء العلوية. ماذا يجب أن تفعل؟",
+    "choices": [
+      "إبطاء السرعة إلى 10 كم/س والمرور بحذر",
+      "التوقف على بعد 20 مترًا على الأقل خلفها والبقاء متوقفًا حتى تتوقف الأضواء عن الوميض ويعود ذراع التوقف إلى مكانه",
+      "المرور إذا لم يكن هناك أطفال ظاهرون على الطريق",
+      "التوقف فقط إذا كنت قادمًا من الاتجاه المعاكس"
+    ],
+    "correctIndex": 1,
+    "explanation": "عندما تُفعّل الحافلة المدرسية أضواءها الحمراء الوامضة (و/أو ذراع التوقف)، يجب عليك التوقف. إذا كنت خلف الحافلة، توقف على بعد 20 مترًا على الأقل وابقَ متوقفًا حتى تتوقف الأضواء الحمراء عن الوميض ويعود ذراع التوقف. على الطرق ذات الجزيرة الوسطى، يجب على المركبات خلف الحافلة فقط التوقف.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ماذا تعني هذه العلامة التنظيمية؟",
+    "choices": [
+      "ممر مشاة أمامك",
+      "عبور مدرسي أمامك",
+      "يُمنع المشاة بعد هذه النقطة",
+      "يجب على المشاة إعطاء الأولوية للمركبات"
+    ],
+    "correctIndex": 2,
+    "explanation": "يشير رمز المشاة داخل دائرة حمراء مع خط مائل إلى أن المشاة ممنوعون بعد هذه العلامة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "متى يكون من القانوني الانعطاف يمينًا عند الإشارة الحمراء في أونتاريو؟",
+    "choices": [
+      "في أي وقت إذا أشرت بإشارة الانعطاف",
+      "فقط عندما يشير لك ضابط الشرطة بالمرور",
+      "بعد التوقف التام وفقط إذا لم توجد علامة تمنع ذلك، ومع إعطاء الأولوية للمشاة وحركة المرور",
+      "فقط بين شروق الشمس وغروبها"
+    ],
+    "correctIndex": 2,
+    "explanation": "يمكنك الانعطاف يمينًا عند الإشارة الحمراء بعد التوقف الكامل، بشرط عدم وجود علامة تمنع ذلك وأن تعطي الأولوية للمشاة ولمستخدمي الطريق الآخرين.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "تُظهر هذه العلامة سيارتين جنبًا إلى جنب داخل دائرة حمراء. ماذا تعني؟",
+    "choices": [
+      "يُسمح بالتجاوز إذا أشرت",
+      "ممنوع التجاوز — لا يجب عليك تخطي المركبات الأخرى هنا",
+      "استخدم المسار الأيسر فقط",
+      "ابقَ في اليمين إلا عند التجاوز"
+    ],
+    "correctIndex": 1,
+    "explanation": "تشير الدائرة الحمراء إلى المنع. يوضح رمز السيارتين أنه ممنوع التجاوز — لا تتجاوز المركبات الأخرى حيث تنطبق هذه العلامة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
