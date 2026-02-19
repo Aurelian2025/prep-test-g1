@@ -1954,3 +1954,69 @@
     "explanation": "Las señales de no estacionar permiten paradas breves para cargar o descargar pasajeros o mercancías. Las señales de no detenerse no permiten detener el vehículo en absoluto, excepto para obedecer el control de tráfico.",
       "image": "/signs/no-parking.jpg"
   },
+{
+  "id": "q-bus-rail-106",
+  "question": "¿Cuántos puntos de demérito recibe un conductor de autobús que no se detiene en un cruce ferroviario sin protección?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Los conductores de autobús deben detenerse en los cruces sin protección; no hacerlo resulta en 5 puntos.",
+  "image": "/signs/q-bus-rail-106.png"
+},
+  {
+    "id": "q-rules-no-entry-oneway-107",
+    "question": "Se acerca a esta señal de NO ENTRY al final de una calle. ¿Qué le indica sobre esa vía?",
+    "choices": [
+      "La vía es de un solo sentido hacia usted; no debe entrar",
+      "La vía está cerrada solo por la noche",
+      "Puede entrar pero debe girar a la izquierda de inmediato",
+      "Es solo una sugerencia usar otra ruta"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las señales de no entry significan que usted está frente a la dirección incorrecta de circulación para esa vía o carril. No debe entrar.",
+      "image": "/signs/do-not-enter.jpg"
+  },
+  {
+  "id": "q-speed-50plus-108",
+  "question": "¿Cuántos puntos de demérito se emiten por conducir 50 km/h o más por encima del límite indicado?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "Conducir 50 km/h o más por encima del límite conlleva 6 puntos de demérito.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
+  {
+    "id": "q-alcohol-109",
+    "question": "Si un conductor menor de 21 años tiene cualquier cantidad de alcohol en su sistema mientras conduce, él o ella:",
+    "choices": [
+      "Puede recibir solo una advertencia",
+      "Está sujeto a tolerancia cero y suspensión de licencia",
+      "Puede continuar si está acompañado por un adulto",
+      "Está exento los fines de semana"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ontario tiene un requisito de BAC cero para conductores menores de 21 años y para conductores novatos (G1/G2).",
+    "image": "/signs/q-28-impaired-driver.png"
+  },
+
+  {
+    "id": "q-rules-no-stopping-like-sign-110",
+    "question": "Una señal diferente muestra un círculo rojo con una barra sobre un símbolo de detenerse. ¿En qué se diferencia de esta señal de no estacionar?",
+    "choices": [
+      "No detenerse significa que no puede detener su vehículo en absoluto, ni siquiera brevemente",
+      "No detenerse significa que el estacionamiento está permitido solo por la noche",
+      "No detenerse y no estacionar significan exactamente lo mismo",
+      "No detenerse se aplica solo a bicicletas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las señales de no estacionar permiten paradas breves para cargar o descargar pasajeros o mercancías. Las señales de no detenerse no permiten detener el vehículo en absoluto, excepto para obedecer el control del tráfico.",
+      "image": "/signs/no-parking.jpg"
+  },
