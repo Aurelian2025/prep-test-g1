@@ -438,4 +438,119 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "建议最高速度为80公里/小时",
+      "最低速度为80公里/小时",
+      "在理想条件下的法定最高速度为80公里/小时",
+      "无论情况如何，速度必须始终为80公里/小时"
+    ],
+    "correctIndex": 2,
+    "explanation": "带有黑色数字的白色长方形标志表示在理想驾驶条件下的法定最高车速（公里/小时）。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在没有中央隔离带的双向道路上，前方校车停下并闪烁上方红灯。你必须怎么做？",
+    "choices": [
+      "减速至10公里/小时并小心通过",
+      "在车后至少20米处停车，并保持停车状态，直到红灯停止闪烁且停车臂收回",
+      "如果道路上看不到儿童即可通过",
+      "只有从对面方向驶来时才需要停车"
+    ],
+    "correctIndex": 1,
+    "explanation": "当校车启动红色闪烁灯（和/或停车臂）时，你必须停车。如果你在校车后方，应在至少20米处停车，并保持停车，直到红灯停止闪烁且停车臂收回。在有中央隔离带的道路上，只有在校车后方的车辆必须停车。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个管制标志是什么意思？",
+    "choices": [
+      "前方有人行横道",
+      "前方学校过街",
+      "此点之后禁止行人通行",
+      "行人必须让车辆先行"
+    ],
+    "correctIndex": 2,
+    "explanation": "红色圆圈加斜杠内的人行符号表示此标志之后禁止行人通行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在安大略省，什么时候可以在红灯时右转？",
+    "choices": [
+      "只要打转向灯即可",
+      "只有警察示意你通过时",
+      "完全停车后，且没有禁止标志，并让行行人和车辆时",
+      "仅在日出到日落之间"
+    ],
+    "correctIndex": 2,
+    "explanation": "在红灯时，先完全停车。如果没有禁止标志，并向行人和其他道路使用者让行后，可以右转。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个标志显示两个并排的汽车在一个红色圆圈内。它是什么意思？",
+    "choices": [
+      "如果打转向灯可以超车",
+      "禁止超车——在此处不得超过其他车辆",
+      "只使用左侧车道",
+      "除超车外请靠右行驶"
+    ],
+    "correctIndex": 1,
+    "explanation": "红色圆圈表示禁止。两个汽车的符号表示禁止超车——在此标志适用的地方不要超过其他车辆。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
