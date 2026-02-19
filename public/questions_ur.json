@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "ur",
+  "category": "signs-regulatory",
+  "question": "یہ نشان کیا ظاہر کرتا ہے؟",
+  "choices": [
+    "بائیں موڑ صرف رات کو اجازت ہے",
+    "کسی بھی وقت بائیں موڑ کی اجازت نہیں",
+    "آگے بائیں موڑ کی لین شروع ہوتی ہے",
+    "احتیاط کے ساتھ یو ٹرن کی اجازت ہے"
+  ],
+  "correctIndex": 1,
+  "explanation": "سرخ دائرہ جس پر ترچھی لکیر ہو ہمیشہ ممانعت ظاہر کرتا ہے۔ بائیں طرف اشارہ کرتا تیر جس پر لکیر ہو اس کا مطلب ہے کہ بائیں موڑ کی اجازت نہیں۔",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "ur",
+  "category": "rules-of-the-road",
+  "question": "اسٹاپ سائن پر، اگر اسٹاپ لائن بنی ہوئی ہو تو آپ کو کہاں رکنا چاہیے؟",
+  "choices": [
+    "چوراہے سے پہلے کہیں بھی",
+    "اسٹاپ سائن کے کھمبے کے پاس",
+    "پینٹ کی گئی اسٹاپ لائن پر",
+    "بہتر دیکھنے کے لیے چوراہے کے درمیان"
+  ],
+  "correctIndex": 2,
+  "explanation": "آپ کو پینٹ کی گئی اسٹاپ لائن پر مکمل طور پر رکنا چاہیے۔ اگر اسٹاپ لائن نہ ہو تو پیدل گزرگاہ پر رکیں؛ اگر وہ بھی نہ ہو تو فٹ پاتھ کے کنارے؛ اگر وہ بھی نہ ہو تو چوراہے کے کنارے رکیں۔",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "ur",
+  "category": "signs-regulatory",
+  "question": "یہ نشان آگے ظاہر ہوتا ہے۔ یہ آپ کو کس بات سے خبردار کرتا ہے؟",
+  "choices": [
+    "اس سڑک پر سائیکلیں ممنوع ہیں",
+    "سائیکل سواروں کی توقع رکھیں؛ سائیکل ٹریفک سڑک پار کر سکتا ہے یا شیئر کر سکتا ہے",
+    "مشترکہ استعمال کا راستہ شروع ہوتا ہے؛ موٹر گاڑیوں کو رکنا چاہیے",
+    "سائیکل لین ختم ہوتی ہے؛ فوراً دائیں ملیں"
+  ],
+  "correctIndex": 1,
+  "explanation": "پیلا ہیرے کی شکل میں سائیکل کا نشان ایک انتباہی علامت ہے جو سائیکل سواروں کے لیے محتاط رہنے اور ضرورت پڑنے پر رفتار کم کرنے یا راستہ دینے کا اشارہ دیتا ہے۔",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "ur",
+  "category": "alcohol-and-driving",
+  "question": "نشے میں ڈرائیونگ کی پہلی سزا کے بعد ڈرائیونگ لائسنس کتنے عرصے کے لیے معطل ہوتا ہے؟",
+  "choices": [
+    "1 مہینہ",
+    "3 مہینے",
+    "6 مہینے",
+    "1 سال"
+  ],
+  "correctIndex": 3,
+  "explanation": "نشے میں ڈرائیونگ کی پہلی سزا کے نتیجے میں ڈرائیونگ لائسنس ایک سال کے لیے معطل ہو جاتا ہے، اس کے ساتھ جرمانے اور لازمی تعلیمی پروگرام جیسی دیگر سزائیں بھی ہوتی ہیں۔",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "ur",
+  "category": "signs-regulatory",
+  "question": "آپ یہ نشان سڑک کے داخلے پر دیکھتے ہیں۔ آپ کو کیا کرنا چاہیے؟",
+  "choices": [
+    "آہستہ آگے بڑھیں اور دائیں رہیں",
+    "صرف تب داخل ہوں جب ٹریفک کم ہو",
+    "داخل نہ ہوں — یہ سڑک مخالف سمت کی ٹریفک کے لیے ہے",
+    "رکیں اور پھر راستہ صاف ہونے پر آگے بڑھیں"
+  ],
+  "correctIndex": 2,
+  "explanation": "سرخ دائرے میں سفید افقی لکیر کا مطلب ہے داخلہ ممنوع — آپ مخالف سمت کی ٹریفک کی طرف جا رہے ہیں (جیسے یک طرفہ سڑک کے غلط سرے پر)۔",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
