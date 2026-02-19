@@ -101,4 +101,113 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "demerit-points",
+  "question": "Неостановка на месте ДТП приводит к начислению скольких штрафных баллов?",
+  "choices": [
+    "2 штрафных балла",
+    "3 штрафных балла",
+    "6 штрафных баллов",
+    "7 штрафных баллов"
+  ],
+  "correctIndex": 3,
+  "explanation": "Неостановка на месте ДТП приводит к начислению 7 штрафных баллов.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "signs-regulatory",
+  "question": "Вы видите этот знак впереди. Что он означает для движения в вашем направлении?",
+  "choices": [
+    "Впереди объезд — снизьте скорость до 30 км/ч",
+    "Дорога закрыта для всего транспорта — не продолжайте движение",
+    "Остановка на этой дороге запрещена",
+    "Временный въезд для строительной техники разрешён"
+  ],
+  "correctIndex": 1,
+  "explanation": "Знак ROAD CLOSED означает, что дорога закрыта для движения. Не продолжайте движение; следуйте указаниям объезда или инструкциям.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "rules-of-the-road",
+  "question": "Какова минимальная безопасная дистанция до впереди идущего автомобиля в хороших условиях для большинства легковых автомобилей?",
+  "choices": [
+    "Одна секунда позади впереди идущего автомобиля",
+    "Две секунды позади впереди идущего автомобиля",
+    "Три длины автомобиля при любой скорости",
+    "Пять секунд только на автомагистралях"
+  ],
+  "correctIndex": 1,
+  "explanation": "В хороших условиях используйте правило как минимум двух секунд для поддержания безопасной дистанции. Увеличивайте дистанцию в плохую погоду или при плохой видимости.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "signs-regulatory",
+  "question": "Жёлтый ромбовидный знак с извилистой стрелкой означает:",
+  "choices": [
+    "Дорога впереди прямая",
+    "Впереди серия поворотов; снизьте скорость и двигайтесь осторожно",
+    "Впереди только один крутой поворот",
+    "Впереди укреплённая обочина"
+  ],
+  "correctIndex": 1,
+  "explanation": "Знак извилистой дороги предупреждает о нескольких поворотах впереди. Снизьте скорость и будьте готовы менять направление.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "ru",
+  "category": "rules-of-the-road",
+  "question": "При приближении к круговому перекрёстку что необходимо сделать перед въездом?",
+  "choices": [
+    "Быстро въехать и занять свою полосу",
+    "Остановиться в полосе въезда, даже если никого нет",
+    "Уступить дорогу транспорту на круге и пешеходам и въехать, когда появится безопасный промежуток",
+    "Включить левый сигнал и немедленно въехать"
+  ],
+  "correctIndex": 2,
+  "explanation": "Снизьте скорость и уступите дорогу движущемуся транспорту на круге и пешеходам. Въезжайте только при наличии безопасного промежутка; затем включите правый сигнал при выезде.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
 
