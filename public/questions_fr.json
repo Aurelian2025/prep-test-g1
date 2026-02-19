@@ -1823,4 +1823,69 @@
   "explanation": "Ce panneau-guide vert informe les conducteurs que la circulation dans la voie de droite doit obligatoirement prendre la sortie. Les conducteurs qui ne souhaitent pas sortir doivent changer de voie à l’avance.",
   "image": "/signs/right-lane-must-exit.png"
 },  
+{
+  "id": "q-improper-right-101",
+  "question": "Combien de points d’inaptitude résultent d’un virage à droite incorrect ?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les virages incorrects entraînent 2 points d’inaptitude.",
+  "image": "/signs/q-improper-right-101.png"
+},
+  {
+    "id": "q-rules-merge-sign-102",
+    "question": "Vous voyez une voie se terminer et un panneau de fusion devant. La circulation est dense mais avance. Que devez-vous faire ?",
+    "choices": [
+      "Signaler, ajuster votre vitesse et vous insérer en douceur dans la voie de circulation lorsqu’il y a un espace sécuritaire",
+      "Vous arrêter dans votre voie et attendre que quelqu’un vous fasse signe d’entrer",
+      "Accélérer brusquement et forcer votre entrée dans la voie",
+      "Conduire sur l’accotement jusqu’à trouver un espace plus loin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lorsqu’une voie se termine, vous devez signaler, adapter votre vitesse à la circulation et vous insérer dans la voie suivante seulement lorsqu’il y a un espace sécuritaire.",
+    "image": "/signs/road-narrows.jpg"
+  },
+  {
+  "id": "q-change-address-notification-103",
+  "question": "Après qu’un conducteur titulaire d’un permis change de nom ou d’adresse, dans quel délai le ministère des Transports doit-il être informé ?",
+  "choices": [
+    "Dans les 6 jours",
+    "Dans les 15 jours",
+    "Dans les 30 jours",
+    "À tout moment avant le renouvellement du permis"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs de l’Ontario sont tenus par la loi d’informer le ministère des Transports dans les six jours suivant tout changement de nom ou d’adresse.",
+  "image": "/signs/q-change-address-notification.png"
+},
 
+  {
+  "id": "q-warning-letter-104",
+  "question": "À partir de quelle plage de points un conducteur débutant reçoit-il une lettre d’avertissement ?",
+  "choices": [
+    "0–1 point d’inaptitude",
+    "2–5 points d’inaptitude",
+    "9–14 points d’inaptitude",
+    "15+ points d’inaptitude"
+  ],
+  "correctIndex": 1,
+  "explanation": "Les conducteurs débutants reçoivent une lettre d’avertissement entre 2 et 5 points.",
+  "image": "/signs/q-warning-letter-104.png"
+},
+  {
+    "id": "q-rules-construction-speed-105",
+    "question": "Vous entrez dans une zone de construction indiquée par ce panneau avec une limite de vitesse réduite. Quelle est la bonne action ?",
+    "choices": [
+      "Ralentir à la vitesse indiquée pour la zone de travaux et être prêt à la présence de travailleurs et d’équipement",
+      "Maintenir la vitesse normale de l’autoroute si aucun travailleur n’est visible",
+      "Conduire sur l’accotement pour éviter les travaux",
+      "Ignorer le panneau si vous êtes en retard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dans une zone de construction, vous devez respecter la limite de vitesse indiquée pour les travaux et être particulièrement attentif aux travailleurs et aux changements de voie.",
+     "image": "/signs/construction-ahead.jpg"
+  },
