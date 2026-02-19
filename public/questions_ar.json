@@ -999,3 +999,117 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "هذه الإشارة موضوعة عند مدخل طريق. ماذا تعني؟",
+    "choices": [
+      "يُمنع مرور المشاة",
+      "يجب على المشاة العبور فقط عند هذه الإشارة",
+      "ممر مشاة أمامك",
+      "للمشاة حق الأولوية"
+    ],
+    "correctIndex": 0,
+    "explanation": "يرمز شكل المشاة داخل دائرة حمراء مع خط مائل إلى أن مرور المشاة محظور في تلك المنطقة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ترى هذه الإشارة عند مدخل مسار شتوي. ماذا تعني؟",
+    "choices": [
+      "تُمنع عربات الثلج بعد هذه الإشارة",
+      "يجب على عربات الثلج تخفيض السرعة",
+      "بداية مسار عربات الثلج",
+      "لعربات الثلج أولوية على المركبات الأخرى"
+    ],
+    "correctIndex": 0,
+    "explanation": "يرمز شكل عربة الثلج داخل دائرة حمراء مع خط مائل إلى أن عربات الثلج محظورة بعد تلك الإشارة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ترى هذه الإشارة عند تقاطع. ماذا تعني؟",
+    "choices": [
+      "يُمنع الانعطاف إلى اليمين عند هذا التقاطع",
+      "يُسمح بالانعطاف إلى اليمين فقط عند الضوء الأخضر",
+      "يجب عليك الانعطاف إلى اليمين عند التقاطع",
+      "ينتهي المسار الأيمن أمامك"
+    ],
+    "correctIndex": 0,
+    "explanation": "السهم الأسود للانعطاف إلى اليمين داخل دائرة حمراء مع خط مائل هو إشارة تنظيمية تعني أن الانعطاف إلى اليمين محظور حيثما تنطبق الإشارة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ماذا تخبر هذه الإشارة السائقين عن الدوران على شكل U؟",
+    "choices": [
+      "يُمنع الدوران على شكل U",
+      "يُسمح بالدوران على شكل U فقط ليلاً",
+      "يُسمح بالدوران على شكل U إذا لم يكن هناك حركة مرور",
+      "يجب القيام بالدوران على شكل U عند التقاطع التالي"
+    ],
+    "correctIndex": 0,
+    "explanation": "السهم المنحني على شكل U داخل دائرة حمراء مع خط مائل هو إشارة تنظيمية تعني أن الدوران على شكل U محظور حيثما تنطبق الإشارة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ما حالة القيادة التي قد تكون موجودة أمامك؟",
+    "choices": [
+      "قد يكون هناك ماء يجري عبر الطريق",
+      "انهار جسر",
+      "يلزم عبور بالعبّارة",
+      "الطريق مغمور بالماء بشكل دائم"
+    ],
+    "correctIndex": 0,
+    "explanation": "تنبه هذه الإشارة السائقين إلى أن تجمع المياه قد يؤثر على التماسك والرؤية.",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
