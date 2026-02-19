@@ -999,5 +999,119 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ce panneau est placé à l’entrée d’une route. Que signifie-t-il ?",
+    "choices": [
+      "Les piétons ne sont pas autorisés à traverser",
+      "Les piétons doivent traverser uniquement à ce panneau",
+      "Passage pour piétons à venir",
+      "Les piétons ont la priorité"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un symbole de piéton dans un cercle rouge barré signifie que les piétons sont interdits dans cette zone.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau à l’entrée d’un sentier hivernal. Que signifie-t-il ?",
+    "choices": [
+      "Les motoneiges ne sont pas autorisées au-delà de ce panneau",
+      "Les motoneiges doivent réduire leur vitesse",
+      "Début du sentier de motoneige",
+      "Les motoneiges ont priorité sur les autres véhicules"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un symbole de motoneige dans un cercle rouge barré signifie que les motoneiges sont interdites au-delà de ce panneau.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau à une intersection. Que signifie-t-il ?",
+    "choices": [
+      "Les virages à droite sont interdits à cette intersection",
+      "Les virages à droite sont autorisés uniquement au feu vert",
+      "Vous devez tourner à droite à l’intersection",
+      "La voie de droite se termine plus loin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Une flèche noire indiquant un virage à droite dans un cercle rouge barré est un panneau réglementaire signifiant que les virages à droite sont interdits là où le panneau s’applique.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que dit ce panneau aux conducteurs au sujet des demi-tours ?",
+    "choices": [
+      "Les demi-tours sont interdits",
+      "Les demi-tours sont autorisés seulement la nuit",
+      "Les demi-tours sont autorisés s’il n’y a pas de circulation",
+      "Les demi-tours sont obligatoires à la prochaine intersection"
+    ],
+    "correctIndex": 0,
+    "explanation": "La flèche courbée en forme de U dans un cercle rouge barré est un panneau réglementaire signifiant que les demi-tours sont interdits là où le panneau s’applique.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+  "id": "q-water-over-road-50",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle condition de conduite peut exister plus loin ?",
+  "choices": [
+    "De l’eau peut s’écouler sur la chaussée",
+    "Un pont s’est effondré",
+    "Un passage par traversier est requis",
+    "La route est inondée en permanence"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau avertit les conducteurs qu’une accumulation d’eau peut affecter l’adhérence et la visibilité.",
+  "sources": [
+    {
+      "title": "Water Hazard Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-water-over-road.png"
+}
 
 
