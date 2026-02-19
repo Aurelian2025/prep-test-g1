@@ -883,3 +883,118 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Una señal amarilla en forma de rombo que muestra un estrechamiento significa:",
+    "choices": [
+      "Puente ancho adelante",
+      "La carretera se estrecha o hay un puente angosto adelante; prepárese para reducir la velocidad y conducir con precaución",
+      "La carretera se ensancha adelante",
+      "Comienza una autopista dividida"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una señal de advertencia de carretera que se estrecha o puente angosto significa que los carriles pueden volverse más estrechos; reduzca la velocidad y pase con cuidado.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Una señal amarilla en forma de rombo que muestra una línea que se divide alrededor de una forma central significa:",
+    "choices": [
+      "Tráfico en dos sentidos adelante",
+      "Comienza una autopista dividida; manténgase a la derecha de la mediana",
+      "Termina la autopista dividida",
+      "Se permite adelantar en ambas direcciones"
+    ],
+    "correctIndex": 1,
+    "explanation": "La señal advierte que comienza una autopista dividida y debe mantenerse a la derecha de la mediana o barrera.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué significa esta señal de límite de velocidad?",
+    "choices": [
+      "La velocidad máxima permitida es 40 km/h",
+      "Debe conducir exactamente a 40 km/h en todo momento",
+      "La velocidad mínima es 40 km/h",
+      "El límite de velocidad cambiará a 40 km/h en 40 metros"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una señal rectangular blanca con números negros muestra la velocidad máxima legal en kilómetros por hora en condiciones de conducción ideales.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal en la entrada de una carretera. ¿Qué significa?",
+    "choices": [
+      "Las bicicletas no están permitidas en esta carretera",
+      "Los ciclistas deben circular por la acera",
+      "Aquí comienza un carril para bicicletas",
+      "Las bicicletas tienen el derecho de paso"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un símbolo de bicicleta dentro de un círculo rojo con una barra significa que las bicicletas están prohibidas en esa carretera o área.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué indica esta señal a los conductores sobre el estacionamiento?",
+    "choices": [
+      "No se permite estacionar donde se aplica la señal",
+      "El estacionamiento está permitido solo por 10 minutos",
+      "El estacionamiento está permitido solo de noche",
+      "No se permite detenerse en ningún momento"
+    ],
+    "correctIndex": 0,
+    "explanation": "El círculo rojo con una barra sobre la letra P es una señal reglamentaria que significa que no se permite estacionar en el área o entre las flechas indicadas.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
