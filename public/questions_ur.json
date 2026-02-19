@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہاں کون سا ماحولیاتی اصول نافذ ہے؟",
+  "choices": [
+    "انجن 3 منٹ سے زیادہ آئیڈل نہیں رہنا چاہیے",
+    "انجن چلتے رہنے چاہئیں",
+    "آئیڈلنگ صرف سردیوں میں اجازت ہے",
+    "ڈیزل گاڑیاں مستثنیٰ ہیں"
+  ],
+  "correctIndex": 0,
+  "explanation": "یہ سائن انجن کے آئیڈل وقت کو محدود کرتا ہے تاکہ اخراج اور آلودگی کم ہو۔",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہ نشان کس منزل کی طرف اشارہ کرتا ہے؟",
+  "choices": [
+    "ایئرپورٹ تک رسائی کا راستہ",
+    "فیری ٹرمینل",
+    "فوجی اڈہ",
+    "ریلوے اسٹیشن"
+  ],
+  "correctIndex": 0,
+  "explanation": "ہوائی جہاز کا آئیکن ڈرائیوروں کو ایئرپورٹ کی سہولیات کی طرف رہنمائی کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "یہ علامت دوسرے ڈرائیوروں کو کیا معلومات فراہم کرتی ہے؟",
+  "choices": [
+    "ڈرائیور نیا یا کم تجربہ کار ہے",
+    "گاڑی آہستہ چل رہی ہے",
+    "گاڑی صرف تربیت کے لیے استعمال ہوتی ہے",
+    "گاڑی مرمت کے تحت ہے"
+  ],
+  "correctIndex": 0,
+  "explanation": "’N‘ کی علامت ایک نوآموز ڈرائیور کی نشاندہی کرتی ہے اور دوسروں کو صبر کرنے کی ترغیب دیتی ہے۔",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "اس ہاتھ کے اشارے سے کون سا ارادہ ظاہر ہوتا ہے؟",
+  "choices": [
+    "بائیں طرف مڑنا",
+    "دائیں طرف مڑنا",
+    "رکنا",
+    "راستہ دینا"
+  ],
+  "correctIndex": 0,
+  "explanation": "سیدھا باہر نکلا ہوا بازو ڈرائیور کے بائیں طرف مڑنے کے ارادے کی نشاندہی کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ڈرائیوروں کو کون سی حرکت لازمی کرنی ہے؟",
+  "choices": [
+    "دائیں طرف مڑیں",
+    "سیدھا آگے بڑھیں",
+    "بائیں طرف مڑیں",
+    "یو ٹرن لیں"
+  ],
+  "correctIndex": 0,
+  "explanation": "یہ نشان تمام گاڑیوں کو مقررہ مقام پر دائیں طرف مڑنے کا تقاضا کرتا ہے۔",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
