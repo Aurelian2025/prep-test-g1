@@ -92,12 +92,120 @@
   ],
   "correctIndex": 2,
   "explanation": "El círculo rojo con una barra horizontal blanca significa NO ENTRAR — usted está frente al tráfico en dirección opuesta (por ejemplo, en el extremo incorrecto de una vía de un solo sentido).",
-  "sources": [
     {
       "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
       "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    },
+  {
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "demerit-points",
+  "question": "No permanecer en el lugar de una colisión da lugar a cuántos puntos de demérito?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "No permanecer en el lugar de una colisión da lugar a 7 puntos de demérito.",
+  
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "signs-regulatory",
+  "question": "Ve esta señal más adelante. ¿Qué significa para el tráfico en su dirección?",
+  "choices": [
+    "Desvío más adelante — reduzca la velocidad a 30 km/h",
+    "Carretera cerrada a todo el tráfico — no continúe",
+    "Prohibido detenerse en esta carretera",
+    "Acceso temporal de construcción permitido"
+  ],
+  "correctIndex": 1,
+  "explanation": "Una señal de CARRETERA CERRADA significa que la vía está cerrada al tráfico. No continúe; siga los desvíos o las instrucciones indicadas.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
     }
   ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "rules-of-the-road",
+  "question": "¿Cuál es la distancia mínima segura de seguimiento en buenas condiciones para la mayoría de los vehículos de pasajeros?",
+  "choices": [
+    "Un segundo detrás del vehículo de adelante",
+    "Dos segundos detrás del vehículo de adelante",
+    "Tres longitudes de automóvil a cualquier velocidad",
+    "Cinco segundos solo en autopistas"
+  ],
+  "correctIndex": 1,
+  "explanation": "Utilice al menos la regla de los dos segundos para mantener una distancia de seguimiento segura en buenas condiciones. Aumente la distancia en mal tiempo o cuando la visibilidad sea baja.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "signs-regulatory",
+  "question": "Una señal amarilla en forma de rombo que muestra una flecha sinuosa significa:",
+  "choices": [
+    "La carretera adelante es recta",
+    "La carretera adelante tiene una serie de curvas; reduzca la velocidad y conduzca con precaución",
+    "Solo hay una curva pronunciada adelante",
+    "Arcén pavimentado adelante"
+  ],
+  "correctIndex": 1,
+  "explanation": "Una señal de carretera sinuosa advierte de varias curvas adelante. Reduzca la velocidad y prepárese para cambiar de dirección.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "rules-of-the-road",
+  "question": "Al acercarse a una rotonda, ¿qué debe hacer antes de entrar?",
+  "choices": [
+    "Entrar rápidamente y tomar su carril",
+    "Detenerse en el carril de entrada aunque no venga nadie",
+    "Ceder el paso al tráfico que ya está en la rotonda y a los peatones, y entrar cuando haya un espacio seguro",
+    "Señalar a la izquierda y entrar inmediatamente"
+  ],
+  "correctIndex": 2,
+  "explanation": "Reduzca la velocidad y ceda el paso al tráfico que circula en la rotonda y a los peatones. Entre solo cuando haya un espacio seguro; luego señale a la derecha al salir.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
+
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
