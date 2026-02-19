@@ -1490,4 +1490,70 @@
   "explanation": "未为校车停车会被扣6分。",
   "image": "/signs/q-school-bus-204.png"
 },
+{
+    "id": "q-abs-brakes-76",
+    "question": "在配有 ABS（防抱死制动系统）的车辆中，紧急停车时应如何制动？",
+    "choices": [
+      "快速反复踩刹车踏板",
+      "用力踩住刹车踏板并保持，同时控制方向",
+      "只使用手刹",
+      "挂入空挡滑行"
+    ],
+    "correctIndex": 1,
+    "explanation": "配有 ABS 时，应对刹车踏板施加持续而有力的压力，并朝你想要行驶的方向转向。",
+    "image": "/signs/q-abs-brakes-62.png"
+  },
+  {
+  "id": "q-disabled-truck-warning-distance-77",
+  "question": "如果一辆卡车在限速超过 60 公里/小时的道路上抛锚，警示装置（如信号弹或反光标志）应大约放置在车辆前后多远的地方？",
+  "choices": [
+    "15 米（50 英尺）",
+    "30 米（100 英尺）",
+    "60 米（200 英尺）",
+    "90 米（300 英尺）"
+  ],
+  "correctIndex": 3,
+  "explanation": "在限速超过 60 公里/小时的道路上，警示装置应放置在抛锚卡车前后约 30 米（100 英尺）处，以便为来车提供充分警告。",
+  "image": "/signs/q-disabled-truck-warning-distance.png"
+},
+
+  {
+    "id": "q-night-meeting-78",
+    "question": "夜间会车时，应在什么时候将远光灯切换为近光灯？",
+    "choices": [
+      "当距离约一个街区（约 150 米）时",
+      "只有当对方司机闪灯时",
+      "当对方车辆就在你正前方时",
+      "从不；远光灯应始终开启"
+    ],
+    "correctIndex": 0,
+    "explanation": "当与来车相距约 150 米时应切换为近光灯，以免使其他驾驶员眩目。",
+    "image": "/signs/q-night-meeting-64.png"
+  },
+  {
+    "id": "q-demerit-red-light-79",
+    "question": "你在红色交通信号灯变为红灯后仍然通过并被定罪。你会被扣多少分？",
+    "choices": [
+      "扣 2 分",
+      "扣 3 分",
+      "扣 4 分",
+      "扣 6 分"
+    ],
+    "correctIndex": 1,
+    "explanation": "在安大略省闯红灯被视为未遵守交通信号，会被扣 3 分。",
+    "image": "/signs/traffic-signal-ahead.jpg"
+  },
+  {
+  "id": "q-falling-rocks-80",
+  "question": "这个警告标志表示什么？",
+  "choices": [
+    "前方可能有落石或碎片",
+    "路面非常颠簸",
+    "正在进行爆破施工",
+    "由于道路封闭必须掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "图中从悬崖落下的石头提醒驾驶员前方可能有落石危险。",
+  "image": "/signs/q-falling-rocks.png"
+},
 
