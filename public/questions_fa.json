@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "در اینجا چه قانون زیست‌محیطی اجرا می‌شود؟",
+  "choices": [
+    "موتورها نباید بیش از ۳ دقیقه در حالت درجا کار کنند",
+    "موتورها باید روشن بمانند",
+    "کار درجا فقط در زمستان مجاز است",
+    "خودروهای دیزلی معاف هستند"
+  ],
+  "correctIndex": 0,
+  "explanation": "این تابلو زمان کار درجا موتور را محدود می‌کند تا انتشار گازها و آلودگی کاهش یابد.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "این تابلو به کدام مقصد اشاره می‌کند؟",
+  "choices": [
+    "مسیر دسترسی به فرودگاه",
+    "پایانه کشتی",
+    "پایگاه نظامی",
+    "ایستگاه قطار"
+  ],
+  "correctIndex": 0,
+  "explanation": "نماد هواپیما رانندگان را به سمت امکانات فرودگاه هدایت می‌کند.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "این نماد چه اطلاعاتی به سایر رانندگان می‌دهد؟",
+  "choices": [
+    "راننده تازه‌کار یا کم‌تجربه است",
+    "وسیله نقلیه آهسته حرکت می‌کند",
+    "خودرو فقط برای آموزش استفاده می‌شود",
+    "وسیله نقلیه در حال تعمیر است"
+  ],
+  "correctIndex": 0,
+  "explanation": "نماد «N» یک راننده تازه‌کار را مشخص می‌کند و دیگران را به صبر تشویق می‌کند.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "این علامت دستی چه قصدی را نشان می‌دهد؟",
+  "choices": [
+    "گردش به چپ",
+    "گردش به راست",
+    "توقف",
+    "حق تقدم دادن"
+  ],
+  "correctIndex": 0,
+  "explanation": "دست که به طور مستقیم به بیرون کشیده شده باشد، نشان‌دهنده قصد راننده برای گردش به چپ است.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "رانندگان باید چه حرکتی انجام دهند؟",
+  "choices": [
+    "به راست بپیچند",
+    "مستقیم ادامه دهند",
+    "به چپ بپیچند",
+    "دور برگردان بزنند"
+  ],
+  "correctIndex": 0,
+  "explanation": "این تابلو همه وسایل نقلیه را ملزم می‌کند در محل مشخص‌شده به راست بپیچند.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
