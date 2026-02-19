@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "फ्लैशिंग बीकन वाले पैदल यात्री क्रॉसओवर (PXO) पर आप कब आगे बढ़ सकते हैं?",
+    "choices": [
+      "जैसे ही पैदल यात्री आपकी ओर वाले फुटपाथ पर कदम रखे",
+      "गति कम करने और हॉर्न बजाने के बाद",
+      "केवल तब जब पैदल यात्री पूरी तरह सड़क पार कर लें और पूरी तरह रास्ते से हट जाएँ, और आगे बढ़ना सुरक्षित हो",
+      "कभी भी यदि आप दाएँ मुड़ रहे हों"
+    ],
+    "correctIndex": 2,
+    "explanation": "PXO पर आपको पैदल यात्रियों के लिए रुकना चाहिए और तब तक रुके रहना चाहिए जब तक वे पूरी तरह सड़क पार कर के रास्ते से हट न जाएँ। केवल तभी आगे बढ़ें जब सुरक्षित हो।",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "आप राउंडअबाउट से पहले सफेद तीरों वाला यह नीला गोल चिन्ह देखते हैं। आपको क्या करना चाहिए?",
+    "choices": [
+      "तेजी से प्रवेश करें और बाएँ संकेत दें",
+      "दाएँ रहें, घड़ी की विपरीत दिशा में चलें और राउंडअबाउट में पहले से मौजूद वाहनों और पैदल यात्रियों को रास्ता दें",
+      "रुकें और हरी बत्ती का इंतज़ार करें",
+      "अगले निकास पर यू-टर्न अनिवार्य है"
+    ],
+    "correctIndex": 1,
+    "explanation": "धीरे पहुँचें, केंद्रीय द्वीप के दाईं ओर रहें, पैदल यात्रियों और पहले से राउंडअबाउट में मौजूद वाहनों को रास्ता दें, और जब सुरक्षित खाली जगह हो तब प्रवेश करें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "एक मीडियन से विभाजित सड़क पर, विपरीत दिशा में एक स्कूल बस लाल बत्तियाँ चमकाते हुए रुकती है। आपको क्या करना चाहिए?",
+    "choices": [
+      "तुरंत रुकें",
+      "सावधानी से आगे बढ़ें; केवल बस के पीछे वाले वाहनों को रुकना चाहिए",
+      "हॉर्न बजाएँ और आगे निकल जाएँ",
+      "3 सेकंड रुकें, फिर आगे बढ़ें"
+    ],
+    "correctIndex": 1,
+    "explanation": "मीडियन वाली सड़कों पर, केवल बस के पीछे वाले वाहनों को उसकी चमकती लाल बत्तियों के लिए रुकना चाहिए। विपरीत दिशा का ट्रैफिक सावधानी से आगे बढ़ सकता है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ओंटारियो में सीट बेल्ट कब पहनना आवश्यक है?",
+    "choices": [
+      "केवल हाईवे पर",
+      "जब भी वाहन चल रहा हो",
+      "केवल जब गति 50 किमी/घंटा से अधिक हो",
+      "केवल जब यात्री हों"
+    ],
+    "correctIndex": 1,
+    "explanation": "जब भी वाहन चल रहा हो, चालक और यात्रियों को सीट बेल्ट पहनना आवश्यक है। चालक 16 वर्ष से कम आयु के यात्रियों के लिए जिम्मेदार होता है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "लापरवाह ड्राइविंग पर कितने डिमेरिट अंक लगते हैं?",
+  "choices": [
+    "2 डिमेरिट अंक",
+    "3 डिमेरिट अंक",
+    "6 डिमेरिट अंक",
+    "7 डिमेरिट अंक"
+  ],
+  "correctIndex": 2,
+  "explanation": "लापरवाह ड्राइविंग पर 6 डिमेरिट अंक लगते हैं।",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
