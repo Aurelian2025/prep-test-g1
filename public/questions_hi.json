@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "इस संकेत के पास पहुँचते समय चालकों को क्या करना चाहिए?",
+  "choices": [
+    "बाधा से दूर मुड़ें",
+    "तुरंत रुकने के लिए तैयार रहें",
+    "केवल बाएँ मुड़ें",
+    "मोड़ के लिए गति कम करें"
+  ],
+  "correctIndex": 0,
+  "explanation": "तिरछी धारियाँ सड़क के किनारे के पास एक स्थिर खतरे को दर्शाती हैं।",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "इस लेन में किन वाहनों को अनुमति है?",
+  "choices": [
+    "बसें और दो या अधिक लोगों को ले जाने वाले वाहन",
+    "सभी यात्री वाहन",
+    "केवल मोटरसाइकिल",
+    "व्यावसायिक ट्रक"
+  ],
+  "correctIndex": 0,
+  "explanation": "हीरे का प्रतीक एक HOV लेन को दर्शाता है जो अधिक सवारियों वाले वाहनों और बसों के लिए आरक्षित है।",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "चालकों को 40 किमी/घंटा की दर्शाई गई सीमा का पालन कब करना चाहिए?",
+  "choices": [
+    "जब एम्बर लाइटें चमक रही हों",
+    "दिन के हर समय",
+    "केवल सर्दियों के महीनों में",
+    "केवल स्कूल बसों के लिए"
+  ],
+  "correctIndex": 0,
+  "explanation": "चमकती हुई लाइटें स्कूलों के पास सुरक्षा बढ़ाने के लिए कम गति सीमा को सक्रिय करती हैं।",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "इस बिंदु से आगे कौन-सा नियम लागू होता है?",
+  "choices": [
+    "चालकों को क्रॉसिंग पार करने तक ओवरटेक नहीं करना चाहिए",
+    "केवल बसों को ओवरटेक की अनुमति है",
+    "वाहनों को तुरंत रुकना चाहिए",
+    "साइकिल चालक यातायात को पार कर सकते हैं"
+  ],
+  "correctIndex": 0,
+  "explanation": "यह संकेत एक चिह्नित क्रॉसिंग के पास नो-पासिंग ज़ोन लागू करता है।",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "यह संकेत किस सीमा को दर्शाता है?",
+  "choices": [
+    "3.9 मीटर से अधिक ऊँचाई वाले वाहन आगे नहीं जा सकते",
+    "सड़क 3.9 मीटर तक संकरी हो जाती है",
+    "केवल चौड़े भार की अनुमति है",
+    "पुल केवल भारी वाहनों को सहारा देता है"
+  ],
+  "correctIndex": 0,
+  "explanation": "ऊँचे वाहनों के चालक प्रवेश न करें यदि उनकी ऊँचाई दर्शाए गए क्लियरेंस से अधिक है।",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
