@@ -1360,5 +1360,70 @@
   "explanation": "Un excès de vitesse de 40 km/h ou plus au-dessus de la limite dans une zone de moins de 80 km/h entraîne 6 points d’inaptitude.",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-reverse-look-66",
+    "question": "En reculant en ligne droite, la meilleure façon de regarder est :",
+    "choices": [
+      "Uniquement dans le rétroviseur intérieur",
+      "Par-dessus votre épaule droite à travers la vitre arrière en reculant lentement",
+      "Sur l’écran d’infodivertissement",
+      "Uniquement dans les rétroviseurs latéraux"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tournez votre corps et regardez par-dessus votre épaule droite à travers la vitre arrière tout en reculant lentement et en vérifiant autour de vous.",
+    "image": "/signs/q-reverse-look-52.png"
+  },
+  {
+    "id": "q-left-turn-oncoming-67",
+    "question": "Vous tournez à gauche à une intersection et la circulation en sens inverse approche. Que devez-vous faire ?",
+    "choices": [
+      "Tourner rapidement devant la circulation en sens inverse",
+      "Avancer dans l’intersection et tourner seulement lorsqu’il y a un espace sécuritaire ou après que le feu passe au jaune/rouge et que la circulation en sens inverse s’est arrêtée",
+      "Tourner à partir de la voie de droite pour gagner du temps",
+      "S’arrêter derrière le passage pour piétons et attendre seulement la flèche verte"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avancez dans l’intersection lorsque c’est sécuritaire, cédez le passage à la circulation en sens inverse et aux piétons, puis terminez votre virage seulement lorsqu’il y a un espace sécuritaire.",
+    "image": "/signs/q-left-turn-oncoming-53.png"
+  },
+  {
+    "id": "q-lane-change-mirror-68",
+    "question": "Quel est l’ordre correct lors d’un changement de voie ?",
+    "choices": [
+      "Clignotant, vérification par-dessus l’épaule, vérification des rétroviseurs, déplacement",
+      "Vérification des rétroviseurs, clignotant, vérification de l’angle mort (par-dessus l’épaule), déplacement lorsque c’est sécuritaire",
+      "Se déplacer, puis clignotant, puis vérification des rétroviseurs",
+      "Vérification par-dessus l’épaule seulement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vérifiez les rétroviseurs, signalez, vérifiez votre angle mort (par-dessus l’épaule), puis déplacez-vous dans la voie lorsque c’est sécuritaire.",
+    "image": "/signs/q-lane-change-mirror-54.png"
+  },
+  {
+    "id": "q-roundabout-signal-exit-69",
+    "question": "Quand devez-vous signaler dans un carrefour giratoire ?",
+    "choices": [
+      "Signaler à gauche en circulant dans le cercle",
+      "Signaler à droite juste avant de prendre votre sortie",
+      "Ne pas signaler du tout",
+      "Allumer les feux de détresse à l’intérieur"
+    ],
+    "correctIndex": 1,
+    "explanation": "Signalez à droite lorsque vous passez la sortie précédant celle que vous voulez prendre, pour indiquer que vous quittez le carrefour giratoire.",
+    "image": "/signs/q-roundabout-signal-exit-55.png"
+  },
+  {
+  "id": "q-demerit-speeding-50-plus-70",
+  "question": "Un excès de vitesse de 50 km/h ou plus au-dessus de la limite entraîne combien de points d’inaptitude ?",
+  "choices": [
+    "4 points d’inaptitude",
+    "5 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Un excès de vitesse de 50 km/h ou plus au-dessus de la limite entraîne 6 points d’inaptitude.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
 
 
