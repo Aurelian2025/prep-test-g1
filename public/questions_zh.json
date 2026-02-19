@@ -1621,4 +1621,69 @@
   "explanation": "该符号表示在箭头标示的路段上完全禁止停车。",
   "image": "/signs/q-no-stopping-between-arrows.png"
 },
+{
+    "id": "q-bump-warning-86",
+    "question": "这个黄色标志出现在一段道路前方。它在提醒你什么？",
+    "choices": [
+      "路面有隆起或颠簸",
+      "前方有无护栏的桥梁",
+      "路肩有松散的碎石",
+      "前方有无闸门的铁路道口"
+    ],
+    "correctIndex": 0,
+    "explanation": "黄色菱形标志上写有 BUMP 或带有颠簸符号，提醒前方路面可能有突然的隆起或下沉，以便你减速并避免失去控制。",
+    "image": "/signs/bump-sign.jpg"
+  },
+  {
+    "id": "q-construction-ahead-87",
+    "question": "这个橙色标志出现在路边。你应该预期什么？",
+    "choices": [
+      "前方有道路施工或施工区域",
+      "前方有铺设好的路肩",
+      "前方有停车区",
+      "所有限速结束"
+    ],
+    "correctIndex": 0,
+    "explanation": "橙色施工标志警告你即将进入或接近施工区域。你必须减速，注意工人和设备，并遵守张贴的标志。",
+    "image": "/signs/construction-ahead.jpg"
+  },
+  {
+    "id": "q-deer-crossing-88",
+    "question": "你在乡村公路上看到这个动物符号标志。它在提醒你什么？",
+    "choices": [
+      "该区域可能有鹿横穿道路",
+      "农场动物被围栏围住，无法穿越",
+      "前方是动物园入口",
+      "道路上允许狩猎"
+    ],
+    "correctIndex": 0,
+    "explanation": "黄色警告标志上的鹿图案表示该地区经常有鹿出没，可能会突然横穿道路。请减速并准备停车。",
+    "image": "/signs/deer-crossing.jpg"
+  },
+ {
+  "id": "q-two-way-left-turn-lane-89",
+  "question": "此标志表示什么？",
+  "choices": [
+    "该车道仅可用于两个方向的车辆左转",
+    "该车道用于超越慢车",
+    "此车道禁止左转",
+    "前方车道变为只允许右转"
+  ],
+  "correctIndex": 0,
+  "explanation": "相反方向的弯曲箭头表示两个方向行驶的车辆都可以进入该车道，但只能用于左转。",
+   "image": "/signs/q-two-way-left-turn-lane.png"
+},
+  {
+  "id": "q-traffic-lights-ahead-90",
+  "question": "这个警告标志的目的是什么？",
+  "choices": [
+    "提醒驾驶员前方有交通信号灯",
+    "表示前方是仅供行人使用的过道",
+    "警告前方有铁路道口",
+    "显示前方道路封闭"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
+   "image": "/signs/q-traffic-lights-ahead.png"
+},
 
