@@ -1,0 +1,103 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "signs-regulatory",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Los giros a la izquierda están permitidos solo por la noche",
+    "No se permite girar a la izquierda en ningún momento",
+    "Un carril de giro a la izquierda comienza más adelante",
+    "Se permiten giros en U con precaución"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un círculo rojo con una barra diagonal siempre indica una prohibición. La flecha hacia la izquierda con una barra significa que no se permiten giros a la izquierda.",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "rules-of-the-road",
+  "question": "En una señal de alto, ¿dónde debe detenerse si hay una línea de alto pintada?",
+  "choices": [
+    "En cualquier lugar antes de la intersección",
+    "Junto al poste de la señal de alto",
+    "En la línea de alto pintada",
+    "A mitad de la intersección para ver mejor"
+  ],
+  "correctIndex": 2,
+  "explanation": "Debe detenerse completamente en la línea de alto pintada. Si no hay línea de alto, deténgase en el cruce peatonal; si no hay, en el borde de la acera; si no hay, en el borde de la intersección.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "signs-regulatory",
+  "question": "Esta señal aparece más adelante. ¿De qué le advierte?",
+  "choices": [
+    "Las bicicletas están prohibidas en esta carretera",
+    "Espere ciclistas; el tráfico de bicicletas puede cruzar o compartir la vía",
+    "Comienza un sendero de uso compartido; los vehículos motorizados deben detenerse",
+    "El carril para bicicletas termina; incorpórese a la derecha de inmediato"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un símbolo de bicicleta en un rombo amarillo es una señal de advertencia para estar atento a los ciclistas y estar preparado para reducir la velocidad o ceder el paso según sea necesario.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "alcohol-and-driving",
+  "question": "Después de una primera condena por conducir bajo los efectos del alcohol, ¿por cuánto tiempo se suspende la licencia de conducir?",
+  "choices": [
+    "1 mes",
+    "3 meses",
+    "6 meses",
+    "1 año"
+  ],
+  "correctIndex": 3,
+  "explanation": "Una primera condena por conducir bajo los efectos del alcohol resulta en una suspensión de la licencia por un año, además de otras sanciones como multas y programas de educación obligatorios.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "es",
+  "category": "signs-regulatory",
+  "question": "Ve esta señal en la entrada de una vía. ¿Qué debe hacer?",
+  "choices": [
+    "Avanzar lentamente y mantenerse a la derecha",
+    "Entrar solo si el tráfico es ligero",
+    "No entrar — la vía es para el tráfico en dirección opuesta",
+    "Detenerse y luego avanzar si está despejado"
+  ],
+  "correctIndex": 2,
+  "explanation": "El círculo rojo con una barra horizontal blanca significa NO ENTRAR — usted está frente al tráfico en dirección opuesta (por ejemplo, en el extremo incorrecto de una vía de un solo sentido).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
