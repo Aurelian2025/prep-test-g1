@@ -1277,9 +1277,6 @@
 
 {
   "id": "q-two-way-left-turn-lane-59",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "How may this centre lane be used?",
   "choices": [
     "For left turns by traffic from both directions",
@@ -1289,19 +1286,10 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign shows that vehicles traveling in either direction may use the lane only to make left turns.",
-  "sources": [
-    {
-      "title": "Lane Control Signs — MTO",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-two-way-left-turn-lane.png"
 },
 {
   "id": "q-no-right-turn-on-red-60",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What restriction does this sign place on drivers?",
   "choices": [
     "Turning right is not allowed when the signal is red",
@@ -1311,20 +1299,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The red slash over the right-turn arrow means drivers must wait for a green signal before turning right.",
-  "sources": [
-    {
-      "title": "Turning Restrictions — Ontario",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-no-right-turn-on-red.png"
 },
 
   {
     "id": "q-railway-stop-61",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You are approaching a railway crossing with flashing red lights and gates lowering. What must you do?",
     "choices": [
       "Drive around the gates if you don’t see a train",
@@ -1334,20 +1313,10 @@
     ],
     "correctIndex": 1,
     "explanation": "You must stop at least 5 metres from the tracks and remain stopped until the lights stop flashing and gates are fully raised.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Railway crossings",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roadway-signs#section-7"
-      }
-    ],
-    "image": "/signs/q-railway-stop-47.png",
-    "notes": "Original railway-crossing question."
+    "image": "/signs/q-railway-stop-47.png"
   },
   {
     "id": "q-school-zone-speed-62",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "In a school zone where a lower speed limit is posted with times of day, when does that lower limit apply?",
     "choices": [
       "Only when children are visible",
@@ -1357,20 +1326,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Obey the reduced speed during the times shown on the sign, often on school days during arrival and dismissal times.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Speed limits",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-school-zone-speed-48.png",
-    "notes": "Original school-zone timing question."
+    "image": "/signs/q-school-zone-speed-48.png"
   },
   {
     "id": "q-work-zone-fines-63",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "In a construction zone, fines for speeding are:",
     "choices": [
       "Reduced because traffic is slower",
@@ -1380,20 +1339,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Speeding fines are higher—often doubled—in designated construction zones, even if workers are not always visible.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/q-work-zone-fines-49.png",
-    "notes": "Original question emphasizing increased fines."
+    "image": "/signs/q-work-zone-fines-49.png"
   },
   {
   "id": "q-impaired-driving-bac-64",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "alcohol-and-driving",
   "question": "A driver can be convicted of impaired driving when their blood alcohol concentration reaches which level?",
   "choices": [
     "0.03%",
@@ -1407,9 +1356,6 @@
 },
   {
   "id": "q-demerit-speeding-40-under-80-65",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Speeding 40 km/h or more over the limit in a zone under 80 km/h results in how many demerit points?",
   "choices": [
     "3 demerit points",
@@ -1419,14 +1365,10 @@
   ],
   "correctIndex": 2,
   "explanation": "Speeding 40 km/h or more over the limit in a zone under 80 km/h results in 6 demerit points.",
-  "sources": [],
   "image": "/signs/q-speed-50plus-108.png"
 },
   {
     "id": "q-reverse-look-66",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "When reversing straight, the best way to look is:",
     "choices": [
       "In the rear-view mirror only",
@@ -1436,20 +1378,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Turn your body and look over your right shoulder through the back window while reversing slowly and checking around.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Backing up",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-reverse-look-52.png",
-    "notes": "Original reversing technique question."
+    "image": "/signs/q-reverse-look-52.png"
   },
   {
     "id": "q-left-turn-oncoming-67",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "You are turning left at an intersection and oncoming traffic is approaching. What should you do?",
     "choices": [
       "Turn quickly in front of oncoming traffic",
@@ -1459,20 +1391,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Creep into the intersection when safe, yield to oncoming traffic and pedestrians, and complete your turn only when there is a safe gap.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Turning left",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-left-turn-oncoming-53.png",
-    "notes": "Original left-turn judgement question."
+    "image": "/signs/q-left-turn-oncoming-53.png"
   },
   {
     "id": "q-lane-change-mirror-68",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "What is the correct order when changing lanes?",
     "choices": [
       "Signal, shoulder check, mirror check, move",
@@ -1482,20 +1404,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Check mirrors, signal, check your blind spot (shoulder check), then move into the lane when safe.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Changing lanes",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-lane-change-mirror-54.png",
-    "notes": "Original lane-change sequence question."
+    "image": "/signs/q-lane-change-mirror-54.png"
   },
   {
     "id": "q-roundabout-signal-exit-69",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "When should you signal at a roundabout?",
     "choices": [
       "Signal left while driving around the circle",
@@ -1505,20 +1417,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Signal right as you pass the exit before the one you intend to take, to show you are leaving the roundabout.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/q-roundabout-signal-exit-55.png",
-    "notes": "Original signalling-at-roundabout question."
+    "image": "/signs/q-roundabout-signal-exit-55.png"
   },
   {
   "id": "q-demerit-speeding-50-plus-70",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Speeding 50 km/h or more over the speed limit results in how many demerit points?",
   "choices": [
     "4 demerit points",
@@ -1528,14 +1430,10 @@
   ],
   "correctIndex": 2,
   "explanation": "Speeding 50 km/h or more over the limit results in 6 demerit points.",
-  "sources": [],
   "image": "/signs/q-speed-50plus-108.png"
 },
   {
     "id": "q-bicycle-passing-distance-71",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "When passing a cyclist, what is the best practice?",
     "choices": [
       "Pass as closely as possible to stay in your lane",
@@ -1545,20 +1443,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Slow down and leave a wide space when passing cyclists, moving partly or fully into the next lane when safe.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with cyclists",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/q-bicycle-passing-distance-57.png",
-    "notes": "Original passing-cyclist question."
+    "image": "/signs/q-bicycle-passing-distance-57.png"
   },
   {
     "id": "q-animal-avoid-swerve-72",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "An animal suddenly runs onto the road. What is the safest general response?",
     "choices": [
       "Swerve sharply into the opposite lane",
@@ -1568,20 +1456,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Brake in a straight line and avoid swerving into oncoming traffic or off the road, which can cause a more serious collision.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Hazards)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-animal-avoid-swerve-58.png",
-    "notes": "Original animal-hazard question."
+    "image": "/signs/q-animal-avoid-swerve-58.png"
   },
   {
     "id": "q-black-ice-73",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "Black ice is:",
     "choices": [
       "Ice that is safe to drive on",
@@ -1591,20 +1469,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Black ice is a nearly invisible sheet of ice on the pavement. Slow down and drive smoothly in conditions where it may form.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-black-ice-59.png",
-    "notes": "Original black-ice definition question."
+    "image": "/signs/q-black-ice-59.png"
   },
   {
     "id": "q-fog-high-beam-74",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "Why should you avoid using high-beam headlights in fog?",
     "choices": [
       "They are not bright enough",
@@ -1614,20 +1482,10 @@
     ],
     "correctIndex": 1,
     "explanation": "High beams reflect off fog droplets and can make it harder to see. Use low beams and slow down.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Fog)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-fog-high-beam-60.png",
-    "notes": "Original follow-up fog question."
+    "image": "/signs/q-fog-high-beam-60.png"
   },
   {
   "id": "q-demerit-school-bus-stop-75",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Failing to stop for a school bus results in how many demerit points?",
   "choices": [
     "3 demerit points",
@@ -1637,14 +1495,10 @@
   ],
   "correctIndex": 3,
   "explanation": "Failing to stop for a school bus results in 6 demerit points.",
-  "sources": [],
   "image": "/signs/q-school-bus-204.png"
 },
   {
     "id": "q-abs-brakes-76",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "In a vehicle with ABS (antilock braking system), how should you brake in an emergency stop?",
     "choices": [
       "Pump the brake pedal rapidly",
@@ -1654,20 +1508,10 @@
     ],
     "correctIndex": 1,
     "explanation": "With ABS, apply firm, continuous pressure on the brake pedal and steer in the direction you want to go.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Emergency braking (ABS)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/emergency-situations"
-      }
-    ],
-    "image": "/signs/q-abs-brakes-62.png",
-    "notes": "Original ABS-use question."
+    "image": "/signs/q-abs-brakes-62.png"
   },
   {
   "id": "q-disabled-truck-warning-distance-77",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "emergency-situations",
   "question": "If a truck is disabled on a roadway where the speed limit is over 60 km/h, approximately how far in front of and behind the vehicle must warning devices such as flares or reflectors be placed?",
   "choices": [
     "15 m (50 ft.)",
@@ -1682,9 +1526,6 @@
 
   {
     "id": "q-night-meeting-78",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "At night, when should you dim your high-beam headlights for an oncoming vehicle?",
     "choices": [
       "When you are about one block away (approximately 150 metres)",
@@ -1694,20 +1535,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Dim your high beams when within about 150 metres of oncoming traffic so you don’t blind other drivers.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Night Driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-night-meeting-64.png",
-    "notes": "Original headlight-dimming question."
+    "image": "/signs/q-night-meeting-64.png"
   },
   {
     "id": "q-demerit-red-light-79",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "demerit-points",
     "question": "You drive through a solid red traffic light after it changes and are convicted. How many demerit points do you receive?",
     "choices": [
       "2 demerit points",
@@ -1717,20 +1548,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Running a red light in Ontario is treated as failing to obey a traffic signal and carries 3 demerit points.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (failing to obey a traffic light)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/traffic-signal-ahead.jpg",
-    "notes": "Red-light offence with exact demerit value."
+    "image": "/signs/traffic-signal-ahead.jpg"
   },
   {
   "id": "q-falling-rocks-80",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this warning sign indicate?",
   "choices": [
     "Rock slides or falling debris may be present ahead",
@@ -1740,19 +1561,10 @@
   ],
   "correctIndex": 0,
   "explanation": "The image of stones falling from a cliff alerts drivers to possible falling rock hazards.",
-  "sources": [
-    {
-      "title": "Road Hazard Warnings — MTO",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-falling-rocks.png"
 },
  {
   "id": "q-hidden-intersection-81",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this warning sign indicate?",
   "choices": [
     "You are approaching a hidden intersection where vehicles may enter unexpectedly",
@@ -1762,19 +1574,10 @@
   ],
   "correctIndex": 0,
   "explanation": "The sign warns drivers that a side road or intersection is not easily visible, requiring extra caution.",
-  "sources": [
-    {
-      "title": "Traffic Warning Signs — Driver Safety",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
   "image": "/signs/q-hidden-intersection.png"
 },
   {
   "id": "q-novice-driver-n-82",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "The vehicle is being operated by a novice driver",
@@ -1784,19 +1587,10 @@
   ],
   "correctIndex": 0,
   "explanation": "A large 'N' indicates a new or inexperienced driver is behind the wheel, urging others to allow extra space.",
-  "sources": [
-    {
-      "title": "New Driver Identification Programs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-novice-driver.png"
 },
   {
   "id": "q-no-stopping-between-arrows-83",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign mean?",
   "choices": [
     "Stopping is allowed only to load passengers",
@@ -1806,20 +1600,10 @@
   ],
   "correctIndex": 1,
   "explanation": "The red circle with a slash over the stop symbol means stopping is prohibited anywhere between the directional arrows.",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Official MTO Driver’s Handbook",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
   "image": "/signs/q-no-stopping-between-arrows.png"
 },
-
   {
     "id": "q-ped-crossing-84",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this sign while driving on a city street. What does it mean?",
     "choices": [
       "Pedestrian crossing ahead",
@@ -1829,20 +1613,10 @@
     ],
     "correctIndex": 0,
     "explanation": "A yellow diamond sign with a walking person indicates a pedestrian crossing area. Be ready to slow down or stop for people crossing the road.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs: Warning signs (Pedestrian crossing)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/pedestrian-crossing.jpg",
-    "notes": "Original pedestrian-crossing question using your sign artwork."
+    "image": "/signs/pedestrian-crossing.jpg"
   },
   {
   "id": "q-no-stopping-between-arrows-85",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "How should drivers respond to this sign?",
   "choices": [
     "Vehicles may stop briefly for passengers",
@@ -1852,20 +1626,11 @@
   ],
   "correctIndex": 1,
   "explanation": "The symbol indicates that stopping is completely forbidden along the section of road marked by the arrows.",
-  "sources": [
-    {
-      "title": "Regulatory Road Signs — MTO Handbook",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
   "image": "/signs/q-no-stopping-between-arrows.png"
 },
 
   {
     "id": "q-bump-warning-86",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This yellow sign appears before a section of road. What is it warning you about?",
     "choices": [
       "A bump or rise in the road surface",
@@ -1875,20 +1640,10 @@
     ],
     "correctIndex": 0,
     "explanation": "A yellow diamond sign with the word BUMP or a bump symbol warns of a sudden rise or dip in the road so you can slow down and avoid losing control.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs: Warning signs (Bump / uneven pavement)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/bump-sign.jpg",
-    "notes": "Original bump-warning scenario, not copied from other practice tests."
+    "image": "/signs/bump-sign.jpg"
   },
   {
     "id": "q-construction-ahead-87",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This orange sign appears on the side of the road. What should you expect?",
     "choices": [
       "Road work or construction zone ahead",
@@ -1898,20 +1653,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Orange construction signs warn that you are entering or approaching a work zone. You must slow down, watch for workers and equipment, and obey posted signs.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones and temporary conditions signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/construction-ahead.jpg",
-    "notes": "Original construction-ahead question for your sign set."
+    "image": "/signs/construction-ahead.jpg"
   },
   {
     "id": "q-deer-crossing-88",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this animal symbol sign on a rural highway. What does it warn you about?",
     "choices": [
       "Deer may be crossing the road in this area",
@@ -1921,20 +1666,10 @@
     ],
     "correctIndex": 0,
     "explanation": "A deer symbol on a yellow warning sign means deer are commonly found in the area and may suddenly cross the road. Slow down and be prepared to stop.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Animals)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/deer-crossing.jpg",
-    "notes": "Original deer-crossing question aligned to Ontario warning signs."
+    "image": "/signs/deer-crossing.jpg"
   },
  {
   "id": "q-two-way-left-turn-lane-89",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "The lane may be used only for making left turns from either direction",
@@ -1944,19 +1679,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Opposing curved arrows show that vehicles traveling in either direction may enter the lane exclusively for making left turns.",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Lane Usage",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-two-way-left-turn-lane.png"
+   "image": "/signs/q-two-way-left-turn-lane.png"
 },
   {
   "id": "q-traffic-lights-ahead-90",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What is the purpose of this warning sign?",
   "choices": [
     "To alert drivers of traffic signals ahead",
@@ -1966,20 +1692,10 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign prepares drivers for an upcoming intersection controlled by traffic lights.",
-  "sources": [
-    {
-      "title": "Warning Signs — Ontario Roads",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-traffic-lights-ahead.png"
+   "image": "/signs/q-traffic-lights-ahead.png"
 },
-
 {
   "id": "q-traffic-lights-ahead-91",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What is the purpose of this warning sign?",
   "choices": [
     "To alert drivers of traffic signals ahead",
@@ -1989,20 +1705,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign prepares drivers for an upcoming intersection controlled by traffic lights.",
-  "sources": [
-    {
-      "title": "Warning Signs — Ontario Roads",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-traffic-lights-ahead.png"
 },
 
 {
   "id": "q-school-zone-92",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What should drivers be prepared for when seeing this sign?",
   "choices": [
     "Children may be present near the roadway",
@@ -2012,20 +1719,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign alerts drivers to slow down and be cautious due to children in a school area.",
-  "sources": [
-    {
-      "title": "School Area Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-school-zone.png"
 },
 
 {
   "id": "q-hidden-intersection-93",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "Why is extra caution required at this location?",
   "choices": [
     "A side road may be difficult to see",
@@ -2035,20 +1733,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The sign warns that an approaching intersection may not be clearly visible to drivers.",
-  "sources": [
-    {
-      "title": "Intersection Warning Signs",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
   "image": "/signs/q-hidden-intersection.png"
 },
 
 {
   "id": "q-no-passing-94",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What driving action is restricted by this sign?",
   "choices": [
     "Overtaking other vehicles",
@@ -2058,20 +1747,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This regulatory sign clearly states that passing other vehicles is not permitted in this zone.",
-  "sources": [
-    {
-      "title": "Passing Regulations — Ontario",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-no-passing.png"
 },
 
 {
   "id": "q-right-left-curve-ahead-95",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What road condition does this sign describe?",
   "choices": [
     "A series of curves starting right then left",
@@ -2081,20 +1761,11 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers are warned that the road will bend twice and should adjust speed accordingly.",
-  "sources": [
-    {
-      "title": "Curve Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-right-left-curve-ahead.png"
 },
 
 {
   "id": "q-stop-ahead-96",
-  "brand": "Prep test G1",
-  "lang": "en",
- "category": "signs-regulatory",
   "question": "What should a driver expect after seeing this sign?",
   "choices": [
     "A stop sign shortly ahead",
@@ -2104,20 +1775,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This advance warning sign gives drivers time to prepare to stop.",
-  "sources": [
-    {
-      "title": "Advance Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/stop-ahead.jpg"
 },
 
 {
   "id": "q-permitted-action-97",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What is the general meaning of a green circle traffic sign?",
   "choices": [
     "A movement or action is allowed",
@@ -2127,20 +1789,11 @@
   ],
   "correctIndex": 0,
   "explanation": "Green circle signs indicate actions that drivers are permitted to take.",
-  "sources": [
-    {
-      "title": "Permissive Regulatory Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-permitted-action.png"
 },
 
 {
   "id": "q-red-light-camera-98",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "Why is this sign posted at an intersection?",
   "choices": [
     "To warn that a camera enforces red light violations",
@@ -2150,20 +1803,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The sign informs drivers that running a red light may result in a recorded offence.",
-  "sources": [
-    {
-      "title": "Traffic Enforcement Cameras",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-red-light-camera.png"
 },
 
 {
   "id": "q-truck-entrance-99",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What potential hazard does this sign highlight?",
   "choices": [
     "Large trucks may enter the roadway",
@@ -2173,19 +1817,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers should be alert for slow-moving or turning trucks near entrances.",
-  "sources": [
-    {
-      "title": "Heavy Vehicle Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-truck-entrance.png"
 },
 {
   "id": "q-right-lane-must-exit-sign-100",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "Only the right lane may continue straight",
@@ -2195,15 +1830,10 @@
   ],
   "correctIndex": 2,
   "explanation": "This green guide sign informs drivers that traffic in the right lane is required to exit. Drivers who do not intend to exit should move to another lane in advance.",
-  "sources": [],
   "image": "/signs/right-lane-must-exit.png"
 },
-
   {
   "id": "q-improper-right-101",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "How many demerit points result from making an improper right turn?",
   "choices": [
     "2 demerit points",
@@ -2213,8 +1843,7 @@
   ],
   "correctIndex": 0,
   "explanation": "Improper turns carry 2 demerit points.",
-  "sources": [],
- "image": "/signs/q-improper-right-101.png"
+  "image": "/signs/q-improper-right-101.png"
 },
   {
     "id": "q-rules-merge-sign-102",
