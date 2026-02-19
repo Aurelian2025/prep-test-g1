@@ -1113,3 +1113,117 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما الخطر الذي يجب أن يكون السائقون على انتباه له؟",
+  "choices": [
+    "سقوط صخور بالقرب من الطريق",
+    "حصى مفكك على سطح الطريق",
+    "عمليات تفجير",
+    "طريق غير مستوٍ"
+  ],
+  "correctIndex": 0,
+  "explanation": "تحذر هذه الإشارة من احتمال سقوط الصخور أو الحطام من المنحدرات القريبة.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما التغيير في حركة المرور الذي تحذر منه هذه الإشارة؟",
+  "choices": [
+    "ستسير المركبات في كلا الاتجاهين",
+    "يبدأ شارع باتجاه واحد",
+    "يبدأ طريق سريع مقسوم",
+    "تزداد مسارات التجاوز"
+  ],
+  "correctIndex": 0,
+  "explanation": "الأسهم المتقابلة تنبه السائقين إلى وجود حركة مرور قادمة من الاتجاه المعاكس في الأمام.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما الإجراء الذي يبلغه السائق باستخدام إشارة اليد هذه؟",
+  "choices": [
+    "تخفيف السرعة أو التوقف",
+    "الانعطاف يسارًا",
+    "الانعطاف يمينًا",
+    "تغيير المسار"
+  ],
+  "correctIndex": 0,
+  "explanation": "يشير الذراع المتجه إلى الأسفل إلى أن السائق ينوي تخفيف السرعة أو التوقف.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "من يمكنه استخدام المسار المشار إليه بهذه الإشارة؟",
+  "choices": [
+    "الدراجات فقط",
+    "جميع المركبات الآلية",
+    "الحافلات وسيارات الأجرة",
+    "مركبات الطوارئ فقط"
+  ],
+  "correctIndex": 0,
+  "explanation": "يشير الرمز والسهم إلى أن المسار في الأمام مخصص حصريًا للدراجات.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما قاعدة الوقوف التي تنطبق في هذه المنطقة؟",
+  "choices": [
+    "يُسمح بالوقوف لكن لمدة 30 دقيقة كحد أقصى",
+    "الوقوف ممنوع في جميع الأوقات",
+    "فقط مركبات الطوارئ يمكنها الوقوف",
+    "الوقوف غير مقيّد"
+  ],
+  "correctIndex": 0,
+  "explanation": "تسمح هذه الإشارة بالوقوف لكنها تحدد المدة التي يمكن أن تبقى فيها المركبة خلال الساعات المحددة.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
