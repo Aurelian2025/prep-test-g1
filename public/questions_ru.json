@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Что должны сделать водители, приближаясь к этому указателю?",
+  "choices": [
+    "Объехать препятствие",
+    "Подготовиться к немедленной остановке",
+    "Повернуть только налево",
+    "Снизить скорость перед поворотом"
+  ],
+  "correctIndex": 0,
+  "explanation": "Диагональные полосы обозначают неподвижную опасность возле края проезжей части.",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Каким транспортным средствам разрешено движение по этой полосе?",
+  "choices": [
+    "Автобусам и транспортным средствам с двумя и более пассажирами",
+    "Всем легковым автомобилям",
+    "Только мотоциклам",
+    "Коммерческим грузовикам"
+  ],
+  "correctIndex": 0,
+  "explanation": "Символ ромба обозначает полосу HOV, предназначенную для транспорта с большим числом пассажиров и автобусов.",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Когда водители должны соблюдать указанное ограничение 40 км/ч?",
+  "choices": [
+    "Когда мигают жёлтые огни",
+    "В любое время суток",
+    "Только в зимние месяцы",
+    "Только для школьных автобусов"
+  ],
+  "correctIndex": 0,
+  "explanation": "Мигающие огни активируют пониженное ограничение скорости для повышения безопасности возле школ.",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое правило действует с этого места?",
+  "choices": [
+    "Водителям запрещено обгонять до проезда пешеходного перехода",
+    "Обгон разрешён только автобусам",
+    "Транспортные средства должны немедленно остановиться",
+    "Велосипедисты могут обгонять транспорт"
+  ],
+  "correctIndex": 0,
+  "explanation": "Этот знак устанавливает зону запрета обгона при приближении к обозначенному переходу.",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое ограничение передаёт этот знак?",
+  "choices": [
+    "Транспортные средства выше 3,9 метра не могут проехать",
+    "Дорога сужается до 3,9 метра",
+    "Разрешены только негабаритные грузы",
+    "Мост предназначен только для тяжёлых транспортных средств"
+  ],
+  "correctIndex": 0,
+  "explanation": "Водители высоких транспортных средств не должны въезжать, если их высота превышает указанное ограничение.",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
