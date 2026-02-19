@@ -101,4 +101,113 @@
   "image": "/signs/no-entry.jpg",
   "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
 },
+{
+  "id": "q-demerit-fail-remain-6",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "demerit-points",
+  "question": "ترک نکردن صحنه تصادف چند نمره منفی دارد؟",
+  "choices": [
+    "۲ نمره منفی",
+    "۳ نمره منفی",
+    "۶ نمره منفی",
+    "۷ نمره منفی"
+  ],
+  "correctIndex": 3,
+  "explanation": "ترک نکردن صحنه تصادف ۷ نمره منفی به همراه دارد.",
+  "sources": [],
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-road-closed-7",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "signs-regulatory",
+  "question": "این علامت را در جلو می‌بینید. برای ترافیک در مسیر شما چه معنی دارد؟",
+  "choices": [
+    "انحراف مسیر در جلو — سرعت را به ۳۰ کیلومتر در ساعت کاهش دهید",
+    "جاده برای همه وسایل نقلیه بسته است — ادامه ندهید",
+    "توقف در این جاده ممنوع است",
+    "دسترسی موقت برای ساخت‌وساز مجاز است"
+  ],
+  "correctIndex": 1,
+  "explanation": "علامت «جاده بسته است» به این معنی است که مسیر برای ترافیک بسته شده است. ادامه ندهید؛ از مسیرهای انحرافی یا دستورالعمل‌های نصب‌شده پیروی کنید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/road-closed.jpg",
+  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+},
+{
+  "id": "q-two-second-rule-8",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "rules-of-the-road",
+  "question": "در شرایط خوب، حداقل فاصله ایمن تعقیب برای بیشتر خودروهای سواری چقدر است؟",
+  "choices": [
+    "یک ثانیه پشت خودروی جلو",
+    "دو ثانیه پشت خودروی جلو",
+    "سه طول خودرو در هر سرعت",
+    "پنج ثانیه فقط در بزرگراه"
+  ],
+  "correctIndex": 1,
+  "explanation": "برای حفظ فاصله ایمن در شرایط خوب، حداقل از قانون دو ثانیه استفاده کنید. در هوای نامساعد یا دید کم فاصله را بیشتر کنید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
+      "url": "https://www.ontario.ca/book/export/html/80365"
+    }
+  ],
+  "image": "/signs/q-7-following-disctance.png",
+  "notes": "Original question; aligns to handbook guidance."
+},
+{
+  "id": "q-sign-winding-road-9",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "signs-regulatory",
+  "question": "علامت لوزی زرد با پیکان پیچ‌دار به چه معناست؟",
+  "choices": [
+    "جاده در جلو مستقیم است",
+    "جاده در جلو دارای چند پیچ است؛ سرعت را کم کنید و با احتیاط رانندگی کنید",
+    "فقط یک پیچ تند در جلو وجود دارد",
+    "شانه آسفالت در جلو"
+  ],
+  "correctIndex": 1,
+  "explanation": "علامت جاده پیچ‌دار هشدار می‌دهد که چند پیچ در پیش است. سرعت را کم کنید و برای تغییر جهت آماده باشید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Warning signs",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/q-sign-winding-road-78.png",
+  "notes": "Original winding-road sign question."
+},
+{
+  "id": "q-roundabout-yield-10",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "rules-of-the-road",
+  "question": "هنگام نزدیک شدن به میدان، قبل از ورود چه باید بکنید؟",
+  "choices": [
+    "سریع وارد شوید و مسیر خود را بگیرید",
+    "حتی اگر کسی نمی‌آید در خط ورودی توقف کنید",
+    "به ترافیک داخل میدان و عابران حق تقدم بدهید و وقتی فاصله ایمن بود وارد شوید",
+    "به چپ راهنما بزنید و فوراً وارد شوید"
+  ],
+  "correctIndex": 2,
+  "explanation": "سرعت را کم کنید و به ترافیک در حال گردش و عابران حق تقدم بدهید. فقط وقتی فاصله ایمن وجود دارد وارد شوید؛ سپس هنگام خروج به راست راهنما بزنید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Roundabouts",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+    }
+  ],
+  "image": "/signs/q-11-roundabout.jpg",
+  "notes": "Original question aligned to the roundabout entry/yield rules."
+},
 
