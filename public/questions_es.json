@@ -437,3 +437,118 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué indica esta señal?",
+    "choices": [
+      "Velocidad máxima recomendada de 80 km/h",
+      "Velocidad mínima de 80 km/h",
+      "Velocidad máxima legal de 80 km/h en condiciones ideales",
+      "La velocidad siempre debe ser de 80 km/h sin importar las condiciones"
+    ],
+    "correctIndex": 2,
+    "explanation": "Una señal rectangular blanca con números negros indica la velocidad máxima legal en kilómetros por hora en condiciones de conducción ideales.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "En una carretera de doble sentido sin mediana, un autobús escolar delante de usted se detiene con sus luces rojas superiores parpadeando. ¿Qué debe hacer?",
+    "choices": [
+      "Reducir a 10 km/h y pasar con precaución",
+      "Detenerse al menos a 20 metros detrás y permanecer detenido hasta que las luces dejen de parpadear y el brazo de alto se retraiga",
+      "Pasar si no hay niños visibles en la carretera",
+      "Detenerse solo si se acerca desde la dirección opuesta"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cuando un autobús escolar activa sus luces rojas intermitentes (y/o el brazo de alto), debe detenerse. Si está detrás del autobús, deténgase al menos a 20 metros y permanezca detenido hasta que las luces rojas dejen de parpadear y el brazo de alto se retraiga. En carreteras con mediana, solo los vehículos detrás del autobús deben detenerse.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué significa esta señal reglamentaria?",
+    "choices": [
+      "Cruce peatonal más adelante",
+      "Cruce escolar más adelante",
+      "No se permiten peatones más allá de este punto",
+      "Los peatones deben ceder el paso a los vehículos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Un símbolo de peatón dentro de un círculo rojo con una barra indica que los peatones están prohibidos más allá de esa señal.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "¿Cuándo es legal girar a la derecha en un semáforo en rojo en Ontario?",
+    "choices": [
+      "En cualquier momento si señala",
+      "Solo cuando un agente de policía le indica que avance",
+      "Después de una parada completa y solo si no hay una señal que lo prohíba, y cediendo el paso a peatones y tráfico",
+      "Solo entre el amanecer y el atardecer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Puede girar a la derecha en rojo después de detenerse completamente, siempre que no haya una señal que lo prohíba y ceda el paso a los peatones y a otros usuarios de la vía.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Esta señal muestra dos autos lado a lado dentro de un círculo rojo. ¿Qué significa?",
+    "choices": [
+      "Se permite adelantar si señala",
+      "Prohibido adelantar — no debe rebasar a otros vehículos aquí",
+      "Use solo el carril izquierdo",
+      "Manténgase a la derecha excepto para adelantar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un círculo rojo indica una prohibición. El símbolo de dos autos significa PROHIBIDO ADELANTAR — no rebase a otros vehículos donde se aplique esta señal.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
