@@ -438,5 +438,120 @@
   ],
   "image": "/signs/q-low-clearance-3-9m.png"
 },
+{
+    "id": "q-speed-limit-80-21",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que signifie ce panneau?",
+    "choices": [
+      "Vitesse maximale recommandée de 80 km/h",
+      "Vitesse minimale de 80 km/h",
+      "Vitesse maximale légale de 80 km/h dans des conditions idéales",
+      "La vitesse doit toujours être de 80 km/h, quelles que soient les conditions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Un panneau rectangulaire blanc avec des chiffres noirs indique la vitesse maximale légale en kilomètres à l’heure dans des conditions de conduite idéales.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/speed-limit-80.jpg",
+    "notes": "Original question aligned with Ontario speed limit signage."
+  },
+  {
+    "id": "q-school-bus-20m-22",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Sur une route à double sens sans terre-plein central, un autobus scolaire devant vous s’arrête avec ses feux rouges supérieurs clignotants. Que devez-vous faire?",
+    "choices": [
+      "Ralentir à 10 km/h et dépasser avec prudence",
+      "S’arrêter à au moins 20 mètres derrière et rester arrêté jusqu’à ce que les feux cessent de clignoter et que le bras d’arrêt se rétracte",
+      "Dépasser si aucun enfant n’est visible sur la route",
+      "S’arrêter seulement si vous approchez en sens inverse"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lorsque l’autobus scolaire active ses feux rouges clignotants (et/ou son bras d’arrêt), vous devez vous arrêter. Si vous êtes derrière l’autobus, arrêtez-vous à au moins 20 mètres et restez arrêté jusqu’à ce que les feux rouges cessent de clignoter et que le bras d’arrêt se rétracte. Sur les routes avec terre-plein central, seuls les véhicules derrière l’autobus doivent s’arrêter.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+    ],
+    "image": "/signs/question-2.png",
+    "notes": "Original question; do not copy third-party practice tests."
+  },
+  {
+    "id": "q-no-pedestrians-23",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que signifie ce panneau réglementaire?",
+    "choices": [
+      "Passage pour piétons à venir",
+      "Traverse scolaire à venir",
+      "Les piétons ne sont pas autorisés au-delà de ce point",
+      "Les piétons doivent céder le passage aux véhicules"
+    ],
+    "correctIndex": 2,
+    "explanation": "Un symbole de piéton dans un cercle rouge barré signifie que les piétons sont interdits au-delà de ce panneau.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+      }
+    ],
+    "image": "/signs/no-crossing.jpg",
+    "notes": "Original question; matches Ontario regulatory prohibition style."
+  },
+  {
+    "id": "q-right-turn-on-red-24",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Quand est-il légal de tourner à droite à un feu rouge en Ontario?",
+    "choices": [
+      "Chaque fois que vous signalez",
+      "Seulement lorsqu’un agent de police vous fait signe de passer",
+      "Après un arrêt complet et seulement s’il n’y a aucun panneau l’interdisant, et en cédant le passage aux piétons et à la circulation",
+      "Seulement entre le lever et le coucher du soleil"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vous pouvez tourner à droite au feu rouge après un arrêt complet, à condition qu’aucun panneau ne l’interdise et que vous cédiez le passage aux piétons et aux autres usagers de la route.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-4-right-turn-on-red.png",
+    "notes": "Original wording; mirrors handbook guidance."
+  },
+  {
+    "id": "q-no-passing-25",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ce panneau montre deux voitures côte à côte dans un cercle rouge. Que signifie-t-il?",
+    "choices": [
+      "Le dépassement est permis si vous signalez",
+      "Dépassement interdit — vous ne devez pas dépasser d’autres véhicules ici",
+      "Utilisez seulement la voie de gauche",
+      "Restez à droite sauf pour dépasser"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un cercle rouge indique une interdiction. Le symbole des deux voitures signifie DÉPASSEMENT INTERDIT — ne dépassez pas d’autres véhicules là où ce panneau s’applique.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
+      }
+    ],
+    "image": "/signs/no-passing.jpg",
+    "notes": "Original question; ties sign meaning to passing rules."
+  },
 
 
