@@ -1823,3 +1823,69 @@
   "explanation": "这个绿色指示标志告知驾驶员右侧车道的车辆必须驶出。若不打算驶出，应提前变更车道。",
   "image": "/signs/right-lane-must-exit.png"
 },
+{
+  "id": "q-improper-right-101",
+  "question": "不当右转会被扣多少分？",
+  "choices": [
+    "2 分违章扣分",
+    "3 分违章扣分",
+    "4 分违章扣分",
+    "5 分违章扣分"
+  ],
+  "correctIndex": 0,
+  "explanation": "不当转弯会被扣 2 分。",
+  "image": "/signs/q-improper-right-101.png"
+},
+  {
+    "id": "q-rules-merge-sign-102",
+    "question": "您看到前方车道结束和并道标志。交通繁忙但在流动。您应该怎么做？",
+    "choices": [
+      "打转向灯，调整车速，并在有安全间隙时平稳并入直行车道",
+      "在本车道停车，等待他人示意让您并入",
+      "突然加速，强行并入车道",
+      "在路肩行驶，直到在前方找到空隙"
+    ],
+    "correctIndex": 0,
+    "explanation": "当车道结束时，必须打转向灯，匹配交通速度，并仅在有安全间隙时并入下一车道。",
+    "image": "/signs/road-narrows.jpg"
+  },
+  {
+  "id": "q-change-address-notification-103",
+  "question": "持牌驾驶员更改姓名或住址后，必须在多久内通知交通部？",
+  "choices": [
+    "6 天内",
+    "15 天内",
+    "30 天内",
+    "在驾照续期前的任何时间"
+  ],
+  "correctIndex": 0,
+  "explanation": "根据安大略省法律，驾驶员必须在姓名或地址变更后的六天内通知交通部。",
+  "image": "/signs/q-change-address-notification.png"
+},
+
+  {
+  "id": "q-warning-letter-104",
+  "question": "新手驾驶员在多少分范围内会收到警告信？",
+  "choices": [
+    "0–1 分违章扣分",
+    "2–5 分违章扣分",
+    "9–14 分违章扣分",
+    "15 分以上违章扣分"
+  ],
+  "correctIndex": 1,
+  "explanation": "新手驾驶员在累计 2 至 5 分时会收到警告信。",
+  "image": "/signs/q-warning-letter-104.png"
+},
+  {
+    "id": "q-rules-construction-speed-105",
+    "question": "您进入一个由此标志标示且限速降低的施工区。正确的做法是什么？",
+    "choices": [
+      "将车速降低到施工区规定的限速，并注意工人和设备",
+      "如果没有看到工人，则保持正常高速公路速度",
+      "在路肩行驶以避开施工",
+      "如果迟到则忽略该标志"
+    ],
+    "correctIndex": 0,
+    "explanation": "在施工区内，必须遵守规定的施工限速，并特别注意工人和车道变化。",
+     "image": "/signs/construction-ahead.jpg"
+  },
