@@ -553,4 +553,116 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "一名校区过街协管员手持红白相间的停牌走到道路上。你必须怎么做？",
+    "choices": [
+      "如果人行横道上没有儿童，减速并小心通过",
+      "先停车，如果协管员只示意儿童过街，则再继续行驶",
+      "在过街处前停车，并保持停车状态，直到所有人（包括协管员）都已完全离开整条车道且可以安全通行",
+      "鸣喇叭提醒他人然后继续行驶"
+    ],
+    "correctIndex": 2,
+    "explanation": "你必须在到达过街处之前停车，并保持停车状态，直到所有人员（包括校区过街协管员）都已完全离开整条车道且可以安全继续行驶。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "一个长方形标志，上面有一支绕过交通岛的箭头并写着“KEEP RIGHT”，其含义是：",
+    "choices": [
+      "可以从任一侧通过",
+      "车辆必须从交通岛或障碍物的右侧通行",
+      "只允许左转",
+      "禁止右转"
+    ],
+    "correctIndex": 1,
+    "explanation": "该标志表示你必须从交通岛或障碍物的右侧通行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "接近让行标志（YIELD）且有横向来车时，你必须怎么做？",
+    "choices": [
+      "只要打信号就无需停车继续前行",
+      "减速，准备停车，并让行给来车和行人；必要时停车",
+      "始终至少完全停车三秒",
+      "加速以便在其他车辆前并入"
+    ],
+    "correctIndex": 1,
+    "explanation": "让行标志表示你必须减速，准备停车，并将通行权让给你要进入道路上的车辆和行人。如有需要必须停车。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "前方驾驶员应做好什么准备？",
+  "choices": [
+    "一座可能会开启以让船只通过的桥",
+    "一座永久关闭的桥",
+    "渡船通道",
+    "道路施工"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志警告前方有可移动桥梁，车辆可能需要停车等待桥梁开启或关闭。",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "当警察示意或要求你停车而未停车，会被记多少扣分？",
+  "choices": [
+    "3 分扣分",
+    "5 分扣分",
+    "7 分扣分",
+    "9 分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "当警察示意或要求你停车而未停车，会被记 7 分扣分。",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
