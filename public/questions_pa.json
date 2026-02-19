@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਨਿਸ਼ਾਨ ਦੇ ਨੇੜੇ ਪਹੁੰਚਣ ਸਮੇਂ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+  "choices": [
+    "ਰੁਕਾਵਟ ਤੋਂ ਦੂਰ ਮੁੜੋ",
+    "ਤੁਰੰਤ ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ",
+    "ਕੇਵਲ ਖੱਬੇ ਵੱਲ ਮੁੜੋ",
+    "ਮੋੜ ਲਈ ਗਤੀ ਘਟਾਓ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਤਿਰਛੀਆਂ ਲਾਈਨਾਂ ਸੜਕ ਦੇ ਕਿਨਾਰੇ ਨੇੜੇ ਇਕ ਸਥਿਰ ਖਤਰੇ ਨੂੰ ਦਰਸਾਉਂਦੀਆਂ ਹਨ।",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਲੇਨ ਵਿੱਚ ਕਿਹੜੇ ਵਾਹਨਾਂ ਨੂੰ ਆਗਿਆ ਹੈ?",
+  "choices": [
+    "ਬੱਸਾਂ ਅਤੇ ਦੋ ਜਾਂ ਵੱਧ ਲੋਕ ਲਿਜਾਣ ਵਾਲੇ ਵਾਹਨ",
+    "ਸਾਰੇ ਯਾਤਰੀ ਵਾਹਨ",
+    "ਕੇਵਲ ਮੋਟਰਸਾਈਕਲਾਂ",
+    "ਵਪਾਰਕ ਟਰੱਕ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਹੀਰੇ ਦਾ ਚਿੰਨ੍ਹ ਇੱਕ HOV ਲੇਨ ਦਰਸਾਉਂਦਾ ਹੈ ਜੋ ਵੱਧ ਸਵਾਰੀਆਂ ਵਾਲੇ ਵਾਹਨਾਂ ਅਤੇ ਬੱਸਾਂ ਲਈ ਰਾਖਵੀਂ ਹੈ।",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਡਰਾਈਵਰਾਂ ਨੂੰ ਕਦੋਂ 40 ਕਿਮੀ/ਘੰਟਾ ਦੀ ਦਰਸਾਈ ਗਈ ਸੀਮਾ ਦੀ ਪਾਲਣਾ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?",
+  "choices": [
+    "ਜਦੋਂ ਪੀਲੀਆਂ ਬੱਤੀਆਂ ਝਲਮਲ ਕਰ ਰਹੀਆਂ ਹੋਣ",
+    "ਦਿਨ ਦੇ ਹਰ ਸਮੇਂ",
+    "ਕੇਵਲ ਸਰਦੀਆਂ ਵਿੱਚ",
+    "ਕੇਵਲ ਸਕੂਲ ਬੱਸਾਂ ਲਈ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਝਲਮਲ ਕਰਦੀਆਂ ਬੱਤੀਆਂ ਘਟਾਈ ਗਈ ਗਤੀ ਸੀਮਾ ਨੂੰ ਚਾਲੂ ਕਰਦੀਆਂ ਹਨ ਤਾਂ ਜੋ ਸਕੂਲਾਂ ਦੇ ਨੇੜੇ ਸੁਰੱਖਿਆ ਵਧੇ।",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਬਿੰਦੂ ਤੋਂ ਅੱਗੇ ਕਿਹੜਾ ਨਿਯਮ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+  "choices": [
+    "ਡਰਾਈਵਰਾਂ ਨੂੰ ਕ੍ਰਾਸਿੰਗ ਤੋਂ ਪਾਰ ਹੋਣ ਤੱਕ ਓਵਰਟੇਕ ਨਹੀਂ ਕਰਨਾ ਚਾਹੀਦਾ",
+    "ਕੇਵਲ ਬੱਸਾਂ ਲਈ ਓਵਰਟੇਕ ਦੀ ਆਗਿਆ ਹੈ",
+    "ਵਾਹਨਾਂ ਨੂੰ ਤੁਰੰਤ ਰੁਕਣਾ ਚਾਹੀਦਾ ਹੈ",
+    "ਸਾਈਕਲ ਸਵਾਰ ਟ੍ਰੈਫਿਕ ਨੂੰ ਪਾਰ ਕਰ ਸਕਦੇ ਹਨ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਸਾਈਨ ਨਿਸ਼ਾਨਿਤ ਕ੍ਰਾਸਿੰਗ ਦੇ ਨੇੜੇ ਓਵਰਟੇਕ ਨਾ ਕਰਨ ਵਾਲਾ ਖੇਤਰ ਲਾਗੂ ਕਰਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਸਾਈਨ ਕਿਹੜੀ ਸੀਮਾ ਦਰਸਾਉਂਦਾ ਹੈ?",
+  "choices": [
+    "3.9 ਮੀਟਰ ਤੋਂ ਵੱਧ ਉਚਾਈ ਵਾਲੇ ਵਾਹਨ ਨਹੀਂ ਜਾ ਸਕਦੇ",
+    "ਸੜਕ 3.9 ਮੀਟਰ ਤੱਕ ਤੰਗ ਹੋ ਜਾਂਦੀ ਹੈ",
+    "ਕੇਵਲ ਚੌੜੇ ਲੋਡ ਦੀ ਆਗਿਆ ਹੈ",
+    "ਪੁਲ ਸਿਰਫ਼ ਭਾਰੀ ਵਾਹਨਾਂ ਨੂੰ ਸਮਰਥਨ ਕਰਦਾ ਹੈ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਉੱਚੇ ਵਾਹਨਾਂ ਦੇ ਡਰਾਈਵਰ ਅੰਦਰ ਨਾ ਜਾਣ ਜੇ ਉਨ੍ਹਾਂ ਦੀ ਉਚਾਈ ਦਰਸਾਏ ਗਏ ਕਲੀਅਰੈਂਸ ਤੋਂ ਵੱਧ ਹੈ।",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
