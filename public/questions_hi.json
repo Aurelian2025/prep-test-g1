@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह संकेत सड़क के प्रवेश द्वार पर लगाया गया है। इसका क्या अर्थ है?",
+    "choices": [
+      "पैदल चलने वालों को पार करने की अनुमति नहीं है",
+      "पैदल चलने वालों को केवल इस संकेत पर ही पार करना चाहिए",
+      "आगे पैदल पारपथ है",
+      "पैदल चलने वालों को प्राथमिकता है"
+    ],
+    "correctIndex": 0,
+    "explanation": "लाल घेरे में तिरछी रेखा के साथ पैदल चलने वाले का प्रतीक दर्शाता है कि उस क्षेत्र में पैदल चलने वालों का प्रवेश निषिद्ध है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "आप सर्दियों के ट्रेल के प्रवेश पर यह संकेत देखते हैं। इसका क्या अर्थ है?",
+    "choices": [
+      "इस संकेत के आगे स्नोमोबाइल की अनुमति नहीं है",
+      "स्नोमोबाइल को गति कम करनी चाहिए",
+      "स्नोमोबाइल ट्रेल शुरू होता है",
+      "स्नोमोबाइल को अन्य वाहनों पर प्राथमिकता है"
+    ],
+    "correctIndex": 0,
+    "explanation": "लाल घेरे में तिरछी रेखा के साथ स्नोमोबाइल का प्रतीक दर्शाता है कि उस संकेत के आगे स्नोमोबाइल प्रतिबंधित हैं।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "आप एक चौराहे पर यह संकेत देखते हैं। इसका क्या अर्थ है?",
+    "choices": [
+      "इस चौराहे पर दाएँ मुड़ना मना है",
+      "दाएँ मुड़ना केवल हरी बत्ती पर ही अनुमति है",
+      "आपको चौराहे पर दाएँ मुड़ना होगा",
+      "आगे दाईं लेन समाप्त होती है"
+    ],
+    "correctIndex": 0,
+    "explanation": "लाल घेरे और तिरछी रेखा के भीतर काला दाएँ मुड़ने का तीर एक नियामक संकेत है जो दर्शाता है कि जहाँ यह संकेत लागू है वहाँ दाएँ मुड़ना निषिद्ध है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह संकेत चालकों को यू-टर्न के बारे में क्या बताता है?",
+    "choices": [
+      "यू-टर्न की अनुमति नहीं है",
+      "यू-टर्न केवल रात में अनुमति है",
+      "यदि ट्रैफिक न हो तो यू-टर्न की अनुमति है",
+      "अगले चौराहे पर यू-टर्न करना अनिवार्य है"
+    ],
+    "correctIndex": 0,
+    "explanation": "लाल घेरे और तिरछी रेखा के साथ यू-आकार का मुड़ा हुआ तीर एक नियामक संकेत है जो दर्शाता है कि जहाँ यह संकेत लागू है वहाँ यू-टर्न निषिद्ध है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "आगे कौन-सी ड्राइविंग स्थिति हो सकती है?",
+    "choices": [
+      "सड़क पर पानी बह रहा हो सकता है",
+      "एक पुल गिर गया है",
+      "फेरी पार करना आवश्यक है",
+      "सड़क स्थायी रूप से जलमग्न है"
+    ],
+    "correctIndex": 0,
+    "explanation": "यह संकेत चालकों को सचेत करता है कि पानी का जमाव पकड़ और दृश्यता को प्रभावित कर सकता है।",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
