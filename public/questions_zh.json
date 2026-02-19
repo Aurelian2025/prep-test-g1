@@ -1295,4 +1295,69 @@
   "explanation": "右转箭头上的红色斜线表示驾驶员必须等到绿灯后才能右转。",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+    "id": "q-railway-stop-61",
+    "question": "您正在接近一个有红灯闪烁且栏杆正在下降的铁路道口。您必须怎么做？",
+    "choices": [
+      "如果看不到火车，就绕过栏杆行驶",
+      "在距离道口至少5米处停车，并保持停车状态，直到红灯停止闪烁且栏杆完全升起",
+      "减速但小心通过",
+      "停车，然后在您认为安全时继续前行，即使红灯仍在闪烁"
+    ],
+    "correctIndex": 1,
+    "explanation": "您必须在距离铁轨至少5米处停车，并保持停车状态，直到红灯停止闪烁且栏杆完全升起。",
+    "image": "/signs/q-railway-stop-47.png"
+  },
+  {
+    "id": "q-school-zone-speed-62",
+    "question": "在标有特定时间段的较低限速的学校区域内，该较低限速何时适用？",
+    "choices": [
+      "只有当能看到孩子时",
+      "只有在交通拥堵时",
+      "在标志上显示的时间段内（例如上学日的上学和放学时间）",
+      "只在夏季"
+    ],
+    "correctIndex": 2,
+    "explanation": "在标志上显示的时间段内遵守降低的限速，通常是在上学日的上学和放学时间。",
+    "image": "/signs/q-school-zone-speed-48.png"
+  },
+  {
+    "id": "q-work-zone-fines-63",
+    "question": "在施工区域内，超速罚款是：",
+    "choices": [
+      "因为交通较慢而减少",
+      "与其他道路相同",
+      "与施工区外相同违法行为相比加倍",
+      "只有在有工人时才适用"
+    ],
+    "correctIndex": 2,
+    "explanation": "在指定的施工区域内，超速罚款更高——通常会加倍——即使工人并非始终可见。",
+    "image": "/signs/q-work-zone-fines-49.png"
+  },
+  {
+  "id": "q-impaired-driving-bac-64",
+  "question": "当驾驶员的血液酒精浓度达到哪个水平时，可以被判定为酒后驾驶？",
+  "choices": [
+    "0.03%",
+    "0.05%",
+    "0.08%",
+    "1.0%"
+  ],
+  "correctIndex": 2,
+  "explanation": "在安大略省及整个加拿大，血液酒精浓度达到或超过0.08%是刑事酒后驾驶定罪的法定标准。",
+  "image": "/signs/q-blood-alcohol.png"
+},
+  {
+  "id": "q-demerit-speeding-40-under-80-65",
+  "question": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣多少个扣分点？",
+  "choices": [
+    "3个扣分点",
+    "4个扣分点",
+    "6个扣分点",
+    "7个扣分点"
+  ],
+  "correctIndex": 2,
+  "explanation": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣6个扣分点。",
+  "image": "/signs/q-speed-50plus-108.png"
+},
 
