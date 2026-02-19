@@ -1359,3 +1359,68 @@
   "explanation": "Exceder la velocidad en 40 km/h o más sobre el límite en una zona de menos de 80 km/h resulta en 6 puntos de demérito.",
   "image": "/signs/q-speed-50plus-108.png"
 },
+{
+    "id": "q-reverse-look-66",
+    "question": "Al retroceder en línea recta, la mejor forma de mirar es:",
+    "choices": [
+      "Solo en el espejo retrovisor",
+      "Sobre su hombro derecho a través de la ventana trasera mientras retrocede lentamente",
+      "En la pantalla de infoentretenimiento",
+      "Solo en los espejos laterales"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gire su cuerpo y mire sobre su hombro derecho a través de la ventana trasera mientras retrocede lentamente y revisa alrededor.",
+    "image": "/signs/q-reverse-look-52.png"
+  },
+  {
+    "id": "q-left-turn-oncoming-67",
+    "question": "Está girando a la izquierda en una intersección y el tráfico que viene de frente se acerca. ¿Qué debe hacer?",
+    "choices": [
+      "Girar rápidamente delante del tráfico que viene de frente",
+      "Avanzar hacia la intersección y girar solo cuando haya un espacio seguro o después de que la luz cambie a amarillo/rojo y el tráfico que viene de frente se haya detenido",
+      "Girar desde el carril derecho para ahorrar tiempo",
+      "Detenerse detrás del cruce peatonal y esperar solo la flecha verde"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avance hacia la intersección cuando sea seguro, ceda el paso al tráfico que viene de frente y a los peatones, y complete el giro solo cuando haya un espacio seguro.",
+    "image": "/signs/q-left-turn-oncoming-53.png"
+  },
+  {
+    "id": "q-lane-change-mirror-68",
+    "question": "¿Cuál es el orden correcto al cambiar de carril?",
+    "choices": [
+      "Señalizar, revisar el punto ciego, revisar el espejo, moverse",
+      "Revisar el espejo, señalizar, revisar el punto ciego, moverse cuando sea seguro",
+      "Moverse, luego señalizar, luego revisar el espejo",
+      "Solo revisar el punto ciego"
+    ],
+    "correctIndex": 1,
+    "explanation": "Revise los espejos, señalice, revise su punto ciego, luego muévase al carril cuando sea seguro.",
+    "image": "/signs/q-lane-change-mirror-54.png"
+  },
+  {
+    "id": "q-roundabout-signal-exit-69",
+    "question": "¿Cuándo debe señalizar en una rotonda?",
+    "choices": [
+      "Señalizar a la izquierda mientras conduce alrededor del círculo",
+      "Señalizar a la derecha justo antes de tomar su salida",
+      "No señalizar en absoluto",
+      "Encender las luces de emergencia mientras está dentro"
+    ],
+    "correctIndex": 1,
+    "explanation": "Señalice a la derecha al pasar la salida anterior a la que piensa tomar, para mostrar que está saliendo de la rotonda.",
+    "image": "/signs/q-roundabout-signal-exit-55.png"
+  },
+  {
+  "id": "q-demerit-speeding-50-plus-70",
+  "question": "¿Exceder la velocidad en 50 km/h o más sobre el límite resulta en cuántos puntos de demérito?",
+  "choices": [
+    "4 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Exceder la velocidad en 50 km/h o más sobre el límite resulta en 6 puntos de demérito.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
