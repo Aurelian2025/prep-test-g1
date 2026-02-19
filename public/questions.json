@@ -1847,9 +1847,6 @@
 },
   {
     "id": "q-rules-merge-sign-102",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You see a lane ending and a merge sign ahead. Traffic is heavy but moving. What should you do?",
     "choices": [
       "Signal, adjust your speed, and merge smoothly into the through lane when there is a safe gap",
@@ -1859,20 +1856,10 @@
     ],
     "correctIndex": 0,
     "explanation": "When a lane ends, you must signal, match the speed of traffic, and merge into the next lane only when there is a safe gap.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Merging and lane changes",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-along"
-      }
-    ],
-    "image": "/signs/road-narrows.jpg",
-    "notes": "Uses road-narrows sign to talk about safe merging."
+    "image": "/signs/road-narrows.jpg"
   },
   {
   "id": "q-change-address-notification-103",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "licensing-and-documents",
   "question": "After a licensed driver changes their name or home address, how quickly must the Ministry of Transportation be notified?",
   "choices": [
     "Within 6 days",
@@ -1887,9 +1874,6 @@
 
   {
   "id": "q-warning-letter-104",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerits-info",
   "question": "At what point range does a novice driver receive a warning letter?",
   "choices": [
     "0–1 demerit points",
@@ -1899,14 +1883,10 @@
   ],
   "correctIndex": 1,
   "explanation": "Novice drivers receive a warning letter between 2 and 5 points.",
-  "sources": [],
   "image": "/signs/q-warning-letter-104.png"
 },
   {
     "id": "q-rules-construction-speed-105",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
     "question": "You enter a construction zone marked with this sign and a lower speed limit. What is the correct action?",
     "choices": [
       "Slow to the posted work-zone speed and be prepared for workers and equipment",
@@ -1916,20 +1896,10 @@
     ],
     "correctIndex": 0,
     "explanation": "In a construction zone, you must follow the posted work-zone speed limit and be especially alert for workers and lane changes.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones and reduced speed limits",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/construction-ahead.jpg",
-    "notes": "Construction-zone speed and caution question."
+     "image": "/signs/construction-ahead.jpg"
   },
   {
   "id": "q-bus-rail-106",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "A bus driver who fail to stop at an unprotected railway crossing receives how many demerit points?",
   "choices": [
     "3 demerit points",
@@ -1939,14 +1909,10 @@
   ],
   "correctIndex": 2,
   "explanation": "Bus drivers must stop at unprotected crossings; failing to do so results in 5 points.",
-  "sources": [],
   "image": "/signs/q-bus-rail-106.png"
 },
   {
     "id": "q-rules-no-entry-oneway-107",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You approach this NO ENTRY sign at the end of a street. What does it tell you about that road?",
     "choices": [
       "The road is one-way for traffic coming toward you; you must not enter",
@@ -1956,20 +1922,10 @@
     ],
     "correctIndex": 0,
     "explanation": "No entry and do-not-enter signs mean you are facing the wrong direction of travel for that road or lane. You must not go in.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (Do not enter/Wrong way)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/do-not-enter.jpg",
-    "notes": "Rules interpretation of the do-not-enter sign."
+      "image": "/signs/do-not-enter.jpg"
   },
   {
   "id": "q-speed-50plus-108",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "How many demerit points are issued for driving 50 km/h or more over the posted limit?",
   "choices": [
     "3 demerit points",
@@ -1979,14 +1935,10 @@
   ],
   "correctIndex": 3,
   "explanation": "Speeding 50 km/h or more over the limit carries 6 demerit points.",
-  "sources": [],
   "image": "/signs/q-speed-50plus-108.png"
 },
   {
     "id": "q-alcohol-109",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "If a driver under 21 has any alcohol in their system while driving, they:",
     "choices": [
       "May receive only a warning",
@@ -1996,21 +1948,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Ontario has a zero BAC requirement for drivers under 21 and for novice drivers (G1/G2).",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Impaired driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/impaired-driving"
-      }
-    ],
-    "image": "/signs/q-28-impaired-driver.png",
-    "notes": "Original question; zero tolerance policy."
+    "image": "/signs/q-28-impaired-driver.png"
   },
 
   {
     "id": "q-rules-no-stopping-like-sign-110",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
     "question": "A different sign shows a red circle and slash over a symbol for stopping. How is that different from this no-parking sign?",
     "choices": [
       "No-stopping means you may not stop your vehicle at all, even briefly",
@@ -2020,20 +1962,10 @@
     ],
     "correctIndex": 0,
     "explanation": "No-parking signs allow brief stops to load or unload passengers or goods. No-stopping signs do not allow you to stop your vehicle at all, except to obey traffic control.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — No parking vs. no stopping",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/no-parking.jpg",
-    "notes": "Conceptual comparison question; uses no-parking image as reference."
+      "image": "/signs/no-parking.jpg"
   },
   {
   "id": "q-follow-closely-111",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Following another vehicle too closely results in how many demerit points?",
   "choices": [
     "2 demerit points",
@@ -2043,14 +1975,10 @@
   ],
   "correctIndex": 2,
   "explanation": "Following too closely carries 4 demerit points.",
-  "sources": [],
   "image": "/signs/q-tailgater-189.png"
 },
   {
     "id": "q-rules-hill-downgrade-112",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You see this steep hill sign before a long downgrade. What gear and braking strategy is safest?",
     "choices": [
       "Select a lower gear before the hill and brake gently as needed",
@@ -2060,20 +1988,10 @@
     ],
     "correctIndex": 0,
     "explanation": "On long downhills, using a lower gear helps control speed and prevents brakes from overheating.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driving downhill safely",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/steep-hill-downgrade.jpg",
-    "notes": "Practical question on using low gear on hills."
+      "image": "/signs/steep-hill-downgrade.jpg"
   },
   {
     "id": "q-rules-slippery-curve-113",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "It begins to rain and you see this SLIPPERY WHEN WET sign on a curve. How should you drive?",
     "choices": [
       "Slow down before the curve and avoid sudden steering or braking",
@@ -2083,20 +2001,10 @@
     ],
     "correctIndex": 0,
     "explanation": "On slippery curves you should reduce speed before entering and avoid sudden movements that could cause a skid.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Skids and slippery roads",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/slippery-when-wet.jpg",
-    "notes": "Curve-handling on wet roads."
+      "image": "/signs/slippery-when-wet.jpg"
   },
   {
     "id": "q-rules-winding-road-visibility-114",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You see this winding road sign and heavy fog ahead. What is the safest choice?",
     "choices": [
       "Slow down, increase following distance and use low beams",
@@ -2106,20 +2014,10 @@
     ],
     "correctIndex": 0,
     "explanation": "In fog on a winding road, reduce speed, leave extra space and use low beams so light does not reflect back at you.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Fog and reduced visibility",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/winding-road.jpg",
-    "notes": "Combines winding road with fog driving advice."
+      "image": "/signs/winding-road.jpg"
   },
   {
     "id": "q-fatigue-115",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "You feel drowsy while driving at night. What should you do?",
     "choices": [
       "Open the window and turn up music",
@@ -2129,21 +2027,11 @@
     ],
     "correctIndex": 1,
     "explanation": "If you’re sleepy, stop in a safe place and rest. Fatigue is dangerous.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Fatigue and safe driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/fatigue"
-      }
-    ],
-    "image": "/signs/q-29-driver-tired.png",
-    "notes": "Original question; rest and alertness."
+      "image": "/signs/q-29-driver-tired.png"
   },
 
   {
     "id": "q-approaching-pedestrian-116",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
     "choices": [
       "Speed up to pass before they step out",
@@ -2153,21 +2041,11 @@
     ],
     "correctIndex": 1,
     "explanation": "Be prepared to yield to pedestrians at crosswalks and allow them to cross safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Pedestrian safety",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/pedestrian-safety"
-      }
-    ],
-    "image": "/signs/q-approaching-pedestrian-75.png",
-    "notes": "Original uncontrolled-crosswalk question."
+      "image": "/signs/q-approaching-pedestrian-75.png"
   },
 
   {
     "id": "q-rules-wheelchair-accessible-117",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "You see this wheelchair symbol at a parking space. What must you do as a driver without an accessible parking permit?",
     "choices": [
       "You must not park in the marked accessible space",
@@ -2177,20 +2055,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Accessible parking spaces are reserved for vehicles displaying a valid accessible parking permit.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Accessible parking",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/parking"
-      }
-    ],
-    "image": "/signs/wheelchair-accessible.jpg",
-    "notes": "Accessible parking rule."
+      "image": "/signs/wheelchair-accessible.jpg"
   },
   {
     "id": "q-driver-distraction-118",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
     "question": "Which of the following is an example of a dangerous distraction while driving?",
     "choices": [
       "Checking mirrors regularly",
@@ -2200,21 +2068,11 @@
     ],
     "correctIndex": 2,
     "explanation": "Using a handheld phone or texting while driving is a dangerous distraction and is illegal in Ontario.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Distracted driving",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-driver-distraction-74.png",
-    "notes": "Original distraction-awareness question."
+      "image": "/signs/q-driver-distraction-74.png"
   },
 
    {
     "id": "q-hydroplaning-prevent-119",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "Which action helps reduce the risk of hydroplaning?",
     "choices": [
       "Driving faster in the rain",
@@ -2224,21 +2082,11 @@
     ],
     "correctIndex": 2,
     "explanation": "Slowing down in wet conditions and having good tires with proper tread helps prevent hydroplaning.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-hydroplaning-prevent-73.png",
-    "notes": "Original hydroplaning-prevention question."
+      "image": "/signs/q-hydroplaning-prevent-73.png"
   },
 
   {
   "id": "q-demerit-interview-120",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Under Ontario’s demerit point system, at what point total may a driver be required to attend an interview and undergo a re-examination of driving skills?",
   "choices": [
     "When 9 demerit points have been accumulated",
