@@ -884,3 +884,118 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "تشير لافتة صفراء على شكل ماسة تُظهر تضيقًا إلى:",
+    "choices": [
+      "جسر عريض أمامك",
+      "الطريق يضيق أو يوجد جسر ضيق أمامك؛ كن مستعدًا للإبطاء واستخدم الحذر",
+      "الطريق سيتسع أمامك",
+      "يبدأ طريق سريع مقسوم"
+    ],
+    "correctIndex": 1,
+    "explanation": "تعني لافتة تحذير تضيق الطريق أو الجسر الضيق أن المسارات قد تصبح أضيق؛ خفّف السرعة ومرّ بحذر.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "تشير لافتة صفراء على شكل ماسة تُظهر خطًا ينقسم حول شكل في الوسط إلى:",
+    "choices": [
+      "حركة مرور باتجاهين أمامك",
+      "يبدأ طريق سريع مقسوم؛ ابقَ على يمين الجزيرة الوسطية",
+      "ينتهي الطريق السريع المقسوم",
+      "التجاوز مسموح في الاتجاهين"
+    ],
+    "correctIndex": 1,
+    "explanation": "تحذّر اللافتة من بداية طريق سريع مقسوم ويجب عليك البقاء على يمين الجزيرة الوسطية أو الحاجز.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ماذا تعني لافتة حدّ السرعة هذه؟",
+    "choices": [
+      "السرعة القصوى المسموح بها هي 40 كم/س",
+      "يجب أن تقود بسرعة 40 كم/س تمامًا في جميع الأوقات",
+      "السرعة الدنيا هي 40 كم/س",
+      "سيتغير حدّ السرعة إلى 40 كم/س بعد 40 مترًا"
+    ],
+    "correctIndex": 0,
+    "explanation": "تُظهر اللافتة المستطيلة البيضاء ذات الأرقام السوداء الحدّ الأقصى القانوني للسرعة بالكيلومترات في الساعة في ظروف القيادة المثالية.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ترى هذه اللافتة عند مدخل طريق. ماذا تعني؟",
+    "choices": [
+      "الدراجات غير مسموح بها على هذا الطريق",
+      "يجب على راكبي الدراجات السير على الرصيف",
+      "يبدأ مسار للدراجات هنا",
+      "للدراجات حقّ المرور"
+    ],
+    "correctIndex": 0,
+    "explanation": "يعني رمز الدراجة داخل دائرة حمراء مع خط مائل أن الدراجات ممنوعة على ذلك الطريق أو في تلك المنطقة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ماذا تخبر هذه اللافتة السائقين عن الوقوف؟",
+    "choices": [
+      "لا يُسمح بالوقوف حيث تنطبق هذه اللافتة",
+      "الوقوف مسموح لمدة 10 دقائق فقط",
+      "الوقوف مسموح ليلًا فقط",
+      "التوقف ممنوع في أي وقت"
+    ],
+    "correctIndex": 0,
+    "explanation": "الدائرة الحمراء مع خط مائل عبر الحرف P هي لافتة تنظيمية تعني ممنوع الوقوف في المنطقة أو بين الأسهم المشار إليها.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
