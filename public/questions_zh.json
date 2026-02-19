@@ -1755,3 +1755,71 @@
   "explanation": "该标志提醒驾驶员道路将连续两次弯曲，应相应调整车速。",
   "image": "/signs/q-right-left-curve-ahead.png"
 },
+{
+  "id": "q-stop-ahead-96",
+  "question": "看到这个标志后，驾驶员应预期什么？",
+  "choices": [
+    "前方不远处有停车标志",
+    "前方有让行标志",
+    "仅有人行横道",
+    "绿灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "这个提前警告标志让驾驶员有时间准备停车。",
+  "image": "/signs/stop-ahead.jpg"
+},
+
+{
+  "id": "q-permitted-action-97",
+  "question": "绿色圆形交通标志的一般含义是什么？",
+  "choices": [
+    "允许某种动作或行驶方式",
+    "前方有危险",
+    "车辆必须停车",
+    "道路封闭"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色圆形标志表示驾驶员被允许采取的行动。",
+  "image": "/signs/q-permitted-action.png"
+},
+
+{
+  "id": "q-red-light-camera-98",
+  "question": "为什么在路口设置这个标志？",
+  "choices": [
+    "警告有摄像头执法闯红灯行为",
+    "表示信号由行人控制",
+    "仅表示闪烁信号灯",
+    "标示学校过街处"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志提醒驾驶员闯红灯可能会被记录并受到处罚。",
+  "image": "/signs/q-red-light-camera.png"
+},
+
+{
+  "id": "q-truck-entrance-99",
+  "question": "这个标志提示了什么潜在危险？",
+  "choices": [
+    "大型卡车可能进入道路",
+    "仅限卡车停车开始",
+    "前方有称重站",
+    "禁止卡车通行"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员应注意入口附近缓慢行驶或转弯的卡车。",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-100",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "只有右侧车道可以直行",
+    "右侧车道禁止右转",
+    "右侧车道的车辆必须驶出",
+    "右侧车道为慢速车辆专用"
+  ],
+  "correctIndex": 2,
+  "explanation": "这个绿色指示标志告知驾驶员右侧车道的车辆必须驶出。若不打算驶出，应提前变更车道。",
+  "image": "/signs/right-lane-must-exit.png"
+},
