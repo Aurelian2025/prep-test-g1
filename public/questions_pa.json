@@ -775,4 +775,113 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਇੱਕ ਨਿਸ਼ਾਨ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ «ਪੁਲ ਸੜਕ ਤੋਂ ਪਹਿਲਾਂ ਜੰਮਦਾ ਹੈ». ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਤੇਜ਼ੀ ਨਾਲ ਪਾਰ ਕਰਨ ਲਈ ਤੇਜ਼ ਕਰੋ",
+      "ਪੁਲ ਤੋਂ ਪਹਿਲਾਂ ਜ਼ੋਰ ਨਾਲ ਬ੍ਰੇਕ ਲਗਾਓ",
+      "ਗਤੀ ਘਟਾਓ ਅਤੇ ਪੁਲ 'ਤੇ ਅਚਾਨਕ ਹਿਲਚਲ ਤੋਂ ਬਚੋ",
+      "ਸੜਕ ਦੇ ਵਿਚਕਾਰ ਚਲਾਓ"
+    ],
+    "correctIndex": 2,
+    "explanation": "ਪੁਲ ਪਹਿਲਾਂ ਜੰਮਦੇ ਹਨ। ਗਤੀ ਘਟਾਓ ਅਤੇ ਪੁਲ 'ਤੇ ਜ਼ੋਰ ਨਾਲ ਬ੍ਰੇਕ ਜਾਂ ਅਚਾਨਕ ਸਟੀਅਰਿੰਗ ਤੋਂ ਬਚੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਗਿੱਲੀ ਸੜਕ 'ਤੇ ਤੁਹਾਡੇ ਟਾਇਰ ਹਾਈਡ੍ਰੋਪਲੇਨ ਕਰਨ ਲੱਗਦੇ ਹਨ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਜ਼ੋਰ ਨਾਲ ਬ੍ਰੇਕ ਲਗਾਓ ਅਤੇ ਤੇਜ਼ ਮੋੜੋ",
+      "ਐਕਸਲੇਰੇਟਰ ਛੱਡੋ ਅਤੇ ਗ੍ਰਿਪ ਵਾਪਸ ਆਉਣ ਤੱਕ ਸਟੀਅਰਿੰਗ ਸਿੱਧੀ ਰੱਖੋ",
+      "ਗ੍ਰਿਪ ਵਾਪਸ ਲੈਣ ਲਈ ਤੇਜ਼ ਕਰੋ",
+      "ਪਾਣੀ ਹਟਾਉਣ ਲਈ ਸਟੀਅਰਿੰਗ ਆਗੇ-ਪਿੱਛੇ ਘੁਮਾਓ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਐਕਸਲੇਰੇਟਰ ਹੌਲੀ ਛੱਡੋ ਅਤੇ ਗ੍ਰਿਪ ਵਾਪਸ ਆਉਣ ਤੱਕ ਪਹੀਏ ਸਿੱਧੇ ਰੱਖੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਮੁੜਨ ਜਾਂ ਲੇਨ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਕਿੰਨਾ ਅੱਗੇ ਸੰਕੇਤ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਘੱਟੋ-ਘੱਟ 30 ਮੀਟਰ (100 ਫੁੱਟ)",
+      "ਜਦੋਂ ਤੁਸੀਂ ਸਟੀਅਰਿੰਗ ਘੁਮਾਉਂਦੇ ਹੋ",
+      "ਪੰਜ ਕਾਰ ਲੰਬਾਈ ਦੂਰ",
+      "ਸਿਰਫ਼ ਜਦੋਂ ਤੁਹਾਡੇ ਪਿੱਛੇ ਕੋਈ ਹੋਵੇ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਚੰਗੀ ਤਰ੍ਹਾਂ ਪਹਿਲਾਂ ਸੰਕੇਤ ਦਿਓ — ਮੁੜਨ ਜਾਂ ਲੇਨ ਬਦਲਣ ਤੋਂ ਘੱਟੋ-ਘੱਟ 30 ਮੀਟਰ (100 ਫੁੱਟ) ਪਹਿਲਾਂ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਤੁਹਾਨੂੰ ਆਪਣਾ ਹਾਰਨ ਕਦੋਂ ਵਰਤਣਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਦੋਸਤ ਨੂੰ ਸਲਾਮ ਕਰਨ ਲਈ",
+      "ਸੰਭਾਵਿਤ ਖਤਰੇ ਬਾਰੇ ਹੋਰਨਾਂ ਨੂੰ ਚੇਤਾਵਨੀ ਦੇਣ ਲਈ",
+      "ਜਦੋਂ ਬੱਤੀ ਹਰੀ ਹੋ ਜਾਵੇ",
+      "ਜਦੋਂ ਹੋਰ ਡਰਾਈਵਰਾਂ 'ਤੇ ਗੁੱਸਾ ਹੋਵੇ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਹਾਰਨ ਸਿਰਫ਼ ਹੋਰਨਾਂ ਨੂੰ ਚੇਤਾਵਨੀ ਦੇਣ ਲਈ ਵਰਤੋ ਜਦੋਂ ਟੱਕਰ ਤੋਂ ਬਚਣ ਲਈ ਲੋੜੀਂਦਾ ਹੋਵੇ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "ਰੇਸਿੰਗ ਨਾਲ ਕਿੰਨੇ ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ?",
+  "choices": [
+    "3 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "4 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "6 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "7 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ"
+  ],
+  "correctIndex": 2,
+  "explanation": "ਰੇਸਿੰਗ ਨਾਲ 6 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ।",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
