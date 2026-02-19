@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "signs-regulatory",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "仅夜间允许左转",
+    "任何时候都不允许左转",
+    "前方开始左转车道",
+    "可以谨慎掉头"
+  ],
+  "correctIndex": 1,
+  "explanation": "带斜杠的红色圆圈始终表示禁止。带斜杠的向左箭头表示不允许左转。",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "rules-of-the-road",
+  "question": "在停车标志处，如果地面有停车线，您必须在哪里停车？",
+  "choices": [
+    "在路口前的任何位置",
+    "在停车标志杆旁边",
+    "在地面标示的停车线处",
+    "进入路口一半以便看得更清楚"
+  ],
+  "correctIndex": 2,
+  "explanation": "您必须在地面标示的停车线处完全停车。如果没有停车线，应在行人横道前停车；如果没有行人横道，应在路边人行道边缘停车；如果都没有，则在路口边缘停车。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "signs-regulatory",
+  "question": "前方出现此标志。它在警告您什么？",
+  "choices": [
+    "此道路禁止自行车通行",
+    "注意骑行者；可能有自行车横穿或与车辆共用道路",
+    "前方为共用步道；机动车必须停车",
+    "自行车道结束；立即向右并线"
+  ],
+  "correctIndex": 1,
+  "explanation": "黄色菱形中的自行车符号是警告标志，提示注意骑行者，并准备减速或在需要时让行。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "alcohol-and-driving",
+  "question": "首次因酒后驾驶被定罪后，驾驶执照会被吊销多长时间？",
+  "choices": [
+    "1个月",
+    "3个月",
+    "6个月",
+    "1年"
+  ],
+  "correctIndex": 3,
+  "explanation": "首次酒后驾驶定罪将导致驾照被吊销一年，并可能伴随罚款和强制教育项目等其他处罚。",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "zh",
+  "category": "signs-regulatory",
+  "question": "在道路入口看到此标志时，您必须怎么做？",
+  "choices": [
+    "缓慢前进并保持右侧行驶",
+    "只有在交通稀少时才进入",
+    "禁止进入——该道路供相反方向的车辆通行",
+    "先停车，确认安全后再前进"
+  ],
+  "correctIndex": 2,
+  "explanation": "红色圆圈内带白色横杠表示“禁止进入”——您正面向相反方向的车流（例如单行道的反向入口）。",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
