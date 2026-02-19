@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "در گذرگاه عابر پیاده (PXO) با چراغ‌های چشمک‌زن، چه زمانی می‌توانید حرکت کنید؟",
+    "choices": [
+      "به محض اینکه عابر پیاده روی پیاده‌رو سمت شما قدم بگذارد",
+      "پس از کاهش سرعت و بوق زدن",
+      "فقط پس از اینکه عابران کاملاً از عرض خیابان عبور کرده و کاملاً از مسیر خارج شده باشند و حرکت ایمن باشد",
+      "هر زمان اگر قصد گردش به راست دارید"
+    ],
+    "correctIndex": 2,
+    "explanation": "در PXO باید برای عابران پیاده توقف کنید و تا زمانی که آن‌ها کاملاً از عرض خیابان عبور کرده و از مسیر خارج نشده‌اند، در حالت توقف بمانید. فقط زمانی حرکت کنید که ایمن باشد.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "شما این علامت دایره‌ای آبی با فلش‌های سفید را قبل از یک میدان می‌بینید. چه باید بکنید؟",
+    "choices": [
+      "به سرعت وارد شوید و به چپ راهنما بزنید",
+      "در سمت راست بمانید، در خلاف جهت عقربه‌های ساعت حرکت کنید و به وسایل نقلیه داخل میدان و عابران حق تقدم بدهید",
+      "توقف کنید و منتظر چراغ سبز بمانید",
+      "دور زدن در خروجی بعدی الزامی است"
+    ],
+    "correctIndex": 1,
+    "explanation": "به آرامی نزدیک شوید، در سمت راست جزیره مرکزی بمانید، به عابران و وسایل نقلیه‌ای که از قبل در میدان هستند حق تقدم بدهید و زمانی که فاصله ایمن وجود دارد وارد شوید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "در جاده‌ای که با میانه تقسیم شده است، یک اتوبوس مدرسه در سمت مقابل با چراغ‌های قرمز چشمک‌زن توقف می‌کند. شما باید چه کار کنید؟",
+    "choices": [
+      "بلافاصله توقف کنید",
+      "با احتیاط ادامه دهید؛ فقط وسایل نقلیه پشت اتوبوس باید توقف کنند",
+      "بوق بزنید و عبور کنید",
+      "3 ثانیه توقف کنید، سپس ادامه دهید"
+    ],
+    "correctIndex": 1,
+    "explanation": "در جاده‌های دارای میانه، فقط وسایل نقلیه پشت اتوبوس باید هنگام چشمک زدن چراغ‌های قرمز آن توقف کنند. ترافیک مقابل می‌تواند با احتیاط ادامه دهد.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "در انتاریو، چه زمانی بستن کمربند ایمنی الزامی است؟",
+    "choices": [
+      "فقط در بزرگراه‌ها",
+      "هر زمان که وسیله نقلیه در حال حرکت است",
+      "فقط هنگام رانندگی با سرعت بیش از 50 کیلومتر در ساعت",
+      "فقط زمانی که مسافر وجود دارد"
+    ],
+    "correctIndex": 1,
+    "explanation": "راننده و سرنشینان باید هر زمان که وسیله نقلیه در حال حرکت است کمربند ایمنی ببندند. راننده مسئول سرنشینان زیر 16 سال است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "رانندگی بی‌احتیاطی منجر به چند امتیاز منفی می‌شود؟",
+  "choices": [
+    "2 امتیاز منفی",
+    "3 امتیاز منفی",
+    "6 امتیاز منفی",
+    "7 امتیاز منفی"
+  ],
+  "correctIndex": 2,
+  "explanation": "رانندگی بی‌احتیاطی منجر به 6 امتیاز منفی می‌شود.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
