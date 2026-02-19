@@ -665,5 +665,115 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "À un passage pour piétons (PXO) avec feux clignotants, quand pouvez-vous avancer?",
+    "choices": [
+      "Dès que le piéton monte sur le trottoir de votre côté de la route",
+      "Après avoir ralenti et klaxonné",
+      "Seulement après que les piétons ont complètement traversé et quitté entièrement la chaussée, et que c’est sécuritaire",
+      "À tout moment si vous tournez à droite"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vous devez vous arrêter pour les piétons aux PXO et rester arrêté jusqu’à ce qu’ils aient complètement traversé et quitté entièrement la chaussée. Avancez seulement lorsque c’est sécuritaire.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Vous voyez ce panneau circulaire bleu avec des flèches blanches avant un carrefour giratoire. Que devez-vous faire?",
+    "choices": [
+      "Entrer rapidement et signaler à gauche",
+      "Rester à droite, circuler dans le sens antihoraire et céder le passage aux véhicules déjà engagés dans le carrefour giratoire et aux piétons",
+      "Vous arrêter et attendre un feu vert",
+      "Le demi-tour est obligatoire à la prochaine sortie"
+    ],
+    "correctIndex": 1,
+    "explanation": "Approchez lentement, restez à droite de l’îlot central, cédez le passage aux piétons et aux véhicules déjà engagés dans le carrefour giratoire, et entrez lorsqu’il y a un espace sécuritaire.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Sur une route séparée par un terre-plein central, un autobus scolaire du côté opposé s’arrête avec ses feux rouges clignotants. Que devez-vous faire?",
+    "choices": [
+      "Vous arrêter immédiatement",
+      "Avancer avec prudence; seuls les véhicules derrière l’autobus doivent s’arrêter",
+      "Klaxonner et dépasser",
+      "Vous arrêter pendant 3 secondes, puis avancer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sur les routes avec un terre-plein central, seuls les véhicules derrière l’autobus doivent s’arrêter lorsque ses feux rouges clignotent. La circulation en sens opposé peut avancer avec prudence.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Quand les ceintures de sécurité doivent-elles être portées en Ontario?",
+    "choices": [
+      "Seulement sur les autoroutes",
+      "Chaque fois que le véhicule est en mouvement",
+      "Seulement en conduisant à plus de 50 km/h",
+      "Seulement lorsqu’il y a des passagers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Les conducteurs et les passagers doivent porter une ceinture de sécurité chaque fois que le véhicule est en mouvement. Le conducteur est responsable des passagers de moins de 16 ans.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "La conduite imprudente entraîne combien de points d’inaptitude?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "La conduite imprudente entraîne 6 points d’inaptitude.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
 
