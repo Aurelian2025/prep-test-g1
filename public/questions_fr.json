@@ -1686,5 +1686,74 @@
   "explanation": "Ce panneau prépare les conducteurs à une intersection à venir contrôlée par des feux de circulation.",
    "image": "/signs/q-traffic-lights-ahead.png"
 },
+{
+  "id": "q-traffic-lights-ahead-91",
+  "question": "Quel est l’objectif de ce panneau d’avertissement?",
+  "choices": [
+    "Avertir les conducteurs de feux de circulation plus loin",
+    "Indiquer un passage réservé aux piétons",
+    "Avertir d’un passage à niveau",
+    "Indiquer une fermeture de route plus loin"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau prépare les conducteurs à une intersection à venir contrôlée par des feux de circulation.",
+  "image": "/signs/q-traffic-lights-ahead.png"
+},
 
+{
+  "id": "q-school-zone-92",
+  "question": "À quoi les conducteurs doivent-ils être prêts en voyant ce panneau?",
+  "choices": [
+    "Des enfants peuvent se trouver près de la chaussée",
+    "Un poste d’inspection des camions plus loin",
+    "Un terrain de jeu est fermé",
+    "Les cyclistes doivent descendre de leur vélo"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau avertit les conducteurs de ralentir et d’être prudents en raison de la présence possible d’enfants dans une zone scolaire.",
+  "image": "/signs/q-school-zone.png"
+},
+
+{
+  "id": "q-hidden-intersection-93",
+  "question": "Pourquoi une prudence accrue est-elle nécessaire à cet endroit?",
+  "choices": [
+    "Une route secondaire peut être difficile à voir",
+    "Les feux de circulation sont défectueux",
+    "La route devient divisée",
+    "Il y a un poste de péage plus loin"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le panneau avertit qu’une intersection à venir peut ne pas être clairement visible pour les conducteurs.",
+  "image": "/signs/q-hidden-intersection.png"
+},
+
+{
+  "id": "q-no-passing-94",
+  "question": "Quelle action de conduite est restreinte par ce panneau?",
+  "choices": [
+    "Dépasser d’autres véhicules",
+    "Conduire en dessous de la limite de vitesse",
+    "Utiliser les phares",
+    "Tourner à gauche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau réglementaire indique clairement que le dépassement d’autres véhicules n’est pas permis dans cette zone.",
+  "image": "/signs/q-no-passing.png"
+},
+
+{
+  "id": "q-right-left-curve-ahead-95",
+  "question": "Quelle condition de la route ce panneau décrit-il?",
+  "choices": [
+    "Une série de courbes commençant à droite puis à gauche",
+    "Un virage serré à droite seulement",
+    "Un rond-point plus loin",
+    "Une voie de fusion commence"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs sont avertis que la route fera deux virages et doivent ajuster leur vitesse en conséquence.",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
+  
 
