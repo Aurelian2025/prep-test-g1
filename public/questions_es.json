@@ -1226,3 +1226,71 @@
   ],
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-snowmobiles-permitted-56",
+    "question": "¿Qué tipo de vehículo está permitido aquí?",
+  "choices": [
+    "Se permite la circulación de motonieves",
+    "Las motonieves deben detenerse",
+    "Las motonieves están restringidas a remolques",
+    "Solo los automóviles pueden continuar"
+  ],
+  "correctIndex": 0,
+  "explanation": "El círculo verde y el símbolo de motonieve indican que las motonieves están permitidas en esta ruta.",
+    "image": "/signs/q-snowmobiles-permitted.png"
+},
+
+{
+  "id": "q-bicycles-permitted-57",
+  "question": "¿Qué les indica esta señal a los usuarios de la vía?",
+  "choices": [
+    "Los ciclistas pueden circular aquí",
+    "Los ciclistas deben bajarse de la bicicleta",
+    "Este carril está cerrado a las bicicletas",
+    "Solo los peatones pueden usar esta área"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un círculo verde indica permiso; el símbolo de la bicicleta confirma que los ciclistas pueden usar esta carretera o carril.",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+
+{
+  "id": "q-keep-right-except-to-pass-58",
+  "question": "¿Qué comportamiento de conducción exige esta señal?",
+  "choices": [
+    "Permanezca en el carril derecho salvo para adelantar a otro vehículo",
+    "Use el carril izquierdo en todo momento",
+    "Evite cambiar de carril",
+    "Adelante solo por el arcén"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben permanecer normalmente a la derecha y solo moverse a la izquierda brevemente para adelantar a vehículos más lentos.",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
+
+{
+  "id": "q-two-way-left-turn-lane-59",
+  "question": "¿Cómo puede utilizarse este carril central?",
+  "choices": [
+    "Para giros a la izquierda por el tráfico en ambas direcciones",
+    "Para adelantar vehículos más lentos",
+    "Solo para giros a la derecha",
+    "Para estacionar fuera de horas pico"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal muestra que los vehículos que circulan en cualquiera de las dos direcciones pueden usar el carril solo para realizar giros a la izquierda.",
+  "image": "/signs/q-two-way-left-turn-lane.png"
+},
+{
+  "id": "q-no-right-turn-on-red-60",
+  "question": "¿Qué restricción impone esta señal a los conductores?",
+  "choices": [
+    "No se permite girar a la derecha cuando la luz está roja",
+    "Los giros a la derecha deben hacerse con luz roja",
+    "Solo los autobuses pueden girar a la derecha",
+    "Se requieren giros en U"
+  ],
+  "correctIndex": 0,
+  "explanation": "La línea roja sobre la flecha de giro a la derecha significa que los conductores deben esperar una luz verde antes de girar a la derecha.",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
