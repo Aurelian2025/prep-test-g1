@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "signs-regulatory",
+  "question": "यह संकेत क्या दर्शाता है?",
+  "choices": [
+    "बाएँ मुड़ना केवल रात में अनुमत है",
+    "किसी भी समय बाएँ मुड़ना अनुमत नहीं है",
+    "आगे बाएँ मुड़ने की लेन शुरू होती है",
+    "सावधानी के साथ यू-टर्न की अनुमति है"
+  ],
+  "correctIndex": 1,
+  "explanation": "लाल वृत्त पर तिरछी रेखा हमेशा निषेध दर्शाती है। बाईं ओर इशारा करता तीर जिस पर तिरछी रेखा है, इसका अर्थ है कि बाएँ मुड़ना अनुमति नहीं है।",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "rules-of-the-road",
+  "question": "स्टॉप साइन पर, यदि स्टॉप लाइन बनी हुई हो तो आपको कहाँ रुकना चाहिए?",
+  "choices": [
+    "चौराहे से पहले कहीं भी",
+    "स्टॉप साइन के खंभे के पास",
+    "पेंट की गई स्टॉप लाइन पर",
+    "बेहतर देखने के लिए चौराहे के बीच में"
+  ],
+  "correctIndex": 2,
+  "explanation": "आपको पेंट की गई स्टॉप लाइन पर पूरी तरह रुकना चाहिए। यदि स्टॉप लाइन नहीं है, तो पैदल पार पथ पर रुकें; यदि वह भी नहीं है, तो फुटपाथ के किनारे; यदि वह भी नहीं है, तो चौराहे के किनारे रुकें।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "signs-regulatory",
+  "question": "यह संकेत आगे दिखाई देता है। यह आपको किस बारे में चेतावनी देता है?",
+  "choices": [
+    "इस सड़क पर साइकिलें प्रतिबंधित हैं",
+    "साइकिल चालकों की अपेक्षा करें; साइकिल यातायात सड़क साझा कर सकता है या पार कर सकता है",
+    "साझा उपयोग का मार्ग शुरू होता है; मोटर वाहनों को रुकना चाहिए",
+    "साइकिल लेन समाप्त होती है; तुरंत दाएँ मिलें"
+  ],
+  "correctIndex": 1,
+  "explanation": "पीले हीरे में साइकिल का चिन्ह एक चेतावनी संकेत है जो साइकिल चालकों के लिए सतर्क रहने और आवश्यकता होने पर गति कम करने या रास्ता देने के लिए कहता है।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "alcohol-and-driving",
+  "question": "शराब पीकर गाड़ी चलाने के पहले दोषसिद्धि के बाद ड्राइविंग लाइसेंस कितने समय के लिए निलंबित होता है?",
+  "choices": [
+    "1 महीना",
+    "3 महीने",
+    "6 महीने",
+    "1 वर्ष"
+  ],
+  "correctIndex": 3,
+  "explanation": "शराब पीकर गाड़ी चलाने की पहली दोषसिद्धि के परिणामस्वरूप ड्राइविंग लाइसेंस एक वर्ष के लिए निलंबित होता है, इसके साथ जुर्माना और अनिवार्य शिक्षा कार्यक्रम जैसी अन्य सज़ाएँ भी हो सकती हैं।",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "hi",
+  "category": "signs-regulatory",
+  "question": "आप सड़क के प्रवेश पर यह संकेत देखते हैं। आपको क्या करना चाहिए?",
+  "choices": [
+    "धीरे आगे बढ़ें और दाईं ओर रहें",
+    "केवल तभी प्रवेश करें जब यातायात कम हो",
+    "प्रवेश न करें — यह सड़क विपरीत दिशा के यातायात के लिए है",
+    "रुकें और फिर रास्ता साफ होने पर आगे बढ़ें"
+  ],
+  "correctIndex": 2,
+  "explanation": "लाल वृत्त में सफेद क्षैतिज पट्टी का अर्थ है प्रवेश निषिद्ध — आप विपरीत दिशा के यातायात की ओर मुख कर रहे हैं (जैसे एक-तरफ़ा सड़क के गलत सिरे पर)।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
