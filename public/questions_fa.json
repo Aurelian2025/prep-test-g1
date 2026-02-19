@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "signs-regulatory",
+  "question": "این علامت چه معنی دارد؟",
+  "choices": [
+    "پیچ به چپ فقط در شب مجاز است",
+    "پیچ به چپ در هیچ زمانی مجاز نیست",
+    "خط گردش به چپ در جلو شروع می‌شود",
+    "دور زدن با احتیاط مجاز است"
+  ],
+  "correctIndex": 1,
+  "explanation": "دایره قرمز با خط مورب همیشه نشان‌دهنده ممنوعیت است. فلش به سمت چپ با خط مورب یعنی پیچ به چپ ممنوع است.",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "rules-of-the-road",
+  "question": "در تابلوی ایست، اگر خط ایست روی زمین کشیده شده باشد، کجا باید توقف کنید؟",
+  "choices": [
+    "در هر جایی قبل از تقاطع",
+    "کنار پایه تابلوی ایست",
+    "روی خط ایست کشیده شده",
+    "نیمه وارد تقاطع برای دید بهتر"
+  ],
+  "correctIndex": 2,
+  "explanation": "باید به طور کامل روی خط ایست کشیده شده توقف کنید. اگر خط ایست وجود نداشته باشد، در گذرگاه عابر پیاده توقف کنید؛ اگر آن هم نباشد، در لبه پیاده‌رو؛ و اگر آن هم نباشد، در لبه تقاطع توقف کنید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "signs-regulatory",
+  "question": "این علامت در جلو ظاهر می‌شود. شما را از چه چیزی آگاه می‌کند؟",
+  "choices": [
+    "دوچرخه‌ها در این جاده ممنوع هستند",
+    "منتظر دوچرخه‌سواران باشید؛ ممکن است دوچرخه‌ها از جاده عبور کنند یا آن را با خودروها به اشتراک بگذارند",
+    "مسیر مشترک آغاز می‌شود؛ وسایل نقلیه موتوری باید توقف کنند",
+    "خط دوچرخه پایان می‌یابد؛ فوراً به راست تغییر مسیر دهید"
+  ],
+  "correctIndex": 1,
+  "explanation": "نماد دوچرخه در یک لوزی زرد یک علامت هشدار است که نشان می‌دهد مراقب دوچرخه‌سواران باشید و در صورت لزوم سرعت را کم کرده یا حق تقدم بدهید.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "alcohol-and-driving",
+  "question": "پس از اولین محکومیت به رانندگی در حالت مستی، گواهینامه رانندگی برای چه مدت تعلیق می‌شود؟",
+  "choices": [
+    "۱ ماه",
+    "۳ ماه",
+    "۶ ماه",
+    "۱ سال"
+  ],
+  "correctIndex": 3,
+  "explanation": "اولین محکومیت به رانندگی در حالت مستی منجر به تعلیق یک‌ساله گواهینامه رانندگی می‌شود، علاوه بر جریمه‌ها و برنامه‌های آموزشی اجباری دیگر.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "fa",
+  "category": "signs-regulatory",
+  "question": "این علامت را در ورودی یک جاده می‌بینید. چه باید بکنید؟",
+  "choices": [
+    "آهسته حرکت کنید و در سمت راست بمانید",
+    "فقط اگر ترافیک کم است وارد شوید",
+    "وارد نشوید — این جاده برای ترافیک در جهت مخالف است",
+    "توقف کنید و اگر مسیر خالی بود حرکت کنید"
+  ],
+  "correctIndex": 2,
+  "explanation": "دایره قرمز با نوار سفید افقی به معنی ورود ممنوع است — شما رو به ترافیک در جهت مخالف هستید (مانند انتهای اشتباه یک خیابان یک‌طرفه).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
