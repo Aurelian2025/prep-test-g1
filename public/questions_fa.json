@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یک تابلوی زرد لوزی‌شکل که باریک شدن را نشان می‌دهد یعنی:",
+    "choices": [
+      "پل عریض در پیش است",
+      "جاده باریک می‌شود یا پل باریک در پیش است؛ آماده کاهش سرعت و احتیاط باشید",
+      "جاده در پیش رو عریض می‌شود",
+      "بزرگراهِ جداشده آغاز می‌شود"
+    ],
+    "correctIndex": 1,
+    "explanation": "تابلوی هشدار باریک شدن جاده یا پل باریک یعنی خطوط ممکن است باریک‌تر شوند؛ سرعت را کم کنید و با احتیاط عبور کنید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یک تابلوی زرد لوزی‌شکل که یک خط را نشان می‌دهد که دور یک شکل مرکزی جدا می‌شود یعنی:",
+    "choices": [
+      "ترافیک دوطرفه در پیش است",
+      "بزرگراهِ جداشده آغاز می‌شود؛ در سمت راستِ میانه بمانید",
+      "بزرگراهِ جداشده پایان می‌یابد",
+      "سبقت در هر دو جهت مجاز است"
+    ],
+    "correctIndex": 1,
+    "explanation": "این تابلو هشدار می‌دهد که بزرگراهِ جداشده آغاز می‌شود و باید در سمت راستِ میانه یا مانع بمانید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این تابلوی محدودیت سرعت چه معنایی دارد؟",
+    "choices": [
+      "حداکثر سرعت مجاز ۴۰ کیلومتر در ساعت است",
+      "باید همیشه دقیقاً با سرعت ۴۰ کیلومتر در ساعت رانندگی کنید",
+      "حداقل سرعت ۴۰ کیلومتر در ساعت است",
+      "محدودیت سرعت در ۴۰ متر به ۴۰ کیلومتر در ساعت تغییر می‌کند"
+    ],
+    "correctIndex": 0,
+    "explanation": "تابلوی مستطیل سفید با اعداد سیاه، حداکثر سرعت قانونی را بر حسب کیلومتر در ساعت در شرایط ایده‌آل رانندگی نشان می‌دهد.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این تابلو را در ورودی یک جاده می‌بینید. به چه معناست؟",
+    "choices": [
+      "دوچرخه‌ها در این جاده مجاز نیستند",
+      "دوچرخه‌سواران باید در پیاده‌رو حرکت کنند",
+      "اینجا مسیر دوچرخه آغاز می‌شود",
+      "دوچرخه‌ها حق تقدم دارند"
+    ],
+    "correctIndex": 0,
+    "explanation": "نماد دوچرخه داخل دایره قرمز با خط مورب یعنی دوچرخه‌ها در آن جاده یا منطقه ممنوع هستند.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این تابلو به رانندگان دربارهٔ پارک کردن چه می‌گوید؟",
+    "choices": [
+      "پارک کردن در محلِ اعمال این تابلو مجاز نیست",
+      "پارک کردن فقط برای ۱۰ دقیقه مجاز است",
+      "پارک کردن فقط در شب مجاز است",
+      "ایستادن در هیچ زمانی مجاز نیست"
+    ],
+    "correctIndex": 0,
+    "explanation": "دایره قرمز با خط مورب روی حرف P یک تابلوی مقرراتی است که به معنی ممنوعیت پارک در آن محدوده یا بین فلش‌های نشان‌داده‌شده است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
