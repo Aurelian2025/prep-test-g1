@@ -665,3 +665,113 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "عند ممر عبور المشاة (PXO) مع أضواء وامضة، متى يمكنك المتابعة؟",
+    "choices": [
+      "بمجرد أن يصعد المشاة إلى الرصيف على جانبك من الطريق",
+      "بعد إبطاء السرعة وإطلاق البوق",
+      "فقط بعد أن يعبر المشاة تمامًا ويغادروا الطريق بالكامل ويكون ذلك آمنًا",
+      "في أي وقت إذا كنت تنعطف يمينًا"
+    ],
+    "correctIndex": 2,
+    "explanation": "يجب عليك التوقف للمشاة عند ممرات PXO والبقاء متوقفًا حتى يعبروا تمامًا ويغادروا الطريق بالكامل. تابع فقط عندما يكون ذلك آمنًا.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ترى هذه الإشارة الدائرية الزرقاء ذات الأسهم البيضاء قبل دوّار. ماذا يجب أن تفعل؟",
+    "choices": [
+      "ادخل بسرعة وأشر يسارًا",
+      "ابقَ إلى اليمين، وسِر بعكس اتجاه عقارب الساعة، وأعطِ حق المرور للمركبات الموجودة في الدوّار وللمشاة",
+      "توقف وانتظر إشارة خضراء",
+      "الالتفاف للخلف إجباري عند المخرج التالي"
+    ],
+    "correctIndex": 1,
+    "explanation": "اقترب ببطء، وابقَ إلى يمين الجزيرة الوسطى، وأعطِ حق المرور للمشاة وللمركبات الموجودة بالفعل في الدوّار، وادخل عندما تكون هناك فجوة آمنة.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "على طريق مقسوم بجزيرة وسطية، تتوقف حافلة مدرسية في الجهة المقابلة مع أضواء حمراء وامضة. ماذا يجب أن تفعل؟",
+    "choices": [
+      "توقف فورًا",
+      "تابع بحذر؛ فقط المركبات خلف الحافلة يجب أن تتوقف",
+      "أطلق البوق وتجاوز",
+      "توقف لمدة 3 ثوانٍ ثم تابع"
+    ],
+    "correctIndex": 1,
+    "explanation": "على الطرق ذات الجزيرة الوسطية، فقط المركبات خلف الحافلة يجب أن تتوقف عند وميض أضوائها الحمراء. يمكن لحركة المرور المقابلة المتابعة بحذر.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "متى يجب ارتداء أحزمة الأمان في أونتاريو؟",
+    "choices": [
+      "فقط على الطرق السريعة",
+      "كلما كانت المركبة في حالة حركة",
+      "فقط عند القيادة بسرعة تزيد عن 50 كم/س",
+      "فقط عند وجود ركاب"
+    ],
+    "correctIndex": 1,
+    "explanation": "يجب على السائقين والركاب ارتداء حزام الأمان كلما كانت المركبة في حالة حركة. السائق مسؤول عن الركاب الذين تقل أعمارهم عن 16 عامًا.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "القيادة المتهورة تؤدي إلى كم عدد نقاط المخالفة؟",
+  "choices": [
+    "2 نقطة مخالفة",
+    "3 نقاط مخالفة",
+    "6 نقاط مخالفة",
+    "7 نقاط مخالفة"
+  ],
+  "correctIndex": 2,
+  "explanation": "القيادة المتهورة تؤدي إلى 6 نقاط مخالفة.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
