@@ -1754,3 +1754,71 @@
   "explanation": "Se advierte a los conductores que la carretera se doblará dos veces y deben ajustar la velocidad en consecuencia.",
   "image": "/signs/q-right-left-curve-ahead.png"
 },
+{
+  "id": "q-stop-ahead-96",
+  "question": "¿Qué debe esperar un conductor después de ver esta señal?",
+  "choices": [
+    "Una señal de alto más adelante",
+    "Una señal de ceda el paso más adelante",
+    "Solo un cruce peatonal",
+    "Una luz verde"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal de advertencia anticipada da a los conductores tiempo para prepararse para detenerse.",
+  "image": "/signs/stop-ahead.jpg"
+},
+
+{
+  "id": "q-permitted-action-97",
+  "question": "¿Cuál es el significado general de una señal de tránsito con un círculo verde?",
+  "choices": [
+    "Se permite un movimiento o acción",
+    "Existe peligro más adelante",
+    "El tráfico debe detenerse",
+    "La carretera está cerrada"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales con círculo verde indican acciones que los conductores tienen permitido realizar.",
+  "image": "/signs/q-permitted-action.png"
+},
+
+{
+  "id": "q-red-light-camera-98",
+  "question": "¿Por qué se coloca esta señal en una intersección?",
+  "choices": [
+    "Para advertir que una cámara controla las infracciones de luz roja",
+    "Para mostrar que la señal es controlada por peatones",
+    "Para indicar solo luces intermitentes",
+    "Para marcar un cruce escolar"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal informa a los conductores que pasarse una luz roja puede resultar en una infracción registrada.",
+  "image": "/signs/q-red-light-camera.png"
+},
+
+{
+  "id": "q-truck-entrance-99",
+  "question": "¿Qué peligro potencial destaca esta señal?",
+  "choices": [
+    "Camiones grandes pueden incorporarse a la vía",
+    "Comienza estacionamiento solo para camiones",
+    "Estación de pesaje más adelante",
+    "Los camiones están prohibidos"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben estar atentos a camiones lentos o que giran cerca de las entradas.",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-100",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Solo el carril derecho puede continuar recto",
+    "Se prohíben los giros a la derecha desde el carril derecho",
+    "Los vehículos en el carril derecho deben tomar la salida",
+    "El carril derecho está reservado para vehículos lentos"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal guía verde informa a los conductores que el tráfico en el carril derecho debe tomar la salida. Los conductores que no deseen salir deben cambiarse a otro carril con anticipación.",
+  "image": "/signs/right-lane-must-exit.png"
+},
