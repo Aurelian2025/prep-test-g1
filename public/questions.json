@@ -1263,9 +1263,6 @@
 
 {
   "id": "q-keep-right-except-to-pass-58",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What driving behaviour does this sign require?",
   "choices": [
     "Remain in the right lane unless overtaking another vehicle",
@@ -1275,12 +1272,6 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers should normally stay right and only move left briefly to pass slower traffic.",
-  "sources": [
-    {
-      "title": "Lane Discipline Rules",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-keep-right-except-to-pass.png"
 },
 
