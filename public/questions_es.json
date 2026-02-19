@@ -1112,3 +1112,117 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿De qué peligro deben estar atentos los conductores?",
+  "choices": [
+    "Caída de rocas cerca de la carretera",
+    "Grava suelta en el pavimento",
+    "Operaciones de voladura",
+    "Pavimento irregular"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal advierte de posibles deslizamientos de rocas o caída de escombros desde las laderas cercanas.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué cambio en el flujo de tráfico advierte esta señal?",
+  "choices": [
+    "Los vehículos circularán en ambos sentidos",
+    "Comienza una calle de un solo sentido",
+    "Comienza una autopista dividida",
+    "Aumentan los carriles de adelantamiento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las flechas opuestas alertan a los conductores de que habrá tráfico en sentido contrario más adelante.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué acción comunica el conductor con esta señal manual?",
+  "choices": [
+    "Reducir la velocidad o detenerse",
+    "Girar a la izquierda",
+    "Girar a la derecha",
+    "Cambiar de carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un brazo apuntando hacia abajo indica que el conductor tiene la intención de reducir la velocidad o detenerse.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Quién puede usar el carril indicado por esta señal?",
+  "choices": [
+    "Solo bicicletas",
+    "Todos los vehículos motorizados",
+    "Autobuses y taxis",
+    "Solo vehículos de emergencia"
+  ],
+  "correctIndex": 0,
+  "explanation": "El símbolo y la flecha indican que el carril más adelante está designado exclusivamente para bicicletas.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué regla de estacionamiento se aplica en esta área?",
+  "choices": [
+    "Se permite estacionar pero limitado a 30 minutos",
+    "El estacionamiento está prohibido en todo momento",
+    "Solo los vehículos de emergencia pueden estacionar",
+    "El estacionamiento no tiene restricciones"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal permite estacionar pero limita el tiempo que un vehículo puede permanecer durante las horas indicadas.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
