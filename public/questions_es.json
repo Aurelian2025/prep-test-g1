@@ -1685,4 +1685,72 @@
   "explanation": "Esta señal prepara a los conductores para una intersección próxima controlada por semáforos.",
    "image": "/signs/q-traffic-lights-ahead.png"
 },
+{
+  "id": "q-traffic-lights-ahead-91",
+  "question": "¿Cuál es el propósito de esta señal de advertencia?",
+  "choices": [
+    "Alertar a los conductores de semáforos más adelante",
+    "Indicar un cruce solo para peatones",
+    "Advertir de un cruce ferroviario",
+    "Mostrar un cierre de carretera más adelante"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal prepara a los conductores para una intersección próxima controlada por semáforos.",
+  "image": "/signs/q-traffic-lights-ahead.png"
+},
 
+{
+  "id": "q-school-zone-92",
+  "question": "¿Para qué deben estar preparados los conductores al ver esta señal?",
+  "choices": [
+    "Puede haber niños cerca de la calzada",
+    "Hay una estación de inspección de camiones más adelante",
+    "Un parque infantil está cerrado",
+    "Los ciclistas deben bajarse de la bicicleta"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal alerta a los conductores para que reduzcan la velocidad y conduzcan con precaución debido a la presencia de niños en una zona escolar.",
+  "image": "/signs/q-school-zone.png"
+},
+
+{
+  "id": "q-hidden-intersection-93",
+  "question": "¿Por qué se requiere precaución adicional en este lugar?",
+  "choices": [
+    "Una carretera secundaria puede ser difícil de ver",
+    "Los semáforos están averiados",
+    "La carretera se vuelve dividida",
+    "Hay una caseta de peaje más adelante"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal advierte que una intersección próxima puede no ser claramente visible para los conductores.",
+  "image": "/signs/q-hidden-intersection.png"
+},
+
+{
+  "id": "q-no-passing-94",
+  "question": "¿Qué acción de conducción está restringida por esta señal?",
+  "choices": [
+    "Adelantar a otros vehículos",
+    "Conducir por debajo del límite de velocidad",
+    "Usar las luces delanteras",
+    "Girar a la izquierda"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal reglamentaria indica claramente que no está permitido adelantar a otros vehículos en esta zona.",
+  "image": "/signs/q-no-passing.png"
+},
+
+{
+  "id": "q-right-left-curve-ahead-95",
+  "question": "¿Qué condición de la carretera describe esta señal?",
+  "choices": [
+    "Una serie de curvas comenzando a la derecha y luego a la izquierda",
+    "Solo una curva cerrada a la derecha",
+    "Una rotonda más adelante",
+    "Comienza un carril de incorporación"
+  ],
+  "correctIndex": 0,
+  "explanation": "Se advierte a los conductores que la carretera se doblará dos veces y deben ajustar la velocidad en consecuencia.",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
