@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ایک پیلا ہیرے کی شکل کا نشان جو سڑک کے تنگ ہونے کی شکل دکھاتا ہے، اس کا کیا مطلب ہے؟",
+    "choices": [
+      "آگے چوڑا پل ہے",
+      "سڑک تنگ ہو رہی ہے یا آگے تنگ پل ہے؛ رفتار کم کرنے اور احتیاط کرنے کے لیے تیار رہیں",
+      "آگے سڑک چوڑی ہو جائے گی",
+      "تقسیم شدہ ہائی وے شروع ہوتا ہے"
+    ],
+    "correctIndex": 1,
+    "explanation": "سڑک کے تنگ ہونے یا تنگ پل کے انتباہی نشان کا مطلب ہے کہ لین تنگ ہو سکتی ہیں؛ رفتار کم کریں اور احتیاط سے گزریں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ایک پیلا ہیرے کی شکل کا نشان جس میں ایک لائن درمیان میں تقسیم ہوتی دکھائی دے، اس کا کیا مطلب ہے؟",
+    "choices": [
+      "آگے دو طرفہ ٹریفک",
+      "تقسیم شدہ ہائی وے شروع ہوتا ہے؛ میڈین کے دائیں طرف رہیں",
+      "تقسیم شدہ ہائی وے ختم ہوتا ہے",
+      "دونوں سمتوں میں اوورٹیک کی اجازت ہے"
+    ],
+    "correctIndex": 1,
+    "explanation": "یہ نشان خبردار کرتا ہے کہ تقسیم شدہ ہائی وے شروع ہوتا ہے اور آپ کو میڈین یا رکاوٹ کے دائیں طرف رہنا چاہیے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ رفتار کی حد کا نشان کیا ظاہر کرتا ہے؟",
+    "choices": [
+      "زیادہ سے زیادہ اجازت یافتہ رفتار 40 کلومیٹر فی گھنٹہ ہے",
+      "آپ کو ہر وقت بالکل 40 کلومیٹر فی گھنٹہ کی رفتار سے چلانا ہوگا",
+      "کم از کم رفتار 40 کلومیٹر فی گھنٹہ ہے",
+      "40 میٹر بعد رفتار کی حد 40 کلومیٹر فی گھنٹہ ہو جائے گی"
+    ],
+    "correctIndex": 0,
+    "explanation": "کالے نمبروں کے ساتھ سفید مستطیل نشان مثالی ڈرائیونگ حالات میں کلومیٹر فی گھنٹہ میں زیادہ سے زیادہ قانونی رفتار دکھاتا ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "آپ سڑک کے داخلے پر یہ نشان دیکھتے ہیں۔ اس کا کیا مطلب ہے؟",
+    "choices": [
+      "اس سڑک پر سائیکلوں کی اجازت نہیں ہے",
+      "سائیکل سواروں کو فٹ پاتھ پر چلنا چاہیے",
+      "یہاں سائیکل لین شروع ہوتی ہے",
+      "سائیکلوں کو راستے کا حق حاصل ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "سرخ دائرے میں ترچھی لکیر کے ساتھ سائیکل کی علامت کا مطلب ہے کہ اس سڑک یا علاقے میں سائیکلیں ممنوع ہیں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "یہ نشان ڈرائیوروں کو پارکنگ کے بارے میں کیا بتاتا ہے؟",
+    "choices": [
+      "جہاں یہ نشان لاگو ہوتا ہے وہاں پارکنگ کی اجازت نہیں ہے",
+      "پارکنگ صرف 10 منٹ کے لیے اجازت ہے",
+      "پارکنگ صرف رات کے وقت اجازت ہے",
+      "کسی بھی وقت رکنا منع ہے"
+    ],
+    "correctIndex": 0,
+    "explanation": "حرف P پر سرخ دائرہ اور ترچھی لکیر ایک ریگولیٹری نشان ہے جس کا مطلب ہے کہ اس علاقے میں یا دکھائے گئے تیروں کے درمیان پارکنگ ممنوع ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
