@@ -324,3 +324,117 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ماذا يجب على السائقين فعله عند الاقتراب من هذه العلامة؟",
+  "choices": [
+    "الابتعاد عن العائق",
+    "الاستعداد للتوقف فورًا",
+    "الانعطاف يسارًا فقط",
+    "تخفيف السرعة لمنحنى"
+  ],
+  "correctIndex": 0,
+  "explanation": "تشير العلامات القطرية إلى وجود خطر ثابت بالقرب من حافة الطريق.",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما المركبات المسموح لها بالسير في هذا المسار؟",
+  "choices": [
+    "الحافلات والمركبات التي تحمل شخصين أو أكثر",
+    "جميع مركبات الركاب",
+    "الدراجات النارية فقط",
+    "الشاحنات التجارية"
+  ],
+  "correctIndex": 0,
+  "explanation": "يشير رمز الماسة إلى مسار HOV مخصص للمركبات ذات الركاب المتعددين والحافلات.",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "متى يجب على السائقين الالتزام بحد السرعة 40 كم/س المعلن؟",
+  "choices": [
+    "عندما تومض الأضواء الصفراء",
+    "في جميع أوقات اليوم",
+    "فقط خلال أشهر الشتاء",
+    "فقط لحافلات المدارس"
+  ],
+  "correctIndex": 0,
+  "explanation": "تعمل الأضواء الوامضة على تفعيل حد السرعة المخفّض لتحسين السلامة قرب المدارس.",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما القاعدة التي تنطبق من هذه النقطة فصاعدًا؟",
+  "choices": [
+    "يجب على السائقين عدم التجاوز حتى بعد عبور الممر",
+    "يُسمح بالتجاوز للحافلات فقط",
+    "يجب على المركبات التوقف فورًا",
+    "يمكن لراكبي الدراجات تجاوز حركة المرور"
+  ],
+  "correctIndex": 0,
+  "explanation": "تفرض هذه العلامة منطقة منع التجاوز عند الاقتراب من ممر مُعلّم.",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما القيد الذي توضحه هذه العلامة؟",
+  "choices": [
+    "لا يمكن للمركبات التي يزيد ارتفاعها عن 3.9 أمتار المتابعة",
+    "يضيق الطريق إلى 3.9 أمتار",
+    "يُسمح فقط بالحمولات العريضة",
+    "الجسر يدعم المركبات الثقيلة فقط"
+  ],
+  "correctIndex": 0,
+  "explanation": "يجب على سائقي المركبات العالية عدم الدخول إذا تجاوز ارتفاع مركباتهم الخلوص المعلن.",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
