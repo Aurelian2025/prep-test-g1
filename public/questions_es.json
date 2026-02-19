@@ -1555,3 +1555,70 @@
   "explanation": "La imagen de piedras cayendo de un acantilado advierte a los conductores sobre posibles peligros de caída de rocas.",
   "image": "/signs/q-falling-rocks.png"
 },
+{
+  "id": "q-hidden-intersection-81",
+  "question": "¿Qué indica esta señal de advertencia?",
+  "choices": [
+    "Se aproxima a una intersección oculta donde los vehículos pueden entrar inesperadamente",
+    "Hay un área de descanso justo adelante",
+    "Solo se permiten giros a la derecha",
+    "La carretera se convierte en una vía de un solo sentido"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal advierte a los conductores que una vía lateral o intersección no es fácilmente visible, por lo que se requiere precaución adicional.",
+  "image": "/signs/q-hidden-intersection.png"
+},
+  {
+  "id": "q-novice-driver-n-82",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "El vehículo está siendo conducido por un conductor novel",
+    "El vehículo solo puede circular a baja velocidad",
+    "El vehículo pertenece a una escuela de conducción",
+    "Solo los vehículos nuevos pueden entrar en esta zona"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una gran 'N' indica que un conductor nuevo o inexperto está al volante y pide a los demás que dejen más espacio.",
+  "image": "/signs/q-novice-driver.png"
+},
+  {
+  "id": "q-no-stopping-between-arrows-83",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Se permite detenerse solo para recoger pasajeros",
+    "No se permite detenerse entre las flechas",
+    "Se permite estacionar pero no detenerse",
+    "Se permite detenerse solo por la noche"
+  ],
+  "correctIndex": 1,
+  "explanation": "El círculo rojo con una barra sobre el símbolo de detenerse significa que está prohibido detenerse en cualquier lugar entre las flechas direccionales.",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
+  {
+    "id": "q-ped-crossing-84",
+    "question": "Ves esta señal mientras conduces por una calle de la ciudad. ¿Qué significa?",
+    "choices": [
+      "Cruce de peatones más adelante",
+      "No se permiten peatones más allá de este punto",
+      "Solo zona escolar",
+      "Los peatones deben ceder el paso a los vehículos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una señal amarilla en forma de rombo con una persona caminando indica un área de cruce de peatones. Prepárate para reducir la velocidad o detenerte por las personas que cruzan la carretera.",
+    "image": "/signs/pedestrian-crossing.jpg"
+  },
+  {
+  "id": "q-no-stopping-between-arrows-85",
+  "question": "¿Cómo deben responder los conductores a esta señal?",
+  "choices": [
+    "Los vehículos pueden detenerse brevemente para pasajeros",
+    "Los conductores no deben detenerse en ningún lugar entre las flechas mostradas",
+    "Se permite estacionar durante las horas de menor tráfico",
+    "Se permite detenerse solo para entregas"
+  ],
+  "correctIndex": 1,
+  "explanation": "El símbolo indica que está completamente prohibido detenerse a lo largo del tramo de carretera marcado por las flechas.",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
+
+  
