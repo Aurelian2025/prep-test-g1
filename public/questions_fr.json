@@ -1295,5 +1295,70 @@
   "explanation": "La barre rouge sur la flèche de virage à droite signifie que les conducteurs doivent attendre un feu vert avant de tourner à droite.",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+    "id": "q-railway-stop-61",
+    "question": "Vous approchez d’un passage à niveau avec des feux rouges clignotants et des barrières qui s’abaissent. Que devez-vous faire ?",
+    "choices": [
+      "Contourner les barrières si vous ne voyez pas de train",
+      "Vous arrêter à au moins 5 mètres du passage et rester arrêté jusqu’à ce que les feux cessent de clignoter et que les barrières soient complètement relevées",
+      "Ralentir mais avancer prudemment",
+      "Vous arrêter, puis avancer lorsque vous pensez que c’est sécuritaire, même si les feux clignotent encore"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vous devez vous arrêter à au moins 5 mètres des rails et rester arrêté jusqu’à ce que les feux cessent de clignoter et que les barrières soient complètement relevées.",
+    "image": "/signs/q-railway-stop-47.png"
+  },
+  {
+    "id": "q-school-zone-speed-62",
+    "question": "Dans une zone scolaire où une limite de vitesse réduite est affichée avec des heures de la journée, quand cette limite s’applique-t-elle ?",
+    "choices": [
+      "Seulement lorsque des enfants sont visibles",
+      "Seulement si la circulation est dense",
+      "Pendant les heures indiquées sur le panneau (par exemple, les heures scolaires les jours d’école)",
+      "Seulement en été"
+    ],
+    "correctIndex": 2,
+    "explanation": "Respectez la limite de vitesse réduite pendant les heures indiquées sur le panneau, souvent les jours d’école lors des heures d’arrivée et de départ.",
+    "image": "/signs/q-school-zone-speed-48.png"
+  },
+  {
+    "id": "q-work-zone-fines-63",
+    "question": "Dans une zone de construction, les amendes pour excès de vitesse sont :",
+    "choices": [
+      "Réduites parce que la circulation est plus lente",
+      "Les mêmes que sur toute autre route",
+      "Doublées par rapport à la même infraction en dehors d’une zone de travaux",
+      "Appliquées seulement si des travailleurs sont présents"
+    ],
+    "correctIndex": 2,
+    "explanation": "Les amendes pour excès de vitesse sont plus élevées — souvent doublées — dans les zones de construction désignées, même si les travailleurs ne sont pas toujours visibles.",
+    "image": "/signs/q-work-zone-fines-49.png"
+  },
+  {
+  "id": "q-impaired-driving-bac-64",
+  "question": "Un conducteur peut être reconnu coupable de conduite avec facultés affaiblies lorsque son taux d’alcoolémie atteint quel niveau ?",
+  "choices": [
+    "0.03%",
+    "0.05%",
+    "0.08%",
+    "1.0%"
+  ],
+  "correctIndex": 2,
+  "explanation": "En Ontario et partout au Canada, un taux d’alcoolémie de 0,08 % ou plus est le seuil légal pour une condamnation criminelle pour conduite avec facultés affaiblies.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+  {
+  "id": "q-demerit-speeding-40-under-80-65",
+  "question": "Un excès de vitesse de 40 km/h ou plus au-dessus de la limite dans une zone de moins de 80 km/h entraîne combien de points d’inaptitude ?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Un excès de vitesse de 40 km/h ou plus au-dessus de la limite dans une zone de moins de 80 km/h entraîne 6 points d’inaptitude.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
 
 
