@@ -999,4 +999,118 @@
     "image": "/signs/no-parking.jpg",
     "notes": "Original no-parking question; not copied from other practice tests."
   },
+{
+    "id": "q-no-pedestrians-46",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این علامت در ورودی یک جاده نصب شده است. چه معنایی دارد؟",
+    "choices": [
+      "عبور عابران پیاده ممنوع است",
+      "عابران پیاده باید فقط در این محل عبور کنند",
+      "گذرگاه عابر پیاده در پیش است",
+      "عابران پیاده حق تقدم دارند"
+    ],
+    "correctIndex": 0,
+    "explanation": "نماد عابر پیاده درون یک دایره قرمز با خط مورب نشان می‌دهد که عبور عابران پیاده در آن منطقه ممنوع است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-pedestrians.jpg",
+    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+  },
+  {
+    "id": "q-no-snowmobiles-47",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "شما این علامت را در ورودی یک مسیر زمستانی می‌بینید. چه معنایی دارد؟",
+    "choices": [
+      "اسنوموبیل‌ها پس از این علامت مجاز نیستند",
+      "اسنوموبیل‌ها باید سرعت خود را کاهش دهند",
+      "مسیر اسنوموبیل آغاز می‌شود",
+      "اسنوموبیل‌ها نسبت به سایر وسایل نقلیه حق تقدم دارند"
+    ],
+    "correctIndex": 0,
+    "explanation": "نماد اسنوموبیل درون یک دایره قرمز با خط مورب نشان می‌دهد که اسنوموبیل‌ها پس از آن علامت ممنوع هستند.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-snowmobiles.jpg",
+    "notes": "Original no-snowmobiles question for your sign set."
+  },
+  {
+    "id": "q-no-right-turn-48",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "شما این علامت را در یک تقاطع می‌بینید. چه معنایی دارد؟",
+    "choices": [
+      "پیچیدن به راست در این تقاطع ممنوع است",
+      "پیچیدن به راست فقط در چراغ سبز مجاز است",
+      "باید در تقاطع به راست بپیچید",
+      "خط سمت راست در جلو پایان می‌یابد"
+    ],
+    "correctIndex": 0,
+    "explanation": "پیکان سیاه پیچ به راست درون یک دایره قرمز با خط مورب یک علامت مقرراتی است که نشان می‌دهد پیچیدن به راست در محل اعمال این علامت ممنوع است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-right-turn.jpg",
+    "notes": "Original no-right-turn question written for Prep Test G1."
+  },
+  {
+    "id": "q-no-u-turn-49",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "این علامت به رانندگان درباره دور زدن چه می‌گوید؟",
+    "choices": [
+      "دور زدن ممنوع است",
+      "دور زدن فقط در شب مجاز است",
+      "اگر ترافیک نباشد دور زدن مجاز است",
+      "در تقاطع بعدی دور زدن الزامی است"
+    ],
+    "correctIndex": 0,
+    "explanation": "پیکان خمیده به شکل U درون یک دایره قرمز با خط مورب یک علامت مقرراتی است که نشان می‌دهد دور زدن در محل اعمال این علامت ممنوع است.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-u-turn.jpg",
+    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+  },
+  {
+    "id": "q-water-over-road-50",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "چه وضعیت رانندگی ممکن است در جلو وجود داشته باشد؟",
+    "choices": [
+      "ممکن است آب روی جاده جریان داشته باشد",
+      "یک پل فرو ریخته است",
+      "عبور با کشتی لازم است",
+      "جاده به طور دائم زیر آب است"
+    ],
+    "correctIndex": 0,
+    "explanation": "این علامت به رانندگان هشدار می‌دهد که تجمع آب ممکن است بر کشش و دید تأثیر بگذارد.",
+    "sources": [
+      {
+        "title": "Water Hazard Warnings",
+        "url": "https://www.ontario.ca"
+      }
+    ],
+    "image": "/signs/q-water-over-road.png"
+  },
 
