@@ -775,4 +775,113 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "تابلویی هشدار می‌دهد «پل زودتر از جاده یخ می‌زند». چه باید بکنید؟",
+    "choices": [
+      "برای عبور سریع‌تر سرعت بگیرید",
+      "پیش از پل به‌شدت ترمز کنید",
+      "سرعت را کم کنید و روی پل از حرکات ناگهانی خودداری کنید",
+      "در وسط جاده رانندگی کنید"
+    ],
+    "correctIndex": 2,
+    "explanation": "پل‌ها زودتر یخ می‌زنند. سرعت را کاهش دهید و از ترمز شدید یا چرخاندن ناگهانی فرمان روی پل خودداری کنید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "لاستیک‌های شما در جاده خیس دچار هیدروپلنینگ می‌شوند. چه باید بکنید؟",
+    "choices": [
+      "به‌شدت ترمز کنید و ناگهانی فرمان بدهید",
+      "پای خود را از پدال گاز بردارید و تا بازگشت چسبندگی فرمان را صاف نگه دارید",
+      "برای بازیابی چسبندگی سرعت بگیرید",
+      "فرمان را به جلو و عقب بچرخانید تا آب را کنار بزنید"
+    ],
+    "correctIndex": 1,
+    "explanation": "پای خود را از پدال گاز بردارید و تا بازگشت چسبندگی چرخ‌ها را صاف نگه دارید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "پیش از پیچیدن یا تغییر خط، چه مقدار جلوتر باید راهنما بزنید؟",
+    "choices": [
+      "حداقل 30 متر (100 فوت)",
+      "در لحظه چرخاندن فرمان",
+      "در فاصله پنج طول خودرو",
+      "فقط وقتی کسی پشت سر شماست"
+    ],
+    "correctIndex": 0,
+    "explanation": "به‌موقع راهنما بزنید — حداقل 30 متر (100 فوت) پیش از پیچیدن یا تغییر خط.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "چه زمانی باید از بوق استفاده کنید؟",
+    "choices": [
+      "برای سلام کردن به دوست",
+      "برای هشدار دادن به دیگران درباره خطر احتمالی",
+      "وقتی چراغ سبز می‌شود",
+      "وقتی از رانندگان دیگر عصبانی هستید"
+    ],
+    "correctIndex": 1,
+    "explanation": "فقط زمانی از بوق استفاده کنید که برای جلوگیری از تصادف لازم باشد دیگران را هشدار دهید.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "مسابقه رانندگی منجر به چند امتیاز منفی می‌شود؟",
+  "choices": [
+    "3 امتیاز منفی",
+    "4 امتیاز منفی",
+    "6 امتیاز منفی",
+    "7 امتیاز منفی"
+  ],
+  "correctIndex": 2,
+  "explanation": "مسابقه رانندگی منجر به 6 امتیاز منفی می‌شود.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
