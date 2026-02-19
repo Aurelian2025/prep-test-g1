@@ -1113,4 +1113,118 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "К какому опасному фактору должны быть готовы водители?",
+  "choices": [
+    "Падающие камни возле дороги",
+    "Рыхлый гравий на покрытии",
+    "Взрывные работы",
+    "Неровное дорожное покрытие"
+  ],
+  "correctIndex": 0,
+  "explanation": "Этот знак предупреждает о возможных камнепадах или падении обломков со склонов поблизости.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "О каком изменении в движении предупреждает этот знак?",
+  "choices": [
+    "Движение будет в обоих направлениях",
+    "Начинается улица с односторонним движением",
+    "Начинается разделённая автомагистраль",
+    "Увеличивается число полос для обгона"
+  ],
+  "correctIndex": 0,
+  "explanation": "Стрелки, направленные в противоположные стороны, предупреждают водителей о встречном движении впереди.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое действие водитель сообщает этим жестом руки?",
+  "choices": [
+    "Снижение скорости или остановка",
+    "Поворот налево",
+    "Поворот направо",
+    "Смена полосы движения"
+  ],
+  "correctIndex": 0,
+  "explanation": "Опущенная вниз рука указывает на намерение водителя снизить скорость или остановиться.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Кто может пользоваться полосой, обозначенной этим знаком?",
+  "choices": [
+    "Только велосипеды",
+    "Все моторные транспортные средства",
+    "Автобусы и такси",
+    "Только экстренные службы"
+  ],
+  "correctIndex": 0,
+  "explanation": "Символ и стрелка указывают, что полоса впереди предназначена исключительно для велосипедов.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Какое правило парковки действует в этой зоне?",
+  "choices": [
+    "Парковка разрешена, но не более чем на 30 минут",
+    "Парковка запрещена в любое время",
+    "Парковаться могут только экстренные службы",
+    "Парковка без ограничений"
+  ],
+  "correctIndex": 0,
+  "explanation": "Знак разрешает парковку, но ограничивает время, в течение которого транспортное средство может оставаться в указанные часы.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
