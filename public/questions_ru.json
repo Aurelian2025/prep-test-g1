@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "На пешеходном переходе (PXO) с мигающими маячками когда можно продолжить движение?",
+    "choices": [
+      "Как только пешеход ступит на тротуар на вашей стороне дороги",
+      "После снижения скорости и подачи звукового сигнала",
+      "Только после того, как пешеходы полностью перейдут дорогу и полностью покинут проезжую часть, и это будет безопасно",
+      "В любое время, если вы поворачиваете направо"
+    ],
+    "correctIndex": 2,
+    "explanation": "Вы должны остановиться для пешеходов на PXO и оставаться остановленным, пока они полностью не перейдут дорогу и не покинут проезжую часть. Продолжайте движение только когда это безопасно.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Перед кольцевой развязкой вы видите этот синий круглый знак с белыми стрелками. Что вы должны сделать?",
+    "choices": [
+      "Быстро въехать и подать сигнал налево",
+      "Держаться правее, двигаться против часовой стрелки и уступить дорогу транспорту, уже находящемуся на круге, и пешеходам",
+      "Остановиться и ждать зелёного сигнала",
+      "Разворот обязателен на следующем съезде"
+    ],
+    "correctIndex": 1,
+    "explanation": "Подъезжайте медленно, держитесь правее центрального островка, уступайте дорогу пешеходам и транспортным средствам, уже находящимся на круге, и въезжайте, когда есть безопасный промежуток.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "На дороге, разделённой разделительной полосой, школьный автобус на противоположной стороне остановился с мигающими красными огнями. Что вы должны сделать?",
+    "choices": [
+      "Немедленно остановиться",
+      "Продолжать движение с осторожностью; только транспорт позади автобуса должен остановиться",
+      "Посигналить и проехать",
+      "Остановиться на 3 секунды, затем продолжить"
+    ],
+    "correctIndex": 1,
+    "explanation": "На дорогах с разделительной полосой только транспорт позади автобуса должен остановиться при мигающих красных огнях. Встречное движение может продолжать движение с осторожностью.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Когда в Онтарио необходимо пристёгивать ремни безопасности?",
+    "choices": [
+      "Только на автомагистралях",
+      "Каждый раз, когда транспортное средство движется",
+      "Только при скорости выше 50 км/ч",
+      "Только когда есть пассажиры"
+    ],
+    "correctIndex": 1,
+    "explanation": "Водители и пассажиры должны пристёгиваться ремнями безопасности каждый раз, когда транспортное средство движется. Водитель отвечает за пассажиров младше 16 лет.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Неосторожное вождение влечёт за собой сколько штрафных баллов?",
+  "choices": [
+    "2 штрафных балла",
+    "3 штрафных балла",
+    "6 штрафных баллов",
+    "7 штрафных баллов"
+  ],
+  "correctIndex": 2,
+  "explanation": "Неосторожное вождение влечёт за собой 6 штрафных баллов.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
