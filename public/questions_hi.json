@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "यहाँ कौन-सा पर्यावरणीय नियम लागू है?",
+  "choices": [
+    "इंजन 3 मिनट से अधिक समय तक आइडल नहीं रहना चाहिए",
+    "इंजन चालू रहना चाहिए",
+    "आइडलिंग केवल सर्दियों में अनुमति है",
+    "डीज़ल वाहन इससे मुक्त हैं"
+  ],
+  "correctIndex": 0,
+  "explanation": "यह संकेत इंजन के आइडल समय को सीमित करता है ताकि उत्सर्जन और प्रदूषण कम हो सके।",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "यह संकेत किस गंतव्य की ओर इशारा करता है?",
+  "choices": [
+    "हवाई अड्डे का पहुँच मार्ग",
+    "फेरी टर्मिनल",
+    "सैन्य अड्डा",
+    "रेलवे स्टेशन"
+  ],
+  "correctIndex": 0,
+  "explanation": "हवाई जहाज़ का चिह्न चालकों को हवाई अड्डे की सुविधाओं की ओर निर्देशित करता है।",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "यह प्रतीक अन्य चालकों को कौन-सी जानकारी देता है?",
+  "choices": [
+    "चालक नया या अनुभवहीन है",
+    "वाहन धीमी गति से चल रहा है",
+    "कार केवल प्रशिक्षण के लिए उपयोग होती है",
+    "वाहन मरम्मत के अधीन है"
+  ],
+  "correctIndex": 0,
+  "explanation": "‘N’ प्रतीक एक नवोदित चालक की पहचान करता है और दूसरों को धैर्य रखने के लिए प्रेरित करता है।",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "इस हाथ के संकेत से कौन-सा इरादा दिखाया गया है?",
+  "choices": [
+    "बाएँ मुड़ना",
+    "दाएँ मुड़ना",
+    "रुकना",
+    "रास्ता देना"
+  ],
+  "correctIndex": 0,
+  "explanation": "सीधा बाहर की ओर फैला हुआ हाथ चालक के बाएँ मुड़ने के इरादे को दर्शाता है।",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "चालकों को कौन-सी दिशा में चलना अनिवार्य है?",
+  "choices": [
+    "दाएँ मुड़ें",
+    "सीधे आगे बढ़ें",
+    "बाएँ मुड़ें",
+    "यू-टर्न लें"
+  ],
+  "correctIndex": 0,
+  "explanation": "यह संकेत सभी वाहनों को निर्धारित स्थान पर दाएँ मुड़ने के लिए बाध्य करता है।",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
