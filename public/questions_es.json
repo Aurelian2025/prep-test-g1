@@ -1620,5 +1620,70 @@
   "explanation": "El símbolo indica que está completamente prohibido detenerse a lo largo del tramo de carretera marcado por las flechas.",
   "image": "/signs/q-no-stopping-between-arrows.png"
 },
+{
+    "id": "q-bump-warning-86",
+    "question": "Ce panneau jaune apparaît avant une section de route. De quoi vous avertit-il?",
+    "choices": [
+      "D’une bosse ou d’une élévation de la chaussée",
+      "D’un pont sans garde-fou",
+      "De gravier meuble sur l’accotement",
+      "D’un passage à niveau sans barrières"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un panneau en losange jaune avec le mot BUMP ou un symbole de bosse avertit d’une élévation ou d’un creux soudain dans la route afin que vous puissiez ralentir et éviter de perdre le contrôle.",
+    "image": "/signs/bump-sign.jpg"
+  },
+  {
+    "id": "q-construction-ahead-87",
+    "question": "Ce panneau orange apparaît sur le côté de la route. À quoi devez-vous vous attendre?",
+    "choices": [
+      "Des travaux routiers ou une zone de construction plus loin",
+      "Un accotement pavé plus loin",
+      "Une aire de stationnement plus loin",
+      "La fin de toutes les limites de vitesse"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les panneaux de construction orange avertissent que vous entrez ou approchez d’une zone de travaux. Vous devez ralentir, surveiller les travailleurs et l’équipement et respecter les panneaux affichés.",
+    "image": "/signs/construction-ahead.jpg"
+  },
+  {
+    "id": "q-deer-crossing-88",
+    "question": "Vous voyez ce panneau avec un symbole d’animal sur une route rurale. De quoi vous avertit-il?",
+    "choices": [
+      "Des cerfs peuvent traverser la route dans cette zone",
+      "Les animaux de ferme sont clôturés et ne peuvent pas traverser",
+      "Entrée du zoo plus loin",
+      "La chasse est autorisée sur la chaussée"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un symbole de cerf sur un panneau d’avertissement jaune signifie que des cerfs se trouvent souvent dans la région et peuvent traverser soudainement la route. Ralentissez et soyez prêt à vous arrêter.",
+    "image": "/signs/deer-crossing.jpg"
+  },
+ {
+  "id": "q-two-way-left-turn-lane-89",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "La voie peut être utilisée seulement pour effectuer des virages à gauche dans les deux sens",
+    "La voie est destinée à dépasser les véhicules plus lents",
+    "Les virages à gauche sont interdits depuis cette voie",
+    "La voie devient une voie de virage à droite uniquement plus loin"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les flèches courbées opposées indiquent que les véhicules circulant dans les deux sens peuvent entrer dans cette voie exclusivement pour effectuer des virages à gauche.",
+   "image": "/signs/q-two-way-left-turn-lane.png"
+},
+  {
+  "id": "q-traffic-lights-ahead-90",
+  "question": "Quel est l’objectif de ce panneau d’avertissement?",
+  "choices": [
+    "Avertir les conducteurs de feux de circulation plus loin",
+    "Indiquer un passage réservé aux piétons",
+    "Avertir d’un passage à niveau",
+    "Indiquer une fermeture de route plus loin"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau prépare les conducteurs à une intersection à venir contrôlée par des feux de circulation.",
+   "image": "/signs/q-traffic-lights-ahead.png"
+},
 
   
