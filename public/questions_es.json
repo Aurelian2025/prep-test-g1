@@ -664,3 +664,113 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "En un cruce peatonal (PXO) con luces intermitentes, ¿cuándo puede continuar?",
+    "choices": [
+      "Tan pronto como el peatón suba a la acera en su lado de la carretera",
+      "Después de reducir la velocidad y tocar la bocina",
+      "Solo después de que los peatones hayan cruzado completamente y hayan salido totalmente de la calzada, y sea seguro",
+      "En cualquier momento si va a girar a la derecha"
+    ],
+    "correctIndex": 2,
+    "explanation": "Debe detenerse por los peatones en los PXO y permanecer detenido hasta que hayan cruzado completamente y estén totalmente fuera de la calzada. Continúe solo cuando sea seguro.",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Ve esta señal circular azul con flechas blancas antes de una rotonda. ¿Qué debe hacer?",
+    "choices": [
+      "Entrar rápidamente y señalizar a la izquierda",
+      "Mantenerse a la derecha, circular en sentido antihorario y ceder el paso a los vehículos ya en la rotonda y a los peatones",
+      "Detenerse y esperar una luz verde",
+      "Es obligatorio dar la vuelta en U en la próxima salida"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aproxímese lentamente, manténgase a la derecha de la isla central, ceda el paso a los peatones y a los vehículos ya en la rotonda, y entre cuando haya un espacio seguro.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "En una carretera dividida por una mediana, un autobús escolar en el lado opuesto se detiene con las luces rojas intermitentes. ¿Qué debe hacer?",
+    "choices": [
+      "Detenerse inmediatamente",
+      "Continuar con precaución; solo los vehículos detrás del autobús deben detenerse",
+      "Tocar la bocina y pasar",
+      "Detenerse por 3 segundos, luego continuar"
+    ],
+    "correctIndex": 1,
+    "explanation": "En carreteras con mediana, solo los vehículos detrás del autobús deben detenerse cuando sus luces rojas estén intermitentes. El tráfico en sentido contrario puede continuar con precaución.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "¿Cuándo deben usarse los cinturones de seguridad en Ontario?",
+    "choices": [
+      "Solo en las autopistas",
+      "Siempre que el vehículo esté en movimiento",
+      "Solo al conducir a más de 50 km/h",
+      "Solo cuando haya pasajeros"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los conductores y pasajeros deben usar el cinturón de seguridad siempre que el vehículo esté en movimiento. El conductor es responsable de los pasajeros menores de 16 años.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "¿La conducción imprudente resulta en cuántos puntos de demérito?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "La conducción imprudente resulta en 6 puntos de demérito.",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
