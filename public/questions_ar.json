@@ -1,1 +1,103 @@
 [
+{
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "signs-regulatory",
+  "question": "ماذا تعني هذه الإشارة؟",
+  "choices": [
+    "يسمح بالانعطاف يسارًا فقط ليلًا",
+    "ممنوع الانعطاف يسارًا في أي وقت",
+    "يبدأ مسار الانعطاف يسارًا أمامك",
+    "يسمح بالاستدارة للخلف بحذر"
+  ],
+  "correctIndex": 1,
+  "explanation": "الدائرة الحمراء مع خط مائل تعني دائمًا المنع. السهم المتجه إلى اليسار مع خط مائل يعني أن الانعطاف يسارًا غير مسموح.",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "rules-of-the-road",
+  "question": "عند إشارة التوقف، أين يجب أن تتوقف إذا كان هناك خط توقف مرسوم؟",
+  "choices": [
+    "في أي مكان قبل التقاطع",
+    "بجانب عمود إشارة التوقف",
+    "عند خط التوقف المرسوم",
+    "في منتصف التقاطع لتحسين الرؤية"
+  ],
+  "correctIndex": 2,
+  "explanation": "يجب أن تتوقف توقفًا كاملًا عند خط التوقف المرسوم. إذا لم يوجد خط توقف، فتوقف عند ممر المشاة؛ وإذا لم يوجد، فتوقف عند حافة الرصيف؛ وإذا لم يوجد، فتوقف عند حافة التقاطع.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "signs-regulatory",
+  "question": "تظهر هذه الإشارة أمامك. ما الذي تحذرك منه؟",
+  "choices": [
+    "الدراجات ممنوعة على هذا الطريق",
+    "توقع وجود دراجين؛ قد تعبر الدراجات أو تشارك الطريق",
+    "يبدأ مسار استخدام مشترك؛ يجب على المركبات التوقف",
+    "ينتهي مسار الدراجات؛ اندمج يمينًا فورًا"
+  ],
+  "correctIndex": 1,
+  "explanation": "رمز الدراجة داخل شكل ماسي أصفر هو إشارة تحذيرية تنبه إلى وجود دراجين والاستعداد لتخفيف السرعة أو إعطاء حق المرور عند الحاجة.",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "alcohol-and-driving",
+  "question": "بعد أول إدانة بالقيادة تحت تأثير الكحول، كم مدة تعليق رخصة القيادة؟",
+  "choices": [
+    "شهر واحد",
+    "3 أشهر",
+    "6 أشهر",
+    "سنة واحدة"
+  ],
+  "correctIndex": 3,
+  "explanation": "تؤدي أول إدانة بالقيادة تحت تأثير الكحول إلى تعليق رخصة القيادة لمدة سنة واحدة، بالإضافة إلى عقوبات أخرى مثل الغرامات وبرامج التوعية الإلزامية.",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "ar",
+  "category": "signs-regulatory",
+  "question": "ترى هذه الإشارة عند مدخل طريق. ماذا يجب أن تفعل؟",
+  "choices": [
+    "تابع ببطء وابقَ على اليمين",
+    "ادخل فقط إذا كانت حركة المرور خفيفة",
+    "ممنوع الدخول — الطريق مخصص لحركة السير بالاتجاه المعاكس",
+    "توقف ثم تابع إذا كان الطريق خاليًا"
+  ],
+  "correctIndex": 2,
+  "explanation": "الدائرة الحمراء مع شريط أبيض أفقي تعني ممنوع الدخول — أنت تواجه حركة مرور بالاتجاه المعاكس (مثل نهاية خاطئة لطريق باتجاه واحد).",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
