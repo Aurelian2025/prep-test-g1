@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "一个黄色菱形标志显示道路变窄的形状，表示：",
+    "choices": [
+      "前方是宽桥",
+      "道路变窄或前方有窄桥；请准备减速并小心行驶",
+      "前方道路变宽",
+      "分隔式公路开始"
+    ],
+    "correctIndex": 1,
+    "explanation": "道路变窄或窄桥警告标志表示车道可能变窄；请减速并小心通过。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "一个黄色菱形标志显示一条线在中间物体两侧分开，表示：",
+    "choices": [
+      "前方为双向交通",
+      "分隔式公路开始；请保持在中央隔离带右侧行驶",
+      "分隔式公路结束",
+      "两个方向都允许超车"
+    ],
+    "correctIndex": 1,
+    "explanation": "该标志警告分隔式公路开始，您必须保持在中央隔离带或障碍物的右侧行驶。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个限速标志表示什么？",
+    "choices": [
+      "最高允许速度为40公里/小时",
+      "你必须始终以40公里/小时行驶",
+      "最低速度为40公里/小时",
+      "40米后限速将变为40公里/小时"
+    ],
+    "correctIndex": 0,
+    "explanation": "白色长方形带黑色数字的标志表示在理想驾驶条件下的最高法定速度（公里/小时）。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "你在道路入口处看到这个标志。它是什么意思？",
+    "choices": [
+      "此道路禁止自行车通行",
+      "骑自行车的人必须在人行道上骑行",
+      "这里开始自行车道",
+      "自行车拥有优先通行权"
+    ],
+    "correctIndex": 0,
+    "explanation": "红色圆圈内带斜杠的自行车符号表示该道路或区域禁止自行车通行。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个标志告诉司机关于停车的什么信息？",
+    "choices": [
+      "在该标志适用的区域内不允许停车",
+      "只允许停车10分钟",
+      "只允许夜间停车",
+      "任何时候都不允许停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "带斜杠的红色圆圈加字母P是一个管制标志，表示在该区域或箭头所指范围内禁止停车。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
