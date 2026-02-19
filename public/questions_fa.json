@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "رانندگان هنگام نزدیک شدن به این نشان چه باید بکنند؟",
+  "choices": [
+    "از مانع دوری کنند",
+    "برای توقف فوری آماده شوند",
+    "فقط به چپ بپیچند",
+    "برای پیچ سرعت را کاهش دهند"
+  ],
+  "correctIndex": 0,
+  "explanation": "خطوط مورب یک خطر ثابت را در نزدیکی لبه جاده نشان می‌دهند.",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "کدام وسایل نقلیه مجاز به استفاده از این خط هستند؟",
+  "choices": [
+    "اتوبوس‌ها و وسایل نقلیه با دو نفر یا بیشتر",
+    "تمام خودروهای سواری",
+    "فقط موتورسیکلت‌ها",
+    "کامیون‌های تجاری"
+  ],
+  "correctIndex": 0,
+  "explanation": "نماد لوزی نشان‌دهنده خط HOV است که برای وسایل نقلیه با سرنشین بیشتر و اتوبوس‌ها رزرو شده است.",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "رانندگان چه زمانی باید از محدودیت ۴۰ کیلومتر در ساعت پیروی کنند؟",
+  "choices": [
+    "وقتی چراغ‌های زرد چشمک می‌زنند",
+    "در تمام ساعات روز",
+    "فقط در ماه‌های زمستان",
+    "فقط برای اتوبوس‌های مدرسه"
+  ],
+  "correctIndex": 0,
+  "explanation": "چراغ‌های چشمک‌زن محدودیت سرعت کاهش‌یافته را برای افزایش ایمنی نزدیک مدارس فعال می‌کنند.",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "از این نقطه به بعد چه قانونی اعمال می‌شود؟",
+  "choices": [
+    "رانندگان نباید تا پس از عبور از گذرگاه سبقت بگیرند",
+    "سبقت فقط برای اتوبوس‌ها مجاز است",
+    "وسایل نقلیه باید فوراً توقف کنند",
+    "دوچرخه‌سواران می‌توانند از ترافیک سبقت بگیرند"
+  ],
+  "correctIndex": 0,
+  "explanation": "این تابلو در نزدیکی یک گذرگاه مشخص‌شده، منطقه ممنوعیت سبقت را اعمال می‌کند.",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "این تابلو چه محدودیتی را نشان می‌دهد؟",
+  "choices": [
+    "وسایل نقلیه با ارتفاع بیش از ۳٫۹ متر نمی‌توانند عبور کنند",
+    "عرض جاده به ۳٫۹ متر کاهش می‌یابد",
+    "فقط بارهای عریض مجاز هستند",
+    "پل فقط از وسایل نقلیه سنگین پشتیبانی می‌کند"
+  ],
+  "correctIndex": 0,
+  "explanation": "رانندگان وسایل نقلیه بلند نباید وارد شوند اگر ارتفاع وسیله آن‌ها از میزان اعلام‌شده بیشتر باشد.",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
