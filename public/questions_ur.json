@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "فلیشنگ بیکن والے پیدل گزرگاہ (PXO) پر آپ کب آگے بڑھ سکتے ہیں؟",
+    "choices": [
+      "جیسے ہی پیدل چلنے والا آپ کی طرف والے فٹ پاتھ پر قدم رکھے",
+      "رفتار کم کرنے اور ہارن بجانے کے بعد",
+      "صرف اس وقت جب پیدل چلنے والے مکمل طور پر سڑک پار کر کے مکمل طور پر راستے سے ہٹ جائیں اور آگے بڑھنا محفوظ ہو",
+      "کسی بھی وقت اگر آپ دائیں مڑ رہے ہوں"
+    ],
+    "correctIndex": 2,
+    "explanation": "PXO پر آپ کو پیدل چلنے والوں کے لیے رکنا چاہیے اور تب تک رکے رہنا چاہیے جب تک وہ مکمل طور پر سڑک پار کر کے راستے سے ہٹ نہ جائیں۔ صرف اسی وقت آگے بڑھیں جب محفوظ ہو۔",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "آپ راؤنڈ اباؤٹ سے پہلے سفید تیروں والا یہ نیلا گول نشان دیکھتے ہیں۔ آپ کو کیا کرنا چاہیے؟",
+    "choices": [
+      "جلدی داخل ہوں اور بائیں اشارہ دیں",
+      "دائیں رہیں، گھڑی کی مخالف سمت میں چلیں اور پہلے سے راؤنڈ اباؤٹ میں موجود گاڑیوں اور پیدل چلنے والوں کو راستہ دیں",
+      "رکیں اور سبز سگنل کا انتظار کریں",
+      "اگلے اخراج پر یو ٹرن لازمی ہے"
+    ],
+    "correctIndex": 1,
+    "explanation": "آہستہ پہنچیں، مرکزی جزیرے کے دائیں رہیں، پیدل چلنے والوں اور پہلے سے راؤنڈ اباؤٹ میں موجود گاڑیوں کو راستہ دیں اور جب محفوظ خلا ہو تو داخل ہوں۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ایک میڈین سے تقسیم شدہ سڑک پر، مخالف سمت میں ایک اسکول بس سرخ بتیوں کے ساتھ رکتی ہے۔ آپ کو کیا کرنا چاہیے؟",
+    "choices": [
+      "فوراً رک جائیں",
+      "احتیاط سے آگے بڑھیں؛ صرف بس کے پیچھے والی گاڑیوں کو رکنا چاہیے",
+      "ہارن بجائیں اور گزر جائیں",
+      "3 سیکنڈ رکیں، پھر آگے بڑھیں"
+    ],
+    "correctIndex": 1,
+    "explanation": "میڈین والی سڑکوں پر صرف بس کے پیچھے والی گاڑیوں کو اس کی چمکتی سرخ بتیوں کے لیے رکنا ہوتا ہے۔ مخالف سمت کی ٹریفک احتیاط سے آگے بڑھ سکتی ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "اونٹاریو میں سیٹ بیلٹ کب پہننا ضروری ہے؟",
+    "choices": [
+      "صرف ہائی ویز پر",
+      "جب بھی گاڑی چل رہی ہو",
+      "صرف جب رفتار 50 کلومیٹر فی گھنٹہ سے زیادہ ہو",
+      "صرف جب مسافر موجود ہوں"
+    ],
+    "correctIndex": 1,
+    "explanation": "جب بھی گاڑی چل رہی ہو، ڈرائیور اور مسافروں کو سیٹ بیلٹ پہننا ضروری ہے۔ ڈرائیور 16 سال سے کم عمر مسافروں کے لیے ذمہ دار ہوتا ہے۔",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "لاپرواہ ڈرائیونگ پر کتنے ڈی میرٹ پوائنٹس ملتے ہیں؟",
+  "choices": [
+    "2 ڈی میرٹ پوائنٹس",
+    "3 ڈی میرٹ پوائنٹس",
+    "6 ڈی میرٹ پوائنٹس",
+    "7 ڈی میرٹ پوائنٹس"
+  ],
+  "correctIndex": 2,
+  "explanation": "لاپرواہ ڈرائیونگ پر 6 ڈی میرٹ پوائنٹس ملتے ہیں۔",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
