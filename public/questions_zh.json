@@ -324,4 +324,118 @@
   ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
+{
+  "id": "q-hazard-marker-16",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "接近此标志时，驾驶员应怎么做？",
+  "choices": [
+    "避开障碍物行驶",
+    "准备立即停车",
+    "只能左转",
+    "为弯道减速"
+  ],
+  "correctIndex": 0,
+  "explanation": "斜线标记表示道路边缘附近有固定危险。",
+  "sources": [
+    {
+      "title": "Hazard Markers",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hazard-marker.png"
+},
+
+{
+  "id": "q-hov-bus-2plus-17",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "哪些车辆可以在此车道行驶？",
+  "choices": [
+    "公交车和载有两人或以上的车辆",
+    "所有乘用车",
+    "仅限摩托车",
+    "商用卡车"
+  ],
+  "correctIndex": 0,
+  "explanation": "菱形符号表示高乘载车道，供高乘载车辆和公交车使用。",
+  "sources": [
+    {
+      "title": "HOV Lane Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hov-bus-2plus.png"
+},
+
+{
+  "id": "q-school-zone-40-when-flashing-18",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "驾驶员何时必须遵守标示的40公里/小时限速？",
+  "choices": [
+    "当黄色闪光灯闪烁时",
+    "全天任何时候",
+    "仅在冬季",
+    "仅适用于校车"
+  ],
+  "correctIndex": 0,
+  "explanation": "闪光灯会启动降低的限速，以提高学校附近的安全性。",
+  "sources": [
+    {
+      "title": "School Zone Speed Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-school-zone-40-when-flashing.png"
+},
+
+{
+  "id": "q-no-passing-crossing-zone-19",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "从此处开始适用什么规则？",
+  "choices": [
+    "驾驶员在通过人行横道之前不得超车",
+    "仅允许公交车超车",
+    "车辆必须立即停车",
+    "骑自行车者可以超越车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志在接近标记人行横道时实施禁止超车区域。",
+  "sources": [
+    {
+      "title": "Passing Restrictions",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing-crossing-zone.png"
+},
+
+  {
+  "id": "q-low-clearance-3-9m-20",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "该标志传达了什么限制？",
+  "choices": [
+    "高度超过3.9米的车辆不得通过",
+    "道路收窄至3.9米",
+    "仅允许超宽车辆",
+    "桥梁仅支持重型车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "高车身车辆如果高度超过标示的净空高度，则不得进入。",
+  "sources": [
+    {
+      "title": "Overhead Clearance Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-low-clearance-3-9m.png"
+},
 
