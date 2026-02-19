@@ -553,5 +553,117 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Un brigadier scolaire s’avance sur la chaussée en tenant un panneau d’arrêt rouge et blanc. Que devez-vous faire?",
+    "choices": [
+      "Ralentir et passer prudemment s’il n’y a pas d’enfants sur le passage pour piétons",
+      "S’arrêter, puis avancer si le brigadier fait signe uniquement aux enfants de traverser",
+      "S’arrêter avant le passage et rester arrêté jusqu’à ce que tout le monde, y compris le brigadier, ait complètement quitté la chaussée et qu’il soit sécuritaire d’avancer",
+      "Klaxonner pour alerter les autres et avancer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vous devez vous arrêter avant d’atteindre le passage et rester arrêté jusqu’à ce que toutes les personnes — y compris le brigadier scolaire — aient complètement quitté la chaussée et qu’il soit sécuritaire de continuer.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Un panneau rectangulaire avec une flèche contournant un îlot de circulation et les mots 'KEEP RIGHT' signifie :",
+    "choices": [
+      "Vous pouvez passer de n’importe quel côté",
+      "La circulation doit rester à droite de l’îlot ou de l’obstacle",
+      "Virages à gauche seulement",
+      "Virage à droite interdit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le panneau signifie que vous devez rester à droite de l’îlot de circulation ou de l’obstacle.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "En approchant d’un panneau CÉDEZ LE PASSAGE et en présence de circulation transversale. Que devez-vous faire?",
+    "choices": [
+      "Continuer sans s’arrêter si vous signalez",
+      "Ralentir, être prêt à s’arrêter et céder le passage aux véhicules et aux piétons; s’arrêter si nécessaire",
+      "Toujours faire un arrêt complet d’au moins trois secondes",
+      "Accélérer pour s’insérer avant les autres véhicules"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un panneau CÉDEZ LE PASSAGE signifie que vous devez ralentir, être prêt à vous arrêter et céder le passage aux véhicules sur la route dans laquelle vous vous engagez et aux piétons. Arrêtez-vous si nécessaire.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "À quoi les conducteurs doivent-ils se préparer à l’avance?",
+  "choices": [
+    "Un pont qui peut s’ouvrir pour laisser passer des bateaux",
+    "Un pont fermé en permanence",
+    "Un traversier",
+    "Des travaux routiers"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau avertit qu’un pont mobile peut s’ouvrir, obligeant les véhicules à s’arrêter et à attendre.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "Ne pas s’arrêter lorsqu’un agent de police vous en fait le signal ou la demande entraîne combien de points d’inaptitude?",
+  "choices": [
+    "3 points d’inaptitude",
+    "5 points d’inaptitude",
+    "7 points d’inaptitude",
+    "9 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ne pas s’arrêter lorsqu’un agent de police vous en fait le signal ou la demande entraîne 7 points d’inaptitude.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
 
