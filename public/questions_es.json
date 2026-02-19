@@ -774,3 +774,112 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Una señal advierte «El puente se congela antes que la carretera». ¿Qué debe hacer?",
+    "choices": [
+      "Acelerar para cruzar rápidamente",
+      "Frenar con fuerza antes del puente",
+      "Reducir la velocidad y evitar movimientos bruscos en el puente",
+      "Conducir por el centro de la carretera"
+    ],
+    "correctIndex": 2,
+    "explanation": "Los puentes se congelan primero. Reduzca la velocidad y evite frenar con fuerza o hacer movimientos bruscos de dirección en el puente.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Sus neumáticos comienzan a hidroplanear en una carretera mojada. ¿Qué debe hacer?",
+    "choices": [
+      "Frenar con fuerza y girar bruscamente",
+      "Quitar el pie del acelerador y mantener el volante recto hasta recuperar la tracción",
+      "Acelerar para recuperar el agarre",
+      "Girar el volante de un lado a otro para sacudir el agua"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quite el pie del acelerador y mantenga las ruedas rectas hasta que regrese la tracción.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "¿Con cuánta anticipación debe señalizar antes de girar o cambiar de carril?",
+    "choices": [
+      "Al menos 30 metros (100 pies)",
+      "Justo cuando gira el volante",
+      "A cinco longitudes de automóvil",
+      "Solo cuando alguien esté detrás de usted"
+    ],
+    "correctIndex": 0,
+    "explanation": "Señalice con suficiente anticipación: al menos 30 metros (100 pies) antes de girar o cambiar de carril.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "¿Cuándo debe usar la bocina?",
+    "choices": [
+      "Para saludar a un amigo",
+      "Para advertir a otros de un posible peligro",
+      "Cuando la luz se ponga en verde",
+      "Cuando esté enojado con otros conductores"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use la bocina solo para advertir a otros cuando sea necesario para evitar una colisión.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "¿Correr en la vía pública resulta en cuántos puntos de demérito?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Correr en la vía pública resulta en 6 puntos de demérito.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
