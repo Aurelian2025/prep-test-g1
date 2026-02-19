@@ -665,4 +665,114 @@
   "sources": [],
   "image": "/signs/q-fail-stop-police-271.png"
 },
+{
+    "id": "q-pxo-wait-clear-31",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਫਲੈਸ਼ਿੰਗ ਬੀਕਨ ਵਾਲੇ ਪੈਦਲ ਯਾਤਰੀ ਕ੍ਰਾਸਓਵਰ (PXO) 'ਤੇ ਤੁਸੀਂ ਕਦੋਂ ਅੱਗੇ ਵੱਧ ਸਕਦੇ ਹੋ?",
+    "choices": [
+      "ਜਿਵੇਂ ਹੀ ਪੈਦਲ ਯਾਤਰੀ ਤੁਹਾਡੇ ਪਾਸੇ ਦੇ ਫੁੱਟਪਾਥ 'ਤੇ ਪੈਰ ਰੱਖੇ",
+      "ਗਤੀ ਘਟਾਉਣ ਅਤੇ ਹਾਰਨ ਵਜਾਉਣ ਤੋਂ ਬਾਅਦ",
+      "ਸਿਰਫ਼ ਜਦੋਂ ਪੈਦਲ ਯਾਤਰੀ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸੜਕ ਪਾਰ ਕਰਕੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਰਸਤੇ ਤੋਂ ਹਟ ਜਾਣ ਅਤੇ ਅੱਗੇ ਵਧਣਾ ਸੁਰੱਖਿਅਤ ਹੋਵੇ",
+      "ਕਿਸੇ ਵੀ ਵੇਲੇ ਜੇ ਤੁਸੀਂ ਸੱਜੇ ਮੁੜ ਰਹੇ ਹੋ"
+    ],
+    "correctIndex": 2,
+    "explanation": "PXO 'ਤੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਲਈ ਰੁਕਣਾ ਲਾਜ਼ਮੀ ਹੈ ਅਤੇ ਜਦ ਤੱਕ ਉਹ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸੜਕ ਪਾਰ ਕਰਕੇ ਰਸਤੇ ਤੋਂ ਹਟ ਨਹੀਂ ਜਾਂਦੇ, ਰੁਕੇ ਰਹੋ। ਸਿਰਫ਼ ਜਦੋਂ ਸੁਰੱਖਿਅਤ ਹੋਵੇ ਤਦ ਹੀ ਅੱਗੇ ਵਧੋ।",
+    "sources": [
+      {
+        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-13-cross-beacon.png",
+    "notes": "Original question aligned to PXO rules."
+  },
+  {
+    "id": "q-roundabout-keep-right-32",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਤੁਸੀਂ ਰਾਊਂਡਅਬਾਊਟ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਨੀਲਾ ਗੋਲ ਨਿਸ਼ਾਨ ਸਫੈਦ ਤੀਰਾਂ ਨਾਲ ਵੇਖਦੇ ਹੋ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਤੇਜ਼ੀ ਨਾਲ ਦਾਖਲ ਹੋਵੋ ਅਤੇ ਖੱਬੇ ਸੰਕੇਤ ਦਿਓ",
+      "ਸੱਜੇ ਰਹੋ, ਘੜੀ ਦੇ ਉਲਟ ਦਿਸ਼ਾ ਵਿੱਚ ਚਲੋ ਅਤੇ ਪਹਿਲਾਂ ਤੋਂ ਰਾਊਂਡਅਬਾਊਟ ਵਿੱਚ ਮੌਜੂਦ ਵਾਹਨਾਂ ਅਤੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਰਸਤਾ ਦਿਓ",
+      "ਰੁਕੋ ਅਤੇ ਹਰੇ ਸੰਕੇਤ ਦੀ ਉਡੀਕ ਕਰੋ",
+      "ਅਗਲੇ ਨਿਕਾਸ 'ਤੇ ਯੂ-ਟਰਨ ਲਾਜ਼ਮੀ ਹੈ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਹੌਲੀ ਪਹੁੰਚੋ, ਕੇਂਦਰੀ ਟਾਪੂ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ, ਪੈਦਲ ਯਾਤਰੀਆਂ ਅਤੇ ਪਹਿਲਾਂ ਤੋਂ ਰਾਊਂਡਅਬਾਊਟ ਵਿੱਚ ਮੌਜੂਦ ਵਾਹਨਾਂ ਨੂੰ ਰਸਤਾ ਦਿਓ ਅਤੇ ਜਦੋਂ ਸੁਰੱਖਿਅਤ ਖਾਲੀ ਥਾਂ ਹੋਵੇ ਤਾਂ ਦਾਖਲ ਹੋਵੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+  },
+  {
+    "id": "q-divided-road-bus-33",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਇੱਕ ਮੀਡਿਅਨ ਨਾਲ ਵੰਡੇ ਹੋਏ ਰਸਤੇ 'ਤੇ, ਵਿਰੋਧੀ ਪਾਸੇ ਦਾ ਸਕੂਲ ਬੱਸ ਲਾਲ ਬੱਤੀਆਂ ਚਮਕਾਉਂਦਿਆਂ ਰੁਕਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਤੁਰੰਤ ਰੁਕੋ",
+      "ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧੋ; ਸਿਰਫ਼ ਬੱਸ ਦੇ ਪਿੱਛੇ ਵਾਲੀਆਂ ਗੱਡੀਆਂ ਨੂੰ ਰੁਕਣਾ ਲਾਜ਼ਮੀ ਹੈ",
+      "ਹਾਰਨ ਵਜਾਓ ਅਤੇ ਲੰਘ ਜਾਓ",
+      "3 ਸਕਿੰਟ ਲਈ ਰੁਕੋ, ਫਿਰ ਅੱਗੇ ਵਧੋ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਮੀਡਿਅਨ ਵਾਲੀਆਂ ਸੜਕਾਂ 'ਤੇ ਸਿਰਫ਼ ਬੱਸ ਦੇ ਪਿੱਛੇ ਵਾਲੀਆਂ ਗੱਡੀਆਂ ਨੂੰ ਇਸ ਦੀਆਂ ਚਮਕਦੀਆਂ ਲਾਲ ਬੱਤੀਆਂ ਲਈ ਰੁਕਣਾ ਪੈਂਦਾ ਹੈ। ਵਿਰੋਧੀ ਟ੍ਰੈਫਿਕ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵੱਧ ਸਕਦੀ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
+      }
+      ],
+    "image": "/signs/q-12-school-bus-median.jpg",
+    "notes": "Original question; complements the earlier school-bus scenario."
+  },
+
+  {
+    "id": "q-seatbelt-34",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਓਨਟਾਰੀਓ ਵਿੱਚ ਸੀਟ ਬੈਲਟ ਕਦੋਂ ਪਹਿਨਣੀਆਂ ਲਾਜ਼ਮੀ ਹਨ?",
+    "choices": [
+      "ਸਿਰਫ਼ ਹਾਈਵੇਅ 'ਤੇ",
+      "ਜਦੋਂ ਵੀ ਵਾਹਨ ਚੱਲ ਰਿਹਾ ਹੋਵੇ",
+      "ਸਿਰਫ਼ ਜਦੋਂ 50 ਕਿਮੀ/ਘੰਟਾ ਤੋਂ ਵੱਧ ਗਤੀ ਹੋਵੇ",
+      "ਸਿਰਫ਼ ਜਦੋਂ ਯਾਤਰੀ ਹੋਣ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਡਰਾਈਵਰ ਅਤੇ ਯਾਤਰੀਆਂ ਨੂੰ ਜਦੋਂ ਵੀ ਵਾਹਨ ਚੱਲ ਰਿਹਾ ਹੋਵੇ ਸੀਟ ਬੈਲਟ ਪਹਿਨਣੀ ਲਾਜ਼ਮੀ ਹੈ। 16 ਸਾਲ ਤੋਂ ਘੱਟ ਉਮਰ ਵਾਲੇ ਯਾਤਰੀਆਂ ਲਈ ਡਰਾਈਵਰ ਜ਼ਿੰਮੇਵਾਰ ਹੁੰਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-21-seatbelt.png",
+    "notes": "Original question created for Prep Test G1."
+  },
+  {
+  "id": "q-demerit-careless-driving-35",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "ਲਾਪਰਵਾਹ ਡਰਾਈਵਿੰਗ ਨਾਲ ਕਿੰਨੇ ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ?",
+  "choices": [
+    "2 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "3 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "6 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "7 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ"
+  ],
+  "correctIndex": 2,
+  "explanation": "ਲਾਪਰਵਾਹ ਡਰਾਈਵਿੰਗ ਨਾਲ 6 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ।",
+  "sources": [],
+  "image": "/signs/q-demerit-careless-driving-125.png"
+},
 
