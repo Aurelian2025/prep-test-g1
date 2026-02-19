@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "पीले हीरे के आकार का संकेत जो सड़क के संकुचित होने का चिन्ह दिखाता है, उसका क्या अर्थ है?",
+    "choices": [
+      "आगे चौड़ा पुल है",
+      "सड़क संकरी होती है या आगे संकरा पुल है; गति कम करने और सावधानी बरतने के लिए तैयार रहें",
+      "आगे सड़क चौड़ी होती है",
+      "विभाजित राजमार्ग शुरू होता है"
+    ],
+    "correctIndex": 1,
+    "explanation": "सड़क संकरी होने या संकरे पुल की चेतावनी का अर्थ है कि लेन संकरी हो सकती हैं; गति कम करें और सावधानी से गुजरें।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "पीले हीरे के आकार का संकेत जिसमें एक रेखा बीच में विभाजित होती दिखती है, उसका क्या अर्थ है?",
+    "choices": [
+      "आगे दो-तरफ़ा यातायात",
+      "विभाजित राजमार्ग शुरू होता है; मीडियन के दाईं ओर रहें",
+      "विभाजित राजमार्ग समाप्त होता है",
+      "दोनों दिशाओं में ओवरटेक की अनुमति है"
+    ],
+    "correctIndex": 1,
+    "explanation": "यह संकेत चेतावनी देता है कि विभाजित राजमार्ग शुरू होता है और आपको मीडियन या अवरोध के दाईं ओर रहना चाहिए।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह गति सीमा संकेत क्या दर्शाता है?",
+    "choices": [
+      "अधिकतम अनुमत गति 40 किमी/घंटा है",
+      "आपको हमेशा ठीक 40 किमी/घंटा की गति से चलना चाहिए",
+      "न्यूनतम गति 40 किमी/घंटा है",
+      "40 मीटर बाद गति सीमा 40 किमी/घंटा हो जाएगी"
+    ],
+    "correctIndex": 0,
+    "explanation": "काले अंकों वाला सफेद आयताकार संकेत आदर्श ड्राइविंग परिस्थितियों में किलोमीटर प्रति घंटा में अधिकतम कानूनी गति दर्शाता है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "आप सड़क के प्रवेश पर यह संकेत देखते हैं। इसका क्या अर्थ है?",
+    "choices": [
+      "इस सड़क पर साइकिलों की अनुमति नहीं है",
+      "साइकिल चालकों को फुटपाथ पर चलना चाहिए",
+      "यहाँ साइकिल लेन शुरू होती है",
+      "साइकिलों को प्राथमिकता का अधिकार है"
+    ],
+    "correctIndex": 0,
+    "explanation": "लाल घेरे में स्लैश के साथ साइकिल का प्रतीक बताता है कि उस सड़क या क्षेत्र में साइकिलें प्रतिबंधित हैं।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "यह संकेत चालकों को पार्किंग के बारे में क्या बताता है?",
+    "choices": [
+      "जहाँ यह संकेत लागू होता है वहाँ पार्किंग की अनुमति नहीं है",
+      "पार्किंग केवल 10 मिनट के लिए अनुमति है",
+      "पार्किंग केवल रात में अनुमति है",
+      "किसी भी समय रुकना मना है"
+    ],
+    "correctIndex": 0,
+    "explanation": "अक्षर P पर लाल गोला और तिरछी रेखा एक नियामक संकेत है जिसका अर्थ है उस क्षेत्र में या दर्शाए गए तीरों के बीच पार्किंग निषिद्ध है।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
