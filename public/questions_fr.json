@@ -1113,5 +1113,119 @@
   ],
   "image": "/signs/q-water-over-road.png"
 }
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "À quel danger les conducteurs doivent-ils être attentifs ?",
+  "choices": [
+    "Des rochers peuvent tomber près de la chaussée",
+    "Du gravier meuble sur la chaussée",
+    "Des opérations de dynamitage",
+    "Une chaussée inégale"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau avertit d’éventuels éboulements ou de la chute de débris provenant des pentes voisines.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quel changement de circulation ce panneau annonce-t-il ?",
+  "choices": [
+    "Les véhicules circuleront dans les deux sens",
+    "Une rue à sens unique commence",
+    "Une route divisée commence",
+    "Le nombre de voies de dépassement augmente"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les flèches opposées avertissent les conducteurs qu’il y aura de la circulation venant en sens inverse plus loin.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle action le conducteur communique-t-il avec ce signal de la main ?",
+  "choices": [
+    "Ralentir ou s’arrêter",
+    "Tourner à gauche",
+    "Tourner à droite",
+    "Changer de voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un bras pointé vers le bas indique que le conducteur a l’intention de ralentir ou de s’arrêter.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Qui peut utiliser la voie indiquée par ce panneau ?",
+  "choices": [
+    "Vélos seulement",
+    "Tous les véhicules motorisés",
+    "Autobus et taxis",
+    "Véhicules d’urgence seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole et la flèche indiquent que la voie en avant est réservée exclusivement aux vélos.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Quelle règle de stationnement s’applique dans cette zone ?",
+  "choices": [
+    "Le stationnement est permis mais limité à 30 minutes",
+    "Le stationnement est interdit en tout temps",
+    "Seuls les véhicules d’urgence peuvent stationner",
+    "Le stationnement est sans restriction"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le panneau autorise le stationnement mais limite la durée pendant laquelle un véhicule peut rester pendant les heures indiquées.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
 
