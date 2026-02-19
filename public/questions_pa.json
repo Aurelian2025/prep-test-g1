@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇੱਕ ਪੀਲੇ ਹੀਰੇ ਆਕਾਰ ਦੇ ਨਿਸ਼ਾਨ ਵਿੱਚ ਸੜਕ ਸੰਕੁਚਿਤ ਹੁੰਦੀ ਦਿਖਾਈ ਦੇਵੇ ਤਾਂ ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਚੌੜਾ ਪੁਲ ਹੈ",
+      "ਸੜਕ ਸੰਕੁਚਿਤ ਹੁੰਦੀ ਹੈ ਜਾਂ ਅੱਗੇ ਸੰਕੁਚਿਤ ਪੁਲ ਹੈ; ਹੌਲੀ ਚਲੋ ਅਤੇ ਸਾਵਧਾਨ ਰਹੋ",
+      "ਅੱਗੇ ਸੜਕ ਚੌੜੀ ਹੋਵੇਗੀ",
+      "ਵੰਡਿਆ ਹੋਇਆ ਹਾਈਵੇ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਸੜਕ ਸੰਕੁਚਿਤ ਹੋਣ ਜਾਂ ਸੰਕੁਚਿਤ ਪੁਲ ਦੇ ਚੇਤਾਵਨੀ ਨਿਸ਼ਾਨ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਲੇਨ ਸੰਕੁਚਿਤ ਹੋ ਸਕਦੀਆਂ ਹਨ; ਗਤੀ ਘਟਾਓ ਅਤੇ ਸਾਵਧਾਨੀ ਨਾਲ ਲੰਘੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇੱਕ ਪੀਲੇ ਹੀਰੇ ਆਕਾਰ ਦਾ ਨਿਸ਼ਾਨ ਜਿਸ ਵਿੱਚ ਇੱਕ ਲਾਈਨ ਮੱਧ ਵਿੱਚ ਵੰਡਦੀ ਦਿਖਾਈ ਦੇਵੇ, ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਦੋ-ਤਰਫ਼ਾ ਟ੍ਰੈਫਿਕ",
+      "ਵੰਡਿਆ ਹੋਇਆ ਹਾਈਵੇ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ; ਮੀਡਿਅਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ",
+      "ਵੰਡਿਆ ਹੋਇਆ ਹਾਈਵੇ ਖਤਮ ਹੁੰਦਾ ਹੈ",
+      "ਦੋਵੇਂ ਦਿਸ਼ਾਵਾਂ ਵਿੱਚ ਓਵਰਟੇਕ ਦੀ ਆਗਿਆ ਹੈ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ ਕਿ ਵੰਡਿਆ ਹੋਇਆ ਹਾਈਵੇ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਮੀਡਿਅਨ ਜਾਂ ਰੋਕਾਅ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਗਤੀ ਸੀਮਾ ਨਿਸ਼ਾਨ ਕੀ ਦੱਸਦਾ ਹੈ?",
+    "choices": [
+      "ਅਧਿਕਤਮ ਆਗਿਆਤ ਗਤੀ 40 ਕਿਮੀ/ਘੰਟਾ ਹੈ",
+      "ਤੁਹਾਨੂੰ ਹਮੇਸ਼ਾਂ 40 ਕਿਮੀ/ਘੰਟਾ ਦੀ ਗਤੀ ਨਾਲ ਹੀ ਚਲਾਉਣਾ ਹੈ",
+      "ਨਿਊਨਤਮ ਗਤੀ 40 ਕਿਮੀ/ਘੰਟਾ ਹੈ",
+      "40 ਮੀਟਰ ਵਿੱਚ ਗਤੀ ਸੀਮਾ 40 ਕਿਮੀ/ਘੰਟਾ ਹੋ ਜਾਵੇਗੀ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਸਫੈਦ ਆਇਤਾਕਾਰ ਨਿਸ਼ਾਨ ਜਿਸ 'ਤੇ ਕਾਲੇ ਅੰਕ ਹੁੰਦੇ ਹਨ, ਆਦਰਸ਼ ਹਾਲਤਾਂ ਵਿੱਚ ਕਾਨੂੰਨੀ ਅਧਿਕਤਮ ਗਤੀ ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਸੜਕ ਦੇ ਪ੍ਰਵੇਸ਼ 'ਤੇ ਇਹ ਨਿਸ਼ਾਨ ਵੇਖਦੇ ਹੋ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਇਸ ਸੜਕ 'ਤੇ ਸਾਈਕਲਾਂ ਮਨ੍ਹਾਂ ਹਨ",
+      "ਸਾਈਕਲ ਸਵਾਰਾਂ ਨੂੰ ਫੁੱਟਪਾਥ 'ਤੇ ਚਲਣਾ ਚਾਹੀਦਾ ਹੈ",
+      "ਇੱਥੇ ਸਾਈਕਲ ਲੇਨ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ",
+      "ਸਾਈਕਲਾਂ ਨੂੰ ਪਹਿਲ ਦਾ ਹੱਕ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਲਾਲ ਗੋਲ ਘੇਰੇ ਵਿੱਚ ਕੱਟੀ ਹੋਈ ਸਾਈਕਲ ਦਾ ਨਿਸ਼ਾਨ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਉਸ ਸੜਕ ਜਾਂ ਖੇਤਰ ਵਿੱਚ ਸਾਈਕਲਾਂ ਮਨ੍ਹਾਂ ਹਨ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਸ਼ਾਨ ਡਰਾਈਵਰਾਂ ਨੂੰ ਪਾਰਕਿੰਗ ਬਾਰੇ ਕੀ ਦੱਸਦਾ ਹੈ?",
+    "choices": [
+      "ਜਿੱਥੇ ਨਿਸ਼ਾਨ ਲਾਗੂ ਹੁੰਦਾ ਹੈ ਉੱਥੇ ਪਾਰਕਿੰਗ ਮਨ੍ਹਾਂ ਹੈ",
+      "ਪਾਰਕਿੰਗ ਸਿਰਫ਼ 10 ਮਿੰਟ ਲਈ ਮਨਜ਼ੂਰ ਹੈ",
+      "ਪਾਰਕਿੰਗ ਸਿਰਫ਼ ਰਾਤ ਨੂੰ ਮਨਜ਼ੂਰ ਹੈ",
+      "ਕਿਸੇ ਵੀ ਸਮੇਂ ਰੁਕਣਾ ਮਨ੍ਹਾਂ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਅੱਖਰ P 'ਤੇ ਲਾਲ ਗੋਲ ਘੇਰਾ ਅਤੇ ਤਿਰਛੀ ਲਕੀਰ ਇੱਕ ਨਿਯਮਕ ਨਿਸ਼ਾਨ ਹੈ ਜਿਸਦਾ ਅਰਥ ਹੈ ਕਿ ਉਸ ਖੇਤਰ ਵਿੱਚ ਜਾਂ ਦਰਸਾਏ ਤੀਰਾਂ ਦੇ ਵਿਚਕਾਰ ਪਾਰਕਿੰਗ ਮਨ੍ਹਾਂ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
