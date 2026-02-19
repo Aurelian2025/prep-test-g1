@@ -1227,4 +1227,72 @@
   ],
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-snowmobiles-permitted-56",
+    "question": "这里允许哪种车辆使用？",
+  "choices": [
+    "允许雪地摩托通行",
+    "雪地摩托必须停车",
+    "雪地摩托只能用拖车运输",
+    "只有汽车可以通行"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色圆圈和雪地摩托符号表示此路线允许雪地摩托通行。",
+    "image": "/signs/q-snowmobiles-permitted.png"
+},
+
+{
+  "id": "q-bicycles-permitted-57",
+  "question": "这个标志告诉道路使用者什么？",
+  "choices": [
+    "骑自行车的人可以在这里通行",
+    "骑自行车的人必须下车",
+    "此车道禁止自行车通行",
+    "只有行人可以使用此区域"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色圆圈表示允许；自行车符号确认骑车者可以使用此道路或车道。",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+
+{
+  "id": "q-keep-right-except-to-pass-58",
+  "question": "这个标志要求什么驾驶行为？",
+  "choices": [
+    "除非超车，否则保持在右侧车道",
+    "始终使用左侧车道",
+    "避免变换车道",
+    "只能在路肩超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员通常应保持在右侧车道，只有在超越较慢车辆时才短暂进入左侧车道。",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
+
+{
+  "id": "q-two-way-left-turn-lane-59",
+  "question": "这条中央车道可以如何使用？",
+  "choices": [
+    "供两个方向的车辆左转使用",
+    "用于超越较慢车辆",
+    "仅用于右转",
+    "在非高峰时段用于停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "此标志表示来自任一方向的车辆只能使用该车道进行左转。",
+  "image": "/signs/q-two-way-left-turn-lane.png"
+},
+{
+  "id": "q-no-right-turn-on-red-60",
+  "question": "这个标志对驾驶员施加了什么限制？",
+  "choices": [
+    "红灯时禁止右转",
+    "必须在红灯时右转",
+    "只有公交车可以右转",
+    "必须掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "右转箭头上的红色斜线表示驾驶员必须等到绿灯后才能右转。",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
 
