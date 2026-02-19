@@ -775,3 +775,112 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "تحذّر لافتة «الجسر يتجمّد قبل الطريق». ماذا يجب أن تفعل؟",
+    "choices": [
+      "التسارع للعبور بسرعة",
+      "الفرملة بقوة قبل الجسر",
+      "تخفيف السرعة وتجنّب الحركات المفاجئة على الجسر",
+      "القيادة في وسط الطريق"
+    ],
+    "correctIndex": 2,
+    "explanation": "تتجمّد الجسور أولًا. خفّف السرعة وتجنّب الفرملة القوية أو التوجيه المفاجئ على الجسر.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "تبدأ إطاراتك بالانزلاق المائي على طريق مبلّل. ماذا يجب أن تفعل؟",
+    "choices": [
+      "الفرملة بقوة والتوجيه بشكل حاد",
+      "ارفع قدمك عن الوقود وابقِ العجلات مستقيمة حتى تستعيد التماسك",
+      "التسارع لاستعادة التماسك",
+      "تحريك المقود ذهابًا وإيابًا لطرد الماء"
+    ],
+    "correctIndex": 1,
+    "explanation": "ارفع قدمك عن دواسة الوقود وابقِ العجلات مستقيمة حتى يعود التماسك.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "كم يجب أن تعطي إشارة مسبقة قبل الانعطاف أو تغيير المسار؟",
+    "choices": [
+      "ما لا يقل عن 30 مترًا (100 قدم)",
+      "فقط عند تدوير المقود",
+      "على بعد خمس أطوال سيارات",
+      "فقط عندما يكون هناك شخص خلفك"
+    ],
+    "correctIndex": 0,
+    "explanation": "أعطِ الإشارة مسبقًا — ما لا يقل عن 30 مترًا (100 قدم) قبل الانعطاف أو تغيير المسار.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "متى يجب استخدام البوق؟",
+    "choices": [
+      "لتحية صديق",
+      "لتحذير الآخرين من خطر محتمل",
+      "عندما تتحول الإشارة إلى اللون الأخضر",
+      "عندما تكون غاضبًا من السائقين الآخرين"
+    ],
+    "correctIndex": 1,
+    "explanation": "استخدم البوق فقط لتحذير الآخرين عندما يكون ذلك ضروريًا لتجنب الاصطدام.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "السباق يؤدي إلى كم عدد نقاط المخالفة؟",
+  "choices": [
+    "3 نقاط مخالفة",
+    "4 نقاط مخالفة",
+    "6 نقاط مخالفة",
+    "7 نقاط مخالفة"
+  ],
+  "correctIndex": 2,
+  "explanation": "السباق يؤدي إلى 6 نقاط مخالفة.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
