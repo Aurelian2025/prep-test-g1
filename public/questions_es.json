@@ -1822,3 +1822,69 @@
   "explanation": "Esta señal guía verde informa a los conductores que el tráfico en el carril derecho debe tomar la salida. Los conductores que no deseen salir deben cambiarse a otro carril con anticipación.",
   "image": "/signs/right-lane-must-exit.png"
 },
+{
+  "id": "q-improper-right-101",
+  "question": "¿Cuántos puntos de demérito resultan de hacer un giro a la derecha incorrecto?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los giros incorrectos conllevan 2 puntos de demérito.",
+  "image": "/signs/q-improper-right-101.png"
+},
+  {
+    "id": "q-rules-merge-sign-102",
+    "question": "Ve que un carril termina y hay una señal de incorporación adelante. El tráfico es pesado pero se mueve. ¿Qué debe hacer?",
+    "choices": [
+      "Señalizar, ajustar su velocidad e incorporarse suavemente al carril de circulación cuando haya un espacio seguro",
+      "Detenerse en su carril y esperar a que alguien le dé paso",
+      "Acelerar bruscamente y forzar su entrada al carril",
+      "Conducir por el arcén hasta encontrar un espacio más adelante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cuando un carril termina, debe señalizar, igualar la velocidad del tráfico e incorporarse al siguiente carril solo cuando haya un espacio seguro.",
+    "image": "/signs/road-narrows.jpg"
+  },
+  {
+  "id": "q-change-address-notification-103",
+  "question": "Después de que un conductor con licencia cambie su nombre o dirección, ¿qué tan pronto debe notificarse al Ministerio de Transporte?",
+  "choices": [
+    "Dentro de 6 días",
+    "Dentro de 15 días",
+    "Dentro de 30 días",
+    "En cualquier momento antes de la renovación de la licencia"
+  ],
+  "correctIndex": 0,
+  "explanation": "Por ley, los conductores de Ontario deben notificar al Ministerio de Transporte dentro de seis días de cualquier cambio en su nombre o dirección.",
+  "image": "/signs/q-change-address-notification.png"
+},
+
+  {
+  "id": "q-warning-letter-104",
+  "question": "¿En qué rango de puntos un conductor novato recibe una carta de advertencia?",
+  "choices": [
+    "0–1 puntos de demérito",
+    "2–5 puntos de demérito",
+    "9–14 puntos de demérito",
+    "15+ puntos de demérito"
+  ],
+  "correctIndex": 1,
+  "explanation": "Los conductores novatos reciben una carta de advertencia entre 2 y 5 puntos.",
+  "image": "/signs/q-warning-letter-104.png"
+},
+  {
+    "id": "q-rules-construction-speed-105",
+    "question": "Entra en una zona de construcción marcada con esta señal y un límite de velocidad más bajo. ¿Cuál es la acción correcta?",
+    "choices": [
+      "Reducir la velocidad al límite indicado en la zona de trabajo y estar preparado para trabajadores y equipos",
+      "Mantener la velocidad normal de la autopista si no se ven trabajadores",
+      "Conducir por el arcén para evitar la obra",
+      "Ignorar la señal si llega tarde"
+    ],
+    "correctIndex": 0,
+    "explanation": "En una zona de construcción, debe seguir el límite de velocidad indicado y estar especialmente atento a los trabajadores y a los cambios de carril.",
+     "image": "/signs/construction-ahead.jpg"
+  },
