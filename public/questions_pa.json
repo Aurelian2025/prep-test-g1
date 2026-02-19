@@ -1,1 +1,104 @@
+[
+  {
+  "id": "q-no-left-turn-sign-1",
+  "brand": "Prep test G1",
+  "lang": "pa",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਨਿਸ਼ਾਨ ਕੀ ਦਰਸਾਉਂਦਾ ਹੈ?",
+  "choices": [
+    "ਖੱਬੇ ਮੋੜ ਸਿਰਫ਼ ਰਾਤ ਨੂੰ ਮਨਜ਼ੂਰ ਹਨ",
+    "ਕਿਸੇ ਵੀ ਵੇਲੇ ਖੱਬੇ ਮੋੜ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ",
+    "ਅੱਗੇ ਖੱਬੇ ਮੋੜ ਲਈ ਲੇਨ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ",
+    "ਸਾਵਧਾਨੀ ਨਾਲ ਯੂ-ਟਰਨ ਮਨਜ਼ੂਰ ਹਨ"
+  ],
+  "correctIndex": 1,
+  "explanation": "ਲਾਲ ਗੋਲ ਚਿੰਨ੍ਹ 'ਤੇ ਤਿਰਛੀ ਲਾਈਨ ਹਮੇਸ਼ਾ ਮਨਾਹੀ ਦੱਸਦੀ ਹੈ। ਖੱਬੇ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਤੀਰ ਜਿਸ 'ਤੇ ਲਾਈਨ ਹੈ, ਇਸਦਾ ਮਤਲਬ ਖੱਬੇ ਮੋੜ ਮਨਾਹੀ ਹਨ।",
+  "image": "/signs/no-left-turn.jpg",
+  "notes": "Original question aligned to Ontario signage."
+},
+{
+  "id": "q-stop-complete-2",
+  "brand": "Prep test G1",
+  "lang": "pa",
+  "category": "rules-of-the-road",
+  "question": "ਸਟਾਪ ਸਾਈਨ 'ਤੇ, ਜੇ ਸਟਾਪ ਲਾਈਨ ਬਣੀ ਹੋਈ ਹੋਵੇ ਤਾਂ ਤੁਹਾਨੂੰ ਕਿੱਥੇ ਰੁਕਣਾ ਚਾਹੀਦਾ ਹੈ?",
+  "choices": [
+    "ਚੌਰਾਹੇ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵੀ ਥਾਂ",
+    "ਸਟਾਪ ਸਾਈਨ ਦੇ ਖੰਭੇ ਦੇ ਕੋਲ",
+    "ਪੇਂਟ ਕੀਤੀ ਸਟਾਪ ਲਾਈਨ 'ਤੇ",
+    "ਵਧੀਆ ਵੇਖਣ ਲਈ ਚੌਰਾਹੇ ਵਿੱਚ ਅੱਧ ਵਿਚਕਾਰ"
+  ],
+  "correctIndex": 2,
+  "explanation": "ਤੁਹਾਨੂੰ ਪੇਂਟ ਕੀਤੀ ਸਟਾਪ ਲਾਈਨ 'ਤੇ ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਜੇ ਸਟਾਪ ਲਾਈਨ ਨਹੀਂ, ਤਾਂ ਪੈਦਲ ਪਾਰ ਕਰਨ ਵਾਲੀ ਲਾਈਨ 'ਤੇ ਰੁਕੋ; ਜੇ ਉਹ ਵੀ ਨਹੀਂ, ਤਾਂ ਫੁੱਟਪਾਥ ਦੇ ਕਿਨਾਰੇ; ਜੇ ਉਹ ਵੀ ਨਹੀਂ, ਤਾਂ ਚੌਰਾਹੇ ਦੇ ਕਿਨਾਰੇ ਰੁਕੋ।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Stopping",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+    }
+  ],
+  "image": "/signs/q-1-stop-painted-line.png",
+  "notes": "Original question authored for this app. We do not copy third-party practice tests."
+},
+{
+  "id": "q-bike-warning-3",
+  "brand": "Prep test G1",
+  "lang": "pa",
+  "category": "signs-regulatory",
+  "question": "ਅੱਗੇ ਇਹ ਨਿਸ਼ਾਨ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ। ਇਹ ਤੁਹਾਨੂੰ ਕਿਸ ਬਾਰੇ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ?",
+  "choices": [
+    "ਇਸ ਸੜਕ 'ਤੇ ਸਾਈਕਲ ਮਨਾਹੀ ਹਨ",
+    "ਸਾਈਕਲ ਸਵਾਰਾਂ ਦੀ ਉਮੀਦ ਰੱਖੋ; ਸਾਈਕਲ ਟ੍ਰੈਫਿਕ ਸੜਕ ਸਾਂਝੀ ਕਰ ਸਕਦਾ ਜਾਂ ਲੰਘ ਸਕਦਾ ਹੈ",
+    "ਸਾਂਝੀ ਵਰਤੋਂ ਦਾ ਰਸਤਾ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ; ਮੋਟਰ ਵਾਹਨਾਂ ਨੂੰ ਰੁਕਣਾ ਚਾਹੀਦਾ ਹੈ",
+    "ਸਾਈਕਲ ਲੇਨ ਖਤਮ ਹੁੰਦੀ ਹੈ; ਤੁਰੰਤ ਸੱਜੇ ਮਿਲੋ"
+  ],
+  "correctIndex": 1,
+  "explanation": "ਪੀਲੇ ਹੀਰੇ ਵਿੱਚ ਸਾਈਕਲ ਦਾ ਚਿੰਨ੍ਹ ਚੇਤਾਵਨੀ ਨਿਸ਼ਾਨ ਹੁੰਦਾ ਹੈ ਜੋ ਸਾਈਕਲ ਸਵਾਰਾਂ ਲਈ ਸਾਵਧਾਨ ਰਹਿਣ ਅਤੇ ਲੋੜ ਪੈਣ 'ਤੇ ਗਤੀ ਘਟਾਉਣ ਜਾਂ ਰਸਤਾ ਦੇਣ ਲਈ ਕਹਿੰਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+    }
+  ],
+  "image": "/signs/bike-lane.jpg",
+  "notes": "Original question aligned to Ontario warning sign conventions."
+},
+{
+  "id": "q-drink-drive-first-offence-4",
+  "brand": "Prep test G1",
+  "lang": "pa",
+  "category": "alcohol-and-driving",
+  "question": "ਪਹਿਲੀ ਵਾਰ ਨਸ਼ੇ ਵਿੱਚ ਗੱਡੀ ਚਲਾਉਣ ਦੀ ਸਜ਼ਾ ਮਿਲਣ ਤੋਂ ਬਾਅਦ ਲਾਇਸੈਂਸ ਕਿੰਨੇ ਸਮੇਂ ਲਈ ਸਸਪੈਂਡ ਹੁੰਦਾ ਹੈ?",
+  "choices": [
+    "1 ਮਹੀਨਾ",
+    "3 ਮਹੀਨੇ",
+    "6 ਮਹੀਨੇ",
+    "1 ਸਾਲ"
+  ],
+  "correctIndex": 3,
+  "explanation": "ਨਸ਼ੇ ਵਿੱਚ ਗੱਡੀ ਚਲਾਉਣ ਦੀ ਪਹਿਲੀ ਸਜ਼ਾ ਨਾਲ ਇੱਕ ਸਾਲ ਲਈ ਲਾਇਸੈਂਸ ਸਸਪੈਂਡ ਹੁੰਦਾ ਹੈ, ਇਸਦੇ ਨਾਲ ਜੁਰਮਾਨੇ ਅਤੇ ਲਾਜ਼ਮੀ ਸਿੱਖਿਆ ਪ੍ਰੋਗਰਾਮ ਵਰਗੀਆਂ ਹੋਰ ਸਜ਼ਾਵਾਂ ਵੀ ਹੁੰਦੀਆਂ ਹਨ।",
+  "image": "/signs/q-blood-alcohol.png"
+},
+{
+  "id": "q-do-not-enter-5",
+  "brand": "Prep test G1",
+  "lang": "pa",
+  "category": "signs-regulatory",
+  "question": "ਤੁਸੀਂ ਇਹ ਨਿਸ਼ਾਨ ਸੜਕ ਦੇ ਦਾਖਲੇ 'ਤੇ ਵੇਖਦੇ ਹੋ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+  "choices": [
+    "ਹੌਲੀ ਚੱਲੋ ਅਤੇ ਸੱਜੇ ਰਹੋ",
+    "ਸਿਰਫ਼ ਹਲਕੀ ਟ੍ਰੈਫਿਕ ਹੋਣ 'ਤੇ ਦਾਖਲ ਹੋਵੋ",
+    "ਦਾਖਲ ਨਾ ਹੋਵੋ — ਇਹ ਸੜਕ ਉਲਟੀ ਦਿਸ਼ਾ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਲਈ ਹੈ",
+    "ਰੁਕੋ ਅਤੇ ਫਿਰ ਰਸਤਾ ਸਾਫ਼ ਹੋਣ 'ਤੇ ਚੱਲੋ"
+  ],
+  "correctIndex": 2,
+  "explanation": "ਲਾਲ ਗੋਲ ਵਿੱਚ ਸਫ਼ੈਦ ਹੋਰਿਜ਼ਾਂਟਲ ਲਾਈਨ ਦਾ ਮਤਲਬ ਹੈ ਦਾਖਲ ਨਾ ਹੋਵੋ — ਤੁਸੀਂ ਉਲਟੀ ਦਿਸ਼ਾ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਦੇ ਸਾਹਮਣੇ ਹੋ (ਜਿਵੇਂ ਇੱਕ-ਤਰਫ਼ਾ ਸੜਕ ਦੇ ਗਲਤ ਪਾਸੇ)।",
+  "sources": [
+    {
+      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
+      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
+    }
+  ],
+  "image": "/signs/no-entry.jpg",
+  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+},
 
