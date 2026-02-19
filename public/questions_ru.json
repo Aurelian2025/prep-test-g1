@@ -884,4 +884,119 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Жёлтый ромбовидный знак, показывающий сужение, означает:",
+    "choices": [
+      "Впереди широкий мост",
+      "Дорога сужается или впереди узкий мост; будьте готовы снизить скорость и проявлять осторожность",
+      "Впереди дорога расширяется",
+      "Начинается разделённое шоссе"
+    ],
+    "correctIndex": 1,
+    "explanation": "Предупреждающий знак о сужении дороги или узком мосте означает, что полосы могут стать уже; снизьте скорость и проезжайте с осторожностью.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Жёлтый ромбовидный знак, на котором линия разделяется вокруг центрального элемента, означает:",
+    "choices": [
+      "Впереди двустороннее движение",
+      "Начинается разделённое шоссе; держитесь правой стороны от разделительной полосы",
+      "Разделённое шоссе заканчивается",
+      "Обгон разрешён в обоих направлениях"
+    ],
+    "correctIndex": 1,
+    "explanation": "Знак предупреждает, что начинается разделённое шоссе, и вы должны держаться правой стороны от разделительной полосы или барьера.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Что означает этот знак ограничения скорости?",
+    "choices": [
+      "Максимально разрешённая скорость — 40 км/ч",
+      "Вы должны ехать строго 40 км/ч в любое время",
+      "Минимальная скорость — 40 км/ч",
+      "Ограничение скорости изменится на 40 км/ч через 40 метров"
+    ],
+    "correctIndex": 0,
+    "explanation": "Белый прямоугольный знак с чёрными цифрами показывает максимальную законную скорость в километрах в час при идеальных условиях движения.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Вы видите этот знак у въезда на дорогу. Что он означает?",
+    "choices": [
+      "Велосипеды на этой дороге запрещены",
+      "Велосипедисты должны ехать по тротуару",
+      "Здесь начинается велосипедная дорожка",
+      "У велосипедов есть преимущество"
+    ],
+    "correctIndex": 0,
+    "explanation": "Символ велосипеда внутри красного круга с косой чертой означает, что велосипеды запрещены на этой дороге или в данной зоне.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Что этот знак сообщает водителям о парковке?",
+    "choices": [
+      "Парковка запрещена там, где действует этот знак",
+      "Парковка разрешена только на 10 минут",
+      "Парковка разрешена только ночью",
+      "Остановка запрещена в любое время"
+    ],
+    "correctIndex": 0,
+    "explanation": "Красный круг с косой чертой через букву P — это регулирующий знак, означающий запрет парковки в данной зоне или между указанными стрелками.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
