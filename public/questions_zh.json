@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "这里执行的是哪项环境规定？",
+  "choices": [
+    "发动机怠速不得超过3分钟",
+    "发动机必须保持开启",
+    "仅在冬季允许怠速",
+    "柴油车辆免于此规定"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志限制发动机怠速时间，以减少排放和污染。",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "该标志指向哪个目的地？",
+  "choices": [
+    "机场通道",
+    "渡轮码头",
+    "军事基地",
+    "火车站"
+  ],
+  "correctIndex": 0,
+  "explanation": "飞机图标指引驾驶员前往机场设施。",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "该符号向其他驾驶员提供什么信息？",
+  "choices": [
+    "驾驶员是新手或缺乏经验",
+    "车辆行驶缓慢",
+    "该车仅用于教学",
+    "车辆正在维修"
+  ],
+  "correctIndex": 0,
+  "explanation": "“N”标志表示新手驾驶员，并提醒他人保持耐心。",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "该手势表示什么意图？",
+  "choices": [
+    "左转",
+    "右转",
+    "停车",
+    "让行"
+  ],
+  "correctIndex": 0,
+  "explanation": "手臂水平伸出表示驾驶员打算左转。",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "驾驶员必须做出什么动作？",
+  "choices": [
+    "右转",
+    "直行",
+    "左转",
+    "掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "该标志要求所有车辆在指定地点右转。",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
