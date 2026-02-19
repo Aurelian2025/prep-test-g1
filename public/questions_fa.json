@@ -1113,4 +1113,118 @@
     ],
     "image": "/signs/q-water-over-road.png"
   },
+{
+  "id": "q-falling-rocks-51",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "رانندگان باید نسبت به چه خطری هوشیار باشند؟",
+  "choices": [
+    "سقوط سنگ‌ها در نزدیکی جاده",
+    "شن و ماسه سست روی سطح جاده",
+    "عملیات انفجار",
+    "سطح جاده ناهموار"
+  ],
+  "correctIndex": 0,
+  "explanation": "این علامت درباره احتمال ریزش سنگ یا سقوط آوار از شیب‌های اطراف هشدار می‌دهد.",
+  "sources": [
+    {
+      "title": "Rockfall Hazard Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-falling-rocks.png"
+},
+
+{
+  "id": "q-two-way-traffic-ahead-52",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "این علامت درباره چه تغییری در جریان ترافیک هشدار می‌دهد؟",
+  "choices": [
+    "وسایل نقلیه در هر دو جهت حرکت خواهند کرد",
+    "خیابان یک‌طرفه آغاز می‌شود",
+    "بزرگراه جداشده آغاز می‌شود",
+    "خطوط سبقت افزایش می‌یابد"
+  ],
+  "correctIndex": 0,
+  "explanation": "فلش‌های روبه‌رو به رانندگان هشدار می‌دهند که در جلو ترافیک مقابل وجود خواهد داشت.",
+  "sources": [
+    {
+      "title": "Two-Way Traffic Warnings",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+
+{
+  "id": "q-hand-signal-slow-stop-53",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "راننده با این علامت دست چه اقدامی را نشان می‌دهد؟",
+  "choices": [
+    "کاهش سرعت یا توقف",
+    "پیچیدن به چپ",
+    "پیچیدن به راست",
+    "تغییر خط حرکت"
+  ],
+  "correctIndex": 0,
+  "explanation": "بازوی اشاره‌کننده به پایین نشان می‌دهد که راننده قصد کاهش سرعت یا توقف را دارد.",
+  "sources": [
+    {
+      "title": "Hand Signals — Ontario Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+
+{
+  "id": "q-reserved-lane-bicycles-54",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "چه کسانی می‌توانند از خط مشخص‌شده توسط این علامت استفاده کنند؟",
+  "choices": [
+    "فقط دوچرخه‌ها",
+    "تمام وسایل نقلیه موتوری",
+    "اتوبوس‌ها و تاکسی‌ها",
+    "فقط وسایل نقلیه اضطراری"
+  ],
+  "correctIndex": 0,
+  "explanation": "نماد و فلش نشان می‌دهد که خط جلو به طور اختصاصی برای دوچرخه‌ها تعیین شده است.",
+  "sources": [
+    {
+      "title": "Reserved Lane Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-reserved-lane-bicycles.png"
+},
+
+{
+  "id": "q-parking-30-min-55",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "چه قانون پارکینگی در این منطقه اعمال می‌شود؟",
+  "choices": [
+    "پارک کردن مجاز است اما به 30 دقیقه محدود می‌شود",
+    "پارک کردن در همه اوقات ممنوع است",
+    "فقط وسایل نقلیه اضطراری می‌توانند پارک کنند",
+    "پارک کردن بدون محدودیت است"
+  ],
+  "correctIndex": 0,
+  "explanation": "این علامت پارک کردن را مجاز می‌داند اما مدت زمانی را که وسیله نقلیه می‌تواند در ساعات اعلام‌شده بماند محدود می‌کند.",
+  "sources": [
+    {
+      "title": "Parking Time Limits",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-parking-30-min.png"
+},
 
