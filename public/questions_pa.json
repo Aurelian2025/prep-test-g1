@@ -553,4 +553,116 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "ਇੱਕ ਸਕੂਲ ਕ੍ਰਾਸਿੰਗ ਗਾਰਡ ਲਾਲ ਅਤੇ ਚਿੱਟੇ ਰੰਗ ਦੀ ਰੁਕੋ ਨਿਸ਼ਾਨੀ ਫੜ ਕੇ ਸੜਕ 'ਤੇ ਆ ਜਾਂਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਜੇ ਕ੍ਰਾਸਵਾਕ 'ਤੇ ਬੱਚੇ ਨਹੀਂ ਹਨ ਤਾਂ ਗਤੀ ਘਟਾਓ ਅਤੇ ਧਿਆਨ ਨਾਲ ਲੰਘੋ",
+      "ਰੁਕੋ, ਫਿਰ ਅੱਗੇ ਵਧੋ ਜੇ ਗਾਰਡ ਸਿਰਫ਼ ਬੱਚਿਆਂ ਨੂੰ ਪਾਰ ਕਰਨ ਲਈ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ",
+      "ਕ੍ਰਾਸਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਰੁਕੋ ਅਤੇ ਰੁਕੇ ਰਹੋ ਜਦ ਤੱਕ ਸਾਰੇ ਲੋਕ, ਗਾਰਡ ਸਮੇਤ, ਪੂਰੀ ਸੜਕ ਖਾਲੀ ਨਹੀਂ ਕਰ ਲੈਂਦੇ ਅਤੇ ਅੱਗੇ ਵਧਣਾ ਸੁਰੱਖਿਅਤ ਨਾ ਹੋਵੇ",
+      "ਹਾਰਨ ਵਜਾਓ ਅਤੇ ਅੱਗੇ ਵਧੋ"
+    ],
+    "correctIndex": 2,
+    "explanation": "ਤੁਹਾਨੂੰ ਕ੍ਰਾਸਿੰਗ ਤੱਕ ਪਹੁੰਚਣ ਤੋਂ ਪਹਿਲਾਂ ਰੁਕਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਰੁਕੇ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ ਜਦ ਤੱਕ ਸਾਰੇ ਲੋਕ—ਸਕੂਲ ਕ੍ਰਾਸਿੰਗ ਗਾਰਡ ਸਮੇਤ—ਪੂਰੀ ਸੜਕ ਖਾਲੀ ਨਹੀਂ ਕਰ ਲੈਂਦੇ ਅਤੇ ਅੱਗੇ ਵਧਣਾ ਸੁਰੱਖਿਅਤ ਨਾ ਹੋਵੇ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇੱਕ ਆਯਾਤਾਕਾਰ ਨਿਸ਼ਾਨ ਜਿਸ 'ਤੇ ਟ੍ਰੈਫਿਕ ਆਇਲੈਂਡ ਦੇ ਆਲੇ ਦੁਆਲੇ ਮੁੜਦਾ ਤੀਰ ਅਤੇ 'KEEP RIGHT' ਸ਼ਬਦ ਹਨ, ਦਾ ਕੀ ਅਰਥ ਹੈ:",
+    "choices": [
+      "ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਪਾਸੇ ਤੋਂ ਲੰਘ ਸਕਦੇ ਹੋ",
+      "ਟ੍ਰੈਫਿਕ ਨੂੰ ਆਇਲੈਂਡ ਜਾਂ ਰੁਕਾਵਟ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹਿਣਾ ਲਾਜ਼ਮੀ ਹੈ",
+      "ਸਿਰਫ਼ ਖੱਬੇ ਮੁੜਨਾ",
+      "ਸੱਜੇ ਮੁੜਨਾ ਮਨਾਹੀ ਹੈ"
+    ],
+    "correctIndex": 1,
+    "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਟ੍ਰੈਫਿਕ ਆਇਲੈਂਡ ਜਾਂ ਰੁਕਾਵਟ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "YIELD ਨਿਸ਼ਾਨ ਦੇ ਨੇੜੇ ਪਹੁੰਚਦੇ ਸਮੇਂ ਅਤੇ ਕ੍ਰਾਸ ਟ੍ਰੈਫਿਕ ਮੌਜੂਦ ਹੋਵੇ ਤਾਂ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਜੇ ਤੁਸੀਂ ਸਿਗਨਲ ਦਿੰਦੇ ਹੋ ਤਾਂ ਬਿਨਾਂ ਰੁਕੇ ਅੱਗੇ ਵਧੋ",
+      "ਗਤੀ ਘਟਾਓ, ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ ਅਤੇ ਟ੍ਰੈਫਿਕ ਅਤੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਰਸਤਾ ਦਿਓ; ਲੋੜ ਪਏ ਤਾਂ ਰੁਕੋ",
+      "ਹਮੇਸ਼ਾ ਘੱਟੋ-ਘੱਟ ਤਿੰਨ ਸਕਿੰਟ ਲਈ ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕੋ",
+      "ਹੋਰ ਵਾਹਨਾਂ ਤੋਂ ਪਹਿਲਾਂ ਮਿਲਣ ਲਈ ਤੇਜ਼ੀ ਕਰੋ"
+    ],
+    "correctIndex": 1,
+    "explanation": "YIELD ਨਿਸ਼ਾਨ ਦਾ ਅਰਥ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ, ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹਿਣਾ ਅਤੇ ਜਿਸ ਸੜਕ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ ਰਹੇ ਹੋ ਉਸ ਦੇ ਟ੍ਰੈਫਿਕ ਅਤੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਰਸਤਾ ਦੇਣਾ ਹੈ। ਲੋੜ ਪਏ ਤਾਂ ਰੁਕੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਅੱਗੇ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕਿਸ ਲਈ ਤਿਆਰ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ?",
+  "choices": [
+    "ਇੱਕ ਪੁਲ ਜੋ ਕਿਸ਼ਤੀਆਂ ਨੂੰ ਲੰਘਣ ਦੇਣ ਲਈ ਖੁਲ ਸਕਦਾ ਹੈ",
+    "ਇੱਕ ਸਦਾ ਲਈ ਬੰਦ ਪੁਲ",
+    "ਫੈਰੀ ਕ੍ਰਾਸਿੰਗ",
+    "ਸੜਕ ਨਿਰਮਾਣ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ ਕਿ ਇੱਕ ਚਲਣਯੋਗ ਪੁਲ ਖੁਲ ਸਕਦਾ ਹੈ, ਜਿਸ ਕਰਕੇ ਵਾਹਨਾਂ ਨੂੰ ਰੁਕ ਕੇ ਉਡੀਕ ਕਰਨੀ ਪੈ ਸਕਦੀ ਹੈ।",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "ਜਦੋਂ ਪੁਲਿਸ ਅਫਸਰ ਸੰਕੇਤ ਕਰੇ ਜਾਂ ਰੁਕਣ ਲਈ ਕਹੇ ਅਤੇ ਤੁਸੀਂ ਨਾ ਰੁਕੋ ਤਾਂ ਕਿੰਨੇ ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ?",
+  "choices": [
+    "3 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "5 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "7 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ",
+    "9 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ"
+  ],
+  "correctIndex": 2,
+  "explanation": "ਜਦੋਂ ਪੁਲਿਸ ਅਫਸਰ ਸੰਕੇਤ ਕਰੇ ਜਾਂ ਰੁਕਣ ਲਈ ਕਹੇ ਅਤੇ ਤੁਸੀਂ ਨਾ ਰੁਕੋ ਤਾਂ 7 ਡੀਮੇਰਿਟ ਪੁਆਇੰਟ ਲੱਗਦੇ ਹਨ।",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
 
