@@ -1955,3 +1955,69 @@
     "explanation": "Les panneaux d’interdiction de stationner permettent de courts arrêts pour prendre ou déposer des passagers ou des marchandises. Les panneaux d’interdiction d’arrêt ne permettent pas d’arrêter votre véhicule du tout, sauf pour respecter la signalisation.",
       "image": "/signs/no-parking.jpg"
   },
+{
+  "id": "q-bus-rail-106",
+  "question": "Un conducteur d’autobus qui ne s’arrête pas à un passage à niveau non protégé reçoit combien de points d’inaptitude?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Les conducteurs d’autobus doivent s’arrêter aux passages à niveau non protégés; ne pas le faire entraîne 5 points.",
+  "image": "/signs/q-bus-rail-106.png"
+},
+  {
+    "id": "q-rules-no-entry-oneway-107",
+    "question": "Vous approchez ce panneau SENS INTERDIT à la fin d’une rue. Que vous indique-t-il au sujet de cette route?",
+    "choices": [
+      "La route est à sens unique en direction de vous; vous ne devez pas entrer",
+      "La route est fermée seulement la nuit",
+      "Vous pouvez entrer mais devez tourner à gauche immédiatement",
+      "C’est seulement une suggestion d’utiliser un autre itinéraire"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les panneaux sens interdit signifient que vous faites face au mauvais sens de circulation pour cette route ou cette voie. Vous ne devez pas vous y engager.",
+      "image": "/signs/do-not-enter.jpg"
+  },
+  {
+  "id": "q-speed-50plus-108",
+  "question": "Combien de points d’inaptitude sont attribués pour avoir dépassé la limite affichée de 50 km/h ou plus?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Dépasser la limite de 50 km/h ou plus entraîne 6 points d’inaptitude.",
+  "image": "/signs/q-speed-50plus-108.png"
+},
+  {
+    "id": "q-alcohol-109",
+    "question": "Si un conducteur de moins de 21 ans a la moindre trace d’alcool dans son organisme en conduisant, il :",
+    "choices": [
+      "Peut recevoir seulement un avertissement",
+      "Est assujetti à la tolérance zéro et à une suspension de permis",
+      "Peut continuer s’il est accompagné d’un adulte",
+      "Est exempté les fins de semaine"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Ontario exige un taux d’alcoolémie de zéro pour les conducteurs de moins de 21 ans et pour les conducteurs novices (G1/G2).",
+    "image": "/signs/q-28-impaired-driver.png"
+  },
+
+  {
+    "id": "q-rules-no-stopping-like-sign-110",
+    "question": "Un autre panneau montre un cercle rouge avec une barre oblique sur un symbole d’arrêt. En quoi est-il différent de ce panneau d’interdiction de stationner?",
+    "choices": [
+      "Interdiction d’arrêt signifie que vous ne pouvez pas arrêter votre véhicule du tout, même brièvement",
+      "Interdiction d’arrêt signifie que le stationnement est permis seulement la nuit",
+      "Interdiction d’arrêt et interdiction de stationner signifient exactement la même chose",
+      "Interdiction d’arrêt s’applique seulement aux bicyclettes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les panneaux d’interdiction de stationner permettent de courts arrêts pour embarquer ou débarquer des passagers ou des marchandises. Les panneaux d’interdiction d’arrêt ne permettent pas d’arrêter votre véhicule du tout, sauf pour obéir à la signalisation.",
+      "image": "/signs/no-parking.jpg"
+  },
