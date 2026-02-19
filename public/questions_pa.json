@@ -210,4 +210,118 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇੱਥੇ ਕਿਹੜਾ ਵਾਤਾਵਰਣੀ ਨਿਯਮ ਲਾਗੂ ਕੀਤਾ ਗਿਆ ਹੈ?",
+  "choices": [
+    "ਇੰਜਨਾਂ ਨੂੰ 3 ਮਿੰਟ ਤੋਂ ਵੱਧ ਆਇਡਲ ਨਹੀਂ ਰਹਿਣਾ ਚਾਹੀਦਾ",
+    "ਇੰਜਨ ਚਾਲੂ ਰਹਿਣੇ ਚਾਹੀਦੇ ਹਨ",
+    "ਆਇਡਲਿੰਗ ਸਿਰਫ਼ ਸਰਦੀ ਵਿੱਚ ਮਨਜ਼ੂਰ ਹੈ",
+    "ਡੀਜ਼ਲ ਵਾਹਨ ਇਸ ਤੋਂ ਮੁਕਤ ਹਨ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਸਾਈਨ ਇੰਜਨ ਦੇ ਆਇਡਲ ਸਮੇਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦਾ ਹੈ ਤਾਂ ਜੋ ਉਤਸਰਜਨ ਅਤੇ ਪ੍ਰਦੂਸ਼ਣ ਘਟ ਸਕੇ।",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਸਾਈਨ ਕਿਹੜੀ ਮੰਜ਼ਿਲ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ?",
+  "choices": [
+    "ਹਵਾਈ ਅੱਡੇ ਵੱਲ ਜਾਣ ਦਾ ਰਸਤਾ",
+    "ਫੈਰੀ ਟਰਮੀਨਲ",
+    "ਸੈਨਿਕ ਅੱਡਾ",
+    "ਰੇਲਵੇ ਸਟੇਸ਼ਨ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਹਵਾਈ ਜਹਾਜ਼ ਦਾ ਨਿਸ਼ਾਨ ਡਰਾਈਵਰਾਂ ਨੂੰ ਹਵਾਈ ਅੱਡੇ ਦੀਆਂ ਸਹੂਲਤਾਂ ਵੱਲ ਦਿਸ਼ਾ ਦਿੰਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਚਿੰਨ੍ਹ ਹੋਰ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕਿਹੜੀ ਜਾਣਕਾਰੀ ਦਿੰਦਾ ਹੈ?",
+  "choices": [
+    "ਡਰਾਈਵਰ ਨਵਾਂ ਜਾਂ ਅਨੁਭਵਹੀਣ ਹੈ",
+    "ਵਾਹਨ ਹੌਲੀ ਚੱਲ ਰਿਹਾ ਹੈ",
+    "ਕਾਰ ਸਿਰਫ਼ ਸਿਖਲਾਈ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ",
+    "ਵਾਹਨ ਮੁਰੰਮਤ ਹੇਠ ਹੈ"
+  ],
+  "correctIndex": 0,
+  "explanation": "‘N’ ਚਿੰਨ੍ਹ ਨਵੀਂ ਡਰਾਈਵਰ ਦੀ ਪਹਿਚਾਣ ਕਰਦਾ ਹੈ ਅਤੇ ਹੋਰਨਾਂ ਨੂੰ ਧੀਰਜ ਰੱਖਣ ਲਈ ਪ੍ਰੇਰਿਤ ਕਰਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਹ ਹੱਥ ਦਾ ਸੰਕੇਤ ਕਿਹੜੀ ਮੰਸ਼ਾ ਦਿਖਾਉਂਦਾ ਹੈ?",
+  "choices": [
+    "ਖੱਬੇ ਵੱਲ ਮੁੜਨਾ",
+    "ਸੱਜੇ ਵੱਲ ਮੁੜਨਾ",
+    "ਰੁਕਣਾ",
+    "ਰਾਹ ਦੇਣਾ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਸਿੱਧਾ ਬਾਹਰ ਕੀਤਾ ਹੋਇਆ ਬਾਂਹ ਡਰਾਈਵਰ ਦੇ ਖੱਬੇ ਵੱਲ ਮੁੜਣ ਦੇ ਇਰਾਦੇ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਡਰਾਈਵਰਾਂ ਨੂੰ ਕਿਹੜੀ ਚਾਲ ਕਰਨੀ ਲਾਜ਼ਮੀ ਹੈ?",
+  "choices": [
+    "ਸੱਜੇ ਵੱਲ ਮੁੜੋ",
+    "ਸਿੱਧਾ ਜਾਓ",
+    "ਖੱਬੇ ਵੱਲ ਮੁੜੋ",
+    "ਯੂ-ਟਰਨ ਕਰੋ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਇਹ ਸਾਈਨ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਸਾਰੇ ਵਾਹਨਾਂ ਨੂੰ ਦਰਸਾਈ ਗਈ ਥਾਂ ‘ਤੇ ਸੱਜੇ ਵੱਲ ਮੁੜਨਾ ਲਾਜ਼ਮੀ ਹੈ।",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
 
