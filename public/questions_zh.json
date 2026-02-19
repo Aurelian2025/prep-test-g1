@@ -775,4 +775,113 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "有标志警告“桥面比道路先结冰”。你应该怎么做？",
+    "choices": [
+      "加速快速通过",
+      "在桥前急刹车",
+      "减速并在桥上避免突然动作",
+      "在道路中央行驶"
+    ],
+    "correctIndex": 2,
+    "explanation": "桥面会先结冰。降低车速，并在桥上避免急刹车或突然转向。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在湿滑道路上，轮胎开始打滑（滑水）。你应该怎么做？",
+    "choices": [
+      "猛踩刹车并急转方向",
+      "松开油门并保持方向盘直至恢复抓地力",
+      "加速以恢复抓地力",
+      "来回转动方向盘以甩掉水"
+    ],
+    "correctIndex": 1,
+    "explanation": "松开油门并保持车轮直行，直到恢复抓地力。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "在转弯或变道前，应提前多远打转向灯？",
+    "choices": [
+      "至少30米（100英尺）",
+      "在转动方向盘时",
+      "提前五个车长",
+      "只有当后面有车时"
+    ],
+    "correctIndex": 0,
+    "explanation": "应提前打转向灯——在转弯或变道前至少30米（100英尺）。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "什么时候应该使用喇叭？",
+    "choices": [
+      "向朋友打招呼",
+      "提醒他人可能的危险",
+      "当信号灯变绿时",
+      "当对其他司机生气时"
+    ],
+    "correctIndex": 1,
+    "explanation": "只有在必要时为避免碰撞而提醒他人时才使用喇叭。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "赛车行为会被记多少扣分？",
+  "choices": [
+    "3 分扣分",
+    "4 分扣分",
+    "6 分扣分",
+    "7 分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "赛车行为会被记 6 分扣分。",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
