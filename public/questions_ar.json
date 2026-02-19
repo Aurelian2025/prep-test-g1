@@ -210,3 +210,117 @@
   "image": "/signs/q-11-roundabout.jpg",
   "notes": "Original question aligned to the roundabout entry/yield rules."
 },
+{
+  "id": "q-no-idling-3min-11",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما القاعدة البيئية المطبقة هنا؟",
+  "choices": [
+    "يجب ألا تبقى المحركات في وضع الخمول لأكثر من 3 دقائق",
+    "يجب أن تبقى المحركات قيد التشغيل",
+    "يُسمح بوضع الخمول فقط في الشتاء",
+    "المركبات التي تعمل بالديزل مستثناة"
+  ],
+  "correctIndex": 0,
+  "explanation": "تحدد هذه العلامة مدة خمول المحرك لتقليل الانبعاثات والتلوث.",
+  "sources": [
+    {
+      "title": "Anti-Idling Regulations",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-idling-3min.png"
+},
+
+{
+  "id": "q-airport-ahead-12",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "إلى أي وجهة تشير هذه العلامة؟",
+  "choices": [
+    "طريق الوصول إلى المطار",
+    "محطة عبّارات",
+    "قاعدة عسكرية",
+    "محطة قطار"
+  ],
+  "correctIndex": 0,
+  "explanation": "يرشد رمز الطائرة السائقين نحو مرافق المطار.",
+  "sources": [
+    {
+      "title": "Guide Signs — Transportation",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-airport-ahead.png"
+},
+
+{
+  "id": "q-novice-driver-n-13",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما المعلومات التي يقدمها هذا الرمز للسائقين الآخرين؟",
+  "choices": [
+    "السائق جديد أو قليل الخبرة",
+    "المركبة تسير ببطء",
+    "السيارة مخصصة للتعليم فقط",
+    "المركبة قيد الإصلاح"
+  ],
+  "correctIndex": 0,
+  "explanation": "يشير رمز «N» إلى سائق مبتدئ ويشجع الآخرين على التحلي بالصبر.",
+  "sources": [
+    {
+      "title": "Graduated Licensing Identification",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-novice-driver.png"
+},
+
+{
+  "id": "q-hand-signal-left-turn-14",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما النية التي تُظهرها إشارة اليد هذه؟",
+  "choices": [
+    "الانعطاف إلى اليسار",
+    "الانعطاف إلى اليمين",
+    "التوقف",
+    "إعطاء الأفضلية"
+  ],
+  "correctIndex": 0,
+  "explanation": "يشير مدّ الذراع بشكل مستقيم إلى نية السائق الانعطاف إلى اليسار.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-left-turn.png"
+},
+
+{
+  "id": "q-mandatory-right-turn-15",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ما الحركة التي يجب على السائقين القيام بها؟",
+  "choices": [
+    "الانعطاف إلى اليمين",
+    "المتابعة إلى الأمام",
+    "الانعطاف إلى اليسار",
+    "القيام بدوران على شكل U"
+  ],
+  "correctIndex": 0,
+  "explanation": "تُلزم هذه العلامة جميع المركبات بالانعطاف إلى اليمين في الموقع المحدد.",
+  "sources": [
+    {
+      "title": "Mandatory Direction Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-mandatory-right-turn.png"
+},
