@@ -775,5 +775,114 @@
   "sources": [],
   "image": "/signs/q-demerit-careless-driving-125.png"
 },
+{
+    "id": "q-icy-bridge-36",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Un panneau avertit « Le pont gèle avant la route ». Que devez-vous faire?",
+    "choices": [
+      "Accélérer pour traverser rapidement",
+      "Freiner brusquement avant le pont",
+      "Ralentir et éviter les mouvements brusques sur le pont",
+      "Conduire au centre de la route"
+    ],
+    "correctIndex": 2,
+    "explanation": "Les ponts gèlent en premier. Réduisez votre vitesse et évitez les freinages brusques ou les mouvements soudains du volant sur le pont.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-23-bridge-freezes.png",
+    "notes": "Original winter-safety question."
+  },
+  {
+    "id": "q-hydroplane-37",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Vos pneus commencent à faire de l’aquaplanage sur une route mouillée. Que devez-vous faire?",
+    "choices": [
+      "Freiner brusquement et tourner fortement",
+      "Relâcher l’accélérateur et garder les roues droites jusqu’à ce que l’adhérence revienne",
+      "Accélérer pour retrouver l’adhérence",
+      "Tourner le volant de gauche à droite pour chasser l’eau"
+    ],
+    "correctIndex": 1,
+    "explanation": "Relâchez l’accélérateur et gardez les roues droites jusqu’à ce que l’adhérence revienne.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
+      }
+    ],
+    "image": "/signs/q-24-hydroplaning.png",
+    "notes": "Original safety question."
+  },
+  {
+    "id": "q-turn-signal-38",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "À quelle distance à l’avance devez-vous signaler avant de tourner ou de changer de voie?",
+    "choices": [
+      "Au moins 30 mètres (100 pi)",
+      "Juste au moment de tourner le volant",
+      "À cinq longueurs de voiture",
+      "Seulement lorsqu’un véhicule est derrière vous"
+    ],
+    "correctIndex": 0,
+    "explanation": "Signalez bien à l’avance — au moins 30 mètres (100 pieds) avant de tourner ou de changer de voie.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Changing Directions",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
+      }
+    ],
+    "image": "/signs/q-25-lane-street.jpg",
+    "notes": "Original question; reinforces signaling distance."
+  },
+  {
+    "id": "q-horn-use-39",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Quand devez-vous utiliser votre klaxon?",
+    "choices": [
+      "Pour saluer un ami",
+      "Pour avertir les autres d’un danger possible",
+      "Lorsque le feu passe au vert",
+      "Lorsque vous êtes fâché contre d’autres conducteurs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Utilisez votre klaxon seulement pour avertir les autres lorsque cela est nécessaire afin d’éviter une collision.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
+      }
+    ],
+    "image": "/signs/q-26-horn.png",
+    "notes": "Original question; polite road communication."
+  },
+  {
+  "id": "q-demerit-racing-40",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "La course entraîne combien de points d’inaptitude?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "La course entraîne 6 points d’inaptitude.",
+  "sources": [],
+  "image": "/signs/q-demerit-racing-279.png"
+},
 
 
