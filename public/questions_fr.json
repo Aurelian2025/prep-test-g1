@@ -1556,5 +1556,70 @@
   "explanation": "L’image de pierres tombant d’une falaise avertit les conducteurs de la possibilité de chutes de pierres.",
   "image": "/signs/q-falling-rocks.png"
 },
+{
+  "id": "q-hidden-intersection-81",
+  "question": "Que signifie ce panneau d’avertissement?",
+  "choices": [
+    "Vous approchez d’une intersection cachée où des véhicules peuvent entrer de façon inattendue",
+    "Une aire de repos se trouve juste devant",
+    "Seuls les virages à droite sont permis",
+    "La route devient une rue à sens unique"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau avertit les conducteurs qu’une route secondaire ou une intersection n’est pas facilement visible et exige une prudence accrue.",
+  "image": "/signs/q-hidden-intersection.png"
+},
+  {
+  "id": "q-novice-driver-n-82",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Le véhicule est conduit par un conducteur novice",
+    "Le véhicule ne peut circuler qu’à basse vitesse",
+    "Le véhicule appartient à une école de conduite",
+    "Seuls les nouveaux véhicules peuvent entrer dans cette zone"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un grand « N » indique qu’un conducteur nouveau ou inexpérimenté est au volant et invite les autres à laisser plus d’espace.",
+  "image": "/signs/q-novice-driver.png"
+},
+  {
+  "id": "q-no-stopping-between-arrows-83",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "L’arrêt est permis seulement pour embarquer des passagers",
+    "Aucun arrêt n’est permis entre les flèches",
+    "Le stationnement est permis mais l’arrêt ne l’est pas",
+    "L’arrêt est permis seulement la nuit"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le cercle rouge avec une barre sur le symbole d’arrêt signifie que l’arrêt est interdit partout entre les flèches directionnelles.",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
+  {
+    "id": "q-ped-crossing-84",
+    "question": "Vous voyez ce panneau en conduisant dans une rue de la ville. Que signifie-t-il?",
+    "choices": [
+      "Passage pour piétons à venir",
+      "Aucun piéton au-delà de ce point",
+      "Zone scolaire seulement",
+      "Les piétons doivent céder le passage aux véhicules"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un panneau en losange jaune avec une personne qui marche indique un passage pour piétons. Soyez prêt à ralentir ou à vous arrêter pour les personnes qui traversent la route.",
+    "image": "/signs/pedestrian-crossing.jpg"
+  },
+  {
+  "id": "q-no-stopping-between-arrows-85",
+  "question": "Comment les conducteurs doivent-ils réagir à ce panneau?",
+  "choices": [
+    "Les véhicules peuvent s’arrêter brièvement pour les passagers",
+    "Les conducteurs ne doivent pas s’arrêter entre les flèches indiquées",
+    "Le stationnement est permis pendant les heures creuses",
+    "L’arrêt est permis seulement pour les livraisons"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le symbole indique que l’arrêt est complètement interdit sur la portion de route marquée par les flèches.",
+  "image": "/signs/q-no-stopping-between-arrows.png"
+},
 
 
