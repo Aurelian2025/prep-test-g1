@@ -884,5 +884,120 @@
   "sources": [],
   "image": "/signs/q-demerit-racing-279.png"
 },
+{
+    "id": "q-sign-narrow-bridge-41",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Un panneau jaune en forme de losange montrant un rétrécissement signifie :",
+    "choices": [
+      "Pont large à venir",
+      "La route se rétrécit ou pont étroit à venir; soyez prêt à ralentir et à faire preuve de prudence",
+      "La route s’élargit à venir",
+      "Une autoroute divisée commence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Un panneau avertissant que la route se rétrécit ou qu’un pont étroit approche signifie que les voies peuvent devenir plus étroites; réduisez votre vitesse et passez avec prudence.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original road-narrows sign question."
+  },
+  {
+    "id": "q-sign-divided-highway-42",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Un panneau jaune en forme de losange montrant une ligne se séparant autour d’une forme centrale signifie :",
+    "choices": [
+      "Circulation à double sens à venir",
+      "Une autoroute divisée commence; restez à droite du terre-plein central",
+      "Une autoroute divisée se termine",
+      "Dépassement permis dans les deux sens"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le panneau avertit qu’une autoroute divisée commence et que vous devez rester à droite du terre-plein central ou de la barrière.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-begins.jpg",
+    "notes": "Original divided-highway sign question."
+  },
+  {
+    "id": "q-max-speed-40-43",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que signifie ce panneau de limite de vitesse?",
+    "choices": [
+      "La vitesse maximale permise est de 40 km/h",
+      "Vous devez conduire exactement à 40 km/h en tout temps",
+      "La vitesse minimale est de 40 km/h",
+      "La limite de vitesse passera à 40 km/h dans 40 mètres"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un panneau rectangulaire blanc avec des chiffres noirs indique la vitesse maximale légale en kilomètres par heure dans des conditions de conduite idéales.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/maximum-speed-40.jpg",
+    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+  },
+  {
+    "id": "q-no-bicycles-44",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau à l’entrée d’une route. Que signifie-t-il?",
+    "choices": [
+      "Les bicyclettes ne sont pas autorisées sur cette route",
+      "Les cyclistes doivent circuler sur le trottoir",
+      "Une piste cyclable commence ici",
+      "Les bicyclettes ont la priorité"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un symbole de bicyclette dans un cercle rouge barré signifie que les bicyclettes sont interdites sur cette route ou dans cette zone.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-bicycles.jpg",
+    "notes": "Original no-bicycles question for Prep Test G1."
+  },
+  {
+    "id": "q-no-parking-45",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que dit ce panneau aux conducteurs concernant le stationnement?",
+    "choices": [
+      "Le stationnement n’est pas autorisé là où le panneau s’applique",
+      "Le stationnement est autorisé seulement pour 10 minutes",
+      "Le stationnement est autorisé seulement la nuit",
+      "L’arrêt est interdit en tout temps"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le cercle rouge avec une barre sur la lettre P est un panneau réglementaire signifiant qu’il est interdit de stationner dans la zone ou entre les flèches indiquées.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/no-parking.jpg",
+    "notes": "Original no-parking question; not copied from other practice tests."
+  },
 
 
