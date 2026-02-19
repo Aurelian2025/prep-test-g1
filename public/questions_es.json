@@ -552,3 +552,115 @@
     "image": "/signs/no-passing.jpg",
     "notes": "Original question; ties sign meaning to passing rules."
   },
+{
+    "id": "q-school-crossing-guard-26",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Un guardia escolar de cruce entra en la calzada sosteniendo una señal roja y blanca de STOP. ¿Qué debe hacer usted?",
+    "choices": [
+      "Reducir la velocidad y pasar con cuidado si no hay niños en el cruce peatonal",
+      "Detenerse y luego avanzar si el guardia solo indica a los niños que crucen",
+      "Detenerse antes del cruce y permanecer detenido hasta que todos, incluido el guardia, hayan despejado completamente la calzada y sea seguro avanzar",
+      "Tocar la bocina para alertar a otros y continuar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Debe detenerse antes de llegar al cruce y permanecer detenido hasta que todas las personas, incluido el guardia escolar de cruce, hayan despejado completamente la calzada y sea seguro continuar.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
+      },
+      {
+        "title": "Driving near pedestrian crossovers and school crossings",
+        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
+      }
+    ],
+    "image": "/signs/q-6-school-guard.png",
+    "notes": "Original question; summarizes the rule for school crossings."
+  },
+  {
+    "id": "q-sign-keep-right-island-27",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Una señal rectangular con una flecha que rodea una isla de tráfico y las palabras 'KEEP RIGHT' significa:",
+    "choices": [
+      "Puede pasar por cualquiera de los lados",
+      "El tráfico debe mantenerse a la derecha de la isla u obstrucción",
+      "Solo giros a la izquierda",
+      "Giro a la derecha prohibido"
+    ],
+    "correctIndex": 1,
+    "explanation": "La señal significa que debe mantenerse a la derecha de la isla de tráfico u obstrucción.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Regulatory signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/q-sign-keep-right-island-77.png",
+    "notes": "Original keep-right sign question."
+  },
+  {
+    "id": "q-yield-be-prepared-to-stop-28",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "rules-of-the-road",
+    "question": "Al acercarse a una señal de CEDA EL PASO y hay tráfico cruzado presente. ¿Qué debe hacer?",
+    "choices": [
+      "Continuar sin detenerse si señala",
+      "Reducir la velocidad, estar preparado para detenerse y ceder el derecho de paso al tráfico y a los peatones; detenerse si es necesario",
+      "Siempre hacer una parada completa durante al menos tres segundos",
+      "Acelerar para incorporarse antes que otros vehículos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una señal de CEDA EL PASO significa que debe reducir la velocidad, estar listo para detenerse y ceder el derecho de paso al tráfico en la vía a la que se incorpora y a los peatones. Deténgase si es necesario.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
+      }
+    ],
+    "image": "/signs/yield-sign.jpg",
+    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+  },
+  {
+  "id": "q-swing-bridge-ahead-29",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Para qué deben estar preparados los conductores más adelante?",
+  "choices": [
+    "Un puente que puede abrirse para permitir el paso de barcos",
+    "Un puente permanentemente cerrado",
+    "Un cruce en ferry",
+    "Obras en la carretera"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal advierte que un puente móvil puede abrirse, lo que requiere que los vehículos se detengan y esperen.",
+  "sources": [
+    {
+      "title": "Bridge Warning Signs",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-swing-bridge-ahead.png"
+},
+  {
+  "id": "q-demerit-fail-stop-police-30",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "demerit-points",
+  "question": "No detenerse cuando un oficial de policía lo indica o se lo solicita resulta en cuántos puntos de demérito?",
+  "choices": [
+    "3 puntos de demérito",
+    "5 puntos de demérito",
+    "7 puntos de demérito",
+    "9 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "No detenerse cuando un oficial de policía lo indica o se lo solicita resulta en 7 puntos de demérito.",
+  "sources": [],
+  "image": "/signs/q-fail-stop-police-271.png"
+},
