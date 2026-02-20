@@ -2155,3 +2155,231 @@
   "explanation": "当持有正式驾照的驾驶员达到 9 分时，交通部门可能要求其参加面谈，并可能安排重新测试以评估其驾驶能力。",
   "image": "/signs/q-demerit-interview.png"
 },
+{
+    "id": "q-divided-highway-ends-121",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个标志告诉您前方道路的什么情况？",
+    "choices": [
+      "分隔式公路即将结束，对向车流将更接近",
+      "分隔式公路即将开始",
+      "道路将变为单行道",
+      "路肩即将关闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志显示两条线从中间形状两侧汇合，表示分隔式公路即将结束，对向车流将不再由中央隔离带分开。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+  },
+  {
+    "id": "q-narrow-bridge-122",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "您在桥前看到这个标志。您应该预期什么？",
+    "choices": [
+      "一座狭窄的桥，车道或路肩变窄",
+      "一座宽阔的多车道桥",
+      "一座可为船只开启的吊桥",
+      "一座禁止通行的桥"
+    ],
+    "correctIndex": 0,
+    "explanation": "标志上变窄的形状警告前方桥梁可能比道路更窄，因此应减速并准备安全会车。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original question using your narrow-bridge sign image."
+  },
+  {
+    "id": "q-road-narrows-123",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "这个标志设置在一段道路前。它表示什么？",
+    "choices": [
+      "前方道路变窄",
+      "前方道路变宽",
+      "前方为单行道",
+      "只有卡车可以使用前方道路"
+    ],
+    "correctIndex": 0,
+    "explanation": "警告标志上逐渐变窄的线条表示道路将变窄，因此应减速并与对向车辆小心会车。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Original road-narrows question for Prep Test G1."
+  },
+  {
+    "id": "q-road-ends-124",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "当您接近街道尽头时看到这个标志。它表示什么？",
+    "choices": [
+      "前方道路结束；您必须转弯或停车",
+      "前方是高速公路入口",
+      "死胡同但允许通行",
+      "路面只会从沥青变为碎石"
+    ],
+    "correctIndex": 0,
+    "explanation": "道路结束警告标志表示直行道路将结束。您必须减速并准备根据指示在道路尽头停车或转弯。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Original road-ends interpretation question."
+  },
+  {
+    "id": "q-railway-approach-125",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "在一条没有闸门的双车道道路上，您看到前方有铁路道口标志。您应该怎么做？",
+    "choices": [
+      "减速，观察并聆听火车，必要时准备停车",
+      "加速尽快通过铁轨",
+      "在铁轨上停车并左右观察",
+      "如果没有闪灯就忽略该标志"
+    ],
+    "correctIndex": 0,
+    "explanation": "铁路警告标志表示您必须减速，向两个方向观察和聆听，并在火车接近时准备停车。切勿停在铁轨上。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "New scenario about approaching a railway crossing without gates."
+  },
+  {
+    "id": "q-road-closed-ahead-126",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "在绕行路线中看到这个橙色标志。它告诉您前方道路的什么情况？",
+    "choices": [
+      "前方道路将完全封闭",
+      "只有卡车可以通行",
+      "路肩关闭但车道开放",
+      "道路只在夜间关闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "橙色“前方道路封闭”标志表示前方道路将无法通行。您必须准备按照指示绕行或掉头。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed-ahead.jpg",
+    "notes": "Different from earlier construction question: focuses on full closure ahead."
+  },
+  {
+  "id": "q-no-passing-127",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "这个标志是什么意思？",
+  "choices": [
+    "只允许在右侧超车",
+    "此区域禁止超车",
+    "车辆必须成对行驶",
+    "慢车必须靠边停车"
+  ],
+  "correctIndex": 1,
+  "explanation": "红色圆圈和斜线覆盖在并排行驶的两辆车上，表示禁止超车。",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Passing Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+}
+,
+  {
+    "id": "q-roundabout-yield-128",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "您看到前方有环形交叉路口标志。正确的进入方式是什么？",
+    "choices": [
+      "减速，礼让已在环岛内的车辆，并在安全空隙时进入",
+      "不减速直接驶入",
+      "在环岛中停下来选择出口",
+      "不打转向灯进入并在中间停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "环形交叉路口警告标志表示前方有环形路口。您必须减速，礼让已在环岛内的车辆，并在安全时进入。",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "New roundabout question focusing on yielding on entry."
+  },
+  {
+  "id": "q-hand-signal-slow-stop-129",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "这个驾驶员的手势表示什么？",
+  "choices": [
+    "驾驶员正在减速或停车",
+    "驾驶员打算左转",
+    "驾驶员打算右转",
+    "驾驶员正在让对向车辆先行"
+  ],
+  "correctIndex": 0,
+  "explanation": "手臂向下伸出表示驾驶员计划减速或停车。",
+  "sources": [
+    {
+      "title": "Driver Hand Signals — Official MTO Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+ {
+  "id": "q-permitted-action-130",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "绿色圆形标志通常表示什么？",
+  "choices": [
+    "某项行为被允许",
+    "前方有危险警告",
+    "前方有停车标志",
+    "车道关闭"
+  ],
+  "correctIndex": 0,
+  "explanation": "在法规标志中，绿色圆圈表示允许的动作或行驶方向。",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+}
