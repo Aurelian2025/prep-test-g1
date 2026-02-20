@@ -3296,3 +3296,133 @@
   "explanation": "À un passage pour piétons, vous devez être prêt à vous arrêter et permettre aux piétons en attente de traverser en toute sécurité avant de continuer.",
   "image": "/signs/pedestrian-crossing.jpg"
 },
+{
+  "id": "q-two-way-traffic-ahead-206",
+  "question": "Que signale ce panneau aux conducteurs ?",
+  "choices": [
+    "Circulation à double sens plus loin",
+    "La route à sens unique continue",
+    "Début d’une voie de dépassement",
+    "La route se rétrécit à une seule voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les flèches opposées indiquent une circulation dans les deux sens sur la chaussée plus loin.",
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+{
+  "id": "q-truck-entrance-207",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Des camions peuvent entrer ou sortir de la route plus loin",
+    "Seuls les camions peuvent utiliser cette voie",
+    "Stationnement des camions autorisé",
+    "Camions interdits"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole du camion avertit les conducteurs de s’attendre à des véhicules lourds lents ou tournant qui entrent dans la voie.",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-208",
+  "question": "Ce panneau triangulaire orange réfléchissant est utilisé sur :",
+  "choices": [
+    "Les véhicules qui roulent lentement, comme la machinerie agricole",
+    "Les chasse-neige seulement",
+    "Les autobus scolaires seulement",
+    "Les véhicules d’urgence"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un panneau de véhicule lent avertit que le véhicule circule généralement à moins de 40 km/h.",
+  "image": "/signs/q-217-triangular-sign.png"
+},
+{
+  "id": "q-bike-lane-209",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Une voie réservée aux bicyclettes",
+    "Bicyclettes interdites",
+    "Motocyclettes seulement",
+    "Piétons seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau indique une voie réservée à la circulation des bicyclettes.",
+  "image": "/signs/bike-lane.jpg"
+},
+{
+  "id": "q-lane-control-signals-210",
+  "question": "Sur un pont, vous voyez des signaux de contrôle des voies au-dessus de chaque voie. La voie au-dessus de vous affiche soudainement un « X » rouge. Que devez-vous faire ?",
+  "choices": [
+    "Changer pour une voie indiquée par une flèche verte dès que vous pouvez le faire en toute sécurité",
+    "L’ignorer si la circulation dans votre voie continue d’avancer",
+    "Vous arrêter dans votre voie et attendre que le signal devienne vert",
+    "Klaxonner et continuer dans votre voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un « X » rouge au-dessus d’une voie signifie que cette voie est fermée à la circulation et vous ne devez pas y circuler. Déplacez-vous en toute sécurité vers une voie indiquée par une flèche verte.",
+  "image": "/signs/q-213-x-sign.png"
+},
+ {
+  "id": "q-bumps-ahead-211",
+  "question": "Comment les conducteurs doivent-ils réagir à ce panneau ?",
+  "choices": [
+    "Ralentir pour plusieurs bosses",
+    "Changer de voie immédiatement",
+    "S’arrêter complètement",
+    "Klaxonner"
+  ],
+  "correctIndex": 0,
+  "explanation": "Plusieurs bosses plus loin exigent que les conducteurs ralentissent pour garder le contrôle.",
+  "image": "/signs/bumps-ahead.png"
+},
+{
+  "id": "q-construction-ahead-212",
+  "question": "Que signale ce panneau aux conducteurs ?",
+  "choices": [
+    "Travaux plus loin",
+    "Route fermée",
+    "Passage à niveau",
+    "Zone scolaire"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent s’attendre à des travailleurs, de l’équipement, des limites de vitesse réduites ou des changements de voie plus loin.",
+  "image": "/signs/construction-ahead.jpg"
+},
+{
+  "id": "q-deer-crossing-213",
+  "question": "Quel danger est indiqué par ce panneau ?",
+  "choices": [
+    "Traversée d’animaux sauvages",
+    "Véhicules agricoles",
+    "Entrée du zoo",
+    "Zone de parc"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent être attentifs aux animaux qui peuvent soudainement entrer sur la chaussée.",
+  "image": "/signs/deer-crossing.jpg"
+},
+{
+  "id": "q-divided-highway-begins-214",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Début d’une autoroute divisée",
+    "Fin de la circulation à double sens",
+    "Dépassement permis",
+    "Fin de voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "La circulation sera séparée par un terre-plein central physique plus loin.",
+  "image": "/signs/divided-highway-begins.jpg"
+},
+{
+  "id": "q-divided-highway-ends-215",
+  "question": "À quel changement les conducteurs doivent-ils s’attendre ?",
+  "choices": [
+    "La circulation en sens inverse ne sera plus séparée",
+    "La route se rétrécit",
+    "La limite de vitesse diminue",
+    "Fin de voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’autoroute divisée prend fin et la circulation en sens inverse partagera la chaussée.",
+  "image": "/signs/divided-highway-ends.jpg"
+},
