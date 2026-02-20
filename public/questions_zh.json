@@ -3754,3 +3754,137 @@
   "explanation": "稳定的黄灯表示信号即将变为红灯。如果可以安全停车，必须在进入路口前停车。",
   "image": "/signs/q-235-steady-yellow.png"
 },
+{
+  "id": "q-speed-30to49-236",
+  "category": "demerit-points",
+  "question": "超速30–49公里/小时会被扣多少记分点？",
+  "choices": [
+    "2个记分点",
+    "3个记分点",
+    "4个记分点",
+    "5个记分点"
+  ],
+  "correctIndex": 2,
+  "explanation": "在安大略省，超速30–49公里/小时属于扣4分的违法行为。",
+  "image": "/signs/q-speed-30to49-236.png"
+},
+{
+  "id": "q-237",
+  "question": "带有红色“P”并被红线划掉的标志表示：",
+  "choices": [
+    "该区域禁止停车",
+    "只允许短时间停车",
+    "仅限持证车辆停车",
+    "任何时候都禁止停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "“禁止停车”标志表示您不能停车并离开无人看管的车辆。",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-fail-signal-238",
+  "category": "demerit-points",
+  "question": "未打转向信号会被扣多少记分点？",
+  "choices": [
+    "2个记分点",
+    "3个记分点",
+    "4个记分点",
+    "5个记分点"
+  ],
+  "correctIndex": 0,
+  "explanation": "在安大略省，未打转向信号会被扣2个记分点。",
+  "image": "/signs/q-fail-signal-238.png"
+},
+{
+  "id": "q-demerit-improper-passing-239",
+  "category": "demerit-points",
+  "question": "驾驶员因在不安全情况下不当超车被定罪。不当超车会被扣多少记分点？",
+  "choices": [
+    "2个记分点",
+    "3个记分点",
+    "4个记分点",
+    "6个记分点"
+  ],
+  "correctIndex": 1,
+  "explanation": "在安大略省，不当超车属于扣3分的违法行为。",
+  "image": "/signs/q-demerit-improper-passing-132.png"
+},
+{
+  "id": "q-demerit-obey-officer-240",
+  "category": "demerit-points",
+  "question": "警察向你发出指示，但你无视信号并被判定为未服从警察指挥。这项违法行为会被扣多少记分点？",
+  "choices": [
+    "2个记分点",
+    "3个记分点",
+    "4个记分点",
+    "7个记分点"
+  ],
+  "correctIndex": 1,
+  "explanation": "在安大略省，不服从警察指挥会被扣3个记分点。",
+  "image": "/signs/q-demerit-obey-officer-133.png"
+},
+ {
+  "id": "q-snowmobiles-permitted-241",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "此小道或道路允许雪地摩托通行",
+    "任何时候都禁止雪地摩托",
+    "只有持牌车辆可以通行",
+    "雪地摩托必须用拖车运输"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色圆圈表示允许使用；雪地摩托符号表示允许雪地摩托通行。",
+  "image": "/signs/q-snowmobiles-permitted.png"
+},
+{
+  "id": "q-242",
+  "question": "黄色虚线中心线表示：",
+  "choices": [
+    "在安全情况下可以超车",
+    "禁止超车",
+    "前方车道结束",
+    "车辆向左并线"
+  ],
+  "correctIndex": 0,
+  "explanation": "黄色虚线表示可以谨慎超车。",
+  "image": "/signs/q-224-broken-line.jpg"
+},
+{
+  "id": "q-243",
+  "question": "一个显示路面高于旁边碎石的标志警告：",
+  "choices": [
+    "低或松软的路肩",
+    "分隔式公路",
+    "狭窄桥梁",
+    "隐藏的交叉路口"
+  ],
+  "correctIndex": 0,
+  "explanation": "如果车辆偏离路面，低路肩可能导致失控。",
+  "image": "/signs/q-243pavement-higher-gravel.png"
+},
+{
+  "id": "q-244",
+  "question": "橙色菱形标志通常表示：",
+  "choices": [
+    "前方有道路施工或工程",
+    "学校区域",
+    "法定限速",
+    "医院区域"
+  ],
+  "correctIndex": 0,
+  "explanation": "橙色标志警告前方有临时施工或维护区域。",
+  "image": "/signs/q-244-orange-diamond.png"
+},
+{
+  "id": "q-no-right-turn-on-red-245",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "红灯时禁止右转",
+    "只有红灯时允许右转",
+    "右侧车道结束",
+    "允许掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "带斜杠的红色圆圈表示禁止的动作——在这里是红灯时禁止右转。",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
