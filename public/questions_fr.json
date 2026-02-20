@@ -2901,3 +2901,133 @@
   "explanation": "La fatigue du conducteur est dangereuse. Le seul choix sûr est de s’arrêter et de se reposer avant de poursuivre le trajet.",
   "image": "/signs/q-fatigue-driving-188.png"
 },
+{
+  "id": "q-tailgater-176",
+  "question": "Un autre conducteur vous suit de trop près (talonnage). Quelle est la façon la plus sécuritaire de réagir?",
+  "choices": [
+    "Augmentez progressivement votre distance de suivi et, lorsque c’est sécuritaire, changez de voie ou laissez-le vous dépasser",
+    "Freinez brusquement pour l’avertir",
+    "Accélérez pour vous éloigner de lui",
+    "Ignorez-le et conduisez exactement de la même façon"
+  ],
+  "correctIndex": 0,
+  "explanation": "Augmentez votre distance de suivi et, lorsque c’est sécuritaire, laissez le conducteur vous dépasser. Évitez les réactions agressives.",
+  "image": "/signs/q-tailgater-65.png"
+},
+{
+  "id": "q-mirrors-frequency-177",
+  "question": "À quelle fréquence devriez-vous normalement vérifier vos rétroviseurs en conduisant sur une route droite avec peu de circulation?",
+  "choices": [
+    "Toutes les quelques secondes, et avant de ralentir, tourner ou changer de voie",
+    "Seulement lorsque vous entendez un klaxon",
+    "Une fois au début et une fois à la fin du trajet",
+    "Seulement lorsque vous prévoyez de vous arrêter"
+  ],
+  "correctIndex": 0,
+  "explanation": "Vérifier fréquemment vos rétroviseurs vous aide à rester conscient de la circulation autour de vous et à réagir en toute sécurité aux changements.",
+  "image": "/signs/q-mirrors-frequency-190.png"
+},
+{
+  "id": "q-impaired-zero-g1-178",
+  "question": "Pour un conducteur G1 ou G2, quelle est l’exigence légale concernant l’alcool dans le sang en conduisant?",
+  "choices": [
+    "Vous devez avoir zéro alcool dans le sang (0,00 BAC)",
+    "Une petite quantité d’alcool est permise si vous vous sentez bien",
+    "Vous pouvez boire tant que vous restez sous la limite des conducteurs pleinement titulaires",
+    "Il n’y a aucune règle concernant l’alcool pour les conducteurs G1/G2"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’Ontario applique une règle de tolérance zéro pour l’alcool chez les conducteurs novices (G1 et G2). Ils doivent avoir un taux d’alcoolémie de 0,00 en conduisant.",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-g1-supervisor-179",
+  "question": "Laquelle des affirmations suivantes est une exigence pour un conducteur G1 lorsqu’il conduit sur les routes publiques?",
+  "choices": [
+    "Un conducteur pleinement titulaire avec au moins quatre ans d’expérience doit être assis sur le siège avant passager",
+    "N’importe quel ami titulaire d’un permis peut s’asseoir sur le siège arrière",
+    "Aucune autre personne n’a besoin d’être dans le véhicule",
+    "Seul un autre conducteur G1 est requis comme superviseur"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs G1 doivent être accompagnés sur le siège avant par un conducteur pleinement titulaire ayant l’expérience de conduite requise.",
+  "image": "/signs/q-g1-supervisor-192.png"
+},
+{
+  "id": "q-g1-roads-restrictions-180",
+  "question": "Quelle affirmation concernant les conducteurs G1 et les routes à grande vitesse est correcte?",
+  "choices": [
+    "Les conducteurs G1 ne sont pas autorisés sur certaines voies rapides à grande vitesse sauf s’ils sont accompagnés d’un instructeur de conduite qualifié",
+    "Les conducteurs G1 peuvent conduire seuls sur toutes les voies rapides en tout temps",
+    "Les conducteurs G1 sont autorisés seulement sur les routes à péage",
+    "Les conducteurs G1 doivent conduire uniquement sur des routes non pavées"
+  ],
+  "correctIndex": 0,
+  "explanation": "Certaines voies rapides à grande vitesse sont interdites aux conducteurs G1 sauf en présence d’un instructeur de conduite qualifié.",
+  "image": "/signs/q-g1-roads-restrictions-193.png"
+},
+ {
+  "id": "q-g2-passengers-night-181",
+  "question": "Pourquoi l’Ontario impose-t-il certaines restrictions nocturnes concernant les passagers pour certains conducteurs G2 de moins de 20 ans?",
+  "choices": [
+    "Pour réduire le risque de collisions graves lorsque des conducteurs novices transportent plusieurs passagers adolescents la nuit",
+    "Pour limiter la consommation de carburant des jeunes conducteurs",
+    "Pour rendre le transport en commun plus populaire",
+    "Pour empêcher les conducteurs G2 de conduire pendant la journée"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le guide explique que les restrictions nocturnes pour les jeunes conducteurs G2 visent à réduire le risque d’accident lorsque l’expérience est encore limitée.",
+  "image": "/signs/q-g2-passengers-night-194.png"
+},
+{
+  "id": "q-collision-duties-182",
+  "question": "Vous êtes impliqué dans une collision avec un autre véhicule et il n’y a pas de blessures graves. Que devez-vous faire?",
+  "choices": [
+    "Arrêter, échanger des renseignements avec l’autre conducteur et suivre les exigences de déclaration",
+    "Partir rapidement si votre voiture peut encore rouler",
+    "Ramener votre voiture à la maison et signaler seulement si vous en avez envie",
+    "Rester dans le véhicule et bloquer la circulation jusqu’à l’arrivée d’une dépanneuse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs impliqués dans une collision doivent s’arrêter, fournir leurs renseignements et respecter les exigences de déclaration prévues par la loi.",
+  "image": "/signs/q-collision-duties-195.png"
+},
+{
+  "id": "q-turn-signals-183",
+  "question": "Quand devriez-vous utiliser votre clignotant?",
+  "choices": [
+    "Chaque fois que vous prévoyez de tourner, changer de voie ou quitter une position stationnée",
+    "Seulement lorsque la circulation est dense",
+    "Seulement en conduisant la nuit",
+    "Seulement en approchant d’un panneau d’arrêt"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les clignotants communiquent vos intentions aux autres. Utilisez-les pour les virages, les changements de voie et lorsque vous entrez ou sortez de la circulation.",
+  "image": "/signs/q-turn-signals-196.png"
+},
+{
+  "id": "q-back-up-safely-184",
+  "question": "Quelle est la façon la plus sécuritaire de faire marche arrière?",
+  "choices": [
+    "Vérifier tout autour, regarder par la lunette arrière et reculer lentement",
+    "Se fier uniquement aux rétroviseurs et reculer rapidement",
+    "Utiliser seulement la caméra de recul et ne regarder nulle part ailleurs",
+    "Reculer en regardant vers l’avant et en utilisant seulement les rétroviseurs latéraux"
+  ],
+  "correctIndex": 0,
+  "explanation": "En reculant, vérifiez tout autour, regardez principalement par la lunette arrière et avancez lentement pour éviter les dangers.",
+  "image": "/signs/q-back-up-safely-197.png"
+},
+{
+  "id": "q-pedestrians-turning-185",
+  "question": "Vous tournez à droite à une intersection et le feu est vert. Un piéton commence à traverser la rue dans laquelle vous tournez. Que devez-vous faire?",
+  "choices": [
+    "Cédez le passage au piéton et attendez qu’il ait traversé en toute sécurité",
+    "Klaxonnez et tournez devant le piéton",
+    "Tournez rapidement derrière le piéton",
+    "Avancez dans le passage pour montrer que vous avez l’intention de tourner"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs qui tournent doivent céder le passage aux piétons dans le passage pour piétons et attendre qu’ils aient dégagé la voie avant de terminer le virage.",
+  "image": "/signs/q-pedestrians-turning-198.png"
+},
