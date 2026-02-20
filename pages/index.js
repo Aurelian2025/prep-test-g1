@@ -1173,7 +1173,7 @@ export default function PrepTestG1() {
                 letterSpacing: "0.5px",
               }}
             >
-              Ontario G1 Practice Test © 2025. ALL RIGHTS RESERVED.
+              Ontario G1 Practice Test © 2026. ALL RIGHTS RESERVED.
             </div>
           </div>
         </div>
