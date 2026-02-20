@@ -1,3 +1,4 @@
+```javascript
 // pages/index.js
 import { useEffect, useMemo, useState } from "react";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
@@ -287,6 +288,26 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
 
 const ACCESS_STORAGE_KEY = "g1_access_key";
 
+// Language setup (default English)
+const LANGUAGE_STORAGE_KEY = "g1_lang";
+const LANGUAGES = [
+  { code: "en", label: "English", file: "/questions.json" },
+  { code: "fr", label: "French", file: "/questions_fr.json" },
+  { code: "zh", label: "Chinese", file: "/questions_zh.json" },
+  { code: "pa", label: "Punjabi", file: "/questions_pa.json" },
+  { code: "es", label: "Spanish", file: "/questions_es.json" },
+  { code: "ru", label: "Russian", file: "/questions_ru.json" },
+  { code: "hi", label: "Hindi", file: "/questions_hi.json" },
+  { code: "ar", label: "Arabic", file: "/questions_ar.json" },
+  { code: "ur", label: "Urdu", file: "/questions_ur.json" },
+  // You also have Farsi in your repo; keeping it available without changing priority list
+  { code: "fa", label: "Farsi", file: "/questions_fa.json" },
+];
+
+function getLangByCode(code) {
+  return LANGUAGES.find((l) => l.code === code) || LANGUAGES[0];
+}
+
 export default function PrepTestG1() {
   const supabase = useSupabaseClient();
 
@@ -295,6 +316,9 @@ export default function PrepTestG1() {
 
   // Preview rules (every refresh starts in preview until they choose to login)
   const PREVIEW_COUNT = 20;
+
+  // Language state
+  const [lang, setLang] = useState("en");
 
   // Access/login state
   const [hasAccess, setHasAccess] = useState(false);
@@ -331,9 +355,28 @@ export default function PrepTestG1() {
   const isPreview = !authGateOpen && !hasAccess && !ownerOverride;
   const isFull = hasAccess || ownerOverride;
 
-  // load questions
+  // init language from localStorage
   useEffect(() => {
-    fetch("/questions.json")
+    try {
+      const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+      if (saved) setLang(saved);
+    } catch (_) {}
+  }, []);
+
+  const handleLangChange = (e) => {
+    const code = e.target.value;
+    setLang(code);
+    try {
+      localStorage.setItem(LANGUAGE_STORAGE_KEY, code);
+    } catch (_) {}
+    // Reset quiz cleanly after language switch (keeps UI/workflow the same)
+    if (typeof window !== "undefined") window.location.reload();
+  };
+
+  // load questions (language-aware)
+  useEffect(() => {
+    const file = getLangByCode(lang).file;
+    fetch(file)
       .then((r) => r.json())
       .then((data) => {
         const ordered = data.map(shuffleQuestionChoices);
@@ -349,7 +392,7 @@ export default function PrepTestG1() {
         setQuestions([]);
         setGlobalTotal(0);
       });
-  }, []);
+  }, [lang]);
 
   const hasQuestionsFlag = questions.length > 0;
 
@@ -786,7 +829,31 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+                <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+                <select
+                  value={lang}
+                  onChange={handleLangChange}
+                  style={{
+                    padding: "6px 10px",
+                    borderRadius: 8,
+                    border: "1px solid #ccc",
+                    fontSize: 13,
+                    background: "#fff",
+                    cursor: "pointer",
+                  }}
+                  aria-label="Language"
+                >
+                  {LANGUAGES.map((l) => (
+                    <option key={l.code} value={l.code}>
+                      {l.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div />
+            </div>
             {renderButtons()}
           </div>
           <div style={styles.card}>
@@ -816,7 +883,28 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+              <select
+                value={lang}
+                onChange={handleLangChange}
+                style={{
+                  padding: "6px 10px",
+                  borderRadius: 8,
+                  border: "1px solid #ccc",
+                  fontSize: 13,
+                  background: "#fff",
+                  cursor: "pointer",
+                }}
+                aria-label="Language"
+              >
+                {LANGUAGES.map((l) => (
+                  <option key={l.code} value={l.code}>
+                    {l.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           <div style={styles.card}>
@@ -858,7 +946,31 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+                <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+                <select
+                  value={lang}
+                  onChange={handleLangChange}
+                  style={{
+                    padding: "6px 10px",
+                    borderRadius: 8,
+                    border: "1px solid #ccc",
+                    fontSize: 13,
+                    background: "#fff",
+                    cursor: "pointer",
+                  }}
+                  aria-label="Language"
+                >
+                  {LANGUAGES.map((l) => (
+                    <option key={l.code} value={l.code}>
+                      {l.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div />
+            </div>
             {renderButtons()}
           </div>
           <div style={styles.card}>No questions available.</div>
@@ -926,9 +1038,32 @@ export default function PrepTestG1() {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
+              gap: 12,
+              flexWrap: "wrap",
             }}
           >
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+              <select
+                value={lang}
+                onChange={handleLangChange}
+                style={{
+                  padding: "6px 10px",
+                  borderRadius: 8,
+                  border: "1px solid #ccc",
+                  fontSize: 13,
+                  background: "#fff",
+                  cursor: "pointer",
+                }}
+                aria-label="Language"
+              >
+                {LANGUAGES.map((l) => (
+                  <option key={l.code} value={l.code}>
+                    {l.label}
+                  </option>
+                ))}
+              </select>
+            </div>
 
             {/* Right-side button: Sign out in full app, Login in preview */}
             {isFull ? (
@@ -1047,3 +1182,4 @@ export default function PrepTestG1() {
     </div>
   );
 }
+```
