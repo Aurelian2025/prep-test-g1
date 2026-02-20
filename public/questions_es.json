@@ -2572,3 +2572,133 @@
   "explanation": "Para los conductores de autobús, no detenerse en un cruce ferroviario sin protección resulta en 5 puntos de demérito.",
   "image": "/signs/q-railway-stop-47.png"
 },
+{
+  "id": "q-hydroplaning-156",
+  "question": "Si su vehículo comienza a hidroplanear en una carretera muy mojada, ¿cuál es la acción más segura?",
+  "choices": [
+    "Levantar el pie del acelerador y mantener las ruedas rectas hasta recuperar la tracción",
+    "Frenar con fuerza y girar bruscamente",
+    "Poner la transmisión en neutro y apagar el motor",
+    "Acelerar para atravesar el agua más rápido"
+  ],
+  "correctIndex": 0,
+  "explanation": "El hidroplaneo ocurre cuando los neumáticos pierden contacto con la carretera por el agua. Levante el pie del acelerador y mantenga las ruedas rectas hasta que regrese la tracción.",
+  "image": "/signs/q-hydroplaning-prevent-73.png"
+},
+{
+  "id": "q-headlights-visibility-157",
+  "question": "¿Cuándo debe usar las luces delanteras, incluso durante el día?",
+  "choices": [
+    "Siempre que la visibilidad sea tan baja que no pueda ver claramente personas o vehículos a 150 metros adelante",
+    "Solo de noche en carreteras rurales",
+    "Solo en los meses de invierno",
+    "Solo cuando use las luces altas"
+  ],
+  "correctIndex": 0,
+  "explanation": "Use las luces delanteras siempre que la visibilidad sea baja, como con lluvia, nieve o niebla, para que otros puedan verlo.",
+  "image": "/signs/q-headlights-visibility-180.jpg"
+},
+{
+  "id": "q-parking-uphill-curb-158",
+  "question": "Al estacionar cuesta arriba en una calle con bordillo, ¿cómo debe girar las ruedas delanteras?",
+  "choices": [
+    "Gire las ruedas delanteras alejándolas del bordillo y ponga el freno de estacionamiento",
+    "Mantenga las ruedas rectas",
+    "Gire las ruedas delanteras hacia el bordillo",
+    "No importa hacia dónde apunten las ruedas"
+  ],
+  "correctIndex": 0,
+  "explanation": "Al estacionar cuesta arriba con bordillo, gire las ruedas alejándolas del bordillo y ponga el freno de estacionamiento para evitar que el vehículo ruede.",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-demerit-fail-yield-ped-159",
+  "question": "En un cruce peatonal marcado, no se detiene por una persona claramente en el cruce y es condenado. ¿Cuántos puntos de demérito recibe?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "No detenerse en un cruce peatonal o en un cruce protegido similar conlleva 4 puntos de demérito en Ontario.",
+  "image": "/signs/q-demerit-fail-yield-ped-128.png"
+},
+{
+  "id": "q-demerit-fail-remain-160",
+  "question": "Después de una colisión menor, un conductor se va sin detenerse para dar información y es condenado por no permanecer en el lugar. ¿Cuántos puntos de demérito conlleva esto?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "No permanecer en el lugar de una colisión conlleva 7 puntos de demérito en Ontario.",
+  "image": "/signs/q-demerit-fail-remain-129.png"
+},
+ {
+  "id": "q-sharp-curve-left-speed-161",
+  "question": "Ve esta señal de curva pronunciada a la izquierda con una placa de velocidad recomendada debajo. ¿Cómo debe conducir?",
+  "choices": [
+    "Reducir la velocidad hasta aproximadamente la recomendada y conducir suavemente por la curva",
+    "Mantener su velocidad actual y frenar con fuerza en medio de la curva",
+    "Acelerar en la curva para mantenerse en su carril",
+    "Conducir por el arcén para evitar la curva"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales de curvas pronunciadas suelen incluir una velocidad recomendada. Reduzca la velocidad hasta esa velocidad antes de la curva y conduzca suavemente para mantener el control.",
+  "image": "/signs/sharp-curve-left.jpg"
+},
+{
+  "id": "q-sharp-curve-right-passing-162",
+  "question": "Al acercarse a esta señal de curva pronunciada a la derecha en una carretera de dos carriles, ¿cuál es la forma más segura de adelantar?",
+  "choices": [
+    "No adelante a otros vehículos en o cerca de la curva pronunciada",
+    "Adelante rápidamente en medio de la curva",
+    "Adelante si no puede ver el tráfico que viene",
+    "Se permite adelantar a cualquier velocidad"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las curvas pronunciadas limitan su campo de visión. No adelante al acercarse o dentro de una curva pronunciada porque puede que no vea el tráfico que viene a tiempo.",
+  "image": "/signs/sharp-curve-right.jpg"
+},
+{
+  "id": "q-bicycles-permitted-163",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Las bicicletas pueden usar esta calzada o carril",
+    "Los ciclistas deben caminar con sus bicicletas",
+    "Las bicicletas están prohibidas en esta zona",
+    "Solo los vehículos motorizados pueden usar este carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un círculo verde indica una acción permitida; aquí significa que las bicicletas pueden circular por el carril o la calzada.",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+{
+  "id": "q-school-zone-164",
+  "question": "¿De qué advierte esta señal a los conductores?",
+  "choices": [
+    "Zona escolar, reduzca la velocidad y esté atento a niños cruzando la calle",
+    "La carretera es solo para camiones",
+    "Un área de juegos está cerrada",
+    "Las bicicletas tienen el derecho de paso"
+  ],
+  "correctIndex": 0,
+  "explanation": "La imagen de personas caminando advierte a los conductores que reduzcan la velocidad y estén atentos a niños cerca de escuelas o áreas de juego.",
+  "image": "/signs/q-school-zone.png"
+},
+{
+  "id": "q-parking-30-min-165",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "El estacionamiento está permitido por un máximo de 30 minutos durante las horas indicadas",
+    "El estacionamiento está completamente prohibido en esta área",
+    "Solo los vehículos comerciales pueden estacionar aquí",
+    "El estacionamiento es gratuito y sin restricciones en todo momento"
+  ],
+  "correctIndex": 0,
+  "explanation": "La P verde significa que el estacionamiento está permitido, mientras que el texto debajo especifica los límites de tiempo y los días de aplicación.",
+  "image": "/signs/q-parking-30-min.png"
+},
