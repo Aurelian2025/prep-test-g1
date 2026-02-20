@@ -2179,8 +2179,7 @@
     }
   ],
   "image": "/signs/q-no-passing.png"
-}
-,
+},
   {
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
@@ -2247,4 +2246,69 @@
     }
   ],
   "image": "/signs/q-permitted-action.png"
-}
+},
+{
+  "id": "q-snowmobile-crossing-sign-131",
+  "question": "¿Qué advierte esta señal a los conductores?",
+  "choices": [
+    "Un área designada de estacionamiento para motonieves más adelante",
+    "Una carretera que está cerrada durante los meses de invierno",
+    "Las motonieves pueden cruzar la carretera más adelante",
+    "Aquí comienza una ruta exclusiva para motonieves"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal de advertencia amarilla en forma de rombo indica un lugar donde las motonieves pueden cruzar la carretera. Los conductores deben reducir la velocidad y estar atentos al tráfico de motonieves.",
+  "image": "/signs/snowmobile-parking.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-132",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Solo el carril derecho puede continuar recto",
+    "Los giros a la derecha están prohibidos desde el carril derecho",
+    "Los vehículos en el carril derecho deben tomar la salida",
+    "El carril derecho está reservado para vehículos lentos"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal guía verde informa a los conductores que el tráfico en el carril derecho debe tomar la salida. Los conductores que no tengan la intención de salir deben cambiar a otro carril con anticipación.",
+  "image": "/signs/right-lane-must-exit.png"
+},
+{
+  "id": "q-hand-signal-right-turn-133",
+  "question": "¿Qué indica esta señal manual cuando el brazo izquierdo de un conductor está doblado hacia arriba en un ángulo de 90 grados?",
+  "choices": [
+    "El conductor está reduciendo la velocidad o deteniéndose",
+    "El conductor tiene la intención de girar a la derecha",
+    "El conductor tiene la intención de girar a la izquierda",
+    "El conductor está advirtiendo de una avería del vehículo"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cuando el brazo izquierdo de un conductor está doblado hacia arriba en un ángulo de 90 grados con la mano apuntando hacia arriba, indica la intención de girar a la derecha.",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-warning-steep-hill-trucks-134",
+  "question": "¿Qué advierte esta señal de tráfico a los conductores?",
+  "choices": [
+    "Una estación de inspección de camiones más adelante",
+    "Una pendiente pronunciada cuesta abajo más adelante, especialmente peligrosa para camiones",
+    "Una zona de construcción que requiere que los camiones se detengan",
+    "Un área designada de estacionamiento para camiones más adelante"
+  ],
+  "correctIndex": 1,
+  "explanation": "Esta señal de advertencia indica una pendiente pronunciada cuesta abajo más adelante. Los conductores, especialmente aquellos que operan vehículos grandes o pesados, deben reducir la velocidad y proceder con precaución.",
+  "image": "/signs/steep-hill.png"
+},
+{
+  "id": "q-keep-right-except-to-pass-135",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Debe permanecer en el carril derecho a menos que esté adelantando a otro vehículo",
+    "El carril izquierdo está cerrado a todo el tráfico",
+    "Los giros a la derecha son el único movimiento permitido",
+    "No se permite adelantar en ningún momento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal indica a los conductores que usen el carril derecho para la conducción normal y que solo se muevan al carril izquierdo para adelantar de manera segura a vehículos más lentos.",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
