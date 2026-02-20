@@ -2447,3 +2447,133 @@
   "explanation": "此标志告诉驾驶员在正常行驶时使用右侧车道，只有在安全超越较慢车辆时才应移至左侧车道。",
   "image": "/signs/q-keep-right-except-to-pass.png"
 },
+{
+  "id": "q-warning-hidden-intersection-136",
+  "question": "此道路标志向驾驶员表示什么？",
+  "choices": [
+    "右侧有隐藏的车道入口",
+    "前方有隐藏的交叉路口，右侧有支路汇入",
+    "一条有隐藏出口的单行道",
+    "在下一个路口只能右转"
+  ],
+  "correctIndex": 1,
+  "explanation": "此警告标志表示前方有一个隐藏的交叉路口，右侧有支路汇入。需要格外小心。",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-regulatory-no-parking-accessible-permit-137",
+  "question": "此标志表示什么？",
+  "choices": [
+    "任何车辆在任何时候都不允许停车",
+    "停车位仅供紧急车辆使用",
+    "除展示有效无障碍停车许可证的车辆外，禁止停车",
+    "该区域仅为乘客上下车区"
+  ],
+  "correctIndex": 2,
+  "explanation": "此标志表示停车位仅供展示有效无障碍停车许可证的车辆使用。",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-regulatory-no-straight-ahead-138",
+  "question": "此交通标志表示什么？",
+  "choices": [
+    "您必须直行通过路口",
+    "禁止右转",
+    "禁止直行",
+    "此车道仅供直行车辆使用"
+  ],
+  "correctIndex": 2,
+  "explanation": "此标志表示驾驶员不允许直行通过路口。",
+  "image": "/signs/no-straight-ahead.png"
+},
+{
+  "id": "q-regulatory-no-right-turn-on-red-139",
+  "question": "此交通标志表示什么？",
+  "choices": [
+    "任何时候都不允许右转",
+    "只有在红灯时才可以右转",
+    "交通信号灯为红灯时禁止右转",
+    "您必须先停车，然后在红灯时右转"
+  ],
+  "correctIndex": 2,
+  "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许右转。",
+  "image": "/signs/no-right-turn-on-red.png"
+},
+{
+  "id": "q-regulatory-no-left-turn-on-red-140",
+  "question": "此交通标志表示什么？",
+  "choices": [
+    "任何时候都不允许左转",
+    "只有在红灯时才可以左转",
+    "交通信号灯为红灯时禁止左转",
+    "您必须先停车，然后在红灯时左转"
+  ],
+  "correctIndex": 2,
+  "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许左转。",
+  "image": "/signs/no-left-turn-on-red.png"
+},
+ {
+  "id": "q-night-driving-speed-141",
+  "question": "夜间驾驶时，即使限速更高，您应如何调整车速？",
+  "choices": [
+    "以能在车灯照亮的距离内停车的速度行驶",
+    "始终按限速行驶，因为任何时候都安全",
+    "加速以减少在黑暗中的时间",
+    "使用远光灯并尽可能快地行驶"
+  ],
+  "correctIndex": 0,
+  "explanation": "夜间驾驶时，您不应超出车灯照亮的范围行驶。应以能在清晰可见的距离内停车的速度行驶。",
+  "image": "/signs/q-night-driving-speed-164.png"
+},
+{
+  "id": "q-intersections-right-of-way-142",
+  "question": "在四向停车且所有车辆几乎同时到达时，通常应由哪位驾驶员先行？",
+  "choices": [
+    "最先完全停车并在安全时前进的驾驶员",
+    "车辆最大的驾驶员",
+    "最先闪灯的驾驶员",
+    "正在左转穿越交通的驾驶员"
+  ],
+  "correctIndex": 0,
+  "explanation": "在四向停车路口，通常最先完全停车的车辆先行，但所有驾驶员在前进前都必须确保道路清晰且安全。",
+  "image": "/signs/q-intersections-right-of-way-165.png"
+},
+{
+  "id": "q-lane-change-143",
+  "question": "在多车道道路上变道前，正确的顺序是什么？",
+  "choices": [
+    "查看后视镜、打转向灯、检查盲点，然后在安全时变道",
+    "先变道后打转向灯，再查看后视镜",
+    "先变道，然后查看后视镜并打转向灯",
+    "按喇叭并立即驶入下一车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "先查看后视镜，打转向灯，检查盲点，然后仅在安全时变道。",
+  "image": "/signs/q-lane-change-166.png"
+},
+{
+  "id": "q-blind-spots-144",
+  "question": "即使后视镜已正确调整，为什么仍需进行肩部回头检查？",
+  "choices": [
+    "车辆旁边存在后视镜无法显示的区域（盲点）",
+    "这只是一个习惯，并非必要",
+    "可以让其他驾驶员知道您要转弯",
+    "可以代替打转向灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "即使后视镜调整正确，也无法显示所有情况。快速回头检查可以帮助您看到盲点中的车辆、自行车或行人。",
+  "image": "/signs/q-blind-spots-167.png"
+},
+{
+  "id": "q-expressway-merge-145",
+  "question": "从匝道进入高速公路时，在加速车道上应怎么做？",
+  "choices": [
+    "打转向灯、与车流速度匹配，并在有安全间隙时并入",
+    "在匝道末端停车并等待他人让行",
+    "在路肩慢速行驶直到找到较大空隙",
+    "如果错过出口就倒车"
+  ],
+  "correctIndex": 0,
+  "explanation": "在高速公路匝道上，应加速以匹配车流速度，打转向灯，并在有安全空隙时平稳并入。",
+  "image": "/signs/q-expressway-merge-168.png"
+},
