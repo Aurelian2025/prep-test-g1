@@ -3883,3 +3883,135 @@
   "explanation": "Los conductores no deben invertir la dirección.",
   "image": "/signs/no-u-turn.jpg"
 },
+{
+  "id": "q-pedestrian-crossing-256",
+  "question": "¿Para qué deben estar preparados los conductores?",
+  "choices": [
+    "Peatones cruzando",
+    "Una señal de alto",
+    "Un autobús escolar",
+    "Un semáforo"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben ceder el paso a los peatones.",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
+{
+  "id": "q-roundabout-257",
+  "question": "¿Cómo deben proceder los conductores?",
+  "choices": [
+    "Ceder el paso al tráfico dentro de la rotonda",
+    "Detenerse completamente",
+    "Entrar en sentido horario",
+    "Acelerar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los vehículos que ya están en la rotonda tienen el derecho de paso.",
+  "image": "/signs/q-11-roundabout.png"
+},
+{
+  "id": "q-hov-lane-258",
+  "question": "¿Quién puede usar este carril?",
+  "choices": [
+    "Vehículos con múltiples ocupantes",
+    "Todos los vehículos",
+    "Solo camiones",
+    "Solo vehículos de emergencia"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los carriles HOV están reservados para vehículos que califican.",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-stop-ahead-259",
+  "question": "¿De qué advierte esta señal al conductor?",
+  "choices": [
+    "Hay una señal de alto más adelante",
+    "Se está retirando una señal de alto",
+    "El tráfico debe cederle el paso",
+    "Hay semáforos más adelante"
+  ],
+  "correctIndex": 0,
+  "explanation": "El símbolo de una señal de alto dentro de un rombo de advertencia alerta a los conductores para que se preparen a detenerse pronto.",
+  "image": "/signs/stop-ahead.jpg"
+},
+{
+  "id": "q-railway-crossing-260",
+  "question": "¿De qué advierte esta señal?",
+  "choices": [
+    "Un cruce ferroviario más adelante",
+    "Un cruce peatonal",
+    "Un semáforo",
+    "Una señal de alto"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben estar preparados para detenerse por los trenes.",
+  "image": "/signs/q-210-railway-crossing-1.jpg"
+},
+ {
+  "id": "q-261",
+  "question": "Comienza a sentirse muy cansado mientras conduce de noche. ¿Qué es lo más seguro que debe hacer?",
+  "choices": [
+    "Encontrar un lugar seguro para detenerse y descansar",
+    "Abrir la ventana y seguir conduciendo",
+    "Subir el volumen de la radio y conducir más rápido",
+    "Seguir muy de cerca a otro automóvil para mantenerse alerta"
+  ],
+  "correctIndex": 0,
+  "explanation": "La fatiga es peligrosa. La opción más segura es dejar de conducir y descansar.",
+  "image": "/signs/q-tired-driver-200.png"
+},
+{
+  "id": "q-fail-remain-collision-262",
+  "category": "demerit-points",
+  "question": "¿Cuántos puntos de demérito se asignan por no permanecer en el lugar de una colisión?",
+  "choices": [
+    "3 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "No permanecer en el lugar de una colisión conlleva 7 puntos de demérito.",
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-263",
+  "question": "¿Cuándo es aceptable conducir con nieve o hielo cubriendo parte del parabrisas?",
+  "choices": [
+    "Nunca; debe limpiar completamente el parabrisas y las ventanas antes de conducir",
+    "Siempre que pueda ver directamente hacia adelante",
+    "Solo a bajas velocidades",
+    "Solo si los limpiaparabrisas funcionan"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores son responsables de tener una visión clara en todas las direcciones antes de conducir.",
+  "image": "/signs/q-263-windshield-covered-snow.png"
+},
+{
+  "id": "q-report-collision-damage-264",
+  "category": "collisions-and-reporting",
+  "question": "Una colisión de vehículo motorizado debe informarse a la policía si hay lesiones o si el daño total a la propiedad supera qué cantidad?",
+  "choices": [
+    "$100",
+    "$300",
+    "$500",
+    "$1000"
+  ],
+  "correctIndex": 3,
+  "explanation": "En Ontario, una colisión debe informarse a la policía si alguien resulta herido o si el daño total supera los $1,000.",
+  "image": "/signs/q-collision-damage.png"
+},
+{
+  "id": "q-265",
+  "question": "¿Cuál es el lugar más seguro para instalar un asiento de seguridad para niños en la mayoría de los vehículos de pasajeros?",
+  "choices": [
+    "En el asiento trasero, lejos de las bolsas de aire activas",
+    "En el asiento delantero con la bolsa de aire activada",
+    "En el centro del asiento delantero tipo banco",
+    "Al lado del asiento del conductor"
+  ],
+  "correctIndex": 0,
+  "explanation": "El asiento trasero generalmente es el más seguro, especialmente lejos de las bolsas de aire.",
+  "image": "/signs/q-31-child-seat.png"
+},
