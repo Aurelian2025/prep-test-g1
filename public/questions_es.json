@@ -2020,3 +2020,231 @@
     "explanation": "Las señales de no estacionar permiten paradas breves para cargar o descargar pasajeros o mercancías. Las señales de no detenerse no permiten detener el vehículo en absoluto, excepto para obedecer el control del tráfico.",
       "image": "/signs/no-parking.jpg"
   },
+{
+    "id": "q-divided-highway-ends-121",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "¿Qué le indica esta señal sobre la carretera más adelante?",
+    "choices": [
+      "La autopista dividida termina y el tráfico en sentido contrario estará más cerca",
+      "Comienza una autopista dividida",
+      "La carretera se convertirá en de un solo sentido",
+      "El arcén se cierra más adelante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Esta señal muestra dos líneas que se juntan alrededor de una forma central, lo que significa que la autopista dividida termina y el tráfico que viene en sentido contrario ya no estará separado por un separador central.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+  },
+  {
+    "id": "q-narrow-bridge-122",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal antes de un puente. ¿Qué debe esperar?",
+    "choices": [
+      "Un puente estrecho donde los carriles o arcenes se reducen",
+      "Un puente ancho de varios carriles",
+      "Un puente levadizo que se abre para barcos",
+      "Un puente donde no se permite el tráfico"
+    ],
+    "correctIndex": 0,
+    "explanation": "La forma que se estrecha en la señal advierte que el puente más adelante puede ser más estrecho que la carretera, por lo que debe reducir la velocidad y estar preparado para encontrarse con tráfico en sentido contrario de forma segura.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original question using your narrow-bridge sign image."
+  },
+  {
+    "id": "q-road-narrows-123",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Esta señal está colocada antes de un tramo de carretera. ¿Qué significa?",
+    "choices": [
+      "La carretera más adelante se vuelve más estrecha",
+      "La carretera más adelante se vuelve más ancha",
+      "Calle de un solo sentido más adelante",
+      "Solo los camiones pueden usar la carretera más adelante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las líneas que se estrechan en la señal de advertencia indican que la calzada se volverá más estrecha, por lo que debe reducir la velocidad y cruzarse con los vehículos que vienen de frente con precaución.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Original road-narrows question for Prep Test G1."
+  },
+  {
+    "id": "q-road-ends-124",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal al acercarse al final de una calle. ¿Qué significa?",
+    "choices": [
+      "La carretera termina más adelante; debe girar o detenerse",
+      "Entrada a autopista más adelante",
+      "Calle sin salida pero con tráfico permitido",
+      "El pavimento cambia de asfalto a grava solamente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una señal de fin de carretera le indica que la vía de paso terminará. Debe reducir la velocidad y estar preparado para detenerse o girar al final de la carretera según se indique.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Original road-ends interpretation question."
+  },
+  {
+    "id": "q-railway-approach-125",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal de cruce ferroviario en una carretera de dos carriles sin barreras. ¿Qué debe hacer?",
+    "choices": [
+      "Reducir la velocidad, mirar y escuchar los trenes, y estar preparado para detenerse si es necesario",
+      "Acelerar para cruzar las vías lo más rápido posible",
+      "Detenerse sobre las vías y mirar a ambos lados",
+      "Ignorar la señal si las luces no están parpadeando"
+    ],
+    "correctIndex": 0,
+    "explanation": "Las señales de advertencia de cruce ferroviario significan que debe reducir la velocidad, mirar y escuchar en ambas direcciones y estar preparado para detenerse si se aproxima un tren. Nunca se detenga sobre las vías.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "New scenario about approaching a railway crossing without gates."
+  },
+  {
+    "id": "q-road-closed-ahead-126",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Esta señal naranja aparece en una ruta de desvío. ¿Qué le indica sobre la carretera más adelante?",
+    "choices": [
+      "La carretera más adelante estará completamente cerrada al tráfico",
+      "Solo los camiones pueden continuar",
+      "El arcén está cerrado pero los carriles están abiertos",
+      "La carretera se cierra solo por la noche"
+    ],
+    "correctIndex": 0,
+    "explanation": "Una señal naranja de CARRETERA CERRADA MÁS ADELANTE significa que la carretera no será transitable más adelante. Debe estar preparado para seguir el desvío indicado o dar la vuelta.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed-ahead.jpg",
+    "notes": "Different from earlier construction question: focuses on full closure ahead."
+  },
+  {
+  "id": "q-no-passing-127",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Se permite adelantar solo por la derecha",
+    "Está prohibido adelantar en esta zona",
+    "Los vehículos deben circular en parejas",
+    "Los vehículos lentos deben apartarse"
+  ],
+  "correctIndex": 1,
+  "explanation": "El círculo rojo con una línea sobre dos vehículos uno al lado del otro indica que no se permite adelantar ni rebasar.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Passing Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+}
+,
+  {
+    "id": "q-roundabout-yield-128",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ve esta señal de rotonda más adelante. ¿Cuál es la forma correcta de entrar a la rotonda?",
+    "choices": [
+      "Reduzca la velocidad, ceda el paso al tráfico que ya está en la rotonda y entre cuando haya un espacio seguro",
+      "Entre directamente sin reducir la velocidad",
+      "Deténgase dentro de la rotonda para elegir su salida",
+      "Entre sin señalizar y deténgase en el centro"
+    ],
+    "correctIndex": 0,
+    "explanation": "La señal de rotonda indica que hay una intersección circular más adelante. Debe reducir la velocidad, ceder el paso al tráfico que ya circula en la rotonda y entrar solo cuando sea seguro.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "New roundabout question focusing on yielding on entry."
+  },
+  {
+  "id": "q-hand-signal-slow-stop-129",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué indica esta señal manual del conductor?",
+  "choices": [
+    "El conductor está reduciendo la velocidad o deteniéndose",
+    "El conductor tiene la intención de girar a la izquierda",
+    "El conductor tiene la intención de girar a la derecha",
+    "El conductor está cediendo el paso al tráfico que viene en sentido contrario"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un brazo extendido hacia abajo indica que el conductor planea reducir la velocidad o detenerse.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals — Official MTO Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+ {
+  "id": "q-permitted-action-130",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "¿Qué indica normalmente una señal con un círculo verde?",
+  "choices": [
+    "Una acción está permitida",
+    "Una advertencia de peligros más adelante",
+    "Una señal de alto más adelante",
+    "Un carril está cerrado"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los círculos verdes en las señales reglamentarias indican acciones o movimientos permitidos.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+}
