@@ -3622,3 +3622,135 @@
   "explanation": "在铁路道口，闪烁的灯光、铃声或放下的道闸都要求完全停车，即使你没有看到火车。",
   "image": "/signs/q-231-railway-crossing.jpg"
 },
+{
+  "id": "q-226",
+  "question": "超越骑自行车的人时，驾驶员至少应保持：",
+  "choices": [
+    "1米的距离",
+    "20厘米",
+    "没有规定距离",
+    "尽可能靠近以避免偏离"
+  ],
+  "correctIndex": 0,
+  "explanation": "安大略省法律要求驾驶员在超越骑自行车者时至少保持一米的距离。",
+  "image": "/signs/q-232-car-passing-cyclist.jpg"
+},
+{
+  "id": "q-227",
+  "question": "如果在高速公路上错过出口，你必须：",
+  "choices": [
+    "继续行驶到下一个出口",
+    "在路肩小心倒车",
+    "停车并等待空隙",
+    "在中央隔离带掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "绝不要在高速公路上停车或倒车。继续行驶到下一个出口并安全返回。",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
+  "id": "q-speeding-50-over-penalty-228",
+  "category": "penalties-and-suspensions",
+  "question": "驾驶员被判定以高于限速50公里/小时或以上的速度行驶。法院可能施加哪项处罚？",
+  "choices": [
+    "吊销驾照6个月",
+    "吊销驾照30天",
+    "扣押机动车6个月",
+    "监禁6个月"
+  ],
+  "correctIndex": 1,
+  "explanation": "超速50公里/小时或以上可能会被法院判处30天驾照吊销，以及罚款和扣分。",
+  "image": "/signs/q-speeding-50-over-penalty.png"
+},
+{
+  "id": "q-229",
+  "category": "demerit-points",
+  "question": "对于G1驾驶员，酒驾处罚包括：",
+  "choices": [
+    "立即路边吊销驾照并逐步加重处罚",
+    "除非超过刑事限度，否则不吊销",
+    "只需小额罚款",
+    "仅扣分"
+  ],
+  "correctIndex": 0,
+  "explanation": "G1驾驶员必须保持零酒精含量，如酒驾将面临立即吊销驾照和严格处罚。",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-230",
+  "question": "如果交通信号灯因停电完全熄灭，应将路口视为：",
+  "choices": [
+    "四向停车",
+    "正常绿灯",
+    "仅行人通行",
+    "所有方向让行"
+  ],
+  "correctIndex": 0,
+  "explanation": "当交通信号灯失效时，驾驶员必须将路口视为四向停车。",
+  "image": "/signs/q-230-traffice-light-off.png"
+},
+  {
+  "id": "q-231",
+  "question": "在理想条件下，建议的最小跟车距离是：",
+  "choices": [
+    "至少2秒",
+    "半秒",
+    "1秒",
+    "始终4秒"
+  ],
+  "correctIndex": 0,
+  "explanation": "2秒的间距可提供安全的停车时间。在恶劣条件下应增加跟车距离。",
+  "image": "/signs/q-231-following-distance.png"
+},
+{
+  "id": "q-232",
+  "question": "为什么桥面比其他路面更早结冰？",
+  "choices": [
+    "桥面上下都暴露在冷空气中",
+    "使用更软的路面材料",
+    "承载更多交通",
+    "接受更多阳光"
+  ],
+  "correctIndex": 0,
+  "explanation": "冷空气在桥面上下流动，使其比其他路面更快结冰。",
+  "image": "/signs/q-23-bridge-freezes.png"
+},
+{
+  "id": "q-233",
+  "question": "在安大略省，什么时候可以在红灯时左转？",
+  "choices": [
+    "仅从单行道转入另一条单行道",
+    "只要没有来车",
+    "从不允许",
+    "仅在转入私人车道时"
+  ],
+  "correctIndex": 0,
+  "explanation": "只有在从一条单行道转入另一条单行道，并在完全停车后，才允许红灯左转。",
+  "image": "/signs/q-233-right-turn-on-red.png"
+},
+{
+  "id": "q-234",
+  "question": "在没有标志的情况下，安大略省城市、城镇和村庄的市政道路通常的最高限速是多少？",
+  "choices": [
+    "50公里/小时",
+    "40公里/小时",
+    "60公里/小时",
+    "70公里/小时"
+  ],
+  "correctIndex": 0,
+  "explanation": "除非另有标示，许多建成区市政道路的默认限速为50公里/小时。",
+  "image": "/signs/q-234-50-in-city.png"
+},
+{
+  "id": "q-235",
+  "question": "你面前是一个稳定的黄灯，并且距离足够远可以安全停车。你应该怎么做？",
+  "choices": [
+    "在路口前停车",
+    "加速在变红前通过路口",
+    "保持相同速度继续行驶",
+    "进入路口并等待绿灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "稳定的黄灯表示信号即将变为红灯。如果可以安全停车，必须在进入路口前停车。",
+  "image": "/signs/q-235-steady-yellow.png"
+},
