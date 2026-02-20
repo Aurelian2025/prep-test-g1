@@ -2089,3 +2089,231 @@
   "explanation": "Lorsqu’un conducteur titulaire d’un permis complet atteint 9 points d’inaptitude, le ministère peut exiger qu’il se présente à une entrevue et ordonner un réexamen pour évaluer sa capacité de conduite.",
   "image": "/signs/q-demerit-interview.png"
 },
+{
+    "id": "q-divided-highway-ends-121",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Que vous indique ce panneau au sujet de la route devant vous?",
+    "choices": [
+      "La chaussée séparée se termine et la circulation en sens inverse sera plus proche",
+      "Une chaussée séparée commence",
+      "La route devient à sens unique",
+      "L’accotement se termine plus loin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ce panneau montre deux lignes qui se rejoignent autour d’une forme centrale, indiquant que la chaussée séparée se termine et que la circulation en sens inverse ne sera plus séparée par un terre-plein central.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+  },
+  {
+    "id": "q-narrow-bridge-122",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau avant un pont. À quoi devez-vous vous attendre?",
+    "choices": [
+      "Un pont étroit où les voies ou les accotements sont réduits",
+      "Un large pont à plusieurs voies",
+      "Un pont-levis qui s’ouvre pour les bateaux",
+      "Un pont où la circulation est interdite"
+    ],
+    "correctIndex": 0,
+    "explanation": "La forme rétrécie sur le panneau avertit que le pont devant peut être plus étroit que la route, vous devez donc ralentir et être prêt à rencontrer la circulation en sens inverse en toute sécurité.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original question using your narrow-bridge sign image."
+  },
+  {
+    "id": "q-road-narrows-123",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ce panneau est installé avant un tronçon de route. Que signifie-t-il?",
+    "choices": [
+      "La route devant devient plus étroite",
+      "La route devant devient plus large",
+      "Rue à sens unique plus loin",
+      "Seuls les camions peuvent utiliser la route devant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les lignes qui se rapprochent sur le panneau d’avertissement indiquent que la chaussée va devenir plus étroite; vous devez donc réduire votre vitesse et croiser les véhicules en sens inverse avec prudence.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Original road-narrows question for Prep Test G1."
+  },
+  {
+    "id": "q-road-ends-124",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau en approchant de la fin d’une rue. Que signifie-t-il?",
+    "choices": [
+      "La route se termine plus loin; vous devez tourner ou vous arrêter",
+      "Entrée d’autoroute plus loin",
+      "Cul-de-sac mais circulation de transit permise",
+      "La chaussée passe seulement de l’asphalte au gravier"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un panneau indiquant la fin de la route vous avertit que la voie de transit se termine. Vous devez ralentir et être prêt à vous arrêter ou à tourner selon l’indication.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Original road-ends interpretation question."
+  },
+  {
+    "id": "q-railway-approach-125",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau de passage à niveau sur une route à deux voies sans barrières. Que devez-vous faire?",
+    "choices": [
+      "Ralentir, regarder et écouter les trains, et être prêt à vous arrêter au besoin",
+      "Accélérer pour traverser les voies le plus rapidement possible",
+      "Vous arrêter sur les voies et regarder des deux côtés",
+      "Ignorer le panneau si les feux ne clignotent pas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les panneaux d’avertissement de passage à niveau signifient que vous devez ralentir, regarder et écouter dans les deux directions, et être prêt à vous arrêter si un train approche. Ne vous arrêtez jamais sur les voies.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "New scenario about approaching a railway crossing without gates."
+  },
+  {
+    "id": "q-road-closed-ahead-126",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Ce panneau orange apparaît sur un détour. Que vous indique-t-il au sujet de la route devant?",
+    "choices": [
+      "La route devant sera complètement fermée à la circulation",
+      "Seuls les camions sont autorisés plus loin",
+      "L’accotement est fermé mais les voies sont ouvertes",
+      "La route est fermée seulement la nuit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Un panneau orange ROUTE FERMÉE PLUS LOIN signifie que la route ne sera pas praticable plus loin. Vous devez être prêt à suivre le détour indiqué ou à faire demi-tour.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed-ahead.jpg",
+    "notes": "Different from earlier construction question: focuses on full closure ahead."
+  },
+  {
+  "id": "q-no-passing-127",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Le dépassement est permis seulement à droite",
+    "Le dépassement est interdit dans cette zone",
+    "Les véhicules doivent circuler par paires",
+    "Les véhicules lents doivent se ranger"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le cercle rouge barré au-dessus de deux véhicules côte à côte indique que le dépassement est interdit.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Passing Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+}
+,
+  {
+    "id": "q-roundabout-yield-128",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "Vous voyez ce panneau de carrefour giratoire plus loin. Quelle est la bonne façon d’entrer dans le carrefour?",
+    "choices": [
+      "Ralentir, céder le passage aux véhicules déjà engagés et entrer lorsqu’il y a un espace sécuritaire",
+      "Entrer tout droit sans ralentir",
+      "S’arrêter dans le carrefour pour choisir votre sortie",
+      "Entrer sans signaler et s’arrêter au milieu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le panneau de carrefour giratoire signifie qu’une intersection circulaire se trouve plus loin. Vous devez réduire votre vitesse, céder le passage aux véhicules déjà engagés et entrer seulement lorsque c’est sécuritaire.",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "New roundabout question focusing on yielding on entry."
+  },
+  {
+  "id": "q-hand-signal-slow-stop-129",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Que signifie ce signal manuel du conducteur?",
+  "choices": [
+    "Le conducteur ralentit ou s’arrête",
+    "Le conducteur a l’intention de tourner à gauche",
+    "Le conducteur a l’intention de tourner à droite",
+    "Le conducteur cède le passage à la circulation en sens inverse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un bras tendu vers le bas indique que le conducteur prévoit réduire sa vitesse ou s’arrêter.",
+  "sources": [
+    {
+      "title": "Driver Hand Signals — Official MTO Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+ {
+  "id": "q-permitted-action-130",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "Qu’indique généralement un panneau avec un cercle vert?",
+  "choices": [
+    "Une action est permise",
+    "Un avertissement de dangers plus loin",
+    "Un panneau d’arrêt plus loin",
+    "Une voie est fermée"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les cercles verts sur les panneaux réglementaires indiquent des actions ou des mouvements autorisés.",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+}
