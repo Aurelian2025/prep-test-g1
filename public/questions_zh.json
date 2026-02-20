@@ -4018,3 +4018,135 @@
   "explanation": "驾驶员不得掉头行驶。",
   "image": "/signs/no-u-turn.jpg"
 },
+{
+  "id": "q-pedestrian-crossing-256",
+  "question": "驾驶员应做好什么准备？",
+  "choices": [
+    "有行人正在过马路",
+    "前方有停车标志",
+    "有校车",
+    "有交通信号灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员必须为行人让行。",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
+{
+  "id": "q-roundabout-257",
+  "question": "驾驶员应如何行驶？",
+  "choices": [
+    "礼让环岛内的车辆",
+    "完全停车",
+    "顺时针进入",
+    "加速"
+  ],
+  "correctIndex": 0,
+  "explanation": "已经在环岛内的车辆拥有优先通行权。",
+  "image": "/signs/q-11-roundabout.png"
+},
+{
+  "id": "q-hov-lane-258",
+  "question": "谁可以使用这条车道？",
+  "choices": [
+    "载有多名乘客的车辆",
+    "所有车辆",
+    "仅限卡车",
+    "仅限紧急车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "HOV 车道仅供符合条件的车辆使用。",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-stop-ahead-259",
+  "question": "该标志提醒驾驶员什么？",
+  "choices": [
+    "前方有停车标志",
+    "停车标志正在移除",
+    "其他车辆必须让你先行",
+    "前方有交通信号灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "警告菱形中的停车标志符号提醒驾驶员要准备很快停车。",
+  "image": "/signs/stop-ahead.jpg"
+},
+{
+  "id": "q-railway-crossing-260",
+  "question": "该标志警告什么？",
+  "choices": [
+    "前方有铁路道口",
+    "人行横道",
+    "交通信号灯",
+    "停车标志"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员必须做好为火车停车的准备。",
+  "image": "/signs/q-210-railway-crossing-1.jpg"
+},
+ {
+  "id": "q-261",
+  "question": "夜间驾驶时你开始感到非常疲倦。最安全的做法是什么？",
+  "choices": [
+    "找一个安全的地方停车休息",
+    "打开车窗继续驾驶",
+    "调大收音机音量并加快速度",
+    "紧跟另一辆车以保持警觉"
+  ],
+  "correctIndex": 0,
+  "explanation": "疲劳驾驶很危险。最安全的选择是停止驾驶并休息。",
+  "image": "/signs/q-tired-driver-200.png"
+},
+{
+  "id": "q-fail-remain-collision-262",
+  "category": "demerit-points",
+  "question": "未在碰撞现场停留会被记多少扣分？",
+  "choices": [
+    "3 分",
+    "5 分",
+    "6 分",
+    "7 分"
+  ],
+  "correctIndex": 3,
+  "explanation": "未在碰撞现场停留会被记 7 分扣分。",
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-263",
+  "question": "在挡风玻璃部分被雪或冰覆盖的情况下，什么时候可以驾驶？",
+  "choices": [
+    "从不；驾驶前必须完全清理挡风玻璃和车窗",
+    "只要能直接看到前方",
+    "仅在低速时",
+    "仅当雨刷正常工作时"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员在驾驶前必须确保各个方向视线清晰。",
+  "image": "/signs/q-263-windshield-covered-snow.png"
+},
+{
+  "id": "q-report-collision-damage-264",
+  "category": "collisions-and-reporting",
+  "question": "如果发生机动车碰撞，出现人员受伤或财产总损失超过多少金额时，必须向警方报告？",
+  "choices": [
+    "$100",
+    "$300",
+    "$500",
+    "$1000"
+  ],
+  "correctIndex": 3,
+  "explanation": "在安大略省，如果有人受伤或总损失超过 1000 美元，必须向警方报告碰撞。",
+  "image": "/signs/q-collision-damage.png"
+},
+{
+  "id": "q-265",
+  "question": "在大多数乘用车中，安装儿童安全座椅最安全的位置是哪里？",
+  "choices": [
+    "后排座位，远离已启用的安全气囊",
+    "前排座位并开启安全气囊",
+    "前排长椅座位的中间",
+    "驾驶员座位旁边"
+  ],
+  "correctIndex": 0,
+  "explanation": "后排通常最安全，尤其要远离安全气囊。",
+  "image": "/signs/q-31-child-seat.png"
+},
