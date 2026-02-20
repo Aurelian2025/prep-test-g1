@@ -3227,3 +3227,133 @@
   "explanation": "En un cruce peatonal, debe estar listo para detenerse y permitir que los peatones que esperan crucen de forma segura antes de continuar.",
   "image": "/signs/pedestrian-crossing.jpg"
 },
+{
+  "id": "q-two-way-traffic-ahead-206",
+  "question": "¿Sobre qué advierte esta señal a los conductores?",
+  "choices": [
+    "Hay tráfico en ambos sentidos más adelante",
+    "La vía de un solo sentido continúa",
+    "Comienza un carril de adelantamiento",
+    "La carretera se reduce a un solo carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las flechas opuestas muestran tráfico que se mueve en ambas direcciones en la carretera más adelante.",
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+{
+  "id": "q-truck-entrance-207",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Camiones pueden estar entrando o saliendo de la carretera más adelante",
+    "Solo los camiones pueden usar este carril",
+    "Se permite estacionamiento de camiones",
+    "Camiones prohibidos"
+  ],
+  "correctIndex": 0,
+  "explanation": "El símbolo del camión advierte a los conductores que esperen vehículos pesados lentos o que giran entrando al carril.",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-208",
+  "question": "Esta señal triangular naranja reflectante se utiliza en:",
+  "choices": [
+    "Vehículos que viajan lentamente, como maquinaria agrícola",
+    "Solo quitanieves",
+    "Solo autobuses escolares",
+    "Vehículos de emergencia"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una señal de vehículo lento advierte que el vehículo generalmente viaja a menos de 40 km/h.",
+  "image": "/signs/q-217-triangular-sign.png"
+},
+{
+  "id": "q-bike-lane-209",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Un carril reservado para bicicletas",
+    "Bicicletas prohibidas",
+    "Solo motocicletas",
+    "Solo peatones"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal marca un carril designado para el tráfico de bicicletas.",
+  "image": "/signs/bike-lane.jpg"
+},
+{
+  "id": "q-lane-control-signals-210",
+  "question": "En un puente ves señales de control de carril sobre cada carril. El carril sobre ti muestra de repente una “X” roja. ¿Qué debes hacer?",
+  "choices": [
+    "Cambiar a un carril con una flecha verde tan pronto como puedas hacerlo con seguridad",
+    "Ignorarla si el tráfico en tu carril sigue moviéndose",
+    "Detenerte en tu carril y esperar a que la señal se ponga verde",
+    "Tocar la bocina y continuar en tu carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una “X” roja sobre un carril significa que ese carril está cerrado al tráfico y no debes conducir en él. Muévete con seguridad a un carril marcado con una flecha verde.",
+  "image": "/signs/q-213-x-sign.png"
+},
+ {
+  "id": "q-bumps-ahead-211",
+  "question": "¿Cómo deben reaccionar los conductores ante esta señal?",
+  "choices": [
+    "Reducir la velocidad por múltiples baches",
+    "Cambiar de carril inmediatamente",
+    "Detenerse por completo",
+    "Tocar la bocina"
+  ],
+  "correctIndex": 0,
+  "explanation": "Múltiples baches más adelante requieren que los conductores reduzcan la velocidad para mantener el control.",
+  "image": "/signs/bumps-ahead.png"
+},
+{
+  "id": "q-construction-ahead-212",
+  "question": "¿Sobre qué advierte esta señal a los conductores?",
+  "choices": [
+    "Construcción más adelante",
+    "Carretera cerrada",
+    "Cruce ferroviario",
+    "Zona escolar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben esperar trabajadores, equipo, velocidades reducidas o cambios de carril más adelante.",
+  "image": "/signs/construction-ahead.jpg"
+},
+{
+  "id": "q-deer-crossing-213",
+  "question": "¿Qué peligro muestra esta señal?",
+  "choices": [
+    "Cruce de animales salvajes",
+    "Vehículos agrícolas",
+    "Entrada al zoológico",
+    "Área de parque"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben estar atentos a animales que puedan entrar repentinamente en la carretera.",
+  "image": "/signs/deer-crossing.jpg"
+},
+{
+  "id": "q-divided-highway-begins-214",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Comienza una autopista dividida",
+    "Termina el tráfico en ambos sentidos",
+    "Adelantar permitido",
+    "Fin de carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "El tráfico estará separado por un separador físico más adelante.",
+  "image": "/signs/divided-highway-begins.jpg"
+},
+{
+  "id": "q-divided-highway-ends-215",
+  "question": "¿Qué cambio deben esperar los conductores?",
+  "choices": [
+    "El tráfico que viene de frente ya no estará separado",
+    "La carretera se estrecha",
+    "Disminuye el límite de velocidad",
+    "Fin de carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "La autopista dividida está terminando y el tráfico en sentido contrario compartirá la carretera.",
+  "image": "/signs/divided-highway-ends.jpg"
+},
