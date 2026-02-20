@@ -3822,3 +3822,133 @@
   "explanation": "Un cercle rouge barré indique un mouvement interdit — dans ce cas, pas de virage à droite au feu rouge.",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+  "id": "q-246",
+  "question": "Un panneau rectangulaire blanc avec des chiffres noirs comme « 80 » et le mot « MAXIMUM » signifie :",
+  "choices": [
+    "La vitesse maximale légale dans des conditions idéales est de 80 km/h",
+    "Vous devez rouler exactement à 80 km/h",
+    "La vitesse minimale est de 80 km/h",
+    "Vous pouvez dépasser 80 km/h pour dépasser"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux de vitesse réglementaires indiquent la vitesse maximale légale dans des conditions idéales.",
+  "image": "/signs/q-246-max-80.png"
+},
+{
+  "id": "q-247",
+  "question": "Un panneau indiquant la fin de la limite de vitesse d’une zone scolaire signifie :",
+  "choices": [
+    "Vous pouvez reprendre la vitesse affichée normale lorsque c’est sécuritaire",
+    "Vous devez continuer à la vitesse scolaire en tout temps",
+    "Il n’y a plus de piétons au-delà de ce point",
+    "Les autobus scolaires ne s’arrêtent plus"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux de fin de zone indiquent où les limites spéciales plus basses ne s’appliquent plus.",
+  "image": "/signs/q-247-end-of-school-zone.png"
+},
+{
+  "id": "q-248",
+  "question": "Un panneau montrant la fin de la voie de droite et une flèche se courbant vers la voie de gauche signifie :",
+  "choices": [
+    "La circulation de la voie de droite doit se rabattre à gauche",
+    "La circulation de la voie de gauche doit s’arrêter",
+    "Circulation à double sens devant",
+    "Le dépassement est permis sur l’accotement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux de voie de fusion avertissent les conducteurs de changer de voie en toute sécurité.",
+  "image": "/signs/q-248-right-lane-ends.png"
+},
+{
+  "id": "q-narrow-bridge-249",
+  "question": "De quelle condition ce panneau avertit-il?",
+  "choices": [
+    "Un pont étroit à venir",
+    "Un pont bas",
+    "Un pont fermé",
+    "Un pont en construction"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs peuvent devoir céder le passage en raison de la largeur réduite.",
+  "image": "/signs/narrow-bridge.jpg"
+},
+{
+  "id": "q-right-left-curve-ahead-250",
+  "question": "Que signifie ce panneau d’avertissement?",
+  "choices": [
+    "La route devant courbe d’abord vers la droite puis vers la gauche",
+    "Un seul virage serré à droite est à venir",
+    "La route devient à sens unique",
+    "Vous devez tourner à droite à la prochaine intersection"
+  ],
+  "correctIndex": 0,
+  "explanation": "La flèche montrant deux courbes avertit les conducteurs que la chaussée va courber dans deux directions et que la vitesse doit être réduite.",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
+  {
+  "id": "q-no-bicycles-251",
+  "question": "Que signifie l’interdiction de ce panneau?",
+  "choices": [
+    "Les bicyclettes",
+    "Les piétons",
+    "Les motocyclettes",
+    "Les motoneiges"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les bicyclettes ne sont pas permises dans cette zone.",
+  "image": "/signs/no-bicycles.jpg"
+},
+{
+  "id": "q-no-parking-252",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Le stationnement est interdit",
+    "L’arrêt est interdit",
+    "Stationnement permis brièvement",
+    "Chargement seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les véhicules peuvent s’arrêter brièvement mais ne doivent pas stationner.",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-no-passing-253",
+  "question": "Quelle action de conduite est interdite?",
+  "choices": [
+    "Dépasser d’autres véhicules",
+    "Changer de voie",
+    "Tourner",
+    "S’arrêter"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le dépassement n’est pas permis dans cette zone.",
+  "image": "/signs/no-passing.jpg"
+},
+{
+  "id": "q-no-pedestrians-254",
+  "question": "Qui n’est pas autorisé ici?",
+  "choices": [
+    "Les piétons",
+    "Les cyclistes",
+    "Les motocyclettes",
+    "Les voitures"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’accès des piétons est interdit pour des raisons de sécurité.",
+  "image": "/signs/no-pedestrians.jpg"
+},
+{
+  "id": "q-no-u-turn-255",
+  "question": "Quelle manœuvre est interdite?",
+  "choices": [
+    "Faire un demi-tour",
+    "Tourner à gauche",
+    "Tourner à droite",
+    "Aller tout droit"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs ne doivent pas inverser leur direction.",
+  "image": "/signs/no-u-turn.jpg"
+},
