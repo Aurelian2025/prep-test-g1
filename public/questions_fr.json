@@ -2248,8 +2248,7 @@
     }
   ],
   "image": "/signs/q-no-passing.png"
-}
-,
+},
   {
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
@@ -2316,4 +2315,69 @@
     }
   ],
   "image": "/signs/q-permitted-action.png"
-}
+},
+{
+  "id": "q-snowmobile-crossing-sign-131",
+  "question": "Que signale ce panneau aux conducteurs?",
+  "choices": [
+    "Une aire de stationnement réservée aux motoneiges plus loin",
+    "Une route fermée durant les mois d’hiver",
+    "Des motoneiges peuvent traverser la chaussée plus loin",
+    "Un itinéraire réservé aux motoneiges commence ici"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau d’avertissement jaune en forme de losange indique un endroit où des motoneiges peuvent traverser la route. Les conducteurs doivent ralentir et être attentifs à la circulation de motoneiges.",
+  "image": "/signs/snowmobile-parking.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-132",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Seule la voie de droite peut continuer tout droit",
+    "Les virages à droite sont interdits depuis la voie de droite",
+    "Les véhicules dans la voie de droite doivent prendre la sortie",
+    "La voie de droite est réservée aux véhicules lents"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau de guidage vert informe les conducteurs que la circulation dans la voie de droite doit prendre la sortie. Les conducteurs qui ne souhaitent pas sortir doivent se déplacer vers une autre voie à l’avance.",
+  "image": "/signs/right-lane-must-exit.png"
+},
+{
+  "id": "q-hand-signal-right-turn-133",
+  "question": "Que signifie ce signal de la main lorsque le bras gauche d’un conducteur est plié vers le haut à un angle de 90 degrés?",
+  "choices": [
+    "Le conducteur ralentit ou s’arrête",
+    "Le conducteur a l’intention de tourner à droite",
+    "Le conducteur a l’intention de tourner à gauche",
+    "Le conducteur signale une panne de véhicule"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lorsque le bras gauche d’un conducteur est plié vers le haut à un angle de 90 degrés avec la main pointant vers le haut, cela indique l’intention de tourner à droite.",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-warning-steep-hill-trucks-134",
+  "question": "Que signale ce panneau routier aux conducteurs?",
+  "choices": [
+    "Une station d’inspection des camions plus loin",
+    "Une forte pente descendante plus loin, particulièrement dangereuse pour les camions",
+    "Une zone de construction exigeant l’arrêt des camions",
+    "Une aire de stationnement réservée aux camions plus loin"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ce panneau d’avertissement indique une forte pente descendante plus loin. Les conducteurs — en particulier ceux qui conduisent de gros véhicules lourds — doivent réduire leur vitesse et faire preuve de prudence.",
+  "image": "/signs/steep-hill.png"
+},
+{
+  "id": "q-keep-right-except-to-pass-135",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Vous devez rester dans la voie de droite sauf pour dépasser un autre véhicule",
+    "La voie de gauche est fermée à toute circulation",
+    "Les virages à droite sont les seuls mouvements autorisés",
+    "Le dépassement n’est jamais autorisé"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau indique aux conducteurs d’utiliser la voie de droite pour la circulation normale et de se déplacer à gauche uniquement pour dépasser en toute sécurité des véhicules plus lents.",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
