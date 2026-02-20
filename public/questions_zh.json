@@ -2314,8 +2314,7 @@
     }
   ],
   "image": "/signs/q-no-passing.png"
-}
-,
+},
   {
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
@@ -2382,4 +2381,69 @@
     }
   ],
   "image": "/signs/q-permitted-action.png"
-}
+},
+{
+  "id": "q-snowmobile-crossing-sign-131",
+  "question": "此标志提醒驾驶员什么？",
+  "choices": [
+    "前方有指定的雪地摩托停车区",
+    "道路在冬季期间关闭",
+    "前方可能有雪地摩托穿越道路",
+    "此处开始为仅限雪地摩托的路线"
+  ],
+  "correctIndex": 2,
+  "explanation": "此黄色菱形警告标志表示该地点可能有雪地摩托穿越道路。驾驶员应减速并注意雪地摩托交通。",
+  "image": "/signs/snowmobile-parking.png"
+},
+{
+  "id": "q-right-lane-must-exit-sign-132",
+  "question": "此标志表示什么？",
+  "choices": [
+    "只有右侧车道可以直行",
+    "右侧车道禁止右转",
+    "右侧车道的车辆必须驶出",
+    "右侧车道为慢速车辆专用"
+  ],
+  "correctIndex": 2,
+  "explanation": "此绿色指示标志告知驾驶员，右侧车道的车辆必须驶出。若不打算驶出，应提前变更到其他车道。",
+  "image": "/signs/right-lane-must-exit.png"
+},
+{
+  "id": "q-hand-signal-right-turn-133",
+  "question": "当驾驶员的左臂向上弯曲成90度角时，此手势表示什么？",
+  "choices": [
+    "驾驶员正在减速或停车",
+    "驾驶员打算右转",
+    "驾驶员打算左转",
+    "驾驶员在警示车辆故障"
+  ],
+  "correctIndex": 1,
+  "explanation": "当驾驶员的左臂向上弯曲成90度角并且手向上指时，表示其有右转的意图。",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-warning-steep-hill-trucks-134",
+  "question": "此道路标志提醒驾驶员什么？",
+  "choices": [
+    "前方有卡车检查站",
+    "前方有陡峭的下坡路段，尤其对卡车危险",
+    "施工区域要求卡车停车",
+    "前方有指定的卡车停车区"
+  ],
+  "correctIndex": 1,
+  "explanation": "此警告标志表示前方有陡峭的下坡路段。驾驶员——尤其是驾驶大型或重型车辆的人员——应减速并谨慎行驶。",
+  "image": "/signs/steep-hill.png"
+},
+{
+  "id": "q-keep-right-except-to-pass-135",
+  "question": "此标志表示什么？",
+  "choices": [
+    "除非超车，否则必须保持在右侧车道行驶",
+    "左侧车道对所有车辆关闭",
+    "只允许右转",
+    "任何时候都不允许超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "此标志告诉驾驶员在正常行驶时使用右侧车道，只有在安全超越较慢车辆时才应移至左侧车道。",
+  "image": "/signs/q-keep-right-except-to-pass.png"
+},
