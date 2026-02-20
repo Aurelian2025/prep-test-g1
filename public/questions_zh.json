@@ -2707,3 +2707,133 @@
   "explanation": "对于公交车司机，在无防护铁路道口未停车会被记5分扣分。",
   "image": "/signs/q-railway-stop-47.png"
 },
+{
+  "id": "q-hydroplaning-156",
+  "question": "如果你的车辆在非常湿滑的道路上开始打滑（水滑），最安全的做法是什么？",
+  "choices": [
+    "松开油门并保持方向盘直行，直到恢复抓地力",
+    "用力刹车并急转方向",
+    "挂入空挡并关闭发动机",
+    "加速以更快通过积水"
+  ],
+  "correctIndex": 0,
+  "explanation": "当轮胎在水面上与道路失去接触时会发生水滑。松开油门并保持车轮直行，直到恢复抓地力。",
+  "image": "/signs/q-hydroplaning-prevent-73.png"
+},
+{
+  "id": "q-headlights-visibility-157",
+  "question": "即使在白天，什么时候必须使用车头灯？",
+  "choices": [
+    "当能见度差到无法清楚看到前方150米处的人或车辆时",
+    "只在乡村道路的夜间",
+    "只在冬季月份",
+    "只在使用远光灯时"
+  ],
+  "correctIndex": 0,
+  "explanation": "在雨、雪或雾等能见度较差时应使用车头灯，以便他人能够看到你。",
+  "image": "/signs/q-headlights-visibility-180.jpg"
+},
+{
+  "id": "q-parking-uphill-curb-158",
+  "question": "在有路缘的街道上坡停车时，应如何转动车辆的前轮？",
+  "choices": [
+    "将前轮转向远离路缘的一侧并拉起驻车制动",
+    "将车轮保持直行",
+    "将前轮转向路缘一侧",
+    "车轮朝向哪边都无所谓"
+  ],
+  "correctIndex": 0,
+  "explanation": "上坡靠路缘停车时，应将车轮转离路缘并拉起驻车制动，以防车辆滑动。",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-demerit-fail-yield-ped-159",
+  "question": "在有标记的人行横道处，你未为明显在横道内的行人停车并被定罪。你会被扣多少扣分？",
+  "choices": [
+    "2分扣分",
+    "3分扣分",
+    "4分扣分",
+    "6分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "在安大略省，不在人行横道或类似受保护的过街处停车将被扣4分。",
+  "image": "/signs/q-demerit-fail-yield-ped-128.png"
+},
+{
+  "id": "q-demerit-fail-remain-160",
+  "question": "发生轻微碰撞后，司机未停车提供信息就离开并被判定未留在现场。这会被扣多少扣分？",
+  "choices": [
+    "3分扣分",
+    "4分扣分",
+    "6分扣分",
+    "7分扣分"
+  ],
+  "correctIndex": 3,
+  "explanation": "在安大略省，未在碰撞现场停留将被扣7分。",
+  "image": "/signs/q-demerit-fail-remain-129.png"
+},
+ {
+  "id": "q-sharp-curve-left-speed-161",
+  "question": "你看到这个左急弯警告标志，下方有建议速度牌。你应如何驾驶？",
+  "choices": [
+    "减速至接近建议速度，并平稳通过弯道",
+    "保持当前速度并在弯道中间急刹车",
+    "加速进入弯道以保持在车道内",
+    "在路肩上行驶以避开弯道"
+  ],
+  "correctIndex": 0,
+  "explanation": "急弯标志通常附有建议速度。进入弯道前减速至该速度，并平稳转向以保持控制。",
+  "image": "/signs/sharp-curve-left.jpg"
+},
+{
+  "id": "q-sharp-curve-right-passing-162",
+  "question": "在双车道道路上接近这个右急弯标志时，最安全的超车方式是什么？",
+  "choices": [
+    "不要在急弯处或其附近超车",
+    "在弯道中间快速超车",
+    "如果看不到来车也可以超车",
+    "任何速度都允许超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "急弯会限制你的视线。在接近或进入急弯时不要超车，因为你可能无法及时看到来车。",
+  "image": "/signs/sharp-curve-right.jpg"
+},
+{
+  "id": "q-bicycles-permitted-163",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "自行车可以使用这条道路或车道",
+    "骑行者必须推着自行车行走",
+    "此区域禁止自行车通行",
+    "只有机动车可以使用此车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色圆形表示允许的行为；这里表示自行车可以在该车道或道路上行驶。",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+{
+  "id": "q-school-zone-164",
+  "question": "这个标志提醒驾驶员注意什么？",
+  "choices": [
+    "学校区域，减速并注意有儿童过马路",
+    "该道路仅限卡车通行",
+    "游乐场已关闭",
+    "自行车拥有优先通行权"
+  ],
+  "correctIndex": 0,
+  "explanation": "行人图案提醒驾驶员在学校或游乐区附近减速并注意儿童。",
+  "image": "/signs/q-school-zone.png"
+},
+{
+  "id": "q-parking-30-min-165",
+  "question": "这个标志表示什么？",
+  "choices": [
+    "在标示时间内最多可停车30分钟",
+    "该区域完全禁止停车",
+    "只有商用车辆可以在此停车",
+    "任何时候停车都免费且不限时"
+  ],
+  "correctIndex": 0,
+  "explanation": "绿色P表示允许停车，下方文字说明了时间限制和执行日期。",
+  "image": "/signs/q-parking-30-min.png"
+},
