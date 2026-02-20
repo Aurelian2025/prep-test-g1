@@ -2832,3 +2832,133 @@
   "explanation": "La fatiga del conductor es peligrosa. La única opción segura es detenerse y descansar antes de continuar el viaje.",
   "image": "/signs/q-fatigue-driving-188.png"
 },
+{
+  "id": "q-tailgater-176",
+  "question": "Otro conductor lo sigue demasiado de cerca (pegado). ¿Cuál es la forma más segura de responder?",
+  "choices": [
+    "Aumente gradualmente su distancia de seguimiento y, cuando sea seguro, cambie de carril o déjelo pasar",
+    "Frene bruscamente para advertirle",
+    "Acelere para alejarse de él",
+    "Ignórelo y conduzca exactamente de la misma manera"
+  ],
+  "correctIndex": 0,
+  "explanation": "Aumente su distancia de seguimiento y, cuando sea seguro, deje que el conductor lo adelante. Evite reacciones agresivas.",
+  "image": "/signs/q-tailgater-65.png"
+},
+{
+  "id": "q-mirrors-frequency-177",
+  "question": "¿Con qué frecuencia debería normalmente revisar sus espejos mientras conduce en una carretera recta con poco tráfico?",
+  "choices": [
+    "Cada pocos segundos, y antes de reducir la velocidad, girar o cambiar de carril",
+    "Solo cuando escuche una bocina",
+    "Una vez al principio y otra al final del viaje",
+    "Solo cuando planee detenerse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Revisar los espejos con frecuencia le ayuda a mantenerse consciente del tráfico a su alrededor y a reaccionar de forma segura a los cambios.",
+  "image": "/signs/q-mirrors-frequency-190.png"
+},
+{
+  "id": "q-impaired-zero-g1-178",
+  "question": "Para un conductor con licencia G1 o G2, ¿cuál es el requisito legal de alcohol en la sangre mientras conduce?",
+  "choices": [
+    "Debe tener cero alcohol en la sangre (0.00 BAC)",
+    "Se permite una pequeña cantidad de alcohol si se siente bien",
+    "Puede beber siempre que se mantenga por debajo del límite de conductores con licencia completa",
+    "No hay reglas de alcohol para conductores G1/G2"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ontario tiene una regla de tolerancia cero para el alcohol para conductores novatos (G1 y G2). Deben tener un BAC de 0.00 mientras conducen.",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-g1-supervisor-179",
+  "question": "¿Cuál de los siguientes es un requisito para un conductor con licencia G1 al conducir en vías públicas?",
+  "choices": [
+    "Un conductor con licencia completa con al menos cuatro años de experiencia debe sentarse en el asiento delantero del pasajero",
+    "Cualquier amigo con licencia puede sentarse en el asiento trasero",
+    "Ninguna otra persona necesita estar en el vehículo",
+    "Solo se requiere otro conductor G1 como supervisor"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores G1 deben ir acompañados en el asiento delantero por un conductor con licencia completa con la experiencia de conducción requerida.",
+  "image": "/signs/q-g1-supervisor-192.png"
+},
+{
+  "id": "q-g1-roads-restrictions-180",
+  "question": "¿Cuál afirmación sobre los conductores G1 y las carreteras de alta velocidad es correcta?",
+  "choices": [
+    "Los conductores G1 no pueden circular por ciertas autopistas de alta velocidad a menos que estén acompañados por un instructor de conducción calificado",
+    "Los conductores G1 pueden conducir solos por todas las autopistas en cualquier momento",
+    "Los conductores G1 solo pueden circular por carreteras de peaje",
+    "Los conductores G1 deben conducir solo por caminos sin pavimentar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Algunas autopistas de alta velocidad están restringidas para conductores G1 a menos que esté presente un instructor de conducción calificado.",
+  "image": "/signs/q-g1-roads-restrictions-193.png"
+},
+ {
+  "id": "q-g2-passengers-night-181",
+  "question": "¿Por qué Ontario impone ciertas restricciones nocturnas de pasajeros a algunos conductores G2 menores de 20 años?",
+  "choices": [
+    "Para reducir el riesgo de colisiones graves cuando conductores novatos llevan varios pasajeros adolescentes por la noche",
+    "Para limitar el uso de combustible de los conductores jóvenes",
+    "Para hacer el transporte público más popular",
+    "Para evitar que los conductores G2 conduzcan durante el día"
+  ],
+  "correctIndex": 0,
+  "explanation": "El manual explica que las restricciones nocturnas para conductores G2 jóvenes están diseñadas para reducir el riesgo de accidentes cuando la experiencia aún es limitada.",
+  "image": "/signs/q-g2-passengers-night-194.png"
+},
+{
+  "id": "q-collision-duties-182",
+  "question": "Está involucrado en una colisión con otro vehículo y no hay lesiones graves. ¿Qué se le exige hacer?",
+  "choices": [
+    "Detenerse, intercambiar información con el otro conductor y seguir los requisitos de reporte",
+    "Irse rápidamente si su automóvil aún puede moverse",
+    "Llevar su automóvil a casa y reportarlo solo si lo desea",
+    "Permanecer en el vehículo y bloquear el tráfico hasta que llegue una grúa"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores involucrados en colisiones deben detenerse, proporcionar su información y seguir los requisitos de reporte según la ley.",
+  "image": "/signs/q-collision-duties-195.png"
+},
+{
+  "id": "q-turn-signals-183",
+  "question": "¿Cuándo debe usar la señal de giro?",
+  "choices": [
+    "Siempre que planee girar, cambiar de carril o salir de una posición de estacionamiento",
+    "Solo cuando el tráfico sea intenso",
+    "Solo cuando conduzca de noche",
+    "Solo al acercarse a una señal de alto"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales de giro comunican sus intenciones a los demás. Úselas para giros, cambios de carril y al incorporarse o salir del tráfico.",
+  "image": "/signs/q-turn-signals-196.png"
+},
+{
+  "id": "q-back-up-safely-184",
+  "question": "¿Cuál es la forma más segura de retroceder un vehículo?",
+  "choices": [
+    "Revise todo alrededor, mire por la ventana trasera y retroceda lentamente",
+    "Confíe solo en los espejos y retroceda rápidamente",
+    "Use solo la cámara trasera y no mire a ningún otro lugar",
+    "Retroceda mirando hacia adelante y usando solo los espejos laterales"
+  ],
+  "correctIndex": 0,
+  "explanation": "Al retroceder, revise todo alrededor, mire principalmente por la ventana trasera y muévase lentamente para evitar peligros.",
+  "image": "/signs/q-back-up-safely-197.png"
+},
+{
+  "id": "q-pedestrians-turning-185",
+  "question": "Va a girar a la derecha en una intersección y la luz está en verde. Un peatón comienza a cruzar la calle a la que usted va a girar. ¿Qué debe hacer?",
+  "choices": [
+    "Ceder el paso al peatón y esperar hasta que haya cruzado con seguridad",
+    "Tocar la bocina y girar delante del peatón",
+    "Girar rápidamente detrás del peatón",
+    "Avanzar hacia el paso de peatones para mostrar que piensa girar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores que giran deben ceder el paso a los peatones en el cruce y esperar hasta que despejen el carril antes de completar el giro.",
+  "image": "/signs/q-pedestrians-turning-198.png"
+},
