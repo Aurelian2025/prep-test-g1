@@ -2155,3 +2155,231 @@
   "explanation": "ਜਦੋਂ ਪੂਰਾ ਲਾਇਸੈਂਸ ਰੱਖਣ ਵਾਲਾ ਡਰਾਈਵਰ 9 ਡੀਮੇਰਿਟ ਅੰਕਾਂ 'ਤੇ ਪਹੁੰਚਦਾ ਹੈ, ਤਾਂ ਮੰਤਰਾਲਾ ਉਸਨੂੰ ਇੰਟਰਵਿਊ ਲਈ ਬੁਲਾ ਸਕਦਾ ਹੈ ਅਤੇ ਡਰਾਈਵਿੰਗ ਯੋਗਤਾ ਦੀ ਜਾਂਚ ਲਈ ਮੁੜ ਟੈਸਟ ਦਾ ਹੁਕਮ ਦੇ ਸਕਦਾ ਹੈ।",
   "image": "/signs/q-demerit-interview.png"
 },
+{
+    "id": "q-divided-highway-ends-121",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਸ਼ਾਨ ਤੁਹਾਨੂੰ ਅੱਗੇ ਵਾਲੀ ਸੜਕ ਬਾਰੇ ਕੀ ਦੱਸਦਾ ਹੈ?",
+    "choices": [
+      "ਵਿਭਾਜਿਤ ਹਾਈਵੇ ਖਤਮ ਹੋ ਰਿਹਾ ਹੈ ਅਤੇ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਨੇੜੇ ਹੋਵੇਗੀ",
+      "ਵਿਭਾਜਿਤ ਹਾਈਵੇ ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ ਹੈ",
+      "ਸੜਕ ਇਕ-ਤਰਫ਼ਾ ਬਣ ਜਾਵੇਗੀ",
+      "ਅੱਗੇ ਸ਼ੋਲਡਰ ਬੰਦ ਹੋ ਰਿਹਾ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਇਹ ਨਿਸ਼ਾਨ ਦੋ ਲਾਈਨਾਂ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ ਜੋ ਵਿਚਕਾਰਲੇ ਆਕਾਰ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਇਕੱਠੀਆਂ ਹੋ ਰਹੀਆਂ ਹਨ, ਜਿਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਵਿਭਾਜਿਤ ਹਾਈਵੇ ਖਤਮ ਹੋ ਰਿਹਾ ਹੈ ਅਤੇ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਹੁਣ ਮੀਡਿਅਨ ਨਾਲ ਵੱਖਰੀ ਨਹੀਂ ਰਹੇਗੀ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/divided-highway-ends.jpg",
+    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+  },
+  {
+    "id": "q-narrow-bridge-122",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਪੁਲ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਨਿਸ਼ਾਨ ਵੇਖਦੇ ਹੋ। ਤੁਹਾਨੂੰ ਕੀ ਉਮੀਦ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?",
+    "choices": [
+      "ਇੱਕ ਤੰਗ ਪੁਲ ਜਿੱਥੇ ਲੇਨ ਜਾਂ ਸ਼ੋਲਡਰ ਘੱਟ ਹੋ ਜਾਂਦੇ ਹਨ",
+      "ਇੱਕ ਚੌੜਾ ਬਹੁ-ਲੇਨ ਪੁਲ",
+      "ਇੱਕ ਡਰਾਬ੍ਰਿਜ ਜੋ ਕਿਸ਼ਤੀਆਂ ਲਈ ਖੁੱਲਦਾ ਹੈ",
+      "ਇੱਕ ਪੁਲ ਜਿੱਥੇ ਟ੍ਰੈਫਿਕ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਨਿਸ਼ਾਨ ਉੱਤੇ ਸੁੱਕੜਦੀ ਆਕ੍ਰਿਤੀ ਚੇਤਾਵਨੀ ਦਿੰਦੀ ਹੈ ਕਿ ਅੱਗੇ ਪੁਲ ਸੜਕ ਨਾਲੋਂ ਤੰਗ ਹੋ ਸਕਦਾ ਹੈ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਲਈ ਤਿਆਰ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/narrow-bridge.jpg",
+    "notes": "Original question using your narrow-bridge sign image."
+  },
+  {
+    "id": "q-road-narrows-123",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਨਿਸ਼ਾਨ ਸੜਕ ਦੇ ਇੱਕ ਹਿੱਸੇ ਤੋਂ ਪਹਿਲਾਂ ਲਗਾਇਆ ਗਿਆ ਹੈ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਸੜਕ ਤੰਗ ਹੋ ਜਾਂਦੀ ਹੈ",
+      "ਅੱਗੇ ਸੜਕ ਚੌੜੀ ਹੋ ਜਾਂਦੀ ਹੈ",
+      "ਅੱਗੇ ਇਕ-ਤਰਫ਼ਾ ਸੜਕ ਹੈ",
+      "ਸਿਰਫ਼ ਟਰੱਕ ਅੱਗੇ ਸੜਕ ਵਰਤ ਸਕਦੇ ਹਨ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਚੇਤਾਵਨੀ ਨਿਸ਼ਾਨ ਉੱਤੇ ਸੁੱਕੜਦੀਆਂ ਲਾਈਨਾਂ ਦਰਸਾਉਂਦੀਆਂ ਹਨ ਕਿ ਸੜਕ ਤੰਗ ਹੋਣ ਵਾਲੀ ਹੈ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੇ ਵਾਹਨਾਂ ਨਾਲ ਸਾਵਧਾਨੀ ਨਾਲ ਲੰਘਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-narrows.jpg",
+    "notes": "Original road-narrows question for Prep Test G1."
+  },
+  {
+    "id": "q-road-ends-124",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਗਲੀ ਦੇ ਅੰਤ ਨੇੜੇ ਇਹ ਨਿਸ਼ਾਨ ਵੇਖਦੇ ਹੋ। ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਸੜਕ ਖਤਮ ਹੁੰਦੀ ਹੈ; ਤੁਹਾਨੂੰ ਮੋੜਨਾ ਜਾਂ ਰੁਕਣਾ ਪਵੇਗਾ",
+      "ਅੱਗੇ ਫ੍ਰੀਵੇ ਦਾਖਲਾ ਹੈ",
+      "ਡੈੱਡ-ਐਂਡ ਪਰ ਆਵਾਜਾਈ ਦੀ ਇਜਾਜ਼ਤ ਹੈ",
+      "ਸਿਰਫ਼ ਸੜਕ ਦਾ ਮਾਦਾ ਅਸਫਾਲਟ ਤੋਂ ਬਜਰੀ ਵਿੱਚ ਬਦਲੇਗਾ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਸੜਕ ਖਤਮ ਹੋਣ ਦਾ ਨਿਸ਼ਾਨ ਦੱਸਦਾ ਹੈ ਕਿ ਸਿੱਧੀ ਸੜਕ ਅੱਗੇ ਖਤਮ ਹੋਵੇਗੀ। ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਅੰਤ 'ਤੇ ਰੁਕਣ ਜਾਂ ਮੋੜਣ ਲਈ ਤਿਆਰ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
+      }
+    ],
+    "image": "/signs/road-ends.jpg",
+    "notes": "Original road-ends interpretation question."
+  },
+  {
+    "id": "q-railway-approach-125",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਦੋ-ਲੇਨ ਸੜਕ 'ਤੇ ਬਿਨਾਂ ਗੇਟਾਂ ਦੇ ਅੱਗੇ ਰੇਲਵੇ ਕ੍ਰਾਸਿੰਗ ਦਾ ਨਿਸ਼ਾਨ ਵੇਖਦੇ ਹੋ। ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?",
+    "choices": [
+      "ਗਤੀ ਘਟਾਓ, ਟ੍ਰੇਨਾਂ ਲਈ ਦੇਖੋ ਅਤੇ ਸੁਣੋ, ਅਤੇ ਲੋੜ ਪੈਣ 'ਤੇ ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ",
+      "ਜਲਦੀ ਪੱਟੜੀਆਂ ਪਾਰ ਕਰਨ ਲਈ ਗਤੀ ਵਧਾਓ",
+      "ਪੱਟੜੀਆਂ ਉੱਤੇ ਰੁਕੋ ਅਤੇ ਦੋਹਾਂ ਪਾਸਿਆਂ ਵੇਖੋ",
+      "ਜੇ ਲਾਈਟਾਂ ਨਾ ਚਮਕਣ ਤਾਂ ਨਿਸ਼ਾਨ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਰੇਲਵੇ ਚੇਤਾਵਨੀ ਨਿਸ਼ਾਨ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ, ਦੋਹਾਂ ਪਾਸਿਆਂ ਦੇਖਣਾ ਅਤੇ ਸੁਣਨਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਜੇ ਟ੍ਰੇਨ ਆ ਰਹੀ ਹੋਵੇ ਤਾਂ ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ। ਕਦੇ ਵੀ ਪੱਟੜੀਆਂ ਉੱਤੇ ਨਾ ਰੁਕੋ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Railway crossings",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
+      }
+    ],
+    "image": "/signs/railway-crossing.jpg",
+    "notes": "New scenario about approaching a railway crossing without gates."
+  },
+  {
+    "id": "q-road-closed-ahead-126",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਇਹ ਸੰਤਰੀ ਨਿਸ਼ਾਨ ਡਿਟੂਰ ਰੂਟ 'ਤੇ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਇਹ ਅੱਗੇ ਵਾਲੀ ਸੜਕ ਬਾਰੇ ਕੀ ਦੱਸਦਾ ਹੈ?",
+    "choices": [
+      "ਅੱਗੇ ਸੜਕ ਪੂਰੀ ਤਰ੍ਹਾਂ ਟ੍ਰੈਫਿਕ ਲਈ ਬੰਦ ਹੋਵੇਗੀ",
+      "ਸਿਰਫ਼ ਟਰੱਕਾਂ ਨੂੰ ਅੱਗੇ ਜਾਣ ਦੀ ਇਜਾਜ਼ਤ ਹੈ",
+      "ਸ਼ੋਲਡਰ ਬੰਦ ਹੈ ਪਰ ਲੇਨ ਖੁੱਲੀਆਂ ਹਨ",
+      "ਸੜਕ ਸਿਰਫ਼ ਰਾਤ ਨੂੰ ਬੰਦ ਹੁੰਦੀ ਹੈ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਸੰਤਰੀ ROAD CLOSED AHEAD ਨਿਸ਼ਾਨ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਅੱਗੇ ਸੜਕ ਰਾਹਯੋਗ ਨਹੀਂ ਰਹੇਗੀ। ਤੁਹਾਨੂੰ ਡਿਟੂਰ ਦੇ ਨਿਸ਼ਾਨਾਂ ਦੀ ਪਾਲਣਾ ਕਰਨ ਜਾਂ ਮੁੜ ਜਾਣ ਲਈ ਤਿਆਰ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
+      }
+    ],
+    "image": "/signs/road-closed-ahead.jpg",
+    "notes": "Different from earlier construction question: focuses on full closure ahead."
+  },
+  {
+  "id": "q-no-passing-127",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਇਸ ਨਿਸ਼ਾਨ ਦਾ ਕੀ ਅਰਥ ਹੈ?",
+  "choices": [
+    "ਸਿਰਫ਼ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਓਵਰਟੇਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ",
+    "ਇਸ ਖੇਤਰ ਵਿੱਚ ਓਵਰਟੇਕ ਕਰਨਾ ਮਨਾਹੀ ਹੈ",
+    "ਵਾਹਨਾਂ ਨੂੰ ਜੋੜਿਆਂ ਵਿੱਚ ਚਲਣਾ ਚਾਹੀਦਾ ਹੈ",
+    "ਹੌਲੀ ਗੱਡੀਆਂ ਨੂੰ ਸਾਈਡ 'ਤੇ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+  ],
+  "correctIndex": 1,
+  "explanation": "ਦੋ ਨਾਲ-ਨਾਲ ਵਾਹਨਾਂ ਉੱਤੇ ਲਾਲ ਗੋਲ ਅਤੇ ਲਾਈਨ ਦਰਸਾਉਂਦੀ ਹੈ ਕਿ ਓਵਰਟੇਕ ਕਰਨਾ ਮਨਾਹੀ ਹੈ।",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Passing Rules",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-no-passing.png"
+}
+,
+  {
+    "id": "q-roundabout-yield-128",
+    "brand": "Prep test G1",
+    "lang": "en",
+    "category": "signs-regulatory",
+    "question": "ਤੁਸੀਂ ਅੱਗੇ ਰਾਊਂਡਅਬਾਊਟ ਦਾ ਨਿਸ਼ਾਨ ਵੇਖਦੇ ਹੋ। ਰਾਊਂਡਅਬਾਊਟ ਵਿੱਚ ਦਾਖਲ ਹੋਣ ਦਾ ਸਹੀ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "choices": [
+      "ਗਤੀ ਘਟਾਓ, ਪਹਿਲਾਂ ਹੀ ਰਾਊਂਡਅਬਾਊਟ ਵਿੱਚ ਮੌਜੂਦ ਟ੍ਰੈਫਿਕ ਨੂੰ ਰਸਤਾ ਦਿਓ, ਅਤੇ ਸੁਰੱਖਿਅਤ ਖਾਲੀ ਥਾਂ 'ਤੇ ਦਾਖਲ ਹੋਵੋ",
+      "ਬਿਨਾਂ ਗਤੀ ਘਟਾਏ ਸਿੱਧੇ ਦਾਖਲ ਹੋ ਜਾਓ",
+      "ਬਾਹਰ ਜਾਣ ਲਈ ਰਾਊਂਡਅਬਾਊਟ ਵਿੱਚ ਰੁਕੋ",
+      "ਬਿਨਾਂ ਸਿਗਨਲ ਕੀਤੇ ਦਾਖਲ ਹੋਵੋ ਅਤੇ ਵਿਚਕਾਰ ਰੁਕੋ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ਰਾਊਂਡਅਬਾਊਟ ਚੇਤਾਵਨੀ ਨਿਸ਼ਾਨ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਅੱਗੇ ਗੋਲ ਚੌਰਾਹਾ ਹੈ। ਤੁਹਾਨੂੰ ਗਤੀ ਘਟਾਉਣੀ ਚਾਹੀਦੀ ਹੈ, ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਟ੍ਰੈਫਿਕ ਨੂੰ ਰਸਤਾ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਸੁਰੱਖਿਅਤ ਹੋਣ 'ਤੇ ਹੀ ਦਾਖਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+    "sources": [
+      {
+        "title": "Official MTO Driver’s Handbook — Roundabouts",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
+      }
+    ],
+    "image": "/signs/roundabout-sign.jpg",
+    "notes": "New roundabout question focusing on yielding on entry."
+  },
+  {
+  "id": "q-hand-signal-slow-stop-129",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਡਰਾਈਵਰ ਦਾ ਇਹ ਹੱਥ ਸਿਗਨਲ ਕੀ ਦਰਸਾਉਂਦਾ ਹੈ?",
+  "choices": [
+    "ਡਰਾਈਵਰ ਗਤੀ ਘਟਾ ਰਿਹਾ ਹੈ ਜਾਂ ਰੁਕਣ ਵਾਲਾ ਹੈ",
+    "ਡਰਾਈਵਰ ਖੱਬੇ ਮੁੜਨ ਦਾ ਇਰਾਦਾ ਰੱਖਦਾ ਹੈ",
+    "ਡਰਾਈਵਰ ਸੱਜੇ ਮੁੜਨ ਦਾ ਇਰਾਦਾ ਰੱਖਦਾ ਹੈ",
+    "ਡਰਾਈਵਰ ਸਾਹਮਣੇ ਆਉਣ ਵਾਲੀ ਟ੍ਰੈਫਿਕ ਨੂੰ ਰਸਤਾ ਦੇ ਰਿਹਾ ਹੈ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਹੱਥ ਨੂੰ ਹੇਠਾਂ ਵਧਾਉਣਾ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਡਰਾਈਵਰ ਗਤੀ ਘਟਾਉਣ ਜਾਂ ਰੁਕਣ ਦੀ ਯੋਜਨਾ ਬਣਾ ਰਿਹਾ ਹੈ।",
+  "sources": [
+    {
+      "title": "Driver Hand Signals — Official MTO Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-hand-signal-slow-stop.png"
+},
+ {
+  "id": "q-permitted-action-130",
+  "brand": "Prep test G1",
+  "lang": "en",
+  "category": "signs-regulatory",
+  "question": "ਹਰੇ ਗੋਲ ਵਾਲਾ ਨਿਸ਼ਾਨ ਆਮ ਤੌਰ 'ਤੇ ਕੀ ਦਰਸਾਉਂਦਾ ਹੈ?",
+  "choices": [
+    "ਕੋਈ ਕਾਰਵਾਈ ਮਨਜ਼ੂਰ ਹੈ",
+    "ਅੱਗੇ ਖਤਰੇ ਦੀ ਚੇਤਾਵਨੀ",
+    "ਅੱਗੇ ਸਟਾਪ ਨਿਸ਼ਾਨ",
+    "ਇੱਕ ਲੇਨ ਬੰਦ ਹੈ"
+  ],
+  "correctIndex": 0,
+  "explanation": "ਨਿਯਮਕ ਨਿਸ਼ਾਨਾਂ ਵਿੱਚ ਹਰੇ ਗੋਲ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਕਾਰਵਾਈਆਂ ਜਾਂ ਹਿਲਚਲਾਂ ਦਰਸਾਉਂਦੇ ਹਨ।",
+  "sources": [
+    {
+      "title": "Regulatory Signs — Driver Guide",
+      "url": "https://www.ontario.ca"
+    }
+  ],
+  "image": "/signs/q-permitted-action.png"
+}
