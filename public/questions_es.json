@@ -4015,3 +4015,134 @@
   "explanation": "El asiento trasero generalmente es el más seguro, especialmente lejos de las bolsas de aire.",
   "image": "/signs/q-31-child-seat.png"
 },
+{
+  "id": "q-266",
+  "question": "Un cinturón de seguridad correctamente colocado debe:",
+  "choices": [
+    "Tener la parte inferior baja sobre las caderas y la banda del hombro cruzando el pecho",
+    "Cruzar el estómago y el cuello",
+    "Colocarse debajo del brazo para mayor comodidad",
+    "Usarse suelto para poder moverse libremente"
+  ],
+  "correctIndex": 0,
+  "explanation": "La posición correcta del cinturón reduce el riesgo de lesiones en una colisión.",
+  "image": "/signs/q-266-seatbelt.png"
+},
+{
+  "id": "q-267",
+  "question": "En lluvia, nieve o mala visibilidad, ¿cómo debe ajustar su distancia de seguimiento?",
+  "choices": [
+    "Aumentarla más allá de dos segundos",
+    "Reducirla por debajo de dos segundos",
+    "Mantenerla exactamente igual",
+    "Seguir de cerca a vehículos grandes"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las malas condiciones requieren más espacio para detenerse con seguridad.",
+  "image": "/signs/q-267-snow-distance.png"
+},
+{
+  "id": "q-268",
+  "question": "Al descender una colina empinada y con hielo, debe:",
+  "choices": [
+    "Usar una marcha baja y frenar suavemente",
+    "Poner la transmisión en neutral y dejar rodar",
+    "Frenar fuerte continuamente",
+    "Acelerar para reducir el tiempo en la colina"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las marchas bajas y el frenado suave mejoran el control en colinas resbaladizas.",
+  "image": "/signs/q-268-icy-hill.png"
+},
+{
+  "id": "q-269",
+  "question": "Una luz verde sin flecha verde cuando va a girar a la izquierda significa:",
+  "choices": [
+    "Puede girar a la izquierda cuando el camino esté despejado y después de ceder el paso al tráfico que viene de frente y a los peatones",
+    "Tiene el derecho de paso sobre el tráfico que viene de frente",
+    "Debe esperar una flecha verde para girar a la izquierda",
+    "No puede girar a la izquierda en ningún momento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una luz verde normal permite girar a la izquierda, pero no da prioridad protegida.",
+  "image": "/signs/q-269-turn-left-on-green.png"
+},
+{
+  "id": "q-270",
+  "question": "Al entrar a una vía principal desde una entrada de garaje o camino privado, debe:",
+  "choices": [
+    "Ceder el paso a todo el tráfico en la vía principal",
+    "Esperar que el tráfico en la vía principal le ceda el paso",
+    "Entrar rápidamente sin detenerse",
+    "Tocar la bocina y avanzar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los vehículos que ingresan a una vía deben ceder el paso al tráfico que ya circula por ella.",
+  "image": "/signs/q-253-back-up-driveway.png"
+},
+  {
+  "id": "q-fail-stop-police-271",
+  "category": "demerit-points",
+  "question": "¿Cuántos puntos de demérito se aplican por no detenerse cuando la policía lo indica?",
+  "choices": [
+    "2 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "No detenerse ante la policía resulta en 7 puntos de demérito.",
+  "image": "/signs/q-fail-stop-police-271.png"
+},
+{
+  "id": "q-272",
+  "question": "Una señal circular amarilla con una \"X\" negra y dos \"R\" advierte de:",
+  "choices": [
+    "Un cruce ferroviario próximo",
+    "Una zona hospitalaria",
+    "Una rotonda adelante",
+    "Un túnel próximo"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal de advertencia ferroviaria alerta a los conductores de un próximo cruce de vías.",
+  "image": "/signs/q-272-X-and-2R.png"
+},
+{
+  "id": "q-273",
+  "question": "Una señal de \"Zona de carga\" generalmente significa:",
+  "choices": [
+    "Se permite detenerse solo para cargar o descargar activamente",
+    "Puede estacionar todo el día",
+    "Solo los autobuses pueden estacionar",
+    "No se permite detenerse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las zonas de carga restringen el estacionamiento a paradas cortas mientras se cargan o descargan mercancías o pasajeros.",
+  "image": "/signs/q-273-loadin-zone.png"
+},
+{
+  "id": "q-274",
+  "question": "Cuando un autobús de tránsito señala que va a salir de una parada en una zona urbana, usted debe:",
+  "choices": [
+    "Ceder el paso cuando sea seguro para permitir que el autobús vuelva a entrar al tráfico",
+    "Acelerar para adelantar antes de que se mueva",
+    "Ignorar la señal y mantener la velocidad",
+    "Tocar la bocina hasta que permanezca en la parada"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben permitir que los autobuses vuelvan a entrar al tráfico de forma segura cuando lo indiquen.",
+  "image": "/signs/q-274-transit-bus-leaving.png"
+},
+{
+  "id": "q-275",
+  "question": "Al girar a la izquierda cruzando el tráfico que viene de frente, debe comenzar su giro cuando:",
+  "choices": [
+    "Haya un espacio lo suficientemente grande para completar el giro sin obligar a otros conductores a frenar repentinamente",
+    "Vea un automóvil girar detrás de usted",
+    "La luz esté a punto de cambiar a rojo",
+    "Los vehículos que vienen de frente hagan señales con las luces"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los giros a la izquierda no deben interferir con el tráfico que viene de frente. Elija un espacio seguro y suficiente.",
+  "image": "/signs/q-275-turning-left.png"
+},
