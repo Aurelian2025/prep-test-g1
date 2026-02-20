@@ -4281,3 +4281,72 @@
   "explanation": "左转不得干扰对向车流。应选择安全且足够的间隙。",
   "image": "/signs/q-275-turning-left.png"
 },
+{
+  "id": "q-276",
+  "category": "demerit-points",
+  "question": "在安大略省闯红灯可能会导致：",
+  "choices": [
+    "罚款并在驾驶记录上记扣分",
+    "如果没有撞到任何人则没有处罚",
+    "仅收到一封警告信",
+    "每次都会没收你的车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "不遵守交通信号灯是严重违法行为，会被罚款并记扣分。",
+  "image": "/signs/q-276-running-on-red.png"
+},
+{
+  "id": "q-277",
+  "question": "在有路缘石的上坡路平行停车时，前轮应如何转动？",
+  "choices": [
+    "远离路缘石",
+    "朝向路缘石",
+    "保持直行",
+    "无所谓"
+  ],
+  "correctIndex": 0,
+  "explanation": "将车轮朝远离路缘石方向转动有助于防止车辆滑入车流。",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-278",
+  "question": "在有路缘石的下坡路停车时，前轮应如何转动？",
+  "choices": [
+    "朝向路缘石",
+    "远离路缘石",
+    "保持直行",
+    "任何方向都可以"
+  ],
+  "correctIndex": 0,
+  "explanation": "将车轮朝向路缘石转动有助于在车辆滑动时被路缘石阻挡。",
+  "image": "/signs/q-curb-downhill-45.png"
+},
+{
+  "id": "q-demerit-racing-279",
+  "category": "demerit-points",
+  "question": "一名驾驶员因极高速的特技驾驶或街头赛车被定罪。在安大略省，这类行为会被记多少扣分？",
+  "choices": [
+    "3 分",
+    "4 分",
+    "6 分",
+    "7 分"
+  ],
+  "correctIndex": 2,
+  "explanation": "特技驾驶或街头赛车会被记 6 分扣分，并伴随严厉处罚。",
+  "image": "/signs/q-demerit-racing-279.png"
+},
+{
+  "id": "q-demerit-new-fully-licensed-280",
+  "category": "demerit-points",
+  "question": "对于在安大略省持有正式驾照的驾驶员，累积多少扣分可能会导致驾照被吊销？",
+  "choices": [
+    "9 分",
+    "12 分",
+    "14 分",
+    "15 分或以上"
+  ],
+  "correctIndex": 3,
+  "explanation": "对于正式驾照驾驶员，累积 15 分或以上可能会导致驾照被吊销。",
+  "image": "/signs/q-demerit-new-fully-licensed-135.png"
+}
+]
