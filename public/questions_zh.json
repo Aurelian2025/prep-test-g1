@@ -3492,3 +3492,133 @@
   "explanation": "分隔公路即将结束，对向交通将共享同一道路。",
   "image": "/signs/divided-highway-ends.jpg"
 },
+{
+  "id": "q-do-not-enter-216",
+  "question": "此标志是什么意思？",
+  "choices": [
+    "车辆禁止进入",
+    "完全停车",
+    "让行",
+    "禁止停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "此标志表示驾驶员被禁止进入该道路或车道。",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-hand-signal-right-217",
+  "question": "这个手势表示什么？",
+  "choices": [
+    "驾驶员打算右转",
+    "驾驶员正在减速",
+    "驾驶员正在停车",
+    "驾驶员正在左转"
+  ],
+  "correctIndex": 0,
+  "explanation": "左臂向上弯曲表示驾驶员打算右转。",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-accessible-parking-218",
+  "question": "谁可以在这里停车？",
+  "choices": [
+    "持有有效无障碍停车许可证的车辆",
+    "任何车辆在非营业时间",
+    "送货车辆",
+    "摩托车"
+  ],
+  "correctIndex": 0,
+  "explanation": "无障碍停车位仅供展示有效无障碍停车许可证的车辆使用。",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-hidden-intersection-219",
+  "question": "此标志提醒驾驶员注意什么？",
+  "choices": [
+    "前方有隐蔽的交叉路口",
+    "前方有交通信号灯",
+    "行人过街",
+    "道路封闭"
+  ],
+  "correctIndex": 0,
+  "explanation": "在驾驶员接近路口之前，横向来车可能看不见。",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-max-speed-40-220",
+  "question": "此标志表示什么？",
+  "choices": [
+    "最高速度为40公里/小时",
+    "最低速度为40公里/小时",
+    "建议速度",
+    "限速区域结束"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员不得超过所标示的最高限速。",
+  "image": "/signs/max-speed-40.png"
+},
+  {
+  "id": "q-221",
+  "question": "如果在驾驶时前轮爆胎，首先应该怎么做？",
+  "choices": [
+    "紧握方向盘并保持车辆直行",
+    "立即用力刹车",
+    "迅速驶向路肩",
+    "猛踩油门加速"
+  ],
+  "correctIndex": 0,
+  "explanation": "爆胎可能会使车辆向一侧偏移。紧握方向盘，保持车辆直行，并逐渐减速。",
+  "image": "/signs/q-227-front-tire.jpg"
+},
+{
+  "id": "q-222",
+  "question": "你看到一个标示公交车上下客区的标志。这意味着什么？",
+  "choices": [
+    "只有公交车可以在此停靠",
+    "任何人都可以短暂停车",
+    "你可以在5分钟内上下乘客",
+    "如果打开危险警示灯可以停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "公交车上下客区仅供公交车使用，其他车辆不得在此停车。",
+  "image": "/signs/q-228-bus-loading.png"
+},
+{
+  "id": "q-223",
+  "question": "在指定的无障碍停车位停车但没有许可证，可能会导致：",
+  "choices": [
+    "高额罚款并被拖车",
+    "仅收到小警告",
+    "如果留在车内则没有处罚",
+    "只有扣分"
+  ],
+  "correctIndex": 0,
+  "explanation": "在没有有效许可证的情况下停在无障碍停车位，可能会被处以高额罚款并被拖车。",
+  "image": "/signs/q-229-handicap-spot.jpg"
+},
+{
+  "id": "q-224",
+  "question": "中间车道两侧都标有左转箭头时，该车道用于：",
+  "choices": [
+    "任一方向的左转",
+    "超越慢速车辆",
+    "临时停车",
+    "仅用于掉头"
+  ],
+  "correctIndex": 0,
+  "explanation": "这个共用的中间车道仅用于准备和进行左转，不用于超车或直行。",
+  "image": "/signs/q-224-centre-lane-arrows.png"
+},
+{
+  "id": "q-225",
+  "question": "在什么情况下即使看不到火车，也必须在铁路道口停车？",
+  "choices": [
+    "当闪烁的灯光或道闸启动时",
+    "仅在夜间",
+    "只有听到火车汽笛时",
+    "除非有火车，否则不需要停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "在铁路道口，闪烁的灯光、铃声或放下的道闸都要求完全停车，即使你没有看到火车。",
+  "image": "/signs/q-231-railway-crossing.jpg"
+},
