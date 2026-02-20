@@ -2865,130 +2865,100 @@
   "image": "/signs/max-speed-40.png"
 },
   {
-    "id": "q-221",
-    
-    
-    
-    "question": "If a front tire blows out while driving, what should you do first?",
-    "choices": [
-      "Grip the wheel firmly and steer straight",
-      "Brake hard immediately",
-      "Turn quickly onto the shoulder",
-      "Accelerate sharply"
-    ],
-    "correctIndex": 0,
-    "explanation": "A blowout can pull the vehicle to one side. Hold the wheel firmly and slow down gradually.",
-    "sources": [],
-    "image": "/signs/q-227-front-tire.jpg"
-  },
-  {
-    "id": "q-222",
-    
-    
-  
-    "question": "You see a sign marking a bus loading zone. What does this mean?",
-    "choices": [
-      "Only buses may stop here",
-      "Anyone may park briefly",
-      "You may load passengers for 5 minutes",
-      "You may stop if your hazard lights are on"
-    ],
-    "correctIndex": 0,
-    "explanation": "Bus zones are restricted to transit vehicles only.",
-    "sources": [],
-    "image": "/signs/q-228-bus-loading.png"
-  },
-  {
-    "id": "q-223",
-    
-    
-  
-    "question": "Parking in a designated accessible parking spot without a permit may result in:",
-    "choices": [
-      "Significant fines and towing",
-      "A small warning only",
-      "No penalty if you stay in the car",
-      "Only demerit points"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ontario enforces strict fines to protect accessibility.",
-    "sources": [],
-    "image": "/signs/q-229-handicap-spot.jpg"
-  },
-  {
-    "id": "q-224",
-    
-    
-  
-    "question": "A centre lane marked with left-turn arrows in both directions is used for:",
-    "choices": [
-      "Left turns from either direction",
-      "Passing slower traffic",
-      "Parking temporarily",
-      "U-turns only"
-    ],
-    "correctIndex": 0,
-    "explanation": "This shared lane is meant only for preparing and completing left turns.",
-    "sources": [],
-    "image": "/signs/q-224-centre-lane-arrows.png"
-  },
-  {
-    "id": "q-225",
-    
-    
-  
-    "question": "When must you stop at a railway crossing, even if no train is visible?",
-    "choices": [
-      "When flashing lights or gates are activated",
-      "Only at night",
-      "Only if a train whistle is heard",
-      "Never required unless a train is present"
-    ],
-    "correctIndex": 0,
-    "explanation": "Active warnings always require a full stop.",
-    "sources": [],
-    "image": "/signs/q-231-railway-crossing.jpg"
-  },
-  {
-    "id": "q-226",
-    
-    
-    
-    "question": "When passing a cyclist, drivers must leave at least:",
-    "choices": [
-      "1 metre of space",
-      "20 centimetres",
-      "No required distance",
-      "As close as possible to avoid swerving"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ontario law requires a minimum 1-metre passing distance.",
-    "sources": [],
-    "image": "/signs/q-232-car-passing-cyclist.jpg"
-  },
-  {
-    "id": "q-227",
-    
-    
-  
-    "question": "If you miss your exit on a freeway, you must:",
-    "choices": [
-      "Continue to the next exit",
-      "Reverse carefully on the shoulder",
-      "Stop and wait for a gap",
-      "Make a U-turn in the median"
-    ],
-    "correctIndex": 0,
-    "explanation": "Stopping or reversing on a freeway is extremely dangerous and illegal.",
-    "sources": [],
-    "image": "/signs/q-expressway-exit-169.png"
-  },
-  {
+  "id": "q-221",
+  "question": "If a front tire blows out while driving, what should you do first?",
+  "choices": [
+    "Grip the wheel firmly and steer straight",
+    "Brake hard immediately",
+    "Turn quickly onto the shoulder",
+    "Accelerate sharply"
+  ],
+  "correctIndex": 0,
+  "explanation": "A blowout can pull the vehicle to one side. Hold the steering wheel firmly, keep the vehicle straight, and slow down gradually.",
+  "image": "/signs/q-227-front-tire.jpg"
+},
+{
+  "id": "q-222",
+  "question": "You see a sign marking a bus loading zone. What does this mean?",
+  "choices": [
+    "Only buses may stop here",
+    "Anyone may park briefly",
+    "You may load passengers for 5 minutes",
+    "You may stop if your hazard lights are on"
+  ],
+  "correctIndex": 0,
+  "explanation": "Bus loading zones are reserved for buses only and other vehicles must not stop there.",
+  "image": "/signs/q-228-bus-loading.png"
+},
+{
+  "id": "q-223",
+  "question": "Parking in a designated accessible parking spot without a permit may result in:",
+  "choices": [
+    "Significant fines and towing",
+    "A small warning only",
+    "No penalty if you stay in the car",
+    "Only demerit points"
+  ],
+  "correctIndex": 0,
+  "explanation": "Parking in an accessible space without a valid permit can result in heavy fines and possible towing.",
+  "image": "/signs/q-229-handicap-spot.jpg"
+},
+{
+  "id": "q-224",
+  "question": "A centre lane marked with left-turn arrows in both directions is used for:",
+  "choices": [
+    "Left turns from either direction",
+    "Passing slower traffic",
+    "Parking temporarily",
+    "U-turns only"
+  ],
+  "correctIndex": 0,
+  "explanation": "This shared centre lane is only for preparing and making left turns, not for passing or driving through.",
+  "image": "/signs/q-224-centre-lane-arrows.png"
+},
+{
+  "id": "q-225",
+  "question": "When must you stop at a railway crossing, even if no train is visible?",
+  "choices": [
+    "When flashing lights or gates are activated",
+    "Only at night",
+    "Only if a train whistle is heard",
+    "Never required unless a train is present"
+  ],
+  "correctIndex": 0,
+  "explanation": "Flashing lights, bells, or lowered gates at a railway crossing always require a full stop, even if you do not see a train.",
+  "image": "/signs/q-231-railway-crossing.jpg"
+},
+{
+  "id": "q-226",
+  "question": "When passing a cyclist, drivers must leave at least:",
+  "choices": [
+    "1 metre of space",
+    "20 centimetres",
+    "No required distance",
+    "As close as possible to avoid swerving"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ontario law requires drivers to leave at least one metre of space when passing a cyclist.",
+  "image": "/signs/q-232-car-passing-cyclist.jpg"
+},
+{
+  "id": "q-227",
+  "question": "If you miss your exit on a freeway, you must:",
+  "choices": [
+    "Continue to the next exit",
+    "Reverse carefully on the shoulder",
+    "Stop and wait for a gap",
+    "Make a U-turn in the median"
+  ],
+  "correctIndex": 0,
+  "explanation": "Never stop or reverse on a freeway. Continue to the next exit and return safely.",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
   "id": "q-speeding-50-over-penalty-228",
-  
-  
   "category": "penalties-and-suspensions",
-  "question": "A driver is convicted of travelling 50 km/h (30 mph) or more above the posted speed limit. Which penalty may be imposed by the court?",
+  "question": "A driver is convicted of travelling 50 km/h or more above the posted speed limit. Which penalty may be imposed by the court?",
   "choices": [
     "Suspension of licence for 6 months",
     "Suspension of licence for 30 days",
@@ -2996,133 +2966,103 @@
     "Imprisonment of person for 6 months"
   ],
   "correctIndex": 1,
-  "explanation": "If driving 50 km/h or more over the speed limit the court may impose a licence suspension for 30 days, along with other penalties such as fines and demerit points.",
+  "explanation": "Driving 50 km/h or more over the speed limit can result in a court-imposed licence suspension of 30 days, along with fines and demerit points.",
   "image": "/signs/q-speeding-50-over-penalty.png"
 },
-
+{
+  "id": "q-229",
+  "category": "demerit-points",
+  "question": "Impaired driving penalties for G1 drivers include:",
+  "choices": [
+    "Immediate roadside suspension and escalating sanctions",
+    "No suspension unless over the criminal limit",
+    "Only a small fine",
+    "Demerit points only"
+  ],
+  "correctIndex": 0,
+  "explanation": "G1 drivers must maintain zero blood alcohol and face immediate suspension and strict penalties if impaired.",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-230",
+  "question": "If a traffic signal is completely dark due to a power outage, treat the intersection as:",
+  "choices": [
+    "A four-way stop",
+    "A normal green light",
+    "A pedestrian-only crossing",
+    "A yield sign for all directions"
+  ],
+  "correctIndex": 0,
+  "explanation": "When traffic signals are not working, drivers must treat the intersection as a four-way stop.",
+  "image": "/signs/q-230-traffice-light-off.png"
+},
   {
-    "id": "q-229",
-    
-    
-    "category": "demerit-points",
-    "question": "Impaired driving penalties for G1 drivers include:",
-    "choices": [
-      "Immediate roadside suspension and escalating sanctions",
-      "No suspension unless over the criminal limit",
-      "Only a small fine",
-      "Demerit points only"
-    ],
-    "correctIndex": 0,
-    "explanation": "G1 drivers must maintain a zero-blood-alcohol level and face strict penalties.",
-    "sources": [],
-    "image": "/signs/q-impaired-zero-g1-191.png"
-  },
-  {
-    "id": "q-230",
-    
-    
-  
-    "question": "If a traffic signal is completely dark due to a power outage, treat the intersection as:",
-    "choices": [
-      "A four-way stop",
-      "A normal green light",
-      "A pedestrian-only crossing",
-      "A yield sign for all directions"
-    ],
-    "correctIndex": 0,
-    "explanation": "When signals fail, every driver must stop and proceed in turn.",
-    "sources": [],
-    "image": "/signs/q-230-traffice-light-off.png"
-  },
-  {
-    "id": "q-231",
-    
-    
-  
-    "question": "The minimum recommended following distance under ideal conditions is:",
-    "choices": [
-      "At least 2 seconds",
-      "Half a second",
-      "1 second",
-      "4 seconds at all times"
-    ],
-    "correctIndex": 0,
-    "explanation": "A 2-second gap allows safe stopping time. Increase in poor conditions.",
-    "sources": [],
-    "image": "/signs/q-231-following-distance.png"
-  },
-  {
-    "id": "q-232",
-    
-    
-  
-    "question": "Why do bridges freeze before the rest of the road?",
-    "choices": [
-      "They are exposed to cold air above and below",
-      "They use softer pavement",
-      "They hold more traffic",
-      "They receive more sunlight"
-    ],
-    "correctIndex": 0,
-    "explanation": "Cold air flows around bridges, lowering their temperature faster.",
-    "sources": [],
-    "image": "/signs/q-23-bridge-freezes.png"
-  },
-  {
-    "id": "q-233",
-    
-    
-  
-    "question": "In Ontario, when is a left turn on a red light permitted?",
-    "choices": [
-      "Only from a one-way street onto another one-way street",
-      "Any time traffic is clear",
-      "Never permitted",
-      "Only when turning into a private driveway"
-    ],
-    "correctIndex": 0,
-    "explanation": "A left turn on red is only allowed when moving from one one-way street to another.",
-    "sources": [],
-    "image": "/signs/q-233-right-turn-on-red.png"
-  },
-  {
-    "id": "q-234",
-    
-    
-  
-    "question": "In the absence of signs, what is the usual maximum speed limit on municipal roads in cities, towns, and villages in Ontario?",
-    "choices": [
-      "50 km/h",
-      "40 km/h",
-      "60 km/h",
-      "70 km/h"
-    ],
-    "correctIndex": 0,
-    "explanation": "Unless posted otherwise, the default speed limit on many built-up municipal roads is 50 km/h. Drivers must still adjust speed for conditions.",
-    "sources": [],
-    "image": "/signs/q-234-50-in-city.png"
-  },
-  {
-    "id": "q-235",
-    
-    
-  
-    "question": "You are facing a steady amber (yellow) traffic light and are far enough back to stop safely. What should you do?",
-    "choices": [
-      "Stop before the intersection",
-      "Speed up to clear the intersection before red",
-      "Continue at the same speed",
-      "Drive into the intersection and wait for green"
-    ],
-    "correctIndex": 0,
-    "explanation": "A steady amber light warns that the signal is about to turn red. If you can stop safely, you must stop before entering the intersection.",
-    "sources": [],
-    "image": "/signs/q-235-steady-yellow.png"
-  },
-  {
+  "id": "q-231",
+  "question": "The minimum recommended following distance under ideal conditions is:",
+  "choices": [
+    "At least 2 seconds",
+    "Half a second",
+    "1 second",
+    "4 seconds at all times"
+  ],
+  "correctIndex": 0,
+  "explanation": "A 2-second gap allows safe stopping time. Increase your following distance in poor conditions.",
+  "image": "/signs/q-231-following-distance.png"
+},
+{
+  "id": "q-232",
+  "question": "Why do bridges freeze before the rest of the road?",
+  "choices": [
+    "They are exposed to cold air above and below",
+    "They use softer pavement",
+    "They hold more traffic",
+    "They receive more sunlight"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cold air flows around bridges above and below, causing them to freeze faster than other road surfaces.",
+  "image": "/signs/q-23-bridge-freezes.png"
+},
+{
+  "id": "q-233",
+  "question": "In Ontario, when is a left turn on a red light permitted?",
+  "choices": [
+    "Only from a one-way street onto another one-way street",
+    "Any time traffic is clear",
+    "Never permitted",
+    "Only when turning into a private driveway"
+  ],
+  "correctIndex": 0,
+  "explanation": "A left turn on red is allowed only when turning from one one-way street onto another one-way street, after coming to a complete stop.",
+  "image": "/signs/q-233-right-turn-on-red.png"
+},
+{
+  "id": "q-234",
+  "question": "In the absence of signs, what is the usual maximum speed limit on municipal roads in cities, towns, and villages in Ontario?",
+  "choices": [
+    "50 km/h",
+    "40 km/h",
+    "60 km/h",
+    "70 km/h"
+  ],
+  "correctIndex": 0,
+  "explanation": "Unless posted otherwise, the default speed limit on many built-up municipal roads is 50 km/h.",
+  "image": "/signs/q-234-50-in-city.png"
+},
+{
+  "id": "q-235",
+  "question": "You are facing a steady amber (yellow) traffic light and are far enough back to stop safely. What should you do?",
+  "choices": [
+    "Stop before the intersection",
+    "Speed up to clear the intersection before red",
+    "Continue at the same speed",
+    "Drive into the intersection and wait for green"
+  ],
+  "correctIndex": 0,
+  "explanation": "A steady amber light means the signal is about to turn red. If you can stop safely, you must stop before entering the intersection.",
+  "image": "/signs/q-235-steady-yellow.png"
+},
+{
   "id": "q-speed-30to49-236",
-  
-  
   "category": "demerit-points",
   "question": "How many demerit points apply for speeding 30–49 km/h over the limit?",
   "choices": [
@@ -3132,31 +3072,24 @@
     "5 demerit points"
   ],
   "correctIndex": 2,
-  "explanation": "Speeding 30–49 km/h over the limit is a 4-point offence.",
-  "sources": [],
+  "explanation": "Speeding 30–49 km/h over the limit is a 4-point offence in Ontario.",
   "image": "/signs/q-speed-30to49-236.png"
 },
-  {
-    "id": "q-237",
-    
-    
-  
-    "question": "A sign with a red 'P' and a red slash through it means:",
-    "choices": [
-      "No parking is allowed in this area",
-      "Parking is allowed only for a short time",
-      "Parking is allowed for permit holders only",
-      "No stopping is allowed at any time"
-    ],
-    "correctIndex": 0,
-    "explanation": "A 'No Parking' sign means you may not park and leave your vehicle unattended, though you may usually stop briefly to load or unload passengers unless other restrictions apply.",
-    "sources": [],
-    "image": "/signs/no-parking.jpg"
-  },
-  {
+{
+  "id": "q-237",
+  "question": "A sign with a red 'P' and a red slash through it means:",
+  "choices": [
+    "No parking is allowed in this area",
+    "Parking is allowed only for a short time",
+    "Parking is allowed for permit holders only",
+    "No stopping is allowed at any time"
+  ],
+  "correctIndex": 0,
+  "explanation": "A 'No Parking' sign means you may not park and leave your vehicle unattended.",
+  "image": "/signs/no-parking.jpg"
+},
+{
   "id": "q-fail-signal-238",
-  
-  
   "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to signal?",
   "choices": [
@@ -3166,61 +3099,39 @@
     "5 demerit points"
   ],
   "correctIndex": 0,
-  "explanation": "Failing to signal results in 2 demerit points.",
-  "sources": [],
+  "explanation": "Failing to signal results in 2 demerit points in Ontario.",
   "image": "/signs/q-fail-signal-238.png"
 },
-  {
-    "id": "q-demerit-improper-passing-239",
-    
-    
-    "category": "demerit-points",
-    "question": "A driver is convicted of improper passing where it is unsafe. How many demerit points does improper passing carry?",
-    "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points"
-    ],
-    "correctIndex": 1,
-    "explanation": "Improper passing is a 3-point offence according to Ontario’s demerit points schedule.",
-    "sources": [
-      {
-        "title": "Ontario — Demerit points table (improper passing)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/q-demerit-improper-passing-132.png",
-    "notes": "Unsafe passing tied to the 3-point penalty."
-  },
-  {
-    "id": "q-demerit-obey-officer-240",
-    
-    
-    "category": "demerit-points",
-    "question": "A police officer gives you directions, but you ignore the signal and are convicted of failing to obey an officer. How many demerit points does this offence carry?",
-    "choices": [
-      "2 demerit points",
-      "3 demerit points",
-      "4 demerit points",
-      "7 demerit points"
-    ],
-    "correctIndex": 1,
-    "explanation": "Failing to obey the directions of a police officer carries 3 demerit points in Ontario.",
-    "sources": [
-      {
-        "title": "Ontario — Demerit points table (failing to obey a police officer)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/q-demerit-obey-officer-133.png",
-    "notes": "Distinguishes failing to obey an officer (3 points) from failing to stop for police (7 points)."
-  },
+{
+  "id": "q-demerit-improper-passing-239",
+  "category": "demerit-points",
+  "question": "A driver is convicted of improper passing where it is unsafe. How many demerit points does improper passing carry?",
+  "choices": [
+    "2 demerit points",
+    "3 demerit points",
+    "4 demerit points",
+    "6 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Improper passing is a 3-point offence in Ontario.",
+  "image": "/signs/q-demerit-improper-passing-132.png"
+},
+{
+  "id": "q-demerit-obey-officer-240",
+  "category": "demerit-points",
+  "question": "A police officer gives you directions, but you ignore the signal and are convicted of failing to obey an officer. How many demerit points does this offence carry?",
+  "choices": [
+    "2 demerit points",
+    "3 demerit points",
+    "4 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 1,
+  "explanation": "Failing to obey the directions of a police officer carries 3 demerit points in Ontario.",
+  "image": "/signs/q-demerit-obey-officer-133.png"
+},
  {
   "id": "q-snowmobiles-permitted-241",
-  
-  
-  
   "question": "What does this sign mean?",
   "choices": [
     "Snowmobiles are allowed on this trail or roadway",
@@ -3230,70 +3141,49 @@
   ],
   "correctIndex": 0,
   "explanation": "A green circle signals an allowed use; the snowmobile symbol shows permitted snowmobile travel.",
-  "sources": [
-    {
-      "title": "Permitted Vehicles Regulations",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-snowmobiles-permitted.png"
 },
-  {
-    "id": "q-242",
-    
-    
-    
-    "question": "A broken yellow centre line means:",
-    "choices": [
-      "Passing is allowed when safe",
-      "No passing allowed",
-      "Lane ends ahead",
-      "Traffic merges left"
-    ],
-    "correctIndex": 0,
-    "explanation": "Broken yellow lines indicate that passing is permitted with caution.",
-    "sources": [],
-    "image": "/signs/q-224-broken-line.jpg"
-  },
-  {
-    "id": "q-243",
-    
-    
-    
-    "question": "A sign showing the pavement higher than the gravel beside it warns of:",
-    "choices": [
-      "A low or soft shoulder",
-      "A divided highway",
-      "A narrow bridge",
-      "A hidden intersection"
-    ],
-    "correctIndex": 0,
-    "explanation": "A low shoulder can cause loss of control if the vehicle drifts off the pavement.",
-    "sources": [],
-    "image": "/signs/q-243pavement-higher-gravel.png"
-  },
-  {
-    "id": "q-244",
-    
-    
-    
-    "question": "An orange diamond-shaped sign generally indicates:",
-    "choices": [
-      "Road work or construction ahead",
-      "School zone",
-      "Regulatory speed limit",
-      "Hospital zone"
-    ],
-    "correctIndex": 0,
-    "explanation": "Orange signs warn of temporary construction or maintenance zones.",
-    "sources": [],
-    "image": "/signs/q-244-orange-diamond.png"
-  },
-  {
+{
+  "id": "q-242",
+  "question": "A broken yellow centre line means:",
+  "choices": [
+    "Passing is allowed when safe",
+    "No passing allowed",
+    "Lane ends ahead",
+    "Traffic merges left"
+  ],
+  "correctIndex": 0,
+  "explanation": "Broken yellow lines indicate that passing is permitted with caution.",
+  "image": "/signs/q-224-broken-line.jpg"
+},
+{
+  "id": "q-243",
+  "question": "A sign showing the pavement higher than the gravel beside it warns of:",
+  "choices": [
+    "A low or soft shoulder",
+    "A divided highway",
+    "A narrow bridge",
+    "A hidden intersection"
+  ],
+  "correctIndex": 0,
+  "explanation": "A low shoulder can cause loss of control if the vehicle drifts off the pavement.",
+  "image": "/signs/q-243pavement-higher-gravel.png"
+},
+{
+  "id": "q-244",
+  "question": "An orange diamond-shaped sign generally indicates:",
+  "choices": [
+    "Road work or construction ahead",
+    "School zone",
+    "Regulatory speed limit",
+    "Hospital zone"
+  ],
+  "correctIndex": 0,
+  "explanation": "Orange signs warn of temporary construction or maintenance zones.",
+  "image": "/signs/q-244-orange-diamond.png"
+},
+{
   "id": "q-no-right-turn-on-red-245",
-  
-  
-  
   "question": "What does this sign indicate?",
   "choices": [
     "Right turns are prohibited on red light",
@@ -3302,71 +3192,50 @@
     "U-turns are permitted"
   ],
   "correctIndex": 0,
-  "explanation": "Red circle with a slash indicates prohibited movement—in this case, no right turn when red.",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Turns",
-      "url": "https://www.ontario.ca"
-    }
-  ],
+  "explanation": "A red circle with a slash indicates a prohibited movement — in this case, no right turn on red.",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
-  {
-    "id": "q-246",
-    
-    
-    
-    "question": "A rectangular white sign with black numbers such as '80' and the word 'MAXIMUM' means:",
-    "choices": [
-      "The maximum legal speed under ideal conditions is 80 km/h",
-      "You must drive exactly 80 km/h",
-      "The minimum speed is 80 km/h",
-      "You may exceed 80 km/h to pass"
-    ],
-    "correctIndex": 0,
-    "explanation": "Regulatory speed signs show the maximum legal speed under ideal conditions.",
-    "sources": [],
-    "image": "/signs/q-246-max-80.png"
-  },
-  {
-    "id": "q-247",
-    
-    
-    
-    "question": "A sign showing the end of a school zone speed limit means:",
-    "choices": [
-      "You may resume the regular posted speed when safe",
-      "You must continue at school speed at all times",
-      "There are no pedestrians beyond this point",
-      "School buses no longer stop"
-    ],
-    "correctIndex": 0,
-    "explanation": "End-of-zone signs indicate where special lower limits no longer apply.",
-    "sources": [],
-    "image": "/signs/q-247-end-of-school-zone.png"
-  },
-  {
-    "id": "q-248",
-    
-    
-    
-    "question": "A sign showing the right lane ending and an arrow bending into the left lane means:",
-    "choices": [
-      "Right-lane traffic must merge left",
-      "Left-lane traffic must stop",
-      "Two-way traffic ahead",
-      "Passing is allowed on the shoulder"
-    ],
-    "correctIndex": 0,
-    "explanation": "Merging-lane signs warn drivers to change lanes safely.",
-    "sources": [],
-    "image": "/signs/q-248-right-lane-ends.png"
-  },
-  {
+{
+  "id": "q-246",
+  "question": "A rectangular white sign with black numbers such as '80' and the word 'MAXIMUM' means:",
+  "choices": [
+    "The maximum legal speed under ideal conditions is 80 km/h",
+    "You must drive exactly 80 km/h",
+    "The minimum speed is 80 km/h",
+    "You may exceed 80 km/h to pass"
+  ],
+  "correctIndex": 0,
+  "explanation": "Regulatory speed signs show the maximum legal speed under ideal conditions.",
+  "image": "/signs/q-246-max-80.png"
+},
+{
+  "id": "q-247",
+  "question": "A sign showing the end of a school zone speed limit means:",
+  "choices": [
+    "You may resume the regular posted speed when safe",
+    "You must continue at school speed at all times",
+    "There are no pedestrians beyond this point",
+    "School buses no longer stop"
+  ],
+  "correctIndex": 0,
+  "explanation": "End-of-zone signs indicate where special lower limits no longer apply.",
+  "image": "/signs/q-247-end-of-school-zone.png"
+},
+{
+  "id": "q-248",
+  "question": "A sign showing the right lane ending and an arrow bending into the left lane means:",
+  "choices": [
+    "Right-lane traffic must merge left",
+    "Left-lane traffic must stop",
+    "Two-way traffic ahead",
+    "Passing is allowed on the shoulder"
+  ],
+  "correctIndex": 0,
+  "explanation": "Merging-lane signs warn drivers to change lanes safely.",
+  "image": "/signs/q-248-right-lane-ends.png"
+},
+{
   "id": "q-narrow-bridge-249",
-  
-  
-  "category": "signs-warning",
   "question": "What condition does this sign warn of?",
   "choices": [
     "A narrow bridge ahead",
@@ -3376,15 +3245,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers may need to yield due to reduced width.",
-  "sources": [],
   "image": "/signs/narrow-bridge.jpg"
 },
-
-  {
+{
   "id": "q-right-left-curve-ahead-250",
-  
-  
-  
   "question": "What does this warning sign indicate?",
   "choices": [
     "The road ahead curves first to the right and then to the left",
@@ -3394,19 +3258,10 @@
   ],
   "correctIndex": 0,
   "explanation": "The arrow showing two bends warns drivers that the roadway will curve in two directions and speed should be reduced.",
-  "sources": [
-    {
-      "title": "Warning Signs — Road Curves",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-right-left-curve-ahead.png"
 },
   {
   "id": "q-no-bicycles-251",
-  
-  
-  
   "question": "What does this sign prohibit?",
   "choices": [
     "Bicycles",
@@ -3416,14 +3271,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Bicycles are not permitted in this area.",
-  "sources": [],
   "image": "/signs/no-bicycles.jpg"
 },
 {
   "id": "q-no-parking-252",
-  
-  
-  
   "question": "What does this sign mean?",
   "choices": [
     "Parking is not allowed",
@@ -3433,15 +3284,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Vehicles may stop briefly but must not park.",
-  "sources": [],
   "image": "/signs/no-parking.jpg"
 },
-
-  {
+{
   "id": "q-no-passing-253",
-  
-  
-  
   "question": "What driving action is prohibited?",
   "choices": [
     "Passing other vehicles",
@@ -3451,14 +3297,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Passing is not allowed in this zone.",
-  "sources": [],
   "image": "/signs/no-passing.jpg"
 },
 {
   "id": "q-no-pedestrians-254",
-  
-  
-  
   "question": "Who is not permitted here?",
   "choices": [
     "Pedestrians",
@@ -3468,14 +3310,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Pedestrian access is prohibited for safety reasons.",
-  "sources": [],
   "image": "/signs/no-pedestrians.jpg"
 },
 {
   "id": "q-no-u-turn-255",
-  
-  
-  
   "question": "What maneuver is prohibited?",
   "choices": [
     "Making a U-turn",
@@ -3485,14 +3323,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers must not reverse direction.",
-  "sources": [],
   "image": "/signs/no-u-turn.jpg"
 },
 {
   "id": "q-pedestrian-crossing-256",
-  
-  
-  
   "question": "What should drivers be prepared for?",
   "choices": [
     "Pedestrians crossing",
@@ -3502,14 +3336,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers must yield to pedestrians.",
-  "sources": [],
   "image": "/signs/pedestrian-crossing.jpg"
 },
 {
   "id": "q-roundabout-257",
-  
-  
-  
   "question": "How should drivers proceed?",
   "choices": [
     "Yield to traffic in the roundabout",
@@ -3519,14 +3349,10 @@
   ],
   "correctIndex": 0,
   "explanation": "Vehicles already in the roundabout have the right-of-way.",
-  "sources": [],
   "image": "/signs/q-11-roundabout.png"
 },
 {
   "id": "q-hov-lane-258",
-  
-  
-  
   "question": "Who may use this lane?",
   "choices": [
     "Vehicles with multiple occupants",
@@ -3536,14 +3362,10 @@
   ],
   "correctIndex": 0,
   "explanation": "HOV lanes are reserved for qualifying vehicles.",
-  "sources": [],
   "image": "/signs/q-211-hov-lane.jpg"
 },
- {
+{
   "id": "q-stop-ahead-259",
-  
-  
-  
   "question": "What does this sign warn a driver of?",
   "choices": [
     "A stop sign is coming up ahead",
@@ -3553,19 +3375,10 @@
   ],
   "correctIndex": 0,
   "explanation": "A symbol of a stop sign inside a warning diamond alerts drivers to prepare to stop soon.",
-  "sources": [
-    {
-      "title": "Advance Traffic Control Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/stop-ahead.jpg"
 },
-  {
+{
   "id": "q-railway-crossing-260",
-  
-  
-  
   "question": "What does this sign warn of?",
   "choices": [
     "A railway crossing ahead",
@@ -3575,30 +3388,23 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers must be prepared to stop for trains.",
-  "sources": [],
   "image": "/signs/q-210-railway-crossing-1.jpg"
 },
-  {
-    "id": "q-261",
-    
-    
-  
-    "question": "You begin to feel very tired while driving at night. What is the safest thing to do?",
-    "choices": [
-      "Find a safe place to stop and rest",
-      "Open the window and keep driving",
-      "Turn up the radio and drive faster",
-      "Follow closely behind another car to stay alert"
-    ],
-    "correctIndex": 0,
-    "explanation": "Fatigue is dangerous. The safest choice is to stop driving and rest.",
-    "sources": [],
-    "image": "/signs/q-tired-driver-200.png"
-  },
-  {
+ {
+  "id": "q-261",
+  "question": "You begin to feel very tired while driving at night. What is the safest thing to do?",
+  "choices": [
+    "Find a safe place to stop and rest",
+    "Open the window and keep driving",
+    "Turn up the radio and drive faster",
+    "Follow closely behind another car to stay alert"
+  ],
+  "correctIndex": 0,
+  "explanation": "Fatigue is dangerous. The safest choice is to stop driving and rest.",
+  "image": "/signs/q-tired-driver-200.png"
+},
+{
   "id": "q-fail-remain-collision-262",
-  
-  
   "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to remain at a collision?",
   "choices": [
@@ -3611,27 +3417,21 @@
   "explanation": "Failing to remain at a collision carries 7 demerit points.",
   "image": "/signs/q-fail-remain-collision-262.png"
 },
-  {
-    "id": "q-263",
-    
-    
-  
-    "question": "When is it acceptable to drive with snow or ice covering part of your windshield?",
-    "choices": [
-      "Never; you must fully clear your windshield and windows before driving",
-      "As long as you can see directly ahead",
-      "Only at low speeds",
-      "Only if wipers are working"
-    ],
-    "correctIndex": 0,
-    "explanation": "Drivers are responsible for having a clear view in all directions before driving.",
-    "sources": [],
-    "image": "/signs/q-263-windshield-covered-snow.png"
-  },
-  {
+{
+  "id": "q-263",
+  "question": "When is it acceptable to drive with snow or ice covering part of your windshield?",
+  "choices": [
+    "Never; you must fully clear your windshield and windows before driving",
+    "As long as you can see directly ahead",
+    "Only at low speeds",
+    "Only if wipers are working"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers are responsible for having a clear view in all directions before driving.",
+  "image": "/signs/q-263-windshield-covered-snow.png"
+},
+{
   "id": "q-report-collision-damage-264",
-  
-  
   "category": "collisions-and-reporting",
   "question": "A motor vehicle collision must be reported to the police if there are injuries or if the total property damage is more than what amount?",
   "choices": [
@@ -3641,116 +3441,89 @@
     "$1000"
   ],
   "correctIndex": 3,
-  "explanation": "In Ontario, a collision must be reported to the police if anyone is injured or if the total damage to all vehicles and property exceeds $1,000.",
+  "explanation": "In Ontario, a collision must be reported to the police if anyone is injured or if the total damage exceeds $1,000.",
   "image": "/signs/q-collision-damage.png"
 },
-
-  {
-    "id": "q-265",
-    
-    
-  
-    "question": "Where is the safest place to install a child car seat in most passenger vehicles?",
-    "choices": [
-      "In the rear seat, away from active airbags",
-      "In the front seat with the airbag on",
-      "In the middle of the front bench seat",
-      "Beside the driver’s seat"
-    ],
-    "correctIndex": 0,
-    "explanation": "The back seat is generally safest, especially away from airbags.",
-    "sources": [],
-    "image": "/signs/q-31-child-seat.png"
-  },
-  {
-    "id": "q-266",
-    
-    
-  
-    "question": "A properly worn seatbelt should:",
-    "choices": [
-      "Have the lap belt low over the hips and the shoulder belt across the chest",
-      "Cross the stomach and neck",
-      "Be placed under the arm for comfort",
-      "Be worn loosely so you can move freely"
-    ],
-    "correctIndex": 0,
-    "explanation": "Correct seatbelt positioning reduces injury risk in a collision.",
-    "sources": [],
-    "image": "/signs/q-266-seatbelt.png"
-  },
-  {
-    "id": "q-267",
-    
-    
-  
-    "question": "In rain, snow, or poor visibility, how should you adjust your following distance?",
-    "choices": [
-      "Increase it beyond two seconds",
-      "Reduce it below two seconds",
-      "Keep it exactly the same",
-      "Follow closely behind large vehicles"
-    ],
-    "correctIndex": 0,
-    "explanation": "Poor conditions require greater space to stop safely.",
-    "sources": [],
-    "image": "/signs/q-267-snow-distance.png"
-  },
-  {
-    "id": "q-268",
-    
-    
-  
-    "question": "When descending a steep, icy hill, you should:",
-    "choices": [
-      "Use a lower gear and brake gently",
-      "Shift to neutral and coast",
-      "Brake hard continuously",
-      "Speed up to reduce time on the hill"
-    ],
-    "correctIndex": 0,
-    "explanation": "Lower gears and gentle braking improve control on slippery hills.",
-    "sources": [],
-    "image": "/signs/q-268-icy-hill.png"
-  },
-  {
-    "id": "q-269",
-    
-    
-  
-    "question": "A green light without a green arrow when you are turning left means:",
-    "choices": [
-      "You may turn left when the way is clear and after yielding to oncoming traffic and pedestrians",
-      "You have the right-of-way over oncoming traffic",
-      "You must wait for a green arrow to turn left",
-      "You may not turn left at any time"
-    ],
-    "correctIndex": 0,
-    "explanation": "A plain green light allows left turns but does not give protected right-of-way.",
-    "sources": [],
-    "image": "/signs/q-269-turn-left-on-green.png"
-  },
-  {
-    "id": "q-270",
-    
-    
-  
-    "question": "When entering a main road from a driveway or private road, you must:",
-    "choices": [
-      "Yield to all traffic on the main road",
-      "Expect traffic on the main road to yield to you",
-      "Enter quickly without stopping",
-      "Honk and proceed"
-    ],
-    "correctIndex": 0,
-    "explanation": "Vehicles entering a roadway must yield to traffic already on that road.",
-    "sources": [],
-    "image": "/signs/q-253-back-up-driveway.png"
-  },
+{
+  "id": "q-265",
+  "question": "Where is the safest place to install a child car seat in most passenger vehicles?",
+  "choices": [
+    "In the rear seat, away from active airbags",
+    "In the front seat with the airbag on",
+    "In the middle of the front bench seat",
+    "Beside the driver’s seat"
+  ],
+  "correctIndex": 0,
+  "explanation": "The back seat is generally safest, especially away from airbags.",
+  "image": "/signs/q-31-child-seat.png"
+},
+{
+  "id": "q-266",
+  "question": "A properly worn seatbelt should:",
+  "choices": [
+    "Have the lap belt low over the hips and the shoulder belt across the chest",
+    "Cross the stomach and neck",
+    "Be placed under the arm for comfort",
+    "Be worn loosely so you can move freely"
+  ],
+  "correctIndex": 0,
+  "explanation": "Correct seatbelt positioning reduces injury risk in a collision.",
+  "image": "/signs/q-266-seatbelt.png"
+},
+{
+  "id": "q-267",
+  "question": "In rain, snow, or poor visibility, how should you adjust your following distance?",
+  "choices": [
+    "Increase it beyond two seconds",
+    "Reduce it below two seconds",
+    "Keep it exactly the same",
+    "Follow closely behind large vehicles"
+  ],
+  "correctIndex": 0,
+  "explanation": "Poor conditions require greater space to stop safely.",
+  "image": "/signs/q-267-snow-distance.png"
+},
+{
+  "id": "q-268",
+  "question": "When descending a steep, icy hill, you should:",
+  "choices": [
+    "Use a lower gear and brake gently",
+    "Shift to neutral and coast",
+    "Brake hard continuously",
+    "Speed up to reduce time on the hill"
+  ],
+  "correctIndex": 0,
+  "explanation": "Lower gears and gentle braking improve control on slippery hills.",
+  "image": "/signs/q-268-icy-hill.png"
+},
+{
+  "id": "q-269",
+  "question": "A green light without a green arrow when you are turning left means:",
+  "choices": [
+    "You may turn left when the way is clear and after yielding to oncoming traffic and pedestrians",
+    "You have the right-of-way over oncoming traffic",
+    "You must wait for a green arrow to turn left",
+    "You may not turn left at any time"
+  ],
+  "correctIndex": 0,
+  "explanation": "A plain green light allows left turns but does not give protected right-of-way.",
+  "image": "/signs/q-269-turn-left-on-green.png"
+},
+{
+  "id": "q-270",
+  "question": "When entering a main road from a driveway or private road, you must:",
+  "choices": [
+    "Yield to all traffic on the main road",
+    "Expect traffic on the main road to yield to you",
+    "Enter quickly without stopping",
+    "Honk and proceed"
+  ],
+  "correctIndex": 0,
+  "explanation": "Vehicles entering a roadway must yield to traffic already on that road.",
+  "image": "/signs/q-253-back-up-driveway.png"
+},
   {
   "id": "q-fail-stop-police-271",
-  
-  
   "category": "demerit-points",
   "question": "How many demerit points are applied for failing to stop when signaled by police?",
   "choices": [
@@ -3763,169 +3536,124 @@
   "explanation": "Failing to stop for police results in 7 demerit points.",
   "image": "/signs/q-fail-stop-police-271.png"
 },
-  {
-    "id": "q-272",
-    
-    
-  
-    "question": "A circular yellow sign with a black 'X' and two 'R's warns of:",
-    "choices": [
-      "An upcoming railway crossing",
-      "A hospital zone",
-      "A roundabout ahead",
-      "An upcoming tunnel"
-    ],
-    "correctIndex": 0,
-    "explanation": "The railway advance warning sign alerts drivers to an upcoming track crossing.",
-    "sources": [],
-    "image": "/signs/q-272-X-and-2R.png"
-  },
-  {
-    "id": "q-273",
-    
-    
-  
-    "question": "A 'Loading Zone' sign usually means:",
-    "choices": [
-      "Stopping is allowed only for actively loading or unloading",
-      "You may park all day",
-      "Only buses may park",
-      "No stopping is allowed"
-    ],
-    "correctIndex": 0,
-    "explanation": "Loading zones restrict parking to short stops while goods or passengers are actively loaded or unloaded.",
-    "sources": [],
-    "image": "/signs/q-273-loadin-zone.png"
-  },
-  {
-    "id": "q-274",
-    
-    
-    
-    "question": "When a transit bus signals to leave a stop in a built-up area, you should:",
-    "choices": [
-      "Yield when safe to allow the bus to re-enter traffic",
-      "Speed up to pass before it moves",
-      "Ignore the signal and maintain speed",
-      "Sound your horn until it stays at the stop"
-    ],
-    "correctIndex": 0,
-    "explanation": "Drivers should show courtesy and allow buses to re-enter traffic when it is safe.",
-    "sources": [],
-    "image": "/signs/q-274-transit-bus-leaving.png"
-  },
-  {
-    "id": "q-275",
-    
-    
-  
-    "question": "When turning left across oncoming traffic, you should begin your turn when:",
-    "choices": [
-      "There is a large enough gap to complete the turn without forcing other drivers to slow down suddenly",
-      "You see one car turn behind you",
-      "The light is about to turn red",
-      "Oncoming vehicles flash their headlights"
-    ],
-    "correctIndex": 0,
-    "explanation": "Left turns must not interfere with oncoming traffic. Choose a gap that lets you turn smoothly.",
-    "sources": [],
-    "image": "/signs/q-275-turning-left.png"
-  },
-  {
-    "id": "q-276",
-    
-    
-    "category": "demerit-points",
-    "question": "Running a red light in Ontario can result in:",
-    "choices": [
-      "Fines and demerit points on your driving record",
-      "No penalty if no one is hit",
-      "A warning letter only",
-      "Confiscation of your vehicle every time"
-    ],
-    "correctIndex": 0,
-    "explanation": "Disobeying traffic lights is a serious offence that carries both fines and demerit points.",
-    "sources": [],
-    "image": "/signs/q-276-running-on-red.png"
-  },
-  {
-    "id": "q-277",
-    
-    
-  
-    "question": "When parallel parking uphill with a curb, how should you turn your front wheels?",
-    "choices": [
-      "Away from the curb",
-      "Toward the curb",
-      "Straight ahead",
-      "It does not matter"
-    ],
-    "correctIndex": 0,
-    "explanation": "Turning wheels away from the curb helps prevent the vehicle from rolling into traffic.",
-    "sources": [],
-    "image": "/signs/q-parking-uphill-curb-181.png"
-  },
-  {
-    "id": "q-278",
-    
-    
-  
-    "question": "When parking downhill with a curb, how should you turn your front wheels?",
-    "choices": [
-      "Toward the curb",
-      "Away from the curb",
-      "Straight ahead",
-      "Any direction is fine"
-    ],
-    "correctIndex": 0,
-    "explanation": "Turning wheels toward the curb helps the curb stop the vehicle if it rolls.",
-    "sources": [],
-    "image": "/signs/q-curb-downhill-45.png"
-  },
-  {
-    "id": "q-demerit-racing-279",
-    
-    
-    "category": "demerit-points",
-    "question": "A driver is convicted of stunt or street racing at extremely high speed. How many demerit points does stunt/racing carry in Ontario?",
-    "choices": [
-      "3 demerit points",
-      "4 demerit points",
-      "6 demerit points",
-      "7 demerit points"
-    ],
-    "correctIndex": 2,
-    "explanation": "Stunt driving or street racing offences carry 6 demerit points, in addition to very high fines, vehicle impoundment and possible licence suspension.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (racing/stunt driving)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/q-demerit-racing-279.png",
-    "notes": "Highlights that stunt/racing is a 6-point offence."
-  },
-  {
-    "id": "q-demerit-new-fully-licensed-280",
-    
-    
-    "category": "demerit-points",
-    "question": "For a fully licensed driver in Ontario, at how many demerit points can your licence be suspended?",
-    "choices": [
-      "9 demerit points",
-      "12 demerit points",
-      "14 demerit points",
-      "15 or more demerit points"
-    ],
-    "correctIndex": 3,
-    "explanation": "For fully licensed drivers, reaching 15 or more demerit points can result in a licence suspension. Lower point levels can lead to warning letters or an interview.",
-    "sources": [
-      {
-        "title": "Ontario — Understanding demerit points (penalties for fully licensed drivers)",
-        "url": "https://www.ontario.ca/page/understanding-demerit-points"
-      }
-    ],
-    "image": "/signs/q-demerit-new-fully-licensed-135.png",
-    "notes": "Explains the suspension threshold for fully licensed drivers."
-  }
+{
+  "id": "q-272",
+  "question": "A circular yellow sign with a black 'X' and two 'R's warns of:",
+  "choices": [
+    "An upcoming railway crossing",
+    "A hospital zone",
+    "A roundabout ahead",
+    "An upcoming tunnel"
+  ],
+  "correctIndex": 0,
+  "explanation": "The railway advance warning sign alerts drivers to an upcoming track crossing.",
+  "image": "/signs/q-272-X-and-2R.png"
+},
+{
+  "id": "q-273",
+  "question": "A 'Loading Zone' sign usually means:",
+  "choices": [
+    "Stopping is allowed only for actively loading or unloading",
+    "You may park all day",
+    "Only buses may park",
+    "No stopping is allowed"
+  ],
+  "correctIndex": 0,
+  "explanation": "Loading zones restrict parking to short stops while goods or passengers are actively loaded or unloaded.",
+  "image": "/signs/q-273-loadin-zone.png"
+},
+{
+  "id": "q-274",
+  "question": "When a transit bus signals to leave a stop in a built-up area, you should:",
+  "choices": [
+    "Yield when safe to allow the bus to re-enter traffic",
+    "Speed up to pass before it moves",
+    "Ignore the signal and maintain speed",
+    "Sound your horn until it stays at the stop"
+  ],
+  "correctIndex": 0,
+  "explanation": "Drivers should allow buses to re-enter traffic safely when signaled.",
+  "image": "/signs/q-274-transit-bus-leaving.png"
+},
+{
+  "id": "q-275",
+  "question": "When turning left across oncoming traffic, you should begin your turn when:",
+  "choices": [
+    "There is a large enough gap to complete the turn without forcing other drivers to slow down suddenly",
+    "You see one car turn behind you",
+    "The light is about to turn red",
+    "Oncoming vehicles flash their headlights"
+  ],
+  "correctIndex": 0,
+  "explanation": "Left turns must not interfere with oncoming traffic. Choose a safe and sufficient gap.",
+  "image": "/signs/q-275-turning-left.png"
+},
+{
+  "id": "q-276",
+  "category": "demerit-points",
+  "question": "Running a red light in Ontario can result in:",
+  "choices": [
+    "Fines and demerit points on your driving record",
+    "No penalty if no one is hit",
+    "A warning letter only",
+    "Confiscation of your vehicle every time"
+  ],
+  "correctIndex": 0,
+  "explanation": "Disobeying traffic lights is a serious offence that carries fines and demerit points.",
+  "image": "/signs/q-276-running-on-red.png"
+},
+{
+  "id": "q-277",
+  "question": "When parallel parking uphill with a curb, how should you turn your front wheels?",
+  "choices": [
+    "Away from the curb",
+    "Toward the curb",
+    "Straight ahead",
+    "It does not matter"
+  ],
+  "correctIndex": 0,
+  "explanation": "Turning wheels away from the curb helps prevent the vehicle from rolling into traffic.",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-278",
+  "question": "When parking downhill with a curb, how should you turn your front wheels?",
+  "choices": [
+    "Toward the curb",
+    "Away from the curb",
+    "Straight ahead",
+    "Any direction is fine"
+  ],
+  "correctIndex": 0,
+  "explanation": "Turning wheels toward the curb helps the curb stop the vehicle if it rolls.",
+  "image": "/signs/q-curb-downhill-45.png"
+},
+{
+  "id": "q-demerit-racing-279",
+  "category": "demerit-points",
+  "question": "A driver is convicted of stunt or street racing at extremely high speed. How many demerit points does stunt/racing carry in Ontario?",
+  "choices": [
+    "3 demerit points",
+    "4 demerit points",
+    "6 demerit points",
+    "7 demerit points"
+  ],
+  "correctIndex": 2,
+  "explanation": "Stunt driving or street racing carries 6 demerit points, along with severe penalties.",
+  "image": "/signs/q-demerit-racing-279.png"
+},
+{
+  "id": "q-demerit-new-fully-licensed-280",
+  "category": "demerit-points",
+  "question": "For a fully licensed driver in Ontario, at how many demerit points can your licence be suspended?",
+  "choices": [
+    "9 demerit points",
+    "12 demerit points",
+    "14 demerit points",
+    "15 or more demerit points"
+  ],
+  "correctIndex": 3,
+  "explanation": "For fully licensed drivers, 15 or more demerit points can result in licence suspension.",
+  "image": "/signs/q-demerit-new-fully-licensed-135.png"
+}
 ]
