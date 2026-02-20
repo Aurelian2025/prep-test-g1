@@ -2967,3 +2967,133 @@
   "explanation": "驾驶疲劳是危险的。唯一安全的选择是在继续行程前停车休息。",
   "image": "/signs/q-fatigue-driving-188.png"
 },
+{
+  "id": "q-tailgater-176",
+  "question": "另一位司机跟车过近（紧跟你车）。最安全的应对方式是什么？",
+  "choices": [
+    "逐渐增加你的跟车距离，并在安全时变道或让对方先通过",
+    "突然刹车提醒对方",
+    "加速甩开对方",
+    "无视对方，完全按原方式驾驶"
+  ],
+  "correctIndex": 0,
+  "explanation": "增加你的跟车距离，并在安全时让紧跟的车辆先通过。避免做出具有攻击性的反应。",
+  "image": "/signs/q-tailgater-65.png"
+},
+{
+  "id": "q-mirrors-frequency-177",
+  "question": "在交通较少的直线路段行驶时，你通常应该多久查看一次后视镜？",
+  "choices": [
+    "每隔几秒钟查看一次，并在减速、转弯或变道前查看",
+    "只有在听到喇叭时",
+    "行程开始时一次，结束时一次",
+    "只有在准备停车时"
+  ],
+  "correctIndex": 0,
+  "explanation": "频繁查看后视镜有助于你了解周围交通状况，并能安全应对变化。",
+  "image": "/signs/q-mirrors-frequency-190.png"
+},
+{
+  "id": "q-impaired-zero-g1-178",
+  "question": "对于G1或G2驾驶员，驾驶时血液酒精含量的法律要求是什么？",
+  "choices": [
+    "血液中必须完全没有酒精（0.00 BAC）",
+    "如果感觉良好，可以少量饮酒",
+    "只要低于正式驾照驾驶员的限值就可以饮酒",
+    "G1/G2驾驶员没有酒精规定"
+  ],
+  "correctIndex": 0,
+  "explanation": "安大略省对新手驾驶员（G1和G2）实行零酒精容忍政策。驾驶时血液酒精含量必须为0.00。",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-g1-supervisor-179",
+  "question": "以下哪项是在公共道路上驾驶时对G1驾驶员的要求？",
+  "choices": [
+    "必须有一名至少有四年驾驶经验的正式持牌司机坐在前排乘客座位",
+    "任何持有驾照的朋友都可以坐在后座",
+    "车内不需要其他人",
+    "只需要另一名G1驾驶员作为监督者"
+  ],
+  "correctIndex": 0,
+  "explanation": "G1驾驶员必须由一名具有所需驾驶经验的正式持牌司机坐在前排陪同。",
+  "image": "/signs/q-g1-supervisor-192.png"
+},
+{
+  "id": "q-g1-roads-restrictions-180",
+  "question": "关于G1驾驶员和高速公路的说法，哪一项是正确的？",
+  "choices": [
+    "除非有合格的驾驶教练陪同，否则G1驾驶员不得在某些高速公路上行驶",
+    "G1驾驶员可在任何时间独自在所有高速公路上行驶",
+    "G1驾驶员只允许在收费公路上行驶",
+    "G1驾驶员只能在未铺设的道路上行驶"
+  ],
+  "correctIndex": 0,
+  "explanation": "除非有合格的驾驶教练在场，否则某些高速公路对G1驾驶员是有限制的。",
+  "image": "/signs/q-g1-roads-restrictions-193.png"
+},
+ {
+  "id": "q-g2-passengers-night-181",
+  "question": "为什么安大略省对部分20岁以下的G2驾驶员实施夜间乘客限制？",
+  "choices": [
+    "为了减少新手驾驶员夜间搭载多名青少年乘客时发生严重碰撞的风险",
+    "为了限制年轻驾驶员的燃油使用",
+    "为了让公共交通更受欢迎",
+    "为了防止G2驾驶员在白天驾驶"
+  ],
+  "correctIndex": 0,
+  "explanation": "手册说明，对年轻G2驾驶员的夜间限制旨在在经验仍然有限时降低事故风险。",
+  "image": "/signs/q-g2-passengers-night-194.png"
+},
+{
+  "id": "q-collision-duties-182",
+  "question": "你与另一辆车发生碰撞且没有严重受伤。你必须做什么？",
+  "choices": [
+    "停车，与另一位司机交换信息并遵守报告要求",
+    "如果车还能开就迅速离开",
+    "把车开回家，只有想报告时才报告",
+    "留在车内并阻挡交通直到拖车到达"
+  ],
+  "correctIndex": 0,
+  "explanation": "发生碰撞的驾驶员必须停车，提供相关信息，并按照法律要求进行报告。",
+  "image": "/signs/q-collision-duties-195.png"
+},
+{
+  "id": "q-turn-signals-183",
+  "question": "什么时候应该使用转向信号灯？",
+  "choices": [
+    "每当你打算转弯、变道或从停车位置驶离时",
+    "只有在交通繁忙时",
+    "只有在夜间驾驶时",
+    "只有在接近停车标志时"
+  ],
+  "correctIndex": 0,
+  "explanation": "转向信号可以向他人传达你的意图。在转弯、变道以及驶入或驶出车流时都应使用。",
+  "image": "/signs/q-turn-signals-196.png"
+},
+{
+  "id": "q-back-up-safely-184",
+  "question": "倒车最安全的方法是什么？",
+  "choices": [
+    "检查周围情况，从后窗向外看并慢慢倒车",
+    "只依靠后视镜并快速倒车",
+    "只使用倒车摄像头而不看其他地方",
+    "向前看并只使用侧后视镜倒车"
+  ],
+  "correctIndex": 0,
+  "explanation": "倒车时应检查周围环境，主要从后窗观察，并缓慢移动以避免危险。",
+  "image": "/signs/q-back-up-safely-197.png"
+},
+{
+  "id": "q-pedestrians-turning-185",
+  "question": "你在路口右转且信号灯为绿色。一名行人开始穿过你要转入的街道。你必须怎么做？",
+  "choices": [
+    "让行行人，并等他们安全通过后再转弯",
+    "按喇叭并在行人前方转弯",
+    "在行人后方迅速转弯",
+    "驶入人行横道以表示你打算转弯"
+  ],
+  "correctIndex": 0,
+  "explanation": "转弯的驾驶员必须让行人行横道内的行人，并等他们完全通过车道后再完成转弯。",
+  "image": "/signs/q-pedestrians-turning-198.png"
+},
