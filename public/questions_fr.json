@@ -2381,3 +2381,133 @@
   "explanation": "Ce panneau indique aux conducteurs d’utiliser la voie de droite pour la circulation normale et de se déplacer à gauche uniquement pour dépasser en toute sécurité des véhicules plus lents.",
   "image": "/signs/q-keep-right-except-to-pass.png"
 },
+{
+  "id": "q-warning-hidden-intersection-136",
+  "question": "Que signifie ce panneau routier pour les conducteurs?",
+  "choices": [
+    "Une entrée cachée à droite",
+    "Une intersection cachée plus loin avec une route secondaire venant de la droite",
+    "Une rue à sens unique avec une sortie dissimulée",
+    "Virage à droite seulement à la prochaine intersection"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ce panneau d’avertissement indique une intersection cachée plus loin où une route secondaire rejoint par la droite. Une prudence accrue est requise.",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-regulatory-no-parking-accessible-permit-137",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Le stationnement est interdit en tout temps pour tout véhicule",
+    "Le stationnement est réservé uniquement aux véhicules d’urgence",
+    "Le stationnement est interdit sauf pour les véhicules affichant un permis de stationnement accessible valide",
+    "Cette zone est uniquement une zone de débarquement de passagers"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau signifie que le stationnement est réservé uniquement aux véhicules affichant un permis de stationnement accessible valide.",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-regulatory-no-straight-ahead-138",
+  "question": "Que signifie ce panneau de signalisation?",
+  "choices": [
+    "Vous devez continuer tout droit à l’intersection",
+    "Les virages à droite sont interdits",
+    "Il est interdit de continuer tout droit",
+    "Cette voie est réservée uniquement à la circulation directe"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau indique que les conducteurs ne sont pas autorisés à continuer tout droit à l’intersection.",
+  "image": "/signs/no-straight-ahead.png"
+},
+{
+  "id": "q-regulatory-no-right-turn-on-red-139",
+  "question": "Que signifie ce panneau de signalisation?",
+  "choices": [
+    "Les virages à droite sont interdits en tout temps",
+    "Vous pouvez tourner à droite seulement lorsque le feu est rouge",
+    "Les virages à droite sont interdits lorsque le feu de circulation est rouge",
+    "Vous devez vous arrêter puis tourner à droite au feu rouge"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau indique que les conducteurs ne sont pas autorisés à tourner à droite lorsque le feu de circulation est rouge.",
+  "image": "/signs/no-right-turn-on-red.png"
+},
+{
+  "id": "q-regulatory-no-left-turn-on-red-140",
+  "question": "Que signifie ce panneau de signalisation?",
+  "choices": [
+    "Les virages à gauche sont interdits en tout temps",
+    "Vous pouvez tourner à gauche seulement lorsque le feu est rouge",
+    "Les virages à gauche sont interdits lorsque le feu de circulation est rouge",
+    "Vous devez vous arrêter puis tourner à gauche au feu rouge"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ce panneau indique que les conducteurs ne sont pas autorisés à tourner à gauche lorsque le feu de circulation est rouge.",
+  "image": "/signs/no-left-turn-on-red.png"
+},
+ {
+  "id": "q-night-driving-speed-141",
+  "question": "La nuit, comment devez-vous ajuster votre vitesse, même si la limite de vitesse affichée est plus élevée?",
+  "choices": [
+    "Conduire assez lentement pour pouvoir vous arrêter dans la distance éclairée par vos phares",
+    "Toujours conduire à la limite affichée car elle est sécuritaire en tout temps",
+    "Accélérer pour passer moins de temps dans l’obscurité",
+    "Utiliser les feux de route et conduire aussi vite que possible"
+  ],
+  "correctIndex": 0,
+  "explanation": "La nuit, vous ne devez pas dépasser la portée de vos phares. Vous devez conduire à une vitesse qui vous permet de vous arrêter dans la distance que vous pouvez voir clairement devant vous.",
+  "image": "/signs/q-night-driving-speed-164.png"
+},
+{
+  "id": "q-intersections-right-of-way-142",
+  "question": "À un arrêt toutes directions où tous les véhicules arrivent à peu près en même temps, quel conducteur devrait normalement passer en premier?",
+  "choices": [
+    "Le conducteur qui s’arrête complètement en premier et qui avance lorsque c’est sécuritaire",
+    "Le conducteur avec le plus gros véhicule",
+    "Le conducteur qui fait clignoter ses phares en premier",
+    "Le conducteur qui tourne à gauche à travers la circulation"
+  ],
+  "correctIndex": 0,
+  "explanation": "Aux arrêts toutes directions, le véhicule qui s’arrête complètement en premier passe généralement en premier, mais tous les conducteurs doivent s’assurer que la voie est libre et sécuritaire avant d’avancer.",
+  "image": "/signs/q-intersections-right-of-way-165.png"
+},
+{
+  "id": "q-lane-change-143",
+  "question": "Avant de changer de voie sur une route à plusieurs voies, quelle est la séquence correcte?",
+  "choices": [
+    "Vérifier les rétroviseurs, signaler, vérifier l’angle mort, puis changer de voie lorsque c’est sécuritaire",
+    "Signaler après avoir bougé, puis vérifier les rétroviseurs",
+    "Bouger d’abord, puis vérifier les rétroviseurs et signaler",
+    "Klaxonner et passer immédiatement dans la voie suivante"
+  ],
+  "correctIndex": 0,
+  "explanation": "Vérifiez les rétroviseurs, signalez, vérifiez votre angle mort par un coup d’œil par-dessus l’épaule, puis changez de voie seulement lorsque c’est sécuritaire.",
+  "image": "/signs/q-lane-change-166.png"
+},
+{
+  "id": "q-blind-spots-144",
+  "question": "Pourquoi est-il important de vérifier par-dessus l’épaule même si vos rétroviseurs sont correctement réglés?",
+  "choices": [
+    "Il existe des zones à côté de votre véhicule que les rétroviseurs ne peuvent pas montrer (angles morts)",
+    "C’est seulement une habitude et ce n’est pas nécessaire",
+    "Cela permet aux autres conducteurs de savoir que vous tournez",
+    "Cela remplace la nécessité de signaler"
+  ],
+  "correctIndex": 0,
+  "explanation": "Même des rétroviseurs correctement réglés ne peuvent pas tout montrer. Un rapide coup d’œil par-dessus l’épaule vous aide à voir les véhicules, cyclistes ou piétons dans vos angles morts.",
+  "image": "/signs/q-blind-spots-167.png"
+},
+{
+  "id": "q-expressway-merge-145",
+  "question": "En entrant sur une autoroute depuis une bretelle d’accès, que devez-vous faire dans la voie d’accélération?",
+  "choices": [
+    "Signaler, adapter votre vitesse à la circulation et vous insérer lorsqu’il y a un espace sécuritaire",
+    "Vous arrêter à la fin de la bretelle et attendre que quelqu’un vous laisse entrer",
+    "Rouler lentement sur l’accotement jusqu’à trouver un grand espace",
+    "Reculer si vous manquez votre sortie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Sur les bretelles d’accès à l’autoroute, vous devez accélérer pour égaler la vitesse de la circulation, signaler et vous insérer en douceur lorsqu’il y a une ouverture sécuritaire.",
+  "image": "/signs/q-expressway-merge-168.png"
+},
