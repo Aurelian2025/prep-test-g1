@@ -4215,3 +4215,72 @@
   "explanation": "Les virages à gauche ne doivent pas gêner la circulation venant en sens inverse. Choisissez un écart sûr et suffisant.",
   "image": "/signs/q-275-turning-left.png"
 },
+{
+  "id": "q-276",
+  "category": "demerit-points",
+  "question": "Griller un feu rouge en Ontario peut entraîner :",
+  "choices": [
+    "Des amendes et des points d’inaptitude inscrits à votre dossier de conduite",
+    "Aucune pénalité si personne n’est heurté",
+    "Une lettre d’avertissement seulement",
+    "La confiscation de votre véhicule à chaque fois"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ne pas respecter les feux de circulation est une infraction grave qui entraîne des amendes et des points d’inaptitude.",
+  "image": "/signs/q-276-running-on-red.png"
+},
+{
+  "id": "q-277",
+  "question": "Lors d’un stationnement en parallèle en montée avec une bordure, comment devez-vous tourner vos roues avant?",
+  "choices": [
+    "À l’écart de la bordure",
+    "Vers la bordure",
+    "Tout droit",
+    "Cela n’a pas d’importance"
+  ],
+  "correctIndex": 0,
+  "explanation": "Tourner les roues à l’écart de la bordure aide à empêcher le véhicule de rouler dans la circulation.",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-278",
+  "question": "Lors d’un stationnement en descente avec une bordure, comment devez-vous tourner vos roues avant?",
+  "choices": [
+    "Vers la bordure",
+    "À l’écart de la bordure",
+    "Tout droit",
+    "N’importe quelle direction convient"
+  ],
+  "correctIndex": 0,
+  "explanation": "Tourner les roues vers la bordure permet à la bordure d’arrêter le véhicule s’il se met à rouler.",
+  "image": "/signs/q-curb-downhill-45.png"
+},
+{
+  "id": "q-demerit-racing-279",
+  "category": "demerit-points",
+  "question": "Un conducteur est reconnu coupable de conduite dangereuse ou de course de rue à très grande vitesse. Combien de points d’inaptitude cela entraîne-t-il en Ontario?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "La conduite dangereuse ou la course de rue entraîne 6 points d’inaptitude, en plus de sanctions sévères.",
+  "image": "/signs/q-demerit-racing-279.png"
+},
+{
+  "id": "q-demerit-new-fully-licensed-280",
+  "category": "demerit-points",
+  "question": "Pour un conducteur titulaire d’un permis complet en Ontario, à combien de points d’inaptitude votre permis peut-il être suspendu?",
+  "choices": [
+    "9 points d’inaptitude",
+    "12 points d’inaptitude",
+    "14 points d’inaptitude",
+    "15 points d’inaptitude ou plus"
+  ],
+  "correctIndex": 3,
+  "explanation": "Pour les conducteurs titulaires d’un permis complet, 15 points d’inaptitude ou plus peuvent entraîner la suspension du permis.",
+  "image": "/signs/q-demerit-new-fully-licensed-135.png"
+}
+]
