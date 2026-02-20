@@ -4150,3 +4150,134 @@
   "explanation": "后排通常最安全，尤其要远离安全气囊。",
   "image": "/signs/q-31-child-seat.png"
 },
+{
+  "id": "q-266",
+  "question": "正确佩戴的安全带应当：",
+  "choices": [
+    "腰带低位系在髋部，肩带横跨胸部",
+    "横过腹部和颈部",
+    "为舒适起见放在腋下",
+    "松松地系着以便自由移动"
+  ],
+  "correctIndex": 0,
+  "explanation": "正确佩戴安全带可在碰撞时降低受伤风险。",
+  "image": "/signs/q-266-seatbelt.png"
+},
+{
+  "id": "q-267",
+  "question": "在雨、雪或能见度差的情况下，应如何调整跟车距离？",
+  "choices": [
+    "增加到两秒以上",
+    "减少到两秒以下",
+    "保持完全相同",
+    "紧跟大型车辆后方"
+  ],
+  "correctIndex": 0,
+  "explanation": "恶劣条件需要更大的安全距离以便安全停车。",
+  "image": "/signs/q-267-snow-distance.png"
+},
+{
+  "id": "q-268",
+  "question": "在下陡峭且结冰的山坡时，应当：",
+  "choices": [
+    "使用低挡并轻踩刹车",
+    "挂空挡滑行",
+    "持续猛踩刹车",
+    "加速以减少在坡上的时间"
+  ],
+  "correctIndex": 0,
+  "explanation": "低挡和轻柔制动有助于在湿滑坡道上保持控制。",
+  "image": "/signs/q-268-icy-hill.png"
+},
+{
+  "id": "q-269",
+  "question": "当你左转时，若为绿灯但没有绿色箭头，意味着：",
+  "choices": [
+    "在道路畅通并礼让对向车辆和行人后可以左转",
+    "你对对向车辆拥有优先通行权",
+    "必须等待绿色箭头才能左转",
+    "任何时候都不能左转"
+  ],
+  "correctIndex": 0,
+  "explanation": "普通绿灯允许左转，但不提供受保护的优先通行权。",
+  "image": "/signs/q-269-turn-left-on-green.png"
+},
+{
+  "id": "q-270",
+  "question": "从车道或私人道路进入主路时，必须：",
+  "choices": [
+    "让主路上的所有车辆先行",
+    "期望主路上的车辆让你先行",
+    "迅速进入且不停车",
+    "按喇叭并前进"
+  ],
+  "correctIndex": 0,
+  "explanation": "进入道路的车辆必须让已在道路上的车辆先行。",
+  "image": "/signs/q-253-back-up-driveway.png"
+},
+  {
+  "id": "q-fail-stop-police-271",
+  "category": "demerit-points",
+  "question": "未在警方示意下停车会被记多少扣分？",
+  "choices": [
+    "2 分",
+    "4 分",
+    "6 分",
+    "7 分"
+  ],
+  "correctIndex": 3,
+  "explanation": "未按警方指示停车将被记 7 分扣分。",
+  "image": "/signs/q-fail-stop-police-271.png"
+},
+{
+  "id": "q-272",
+  "question": "一个黄色圆形标志，上有黑色“X”和两个“R”，警告：",
+  "choices": [
+    "前方有铁路道口",
+    "医院区域",
+    "前方有环岛",
+    "前方有隧道"
+  ],
+  "correctIndex": 0,
+  "explanation": "铁路提前警告标志提醒驾驶员前方有铁路轨道交叉口。",
+  "image": "/signs/q-272-X-and-2R.png"
+},
+{
+  "id": "q-273",
+  "question": "“装卸区”标志通常表示：",
+  "choices": [
+    "仅在正在装卸货物或乘客时允许停车",
+    "可以全天停车",
+    "仅公交车可以停车",
+    "禁止停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "装卸区仅允许在装卸货物或乘客时短暂停车。",
+  "image": "/signs/q-273-loadin-zone.png"
+},
+{
+  "id": "q-274",
+  "question": "在市区，当公交车打信号准备离开车站时，你应当：",
+  "choices": [
+    "在安全情况下让行，让公交车重新进入车流",
+    "加速在其启动前超越",
+    "无视信号并保持速度",
+    "持续按喇叭直到它停留在车站"
+  ],
+  "correctIndex": 0,
+  "explanation": "当公交车发出信号时，驾驶员应让其安全地重新进入车流。",
+  "image": "/signs/q-274-transit-bus-leaving.png"
+},
+{
+  "id": "q-275",
+  "question": "左转穿过对向车流时，应在何时开始转弯？",
+  "choices": [
+    "当有足够大的间隙可以完成转弯而不会迫使其他驾驶员突然减速时",
+    "当看到一辆车在你后面转弯时",
+    "当信号灯即将变红时",
+    "当对向车辆闪灯时"
+  ],
+  "correctIndex": 0,
+  "explanation": "左转不得干扰对向车流。应选择安全且足够的间隙。",
+  "image": "/signs/q-275-turning-left.png"
+},
