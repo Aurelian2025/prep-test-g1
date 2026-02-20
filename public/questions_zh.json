@@ -3888,3 +3888,133 @@
   "explanation": "带斜杠的红色圆圈表示禁止的动作——在这里是红灯时禁止右转。",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+  "id": "q-246",
+  "question": "带有黑色数字（如“80”）和“MAXIMUM”字样的白色长方形标志表示：",
+  "choices": [
+    "在理想条件下的最高法定速度为 80 公里/小时",
+    "你必须正好以 80 公里/小时行驶",
+    "最低速度为 80 公里/小时",
+    "你可以超过 80 公里/小时进行超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "限速标志表示在理想条件下允许的最高法定速度。",
+  "image": "/signs/q-246-max-80.png"
+},
+{
+  "id": "q-247",
+  "question": "表示学校区域限速结束的标志意味着：",
+  "choices": [
+    "在安全情况下可以恢复正常公布的车速",
+    "必须始终保持学校区域限速行驶",
+    "此处之后没有行人",
+    "校车不再停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "区域结束标志表示特殊的较低限速不再适用。",
+  "image": "/signs/q-247-end-of-school-zone.png"
+},
+{
+  "id": "q-248",
+  "question": "显示右侧车道结束并有箭头弯向左侧车道的标志表示：",
+  "choices": [
+    "右侧车道的车辆必须向左并线",
+    "左侧车道的车辆必须停车",
+    "前方为双向交通",
+    "可以在路肩上超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "车道合并标志提醒驾驶员安全变更车道。",
+  "image": "/signs/q-248-right-lane-ends.png"
+},
+{
+  "id": "q-narrow-bridge-249",
+  "question": "此标志警告哪种情况？",
+  "choices": [
+    "前方有窄桥",
+    "低矮桥梁",
+    "桥梁关闭",
+    "桥梁施工中"
+  ],
+  "correctIndex": 0,
+  "explanation": "由于桥面变窄，驾驶员可能需要让行。",
+  "image": "/signs/narrow-bridge.jpg"
+},
+{
+  "id": "q-right-left-curve-ahead-250",
+  "question": "此警告标志表示什么？",
+  "choices": [
+    "前方道路先向右弯曲，然后向左弯曲",
+    "前方只有一个急右转弯",
+    "道路变为单行道",
+    "必须在下一个路口右转"
+  ],
+  "correctIndex": 0,
+  "explanation": "带有两个弯曲箭头的标志提醒驾驶员道路将连续向两个方向弯曲，应减速行驶。",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
+  {
+  "id": "q-no-bicycles-251",
+  "question": "此标志禁止什么？",
+  "choices": [
+    "自行车",
+    "行人",
+    "摩托车",
+    "雪地摩托"
+  ],
+  "correctIndex": 0,
+  "explanation": "此区域不允许自行车通行。",
+  "image": "/signs/no-bicycles.jpg"
+},
+{
+  "id": "q-no-parking-252",
+  "question": "此标志表示什么？",
+  "choices": [
+    "禁止停车",
+    "禁止临时停车",
+    "允许短暂停车",
+    "仅限装卸"
+  ],
+  "correctIndex": 0,
+  "explanation": "车辆可以短暂停留，但不得停车。",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-no-passing-253",
+  "question": "禁止哪种驾驶行为？",
+  "choices": [
+    "超车",
+    "变更车道",
+    "转弯",
+    "停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "在此区域内禁止超车。",
+  "image": "/signs/no-passing.jpg"
+},
+{
+  "id": "q-no-pedestrians-254",
+  "question": "此处禁止谁通行？",
+  "choices": [
+    "行人",
+    "骑自行车的人",
+    "摩托车",
+    "汽车"
+  ],
+  "correctIndex": 0,
+  "explanation": "出于安全原因，禁止行人进入。",
+  "image": "/signs/no-pedestrians.jpg"
+},
+{
+  "id": "q-no-u-turn-255",
+  "question": "禁止哪种操作？",
+  "choices": [
+    "掉头",
+    "左转",
+    "右转",
+    "直行"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员不得掉头行驶。",
+  "image": "/signs/no-u-turn.jpg"
+},
