@@ -3228,3 +3228,137 @@
   "explanation": "你不得在距离消防栓3米以内停车。这为消防员在紧急情况下快速连接水管提供空间。",
   "image": "/signs/q-208-fire-hydrant-park.jpg"
 },
+{
+  "id": "q-intersection-parking-distance-196",
+  "question": "在没有交通信号灯的道路上，你可以在离路口或人行横道多近的地方停车？",
+  "choices": [
+    "如果打转向灯，可以直接停在拐角处",
+    "至少离路口三米",
+    "至少离路口九米",
+    "至少离路口15米"
+  ],
+  "correctIndex": 2,
+  "explanation": "在没有交通信号灯的道路上，你不得在距离路口九米以内停车，以保持良好的视线。",
+  "image": "/signs/q-209-car-parked-near-intersection.jpg"
+},
+{
+  "id": "q-suspension-197",
+  "category": "demerits-info",
+  "question": "新手驾驶员的驾照在达到多少扣分时会被吊销60天？",
+  "choices": [
+    "9分",
+    "12分",
+    "15分",
+    "20分"
+  ],
+  "correctIndex": 2,
+  "explanation": "新手驾驶员的驾照在达到15个扣分时会被吊销。",
+  "image": "/signs/q-suspension-197.png"
+},
+{
+  "id": "q-hov-lane-198",
+  "question": "在400系列高速公路上，你看到菱形符号和HOV（拼车）车道标志。什么时候可以使用这条车道？",
+  "choices": [
+    "只有当车内至少有两人（或是符合条件的车辆，如公交车、摩托车或绿色牌照车辆）时",
+    "当普通车道交通缓慢而你想超车时",
+    "只有当你以限速或以上速度行驶时",
+    "晚上7点之后及周末任何时间都可以，不论乘客数量"
+  ],
+  "correctIndex": 0,
+  "explanation": "HOV车道仅供至少载有两人的车辆或特别允许的车辆使用。它们不是单人驾驶车辆的超车道。",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-demerit-seatbelts-199",
+  "category": "demerit-points",
+  "question": "一名司机因未系安全带并允许儿童未系安全带乘车而被定罪。与安全带相关的违规会给司机的记录增加多少扣分？",
+  "choices": [
+    "2分",
+    "3分",
+    "4分",
+    "6分"
+  ],
+  "correctIndex": 0,
+  "explanation": "与安全带相关的违规会给司机增加2个扣分。",
+  "image": "/signs/q-demerit-seatbelts-130.png"
+},
+{
+  "id": "q-demerit-fail-yield-sign-200",
+  "category": "demerit-points",
+  "question": "你在这个让行标志处强行并入交通，并被判未让出通行权。会增加多少扣分？",
+  "choices": [
+    "2分",
+    "3分",
+    "4分",
+    "6分"
+  ],
+  "correctIndex": 1,
+  "explanation": "未让出通行权在安大略省属于扣3分的违规。",
+  "image": "/signs/yield-sign.jpg"
+},
+  {
+  "id": "q-red-light-camera-201",
+  "question": "这个标志提醒驾驶员什么？",
+  "choices": [
+    "交通信号灯停止服务",
+    "该路口有闯红灯摄像头监控",
+    "只有紧急车辆可以在红灯时通行",
+    "下一个信号灯是由行人触发的"
+  ],
+  "correctIndex": 1,
+  "explanation": "交通信号灯下方的摄像头符号表示有电子执法设备记录闯红灯的车辆。",
+  "image": "/signs/q-red-light-camera.png"
+},
+{
+  "id": "q-yield-sign-202",
+  "question": "当你接近这个让行标志且主路上有交通时，你必须怎么做？",
+  "choices": [
+    "减速并在必要时停车，让主路车辆先行",
+    "以正常速度通过",
+    "即使道路畅通也要停车",
+    "强行进入交通，因为你有优先权"
+  ],
+  "correctIndex": 0,
+  "explanation": "让行标志意味着你必须让主路交通先行。减速，准备停车，并在有安全间隙时再前进。",
+  "image": "/signs/yield-sign.jpg"
+},
+{
+  "id": "q-do-not-enter-203",
+  "question": "你在车道入口看到这个“禁止进入”标志。它告诉你什么？",
+  "choices": [
+    "你不得进入；该车道是供迎面而来的车辆使用",
+    "只有左转时才可以进入",
+    "该车道只供公交车使用",
+    "如果打开危险警示灯可以进入"
+  ],
+  "correctIndex": 0,
+  "explanation": "“禁止进入”标志表示该车道或道路是供对向交通使用。你不得从这个方向驶入。",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-bump-warning-204",
+  "category": "signs-warning",
+  "question": "驾驶员前方应预期什么？",
+  "choices": [
+    "道路上有减速凸起",
+    "急弯",
+    "停车标志",
+    "人行横道"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员应降低车速，以便在不平路面上保持车辆控制。",
+  "image": "/signs/bump-sign.jpg"
+},
+{
+  "id": "q-ped-crossing-waiting-205",
+  "question": "你看到这个行人过街标志，并且有人在过街处边缘等待。你应该怎么做？",
+  "choices": [
+    "减速并准备停车，让行人安全通过",
+    "加速在行人开始过街前通过",
+    "按喇叭让行人等待",
+    "因为没有交通灯而忽视行人"
+  ],
+  "correctIndex": 0,
+  "explanation": "在行人过街处，你必须准备停车，并在继续行驶前让等待的行人安全通过。",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
