@@ -2702,3 +2702,133 @@
   "explanation": "La P verde significa que el estacionamiento está permitido, mientras que el texto debajo especifica los límites de tiempo y los días de aplicación.",
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-stop-sign-where-to-stop-166",
+  "question": "En esta señal de STOP con una línea de detención marcada, ¿dónde debe detenerse?",
+  "choices": [
+    "Justo antes de la línea de detención o del paso de peatones",
+    "En el medio de la intersección",
+    "A mitad del paso de peatones",
+    "En cualquier lugar siempre que haga una breve pausa"
+  ],
+  "correctIndex": 0,
+  "explanation": "En una señal de alto, debe detenerse completamente en la línea de detención, antes del paso de peatones o antes de entrar en la intersección, lo que ocurra primero.",
+  "image": "/signs/stop-sign.jpg"
+},
+{
+  "id": "q-traffic-signal-ahead-167",
+  "question": "Ve esta señal mientras conduce por una carretera de alta velocidad. ¿Sobre qué le advierte?",
+  "choices": [
+    "Se aproxima un semáforo; prepárese para reducir la velocidad o detenerse",
+    "Un cruce ferroviario está justo adelante",
+    "Un alto de cuatro vías sin semáforos",
+    "La carretera termina en un callejón sin salida"
+  ],
+  "correctIndex": 0,
+  "explanation": "La señal de advertencia de semáforo adelante le alerta de una intersección con semáforos para que pueda prepararse a reducir la velocidad o detenerse si la luz cambia.",
+  "image": "/signs/traffic-signal-ahead.jpg"
+},
+{
+  "id": "q-accessible-parking-168",
+  "question": "Ve esta señal en un estacionamiento. ¿Qué significa?",
+  "choices": [
+    "El espacio está reservado para vehículos que muestran un permiso de estacionamiento accesible",
+    "El estacionamiento es gratuito para todos",
+    "El estacionamiento es solo para motocicletas",
+    "Puede estacionar aquí solo por la noche"
+  ],
+  "correctIndex": 0,
+  "explanation": "El símbolo de la silla de ruedas indica estacionamiento accesible. Solo los vehículos con un permiso válido de estacionamiento accesible pueden estacionar en estos espacios.",
+  "image": "/signs/wheelchair-accessible.jpg"
+},
+{
+  "id": "q-parking-downhill-no-curb-169",
+  "question": "Al estacionar cuesta abajo en una carretera sin bordillo, ¿cómo debe colocar las ruedas delanteras?",
+  "choices": [
+    "Gire las ruedas hacia el borde derecho de la carretera y active el freno de estacionamiento",
+    "Gire las ruedas hacia el centro de la carretera",
+    "Deje las ruedas rectas y en punto muerto",
+    "Gire las ruedas a la izquierda y no use el freno de estacionamiento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Al estar cuesta abajo sin bordillo, girar las ruedas hacia el borde ayuda a evitar que el vehículo ruede hacia la calzada.",
+  "image": "/signs/q-parking-downhill-no-curb-182.png"
+},
+{
+  "id": "q-parking-fire-hydrant-170",
+  "question": "¿Por qué está prohibido estacionar demasiado cerca de un hidrante de incendios?",
+  "choices": [
+    "Los bomberos deben poder llegar al hidrante rápidamente en una emergencia",
+    "Los hidrantes son estacionamiento reservado solo para camiones de bomberos",
+    "Los hidrantes marcan entradas privadas",
+    "Se permite estacionar allí solo por la noche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las normas de estacionamiento incluyen distancias mínimas de los hidrantes para que los equipos de emergencia puedan conectar las mangueras sin demora.",
+  "image": "/signs/q-parking-fire-hydrant-183.jpg"
+},
+ {
+  "id": "q-parking-crosswalk-171",
+  "question": "¿Por qué nunca debe estacionar dentro de un paso de peatones o muy cerca de él?",
+  "choices": [
+    "Bloquea la visibilidad de peatones y conductores en el cruce",
+    "Facilita el cruce a los peatones",
+    "Es solo una sugerencia sin preocupación de seguridad",
+    "Está permitido si las luces de emergencia están encendidas"
+  ],
+  "correctIndex": 0,
+  "explanation": "Estacionar demasiado cerca de los pasos de peatones puede ocultar a los peatones de la vista y dificultar que los conductores los vean a tiempo.",
+  "image": "/signs/q-parking-crosswalk-184.png"
+},
+{
+  "id": "q-railway-stall-172",
+  "question": "Si su vehículo se detiene en un cruce ferroviario y un tren se acerca, ¿qué debe hacer primero?",
+  "choices": [
+    "Saque a todos del vehículo y aléjense de las vías en un ángulo de 45° hacia el tren",
+    "Permanezca dentro e intente arrancar hasta el último momento",
+    "Empuje el vehículo fuera de las vías usted solo",
+    "Párese directamente frente al tren para indicarle que se detenga"
+  ],
+  "correctIndex": 0,
+  "explanation": "Si viene un tren y el vehículo no puede moverse, todos deben salir inmediatamente y alejarse en ángulo para evitar los escombros que puedan salir volando.",
+  "image": "/signs/q-railway-stall-185.png"
+},
+{
+  "id": "q-tire-blowout-173",
+  "question": "Si un neumático delantero revienta mientras conduce, ¿cuál es la reacción inicial más segura?",
+  "choices": [
+    "Sujete el volante con firmeza, suelte el acelerador y mantenga la dirección recta",
+    "Frene fuerte inmediatamente y diríjase al arcén",
+    "Acelere para mantener el vehículo estable",
+    "Gire bruscamente lejos del lado del neumático reventado"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un reventón puede causar un tirón repentino. Sujete el volante con firmeza, suelte el acelerador y mantenga la dirección recta hasta poder reducir la velocidad de forma segura.",
+  "image": "/signs/q-tire-blowout-186.png"
+},
+{
+  "id": "q-skid-rear-174",
+  "question": "En una carretera helada, las ruedas traseras comienzan a deslizarse lateralmente. ¿Qué debe hacer?",
+  "choices": [
+    "Gire suavemente en la dirección en la que quiere que vaya la parte delantera del vehículo y evite frenar bruscamente",
+    "Frene lo más fuerte posible y mantenga el pedal presionado",
+    "Gire rápidamente en la dirección opuesta al derrape",
+    "Gire completamente el volante hacia un lado y acelere"
+  ],
+  "correctIndex": 0,
+  "explanation": "Para corregir un derrape, gire en la dirección en la que quiere que vaya el vehículo y evite frenadas o aceleraciones bruscas.",
+  "image": "/signs/q-skid-rear-187.png"
+},
+{
+  "id": "q-fatigue-driving-175",
+  "question": "Empieza a sentirse muy somnoliento mientras conduce. ¿Cuál es la decisión más segura?",
+  "choices": [
+    "Busque un lugar seguro para detenerse y descansar antes de continuar",
+    "Abra la ventana y siga conduciendo a la misma velocidad",
+    "Suba el volumen de la radio y concéntrese en mantenerse despierto",
+    "Beba café y continúe conduciendo durante varias horas más"
+  ],
+  "correctIndex": 0,
+  "explanation": "La fatiga del conductor es peligrosa. La única opción segura es detenerse y descansar antes de continuar el viaje.",
+  "image": "/signs/q-fatigue-driving-188.png"
+},
