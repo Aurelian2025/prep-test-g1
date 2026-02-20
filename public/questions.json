@@ -2101,9 +2101,6 @@
 
   {
     "id": "q-divided-highway-ends-121",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "What does this sign tell you about the road ahead?",
     "choices": [
       "The divided highway is ending and opposing traffic will be closer",
@@ -2113,20 +2110,10 @@
     ],
     "correctIndex": 0,
     "explanation": "This sign shows two lines coming together from around a centre shape, meaning the divided highway is ending and oncoming traffic will no longer be separated by a median.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-ends.jpg",
-    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+    "image": "/signs/divided-highway-ends.jpg"
   },
   {
     "id": "q-narrow-bridge-122",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this sign before a bridge. What should you expect?",
     "choices": [
       "A narrow bridge where the lanes or shoulders are reduced",
@@ -2136,20 +2123,10 @@
     ],
     "correctIndex": 0,
     "explanation": "The narrowing shape on the sign warns that the bridge ahead may be narrower than the roadway, so you should slow down and be prepared to meet oncoming traffic safely.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/narrow-bridge.jpg",
-    "notes": "Original question using your narrow-bridge sign image."
+    "image": "/signs/narrow-bridge.jpg"
   },
   {
     "id": "q-road-narrows-123",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This sign is posted before a section of roadway. What does it mean?",
     "choices": [
       "The road ahead becomes narrower",
@@ -2159,20 +2136,10 @@
     ],
     "correctIndex": 0,
     "explanation": "The narrowing lines on the warning sign indicate that the roadway is going to become narrower, so you should reduce speed and pass oncoming vehicles with extra care.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-narrows.jpg",
-    "notes": "Original road-narrows question for Prep Test G1."
+    "image": "/signs/road-narrows.jpg"
   },
   {
     "id": "q-road-ends-124",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this sign as you approach the end of a street. What does it mean?",
     "choices": [
       "The road ends ahead; you must turn or stop",
@@ -2182,20 +2149,10 @@
     ],
     "correctIndex": 0,
     "explanation": "A road-ends warning sign tells you that the through road will end. You must slow down and be prepared to stop or turn at the end of the road as indicated.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-ends.jpg",
-    "notes": "Original road-ends interpretation question."
+    "image": "/signs/road-ends.jpg"
   },
   {
     "id": "q-railway-approach-125",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this railway crossing sign ahead on a two-lane road with no gates. What should you do?",
     "choices": [
       "Slow down, look and listen for trains, and be prepared to stop if needed",
@@ -2205,20 +2162,10 @@
     ],
     "correctIndex": 0,
     "explanation": "Railway warning signs mean you must slow down, look and listen in both directions, and be prepared to stop if a train is approaching. Never stop on the tracks.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Railway crossings",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
-      }
-    ],
-    "image": "/signs/railway-crossing.jpg",
-    "notes": "New scenario about approaching a railway crossing without gates."
+    "image": "/signs/railway-crossing.jpg"
   },
   {
     "id": "q-road-closed-ahead-126",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This orange sign appears on a detour route. What does it tell you about the road ahead?",
     "choices": [
       "The road ahead will be completely closed to traffic",
@@ -2228,20 +2175,10 @@
     ],
     "correctIndex": 0,
     "explanation": "An orange ROAD CLOSED AHEAD warning sign means that the road will not be passable further along. You must be ready to follow the posted detour or turn around.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/road-closed-ahead.jpg",
-    "notes": "Different from earlier construction question: focuses on full closure ahead."
+    "image": "/signs/road-closed-ahead.jpg"
   },
   {
   "id": "q-no-passing-127",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign mean?",
   "choices": [
     "Passing is allowed only on the right",
@@ -2251,15 +2188,8 @@
   ],
   "correctIndex": 1,
   "explanation": "The red circle and slash over two side-by-side vehicles indicates that overtaking and passing are not permitted.",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Passing Rules",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-no-passing.png"
-}
-,
+},
   {
     "id": "q-roundabout-yield-128",
     "brand": "Prep test G1",
