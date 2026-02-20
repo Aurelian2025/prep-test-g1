@@ -3487,3 +3487,135 @@
   "explanation": "Las luces intermitentes, campanas o barreras bajas en un cruce ferroviario siempre requieren una parada completa, incluso si no ves un tren.",
   "image": "/signs/q-231-railway-crossing.jpg"
 },
+{
+  "id": "q-226",
+  "question": "Al adelantar a un ciclista, los conductores deben dejar al menos:",
+  "choices": [
+    "1 metro de espacio",
+    "20 centímetros",
+    "No se requiere distancia",
+    "Lo más cerca posible para evitar desviarse"
+  ],
+  "correctIndex": 0,
+  "explanation": "La ley de Ontario exige que los conductores dejen al menos un metro de espacio al adelantar a un ciclista.",
+  "image": "/signs/q-232-car-passing-cyclist.jpg"
+},
+{
+  "id": "q-227",
+  "question": "Si pierde su salida en una autopista, debe:",
+  "choices": [
+    "Continuar hasta la siguiente salida",
+    "Retroceder con cuidado por el arcén",
+    "Detenerse y esperar un espacio",
+    "Hacer un giro en U en la mediana"
+  ],
+  "correctIndex": 0,
+  "explanation": "Nunca se detenga ni retroceda en una autopista. Continúe hasta la siguiente salida y regrese de forma segura.",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
+  "id": "q-speeding-50-over-penalty-228",
+  "category": "penalties-and-suspensions",
+  "question": "Un conductor es condenado por circular a 50 km/h o más por encima del límite de velocidad indicado. ¿Qué sanción puede imponer el tribunal?",
+  "choices": [
+    "Suspensión de la licencia por 6 meses",
+    "Suspensión de la licencia por 30 días",
+    "Inmovilización del vehículo por 6 meses",
+    "Prisión por 6 meses"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conducir 50 km/h o más por encima del límite puede resultar en una suspensión de la licencia impuesta por el tribunal de 30 días, además de multas y puntos de demérito.",
+  "image": "/signs/q-speeding-50-over-penalty.png"
+},
+{
+  "id": "q-229",
+  "category": "demerit-points",
+  "question": "Las sanciones por conducir bajo los efectos del alcohol para conductores G1 incluyen:",
+  "choices": [
+    "Suspensión inmediata en el lugar y sanciones progresivas",
+    "Ninguna suspensión a menos que supere el límite criminal",
+    "Solo una pequeña multa",
+    "Solo puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores G1 deben mantener cero alcohol en sangre y enfrentan suspensión inmediata y sanciones estrictas si conducen bajo los efectos.",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-230",
+  "question": "Si un semáforo está completamente apagado debido a un corte de energía, trate la intersección como:",
+  "choices": [
+    "Una parada de cuatro vías",
+    "Una luz verde normal",
+    "Un cruce solo para peatones",
+    "Una señal de ceder el paso en todas las direcciones"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cuando los semáforos no funcionan, los conductores deben tratar la intersección como una parada de cuatro vías.",
+  "image": "/signs/q-230-traffice-light-off.png"
+},
+  {
+  "id": "q-231",
+  "question": "La distancia mínima recomendada de seguimiento en condiciones ideales es:",
+  "choices": [
+    "Al menos 2 segundos",
+    "Medio segundo",
+    "1 segundo",
+    "4 segundos en todo momento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un intervalo de 2 segundos permite un tiempo de frenado seguro. Aumente su distancia de seguimiento en malas condiciones.",
+  "image": "/signs/q-231-following-distance.png"
+},
+{
+  "id": "q-232",
+  "question": "¿Por qué los puentes se congelan antes que el resto de la carretera?",
+  "choices": [
+    "Están expuestos al aire frío por arriba y por abajo",
+    "Usan pavimento más blando",
+    "Soportan más tráfico",
+    "Reciben más luz solar"
+  ],
+  "correctIndex": 0,
+  "explanation": "El aire frío circula alrededor de los puentes por arriba y por abajo, lo que hace que se congelen más rápido que otras superficies de la carretera.",
+  "image": "/signs/q-23-bridge-freezes.png"
+},
+{
+  "id": "q-233",
+  "question": "En Ontario, ¿cuándo se permite girar a la izquierda con luz roja?",
+  "choices": [
+    "Solo desde una calle de un solo sentido hacia otra de un solo sentido",
+    "En cualquier momento si el tráfico está despejado",
+    "Nunca está permitido",
+    "Solo al girar hacia una entrada privada"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un giro a la izquierda con luz roja solo está permitido al girar desde una calle de un solo sentido hacia otra de un solo sentido, después de detenerse completamente.",
+  "image": "/signs/q-233-right-turn-on-red.png"
+},
+{
+  "id": "q-234",
+  "question": "En ausencia de señales, ¿cuál es el límite máximo de velocidad habitual en las vías municipales de ciudades, pueblos y aldeas en Ontario?",
+  "choices": [
+    "50 km/h",
+    "40 km/h",
+    "60 km/h",
+    "70 km/h"
+  ],
+  "correctIndex": 0,
+  "explanation": "A menos que se indique lo contrario, el límite de velocidad predeterminado en muchas vías municipales urbanizadas es de 50 km/h.",
+  "image": "/signs/q-234-50-in-city.png"
+},
+{
+  "id": "q-235",
+  "question": "Está frente a una luz ámbar (amarilla) fija y se encuentra lo suficientemente lejos para detenerse con seguridad. ¿Qué debe hacer?",
+  "choices": [
+    "Detenerse antes de la intersección",
+    "Acelerar para pasar antes de que cambie a rojo",
+    "Continuar a la misma velocidad",
+    "Entrar a la intersección y esperar la luz verde"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una luz ámbar fija significa que la señal está a punto de cambiar a rojo. Si puede detenerse de manera segura, debe hacerlo antes de entrar en la intersección.",
+  "image": "/signs/q-235-steady-yellow.png"
+},
