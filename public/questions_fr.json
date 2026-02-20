@@ -2771,3 +2771,133 @@
   "explanation": "Le P vert signifie que le stationnement est autorisé, tandis que le texte en dessous précise les limites de temps et les jours d’application.",
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-stop-sign-where-to-stop-166",
+  "question": "À ce panneau STOP avec une ligne d’arrêt marquée, où devez-vous vous arrêter?",
+  "choices": [
+    "Juste avant la ligne d’arrêt ou le passage pour piétons",
+    "Au milieu de l’intersection",
+    "À mi-chemin dans le passage pour piétons",
+    "N’importe où tant que vous marquez un bref arrêt"
+  ],
+  "correctIndex": 0,
+  "explanation": "À un panneau d’arrêt, vous devez faire un arrêt complet à la ligne d’arrêt, avant le passage pour piétons ou avant d’entrer dans l’intersection, selon ce qui vient en premier.",
+  "image": "/signs/stop-sign.jpg"
+},
+{
+  "id": "q-traffic-signal-ahead-167",
+  "question": "Vous voyez ce panneau en conduisant sur une route à grande vitesse. De quoi vous avertit-il?",
+  "choices": [
+    "Un feu de circulation approche; préparez-vous à ralentir ou à vous arrêter",
+    "Un passage à niveau est juste devant",
+    "Un arrêt à quatre directions sans feux",
+    "La route se termine en cul-de-sac"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le panneau d’avertissement de feu de circulation à venir vous alerte d’une intersection avec feux afin que vous puissiez vous préparer à réduire votre vitesse ou à vous arrêter si le feu change.",
+  "image": "/signs/traffic-signal-ahead.jpg"
+},
+{
+  "id": "q-accessible-parking-168",
+  "question": "Vous voyez ce panneau dans un stationnement. Que signifie-t-il?",
+  "choices": [
+    "L’espace est réservé aux véhicules affichant un permis de stationnement accessible",
+    "Le stationnement est gratuit pour tout le monde",
+    "Le stationnement est réservé aux motocyclettes seulement",
+    "Vous pouvez vous stationner ici seulement la nuit"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole du fauteuil roulant indique un stationnement accessible. Seuls les véhicules munis d’un permis de stationnement accessible valide peuvent se stationner dans ces espaces.",
+  "image": "/signs/wheelchair-accessible.jpg"
+},
+{
+  "id": "q-parking-downhill-no-curb-169",
+  "question": "En stationnant en descente sur une route sans bordure, comment devez-vous positionner vos roues avant?",
+  "choices": [
+    "Tournez les roues vers l’accotement droit et serrez le frein de stationnement",
+    "Tournez les roues vers le centre de la route",
+    "Laissez les roues droites et au point mort",
+    "Tournez les roues vers la gauche et n’utilisez pas le frein de stationnement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Face à une descente sans bordure, tourner les roues vers l’accotement aide à empêcher le véhicule de rouler sur la chaussée.",
+  "image": "/signs/q-parking-downhill-no-curb-182.png"
+},
+{
+  "id": "q-parking-fire-hydrant-170",
+  "question": "Pourquoi est-il interdit de stationner trop près d’une borne-fontaine?",
+  "choices": [
+    "Les pompiers doivent pouvoir atteindre rapidement la borne-fontaine en cas d’urgence",
+    "Les bornes-fontaines sont réservées au stationnement des camions de pompiers seulement",
+    "Les bornes-fontaines marquent des entrées privées",
+    "Le stationnement y est autorisé seulement la nuit"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les règles de stationnement incluent des distances minimales des bornes-fontaines afin que les équipes d’urgence puissent raccorder les tuyaux sans délai.",
+  "image": "/signs/q-parking-fire-hydrant-183.jpg"
+},
+ {
+  "id": "q-parking-crosswalk-171",
+  "question": "Pourquoi ne devriez-vous jamais vous stationner dans un passage pour piétons ou très près de celui-ci?",
+  "choices": [
+    "Cela bloque la visibilité des piétons et des conducteurs au passage",
+    "Cela facilite la traversée pour les piétons",
+    "Ce n’est qu’une suggestion sans enjeu de sécurité",
+    "C’est permis si vos feux de détresse sont allumés"
+  ],
+  "correctIndex": 0,
+  "explanation": "Se stationner trop près des passages pour piétons peut cacher les piétons à la vue et rendre plus difficile pour les conducteurs de les voir à temps.",
+  "image": "/signs/q-parking-crosswalk-184.png"
+},
+{
+  "id": "q-railway-stall-172",
+  "question": "Si votre véhicule cale sur un passage à niveau et qu’un train approche, que devez-vous faire en premier?",
+  "choices": [
+    "Faites sortir tout le monde du véhicule et éloignez-vous des rails à un angle de 45° vers le train",
+    "Restez à l’intérieur et essayez de redémarrer jusqu’au dernier moment",
+    "Poussez le véhicule hors des rails seul",
+    "Tenez-vous directement devant le train pour lui signaler de s’arrêter"
+  ],
+  "correctIndex": 0,
+  "explanation": "Si un train arrive et que le véhicule ne peut pas être déplacé, tout le monde doit sortir immédiatement et s’éloigner à un angle pour éviter les débris projetés.",
+  "image": "/signs/q-railway-stall-185.png"
+},
+{
+  "id": "q-tire-blowout-173",
+  "question": "Si un pneu avant éclate pendant que vous conduisez, quelle est la réaction initiale la plus sécuritaire?",
+  "choices": [
+    "Tenez fermement le volant, relâchez l’accélérateur et maintenez une trajectoire droite",
+    "Freinez fort immédiatement et dirigez-vous vers l’accotement",
+    "Accélérez pour garder le véhicule stable",
+    "Tournez brusquement à l’opposé du côté du pneu éclaté"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un éclatement de pneu peut provoquer une déviation soudaine. Tenez fermement le volant, relâchez l’accélérateur et maintenez une trajectoire droite jusqu’à pouvoir ralentir en toute sécurité.",
+  "image": "/signs/q-tire-blowout-186.png"
+},
+{
+  "id": "q-skid-rear-174",
+  "question": "Sur une route glacée, vos roues arrière commencent à déraper sur le côté. Que devez-vous faire?",
+  "choices": [
+    "Dirigez doucement dans la direction où vous voulez que l’avant du véhicule aille et évitez de freiner brusquement",
+    "Freinez aussi fort que possible et maintenez la pédale enfoncée",
+    "Tournez rapidement dans la direction opposée au dérapage",
+    "Tournez complètement le volant d’un côté et accélérez"
+  ],
+  "correctIndex": 0,
+  "explanation": "Pour corriger un dérapage, dirigez dans la direction où vous voulez que le véhicule aille et évitez les freinages ou accélérations brusques.",
+  "image": "/signs/q-skid-rear-187.png"
+},
+{
+  "id": "q-fatigue-driving-175",
+  "question": "Vous commencez à vous sentir très somnolent en conduisant. Quelle est la décision la plus sécuritaire?",
+  "choices": [
+    "Trouvez un endroit sûr pour vous arrêter et vous reposer avant de continuer",
+    "Ouvrez la fenêtre et continuez à conduire à la même vitesse",
+    "Montez le volume de la radio et concentrez-vous pour rester éveillé",
+    "Buvez du café et continuez à conduire pendant plusieurs heures de plus"
+  ],
+  "correctIndex": 0,
+  "explanation": "La fatigue du conducteur est dangereuse. Le seul choix sûr est de s’arrêter et de se reposer avant de poursuivre le trajet.",
+  "image": "/signs/q-fatigue-driving-188.png"
+},
