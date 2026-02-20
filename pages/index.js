@@ -1,4 +1,3 @@
-```javascript
 // pages/index.js
 import { useEffect, useMemo, useState } from "react";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
