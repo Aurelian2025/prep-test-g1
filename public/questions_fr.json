@@ -3556,3 +3556,135 @@
   "explanation": "Les feux clignotants, les cloches ou les barrières abaissées à un passage à niveau exigent toujours un arrêt complet, même si vous ne voyez pas de train.",
   "image": "/signs/q-231-railway-crossing.jpg"
 },
+{
+  "id": "q-226",
+  "question": "Lorsqu’ils dépassent un cycliste, les conducteurs doivent laisser au moins :",
+  "choices": [
+    "1 mètre d’espace",
+    "20 centimètres",
+    "Aucune distance requise",
+    "Aussi près que possible pour éviter de dévier"
+  ],
+  "correctIndex": 0,
+  "explanation": "La loi ontarienne exige que les conducteurs laissent au moins un mètre d’espace lorsqu’ils dépassent un cycliste.",
+  "image": "/signs/q-232-car-passing-cyclist.jpg"
+},
+{
+  "id": "q-227",
+  "question": "Si vous manquez votre sortie sur une autoroute, vous devez :",
+  "choices": [
+    "Continuer jusqu’à la prochaine sortie",
+    "Reculer prudemment sur l’accotement",
+    "Vous arrêter et attendre une ouverture",
+    "Faire un demi-tour dans le terre-plein central"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ne vous arrêtez jamais et ne reculez jamais sur une autoroute. Continuez jusqu’à la prochaine sortie et revenez en toute sécurité.",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
+  "id": "q-speeding-50-over-penalty-228",
+  "category": "penalties-and-suspensions",
+  "question": "Un conducteur est reconnu coupable d’avoir circulé à 50 km/h ou plus au-dessus de la limite de vitesse affichée. Quelle pénalité peut être imposée par le tribunal ?",
+  "choices": [
+    "Suspension du permis pour 6 mois",
+    "Suspension du permis pour 30 jours",
+    "Mise en fourrière du véhicule pour 6 mois",
+    "Emprisonnement pour 6 mois"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conduire à 50 km/h ou plus au-dessus de la limite peut entraîner une suspension du permis imposée par le tribunal de 30 jours, ainsi que des amendes et des points d’inaptitude.",
+  "image": "/signs/q-speeding-50-over-penalty.png"
+},
+{
+  "id": "q-229",
+  "category": "demerit-points",
+  "question": "Les sanctions pour conduite avec facultés affaiblies pour les conducteurs G1 comprennent :",
+  "choices": [
+    "Suspension immédiate sur le bord de la route et sanctions progressives",
+    "Aucune suspension sauf si la limite criminelle est dépassée",
+    "Seulement une petite amende",
+    "Points d’inaptitude seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs G1 doivent maintenir un taux d’alcoolémie zéro et font face à une suspension immédiate et à des sanctions sévères en cas d’infraction.",
+  "image": "/signs/q-impaired-zero-g1-191.png"
+},
+{
+  "id": "q-230",
+  "question": "Si un feu de circulation est complètement éteint en raison d’une panne de courant, traitez l’intersection comme :",
+  "choices": [
+    "Un arrêt à quatre sens",
+    "Un feu vert normal",
+    "Un passage pour piétons seulement",
+    "Un panneau Cédez le passage dans toutes les directions"
+  ],
+  "correctIndex": 0,
+  "explanation": "Lorsque les feux de circulation ne fonctionnent pas, les conducteurs doivent traiter l’intersection comme un arrêt à quatre sens.",
+  "image": "/signs/q-230-traffice-light-off.png"
+},
+  {
+  "id": "q-231",
+  "question": "La distance minimale recommandée à maintenir dans des conditions idéales est :",
+  "choices": [
+    "Au moins 2 secondes",
+    "Une demi-seconde",
+    "1 seconde",
+    "4 secondes en tout temps"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un écart de 2 secondes permet un temps d’arrêt sécuritaire. Augmentez votre distance de suivi dans de mauvaises conditions.",
+  "image": "/signs/q-231-following-distance.png"
+},
+{
+  "id": "q-232",
+  "question": "Pourquoi les ponts gèlent-ils avant le reste de la route ?",
+  "choices": [
+    "Ils sont exposés à l’air froid au-dessus et en dessous",
+    "Ils utilisent un revêtement plus souple",
+    "Ils supportent plus de circulation",
+    "Ils reçoivent plus de soleil"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’air froid circule autour des ponts au-dessus et en dessous, ce qui les fait geler plus rapidement que les autres surfaces routières.",
+  "image": "/signs/q-23-bridge-freezes.png"
+},
+{
+  "id": "q-233",
+  "question": "En Ontario, quand un virage à gauche à un feu rouge est-il permis ?",
+  "choices": [
+    "Seulement d’une rue à sens unique vers une autre rue à sens unique",
+    "Chaque fois que la circulation est libre",
+    "Jamais permis",
+    "Seulement en tournant dans une entrée privée"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un virage à gauche au feu rouge est permis seulement lorsque vous tournez d’une rue à sens unique vers une autre rue à sens unique, après un arrêt complet.",
+  "image": "/signs/q-233-right-turn-on-red.png"
+},
+{
+  "id": "q-234",
+  "question": "En l’absence de panneaux, quelle est généralement la limite de vitesse maximale sur les routes municipales dans les villes, villages et agglomérations en Ontario ?",
+  "choices": [
+    "50 km/h",
+    "40 km/h",
+    "60 km/h",
+    "70 km/h"
+  ],
+  "correctIndex": 0,
+  "explanation": "Sauf indication contraire, la limite de vitesse par défaut sur de nombreuses routes municipales en zone bâtie est de 50 km/h.",
+  "image": "/signs/q-234-50-in-city.png"
+},
+{
+  "id": "q-235",
+  "question": "Vous faites face à un feu jaune fixe et vous êtes assez loin pour vous arrêter en toute sécurité. Que devez-vous faire ?",
+  "choices": [
+    "Vous arrêter avant l’intersection",
+    "Accélérer pour franchir l’intersection avant le rouge",
+    "Continuer à la même vitesse",
+    "Entrer dans l’intersection et attendre le vert"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un feu jaune fixe signifie que le signal va bientôt devenir rouge. Si vous pouvez vous arrêter en toute sécurité, vous devez vous arrêter avant d’entrer dans l’intersection.",
+  "image": "/signs/q-235-steady-yellow.png"
+},
