@@ -2021,3 +2021,137 @@
     "explanation": "禁止停放标志允许短暂停车以装卸乘客或货物。禁止停车标志则不允许您在任何情况下停车，除非为遵守交通管制。",
       "image": "/signs/no-parking.jpg"
   },
+{
+  "id": "q-follow-closely-111",
+  "question": "跟车过近会被扣多少分？",
+  "choices": [
+    "2 分扣分",
+    "3 分扣分",
+    "4 分扣分",
+    "6 分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "跟车过近会被扣 4 分。",
+  "image": "/signs/q-tailgater-189.png"
+},
+  {
+    "id": "q-rules-hill-downgrade-112",
+    "question": "在长下坡前看到这个陡坡标志。最安全的挡位和制动策略是什么？",
+    "choices": [
+      "在下坡前选择低挡，并在需要时轻踩刹车",
+      "挂入空挡滑行以节省燃油",
+      "下坡时只使用驻车制动器",
+      "加速尽快通过下坡"
+    ],
+    "correctIndex": 0,
+    "explanation": "在长下坡时，使用低挡有助于控制车速并防止刹车过热。",
+      "image": "/signs/steep-hill-downgrade.jpg"
+  },
+  {
+    "id": "q-rules-slippery-curve-113",
+    "question": "开始下雨，您在弯道看到“雨天路滑”标志。您应如何驾驶？",
+    "choices": [
+      "在进入弯道前减速，避免突然转向或制动",
+      "在弯道中间猛踩刹车以测试抓地力",
+      "关闭车灯",
+      "使用定速巡航保持恒定速度"
+    ],
+    "correctIndex": 0,
+    "explanation": "在湿滑弯道上，应在进入前降低车速，并避免可能导致打滑的突然动作。",
+      "image": "/signs/slippery-when-wet.jpg"
+  },
+  {
+    "id": "q-rules-winding-road-visibility-114",
+    "question": "前方有蜿蜒道路标志且有浓雾。最安全的做法是什么？",
+    "choices": [
+      "减速，增加跟车距离并使用近光灯",
+      "加速以更快离开该区域",
+      "使用远光灯让雾看起来更亮",
+      "紧跟前车以利用其灯光"
+    ],
+    "correctIndex": 0,
+    "explanation": "在有雾的弯曲道路上，应减速、保持更大间距并使用近光灯，以避免光线反射。",
+      "image": "/signs/winding-road.jpg"
+  },
+  {
+    "id": "q-fatigue-115",
+    "question": "夜间驾驶时感到困倦。您应该怎么做？",
+    "choices": [
+      "打开车窗并调大音乐音量",
+      "安全靠边停车并休息",
+      "加快车速尽快结束行程",
+      "喝咖啡并继续驾驶"
+    ],
+    "correctIndex": 1,
+    "explanation": "如果感到困倦，应在安全地点停车并休息。疲劳驾驶很危险。",
+      "image": "/signs/q-29-driver-tired.png"
+  },
+
+  {
+    "id": "q-approaching-pedestrian-116",
+    "question": "您看到一名行人站在无信号控制的人行横道边。您应该怎么做？",
+    "choices": [
+      "加速在其走出前通过",
+      "准备让行并让行人安全通过",
+      "因为没有交通灯而忽略他们",
+      "按喇叭阻止他们过马路"
+    ],
+    "correctIndex": 1,
+    "explanation": "在行人横道处应准备让行，并让行人安全通过。",
+      "image": "/signs/q-approaching-pedestrian-75.png"
+  },
+
+  {
+    "id": "q-rules-wheelchair-accessible-117",
+    "question": "您在停车位看到轮椅标志。如果您没有无障碍停车许可，作为驾驶员必须怎么做？",
+    "choices": [
+      "不得停在标示的无障碍车位",
+      "可以为短时间办事停车",
+      "只能在夜间停车",
+      "如果打开危险警示灯可以停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "无障碍停车位仅供展示有效无障碍停车许可的车辆使用。",
+      "image": "/signs/wheelchair-accessible.jpg"
+  },
+  {
+    "id": "q-driver-distraction-118",
+    "question": "以下哪一项是驾驶时危险分心的例子？",
+    "choices": [
+      "经常查看后视镜",
+      "观察前方道路",
+      "发短信或使用手持电话",
+      "在驾驶前调整座椅"
+    ],
+    "correctIndex": 2,
+    "explanation": "驾驶时使用手持电话或发短信是危险的分心行为，在安大略省属于违法行为。",
+      "image": "/signs/q-driver-distraction-74.png"
+  },
+
+   {
+    "id": "q-hydroplaning-prevent-119",
+    "question": "哪种做法有助于降低打滑（水漂）的风险？",
+    "choices": [
+      "雨天加快车速",
+      "使用磨损的轮胎",
+      "在湿滑道路上减速并确保轮胎状况良好",
+      "挂空挡滑行"
+    ],
+    "correctIndex": 2,
+    "explanation": "在湿滑条件下降低车速并确保轮胎有良好的胎纹有助于防止水漂。",
+      "image": "/signs/q-hydroplaning-prevent-73.png"
+  },
+
+  {
+  "id": "q-demerit-interview-120",
+  "question": "根据安大略省的扣分制度，当累计达到多少分时，驾驶员可能被要求参加面谈并重新接受驾驶技能测试？",
+  "choices": [
+    "累计达到 9 分时",
+    "累计达到 3 分时",
+    "累计达到 6 分时",
+    "累计达到 15 分时"
+  ],
+  "correctIndex": 0,
+  "explanation": "当持有正式驾照的驾驶员达到 9 分时，交通部门可能要求其参加面谈，并可能安排重新测试以评估其驾驶能力。",
+  "image": "/signs/q-demerit-interview.png"
+},
