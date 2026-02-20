@@ -3753,3 +3753,133 @@
   "explanation": "Un círculo rojo con una línea diagonal indica un movimiento prohibido — en este caso, no girar a la derecha en luz roja.",
   "image": "/signs/q-no-right-turn-on-red.png"
 },
+{
+  "id": "q-246",
+  "question": "Una señal rectangular blanca con números negros como '80' y la palabra 'MAXIMUM' significa:",
+  "choices": [
+    "La velocidad máxima legal en condiciones ideales es 80 km/h",
+    "Debe conducir exactamente a 80 km/h",
+    "La velocidad mínima es 80 km/h",
+    "Puede exceder 80 km/h para adelantar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales reglamentarias de velocidad muestran la velocidad máxima legal en condiciones ideales.",
+  "image": "/signs/q-246-max-80.png"
+},
+{
+  "id": "q-247",
+  "question": "Una señal que muestra el fin del límite de velocidad de una zona escolar significa:",
+  "choices": [
+    "Puede reanudar la velocidad normal indicada cuando sea seguro",
+    "Debe continuar a la velocidad escolar en todo momento",
+    "No hay peatones más allá de este punto",
+    "Los autobuses escolares ya no se detienen"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales de fin de zona indican dónde ya no se aplican los límites especiales más bajos.",
+  "image": "/signs/q-247-end-of-school-zone.png"
+},
+{
+  "id": "q-248",
+  "question": "Una señal que muestra el fin del carril derecho y una flecha que se curva hacia el carril izquierdo significa:",
+  "choices": [
+    "El tráfico del carril derecho debe incorporarse a la izquierda",
+    "El tráfico del carril izquierdo debe detenerse",
+    "Tráfico en ambos sentidos más adelante",
+    "Se permite adelantar por el arcén"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales de carril que termina advierten a los conductores que cambien de carril de forma segura.",
+  "image": "/signs/q-248-right-lane-ends.png"
+},
+{
+  "id": "q-narrow-bridge-249",
+  "question": "¿De qué condición advierte esta señal?",
+  "choices": [
+    "Un puente estrecho más adelante",
+    "Un puente bajo",
+    "Un puente cerrado",
+    "Un puente en construcción"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores pueden necesitar ceder el paso debido al ancho reducido.",
+  "image": "/signs/narrow-bridge.jpg"
+},
+{
+  "id": "q-right-left-curve-ahead-250",
+  "question": "¿Qué indica esta señal de advertencia?",
+  "choices": [
+    "La carretera más adelante se curva primero a la derecha y luego a la izquierda",
+    "Hay un solo giro pronunciado a la derecha más adelante",
+    "La carretera se convierte en una calle de un solo sentido",
+    "Debe girar a la derecha en la próxima intersección"
+  ],
+  "correctIndex": 0,
+  "explanation": "La flecha que muestra dos curvas advierte a los conductores que la vía se curvará en dos direcciones y que se debe reducir la velocidad.",
+  "image": "/signs/q-right-left-curve-ahead.png"
+},
+  {
+  "id": "q-no-bicycles-251",
+  "question": "¿Qué prohíbe esta señal?",
+  "choices": [
+    "Bicicletas",
+    "Peatones",
+    "Motocicletas",
+    "Motonieves"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las bicicletas no están permitidas en esta zona.",
+  "image": "/signs/no-bicycles.jpg"
+},
+{
+  "id": "q-no-parking-252",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "No se permite estacionar",
+    "No se permite detenerse",
+    "Estacionamiento permitido brevemente",
+    "Solo carga"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los vehículos pueden detenerse brevemente pero no deben estacionar.",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-no-passing-253",
+  "question": "¿Qué acción de conducción está prohibida?",
+  "choices": [
+    "Adelantar a otros vehículos",
+    "Cambiar de carril",
+    "Girar",
+    "Detenerse"
+  ],
+  "correctIndex": 0,
+  "explanation": "No se permite adelantar en esta zona.",
+  "image": "/signs/no-passing.jpg"
+},
+{
+  "id": "q-no-pedestrians-254",
+  "question": "¿Quién no está permitido aquí?",
+  "choices": [
+    "Peatones",
+    "Ciclistas",
+    "Motocicletas",
+    "Autos"
+  ],
+  "correctIndex": 0,
+  "explanation": "El acceso de peatones está prohibido por razones de seguridad.",
+  "image": "/signs/no-pedestrians.jpg"
+},
+{
+  "id": "q-no-u-turn-255",
+  "question": "¿Qué maniobra está prohibida?",
+  "choices": [
+    "Hacer un giro en U",
+    "Girar a la izquierda",
+    "Girar a la derecha",
+    "Seguir recto"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores no deben invertir la dirección.",
+  "image": "/signs/no-u-turn.jpg"
+},
