@@ -3619,3 +3619,137 @@
   "explanation": "Una luz ámbar fija significa que la señal está a punto de cambiar a rojo. Si puede detenerse de manera segura, debe hacerlo antes de entrar en la intersección.",
   "image": "/signs/q-235-steady-yellow.png"
 },
+{
+  "id": "q-speed-30to49-236",
+  "category": "demerit-points",
+  "question": "¿Cuántos puntos de demérito se aplican por exceder el límite de velocidad en 30–49 km/h?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Exceder el límite de velocidad en 30–49 km/h es una infracción de 4 puntos en Ontario.",
+  "image": "/signs/q-speed-30to49-236.png"
+},
+{
+  "id": "q-237",
+  "question": "Una señal con una 'P' roja y una línea roja atravesándola significa:",
+  "choices": [
+    "No se permite estacionar en esta área",
+    "Se permite estacionar solo por poco tiempo",
+    "El estacionamiento es solo para vehículos con permiso",
+    "No se permite detenerse en ningún momento"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una señal de 'No estacionar' significa que no puede estacionar ni dejar su vehículo sin supervisión.",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-fail-signal-238",
+  "category": "demerit-points",
+  "question": "¿Cuántos puntos de demérito se asignan por no señalizar?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "No señalizar resulta en 2 puntos de demérito en Ontario.",
+  "image": "/signs/q-fail-signal-238.png"
+},
+{
+  "id": "q-demerit-improper-passing-239",
+  "category": "demerit-points",
+  "question": "Un conductor es declarado culpable de adelantar de forma indebida en un lugar inseguro. ¿Cuántos puntos de demérito conlleva esta infracción?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adelantar de forma indebida es una infracción de 3 puntos en Ontario.",
+  "image": "/signs/q-demerit-improper-passing-132.png"
+},
+{
+  "id": "q-demerit-obey-officer-240",
+  "category": "demerit-points",
+  "question": "Un oficial de policía le da instrucciones, pero usted ignora la señal y es declarado culpable de no obedecer a un oficial. ¿Cuántos puntos de demérito conlleva esta infracción?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 1,
+  "explanation": "No obedecer las instrucciones de un oficial de policía conlleva 3 puntos de demérito en Ontario.",
+  "image": "/signs/q-demerit-obey-officer-133.png"
+},
+ {
+  "id": "q-snowmobiles-permitted-241",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Se permiten motos de nieve en este sendero o carretera",
+    "Las motos de nieve están prohibidas en todo momento",
+    "Solo los vehículos con licencia pueden continuar",
+    "Las motos de nieve deben transportarse en un remolque"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un círculo verde indica un uso permitido; el símbolo de moto de nieve muestra que se permite el tránsito de motos de nieve.",
+  "image": "/signs/q-snowmobiles-permitted.png"
+},
+{
+  "id": "q-242",
+  "question": "Una línea central amarilla discontinua significa:",
+  "choices": [
+    "Se permite adelantar cuando sea seguro",
+    "No se permite adelantar",
+    "El carril termina más adelante",
+    "El tráfico se incorpora a la izquierda"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las líneas amarillas discontinuas indican que se permite adelantar con precaución.",
+  "image": "/signs/q-224-broken-line.jpg"
+},
+{
+  "id": "q-243",
+  "question": "Una señal que muestra el pavimento más alto que la grava a su lado advierte de:",
+  "choices": [
+    "Un arcén bajo o blando",
+    "Una carretera dividida",
+    "Un puente estrecho",
+    "Una intersección oculta"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un arcén bajo puede causar pérdida de control si el vehículo se sale del pavimento.",
+  "image": "/signs/q-243pavement-higher-gravel.png"
+},
+{
+  "id": "q-244",
+  "question": "Una señal naranja en forma de rombo generalmente indica:",
+  "choices": [
+    "Obras viales o construcción más adelante",
+    "Zona escolar",
+    "Límite de velocidad reglamentario",
+    "Zona hospitalaria"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las señales naranjas advierten sobre zonas temporales de construcción o mantenimiento.",
+  "image": "/signs/q-244-orange-diamond.png"
+},
+{
+  "id": "q-no-right-turn-on-red-245",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "Se prohíbe girar a la derecha en luz roja",
+    "Se permite girar a la derecha solo en luz roja",
+    "El carril derecho termina",
+    "Se permiten giros en U"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un círculo rojo con una línea diagonal indica un movimiento prohibido — en este caso, no girar a la derecha en luz roja.",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
