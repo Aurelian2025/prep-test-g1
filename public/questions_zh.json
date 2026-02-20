@@ -2577,3 +2577,133 @@
   "explanation": "在高速公路匝道上，应加速以匹配车流速度，打转向灯，并在有安全空隙时平稳并入。",
   "image": "/signs/q-expressway-merge-168.png"
 },
+{
+  "id": "q-expressway-exit-146",
+  "question": "驶离高速公路时，应该在什么时候开始减速？",
+  "choices": [
+    "进入减速车道或出口匝道之后",
+    "一看到出口标志就在主车道上减速",
+    "只有到达下一个城市街道时才减速",
+    "永远不要减速；通过出口时保持高速公路速度"
+  ],
+  "correctIndex": 0,
+  "explanation": "在进入减速车道或匝道之前保持高速公路速度，然后安全地减速至出口所标示的速度。",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
+  "id": "q-emergency-vehicles-147",
+  "question": "在双向道路上，您听到并看到一辆紧急车辆闪着灯并鸣笛从后方接近。您必须怎么做？",
+  "choices": [
+    "尽可能靠右并停车，直到其通过",
+    "加速以保持在紧急车辆前方",
+    "在道路中央停车",
+    "向左转并阻挡对向交通"
+  ],
+  "correctIndex": 0,
+  "explanation": "当有紧急车辆闪灯并鸣笛接近时，应向右靠边并停车，直到其通过。",
+  "image": "/signs/q-emergency-vehicles-170.jpg"
+},
+{
+  "id": "q-move-over-law-148",
+  "question": "在多车道高速公路上，您看到一辆紧急车辆闪着灯停在您车道的路肩上。如果交通允许，您应该怎么做？",
+  "choices": [
+    "变换到远离紧急车辆的另一条车道并减速",
+    "在同一车道保持速度",
+    "按喇叭并照常驶过",
+    "在紧急车辆旁边停车观看"
+  ],
+  "correctIndex": 0,
+  "explanation": "您必须减速，并在可能的情况下变换到远离停在路边并闪灯的紧急或拖车车辆的车道。",
+  "image": "/signs/q-move-over-law-148.png"
+},
+{
+  "id": "q-sharing-cyclists-1m-149",
+  "question": "在双车道道路上超越自行车骑行者时，应该如何安全进行？",
+  "choices": [
+    "减速，并在超越时在您的车辆与骑行者之间至少保持一米距离",
+    "紧贴通过以防止其他车辆超车",
+    "大声鸣喇叭并全速通过",
+    "在路肩上行驶以便不变道超车"
+  ],
+  "correctIndex": 0,
+  "explanation": "在条件允许的情况下，驾驶员在超越骑行者时必须至少保持一米的距离，可能时应保持更大距离。",
+  "image": "/signs/q-sharing-cyclists-1m-149.png"
+},
+{
+  "id": "q-dooring-cyclist-150",
+  "question": "您将车停在自行车道旁，想打开驾驶员车门。避免撞到骑行者的最安全方法是什么？",
+  "choices": [
+    "检查后视镜，进行肩部回头检查是否有骑行者，然后用远侧手打开车门",
+    "快速打开车门而不查看，以便车门打开时间更短",
+    "依靠骑行者在车门打开时停车",
+    "在查看交通时保持车门打开"
+  ],
+  "correctIndex": 0,
+  "explanation": "检查后视镜和盲点，并用远侧手打开车门，这样您会自然转身查看是否有骑行者。",
+  "image": "/signs/q-dooring-cyclist-173.png"
+},
+ {
+  "id": "q-motorcycles-visibility-151",
+  "question": "为什么在判断迎面而来的摩托车的速度和距离时必须格外小心？",
+  "choices": [
+    "它们体积较小，看起来可能比实际更远且更慢",
+    "它们总是低于限速行驶",
+    "它们必须在每个路口停车",
+    "它们白天不使用车灯"
+  ],
+  "correctIndex": 0,
+  "explanation": "由于摩托车体积较小，驾驶员常常误判其距离和速度。这在左转或从摩托车前方通过时尤其重要。",
+  "image": "/signs/q-motorcycles-visibility-151.png"
+},
+{
+  "id": "q-large-trucks-space-152",
+  "question": "在大型卡车附近行驶时，为什么应避免长时间在其旁边行驶？",
+  "choices": [
+    "卡车有很大的盲区并且需要额外空间来操控",
+    "卡车总是超速",
+    "卡车必须在道路中央行驶",
+    "您有优先通行权，因此位置无关紧要"
+  ],
+  "correctIndex": 0,
+  "explanation": "大型车辆在侧面有很大的盲区，并且需要更多空间转弯和变道。避免长时间并排行驶，并在可以时安全超越。",
+  "image": "/signs/q-large-trucks-space-175.png"
+},
+{
+  "id": "q-trucks-wide-turns-153",
+  "question": "一辆大型卡车打右转信号，并在转弯前稍微向左移动。您应该怎么做？",
+  "choices": [
+    "不要进入右侧空间；卡车需要空间转弯",
+    "在转弯时从右侧驶上前超车",
+    "按喇叭并迫使卡车保持在其车道内",
+    "驶入卡车旁的自行车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "大型车辆在右转时常需要更大的转弯空间。切勿在其转弯一侧靠近行驶；应在其完成转弯前保持在后方。",
+  "image": "/signs/q-trucks-wide-turns-176.png"
+},
+{
+  "id": "q-winter-driving-distance-154",
+  "question": "在积雪且抓地力降低的道路上，您应如何调整跟车距离？",
+  "choices": [
+    "大幅增加，远超正常的两秒规则",
+    "保持与干燥道路相同的距离",
+    "减少距离以防其他驾驶员插入",
+    "尽量紧跟以利用前车的轮胎痕迹"
+  ],
+  "correctIndex": 0,
+  "explanation": "在雪地或冰面上，您需要更长的制动距离。在恶劣条件下应显著增加跟车距离。",
+  "image": "/signs/q-winter-driving-distance-177.png"
+},
+{
+  "id": "q-demerit-rail-crossing-bus-driver-155",
+  "question": "在无防护铁路道口未停车（仅限公交车司机）会被记多少扣分？",
+  "choices": [
+    "3分扣分",
+    "4分扣分",
+    "5分扣分",
+    "6分扣分"
+  ],
+  "correctIndex": 2,
+  "explanation": "对于公交车司机，在无防护铁路道口未停车会被记5分扣分。",
+  "image": "/signs/q-railway-stop-47.png"
+},
