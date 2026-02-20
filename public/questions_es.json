@@ -4146,3 +4146,72 @@
   "explanation": "Los giros a la izquierda no deben interferir con el tráfico que viene de frente. Elija un espacio seguro y suficiente.",
   "image": "/signs/q-275-turning-left.png"
 },
+{
+  "id": "q-276",
+  "category": "demerit-points",
+  "question": "Pasarse un semáforo en rojo en Ontario puede resultar en:",
+  "choices": [
+    "Multas y puntos de demérito en su historial de conducción",
+    "Ninguna penalidad si nadie es golpeado",
+    "Solo una carta de advertencia",
+    "La confiscación de su vehículo cada vez"
+  ],
+  "correctIndex": 0,
+  "explanation": "Desobedecer las señales de tráfico es una infracción grave que conlleva multas y puntos de demérito.",
+  "image": "/signs/q-276-running-on-red.png"
+},
+{
+  "id": "q-277",
+  "question": "Al estacionar en paralelo cuesta arriba con un bordillo, ¿cómo debe girar las ruedas delanteras?",
+  "choices": [
+    "Alejadas del bordillo",
+    "Hacia el bordillo",
+    "Rectas",
+    "No importa"
+  ],
+  "correctIndex": 0,
+  "explanation": "Girar las ruedas alejadas del bordillo ayuda a evitar que el vehículo ruede hacia el tráfico.",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-278",
+  "question": "Al estacionar cuesta abajo con un bordillo, ¿cómo debe girar las ruedas delanteras?",
+  "choices": [
+    "Hacia el bordillo",
+    "Alejadas del bordillo",
+    "Rectas",
+    "Cualquier dirección está bien"
+  ],
+  "correctIndex": 0,
+  "explanation": "Girar las ruedas hacia el bordillo ayuda a que el bordillo detenga el vehículo si rueda.",
+  "image": "/signs/q-curb-downhill-45.png"
+},
+{
+  "id": "q-demerit-racing-279",
+  "category": "demerit-points",
+  "question": "Un conductor es condenado por conducción temeraria o carreras callejeras a velocidad extremadamente alta. ¿Cuántos puntos de demérito conlleva en Ontario?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito",
+    "7 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "La conducción temeraria o las carreras callejeras conllevan 6 puntos de demérito, además de sanciones severas.",
+  "image": "/signs/q-demerit-racing-279.png"
+},
+{
+  "id": "q-demerit-new-fully-licensed-280",
+  "category": "demerit-points",
+  "question": "Para un conductor con licencia completa en Ontario, ¿con cuántos puntos de demérito se puede suspender su licencia?",
+  "choices": [
+    "9 puntos de demérito",
+    "12 puntos de demérito",
+    "14 puntos de demérito",
+    "15 o más puntos de demérito"
+  ],
+  "correctIndex": 3,
+  "explanation": "Para conductores con licencia completa, 15 o más puntos de demérito pueden resultar en la suspensión de la licencia.",
+  "image": "/signs/q-demerit-new-fully-licensed-135.png"
+}
+]
