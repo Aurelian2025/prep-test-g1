@@ -3426,3 +3426,133 @@
   "explanation": "L’autoroute divisée prend fin et la circulation en sens inverse partagera la chaussée.",
   "image": "/signs/divided-highway-ends.jpg"
 },
+{
+  "id": "q-do-not-enter-216",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Les véhicules ne doivent pas entrer",
+    "Arrêt complet",
+    "Cédez le passage",
+    "Stationnement interdit"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ce panneau indique que les conducteurs n’ont pas le droit d’entrer sur cette route ou dans cette voie.",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-hand-signal-right-217",
+  "question": "Que montre ce signal de la main ?",
+  "choices": [
+    "Le conducteur a l’intention de tourner à droite",
+    "Le conducteur ralentit",
+    "Le conducteur s’arrête",
+    "Le conducteur tourne à gauche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un bras gauche levé et plié vers le haut indique que le conducteur a l’intention de tourner à droite.",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-accessible-parking-218",
+  "question": "Qui peut se stationner ici ?",
+  "choices": [
+    "Les véhicules avec un permis de stationnement accessible valide",
+    "Tout véhicule après les heures",
+    "Les véhicules de livraison",
+    "Les motocyclettes"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les places de stationnement accessibles sont réservées aux véhicules affichant un permis de stationnement accessible valide.",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-hidden-intersection-219",
+  "question": "De quoi ce panneau avertit-il les conducteurs ?",
+  "choices": [
+    "Une intersection cachée plus loin",
+    "Feux de circulation plus loin",
+    "Passage pour piétons",
+    "Route fermée"
+  ],
+  "correctIndex": 0,
+  "explanation": "La circulation transversale peut ne pas être visible avant que les conducteurs soient proches de l’intersection.",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-max-speed-40-220",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "La vitesse maximale est de 40 km/h",
+    "La vitesse minimale est de 40 km/h",
+    "Vitesse recommandée",
+    "Fin de la zone de vitesse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs ne doivent pas dépasser la limite de vitesse maximale indiquée.",
+  "image": "/signs/max-speed-40.png"
+},
+  {
+  "id": "q-221",
+  "question": "Si un pneu avant éclate pendant que vous conduisez, que devez-vous faire en premier ?",
+  "choices": [
+    "Tenir fermement le volant et garder la trajectoire droite",
+    "Freiner brusquement immédiatement",
+    "Tourner rapidement vers l’accotement",
+    "Accélérer fortement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un éclatement peut tirer le véhicule d’un côté. Tenez fermement le volant, gardez le véhicule droit et ralentissez progressivement.",
+  "image": "/signs/q-227-front-tire.jpg"
+},
+{
+  "id": "q-222",
+  "question": "Vous voyez un panneau indiquant une zone d’embarquement d’autobus. Que signifie-t-il ?",
+  "choices": [
+    "Seuls les autobus peuvent s’arrêter ici",
+    "Tout le monde peut se stationner brièvement",
+    "Vous pouvez embarquer des passagers pendant 5 minutes",
+    "Vous pouvez vous arrêter si vos feux de détresse sont allumés"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les zones d’embarquement d’autobus sont réservées aux autobus seulement et les autres véhicules ne doivent pas s’y arrêter.",
+  "image": "/signs/q-228-bus-loading.png"
+},
+{
+  "id": "q-223",
+  "question": "Se stationner dans une place accessible désignée sans permis peut entraîner :",
+  "choices": [
+    "Des amendes importantes et le remorquage",
+    "Seulement un petit avertissement",
+    "Aucune pénalité si vous restez dans la voiture",
+    "Seulement des points d’inaptitude"
+  ],
+  "correctIndex": 0,
+  "explanation": "Se stationner dans une place accessible sans permis valide peut entraîner de fortes amendes et un remorquage possible.",
+  "image": "/signs/q-229-handicap-spot.jpg"
+},
+{
+  "id": "q-224",
+  "question": "Une voie centrale marquée par des flèches de virage à gauche dans les deux sens est utilisée pour :",
+  "choices": [
+    "Les virages à gauche dans les deux sens",
+    "Dépasser les véhicules plus lents",
+    "Se stationner temporairement",
+    "Les demi-tours seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cette voie centrale partagée sert uniquement à se préparer et à effectuer des virages à gauche, pas à dépasser ni à circuler.",
+  "image": "/signs/q-224-centre-lane-arrows.png"
+},
+{
+  "id": "q-225",
+  "question": "Quand devez-vous vous arrêter à un passage à niveau, même si aucun train n’est visible ?",
+  "choices": [
+    "Lorsque les feux clignotants ou les barrières sont activés",
+    "Seulement la nuit",
+    "Seulement si un sifflet de train est entendu",
+    "Jamais requis sauf si un train est présent"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les feux clignotants, les cloches ou les barrières abaissées à un passage à niveau exigent toujours un arrêt complet, même si vous ne voyez pas de train.",
+  "image": "/signs/q-231-railway-crossing.jpg"
+},
