@@ -3093,3 +3093,137 @@
   "explanation": "No debe estacionarse a menos de tres metros de un hidrante. Esto permite que los bomberos conecten las mangueras rápidamente en una emergencia.",
   "image": "/signs/q-208-fire-hydrant-park.jpg"
 },
+{
+  "id": "q-intersection-parking-distance-196",
+  "question": "En una carretera sin semáforos, ¿qué tan cerca se le permite estacionar de una intersección o cruce peatonal?",
+  "choices": [
+    "Puede estacionar justo en la esquina si señala",
+    "Al menos a tres metros de la intersección",
+    "Al menos a nueve metros de la intersección",
+    "Al menos a 15 metros de la intersección"
+  ],
+  "correctIndex": 2,
+  "explanation": "No debe estacionar a menos de nueve metros de una intersección en carreteras sin semáforos para mantener la visibilidad despejada.",
+  "image": "/signs/q-209-car-parked-near-intersection.jpg"
+},
+{
+  "id": "q-suspension-197",
+  "category": "demerits-info",
+  "question": "¿Con cuántos puntos de demérito se suspende por 60 días la licencia de un conductor principiante?",
+  "choices": [
+    "9 puntos de demérito",
+    "12 puntos de demérito",
+    "15 puntos de demérito",
+    "20 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "La licencia de un conductor principiante se suspende con 15 puntos de demérito.",
+  "image": "/signs/q-suspension-197.png"
+},
+{
+  "id": "q-hov-lane-198",
+  "question": "En una autopista de la serie 400 ve símbolos de diamante y señales de carril HOV (vehículos compartidos). ¿Cuándo se le permite usar este carril?",
+  "choices": [
+    "Solo cuando su vehículo tenga al menos dos personas (o sea un vehículo permitido como un autobús, motocicleta o vehículo con placa verde)",
+    "Siempre que el tráfico en los carriles normales esté lento y quiera adelantar",
+    "Solo si conduce al límite de velocidad o por encima",
+    "En cualquier momento después de las 7 p.m. y los fines de semana, sin importar los pasajeros"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los carriles HOV están reservados para vehículos que transportan al menos dos personas o vehículos especialmente permitidos. No son carriles de adelantamiento para autos con un solo ocupante.",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-demerit-seatbelts-199",
+  "category": "demerit-points",
+  "question": "Un conductor es declarado culpable de no usar cinturón de seguridad y permitir que un niño viaje sin cinturón. ¿Cuántos puntos de demérito pueden añadirse al registro del conductor por infracciones relacionadas con el cinturón?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las infracciones relacionadas con el cinturón de seguridad conllevan 2 puntos de demérito para el conductor.",
+  "image": "/signs/q-demerit-seatbelts-130.png"
+},
+{
+  "id": "q-demerit-fail-yield-sign-200",
+  "category": "demerit-points",
+  "question": "Se abre paso en el tráfico en esta señal de CEDA EL PASO y es declarado culpable de no ceder el derecho de paso. ¿Cuántos puntos de demérito se agregan?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 1,
+  "explanation": "No ceder el derecho de paso es una infracción de 3 puntos en Ontario.",
+  "image": "/signs/yield-sign.jpg"
+},
+  {
+  "id": "q-red-light-camera-201",
+  "question": "¿Sobre qué alerta esta señal a los conductores?",
+  "choices": [
+    "El semáforo está fuera de servicio",
+    "Una cámara de luz roja está vigilando la intersección",
+    "Solo los vehículos de emergencia pueden pasar en rojo",
+    "La próxima luz es activada por peatones"
+  ],
+  "correctIndex": 1,
+  "explanation": "El símbolo de la cámara debajo del semáforo indica que un dispositivo de foto-vigilancia registra a los vehículos que se pasan la luz roja.",
+  "image": "/signs/q-red-light-camera.png"
+},
+{
+  "id": "q-yield-sign-202",
+  "question": "Cuando se acerca a esta señal de CEDA EL PASO y hay tráfico en la carretera principal, ¿qué debe hacer?",
+  "choices": [
+    "Reducir la velocidad y detenerse si es necesario para dejar pasar al tráfico",
+    "Pasar a velocidad normal",
+    "Detenerse incluso si el camino está despejado",
+    "Forzar su entrada al tráfico porque tiene prioridad"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una señal de ceda el paso significa que debe ceder el derecho de paso al tráfico de la carretera principal. Reduzca la velocidad, esté preparado para detenerse y avance solo cuando haya un espacio seguro.",
+  "image": "/signs/yield-sign.jpg"
+},
+{
+  "id": "q-do-not-enter-203",
+  "question": "Ve esta señal de NO ENTRAR al inicio de un carril. ¿Qué le indica?",
+  "choices": [
+    "No debe entrar; el carril es para el tráfico que viene hacia usted",
+    "Puede entrar solo para girar a la izquierda",
+    "El carril está reservado solo para autobuses",
+    "Puede entrar si enciende las luces de emergencia"
+  ],
+  "correctIndex": 0,
+  "explanation": "Una señal de NO ENTRAR significa que el carril o la vía es para el tráfico en sentido contrario. No debe conducir por ella en su dirección.",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-bump-warning-204",
+  "category": "signs-warning",
+  "question": "¿Qué deben esperar los conductores más adelante?",
+  "choices": [
+    "Un bache o irregularidad en la carretera",
+    "Una curva pronunciada",
+    "Una señal de alto",
+    "Un cruce peatonal"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben reducir la velocidad para mantener el control sobre el pavimento irregular.",
+  "image": "/signs/bump-sign.jpg"
+},
+{
+  "id": "q-ped-crossing-waiting-205",
+  "question": "Ve esta señal de cruce peatonal y una persona esperando en el borde del cruce. ¿Qué debe hacer?",
+  "choices": [
+    "Reducir la velocidad y estar preparado para detenerse y permitir que el peatón cruce de forma segura",
+    "Acelerar para pasar antes de que el peatón empiece a cruzar",
+    "Tocar la bocina para decirle al peatón que espere",
+    "Ignorar al peatón porque no hay semáforos"
+  ],
+  "correctIndex": 0,
+  "explanation": "En un cruce peatonal, debe estar listo para detenerse y permitir que los peatones que esperan crucen de forma segura antes de continuar.",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
