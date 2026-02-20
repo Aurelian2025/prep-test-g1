@@ -2641,3 +2641,133 @@
   "explanation": "Pour les conducteurs d’autobus, ne pas s’arrêter à un passage à niveau non protégé entraîne 5 points d’inaptitude.",
   "image": "/signs/q-railway-stop-47.png"
 },
+{
+  "id": "q-hydroplaning-156",
+  "question": "Si votre véhicule commence à faire de l’aquaplanage sur une route très mouillée, quelle est la mesure la plus sûre?",
+  "choices": [
+    "Relâcher l’accélérateur et garder les roues droites jusqu’à ce que l’adhérence revienne",
+    "Freiner brusquement et tourner fortement",
+    "Mettre au point mort et couper le contact",
+    "Accélérer pour traverser l’eau plus vite"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’aquaplanage se produit lorsque les pneus perdent le contact avec la route sur l’eau. Relâchez l’accélérateur et gardez les roues droites jusqu’à ce que l’adhérence revienne.",
+  "image": "/signs/q-hydroplaning-prevent-73.png"
+},
+{
+  "id": "q-headlights-visibility-157",
+  "question": "Quand devez-vous utiliser vos phares, même pendant la journée?",
+  "choices": [
+    "Chaque fois que la visibilité est suffisamment mauvaise pour que vous ne puissiez pas voir clairement les personnes ou les véhicules à 150 mètres devant",
+    "Seulement la nuit sur les routes de campagne",
+    "Seulement pendant les mois d’hiver",
+    "Seulement lorsque vous utilisez les feux de route"
+  ],
+  "correctIndex": 0,
+  "explanation": "Utilisez vos phares chaque fois que la visibilité est mauvaise, comme sous la pluie, la neige ou le brouillard, afin que les autres puissent vous voir.",
+  "image": "/signs/q-headlights-visibility-180.jpg"
+},
+{
+  "id": "q-parking-uphill-curb-158",
+  "question": "En vous stationnant en montée sur une rue avec une bordure de trottoir, comment devez-vous orienter vos roues avant?",
+  "choices": [
+    "Tournez les roues avant à l’opposé de la bordure et serrez le frein de stationnement",
+    "Tournez les roues tout droit",
+    "Tournez les roues avant vers la bordure",
+    "Peu importe la direction des roues"
+  ],
+  "correctIndex": 0,
+  "explanation": "En vous stationnant en montée avec une bordure, tournez les roues à l’opposé de la bordure et serrez le frein de stationnement pour empêcher le véhicule de rouler.",
+  "image": "/signs/q-parking-uphill-curb-181.png"
+},
+{
+  "id": "q-demerit-fail-yield-ped-159",
+  "question": "À un passage pour piétons marqué, vous ne vous arrêtez pas pour une personne clairement engagée dans le passage et êtes déclaré coupable. Combien de points d’inaptitude recevez-vous?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Ne pas s’arrêter à un passage pour piétons ou à un passage protégé similaire entraîne 4 points d’inaptitude en Ontario.",
+  "image": "/signs/q-demerit-fail-yield-ped-128.png"
+},
+{
+  "id": "q-demerit-fail-remain-160",
+  "question": "Après une collision mineure, un conducteur quitte les lieux sans s’arrêter pour fournir ses informations et est déclaré coupable de ne pas être resté sur les lieux. Combien de points d’inaptitude cela entraîne-t-il?",
+  "choices": [
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ne pas rester sur les lieux d’une collision entraîne 7 points d’inaptitude en Ontario.",
+  "image": "/signs/q-demerit-fail-remain-129.png"
+},
+ {
+  "id": "q-sharp-curve-left-speed-161",
+  "question": "Vous voyez ce panneau d’avertissement de virage serré à gauche avec une plaque de vitesse conseillée en dessous. Comment devez-vous conduire?",
+  "choices": [
+    "Ralentir jusqu’à environ la vitesse conseillée et diriger le véhicule en douceur dans le virage",
+    "Maintenir votre vitesse actuelle et freiner brusquement au milieu du virage",
+    "Accélérer dans le virage pour rester dans votre voie",
+    "Conduire sur l’accotement pour éviter le virage"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux de virage serré comportent souvent une vitesse conseillée. Ralentissez jusqu’à environ cette vitesse avant le virage et dirigez en douceur pour garder le contrôle.",
+  "image": "/signs/sharp-curve-left.jpg"
+},
+{
+  "id": "q-sharp-curve-right-passing-162",
+  "question": "À l’approche de ce panneau de virage serré à droite sur une route à deux voies, quelle est l’approche la plus sécuritaire pour dépasser?",
+  "choices": [
+    "Ne dépassez pas d’autres véhicules dans ou près du virage serré",
+    "Dépassez rapidement d’autres véhicules au milieu du virage",
+    "Dépassez si vous ne pouvez pas voir la circulation venant en sens inverse",
+    "Le dépassement est permis à toute vitesse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les virages serrés limitent votre visibilité. Ne dépassez pas à l’approche ou dans un virage serré, car vous pourriez ne pas voir la circulation venant en sens inverse à temps.",
+  "image": "/signs/sharp-curve-right.jpg"
+},
+{
+  "id": "q-bicycles-permitted-163",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Les bicyclettes sont autorisées à utiliser cette chaussée ou cette voie",
+    "Les cyclistes doivent marcher à côté de leur vélo",
+    "Les bicyclettes sont interdites dans cette zone",
+    "Seuls les véhicules motorisés peuvent utiliser cette voie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un cercle vert indique une action permise; ici, cela signifie que les bicyclettes peuvent circuler dans la voie ou sur la chaussée.",
+  "image": "/signs/q-bicycles-permitted.png"
+},
+{
+  "id": "q-school-zone-164",
+  "question": "De quoi ce panneau avertit-il les conducteurs?",
+  "choices": [
+    "Zone scolaire, ralentissez et surveillez les enfants qui traversent la route",
+    "La route est réservée aux camions",
+    "Un terrain de jeu est fermé",
+    "Les bicyclettes ont la priorité"
+  ],
+  "correctIndex": 0,
+  "explanation": "L’image de personnes qui marchent avertit les conducteurs de ralentir et de surveiller la présence d’enfants près des écoles ou des aires de jeux.",
+  "image": "/signs/q-school-zone.png"
+},
+{
+  "id": "q-parking-30-min-165",
+  "question": "Que signifie ce panneau?",
+  "choices": [
+    "Le stationnement est autorisé pour un maximum de 30 minutes pendant les heures indiquées",
+    "Le stationnement est totalement interdit dans cette zone",
+    "Seuls les véhicules commerciaux peuvent se stationner ici",
+    "Le stationnement est gratuit et sans restriction en tout temps"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le P vert signifie que le stationnement est autorisé, tandis que le texte en dessous précise les limites de temps et les jours d’application.",
+  "image": "/signs/q-parking-30-min.png"
+},
