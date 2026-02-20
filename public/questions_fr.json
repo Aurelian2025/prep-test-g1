@@ -3688,3 +3688,137 @@
   "explanation": "Un feu jaune fixe signifie que le signal va bientôt devenir rouge. Si vous pouvez vous arrêter en toute sécurité, vous devez vous arrêter avant d’entrer dans l’intersection.",
   "image": "/signs/q-235-steady-yellow.png"
 },
+{
+  "id": "q-speed-30to49-236",
+  "category": "demerit-points",
+  "question": "Combien de points d’inaptitude s’appliquent pour un excès de vitesse de 30 à 49 km/h au-dessus de la limite ?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Un excès de vitesse de 30 à 49 km/h au-dessus de la limite entraîne une infraction de 4 points en Ontario.",
+  "image": "/signs/q-speed-30to49-236.png"
+},
+{
+  "id": "q-237",
+  "question": "Un panneau avec un « P » rouge barré signifie :",
+  "choices": [
+    "Le stationnement est interdit dans cette zone",
+    "Le stationnement est permis seulement pour une courte durée",
+    "Le stationnement est réservé aux détenteurs de permis",
+    "Il est interdit de s’arrêter en tout temps"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un panneau « Stationnement interdit » signifie que vous ne pouvez pas stationner et laisser votre véhicule sans surveillance.",
+  "image": "/signs/no-parking.jpg"
+},
+{
+  "id": "q-fail-signal-238",
+  "category": "demerit-points",
+  "question": "Combien de points d’inaptitude sont attribués pour ne pas avoir signalé ?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "5 points d’inaptitude"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ne pas signaler entraîne 2 points d’inaptitude en Ontario.",
+  "image": "/signs/q-fail-signal-238.png"
+},
+{
+  "id": "q-demerit-improper-passing-239",
+  "category": "demerit-points",
+  "question": "Un conducteur est reconnu coupable d’un dépassement dangereux. Combien de points d’inaptitude cette infraction entraîne-t-elle ?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 1,
+  "explanation": "Un dépassement dangereux est une infraction de 3 points en Ontario.",
+  "image": "/signs/q-demerit-improper-passing-132.png"
+},
+{
+  "id": "q-demerit-obey-officer-240",
+  "category": "demerit-points",
+  "question": "Un agent de police vous donne des directives, mais vous ignorez le signal et êtes reconnu coupable de ne pas avoir obéi à un agent. Combien de points d’inaptitude cette infraction entraîne-t-elle ?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ne pas obéir aux directives d’un agent de police entraîne 3 points d’inaptitude en Ontario.",
+  "image": "/signs/q-demerit-obey-officer-133.png"
+},
+ {
+  "id": "q-snowmobiles-permitted-241",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Les motoneiges sont autorisées sur ce sentier ou cette route",
+    "Les motoneiges sont interdites en tout temps",
+    "Seuls les véhicules immatriculés peuvent passer",
+    "Les motoneiges doivent être transportées sur une remorque"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un cercle vert indique une utilisation permise; le symbole de motoneige montre que la circulation des motoneiges est autorisée.",
+  "image": "/signs/q-snowmobiles-permitted.png"
+},
+{
+  "id": "q-242",
+  "question": "Une ligne médiane jaune brisée signifie :",
+  "choices": [
+    "Le dépassement est permis lorsque c’est sécuritaire",
+    "Dépassement interdit",
+    "Fin de voie plus loin",
+    "La circulation se déplace à gauche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les lignes jaunes brisées indiquent que le dépassement est permis avec prudence.",
+  "image": "/signs/q-224-broken-line.jpg"
+},
+{
+  "id": "q-243",
+  "question": "Un panneau montrant la chaussée plus élevée que le gravier à côté avertit de :",
+  "choices": [
+    "Un accotement bas ou mou",
+    "Une route divisée",
+    "Un pont étroit",
+    "Une intersection cachée"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un accotement bas peut entraîner une perte de contrôle si le véhicule quitte la chaussée.",
+  "image": "/signs/q-243pavement-higher-gravel.png"
+},
+{
+  "id": "q-244",
+  "question": "Un panneau orange en forme de losange indique généralement :",
+  "choices": [
+    "Des travaux routiers ou de construction plus loin",
+    "Une zone scolaire",
+    "Une limite de vitesse réglementaire",
+    "Une zone d’hôpital"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les panneaux orange avertissent de zones temporaires de construction ou d’entretien.",
+  "image": "/signs/q-244-orange-diamond.png"
+},
+{
+  "id": "q-no-right-turn-on-red-245",
+  "question": "Que signifie ce panneau ?",
+  "choices": [
+    "Les virages à droite sont interdits au feu rouge",
+    "Les virages à droite sont permis seulement au feu rouge",
+    "La voie de droite se termine",
+    "Les demi-tours sont permis"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un cercle rouge barré indique un mouvement interdit — dans ce cas, pas de virage à droite au feu rouge.",
+  "image": "/signs/q-no-right-turn-on-red.png"
+},
