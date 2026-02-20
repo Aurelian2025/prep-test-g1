@@ -4084,3 +4084,134 @@
   "explanation": "Le siège arrière est généralement le plus sûr, surtout loin des coussins gonflables.",
   "image": "/signs/q-31-child-seat.png"
 },
+{
+  "id": "q-266",
+  "question": "Une ceinture de sécurité correctement portée doit :",
+  "choices": [
+    "Avoir la ceinture abdominale basse sur les hanches et la ceinture diagonale sur la poitrine",
+    "Traverser l’estomac et le cou",
+    "Être placée sous le bras pour plus de confort",
+    "Être portée lâchement pour pouvoir bouger librement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le bon positionnement de la ceinture de sécurité réduit le risque de blessure lors d’une collision.",
+  "image": "/signs/q-266-seatbelt.png"
+},
+{
+  "id": "q-267",
+  "question": "Sous la pluie, la neige ou en cas de mauvaise visibilité, comment devez-vous ajuster votre distance de suivi?",
+  "choices": [
+    "L’augmenter au-delà de deux secondes",
+    "La réduire en dessous de deux secondes",
+    "La garder exactement la même",
+    "Suivre de près les gros véhicules"
+  ],
+  "correctIndex": 0,
+  "explanation": "De mauvaises conditions nécessitent plus d’espace pour s’arrêter en toute sécurité.",
+  "image": "/signs/q-267-snow-distance.png"
+},
+{
+  "id": "q-268",
+  "question": "En descendant une colline raide et glacée, vous devez :",
+  "choices": [
+    "Utiliser un rapport inférieur et freiner doucement",
+    "Passer au point mort et rouler en roue libre",
+    "Freiner fortement en continu",
+    "Accélérer pour réduire le temps passé sur la colline"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les rapports inférieurs et un freinage doux améliorent le contrôle sur les collines glissantes.",
+  "image": "/signs/q-268-icy-hill.png"
+},
+{
+  "id": "q-269",
+  "question": "Un feu vert sans flèche verte lorsque vous tournez à gauche signifie :",
+  "choices": [
+    "Vous pouvez tourner à gauche lorsque la voie est libre et après avoir cédé le passage à la circulation venant en sens inverse et aux piétons",
+    "Vous avez la priorité sur la circulation venant en sens inverse",
+    "Vous devez attendre une flèche verte pour tourner à gauche",
+    "Vous ne pouvez jamais tourner à gauche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un feu vert simple permet de tourner à gauche mais ne donne pas la priorité protégée.",
+  "image": "/signs/q-269-turn-left-on-green.png"
+},
+{
+  "id": "q-270",
+  "question": "Lorsque vous entrez sur une route principale depuis une entrée privée ou une voie privée, vous devez :",
+  "choices": [
+    "Céder le passage à toute la circulation sur la route principale",
+    "Vous attendre à ce que la circulation sur la route principale vous cède le passage",
+    "Entrer rapidement sans s’arrêter",
+    "Klaxonner et avancer"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les véhicules qui entrent sur une route doivent céder le passage à ceux qui y circulent déjà.",
+  "image": "/signs/q-253-back-up-driveway.png"
+},
+  {
+  "id": "q-fail-stop-police-271",
+  "category": "demerit-points",
+  "question": "Combien de points d’inaptitude sont appliqués pour ne pas s’arrêter lorsqu’un policier vous en fait le signal?",
+  "choices": [
+    "2 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ne pas s’arrêter pour la police entraîne 7 points d’inaptitude.",
+  "image": "/signs/q-fail-stop-police-271.png"
+},
+{
+  "id": "q-272",
+  "question": "Un panneau circulaire jaune avec un « X » noir et deux « R » avertit de :",
+  "choices": [
+    "Un passage à niveau à venir",
+    "Une zone d’hôpital",
+    "Un carrefour giratoire à venir",
+    "Un tunnel à venir"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le panneau d’avertissement ferroviaire avertit les conducteurs d’un passage à niveau à venir.",
+  "image": "/signs/q-272-X-and-2R.png"
+},
+{
+  "id": "q-273",
+  "question": "Un panneau « Zone de chargement » signifie généralement :",
+  "choices": [
+    "L’arrêt est permis uniquement pour le chargement ou le déchargement actif",
+    "Vous pouvez stationner toute la journée",
+    "Seuls les autobus peuvent stationner",
+    "Aucun arrêt n’est permis"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les zones de chargement limitent le stationnement à de courts arrêts pour charger ou décharger des marchandises ou des passagers.",
+  "image": "/signs/q-273-loadin-zone.png"
+},
+{
+  "id": "q-274",
+  "question": "Lorsqu’un autobus de transport en commun signale qu’il quitte un arrêt dans une zone urbaine, vous devez :",
+  "choices": [
+    "Céder le passage lorsque c’est sécuritaire pour permettre à l’autobus de réintégrer la circulation",
+    "Accélérer pour dépasser avant qu’il ne bouge",
+    "Ignorer le signal et maintenir la vitesse",
+    "Klaxonner jusqu’à ce qu’il reste à l’arrêt"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent permettre aux autobus de réintégrer la circulation en toute sécurité lorsqu’ils signalent leur départ.",
+  "image": "/signs/q-274-transit-bus-leaving.png"
+},
+{
+  "id": "q-275",
+  "question": "Lorsque vous tournez à gauche en traversant la circulation venant en sens inverse, vous devez commencer votre virage lorsque :",
+  "choices": [
+    "Il y a un écart suffisamment grand pour terminer le virage sans obliger les autres conducteurs à ralentir brusquement",
+    "Vous voyez une voiture tourner derrière vous",
+    "Le feu est sur le point de passer au rouge",
+    "Les véhicules en sens inverse font des appels de phares"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les virages à gauche ne doivent pas gêner la circulation venant en sens inverse. Choisissez un écart sûr et suffisant.",
+  "image": "/signs/q-275-turning-left.png"
+},
