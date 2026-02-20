@@ -2837,3 +2837,133 @@
   "explanation": "绿色P表示允许停车，下方文字说明了时间限制和执行日期。",
   "image": "/signs/q-parking-30-min.png"
 },
+{
+  "id": "q-stop-sign-where-to-stop-166",
+  "question": "在这个有停止线的STOP标志前，你必须在哪里停车？",
+  "choices": [
+    "在停止线或人行横道之前",
+    "在路口中间",
+    "在人行横道中间",
+    "只要短暂停车，任何地方都可以"
+  ],
+  "correctIndex": 0,
+  "explanation": "在停车标志前，你必须在停止线处、在人行横道前，或在进入路口前完全停车，以先出现者为准。",
+  "image": "/signs/stop-sign.jpg"
+},
+{
+  "id": "q-traffic-signal-ahead-167",
+  "question": "在高速道路上驾驶时你看到这个标志。它警告你什么？",
+  "choices": [
+    "前方有交通信号灯；准备减速或停车",
+    "前方是铁路道口",
+    "前方是没有信号灯的四向停车",
+    "道路在前方尽头为死胡同"
+  ],
+  "correctIndex": 0,
+  "explanation": "前方信号灯警告标志提醒你前方有设置信号灯的路口，以便在信号变化时提前减速或停车。",
+  "image": "/signs/traffic-signal-ahead.jpg"
+},
+{
+  "id": "q-accessible-parking-168",
+  "question": "你在停车场看到这个标志。它是什么意思？",
+  "choices": [
+    "该车位仅供持有无障碍停车许可的车辆使用",
+    "所有人都可以免费停车",
+    "该车位仅供摩托车使用",
+    "这里只允许夜间停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "轮椅符号表示无障碍停车位。只有持有有效无障碍停车许可的车辆才可以停在这些车位。",
+  "image": "/signs/wheelchair-accessible.jpg"
+},
+{
+  "id": "q-parking-downhill-no-curb-169",
+  "question": "在没有路缘石的道路上下坡停车时，你应如何放置前轮？",
+  "choices": [
+    "将车轮转向右侧路肩并拉紧驻车制动",
+    "将车轮转向道路中央",
+    "保持车轮笔直并挂空挡",
+    "将车轮向左转且不要使用驻车制动"
+  ],
+  "correctIndex": 0,
+  "explanation": "在没有路缘石的下坡处停车时，将车轮转向路肩有助于防止车辆滑入车道。",
+  "image": "/signs/q-parking-downhill-no-curb-182.png"
+},
+{
+  "id": "q-parking-fire-hydrant-170",
+  "question": "为什么禁止在消防栓附近停车？",
+  "choices": [
+    "在紧急情况下，消防员必须能够迅速接近消防栓",
+    "消防栓只供消防车专用停车",
+    "消防栓标示私人车道",
+    "那里只允许夜间停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "停车规定包括与消防栓保持最小距离，以便紧急人员可以迅速连接水管。",
+  "image": "/signs/q-parking-fire-hydrant-183.jpg"
+},
+ {
+  "id": "q-parking-crosswalk-171",
+  "question": "为什么你绝不能在斑马线内或非常靠近斑马线的地方停车？",
+  "choices": [
+    "这会阻挡行人和驾驶员在过街处的视线",
+    "这会让行人更容易过街",
+    "这只是建议，没有安全问题",
+    "如果打开危险警示灯就可以"
+  ],
+  "correctIndex": 0,
+  "explanation": "在斑马线附近停车可能会遮挡行人的视线，使驾驶员难以及时看到他们。",
+  "image": "/signs/q-parking-crosswalk-184.png"
+},
+{
+  "id": "q-railway-stall-172",
+  "question": "如果你的车辆在铁路道口抛锚且有火车接近，你首先应该怎么做？",
+  "choices": [
+    "让所有人下车，并以45°角朝火车方向远离轨道",
+    "留在车内并一直尝试重新启动直到最后一刻",
+    "独自将车辆推离轨道",
+    "站在火车前方示意它停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "如果火车即将到来且车辆无法移动，所有人必须立即下车并以角度远离，以避免被飞散的碎片击中。",
+  "image": "/signs/q-railway-stall-185.png"
+},
+{
+  "id": "q-tire-blowout-173",
+  "question": "如果在驾驶时前轮爆胎，最安全的初始反应是什么？",
+  "choices": [
+    "牢牢握住方向盘，松开油门并保持直线行驶",
+    "立即猛踩刹车并转向路肩",
+    "加速以保持车辆稳定",
+    "急转方向盘远离爆胎一侧"
+  ],
+  "correctIndex": 0,
+  "explanation": "爆胎可能导致车辆突然偏移。牢牢握住方向盘，松开油门并保持直线行驶，直到可以安全减速。",
+  "image": "/signs/q-tire-blowout-186.png"
+},
+{
+  "id": "q-skid-rear-174",
+  "question": "在结冰的道路上，你的后轮开始侧滑。你应该怎么做？",
+  "choices": [
+    "轻轻向你希望车头前进的方向转向，并避免猛踩刹车",
+    "尽可能用力刹车并一直踩住",
+    "迅速向打滑的反方向转向",
+    "将方向盘完全打向一侧并加速"
+  ],
+  "correctIndex": 0,
+  "explanation": "要纠正打滑，应朝希望车辆前进的方向转向，并避免突然刹车或加速。",
+  "image": "/signs/q-skid-rear-187.png"
+},
+{
+  "id": "q-fatigue-driving-175",
+  "question": "你在驾驶时开始感到非常困倦。最安全的决定是什么？",
+  "choices": [
+    "找一个安全的地方停车休息后再继续",
+    "打开车窗并以相同速度继续驾驶",
+    "调高收音机音量并集中精力保持清醒",
+    "喝咖啡并继续驾驶几个小时"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶疲劳是危险的。唯一安全的选择是在继续行程前停车休息。",
+  "image": "/signs/q-fatigue-driving-188.png"
+},
