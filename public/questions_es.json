@@ -2442,3 +2442,133 @@
   "explanation": "En las rampas de acceso a la autopista debe acelerar para igualar la velocidad del tráfico, señalizar e incorporarse suavemente cuando haya un espacio seguro.",
   "image": "/signs/q-expressway-merge-168.png"
 },
+{
+  "id": "q-expressway-exit-146",
+  "question": "Al salir de una autopista, ¿cuándo debe comenzar a reducir la velocidad?",
+  "choices": [
+    "Después de haber entrado en el carril de desaceleración o rampa de salida",
+    "Tan pronto como vea la señal de salida, en el carril principal",
+    "Solo cuando llegue a la siguiente calle de la ciudad",
+    "Nunca; mantenga la velocidad de autopista durante la salida"
+  ],
+  "correctIndex": 0,
+  "explanation": "Mantenga la velocidad de la autopista hasta estar en el carril de desaceleración o rampa, luego reduzca la velocidad de manera segura hasta la velocidad indicada para la salida.",
+  "image": "/signs/q-expressway-exit-169.png"
+},
+{
+  "id": "q-emergency-vehicles-147",
+  "question": "En una carretera de doble sentido, escucha y ve un vehículo de emergencia con luces intermitentes y sirena acercándose por detrás. ¿Qué debe hacer?",
+  "choices": [
+    "Moverse lo más a la derecha posible y detenerse hasta que haya pasado",
+    "Acelerar para mantenerse delante del vehículo de emergencia",
+    "Detenerse en el centro de la carretera",
+    "Girar a la izquierda y bloquear el tráfico que viene en sentido contrario"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cuando un vehículo de emergencia se aproxima con luces y sirena, muévase hacia la derecha y deténgase hasta que haya pasado.",
+  "image": "/signs/q-emergency-vehicles-170.jpg"
+},
+{
+  "id": "q-move-over-law-148",
+  "question": "En una autopista de varios carriles, ve un vehículo de emergencia detenido con luces intermitentes en el arcén de su carril. ¿Qué debe hacer si el tráfico lo permite?",
+  "choices": [
+    "Cambiar a otro carril alejándose del vehículo de emergencia y reducir la velocidad",
+    "Mantener su velocidad en el mismo carril",
+    "Tocar la bocina y pasar como de costumbre",
+    "Detenerse junto al vehículo de emergencia para observar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Debe reducir la velocidad y, cuando sea posible, cambiar a otro carril alejándose de los vehículos de emergencia o de remolque detenidos con luces intermitentes.",
+  "image": "/signs/q-move-over-law-148.png"
+},
+{
+  "id": "q-sharing-cyclists-1m-149",
+  "question": "Al adelantar a un ciclista en una carretera de dos carriles, ¿cómo debe hacerlo de manera segura?",
+  "choices": [
+    "Reducir la velocidad y dejar al menos un metro de espacio entre su vehículo y el ciclista al adelantar",
+    "Adelantar muy cerca para evitar que otros vehículos pasen",
+    "Tocar la bocina fuertemente y adelantar a toda velocidad",
+    "Conducir por el arcén para adelantar sin cambiar de carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben dejar al menos un metro de espacio al adelantar a ciclistas cuando sea práctico, y más si es posible.",
+  "image": "/signs/q-sharing-cyclists-1m-149.png"
+},
+{
+  "id": "q-dooring-cyclist-150",
+  "question": "Está estacionado junto a un carril para bicicletas y desea abrir la puerta del conductor. ¿Cuál es la forma más segura de evitar golpear a un ciclista?",
+  "choices": [
+    "Revisar los espejos, verificar el punto ciego para ciclistas y luego abrir la puerta con la mano más alejada",
+    "Abrir la puerta rápidamente sin mirar para que esté abierta menos tiempo",
+    "Confiar en que los ciclistas se detendrán si se abre una puerta",
+    "Dejar la puerta abierta mientras observa el tráfico"
+  ],
+  "correctIndex": 0,
+  "explanation": "Revise los espejos y los puntos ciegos y use la mano más alejada para abrir la puerta, de modo que naturalmente gire el cuerpo y mire si vienen ciclistas.",
+  "image": "/signs/q-dooring-cyclist-173.png"
+},
+ {
+  "id": "q-motorcycles-visibility-151",
+  "question": "¿Por qué debe tener especial cuidado al juzgar la velocidad y la distancia de motocicletas que se aproximan?",
+  "choices": [
+    "Son más pequeñas y pueden parecer más lejanas y más lentas de lo que realmente están",
+    "Siempre circulan por debajo del límite de velocidad",
+    "Deben detenerse en cada intersección",
+    "No usan faros durante el día"
+  ],
+  "correctIndex": 0,
+  "explanation": "Debido a que las motocicletas son pequeñas, los conductores a menudo calculan mal qué tan lejos están y qué tan rápido se mueven. Esto es importante al girar a la izquierda o cruzar delante de una motocicleta.",
+  "image": "/signs/q-motorcycles-visibility-151.png"
+},
+{
+  "id": "q-large-trucks-space-152",
+  "question": "Al conducir cerca de camiones grandes, ¿por qué debe evitar viajar durante largos períodos justo a su lado?",
+  "choices": [
+    "Los camiones tienen grandes puntos ciegos y necesitan espacio adicional para maniobrar",
+    "Los camiones siempre van a exceso de velocidad",
+    "Los camiones deben conducir en el centro de la carretera",
+    "Usted tiene el derecho de paso, por lo que la posición no importa"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los vehículos grandes tienen amplios puntos ciegos a lo largo de sus lados y necesitan más espacio para girar y cambiar de carril. Evite permanecer a su lado y adelántelos de manera segura cuando pueda.",
+  "image": "/signs/q-large-trucks-space-175.png"
+},
+{
+  "id": "q-trucks-wide-turns-153",
+  "question": "Un camión grande señala un giro a la derecha y se mueve ligeramente hacia la izquierda antes de girar. ¿Qué debe hacer?",
+  "choices": [
+    "No se mueva al espacio a la derecha; el camión necesita espacio para girar",
+    "Avanzar por el lado derecho para adelantar durante el giro",
+    "Tocar la bocina y obligar al camión a permanecer en su carril",
+    "Moverse al carril para bicicletas junto al camión"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los vehículos grandes a menudo se abren para realizar giros a la derecha. Nunca se coloque a su lado en el lado del giro; manténgase atrás hasta que el giro se complete.",
+  "image": "/signs/q-trucks-wide-turns-176.png"
+},
+{
+  "id": "q-winter-driving-distance-154",
+  "question": "En una carretera nevada con tracción reducida, ¿cómo debe ajustar su distancia de seguimiento?",
+  "choices": [
+    "Aumentarla mucho más allá de la regla normal de los dos segundos",
+    "Mantener la misma distancia que en carreteras secas",
+    "Reducirla para que otros conductores no se metan",
+    "Seguir lo más cerca posible para usar las huellas del otro conductor"
+  ],
+  "correctIndex": 0,
+  "explanation": "En nieve o hielo, necesita mucha más distancia para detenerse. Aumente significativamente su distancia de seguimiento en malas condiciones.",
+  "image": "/signs/q-winter-driving-distance-177.png"
+},
+{
+  "id": "q-demerit-rail-crossing-bus-driver-155",
+  "question": "No detenerse en un cruce ferroviario sin protección (solo conductores de autobús) resulta en cuántos puntos de demérito?",
+  "choices": [
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito",
+    "6 puntos de demérito"
+  ],
+  "correctIndex": 2,
+  "explanation": "Para los conductores de autobús, no detenerse en un cruce ferroviario sin protección resulta en 5 puntos de demérito.",
+  "image": "/signs/q-railway-stop-47.png"
+},
