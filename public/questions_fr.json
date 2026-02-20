@@ -1956,68 +1956,136 @@
       "image": "/signs/no-parking.jpg"
   },
 {
-  "id": "q-bus-rail-106",
-  "question": "Un conducteur d’autobus qui ne s’arrête pas à un passage à niveau non protégé reçoit combien de points d’inaptitude?",
+  "id": "q-follow-closely-111",
+  "question": "Suivre un autre véhicule de trop près entraîne combien de points d’inaptitude?",
   "choices": [
+    "2 points d’inaptitude",
     "3 points d’inaptitude",
     "4 points d’inaptitude",
-    "5 points d’inaptitude",
     "6 points d’inaptitude"
   ],
   "correctIndex": 2,
-  "explanation": "Les conducteurs d’autobus doivent s’arrêter aux passages à niveau non protégés; ne pas le faire entraîne 5 points.",
-  "image": "/signs/q-bus-rail-106.png"
+  "explanation": "Suivre de trop près entraîne 4 points d’inaptitude.",
+  "image": "/signs/q-tailgater-189.png"
 },
   {
-    "id": "q-rules-no-entry-oneway-107",
-    "question": "Vous approchez ce panneau SENS INTERDIT à la fin d’une rue. Que vous indique-t-il au sujet de cette route?",
+    "id": "q-rules-hill-downgrade-112",
+    "question": "Vous voyez ce panneau de forte pente avant une longue descente. Quelle stratégie de vitesse et de freinage est la plus sûre?",
     "choices": [
-      "La route est à sens unique en direction de vous; vous ne devez pas entrer",
-      "La route est fermée seulement la nuit",
-      "Vous pouvez entrer mais devez tourner à gauche immédiatement",
-      "C’est seulement une suggestion d’utiliser un autre itinéraire"
+      "Sélectionnez un rapport inférieur avant la descente et freinez doucement au besoin",
+      "Passez au point mort et laissez le véhicule rouler pour économiser du carburant",
+      "Utilisez uniquement le frein de stationnement en descendant",
+      "Accélérez pour en finir rapidement avec la pente"
     ],
     "correctIndex": 0,
-    "explanation": "Les panneaux sens interdit signifient que vous faites face au mauvais sens de circulation pour cette route ou cette voie. Vous ne devez pas vous y engager.",
-      "image": "/signs/do-not-enter.jpg"
+    "explanation": "Dans les longues descentes, utiliser un rapport inférieur aide à contrôler la vitesse et empêche la surchauffe des freins.",
+      "image": "/signs/steep-hill-downgrade.jpg"
   },
   {
-  "id": "q-speed-50plus-108",
-  "question": "Combien de points d’inaptitude sont attribués pour avoir dépassé la limite affichée de 50 km/h ou plus?",
-  "choices": [
-    "3 points d’inaptitude",
-    "4 points d’inaptitude",
-    "5 points d’inaptitude",
-    "6 points d’inaptitude"
-  ],
-  "correctIndex": 3,
-  "explanation": "Dépasser la limite de 50 km/h ou plus entraîne 6 points d’inaptitude.",
-  "image": "/signs/q-speed-50plus-108.png"
-},
-  {
-    "id": "q-alcohol-109",
-    "question": "Si un conducteur de moins de 21 ans a la moindre trace d’alcool dans son organisme en conduisant, il :",
+    "id": "q-rules-slippery-curve-113",
+    "question": "Il commence à pleuvoir et vous voyez ce panneau CHAUSSÉE GLISSANTE sous la pluie dans un virage. Comment devez-vous conduire?",
     "choices": [
-      "Peut recevoir seulement un avertissement",
-      "Est assujetti à la tolérance zéro et à une suspension de permis",
-      "Peut continuer s’il est accompagné d’un adulte",
-      "Est exempté les fins de semaine"
+      "Ralentir avant le virage et éviter les mouvements brusques de direction ou de freinage",
+      "Freiner fortement au milieu du virage pour tester l’adhérence",
+      "Éteindre vos phares",
+      "Utiliser le régulateur de vitesse pour maintenir une vitesse constante"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sur une chaussée glissante dans un virage, réduisez la vitesse avant d’entrer et évitez les mouvements brusques qui pourraient provoquer un dérapage.",
+      "image": "/signs/slippery-when-wet.jpg"
+  },
+  {
+    "id": "q-rules-winding-road-visibility-114",
+    "question": "Vous voyez ce panneau de route sinueuse et un épais brouillard devant. Quel est le choix le plus sûr?",
+    "choices": [
+      "Ralentir, augmenter la distance de suivi et utiliser les feux de croisement",
+      "Accélérer pour quitter la zone plus rapidement",
+      "Utiliser les feux de route pour éclairer davantage le brouillard",
+      "Suivre le véhicule devant de très près pour utiliser ses phares"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dans le brouillard sur une route sinueuse, réduisez la vitesse, laissez plus d’espace et utilisez les feux de croisement pour éviter que la lumière ne se reflète vers vous.",
+      "image": "/signs/winding-road.jpg"
+  },
+  {
+    "id": "q-fatigue-115",
+    "question": "Vous vous sentez somnolent en conduisant la nuit. Que devez-vous faire?",
+    "choices": [
+      "Ouvrir la fenêtre et augmenter le volume de la musique",
+      "Vous arrêter en toute sécurité et vous reposer",
+      "Conduire plus vite pour terminer plus tôt",
+      "Boire du café et continuer"
     ],
     "correctIndex": 1,
-    "explanation": "L’Ontario exige un taux d’alcoolémie de zéro pour les conducteurs de moins de 21 ans et pour les conducteurs novices (G1/G2).",
-    "image": "/signs/q-28-impaired-driver.png"
+    "explanation": "Si vous êtes somnolent, arrêtez-vous dans un endroit sûr et reposez-vous. La fatigue est dangereuse.",
+      "image": "/signs/q-29-driver-tired.png"
   },
 
   {
-    "id": "q-rules-no-stopping-like-sign-110",
-    "question": "Un autre panneau montre un cercle rouge avec une barre oblique sur un symbole d’arrêt. En quoi est-il différent de ce panneau d’interdiction de stationner?",
+    "id": "q-approaching-pedestrian-116",
+    "question": "Vous voyez un piéton debout au bord d’un passage pour piétons non contrôlé. Que devez-vous faire?",
     "choices": [
-      "Interdiction d’arrêt signifie que vous ne pouvez pas arrêter votre véhicule du tout, même brièvement",
-      "Interdiction d’arrêt signifie que le stationnement est permis seulement la nuit",
-      "Interdiction d’arrêt et interdiction de stationner signifient exactement la même chose",
-      "Interdiction d’arrêt s’applique seulement aux bicyclettes"
+      "Accélérer pour passer avant qu’il ne s’engage",
+      "Être prêt à céder le passage et permettre au piéton de traverser en toute sécurité",
+      "L’ignorer parce qu’il n’y a pas de feu de circulation",
+      "Klaxonner pour le dissuader de traverser"
+    ],
+    "correctIndex": 1,
+    "explanation": "Soyez prêt à céder le passage aux piétons aux passages pour piétons et permettez-leur de traverser en toute sécurité.",
+      "image": "/signs/q-approaching-pedestrian-75.png"
+  },
+
+  {
+    "id": "q-rules-wheelchair-accessible-117",
+    "question": "Vous voyez ce symbole de fauteuil roulant à une place de stationnement. Que devez-vous faire si vous êtes un conducteur sans permis de stationnement accessible?",
+    "choices": [
+      "Vous ne devez pas vous stationner dans l’espace accessible désigné",
+      "Vous pouvez vous y stationner pour une course rapide",
+      "Vous pouvez vous y stationner seulement la nuit",
+      "Vous pouvez vous y stationner si vous laissez vos feux de détresse allumés"
     ],
     "correctIndex": 0,
-    "explanation": "Les panneaux d’interdiction de stationner permettent de courts arrêts pour embarquer ou débarquer des passagers ou des marchandises. Les panneaux d’interdiction d’arrêt ne permettent pas d’arrêter votre véhicule du tout, sauf pour obéir à la signalisation.",
-      "image": "/signs/no-parking.jpg"
+    "explanation": "Les places de stationnement accessibles sont réservées aux véhicules affichant un permis de stationnement accessible valide.",
+      "image": "/signs/wheelchair-accessible.jpg"
   },
+  {
+    "id": "q-driver-distraction-118",
+    "question": "Lequel des éléments suivants est un exemple de distraction dangereuse au volant?",
+    "choices": [
+      "Vérifier régulièrement les rétroviseurs",
+      "Balayer la route du regard",
+      "Envoyer des textos ou utiliser un téléphone portatif",
+      "Ajuster votre siège avant de conduire"
+    ],
+    "correctIndex": 2,
+    "explanation": "Utiliser un téléphone portatif ou envoyer des textos en conduisant est une distraction dangereuse et est illégal en Ontario.",
+      "image": "/signs/q-driver-distraction-74.png"
+  },
+
+   {
+    "id": "q-hydroplaning-prevent-119",
+    "question": "Quelle action aide à réduire le risque d’aquaplanage?",
+    "choices": [
+      "Conduire plus vite sous la pluie",
+      "Utiliser des pneus usés",
+      "Réduire la vitesse sur les routes mouillées et s’assurer que les pneus sont en bon état",
+      "Rouler au point mort"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ralentir dans des conditions mouillées et avoir de bons pneus avec une bande de roulement adéquate aide à prévenir l’aquaplanage.",
+      "image": "/signs/q-hydroplaning-prevent-73.png"
+  },
+
+  {
+  "id": "q-demerit-interview-120",
+  "question": "Selon le système de points d’inaptitude de l’Ontario, à partir de combien de points un conducteur peut-il être tenu de passer une entrevue et de subir un réexamen de ses compétences de conduite?",
+  "choices": [
+    "Lorsque 9 points d’inaptitude ont été accumulés",
+    "Lorsque 3 points d’inaptitude ont été accumulés",
+    "Lorsque 6 points d’inaptitude ont été accumulés",
+    "Lorsque 15 points d’inaptitude ont été accumulés"
+  ],
+  "correctIndex": 0,
+  "explanation": "Lorsqu’un conducteur titulaire d’un permis complet atteint 9 points d’inaptitude, le ministère peut exiger qu’il se présente à une entrevue et ordonner un réexamen pour évaluer sa capacité de conduite.",
+  "image": "/signs/q-demerit-interview.png"
+},
