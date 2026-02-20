@@ -3097,3 +3097,134 @@
   "explanation": "转弯的驾驶员必须让行人行横道内的行人，并等他们完全通过车道后再完成转弯。",
   "image": "/signs/q-pedestrians-turning-198.png"
 },
+{
+  "id": "q-crosswalk-uncontrolled-186",
+  "question": "在没有交通信号灯但有斑马线和标志的人行横道处，一名行人正在等待过街。你的责任是什么？",
+  "choices": [
+    "做好随时停车的准备，让行人安全通过",
+    "因为没有交通灯而保持相同速度继续行驶",
+    "只有当行人直接走到你面前时才停车",
+    "加速通过，赶在行人开始过街之前"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员必须注意有标线的人行横道上的行人，并准备停车让他们安全通过。",
+  "image": "/signs/q-crosswalk-uncontrolled-199.png"
+},
+{
+  "id": "q-safe-speed-stopping-distance-187",
+  "question": "无论驾驶条件如何，你都应该始终以能够做到什么的速度行驶？",
+  "choices": [
+    "在90米（300英尺）内停车",
+    "在60米（200英尺）内停车",
+    "在安全距离内停车",
+    "在150米（500英尺）内停车"
+  ],
+  "correctIndex": 2,
+  "explanation": "驾驶员必须始终根据前方可见距离调整速度，以便能够在可见范围内安全停车。",
+  "image": "/signs/q-safe-speed-stopping.png"
+},
+{
+  "id": "q-safe-following-distance-188",
+  "question": "在良好天气条件下跟随另一辆车行驶时，最安全的最小跟车距离是多少？",
+  "choices": [
+    "与前车保持至少两秒的距离",
+    "每10公里/小时保持半个车长",
+    "与前车保持一秒的距离",
+    "尽可能接近，只要还能看到后轮"
+  ],
+  "correctIndex": 0,
+  "explanation": "在良好条件下使用两秒规则以保持安全的跟车距离。",
+  "image": "/signs/car-following.jpg"
+},
+{
+  "id": "q-right-of-way-four-way-stop-189",
+  "question": "在四向停车路口，两辆车同时到达。谁应先行？",
+  "choices": [
+    "右侧的车辆拥有优先通行权",
+    "左侧的车辆拥有优先通行权",
+    "直行车辆总是先行",
+    "最大的车辆先行"
+  ],
+  "correctIndex": 0,
+  "explanation": "当两辆车同时到达时，左侧的驾驶员必须让右侧的驾驶员先行。",
+  "image": "/signs/right-way.png"
+},
+{
+  "id": "q-blind-spots-check-190",
+  "question": "在多车道道路上变道之前，驾驶员必须如何正确检查盲点？",
+  "choices": [
+    "除了查看后视镜外，还要向相应方向回头查看",
+    "只依靠中央后视镜",
+    "加速以避开旁边的车辆",
+    "打转向灯并慢慢偏向车道直到其他司机按喇叭"
+  ],
+  "correctIndex": 0,
+  "explanation": "盲点在后视镜中看不到。回头查看可以确保旁边没有车辆、自行车或摩托车。",
+  "image": "/signs/q-203-blind-spot.png"
+},
+{
+  "id": "q-high-beam-dimming-191",
+  "question": "夜间什么时候必须将远光灯调为近光灯？",
+  "choices": [
+    "当你距离迎面而来的车辆在150米以内时",
+    "只有当对方司机闪灯时",
+    "只有在照明良好的街道上",
+    "只有在跟随警车时"
+  ],
+  "correctIndex": 0,
+  "explanation": "当距离迎面而来的车辆在150米以内时，必须调暗远光灯，以免影响其他驾驶员的视线。",
+  "image": "/signs/q-204-high-beams.jpg"
+},
+{
+  "id": "q-emergency-vehicle-yield-192",
+  "question": "如果一辆开着闪光灯并鸣笛的紧急车辆从后方接近，你必须怎么做？",
+  "choices": [
+    "打信号灯，尽量靠右并停车",
+    "加速以免挡住他们",
+    "继续行驶但稍微向左移动",
+    "即使在高速公路上也立即在车道内停车"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员必须尽量靠右停车，让紧急车辆能够安全快速通过。",
+  "image": "/signs/q-205-emergency-vehicle.jpg"
+},
+{
+  "id": "q-improper-left-193",
+  "category": "demerit-points",
+  "question": "不当左转会被扣多少违章积分？",
+  "choices": [
+    "2分",
+    "3分",
+    "4分",
+    "5分"
+  ],
+  "correctIndex": 0,
+  "explanation": "不当左转在安大略省会被扣2分。",
+  "image": "/signs/q-improper-left-193.png"
+},
+{
+  "id": "q-school-bus-median-194",
+  "question": "你在一条有中央隔离带的道路上行驶。对面方向的一辆校车停下并闪烁红灯、伸出停牌臂。你必须怎么做？",
+  "choices": [
+    "停车并保持停车状态直到校车离开",
+    "减速并小心前行；在有实体中央隔离带的对向车道上不需要停车",
+    "按喇叭提醒校车司机并以正常速度继续",
+    "变到最左侧车道并以限速行驶"
+  ],
+  "correctIndex": 1,
+  "explanation": "在有实体中央隔离带的分隔道路上，只有与校车同方向行驶的车辆必须停车。对向车辆必须减速，但法律上不要求停车。",
+  "image": "/signs/q-207-school-bus-median.jpg"
+},
+{
+  "id": "q-fire-hydrant-distance-195",
+  "question": "在安大略省，你可以在离消防栓多近的地方停车？",
+  "choices": [
+    "在1米以内，只要消防栓仍然可见",
+    "至少离消防栓2米",
+    "至少离消防栓3米",
+    "只要留在车内，任何距离都可以"
+  ],
+  "correctIndex": 2,
+  "explanation": "你不得在距离消防栓3米以内停车。这为消防员在紧急情况下快速连接水管提供空间。",
+  "image": "/signs/q-208-fire-hydrant-park.jpg"
+},
