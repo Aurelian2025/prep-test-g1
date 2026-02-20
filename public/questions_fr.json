@@ -3162,3 +3162,137 @@
   "explanation": "Vous ne devez pas vous stationner à moins de trois mètres d’une borne d’incendie. Cela permet aux pompiers de raccorder rapidement les tuyaux en cas d’urgence.",
   "image": "/signs/q-208-fire-hydrant-park.jpg"
 },
+{
+  "id": "q-intersection-parking-distance-196",
+  "question": "Sur une route sans feux de circulation, à quelle distance d’une intersection ou d’un passage pour piétons êtes-vous autorisé à vous stationner?",
+  "choices": [
+    "Vous pouvez vous stationner directement au coin si vous signalez",
+    "À au moins trois mètres de l’intersection",
+    "À au moins neuf mètres de l’intersection",
+    "À au moins 15 mètres de l’intersection"
+  ],
+  "correctIndex": 2,
+  "explanation": "Vous ne devez pas vous stationner à moins de neuf mètres d’une intersection sur les routes sans feux de circulation afin de garder une bonne visibilité.",
+  "image": "/signs/q-209-car-parked-near-intersection.jpg"
+},
+{
+  "id": "q-suspension-197",
+  "category": "demerits-info",
+  "question": "À combien de points d’inaptitude le permis d’un conducteur débutant est-il suspendu pendant 60 jours?",
+  "choices": [
+    "9 points d’inaptitude",
+    "12 points d’inaptitude",
+    "15 points d’inaptitude",
+    "20 points d’inaptitude"
+  ],
+  "correctIndex": 2,
+  "explanation": "Le permis d’un conducteur débutant est suspendu à 15 points d’inaptitude.",
+  "image": "/signs/q-suspension-197.png"
+},
+{
+  "id": "q-hov-lane-198",
+  "question": "Sur une autoroute de la série 400, vous voyez des symboles en losange et des panneaux de voie VMO (covoiturage). Quand êtes-vous autorisé à utiliser cette voie?",
+  "choices": [
+    "Seulement lorsque votre véhicule transporte au moins deux personnes (ou est un véhicule admissible comme un autobus, une motocyclette ou un véhicule à plaque verte)",
+    "Chaque fois que la circulation est lente dans les voies normales et que vous voulez dépasser",
+    "Seulement si vous roulez à la limite de vitesse ou plus",
+    "À tout moment après 19 h et les fins de semaine, peu importe le nombre de passagers"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les voies VMO sont réservées aux véhicules transportant au moins deux personnes ou aux véhicules spécialement autorisés. Ce ne sont pas des voies de dépassement pour les voitures avec un seul occupant.",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-demerit-seatbelts-199",
+  "category": "demerit-points",
+  "question": "Un conducteur est reconnu coupable de ne pas porter sa ceinture de sécurité et de permettre à un enfant de voyager sans ceinture. Combien de points d’inaptitude les infractions liées à la ceinture peuvent-elles ajouter au dossier du conducteur?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les infractions liées à la ceinture de sécurité entraînent 2 points d’inaptitude pour le conducteur.",
+  "image": "/signs/q-demerit-seatbelts-130.png"
+},
+{
+  "id": "q-demerit-fail-yield-sign-200",
+  "category": "demerit-points",
+  "question": "Vous forcez votre passage dans la circulation à ce panneau CÉDEZ et êtes reconnu coupable de ne pas avoir cédé le passage. Combien de points d’inaptitude sont ajoutés?",
+  "choices": [
+    "2 points d’inaptitude",
+    "3 points d’inaptitude",
+    "4 points d’inaptitude",
+    "6 points d’inaptitude"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ne pas céder le passage est une infraction de 3 points en Ontario.",
+  "image": "/signs/yield-sign.jpg"
+},
+  {
+  "id": "q-red-light-camera-201",
+  "question": "À quoi ce panneau avertit-il les conducteurs?",
+  "choices": [
+    "Le feu de circulation est hors service",
+    "Une caméra de feu rouge surveille l’intersection",
+    "Seuls les véhicules d’urgence peuvent passer au rouge",
+    "Le prochain feu est activé par les piétons"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le symbole de caméra sous le feu de circulation indique qu’un dispositif d’application photo enregistre les véhicules qui passent au feu rouge.",
+  "image": "/signs/q-red-light-camera.png"
+},
+{
+  "id": "q-yield-sign-202",
+  "question": "Lorsque vous approchez de ce panneau CÉDEZ et que la circulation est présente sur la route principale, que devez-vous faire?",
+  "choices": [
+    "Ralentir et arrêter si nécessaire pour laisser passer la circulation",
+    "Traverser à vitesse normale",
+    "Arrêter même si la voie est libre",
+    "Forcer votre passage parce que vous avez la priorité"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un panneau cédez signifie que vous devez accorder la priorité à la circulation sur la route principale. Ralentissez, soyez prêt à arrêter et avancez seulement lorsqu’il y a un espace sécuritaire.",
+  "image": "/signs/yield-sign.jpg"
+},
+{
+  "id": "q-do-not-enter-203",
+  "question": "Vous voyez ce panneau SENS INTERDIT au début d’une voie. Que vous indique-t-il?",
+  "choices": [
+    "Vous ne devez pas entrer; la voie est réservée à la circulation venant en sens inverse",
+    "Vous pouvez entrer seulement pour tourner à gauche",
+    "La voie est réservée aux autobus seulement",
+    "Vous pouvez entrer si vous allumez vos feux de détresse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un panneau SENS INTERDIT signifie que la voie ou la chaussée est réservée à la circulation en sens inverse. Vous ne devez pas y entrer dans votre direction.",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-bump-warning-204",
+  "category": "signs-warning",
+  "question": "À quoi les conducteurs doivent-ils s’attendre plus loin?",
+  "choices": [
+    "Une bosse sur la chaussée",
+    "Un virage serré",
+    "Un panneau d’arrêt",
+    "Un passage pour piétons"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs devraient réduire leur vitesse pour garder le contrôle sur une chaussée inégale.",
+  "image": "/signs/bump-sign.jpg"
+},
+{
+  "id": "q-ped-crossing-waiting-205",
+  "question": "Vous voyez ce panneau de passage pour piétons et une personne qui attend au bord du passage. Que devez-vous faire?",
+  "choices": [
+    "Ralentir et être prêt à vous arrêter pour laisser le piéton traverser en toute sécurité",
+    "Accélérer pour passer avant que le piéton ne commence à traverser",
+    "Klaxonner pour dire au piéton d’attendre",
+    "Ignorer le piéton parce qu’il n’y a pas de feux de circulation"
+  ],
+  "correctIndex": 0,
+  "explanation": "À un passage pour piétons, vous devez être prêt à vous arrêter et permettre aux piétons en attente de traverser en toute sécurité avant de continuer.",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
