@@ -1,9 +1,6 @@
 [
   {
     "id": "q-no-left-turn-sign-1",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "What does this sign mean?",
     "choices": [
       "Left turns allowed only at night",
@@ -13,15 +10,10 @@
     ],
     "correctIndex": 1,
     "explanation": "A red circle with a slash always means a prohibition. The arrow pointing left with a slash means no left turns are allowed.",
-    
-    "image": "/signs/no-left-turn.jpg",
-    "notes": "Original question aligned to Ontario signage."
+        "image": "/signs/no-left-turn.jpg"
   },
   {
     "id": "q-stop-complete-2",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "At a stop sign, where must you stop if a stop line is painted?",
     "choices": [
       "Anywhere before the intersection",
@@ -31,20 +23,10 @@
     ],
     "correctIndex": 2,
     "explanation": "You must come to a complete stop at the painted stop line. If there’s no stop line, stop at the crosswalk; if none, at the edge of the sidewalk; if none, at the edge of the intersection.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Stopping",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
-      }
-    ],
-    "image": "/signs/q-1-stop-painted-line.png",
-    "notes": "Original question authored for this app. We do not copy third-party practice tests."
+    "image": "/signs/q-1-stop-painted-line.png"
   },
   {
     "id": "q-bike-warning-3",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This sign appears ahead. What does it warn you about?",
     "choices": [
       "Bicycles are prohibited on this road",
@@ -54,19 +36,10 @@
     ],
     "correctIndex": 1,
     "explanation": "A yellow diamond bicycle symbol is a warning sign to watch for cyclists and be prepared to slow down or yield as needed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/bike-lane.jpg",
-    "notes": "Original question aligned to Ontario warning sign conventions."
+    "image": "/signs/bike-lane.jpg"
   },
   {
   "id": "q-drink-drive-first-offence-4",
-  "brand": "Prep test G1",
-  "lang": "en",
   "category": "alcohol-and-driving",
   "question": "Following a first conviction for drinking and driving, how long is a driver’s licence suspended?",
   "choices": [
@@ -81,9 +54,6 @@
 },
   {
     "id": "q-do-not-enter-5",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this sign at the entrance to a roadway. What must you do?",
     "choices": [
       "Proceed slowly and keep right",
@@ -93,19 +63,10 @@
     ],
     "correctIndex": 2,
     "explanation": "The red circle with a white horizontal bar means DO NOT ENTER — you are facing opposing traffic (e.g., the wrong end of a one-way).",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
-      }
-    ],
-    "image": "/signs/no-entry.jpg",
-    "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
+    "image": "/signs/no-entry.jpg"
   },
   {
   "id": "q-demerit-fail-remain-6",
-  "brand": "Prep test G1",
-  "lang": "en",
   "category": "demerit-points",
   "question": "Failing to remain at the scene of a collision results in how many demerit points?",
   "choices": [
@@ -116,14 +77,10 @@
   ],
   "correctIndex": 3,
   "explanation": "Failing to remain at the scene of a collision results in 7 demerit points.",
-  "sources": [],
   "image": "/signs/q-fail-remain-collision-262.png"
 },
   {
     "id": "q-road-closed-7",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "You see this sign ahead. What does it mean for traffic on your approach?",
     "choices": [
       "Detour ahead — reduce speed to 30 km/h",
@@ -133,20 +90,10 @@
     ],
     "correctIndex": 1,
     "explanation": "A ROAD CLOSED sign means the roadway is closed to traffic. Do not proceed; follow posted detours or instructions.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-closed.jpg",
-    "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+    "image": "/signs/road-closed.jpg"
   },
   {
     "id": "q-two-second-rule-8",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "What is the minimum safe following distance under good conditions for most passenger vehicles?",
     "choices": [
       "One second behind the vehicle ahead",
@@ -156,20 +103,10 @@
     ],
     "correctIndex": 1,
     "explanation": "Use at least the two-second rule to maintain a safe following distance under good conditions. Increase the gap in poor weather or when visibility is low.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
-        "url": "https://www.ontario.ca/book/export/html/80365"
-      }
-    ],
-    "image": "/signs/q-7-following-disctance.png",
-    "notes": "Original question; aligns to handbook guidance."
+    "image": "/signs/q-7-following-disctance.png"
   },
   {
     "id": "q-sign-winding-road-9",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "A yellow diamond sign showing a winding arrow means:",
     "choices": [
       "Road ahead is straight",
@@ -179,20 +116,10 @@
     ],
     "correctIndex": 1,
     "explanation": "A winding road sign warns of several curves ahead. Slow down and be prepared for changing direction.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/q-sign-winding-road-78.png",
-    "notes": "Original winding-road sign question."
+    "image": "/signs/q-sign-winding-road-78.png"
   },
   {
     "id": "q-roundabout-yield-10",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "Approaching a roundabout, what must you do before entering?",
     "choices": [
       "Enter quickly and claim your lane",
@@ -202,20 +129,10 @@
     ],
     "correctIndex": 2,
     "explanation": "Slow down and yield to circulating traffic and pedestrians. Enter only when there is a safe gap; then signal right when exiting.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/q-11-roundabout.jpg",
-    "notes": "Original question aligned to the roundabout entry/yield rules."
+    "image": "/signs/q-11-roundabout.jpg"
   },
 {
   "id": "q-no-idling-3min-11",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What environmental rule is enforced here?",
   "choices": [
     "Engines must not idle longer than 3 minutes",
@@ -225,20 +142,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign limits engine idling time to reduce emissions and pollution.",
-  "sources": [
-    {
-      "title": "Anti-Idling Regulations",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-no-idling-3min.png"
 },
 
 {
   "id": "q-airport-ahead-12",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What destination does this sign point to?",
   "choices": [
     "An airport access route",
@@ -248,20 +156,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The airplane icon directs drivers toward airport facilities.",
-  "sources": [
-    {
-      "title": "Guide Signs — Transportation",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-airport-ahead.png"
 },
 
 {
   "id": "q-novice-driver-n-13",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What information does this symbol provide to other drivers?",
   "choices": [
     "The driver is new or inexperienced",
@@ -271,20 +170,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The 'N' symbol identifies a novice driver and encourages patience from others.",
-  "sources": [
-    {
-      "title": "Graduated Licensing Identification",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-novice-driver.png"
 },
 
 {
   "id": "q-hand-signal-left-turn-14",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What intention is shown by this hand signal?",
   "choices": [
     "A left turn",
@@ -294,20 +184,11 @@
   ],
   "correctIndex": 0,
   "explanation": "An arm extended straight out signals the driver's intention to turn left.",
-  "sources": [
-    {
-      "title": "Driver Hand Signals",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-hand-signal-left-turn.png"
 },
 
 {
   "id": "q-mandatory-right-turn-15",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What movement must drivers make?",
   "choices": [
     "Turn right",
@@ -317,20 +198,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign requires all vehicles to turn right at the indicated location.",
-  "sources": [
-    {
-      "title": "Mandatory Direction Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
   "image": "/signs/q-mandatory-right-turn.png"
 },
 
 {
-  "id": "q-hazard-marker-16",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  "id": "q-hazard-marker-16"
   "question": "What should drivers do when approaching this marker?",
   "choices": [
     "Steer away from the obstruction",
@@ -340,20 +212,11 @@
   ],
   "correctIndex": 0,
   "explanation": "Diagonal markings highlight a fixed hazard near the roadway edge.",
-  "sources": [
-    {
-      "title": "Hazard Markers",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hazard-marker.png"
+   "image": "/signs/q-hazard-marker.png"
 },
 
 {
   "id": "q-hov-bus-2plus-17",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "Which vehicles are allowed in this lane?",
   "choices": [
     "Buses and vehicles carrying two or more people",
@@ -363,20 +226,11 @@
   ],
   "correctIndex": 0,
   "explanation": "The diamond symbol marks an HOV lane reserved for higher-occupancy vehicles and buses.",
-  "sources": [
-    {
-      "title": "HOV Lane Rules",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hov-bus-2plus.png"
+   "image": "/signs/q-hov-bus-2plus.png"
 },
 
 {
   "id": "q-school-zone-40-when-flashing-18",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "When must drivers obey the posted 40 km/h limit?",
   "choices": [
     "When the amber lights are flashing",
@@ -386,20 +240,11 @@
   ],
   "correctIndex": 0,
   "explanation": "Flashing lights activate the reduced speed limit to improve safety near schools.",
-  "sources": [
-    {
-      "title": "School Zone Speed Limits",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-school-zone-40-when-flashing.png"
+   "image": "/signs/q-school-zone-40-when-flashing.png"
 },
 
 {
   "id": "q-no-passing-crossing-zone-19",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What rule applies from this point forward?",
   "choices": [
     "Drivers must not pass until beyond the crossing",
@@ -409,20 +254,11 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign enforces a no-passing zone approaching a marked crossing.",
-  "sources": [
-    {
-      "title": "Passing Restrictions",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-no-passing-crossing-zone.png"
+   "image": "/signs/q-no-passing-crossing-zone.png"
 },
 
   {
   "id": "q-low-clearance-3-9m-20",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What limitation does this sign communicate?",
   "choices": [
     "Vehicles over 3.9 metres tall cannot proceed",
@@ -432,19 +268,13 @@
   ],
   "correctIndex": 0,
   "explanation": "Drivers of tall vehicles must not enter if their height exceeds the posted clearance.",
-  "sources": [
-    {
-      "title": "Overhead Clearance Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-low-clearance-3-9m.png"
+    "image": "/signs/q-low-clearance-3-9m.png"
 },
 {
     "id": "q-speed-limit-80-21",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "What does this sign indicate?",
     "choices": [
       "Recommended maximum speed 80 km/h",
@@ -454,20 +284,10 @@
     ],
     "correctIndex": 2,
     "explanation": "A white rectangular sign with black numerals indicates the maximum legal speed in kilometres per hour under ideal driving conditions.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/speed-limit-80.jpg",
-    "notes": "Original question aligned with Ontario speed limit signage."
+     "image": "/signs/speed-limit-80.jpg"
   },
   {
     "id": "q-school-bus-20m-22",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "On a two-way road with no median, a school bus ahead of you stops with its upper red lights flashing. What must you do?",
     "choices": [
       "Slow to 10 km/h and pass with caution",
@@ -477,20 +297,10 @@
     ],
     "correctIndex": 1,
     "explanation": "When a school bus activates its red flashing lights (and/or stop arm), you must stop. If you are behind the bus, stop at least 20 metres away and remain stopped until the red lights stop flashing and the stop arm retracts. On roads with a median, only vehicles behind the bus must stop.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/question-2.png",
-    "notes": "Original question; do not copy third-party practice tests."
+    "image": "/signs/question-2.png"
   },
   {
     "id": "q-no-pedestrians-23",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "What does this regulatory sign mean?",
     "choices": [
       "Pedestrian crossover ahead",
@@ -500,20 +310,10 @@
     ],
     "correctIndex": 2,
     "explanation": "A pedestrian symbol within a red circle with a slash means pedestrians are prohibited beyond that sign.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
-      }
-    ],
-    "image": "/signs/no-crossing.jpg",
-    "notes": "Original question; matches Ontario regulatory prohibition style."
+   "image": "/signs/no-crossing.jpg"
   },
   {
     "id": "q-right-turn-on-red-24",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "When is it legal to make a right turn on a red light in Ontario?",
     "choices": [
       "Anytime you signal",
@@ -523,20 +323,10 @@
     ],
     "correctIndex": 2,
     "explanation": "You may turn right on red after coming to a full stop, provided there is no sign prohibiting it and you yield to pedestrians and other road users.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Changing directions",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-4-right-turn-on-red.png",
-    "notes": "Original wording; mirrors handbook guidance."
+    "image": "/signs/q-4-right-turn-on-red.png"
   },
   {
     "id": "q-no-passing-25",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "This sign shows two cars side-by-side within a red circle. What does it mean?",
     "choices": [
       "Passing is allowed if you signal",
@@ -546,21 +336,11 @@
     ],
     "correctIndex": 1,
     "explanation": "A red circle is a prohibition. The two-car symbol indicates NO PASSING — do not overtake other vehicles where this sign applies.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
-      }
-    ],
-    "image": "/signs/no-passing.jpg",
-    "notes": "Original question; ties sign meaning to passing rules."
+    "image": "/signs/no-passing.jpg"
   },
 
   {
     "id": "q-school-crossing-guard-26",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "A school crossing guard steps into the road holding a red-and-white stop sign. What must you do?",
     "choices": [
       "Slow down and pass carefully if no children are on the crosswalk",
@@ -570,24 +350,10 @@
     ],
     "correctIndex": 2,
     "explanation": "You must stop before reaching the crossing and remain stopped until all people—including the school crossing guard—have cleared the entire roadway and it is safe to proceed.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
-      },
-      {
-        "title": "Driving near pedestrian crossovers and school crossings",
-        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
-      }
-    ],
-    "image": "/signs/q-6-school-guard.png",
-    "notes": "Original question; summarizes the rule for school crossings."
+    "image": "/signs/q-6-school-guard.png"
   },
   {
     "id": "q-sign-keep-right-island-27",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "A rectangular sign with an arrow curving around a traffic island and the words 'KEEP RIGHT' means:",
     "choices": [
       "You may pass on either side",
@@ -597,20 +363,10 @@
     ],
     "correctIndex": 1,
     "explanation": "The sign means you must keep right of the traffic island or obstruction.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/q-sign-keep-right-island-77.png",
-    "notes": "Original keep-right sign question."
+    "image": "/signs/q-sign-keep-right-island-77.png"
   },
   {
     "id": "q-yield-be-prepared-to-stop-28",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "Approaching a YIELD sign and cross traffic is present. What must you do?",
     "choices": [
       "Proceed without stopping if you signal",
@@ -620,20 +376,10 @@
     ],
     "correctIndex": 1,
     "explanation": "A YIELD sign means you must slow down, be ready to stop, and give the right-of-way to traffic on the road you’re entering and to pedestrians. Stop if required.",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-      }
-    ],
-    "image": "/signs/yield-sign.jpg",
-    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+    "image": "/signs/yield-sign.jpg"
   },
   {
   "id": "q-swing-bridge-ahead-29",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What should drivers be prepared for ahead?",
   "choices": [
     "A bridge that may open to allow boats through",
@@ -643,19 +389,10 @@
   ],
   "correctIndex": 0,
   "explanation": "This sign warns that a movable bridge may open, requiring vehicles to stop and wait.",
-  "sources": [
-    {
-      "title": "Bridge Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-swing-bridge-ahead.png"
+   "image": "/signs/q-swing-bridge-ahead.png"
 },
   {
   "id": "q-demerit-fail-stop-police-30",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
   "question": "Failing to stop when signaled or asked by a police officer results in how many demerit points?",
   "choices": [
     "3 demerit points",
@@ -665,14 +402,10 @@
   ],
   "correctIndex": 2,
   "explanation": "Failing to stop when signaled or asked by a police officer results in 7 demerit points.",
-  "sources": [],
-  "image": "/signs/q-fail-stop-police-271.png"
+   "image": "/signs/q-fail-stop-police-271.png"
 },
   {
     "id": "q-pxo-wait-clear-31",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "At a pedestrian crossover (PXO) with flashing beacons, when can you proceed?",
     "choices": [
       "As soon as the pedestrian steps onto the curb on your half of the road",
@@ -682,20 +415,13 @@
     ],
     "correctIndex": 2,
     "explanation": "You must stop for pedestrians at PXOs and remain stopped until they have completely crossed and are fully off the roadway. Proceed only when it’s safe.",
-    "sources": [
-      {
-        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
-        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
-      }
-    ],
-    "image": "/signs/q-13-cross-beacon.png",
-    "notes": "Original question aligned to PXO rules."
+    "image": "/signs/q-13-cross-beacon.png"
   },
   {
     "id": "q-roundabout-keep-right-32",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "You see this circular blue sign with white arrows before a roundabout. What should you do?",
     "choices": [
       "Enter quickly and signal left",
@@ -716,9 +442,9 @@
   },
   {
     "id": "q-divided-road-bus-33",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "On a road divided by a median, a school bus on the opposite side stops with red lights flashing. What must you do?",
     "choices": [
       "Stop immediately",
@@ -740,9 +466,9 @@
 
   {
     "id": "q-seatbelt-34",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When must seat belts be worn in Ontario?",
     "choices": [
       "Only on highways",
@@ -763,8 +489,8 @@
   },
   {
   "id": "q-demerit-careless-driving-35",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "Careless driving results in how many demerit points?",
   "choices": [
@@ -780,9 +506,9 @@
 },
   {
     "id": "q-icy-bridge-36",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "A sign warns “Bridge Freezes Before Road.” What should you do?",
     "choices": [
       "Accelerate to cross quickly",
@@ -803,9 +529,9 @@
   },
   {
     "id": "q-hydroplane-37",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "Your tires begin to hydroplane on a wet road. What should you do?",
     "choices": [
       "Brake hard and steer sharply",
@@ -826,9 +552,9 @@
   },
   {
     "id": "q-turn-signal-38",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "How far ahead should you signal before turning or changing lanes?",
     "choices": [
       "At least 30 metres (100 ft)",
@@ -849,9 +575,9 @@
   },
   {
     "id": "q-horn-use-39",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When should you use your horn?",
     "choices": [
       "To greet a friend",
@@ -872,8 +598,8 @@
   },
   {
   "id": "q-demerit-racing-40",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "Racing results in how many demerit points?",
   "choices": [
@@ -890,9 +616,9 @@
 
   {
     "id": "q-sign-narrow-bridge-41",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A yellow diamond sign showing a narrowing shape means:",
     "choices": [
       "Wide bridge ahead",
@@ -913,9 +639,9 @@
   },
   {
     "id": "q-sign-divided-highway-42",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A yellow diamond sign showing one line splitting around a centre shape means:",
     "choices": [
       "Two-way traffic ahead",
@@ -936,9 +662,9 @@
   },
   {
     "id": "q-max-speed-40-43",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "What does this speed limit sign mean?",
     "choices": [
       "The maximum permitted speed is 40 km/h",
@@ -959,9 +685,9 @@
   },
   {
     "id": "q-no-bicycles-44",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sign at the entrance to a roadway. What does it mean?",
     "choices": [
       "Bicycles are not allowed on this road",
@@ -982,9 +708,9 @@
   },
   {
     "id": "q-no-parking-45",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "What does this sign tell drivers about parking?",
     "choices": [
       "Parking is not allowed where the sign applies",
@@ -1005,9 +731,9 @@
   },
   {
     "id": "q-no-pedestrians-46",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "This sign is posted at the entrance to a roadway. What does it mean?",
     "choices": [
       "No pedestrians are allowed to cross",
@@ -1028,9 +754,9 @@
   },
   {
     "id": "q-no-snowmobiles-47",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sign on a winter trail entrance. What does it mean?",
     "choices": [
       "Snowmobiles are not allowed past this sign",
@@ -1051,9 +777,9 @@
   },
   {
     "id": "q-no-right-turn-48",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sign at an intersection. What does it mean?",
     "choices": [
       "Right turns are not allowed at this intersection",
@@ -1074,9 +800,9 @@
   },
   {
     "id": "q-no-u-turn-49",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "What does this sign tell drivers about U-turns?",
     "choices": [
       "U-turns are not allowed",
@@ -1097,9 +823,9 @@
   },
   {
   "id": "q-water-over-road-50",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What driving condition may exist ahead?",
   "choices": [
     "Water may be flowing across the roadway",
@@ -1120,9 +846,9 @@
 
 {
   "id": "q-falling-rocks-51",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What hazard should drivers be alert for?",
   "choices": [
     "Falling rocks near the roadway",
@@ -1143,9 +869,9 @@
 
 {
   "id": "q-two-way-traffic-ahead-52",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What change in traffic flow does this sign warn of?",
   "choices": [
     "Vehicles will be traveling in both directions",
@@ -1166,9 +892,9 @@
 
 {
   "id": "q-hand-signal-slow-stop-53",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What action is the driver communicating with this hand signal?",
   "choices": [
     "Reducing speed or stopping",
@@ -1189,9 +915,9 @@
 
 {
   "id": "q-reserved-lane-bicycles-54",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "Who may use the lane indicated by this sign?",
   "choices": [
     "Bicycles only",
@@ -1212,9 +938,9 @@
 
 {
   "id": "q-parking-30-min-55",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What parking rule applies in this area?",
   "choices": [
     "Parking is allowed but limited to 30 minutes",
@@ -2192,9 +1918,9 @@
 },
   {
     "id": "q-roundabout-yield-128",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this roundabout sign ahead. What is the correct way to enter the roundabout?",
     "choices": [
       "Slow down, yield to traffic already in the roundabout, and enter when there is a safe gap",
@@ -2215,9 +1941,9 @@
   },
   {
   "id": "q-hand-signal-slow-stop-129",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this hand signal indicate from the driver?",
   "choices": [
     "The driver is slowing down or stopping",
@@ -2237,9 +1963,9 @@
 },
  {
   "id": "q-permitted-action-130",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does a green circle sign typically indicate?",
   "choices": [
     "An action is permitted",
@@ -2259,9 +1985,9 @@
 },
   {
   "id": "q-snowmobile-crossing-sign-131",
-  "brand": "Prep test G1",
-  "lang": "en",
-    "category": "signs-regulatory",
+  
+  
+    
   "question": "What does this sign warn drivers about?",
   "choices": [
     "A designated snowmobile parking area ahead",
@@ -2276,9 +2002,9 @@
 },
 {
   "id": "q-right-lane-must-exit-sign-132",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Only the right lane may continue straight",
@@ -2294,9 +2020,9 @@
 
 {
   "id": "q-hand-signal-right-turn-133",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this hand signal indicate when a driver's left arm is bent upward at a 90-degree angle?",
   "choices": [
     "The driver is slowing down or stopping",
@@ -2312,9 +2038,9 @@
 
 {
   "id": "q-warning-steep-hill-trucks-134",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this road sign warn drivers about?",
   "choices": [
     "A truck inspection station ahead",
@@ -2330,9 +2056,9 @@
 
   {
   "id": "q-keep-right-except-to-pass-135",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign mean?",
   "choices": [
     "You must stay in the right lane unless you are passing another vehicle",
@@ -2352,9 +2078,6 @@
 },
   {
   "id": "q-warning-hidden-intersection-136",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this road sign indicate to drivers?",
   "choices": [
     "A hidden driveway on the right",
@@ -2364,14 +2087,10 @@
   ],
   "correctIndex": 1,
   "explanation": "This warning sign indicates a hidden intersection ahead where a side road joins from the right. The supplemental 'HIDDEN' tab warns drivers that the side road may be difficult to see due to hills, curves, trees, or other obstructions, so extra caution is required.",
-  "sources": [],
-  "image": "/signs/hidden-intersection.png"
+    "image": "/signs/hidden-intersection.png"
 },
 {
   "id": "q-regulatory-no-parking-accessible-permit-137",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this sign indicate?",
   "choices": [
     "Parking is not allowed at any time for any vehicle",
@@ -2381,15 +2100,10 @@
   ],
   "correctIndex": 2,
   "explanation": "This regulatory sign means parking is not permitted for the general public. Only vehicles displaying a valid accessible (disabled) parking permit are allowed to park in this space. Unauthorized vehicles may be fined or towed.",
-  "sources": [],
-  "image": "/signs/handicapped-parking-sign.png"
+   "image": "/signs/handicapped-parking-sign.png"
 },
-
 {
   "id": "q-regulatory-no-straight-ahead-138",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
   "question": "What does this traffic sign mean?",
   "choices": [
     "You must proceed straight through the intersection",
@@ -2399,15 +2113,13 @@
   ],
   "correctIndex": 2,
   "explanation": "This regulatory sign indicates that drivers are not allowed to continue straight through the intersection. Vehicles must turn left or right, as permitted by other signs or signals.",
-  "sources": [],
-  "image": "/signs/no-straight-ahead.png"
+   "image": "/signs/no-straight-ahead.png"
 },
-
 {
   "id": "q-regulatory-no-right-turn-on-red-139",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this traffic sign mean?",
   "choices": [
     "Right turns are not allowed at any time",
@@ -2422,9 +2134,9 @@
 },
 {
   "id": "q-regulatory-no-left-turn-on-red-140",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this traffic sign mean?",
   "choices": [
     "Left turns are not allowed at any time",
@@ -2440,9 +2152,9 @@
 
   {
     "id": "q-night-driving-speed-141",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "At night, how should you adjust your speed, even if the posted speed limit is higher?",
     "choices": [
       "Drive slowly enough that you can stop within the distance lit by your headlights",
@@ -2463,9 +2175,9 @@
   },
   {
     "id": "q-intersections-right-of-way-142",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "At a four-way stop where all vehicles arrive around the same time, which driver should normally go first?",
     "choices": [
       "The driver who comes to a complete stop first and proceeds when it is safe",
@@ -2486,9 +2198,9 @@
   },
   {
     "id": "q-lane-change-143",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "Before changing lanes on a multi-lane road, what is the correct sequence?",
     "choices": [
       "Check mirrors, signal, shoulder check, then change lanes when safe",
@@ -2509,9 +2221,9 @@
   },
   {
     "id": "q-blind-spots-144",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "Why is a shoulder check important even if you have properly adjusted mirrors?",
     "choices": [
       "There are areas beside your vehicle that mirrors cannot show (blind spots)",
@@ -2532,9 +2244,9 @@
   },
   {
     "id": "q-expressway-merge-145",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When entering an expressway from an on-ramp, what should you do on the acceleration lane?",
     "choices": [
       "Signal, match the speed of traffic, and merge when there is a safe gap",
@@ -2555,9 +2267,9 @@
   },
   {
     "id": "q-expressway-exit-146",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When exiting an expressway, when should you start to slow down?",
     "choices": [
       "After you have entered the deceleration lane or exit ramp",
@@ -2578,9 +2290,9 @@
   },
   {
     "id": "q-emergency-vehicles-147",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On a two-way road, you hear and see an emergency vehicle with flashing lights and siren approaching from behind. What must you do?",
     "choices": [
       "Move as far to the right as possible and stop until it has passed",
@@ -2601,9 +2313,9 @@
   },
   {
     "id": "q-move-over-law-148",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On a multi-lane highway, you see a stopped emergency vehicle with flashing lights on the shoulder of your lane. What should you do if traffic allows?",
     "choices": [
       "Move into another lane away from the emergency vehicle and slow down",
@@ -2624,9 +2336,9 @@
   },
   {
     "id": "q-sharing-cyclists-1m-149",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When passing a cyclist on a two-lane road, how should you do it safely?",
     "choices": [
       "Slow down and leave at least one metre of space between your vehicle and the cyclist when passing",
@@ -2647,9 +2359,9 @@
   },
   {
     "id": "q-dooring-cyclist-150",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "You are parked beside a bike lane and want to open your driver’s door. What is the safest way to avoid hitting a cyclist?",
     "choices": [
       "Check mirrors, shoulder check for cyclists, then open the door with your far hand",
@@ -2670,9 +2382,9 @@
   },
   {
     "id": "q-motorcycles-visibility-151",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "Why must you take extra care when judging the speed and distance of oncoming motorcycles?",
     "choices": [
       "They are smaller and can appear farther away and slower than they really are",
@@ -2693,9 +2405,9 @@
   },
   {
     "id": "q-large-trucks-space-152",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When driving near large trucks, why should you avoid travelling for long periods right beside them?",
     "choices": [
       "Trucks have large blind spots and need extra room to maneuver",
@@ -2716,9 +2428,9 @@
   },
   {
     "id": "q-trucks-wide-turns-153",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "A large truck signals a right turn and moves slightly to the left before turning. What should you do?",
     "choices": [
       "Do not move into the space on the right; the truck needs room to turn",
@@ -2739,9 +2451,9 @@
   },
   {
     "id": "q-winter-driving-distance-154",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On a snowy road with reduced traction, how should you adjust your following distance?",
     "choices": [
       "Increase it well beyond the normal two-second rule",
@@ -2761,8 +2473,8 @@
   },
   {
   "id": "q-demerit-rail-crossing-bus-driver-155",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "Failing to stop at an unprotected railway crossing (bus drivers only) results in how many demerit points?",
   "choices": [
@@ -2779,9 +2491,9 @@
 
   {
     "id": "q-hydroplaning-156",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "If your vehicle begins to hydroplane on a very wet road, what is the safest action?",
     "choices": [
       "Ease off the accelerator and steer straight until you regain traction",
@@ -2802,9 +2514,9 @@
   },
   {
     "id": "q-headlights-visibility-157",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When must you use your headlights, even during the daytime?",
     "choices": [
       "Whenever visibility is poor enough that you cannot clearly see people or vehicles 150 metres ahead",
@@ -2825,9 +2537,9 @@
   },
   {
     "id": "q-parking-uphill-curb-158",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When parking uphill on a street with a curb, how should you turn your front wheels?",
     "choices": [
       "Turn the front wheels away from the curb and set the parking brake",
@@ -2848,8 +2560,8 @@
   },
   {
     "id": "q-demerit-fail-yield-ped-159",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "At a marked pedestrian crossing, you fail to stop for a person clearly in the crosswalk and are convicted. How many demerit points do you receive?",
     "choices": [
@@ -2871,8 +2583,8 @@
   },
   {
     "id": "q-demerit-fail-remain-160",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "After a minor collision, a driver leaves without stopping to give information and is convicted of failing to remain. How many demerit points does this carry?",
     "choices": [
@@ -2894,9 +2606,9 @@
   },
   {
     "id": "q-sharp-curve-left-speed-161",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sharp left curve warning sign with an advisory speed plate under it. How should you drive?",
     "choices": [
       "Slow down to about the advisory speed and steer smoothly through the curve",
@@ -2917,9 +2629,9 @@
   },
   {
     "id": "q-sharp-curve-right-passing-162",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "As you approach this sharp right curve sign on a two-lane road, what is the safest approach to passing?",
     "choices": [
       "Do not pass other vehicles in or near the sharp curve",
@@ -2940,9 +2652,9 @@
   },
   {
   "id": "q-bicycles-permitted-163",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Bicycles are allowed to use this roadway or lane",
@@ -2962,9 +2674,9 @@
 },
   {
   "id": "q-school-zone-164",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn drivers about?",
   "choices": [
     "School zone, slow down and watch for children crossing the road",
@@ -2984,9 +2696,9 @@
 },
   {
   "id": "q-parking-30-min-165",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Parking is allowed for a maximum of 30 minutes during posted hours",
@@ -3006,9 +2718,9 @@
 },
   {
     "id": "q-stop-sign-where-to-stop-166",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "At this STOP sign with a marked stop line, where must you stop?",
     "choices": [
       "Just before the stop line or crosswalk",
@@ -3029,9 +2741,9 @@
   },
   {
     "id": "q-traffic-signal-ahead-167",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sign while driving on a high-speed road. What does it warn you about?",
     "choices": [
       "A traffic signal is coming up; be ready to slow down or stop",
@@ -3052,9 +2764,9 @@
   },
   {
     "id": "q-accessible-parking-168",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this sign in a parking lot. What does it mean?",
     "choices": [
       "The space is reserved for vehicles displaying an accessible parking permit",
@@ -3075,9 +2787,9 @@
   },
   {
     "id": "q-parking-downhill-no-curb-169",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When parking downhill on a road with no curb, how should you position your front wheels?",
     "choices": [
       "Turn the wheels toward the right shoulder and set the parking brake",
@@ -3098,9 +2810,9 @@
   },
   {
     "id": "q-parking-fire-hydrant-170",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Why is parking too close to a fire hydrant prohibited?",
     "choices": [
       "Firefighters must be able to reach the hydrant quickly in an emergency",
@@ -3121,9 +2833,9 @@
   },
   {
     "id": "q-parking-crosswalk-171",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Why should you never park within a crosswalk or very close to one?",
     "choices": [
       "It blocks visibility for pedestrians and drivers at the crossing",
@@ -3144,9 +2856,9 @@
   },
   {
     "id": "q-railway-stall-172",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "If your vehicle stalls on a railway crossing and a train is approaching, what should you do first?",
     "choices": [
       "Get everyone out of the vehicle and move away from the tracks at a 45° angle towards the train",
@@ -3167,9 +2879,9 @@
   },
   {
     "id": "q-tire-blowout-173",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "If a front tire blows out while you are driving, what is the safest initial reaction?",
     "choices": [
       "Hold the steering wheel firmly, ease off the accelerator and steer straight",
@@ -3190,9 +2902,9 @@
   },
   {
     "id": "q-skid-rear-174",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On an icy road, your rear wheels begin to skid sideways. What should you do?",
     "choices": [
       "Steer gently in the direction you want the front of the car to go and avoid braking hard",
@@ -3213,9 +2925,9 @@
   },
   {
     "id": "q-fatigue-driving-175",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "You start to feel very drowsy while driving. What is the safest decision?",
     "choices": [
       "Find a safe place to stop and rest before continuing",
@@ -3236,9 +2948,9 @@
   },
   {
     "id": "q-tailgater-176",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "Another driver is following you too closely (tailgating). What is the safest way to respond?",
     "choices": [
       "Gradually increase your following distance and, when safe, change lanes or let them pass",
@@ -3259,9 +2971,9 @@
   },
   {
     "id": "q-mirrors-frequency-177",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "How often should you normally check your mirrors while driving on a straight road with light traffic?",
     "choices": [
       "Every few seconds, and before slowing, turning or changing lanes",
@@ -3282,9 +2994,9 @@
   },
   {
     "id": "q-impaired-zero-g1-178",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "For a G1 or G2 driver, what is the legal blood alcohol requirement while driving?",
     "choices": [
       "You must have zero alcohol in your blood (0.00 BAC)",
@@ -3305,9 +3017,9 @@
   },
   {
     "id": "q-g1-supervisor-179",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Which of the following is a requirement for a G1 driver when driving on public roads?",
     "choices": [
       "A fully licensed driver with at least four years of experience must sit in the front passenger seat",
@@ -3328,9 +3040,9 @@
   },
   {
     "id": "q-g1-roads-restrictions-180",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Which statement about G1 drivers and high-speed roads is correct?",
     "choices": [
       "G1 drivers are not allowed on certain high-speed expressways unless accompanied by a qualified driving instructor",
@@ -3351,9 +3063,9 @@
   },
   {
     "id": "q-g2-passengers-night-181",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Why does Ontario place certain night-time passenger restrictions on some G2 drivers under 20?",
     "choices": [
       "To reduce the risk of serious collisions when novice drivers carry several teen passengers at night",
@@ -3374,9 +3086,9 @@
   },
   {
     "id": "q-collision-duties-182",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "You are involved in a collision with another vehicle and there are no serious injuries. What are you required to do?",
     "choices": [
       "Stop, exchange information with the other driver and follow reporting requirements",
@@ -3397,9 +3109,9 @@
   },
   {
     "id": "q-turn-signals-183",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When should you use your turn signal?",
     "choices": [
       "Whenever you plan to turn, change lanes, or move away from a parked position",
@@ -3420,9 +3132,9 @@
   },
   {
     "id": "q-back-up-safely-184",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "What is the safest way to back up a vehicle?",
     "choices": [
       "Check all around, look out the rear window and back up slowly",
@@ -3443,9 +3155,9 @@
   },
   {
     "id": "q-pedestrians-turning-185",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "You are turning right at an intersection and the light is green. A pedestrian begins crossing the street you are turning into. What must you do?",
     "choices": [
       "Yield to the pedestrian and wait until they have safely crossed",
@@ -3466,9 +3178,9 @@
   },
   {
     "id": "q-crosswalk-uncontrolled-186",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "At a crosswalk without traffic lights but with painted lines and signs, a pedestrian is waiting to cross. What is your responsibility?",
     "choices": [
       "Be prepared to stop and allow the pedestrian to cross safely",
@@ -3489,9 +3201,9 @@
   },
   {
   "id": "q-safe-speed-stopping-distance-187",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "rules-of-the-road",
+  
+  
+  
   "question": "No matter the driving conditions, you should always travel at a speed that allows you to do what?",
   "choices": [
     "Stop within 90 metres (300 feet)",
@@ -3506,9 +3218,9 @@
 
   {
     "id": "q-safe-following-distance-188",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When driving behind another vehicle in good weather, what is the safest minimum following distance?",
     "choices": [
       "At least two seconds behind the vehicle ahead",
@@ -3529,9 +3241,9 @@
   },
   {
     "id": "q-right-of-way-four-way-stop-189",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "At a four-way stop, two vehicles arrive at the same time. Who should proceed first?",
     "choices": [
       "The vehicle on the right has the right-of-way",
@@ -3552,9 +3264,9 @@
   },
   {
     "id": "q-blind-spots-check-190",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Before changing lanes on a multi-lane road, what must a driver do to check blind spots properly?",
     "choices": [
       "Look over the appropriate shoulder in addition to checking mirrors",
@@ -3575,9 +3287,9 @@
   },
   {
     "id": "q-high-beam-dimming-191",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When must you dim your high-beam headlights at night?",
     "choices": [
       "Whenever you are within 150 metres of an oncoming vehicle",
@@ -3598,9 +3310,9 @@
   },
   {
     "id": "q-emergency-vehicle-yield-192",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "If an emergency vehicle with flashing lights and siren approaches from behind, what must you do?",
     "choices": [
       "Signal, pull as far right as possible, and stop",
@@ -3621,8 +3333,8 @@
   },
  {
   "id": "q-improper-left-193",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "Improper left turns carry how many demerit points?",
   "choices": [
@@ -3638,9 +3350,9 @@
 },
   {
     "id": "q-school-bus-median-194",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "You are driving on a roadway divided by a median. A school bus on the opposite side stops with red lights flashing and stop arm extended. What must you do?",
     "choices": [
       "Stop and remain stopped until the bus moves",
@@ -3661,9 +3373,9 @@
   },
   {
     "id": "q-fire-hydrant-distance-195",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "How close are you allowed to park to a fire hydrant in Ontario?",
     "choices": [
       "Within one metre, as long as the hydrant is still visible",
@@ -3684,9 +3396,9 @@
   },
   {
     "id": "q-intersection-parking-distance-196",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On a road without traffic lights, how close are you allowed to park to an intersection or crosswalk?",
     "choices": [
       "You may park right at the corner if you signal",
@@ -3707,8 +3419,8 @@
   },
   {
   "id": "q-suspension-197",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerits-info",
   "question": "At how many demerit points is a novice driver's license suspended for 60 days?",
   "choices": [
@@ -3724,9 +3436,9 @@
 },
   {
     "id": "q-hov-lane-198",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "On a 400-series highway you see diamond symbols and HOV (carpool) lane signs. When are you allowed to use this lane?",
     "choices": [
       "Only when your vehicle has at least two people (or is an eligible vehicle such as a bus, motorcycle, or green-plate vehicle)",
@@ -3751,8 +3463,8 @@
   },
   {
     "id": "q-demerit-seatbelts-199",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "A driver is convicted of not wearing a seatbelt and allowing a child to ride unbelted. How many demerit points can seatbelt-related offences add to the driver’s record?",
     "choices": [
@@ -3774,8 +3486,8 @@
   },
   {
     "id": "q-demerit-fail-yield-sign-200",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "You force your way into traffic at this YIELD sign and are convicted of failing to yield the right-of-way. How many demerit points are added?",
     "choices": [
@@ -3797,9 +3509,9 @@
   },
   {
   "id": "q-red-light-camera-201",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign alert drivers to?",
   "choices": [
     "The traffic signal is out of service",
@@ -3819,9 +3531,9 @@
 },
   {
     "id": "q-yield-sign-202",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "When you approach this YIELD sign and traffic is present on the main road, what must you do?",
     "choices": [
       "Slow down and stop if necessary to let cross traffic go first",
@@ -3842,9 +3554,9 @@
   },
   {
     "id": "q-do-not-enter-203",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this DO NOT ENTER sign at the start of a lane. What does it tell you?",
     "choices": [
       "You must not enter; the lane is for traffic coming toward you",
@@ -3865,8 +3577,8 @@
   },
   {
   "id": "q-bump-warning-204",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "signs-warning",
   "question": "What should drivers expect ahead?",
   "choices": [
@@ -3883,9 +3595,9 @@
 
   {
     "id": "q-ped-crossing-waiting-205",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "You see this pedestrian crossing sign and a person waiting at the edge of the crosswalk. What should you do?",
     "choices": [
       "Slow down and be prepared to stop to let the pedestrian cross safely",
@@ -3906,9 +3618,9 @@
   },
   {
   "id": "q-two-way-traffic-ahead-206",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn drivers about?",
   "choices": [
     "Two-way traffic is ahead",
@@ -3928,9 +3640,9 @@
 },
  {
   "id": "q-truck-entrance-207",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Trucks may be entering or leaving the roadway ahead",
@@ -3950,9 +3662,9 @@
 },
   {
     "id": "q-208",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "This triangular orange reflective sign is used on:",
     "choices": [
       "Vehicles that travel slowly, such as farm machinery",
@@ -3967,9 +3679,9 @@
   },
   {
   "id": "q-bike-lane-209",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "A lane reserved for bicycles",
@@ -3985,9 +3697,9 @@
 
   {
     "id": "q-lane-control-signals-210",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
+    
+    
+  
     "question": "On a bridge you see lane-use control signals above each lane. The lane over you suddenly shows a red “X”. What should you do?",
     "choices": [
       "Change to a lane with a green arrow as soon as you can do so safely",
@@ -4012,9 +3724,9 @@
   },
   {
   "id": "q-bumps-ahead-211",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "How should drivers react to this sign?",
   "choices": [
     "Slow down for multiple bumps",
@@ -4029,9 +3741,9 @@
 },
 {
   "id": "q-construction-ahead-212",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn drivers about?",
   "choices": [
     "Construction ahead",
@@ -4046,9 +3758,9 @@
 },
 {
   "id": "q-deer-crossing-213",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What hazard is shown by this sign?",
   "choices": [
     "Wild animals crossing",
@@ -4063,9 +3775,9 @@
 },
 {
   "id": "q-divided-highway-begins-214",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "A divided highway begins",
@@ -4080,9 +3792,9 @@
 },
 {
   "id": "q-divided-highway-ends-215",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What change should drivers expect?",
   "choices": [
     "Oncoming traffic will no longer be separated",
@@ -4097,9 +3809,9 @@
 },
 {
   "id": "q-do-not-enter-216",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign mean?",
   "choices": [
     "Vehicles must not enter",
@@ -4114,9 +3826,9 @@
 },
 {
   "id": "q-hand-signal-right-217",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this hand signal show?",
   "choices": [
     "The driver intends to turn right",
@@ -4131,9 +3843,9 @@
 },
 {
   "id": "q-accessible-parking-218",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "Who may park here?",
   "choices": [
     "Vehicles with a valid accessible permit",
@@ -4148,9 +3860,9 @@
 },
 {
   "id": "q-hidden-intersection-219",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn drivers about?",
   "choices": [
     "A hidden intersection ahead",
@@ -4165,9 +3877,9 @@
 },
 {
   "id": "q-max-speed-40-220",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Maximum speed is 40 km/h",
@@ -4183,9 +3895,9 @@
 
   {
     "id": "q-221",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "If a front tire blows out while driving, what should you do first?",
     "choices": [
       "Grip the wheel firmly and steer straight",
@@ -4200,9 +3912,9 @@
   },
   {
     "id": "q-222",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "You see a sign marking a bus loading zone. What does this mean?",
     "choices": [
       "Only buses may stop here",
@@ -4217,9 +3929,9 @@
   },
   {
     "id": "q-223",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Parking in a designated accessible parking spot without a permit may result in:",
     "choices": [
       "Significant fines and towing",
@@ -4234,9 +3946,9 @@
   },
   {
     "id": "q-224",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "A centre lane marked with left-turn arrows in both directions is used for:",
     "choices": [
       "Left turns from either direction",
@@ -4251,9 +3963,9 @@
   },
   {
     "id": "q-225",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When must you stop at a railway crossing, even if no train is visible?",
     "choices": [
       "When flashing lights or gates are activated",
@@ -4268,9 +3980,9 @@
   },
   {
     "id": "q-226",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When passing a cyclist, drivers must leave at least:",
     "choices": [
       "1 metre of space",
@@ -4285,9 +3997,9 @@
   },
   {
     "id": "q-227",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "If you miss your exit on a freeway, you must:",
     "choices": [
       "Continue to the next exit",
@@ -4302,8 +4014,8 @@
   },
   {
   "id": "q-speeding-50-over-penalty-228",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "penalties-and-suspensions",
   "question": "A driver is convicted of travelling 50 km/h (30 mph) or more above the posted speed limit. Which penalty may be imposed by the court?",
   "choices": [
@@ -4319,8 +4031,8 @@
 
   {
     "id": "q-229",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "Impaired driving penalties for G1 drivers include:",
     "choices": [
@@ -4336,9 +4048,9 @@
   },
   {
     "id": "q-230",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "If a traffic signal is completely dark due to a power outage, treat the intersection as:",
     "choices": [
       "A four-way stop",
@@ -4353,9 +4065,9 @@
   },
   {
     "id": "q-231",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "The minimum recommended following distance under ideal conditions is:",
     "choices": [
       "At least 2 seconds",
@@ -4370,9 +4082,9 @@
   },
   {
     "id": "q-232",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Why do bridges freeze before the rest of the road?",
     "choices": [
       "They are exposed to cold air above and below",
@@ -4387,9 +4099,9 @@
   },
   {
     "id": "q-233",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "In Ontario, when is a left turn on a red light permitted?",
     "choices": [
       "Only from a one-way street onto another one-way street",
@@ -4404,9 +4116,9 @@
   },
   {
     "id": "q-234",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "In the absence of signs, what is the usual maximum speed limit on municipal roads in cities, towns, and villages in Ontario?",
     "choices": [
       "50 km/h",
@@ -4421,9 +4133,9 @@
   },
   {
     "id": "q-235",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "You are facing a steady amber (yellow) traffic light and are far enough back to stop safely. What should you do?",
     "choices": [
       "Stop before the intersection",
@@ -4438,8 +4150,8 @@
   },
   {
   "id": "q-speed-30to49-236",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "How many demerit points apply for speeding 30–49 km/h over the limit?",
   "choices": [
@@ -4455,9 +4167,9 @@
 },
   {
     "id": "q-237",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
+    
+    
+  
     "question": "A sign with a red 'P' and a red slash through it means:",
     "choices": [
       "No parking is allowed in this area",
@@ -4472,8 +4184,8 @@
   },
   {
   "id": "q-fail-signal-238",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to signal?",
   "choices": [
@@ -4489,8 +4201,8 @@
 },
   {
     "id": "q-demerit-improper-passing-239",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "A driver is convicted of improper passing where it is unsafe. How many demerit points does improper passing carry?",
     "choices": [
@@ -4512,8 +4224,8 @@
   },
   {
     "id": "q-demerit-obey-officer-240",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "A police officer gives you directions, but you ignore the signal and are convicted of failing to obey an officer. How many demerit points does this offence carry?",
     "choices": [
@@ -4535,9 +4247,9 @@
   },
  {
   "id": "q-snowmobiles-permitted-241",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign mean?",
   "choices": [
     "Snowmobiles are allowed on this trail or roadway",
@@ -4557,9 +4269,9 @@
 },
   {
     "id": "q-242",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A broken yellow centre line means:",
     "choices": [
       "Passing is allowed when safe",
@@ -4574,9 +4286,9 @@
   },
   {
     "id": "q-243",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A sign showing the pavement higher than the gravel beside it warns of:",
     "choices": [
       "A low or soft shoulder",
@@ -4591,9 +4303,9 @@
   },
   {
     "id": "q-244",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "An orange diamond-shaped sign generally indicates:",
     "choices": [
       "Road work or construction ahead",
@@ -4608,9 +4320,9 @@
   },
   {
   "id": "q-no-right-turn-on-red-245",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign indicate?",
   "choices": [
     "Right turns are prohibited on red light",
@@ -4630,9 +4342,9 @@
 },
   {
     "id": "q-246",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A rectangular white sign with black numbers such as '80' and the word 'MAXIMUM' means:",
     "choices": [
       "The maximum legal speed under ideal conditions is 80 km/h",
@@ -4647,9 +4359,9 @@
   },
   {
     "id": "q-247",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A sign showing the end of a school zone speed limit means:",
     "choices": [
       "You may resume the regular posted speed when safe",
@@ -4664,9 +4376,9 @@
   },
   {
     "id": "q-248",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
+    
+    
+    
     "question": "A sign showing the right lane ending and an arrow bending into the left lane means:",
     "choices": [
       "Right-lane traffic must merge left",
@@ -4681,8 +4393,8 @@
   },
   {
   "id": "q-narrow-bridge-249",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "signs-warning",
   "question": "What condition does this sign warn of?",
   "choices": [
@@ -4699,9 +4411,9 @@
 
   {
   "id": "q-right-left-curve-ahead-250",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this warning sign indicate?",
   "choices": [
     "The road ahead curves first to the right and then to the left",
@@ -4721,9 +4433,9 @@
 },
   {
   "id": "q-no-bicycles-251",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign prohibit?",
   "choices": [
     "Bicycles",
@@ -4738,9 +4450,9 @@
 },
 {
   "id": "q-no-parking-252",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign mean?",
   "choices": [
     "Parking is not allowed",
@@ -4756,9 +4468,9 @@
 
   {
   "id": "q-no-passing-253",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What driving action is prohibited?",
   "choices": [
     "Passing other vehicles",
@@ -4773,9 +4485,9 @@
 },
 {
   "id": "q-no-pedestrians-254",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "Who is not permitted here?",
   "choices": [
     "Pedestrians",
@@ -4790,9 +4502,9 @@
 },
 {
   "id": "q-no-u-turn-255",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What maneuver is prohibited?",
   "choices": [
     "Making a U-turn",
@@ -4807,9 +4519,9 @@
 },
 {
   "id": "q-pedestrian-crossing-256",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What should drivers be prepared for?",
   "choices": [
     "Pedestrians crossing",
@@ -4824,9 +4536,9 @@
 },
 {
   "id": "q-roundabout-257",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "How should drivers proceed?",
   "choices": [
     "Yield to traffic in the roundabout",
@@ -4841,9 +4553,9 @@
 },
 {
   "id": "q-hov-lane-258",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "Who may use this lane?",
   "choices": [
     "Vehicles with multiple occupants",
@@ -4858,9 +4570,9 @@
 },
  {
   "id": "q-stop-ahead-259",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn a driver of?",
   "choices": [
     "A stop sign is coming up ahead",
@@ -4880,9 +4592,9 @@
 },
   {
   "id": "q-railway-crossing-260",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
+  
+  
+  
   "question": "What does this sign warn of?",
   "choices": [
     "A railway crossing ahead",
@@ -4897,9 +4609,9 @@
 },
   {
     "id": "q-261",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "You begin to feel very tired while driving at night. What is the safest thing to do?",
     "choices": [
       "Find a safe place to stop and rest",
@@ -4914,8 +4626,8 @@
   },
   {
   "id": "q-fail-remain-collision-262",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "How many demerit points are assigned for failing to remain at a collision?",
   "choices": [
@@ -4930,9 +4642,9 @@
 },
   {
     "id": "q-263",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When is it acceptable to drive with snow or ice covering part of your windshield?",
     "choices": [
       "Never; you must fully clear your windshield and windows before driving",
@@ -4947,8 +4659,8 @@
   },
   {
   "id": "q-report-collision-damage-264",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "collisions-and-reporting",
   "question": "A motor vehicle collision must be reported to the police if there are injuries or if the total property damage is more than what amount?",
   "choices": [
@@ -4964,9 +4676,9 @@
 
   {
     "id": "q-265",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "Where is the safest place to install a child car seat in most passenger vehicles?",
     "choices": [
       "In the rear seat, away from active airbags",
@@ -4981,9 +4693,9 @@
   },
   {
     "id": "q-266",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "A properly worn seatbelt should:",
     "choices": [
       "Have the lap belt low over the hips and the shoulder belt across the chest",
@@ -4998,9 +4710,9 @@
   },
   {
     "id": "q-267",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "In rain, snow, or poor visibility, how should you adjust your following distance?",
     "choices": [
       "Increase it beyond two seconds",
@@ -5015,9 +4727,9 @@
   },
   {
     "id": "q-268",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When descending a steep, icy hill, you should:",
     "choices": [
       "Use a lower gear and brake gently",
@@ -5032,9 +4744,9 @@
   },
   {
     "id": "q-269",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "A green light without a green arrow when you are turning left means:",
     "choices": [
       "You may turn left when the way is clear and after yielding to oncoming traffic and pedestrians",
@@ -5049,9 +4761,9 @@
   },
   {
     "id": "q-270",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When entering a main road from a driveway or private road, you must:",
     "choices": [
       "Yield to all traffic on the main road",
@@ -5066,8 +4778,8 @@
   },
   {
   "id": "q-fail-stop-police-271",
-  "brand": "Prep test G1",
-  "lang": "en",
+  
+  
   "category": "demerit-points",
   "question": "How many demerit points are applied for failing to stop when signaled by police?",
   "choices": [
@@ -5082,9 +4794,9 @@
 },
   {
     "id": "q-272",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
+    
+    
+  
     "question": "A circular yellow sign with a black 'X' and two 'R's warns of:",
     "choices": [
       "An upcoming railway crossing",
@@ -5099,9 +4811,9 @@
   },
   {
     "id": "q-273",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "signs-regulatory",
+    
+    
+  
     "question": "A 'Loading Zone' sign usually means:",
     "choices": [
       "Stopping is allowed only for actively loading or unloading",
@@ -5116,9 +4828,9 @@
   },
   {
     "id": "q-274",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
+    
+    
+    
     "question": "When a transit bus signals to leave a stop in a built-up area, you should:",
     "choices": [
       "Yield when safe to allow the bus to re-enter traffic",
@@ -5133,9 +4845,9 @@
   },
   {
     "id": "q-275",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When turning left across oncoming traffic, you should begin your turn when:",
     "choices": [
       "There is a large enough gap to complete the turn without forcing other drivers to slow down suddenly",
@@ -5150,8 +4862,8 @@
   },
   {
     "id": "q-276",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "Running a red light in Ontario can result in:",
     "choices": [
@@ -5167,9 +4879,9 @@
   },
   {
     "id": "q-277",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When parallel parking uphill with a curb, how should you turn your front wheels?",
     "choices": [
       "Away from the curb",
@@ -5184,9 +4896,9 @@
   },
   {
     "id": "q-278",
-    "brand": "Prep test G1",
-    "lang": "en",
-  "category": "rules-of-the-road",
+    
+    
+  
     "question": "When parking downhill with a curb, how should you turn your front wheels?",
     "choices": [
       "Toward the curb",
@@ -5201,8 +4913,8 @@
   },
   {
     "id": "q-demerit-racing-279",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "A driver is convicted of stunt or street racing at extremely high speed. How many demerit points does stunt/racing carry in Ontario?",
     "choices": [
@@ -5224,8 +4936,8 @@
   },
   {
     "id": "q-demerit-new-fully-licensed-280",
-    "brand": "Prep test G1",
-    "lang": "en",
+    
+    
     "category": "demerit-points",
     "question": "For a fully licensed driver in Ontario, at how many demerit points can your licence be suspended?",
     "choices": [
