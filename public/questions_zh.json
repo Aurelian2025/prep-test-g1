@@ -3362,3 +3362,133 @@
   "explanation": "在行人过街处，你必须准备停车，并在继续行驶前让等待的行人安全通过。",
   "image": "/signs/pedestrian-crossing.jpg"
 },
+{
+  "id": "q-two-way-traffic-ahead-206",
+  "question": "此标志提醒驾驶员注意什么？",
+  "choices": [
+    "前方为双向行驶",
+    "单行道继续",
+    "超车道开始",
+    "道路缩窄为单车道"
+  ],
+  "correctIndex": 0,
+  "explanation": "相反方向的箭头表示前方道路有双向交通。",
+  "image": "/signs/q-two-way-traffic-ahead.png"
+},
+{
+  "id": "q-truck-entrance-207",
+  "question": "此标志表示什么？",
+  "choices": [
+    "前方可能有卡车驶入或驶出道路",
+    "只有卡车可以使用此车道",
+    "允许卡车停车",
+    "禁止卡车通行"
+  ],
+  "correctIndex": 0,
+  "explanation": "卡车符号提醒驾驶员注意可能有缓慢或转弯的重型车辆进入车道。",
+  "image": "/signs/q-truck-entrance.png"
+},
+{
+  "id": "q-208",
+  "question": "这种橙色反光三角形标志用于：",
+  "choices": [
+    "行驶缓慢的车辆，例如农用机械",
+    "仅限除雪车",
+    "仅限校车",
+    "紧急车辆"
+  ],
+  "correctIndex": 0,
+  "explanation": "慢速车辆标志表示该车辆通常以低于40公里/小时的速度行驶。",
+  "image": "/signs/q-217-triangular-sign.png"
+},
+{
+  "id": "q-bike-lane-209",
+  "question": "此标志表示什么？",
+  "choices": [
+    "自行车专用车道",
+    "禁止自行车通行",
+    "仅限摩托车",
+    "仅限行人"
+  ],
+  "correctIndex": 0,
+  "explanation": "此标志表示为自行车交通指定的车道。",
+  "image": "/signs/bike-lane.jpg"
+},
+{
+  "id": "q-lane-control-signals-210",
+  "question": "在桥上你看到每条车道上方都有车道使用控制信号。你上方的车道突然显示红色“X”。你应该怎么做？",
+  "choices": [
+    "在安全的情况下尽快变换到带有绿色箭头的车道",
+    "如果你所在车道仍在行驶就忽略它",
+    "在车道内停车并等待信号变为绿色",
+    "按喇叭并继续在当前车道行驶"
+  ],
+  "correctIndex": 0,
+  "explanation": "车道上方的红色“X”表示该车道已关闭，禁止通行。应安全地变换到标有绿色箭头的车道。",
+  "image": "/signs/q-213-x-sign.png"
+},
+ {
+  "id": "q-bumps-ahead-211",
+  "question": "驾驶员应如何应对此标志？",
+  "choices": [
+    "为多个颠簸减速",
+    "立即变道",
+    "完全停车",
+    "鸣喇叭"
+  ],
+  "correctIndex": 0,
+  "explanation": "前方有多个颠簸，驾驶员需要减速以保持控制。",
+  "image": "/signs/bumps-ahead.png"
+},
+{
+  "id": "q-construction-ahead-212",
+  "question": "此标志提醒驾驶员注意什么？",
+  "choices": [
+    "前方施工",
+    "道路封闭",
+    "铁路道口",
+    "学校区域"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员应预期前方有工人、设备、限速降低或车道变化。",
+  "image": "/signs/construction-ahead.jpg"
+},
+{
+  "id": "q-deer-crossing-213",
+  "question": "此标志显示哪种危险？",
+  "choices": [
+    "野生动物横穿",
+    "农用车辆",
+    "动物园入口",
+    "公园区域"
+  ],
+  "correctIndex": 0,
+  "explanation": "驾驶员应注意可能突然进入道路的动物。",
+  "image": "/signs/deer-crossing.jpg"
+},
+{
+  "id": "q-divided-highway-begins-214",
+  "question": "此标志表示什么？",
+  "choices": [
+    "分隔公路开始",
+    "双向交通结束",
+    "允许超车",
+    "车道结束"
+  ],
+  "correctIndex": 0,
+  "explanation": "前方交通将由实体隔离带分开。",
+  "image": "/signs/divided-highway-begins.jpg"
+},
+{
+  "id": "q-divided-highway-ends-215",
+  "question": "驾驶员应预期什么变化？",
+  "choices": [
+    "对向交通将不再分隔",
+    "道路变窄",
+    "限速降低",
+    "车道结束"
+  ],
+  "correctIndex": 0,
+  "explanation": "分隔公路即将结束，对向交通将共享同一道路。",
+  "image": "/signs/divided-highway-ends.jpg"
+},
