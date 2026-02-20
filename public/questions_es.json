@@ -2312,3 +2312,133 @@
   "explanation": "Esta señal indica a los conductores que usen el carril derecho para la conducción normal y que solo se muevan al carril izquierdo para adelantar de manera segura a vehículos más lentos.",
   "image": "/signs/q-keep-right-except-to-pass.png"
 },
+{
+  "id": "q-warning-hidden-intersection-136",
+  "question": "¿Qué indica esta señal de tránsito a los conductores?",
+  "choices": [
+    "Una entrada oculta a la derecha",
+    "Una intersección oculta más adelante con una vía lateral que se une desde la derecha",
+    "Una calle de sentido único con una salida oculta",
+    "Solo giro a la derecha en la próxima intersección"
+  ],
+  "correctIndex": 1,
+  "explanation": "Esta señal de advertencia indica una intersección oculta más adelante donde una vía lateral se une desde la derecha. Se requiere precaución adicional.",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-regulatory-no-parking-accessible-permit-137",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "El estacionamiento no está permitido en ningún momento para ningún vehículo",
+    "El estacionamiento está reservado solo para vehículos de emergencia",
+    "El estacionamiento está prohibido excepto para vehículos que muestren un permiso válido de estacionamiento accesible",
+    "Esta área es solo una zona de carga y descarga de pasajeros"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal significa que el estacionamiento está reservado únicamente para vehículos que muestren un permiso válido de estacionamiento accesible.",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-regulatory-no-straight-ahead-138",
+  "question": "¿Qué significa esta señal de tránsito?",
+  "choices": [
+    "Debe continuar recto en la intersección",
+    "No se permite girar a la derecha",
+    "Está prohibido seguir recto",
+    "Este carril es solo para tráfico directo"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal indica que los conductores no pueden continuar recto en la intersección.",
+  "image": "/signs/no-straight-ahead.png"
+},
+{
+  "id": "q-regulatory-no-right-turn-on-red-139",
+  "question": "¿Qué significa esta señal de tránsito?",
+  "choices": [
+    "No se permiten giros a la derecha en ningún momento",
+    "Puede girar a la derecha solo cuando la luz esté roja",
+    "Los giros a la derecha están prohibidos cuando el semáforo está en rojo",
+    "Debe detenerse y luego girar a la derecha en rojo"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal indica que los conductores no pueden girar a la derecha cuando el semáforo está en rojo.",
+  "image": "/signs/no-right-turn-on-red.png"
+},
+{
+  "id": "q-regulatory-no-left-turn-on-red-140",
+  "question": "¿Qué significa esta señal de tránsito?",
+  "choices": [
+    "No se permiten giros a la izquierda en ningún momento",
+    "Puede girar a la izquierda solo cuando la luz esté roja",
+    "Los giros a la izquierda están prohibidos cuando el semáforo está en rojo",
+    "Debe detenerse y luego girar a la izquierda en rojo"
+  ],
+  "correctIndex": 2,
+  "explanation": "Esta señal indica que los conductores no pueden girar a la izquierda cuando el semáforo está en rojo.",
+  "image": "/signs/no-left-turn-on-red.png"
+},
+ {
+  "id": "q-night-driving-speed-141",
+  "question": "Por la noche, ¿cómo debe ajustar su velocidad, incluso si el límite de velocidad indicado es más alto?",
+  "choices": [
+    "Conducir lo suficientemente despacio como para poder detenerse dentro de la distancia iluminada por sus faros",
+    "Conducir siempre al límite indicado porque es seguro en todo momento",
+    "Acelerar para pasar menos tiempo en la oscuridad",
+    "Usar luces altas y conducir lo más rápido posible"
+  ],
+  "correctIndex": 0,
+  "explanation": "Por la noche no debe conducir más rápido de lo que le permiten sus faros. Debe conducir a una velocidad que le permita detenerse dentro de la distancia que puede ver claramente hacia adelante.",
+  "image": "/signs/q-night-driving-speed-164.png"
+},
+{
+  "id": "q-intersections-right-of-way-142",
+  "question": "En una parada de cuatro vías donde todos los vehículos llegan casi al mismo tiempo, ¿qué conductor debe avanzar primero normalmente?",
+  "choices": [
+    "El conductor que se detiene completamente primero y avanza cuando es seguro",
+    "El conductor con el vehículo más grande",
+    "El conductor que hace destellar los faros primero",
+    "El conductor que gira a la izquierda cruzando el tráfico"
+  ],
+  "correctIndex": 0,
+  "explanation": "En las paradas de cuatro vías, el vehículo que se detiene completamente primero generalmente avanza primero, pero todos los conductores deben asegurarse de que el camino esté despejado y sea seguro antes de avanzar.",
+  "image": "/signs/q-intersections-right-of-way-165.png"
+},
+{
+  "id": "q-lane-change-143",
+  "question": "Antes de cambiar de carril en una carretera de varios carriles, ¿cuál es la secuencia correcta?",
+  "choices": [
+    "Revisar espejos, señalizar, verificar el punto ciego y luego cambiar de carril cuando sea seguro",
+    "Señalizar después de moverse y luego revisar los espejos",
+    "Moverse primero y luego revisar los espejos y señalizar",
+    "Tocar la bocina y cambiar inmediatamente al siguiente carril"
+  ],
+  "correctIndex": 0,
+  "explanation": "Revise los espejos, señalice, verifique su punto ciego con una mirada por encima del hombro y luego cambie de carril solo cuando sea seguro.",
+  "image": "/signs/q-lane-change-166.png"
+},
+{
+  "id": "q-blind-spots-144",
+  "question": "¿Por qué es importante mirar por encima del hombro incluso si los espejos están correctamente ajustados?",
+  "choices": [
+    "Hay áreas al lado de su vehículo que los espejos no pueden mostrar (puntos ciegos)",
+    "Es solo un hábito y no es necesario",
+    "Permite que otros conductores sepan que va a girar",
+    "Reemplaza la necesidad de señalizar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Incluso los espejos correctamente ajustados no muestran todo. Una rápida mirada por encima del hombro le ayuda a ver vehículos, ciclistas o peatones en sus puntos ciegos.",
+  "image": "/signs/q-blind-spots-167.png"
+},
+{
+  "id": "q-expressway-merge-145",
+  "question": "Al ingresar a una autopista desde una rampa de acceso, ¿qué debe hacer en el carril de aceleración?",
+  "choices": [
+    "Señalizar, igualar la velocidad del tráfico y incorporarse cuando haya un espacio seguro",
+    "Detenerse al final de la rampa y esperar a que alguien le permita entrar",
+    "Conducir lentamente por el arcén hasta encontrar un gran espacio",
+    "Retroceder si pierde su salida"
+  ],
+  "correctIndex": 0,
+  "explanation": "En las rampas de acceso a la autopista debe acelerar para igualar la velocidad del tráfico, señalizar e incorporarse suavemente cuando haya un espacio seguro.",
+  "image": "/signs/q-expressway-merge-168.png"
+},
