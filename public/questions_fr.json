@@ -3952,3 +3952,135 @@
   "explanation": "Les conducteurs ne doivent pas inverser leur direction.",
   "image": "/signs/no-u-turn.jpg"
 },
+{
+  "id": "q-pedestrian-crossing-256",
+  "question": "À quoi les conducteurs doivent-ils être prêts?",
+  "choices": [
+    "À des piétons qui traversent",
+    "À un panneau d’arrêt",
+    "À un autobus scolaire",
+    "À un feu de circulation"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent céder le passage aux piétons.",
+  "image": "/signs/pedestrian-crossing.jpg"
+},
+{
+  "id": "q-roundabout-257",
+  "question": "Comment les conducteurs doivent-ils procéder?",
+  "choices": [
+    "Céder le passage à la circulation dans le carrefour giratoire",
+    "S’arrêter complètement",
+    "Entrer dans le sens des aiguilles d’une montre",
+    "Accélérer"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les véhicules déjà dans le carrefour giratoire ont la priorité.",
+  "image": "/signs/q-11-roundabout.png"
+},
+{
+  "id": "q-hov-lane-258",
+  "question": "Qui peut utiliser cette voie?",
+  "choices": [
+    "Les véhicules avec plusieurs occupants",
+    "Tous les véhicules",
+    "Les camions seulement",
+    "Les véhicules d’urgence seulement"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les voies VMO sont réservées aux véhicules admissibles.",
+  "image": "/signs/q-211-hov-lane.jpg"
+},
+{
+  "id": "q-stop-ahead-259",
+  "question": "De quoi ce panneau avertit-il le conducteur?",
+  "choices": [
+    "Un panneau d’arrêt est à venir",
+    "Un panneau d’arrêt est retiré",
+    "La circulation doit vous céder le passage",
+    "Des feux de circulation sont à venir"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le symbole d’un panneau d’arrêt dans un losange d’avertissement indique aux conducteurs de se préparer à s’arrêter bientôt.",
+  "image": "/signs/stop-ahead.jpg"
+},
+{
+  "id": "q-railway-crossing-260",
+  "question": "De quoi ce panneau avertit-il?",
+  "choices": [
+    "Un passage à niveau à venir",
+    "Un passage pour piétons",
+    "Un feu de circulation",
+    "Un panneau d’arrêt"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent être prêts à s’arrêter pour les trains.",
+  "image": "/signs/q-210-railway-crossing-1.jpg"
+},
+ {
+  "id": "q-261",
+  "question": "Vous commencez à vous sentir très fatigué en conduisant la nuit. Quelle est la chose la plus sûre à faire?",
+  "choices": [
+    "Trouver un endroit sûr pour s’arrêter et se reposer",
+    "Ouvrir la fenêtre et continuer à conduire",
+    "Monter la radio et conduire plus vite",
+    "Suivre de près une autre voiture pour rester alerte"
+  ],
+  "correctIndex": 0,
+  "explanation": "La fatigue est dangereuse. Le choix le plus sûr est d’arrêter de conduire et de se reposer.",
+  "image": "/signs/q-tired-driver-200.png"
+},
+{
+  "id": "q-fail-remain-collision-262",
+  "category": "demerit-points",
+  "question": "Combien de points d’inaptitude sont attribués pour ne pas être resté sur les lieux d’une collision?",
+  "choices": [
+    "3 points d’inaptitude",
+    "5 points d’inaptitude",
+    "6 points d’inaptitude",
+    "7 points d’inaptitude"
+  ],
+  "correctIndex": 3,
+  "explanation": "Ne pas rester sur les lieux d’une collision entraîne 7 points d’inaptitude.",
+  "image": "/signs/q-fail-remain-collision-262.png"
+},
+{
+  "id": "q-263",
+  "question": "Quand est-il acceptable de conduire avec de la neige ou de la glace couvrant une partie du pare-brise?",
+  "choices": [
+    "Jamais; vous devez dégager complètement votre pare-brise et vos fenêtres avant de conduire",
+    "Tant que vous pouvez voir directement devant",
+    "Seulement à basse vitesse",
+    "Seulement si les essuie-glaces fonctionnent"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les conducteurs doivent avoir une vue dégagée dans toutes les directions avant de conduire.",
+  "image": "/signs/q-263-windshield-covered-snow.png"
+},
+{
+  "id": "q-report-collision-damage-264",
+  "category": "collisions-and-reporting",
+  "question": "Une collision de véhicule à moteur doit être signalée à la police s’il y a des blessures ou si les dommages matériels totaux dépassent quel montant?",
+  "choices": [
+    "100 $",
+    "300 $",
+    "500 $",
+    "1000 $"
+  ],
+  "correctIndex": 3,
+  "explanation": "En Ontario, une collision doit être signalée à la police si quelqu’un est blessé ou si les dommages totaux dépassent 1 000 $.",
+  "image": "/signs/q-collision-damage.png"
+},
+{
+  "id": "q-265",
+  "question": "Quel est l’endroit le plus sûr pour installer un siège d’auto pour enfant dans la plupart des véhicules de tourisme?",
+  "choices": [
+    "Sur le siège arrière, loin des coussins gonflables actifs",
+    "Sur le siège avant avec le coussin gonflable activé",
+    "Au milieu de la banquette avant",
+    "À côté du siège du conducteur"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le siège arrière est généralement le plus sûr, surtout loin des coussins gonflables.",
+  "image": "/signs/q-31-child-seat.png"
+},
