@@ -3357,3 +3357,133 @@
   "explanation": "La autopista dividida está terminando y el tráfico en sentido contrario compartirá la carretera.",
   "image": "/signs/divided-highway-ends.jpg"
 },
+{
+  "id": "q-do-not-enter-216",
+  "question": "¿Qué significa esta señal?",
+  "choices": [
+    "Los vehículos no deben entrar",
+    "Detenerse completamente",
+    "Ceder el paso",
+    "No estacionar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Esta señal indica que los conductores tienen prohibido entrar en esta vía o carril.",
+  "image": "/signs/do-not-enter.jpg"
+},
+{
+  "id": "q-hand-signal-right-217",
+  "question": "¿Qué muestra esta señal con la mano?",
+  "choices": [
+    "El conductor tiene la intención de girar a la derecha",
+    "El conductor está reduciendo la velocidad",
+    "El conductor se está deteniendo",
+    "El conductor está girando a la izquierda"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un brazo izquierdo doblado hacia arriba indica que el conductor tiene la intención de girar a la derecha.",
+  "image": "/signs/hand-signal-right-turn.png"
+},
+{
+  "id": "q-accessible-parking-218",
+  "question": "¿Quién puede estacionar aquí?",
+  "choices": [
+    "Vehículos con un permiso válido de estacionamiento accesible",
+    "Cualquier vehículo después de horas",
+    "Vehículos de reparto",
+    "Motocicletas"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los espacios de estacionamiento accesible están reservados para vehículos que muestran un permiso válido de estacionamiento accesible.",
+  "image": "/signs/handicapped-parking-sign.png"
+},
+{
+  "id": "q-hidden-intersection-219",
+  "question": "¿Sobre qué advierte esta señal a los conductores?",
+  "choices": [
+    "Una intersección oculta más adelante",
+    "Semáforos más adelante",
+    "Cruce de peatones",
+    "Cierre de carretera"
+  ],
+  "correctIndex": 0,
+  "explanation": "El tráfico transversal puede no ser visible hasta que los conductores estén cerca de la intersección.",
+  "image": "/signs/hidden-intersection.png"
+},
+{
+  "id": "q-max-speed-40-220",
+  "question": "¿Qué indica esta señal?",
+  "choices": [
+    "La velocidad máxima es 40 km/h",
+    "La velocidad mínima es 40 km/h",
+    "Velocidad recomendada",
+    "Fin de la zona de velocidad"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores no deben exceder el límite máximo de velocidad indicado.",
+  "image": "/signs/max-speed-40.png"
+},
+  {
+  "id": "q-221",
+  "question": "Si un neumático delantero revienta mientras conduces, ¿qué debes hacer primero?",
+  "choices": [
+    "Sujetar el volante firmemente y mantener el vehículo recto",
+    "Frenar con fuerza inmediatamente",
+    "Girar rápidamente hacia el arcén",
+    "Acelerar bruscamente"
+  ],
+  "correctIndex": 0,
+  "explanation": "Un reventón puede hacer que el vehículo se desvíe hacia un lado. Sujeta el volante firmemente, mantén el vehículo recto y reduce la velocidad gradualmente.",
+  "image": "/signs/q-227-front-tire.jpg"
+},
+{
+  "id": "q-222",
+  "question": "Ves una señal que marca una zona de carga de autobuses. ¿Qué significa esto?",
+  "choices": [
+    "Solo los autobuses pueden detenerse aquí",
+    "Cualquiera puede estacionar brevemente",
+    "Puedes subir pasajeros durante 5 minutos",
+    "Puedes detenerte si tus luces de emergencia están encendidas"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las zonas de carga de autobuses están reservadas solo para autobuses y otros vehículos no deben detenerse allí.",
+  "image": "/signs/q-228-bus-loading.png"
+},
+{
+  "id": "q-223",
+  "question": "Estacionar en un lugar designado para accesibilidad sin permiso puede resultar en:",
+  "choices": [
+    "Multas significativas y remolque",
+    "Solo una pequeña advertencia",
+    "Ninguna penalización si permaneces en el coche",
+    "Solo puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "Estacionar en un espacio accesible sin un permiso válido puede resultar en fuertes multas y posible remolque.",
+  "image": "/signs/q-229-handicap-spot.jpg"
+},
+{
+  "id": "q-224",
+  "question": "Un carril central marcado con flechas de giro a la izquierda en ambas direcciones se usa para:",
+  "choices": [
+    "Giros a la izquierda desde cualquiera de las direcciones",
+    "Adelantar tráfico más lento",
+    "Estacionar temporalmente",
+    "Solo giros en U"
+  ],
+  "correctIndex": 0,
+  "explanation": "Este carril central compartido es solo para prepararse y realizar giros a la izquierda, no para adelantar ni circular a través de él.",
+  "image": "/signs/q-224-centre-lane-arrows.png"
+},
+{
+  "id": "q-225",
+  "question": "¿Cuándo debes detenerte en un cruce ferroviario, incluso si no se ve ningún tren?",
+  "choices": [
+    "Cuando las luces intermitentes o las barreras están activadas",
+    "Solo por la noche",
+    "Solo si se oye el silbato de un tren",
+    "Nunca es necesario a menos que haya un tren presente"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las luces intermitentes, campanas o barreras bajas en un cruce ferroviario siempre requieren una parada completa, incluso si no ves un tren.",
+  "image": "/signs/q-231-railway-crossing.jpg"
+},
