@@ -2962,3 +2962,134 @@
   "explanation": "Los conductores que giran deben ceder el paso a los peatones en el cruce y esperar hasta que despejen el carril antes de completar el giro.",
   "image": "/signs/q-pedestrians-turning-198.png"
 },
+{
+  "id": "q-crosswalk-uncontrolled-186",
+  "question": "En un cruce peatonal sin semáforos pero con líneas pintadas y señales, un peatón está esperando para cruzar. ¿Cuál es su responsabilidad?",
+  "choices": [
+    "Estar preparado para detenerse y permitir que el peatón cruce de forma segura",
+    "Continuar a la misma velocidad porque no hay semáforo",
+    "Detenerse solo si el peatón se coloca directamente frente a usted",
+    "Acelerar para pasar antes de que el peatón comience a cruzar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben estar atentos a los peatones en los cruces marcados y estar listos para detenerse y permitirles cruzar de forma segura.",
+  "image": "/signs/q-crosswalk-uncontrolled-199.png"
+},
+{
+  "id": "q-safe-speed-stopping-distance-187",
+  "question": "Sin importar las condiciones de conducción, siempre debe viajar a una velocidad que le permita hacer qué?",
+  "choices": [
+    "Detenerse dentro de 90 metros (300 pies)",
+    "Detenerse dentro de 60 metros (200 pies)",
+    "Detenerse dentro de una distancia segura",
+    "Detenerse dentro de 150 metros (500 pies)"
+  ],
+  "correctIndex": 2,
+  "explanation": "Los conductores siempre deben ajustar su velocidad para poder detenerse de manera segura dentro de la distancia que pueden ver hacia adelante.",
+  "image": "/signs/q-safe-speed-stopping.png"
+},
+{
+  "id": "q-safe-following-distance-188",
+  "question": "Al conducir detrás de otro vehículo en buen clima, ¿cuál es la distancia mínima de seguimiento más segura?",
+  "choices": [
+    "Al menos dos segundos detrás del vehículo de adelante",
+    "Media longitud de automóvil por cada 10 km/h",
+    "Un segundo detrás del vehículo de adelante",
+    "Lo más cerca posible sin perder de vista los neumáticos traseros"
+  ],
+  "correctIndex": 0,
+  "explanation": "Use la regla de los dos segundos en buenas condiciones para mantener una distancia de seguimiento segura.",
+  "image": "/signs/car-following.jpg"
+},
+{
+  "id": "q-right-of-way-four-way-stop-189",
+  "question": "En una parada de cuatro vías, dos vehículos llegan al mismo tiempo. ¿Quién debe avanzar primero?",
+  "choices": [
+    "El vehículo de la derecha tiene el derecho de paso",
+    "El vehículo de la izquierda tiene el derecho de paso",
+    "El vehículo que va recto siempre pasa primero",
+    "El vehículo más grande pasa primero"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cuando dos vehículos llegan simultáneamente, el conductor de la izquierda debe ceder el paso al conductor de la derecha.",
+  "image": "/signs/right-way.png"
+},
+{
+  "id": "q-blind-spots-check-190",
+  "question": "Antes de cambiar de carril en una carretera de varios carriles, ¿qué debe hacer un conductor para revisar correctamente los puntos ciegos?",
+  "choices": [
+    "Mirar por encima del hombro correspondiente además de revisar los espejos",
+    "Confiar solo en el espejo retrovisor",
+    "Acelerar para evitar los vehículos a su lado",
+    "Señalizar y desplazarse lentamente hacia el carril hasta que otros conductores toquen la bocina"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los puntos ciegos no pueden verse en los espejos. Mirar por encima del hombro asegura que no haya vehículos, ciclistas o motociclistas a su lado.",
+  "image": "/signs/q-203-blind-spot.png"
+},
+{
+  "id": "q-high-beam-dimming-191",
+  "question": "¿Cuándo debe bajar las luces altas por la noche?",
+  "choices": [
+    "Siempre que esté a menos de 150 metros de un vehículo que viene en sentido contrario",
+    "Solo cuando el otro conductor le haga señales con las luces",
+    "Solo en calles bien iluminadas",
+    "Solo cuando siga a un vehículo policial"
+  ],
+  "correctIndex": 0,
+  "explanation": "Las luces altas deben bajarse dentro de los 150 metros de tráfico que viene en sentido contrario para evitar afectar la visión de otros conductores.",
+  "image": "/signs/q-204-high-beams.jpg"
+},
+{
+  "id": "q-emergency-vehicle-yield-192",
+  "question": "Si un vehículo de emergencia con luces intermitentes y sirena se acerca por detrás, ¿qué debe hacer?",
+  "choices": [
+    "Señalizar, moverse lo más a la derecha posible y detenerse",
+    "Acelerar para no bloquearlo",
+    "Continuar conduciendo pero moverse ligeramente a la izquierda",
+    "Detenerse inmediatamente en su carril, incluso en la autopista"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los conductores deben moverse lo más a la derecha posible y detenerse para permitir que los vehículos de emergencia pasen de manera segura y rápida.",
+  "image": "/signs/q-205-emergency-vehicle.jpg"
+},
+{
+  "id": "q-improper-left-193",
+  "category": "demerit-points",
+  "question": "Los giros a la izquierda indebidos conllevan ¿cuántos puntos de demérito?",
+  "choices": [
+    "2 puntos de demérito",
+    "3 puntos de demérito",
+    "4 puntos de demérito",
+    "5 puntos de demérito"
+  ],
+  "correctIndex": 0,
+  "explanation": "Los giros a la izquierda indebidos son una infracción de 2 puntos en Ontario.",
+  "image": "/signs/q-improper-left-193.png"
+},
+{
+  "id": "q-school-bus-median-194",
+  "question": "Usted conduce por una vía dividida por una mediana. Un autobús escolar en el lado opuesto se detiene con las luces rojas intermitentes y el brazo de alto extendido. ¿Qué debe hacer?",
+  "choices": [
+    "Detenerse y permanecer detenido hasta que el autobús se mueva",
+    "Reducir la velocidad y continuar con precaución; no está obligado a detenerse en el lado opuesto de una mediana",
+    "Tocar la bocina para advertir al conductor del autobús y continuar a velocidad normal",
+    "Cambiar al carril más a la izquierda y continuar al límite de velocidad"
+  ],
+  "correctIndex": 1,
+  "explanation": "En una vía dividida con una mediana física, solo los vehículos que viajan en la misma dirección que el autobús deben detenerse. Los conductores en el lado opuesto deben reducir la velocidad pero no están legalmente obligados a detenerse.",
+  "image": "/signs/q-207-school-bus-median.jpg"
+},
+{
+  "id": "q-fire-hydrant-distance-195",
+  "question": "¿Qué tan cerca puede estacionarse de un hidrante en Ontario?",
+  "choices": [
+    "A menos de un metro, siempre que el hidrante siga siendo visible",
+    "Al menos a dos metros del hidrante",
+    "Al menos a tres metros del hidrante",
+    "Cualquier distancia está permitida si permanece dentro del vehículo"
+  ],
+  "correctIndex": 2,
+  "explanation": "No debe estacionarse a menos de tres metros de un hidrante. Esto permite que los bomberos conecten las mangueras rápidamente en una emergencia.",
+  "image": "/signs/q-208-fire-hydrant-park.jpg"
+},
