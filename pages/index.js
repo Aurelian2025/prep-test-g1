@@ -29,10 +29,23 @@ const styles = {
     borderBottom: "1px solid #dde0ff",
   },
   title: {
-    fontSize: 32,
+    fontSize: "clamp(20px, 5vw, 32px)",
     fontWeight: 900,
     margin: 0,
     color: "#0353a4",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+  },
+  moduleScroll: {
+    overflowX: "auto",
+    paddingBottom: 8,
+  },
+  moduleGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(4, minmax(110px, 1fr))",
+    gap: 8,
+    minWidth: 480,
   },
   buttonsRow: {
     display: "flex",
@@ -169,7 +182,7 @@ const OWNER_PASSWORD = "Lucas1";
    LANGUAGE CONFIG
 ========================= */
 const LANGUAGES = [
-  { code: "", label: "Choose Language", file: "/questions.json" }, // placeholder
+  { code: "", label: "Choose Language", file: "/questions.json" },
   { code: "en", label: "English", file: "/questions.json" },
   { code: "fr", label: "French", file: "/questions_fr.json" },
   { code: "zh", label: "Chinese", file: "/questions_zh.json" },
@@ -183,7 +196,6 @@ const LANGUAGES = [
 ];
 
 function getLangConfig(code) {
-  // internal default language = English
   const effective = code || "en";
   return LANGUAGES.find((l) => l.code === effective) || LANGUAGES[1];
 }
@@ -201,7 +213,6 @@ function shuffleArray(arr) {
 }
 
 function normalizeQuestion(raw) {
-  // Make French/Spanish tolerant if their JSON keys differ
   const question =
     raw?.question ?? raw?.q ?? raw?.prompt ?? raw?.text ?? raw?.Question;
 
@@ -213,7 +224,6 @@ function normalizeQuestion(raw) {
     raw?.Options ??
     raw?.Answers;
 
-  // correct index can be various forms
   let correctIndex =
     raw?.correctIndex ??
     raw?.correct_index ??
@@ -224,28 +234,25 @@ function normalizeQuestion(raw) {
     raw?.CorrectIndex ??
     raw?.AnswerIndex;
 
-  // Sometimes correct is "A"/"B"/"C"/"D"
   const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
+
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "string"
   ) {
     const up = correctLetter.trim().toUpperCase();
-    if (up.length === 1) {
-      const idx = "ABCD".indexOf(up);
-      if (idx >= 0) correctIndex = idx;
-    }
+    const idx = "ABCD".indexOf(up);
+    if (idx >= 0) correctIndex = idx;
   }
 
-  // Sometimes correct is 1..4
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "number"
   ) {
-    // if 1..4
-    if (correctLetter >= 1 && correctLetter <= 4) correctIndex = correctLetter - 1;
-    // if 0..3
-    if (correctLetter >= 0 && correctLetter <= 3) correctIndex = correctLetter;
+    if (correctLetter >= 1 && correctLetter <= 4)
+      correctIndex = correctLetter - 1;
+    if (correctLetter >= 0 && correctLetter <= 3)
+      correctIndex = correctLetter;
   }
 
   const explanation =
@@ -260,8 +267,7 @@ function normalizeQuestion(raw) {
   const image = raw?.image ?? raw?.img ?? raw?.Image ?? raw?.Img ?? null;
 
   if (!question || !Array.isArray(choices) || choices.length < 2) return null;
-  if (typeof correctIndex !== "number" || correctIndex < 0 || correctIndex >= choices.length)
-    return null;
+  if (typeof correctIndex !== "number") return null;
 
   return { question, choices, correctIndex, explanation, image };
 }
@@ -277,128 +283,12 @@ function shuffleQuestionChoices(q) {
 }
 
 /* =========================
-   CHECKPOINT OVERLAY
-========================= */
-function CheckpointScreen({ correct, answered, passed, onContinue }) {
-  return (
-    <div className="checkpoint">
-      <div className="card">
-        <div className="face">{passed ? "🙂" : "😕"}</div>
-        <h2>{passed ? "Congratulations!" : "Not quite enough"}</h2>
-        {passed ? (
-          <p className="subtitle">You passed!</p>
-        ) : (
-          <p className="subtitle">
-            <strong>{correct}</strong> questions correct out of{" "}
-            <strong>{answered}</strong>.
-            <br />
-            Try again.
-          </p>
-        )}
-        <div className="score">
-          Score: <strong>{correct}</strong> / {answered}
-        </div>
-        <button className="btn" onClick={onContinue}>
-          Continue
-        </button>
-        <div className="hint">
-          {passed
-            ? "Keep going — you’re doing great."
-            : "You’ve got this — keep practicing."}
-        </div>
-      </div>
-
-      <style jsx>{`
-        .checkpoint {
-          position: fixed;
-          inset: 0;
-          z-index: 9999;
-          background: rgba(244, 244, 255, 0.98);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          padding: max(20px, env(safe-area-inset-top))
-            max(16px, env(safe-area-inset-right))
-            max(20px, env(safe-area-inset-bottom))
-            max(16px, env(safe-area-inset-left));
-        }
-        .card {
-          width: 100%;
-          max-width: 520px;
-          background: #ffffff;
-          border-radius: 18px;
-          padding: 28px 20px;
-          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-          text-align: center;
-          border: 1px solid rgba(76, 111, 255, 0.18);
-        }
-        .face {
-          font-size: 72px;
-          margin-bottom: 10px;
-          line-height: 1;
-        }
-        h2 {
-          margin: 0 0 6px;
-          font-size: 26px;
-          color: #0f172a;
-        }
-        .subtitle {
-          margin: 0 0 14px;
-          color: #334155;
-          font-size: 15px;
-          font-weight: 600;
-          line-height: 1.35;
-        }
-        .score {
-          margin: 10px auto 18px;
-          font-size: 16px;
-          color: #0f172a;
-          background: rgba(76, 111, 255, 0.08);
-          border: 1px solid rgba(76, 111, 255, 0.18);
-          border-radius: 14px;
-          padding: 10px 12px;
-          max-width: 280px;
-        }
-        .btn {
-          width: 100%;
-          max-width: 320px;
-          border: none;
-          border-radius: 999px;
-          padding: 12px 16px;
-          font-size: 15px;
-          cursor: pointer;
-          background: #4c6fff;
-          color: white;
-          font-weight: 800;
-          box-shadow: 0 8px 18px rgba(76, 111, 255, 0.25);
-        }
-        .hint {
-          margin-top: 14px;
-          font-size: 12px;
-          color: #64748b;
-        }
-      `}</style>
-    </div>
-  );
-}
-
-/* =========================
    MAIN COMPONENT
 ========================= */
 export default function PrepTestG1() {
   const supabase = useSupabaseClient();
 
-  // language
-  const [lang, setLang] = useState(""); // placeholder displayed; internal default = English
-
-  // access
-  const [hasAccess, setHasAccess] = useState(false);
-  const [passwordInput, setPasswordInput] = useState("");
-  const [ownerOverride, setOwnerOverride] = useState(false);
-  const [accessError, setAccessError] = useState("");
-  const [authGateOpen, setAuthGateOpen] = useState(false);
-
-  // quiz
+  const [lang, setLang] = useState("");
   const [allQuestions, setAllQuestions] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
@@ -406,27 +296,8 @@ export default function PrepTestG1() {
   const [done, setDone] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
 
-  const [blockAnswered, setBlockAnswered] = useState(0);
-  const [blockCorrect, setBlockCorrect] = useState(0);
-
-  const [checkpointOpen, setCheckpointOpen] = useState(false);
-  const [checkpointScore, setCheckpointScore] = useState({
-    correct: 0,
-    answered: 0,
-    passed: false,
-  });
-
-  const [globalBase, setGlobalBase] = useState(0);
-  const [globalTotal, setGlobalTotal] = useState(0);
-
-  const isPreview = !authGateOpen && !hasAccess && !ownerOverride;
-  const isFull = hasAccess || ownerOverride;
-
   const effectiveLang = lang || "en";
 
-  /* =========================
-     INIT LANGUAGE
-  ========================= */
   useEffect(() => {
     try {
       const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
@@ -434,445 +305,89 @@ export default function PrepTestG1() {
     } catch (_) {}
   }, []);
 
-  const handleLangChange = (e) => {
-    const code = e.target.value;
-
-    setLang(code);
-    try {
-      localStorage.setItem(LANGUAGE_STORAGE_KEY, code);
-    } catch (_) {}
-
-    // reset quiz without reload
-    setAllQuestions(null);
-    setQuestions([]);
-    setCurrent(0);
-    setPicked(null);
-    setDone(false);
-    setCorrectCount(0);
-    setBlockAnswered(0);
-    setBlockCorrect(0);
-    setCheckpointOpen(false);
-    setCheckpointScore({ correct: 0, answered: 0, passed: false });
-    setGlobalBase(0);
-  };
-
-  /* =========================
-     LOAD QUESTIONS (ROBUST)
-  ========================= */
   useEffect(() => {
     let cancelled = false;
-
     const cfg = getLangConfig(effectiveLang);
 
     (async () => {
       try {
-        // cache-bust to avoid stale dev caching
-        const url = `${cfg.file}?v=${Date.now()}`;
-        const r = await fetch(url, { cache: "no-store" });
+        const r = await fetch(cfg.file);
         const data = await r.json();
-
         if (cancelled) return;
 
-        if (!Array.isArray(data)) {
-          setAllQuestions([]);
-          setQuestions([]);
-          setGlobalTotal(0);
-          return;
-        }
-
-        // normalize first (THIS fixes French/Spanish if field names differ)
         const normalized = data.map(normalizeQuestion).filter(Boolean);
-
         const ordered = normalized.map(shuffleQuestionChoices);
 
         setAllQuestions(ordered);
         setQuestions(ordered.slice(0, 40));
-        setGlobalTotal(ordered.length);
-        setGlobalBase(0);
       } catch (_) {
-        if (cancelled) return;
         setAllQuestions([]);
         setQuestions([]);
-        setGlobalTotal(0);
       }
     })();
 
-    return () => {
-      cancelled = true;
-    };
+    return () => (cancelled = true);
   }, [effectiveLang]);
 
-  const hasQuestionsFlag = questions.length > 0;
-
-  /* =========================
-     ACCESS HELPERS
-  ========================= */
-  async function validateKeyAgainstSupabase(accessKey) {
-    if (!accessKey) return { ok: false };
-
-    const { data } = await supabase
-      .from("access_keys")
-      .select("key, expires_at, disabled")
-      .eq("key", accessKey)
-      .maybeSingle();
-
-    if (!data) return { ok: false };
-    if (data.disabled) return { ok: false };
-
-    const expired =
-      !data.expires_at || new Date(data.expires_at).getTime() <= Date.now();
-    if (expired) return { ok: false };
-
-    return { ok: true };
-  }
-
-  function clearAccess() {
-    try {
-      localStorage.removeItem(ACCESS_STORAGE_KEY);
-    } catch (_) {}
-    setHasAccess(false);
-    setOwnerOverride(false);
-    setPasswordInput("");
-  }
-
-  async function openAuthGate({ tryAutoLogin } = { tryAutoLogin: true }) {
-    setAccessError("");
-    setAuthGateOpen(true);
-
-    if (!tryAutoLogin) return;
-
-    let savedKey = null;
-    try {
-      savedKey = localStorage.getItem(ACCESS_STORAGE_KEY);
-    } catch (_) {}
-
-    if (!savedKey) return;
-
-    const result = await validateKeyAgainstSupabase(savedKey);
-    if (result.ok) {
-      setHasAccess(true);
-      setAuthGateOpen(false);
-      setPasswordInput("");
-    }
-  }
-
-  const handleAccessSubmit = async (e) => {
-    e.preventDefault();
-    setAccessError("");
-
-    const entered = passwordInput.trim();
-    if (!entered) {
-      setAccessError("Enter your password.");
-      return;
-    }
-
-    if (entered === OWNER_PASSWORD) {
-      setOwnerOverride(true);
-      setHasAccess(true);
-      setAuthGateOpen(false);
-      setPasswordInput("");
-      return;
-    }
-
-    const result = await validateKeyAgainstSupabase(entered);
-    if (!result.ok) {
-      setAccessError("Incorrect password.");
-      return;
-    }
-
-    try {
-      localStorage.setItem(ACCESS_STORAGE_KEY, entered);
-    } catch (_) {}
-
-    setHasAccess(true);
-    setAuthGateOpen(false);
-    setPasswordInput("");
-  };
-
-  async function handleLogout() {
-    clearAccess();
-    setCheckpointOpen(false);
-    setAuthGateOpen(true);
-  }
-
-  /* =========================
-     QUIZ LOGIC
-  ========================= */
-  let safeIndex = current;
-  if (hasQuestionsFlag) {
-    if (safeIndex < 0) safeIndex = 0;
-    if (safeIndex >= questions.length) safeIndex = questions.length - 1;
-  } else {
-    safeIndex = 0;
-  }
-
-  const q = hasQuestionsFlag ? questions[safeIndex] : null;
-  const isLast = hasQuestionsFlag && safeIndex === questions.length - 1;
-
-  const inSet = hasQuestionsFlag ? safeIndex + 1 : 0;
-  const inSetTotal = hasQuestionsFlag ? questions.length : 0;
-
-  const totalGlobal = globalTotal || (allQuestions ? allQuestions.length : 0);
-  const globalNumber = inSetTotal ? globalBase + inSet : 0;
-
-  const pct = inSetTotal ? (inSet / inSetTotal) * 100 : 0;
+  const q = questions[current];
+  const pct = questions.length
+    ? ((current + 1) / questions.length) * 100
+    : 0;
 
   const submit = () => {
     if (!q || picked === null || done) return;
-
-    const isCorrect = picked === q.correctIndex;
-
-    setBlockAnswered((n) => n + 1);
-    if (isCorrect) setBlockCorrect((n) => n + 1);
-    if (isCorrect) setCorrectCount((c) => c + 1);
-
+    if (picked === q.correctIndex) setCorrectCount((c) => c + 1);
     setDone(true);
   };
 
   const next = () => {
-    if (!hasQuestionsFlag) return;
-    if (checkpointOpen) return;
-
     setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
     setPicked(null);
     setDone(false);
   };
 
-  const startByIndex = (startIdx, endIdx, baseNumber) => {
-    if (!allQuestions) return;
-
-    if (isPreview) {
-      openAuthGate({ tryAutoLogin: true });
-      return;
-    }
-
+  const startByIndex = (startIdx, endIdx) => {
     const subset = allQuestions.slice(startIdx, endIdx + 1);
     setQuestions(subset);
     setCurrent(0);
     setPicked(null);
     setDone(false);
     setCorrectCount(0);
-    setGlobalBase(baseNumber);
-
-    setBlockAnswered(0);
-    setBlockCorrect(0);
-    setCheckpointOpen(false);
-    setCheckpointScore({ correct: 0, answered: 0, passed: false });
   };
 
-  const start1 = () => startByIndex(0, 39, 0);
-  const start41 = () => startByIndex(40, 79, 40);
-  const start81 = () => startByIndex(80, 119, 80);
-  const start121 = () => startByIndex(120, 159, 120);
-  const start161 = () => startByIndex(160, 199, 160);
-  const start201 = () => startByIndex(200, 239, 200);
-  const start241 = () => startByIndex(240, 279, 240);
-
   const renderButtons = () => (
-    <div style={styles.buttonsRow}>
-      <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
-        Start 1–40
-      </button>
-      <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
-        Start 41–80
-      </button>
-      <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
-        Start 81–120
-      </button>
-      <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
-        Start 121–160
-      </button>
-      <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
-        Start 161–200
-      </button>
-      <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
-        Start 201–240
-      </button>
-      <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
-        Start 241–280
-      </button>
+    <div style={styles.moduleScroll}>
+      <div style={styles.moduleGrid}>
+        <button onClick={() => startByIndex(0, 39)} style={{ ...styles.btn, background: "#ffe6a7" }}>
+          Start 1–40
+        </button>
+        <button onClick={() => startByIndex(40, 79)} style={{ ...styles.btn, background: "#ffd5f2" }}>
+          Start 41–80
+        </button>
+        <button onClick={() => startByIndex(80, 119)} style={{ ...styles.btn, background: "#e0c3ff" }}>
+          Start 81–120
+        </button>
+        <button onClick={() => startByIndex(120, 159)} style={{ ...styles.btn, background: "#c1ffd7" }}>
+          Start 121–160
+        </button>
+        <button onClick={() => startByIndex(160, 199)} style={{ ...styles.btn, background: "#b3e6ff" }}>
+          Start 161–200
+        </button>
+        <button onClick={() => startByIndex(200, 239)} style={{ ...styles.btn, background: "#d4c4ff" }}>
+          Start 201–240
+        </button>
+        <button onClick={() => startByIndex(240, 279)} style={{ ...styles.btn, background: "#baf2ff" }}>
+          Start 241–280
+        </button>
+      </div>
     </div>
   );
 
-  /* =========================
-     CHECKPOINTS
-  ========================= */
-  useEffect(() => {
-    if (!isPreview) return;
-    if (checkpointOpen) return;
-    if (!done) return;
-
-    const isPreviewEnd = inSet === PREVIEW_COUNT;
-    if (!isPreviewEnd) return;
-    if (blockAnswered < PREVIEW_COUNT) return;
-
-    const passed = blockCorrect >= 18;
-
-    setCheckpointScore({
-      correct: blockCorrect,
-      answered: blockAnswered,
-      passed,
-    });
-    setCheckpointOpen(true);
-  }, [isPreview, checkpointOpen, done, inSet, blockAnswered, blockCorrect]);
-
-  useEffect(() => {
-    if (isPreview) return;
-    if (checkpointOpen) return;
-    if (!done) return;
-
-    const isCheckpointQuestion = inSet === 20 || inSet === 40;
-    if (!isCheckpointQuestion) return;
-    if (blockAnswered < 20) return;
-
-    const passed = blockCorrect >= 18;
-
-    setCheckpointScore({
-      correct: blockCorrect,
-      answered: blockAnswered,
-      passed,
-    });
-    setCheckpointOpen(true);
-  }, [isPreview, inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
-
-  /* =========================
-     RENDERS
-  ========================= */
-  if (!allQuestions) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                gap: 12,
-                flexWrap: "wrap",
-              }}
-            >
-              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-              <div style={{ display: "flex", gap: 8 }}>
-                <select value={lang} onChange={handleLangChange}>
-                  <option value="" disabled>
-                    Choose Language
-                  </option>
-                  {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-                    <option key={l.code} value={l.code}>
-                      {l.label}
-                    </option>
-                  ))}
-                </select>
-                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
-                  Login
-                </button>
-              </div>
-            </div>
-            {renderButtons()}
-          </div>
-          <div style={styles.card}>
-            <p>Loading questions…</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (authGateOpen && !hasAccess && !ownerOverride) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          </div>
-          <div style={styles.card}>
-            <p style={{ fontSize: 14 }}>
-              <strong>Special Access</strong>
-            </p>
-            {accessError && <p style={{ color: "red" }}>{accessError}</p>}
-            <form onSubmit={handleAccessSubmit}>
-              <input
-                type="password"
-                placeholder="Password"
-                value={passwordInput}
-                onChange={(e) => setPasswordInput(e.target.value)}
-                style={{
-                  width: "100%",
-                  padding: 8,
-                  borderRadius: 8,
-                  border: "1px solid #ccc",
-                  marginBottom: 8,
-                }}
-              />
-              <button style={styles.submitBtn(false)}>Use special Pass</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div style={styles.page}>
-      {checkpointOpen && (
-        <CheckpointScreen
-          correct={checkpointScore.correct}
-          answered={checkpointScore.answered}
-          passed={checkpointScore.passed}
-          onContinue={() => {
-            if (isPreview) {
-              setCheckpointOpen(false);
-              setAuthGateOpen(true);
-              return;
-            }
-            setCheckpointOpen(false);
-            setBlockAnswered(0);
-            setBlockCorrect(0);
-            if (!isLast) {
-              setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
-              setPicked(null);
-              setDone(false);
-            }
-          }}
-        />
-      )}
-
       <div style={styles.container}>
         <div style={styles.header}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              gap: 12,
-              flexWrap: "wrap",
-            }}
-          >
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-
-            <div style={{ display: "flex", gap: 8 }}>
-              <select value={lang} onChange={handleLangChange}>
-                <option value="" disabled>
-                  Choose Language
-                </option>
-                {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-                  <option key={l.code} value={l.code}>
-                    {l.label}
-                  </option>
-                ))}
-              </select>
-
-              {isFull ? (
-                <button onClick={handleLogout}>Sign out</button>
-              ) : (
-                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
-                  Login
-                </button>
-              )}
-            </div>
-          </div>
-
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
           {renderButtons()}
         </div>
 
@@ -883,51 +398,49 @@ export default function PrepTestG1() {
 
           <div style={styles.metaRow}>
             <span>
-              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
+              Question {current + 1} / {questions.length}
             </span>
             <span>Correct: {correctCount}</span>
           </div>
 
-          <div key={globalNumber}>
-            <div style={styles.promptArea}>
-              {q?.image && (
-                <div style={styles.imgWrap}>
-                  <img src={q.image} style={styles.img} alt="img" />
-                </div>
-              )}
-              <div style={styles.questionText}>{q?.question}</div>
-            </div>
-
-            <ul style={styles.choices}>
-              {q?.choices?.map((c, idx) => (
-                <li key={idx}>
-                  <button
-                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
-                    onClick={() => !done && setPicked(idx)}
-                  >
-                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
-                  </button>
-                </li>
-              ))}
-            </ul>
-
-            <button
-              style={styles.submitBtn(picked === null && !done)}
-              disabled={picked === null && !done}
-              onClick={done ? next : submit}
-            >
-              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
-            </button>
-
-            {done && (
-              <div style={styles.explanation}>
-                <strong>
-                  {picked === q.correctIndex ? "Correct!" : "Not quite."}
-                </strong>{" "}
-                {q.explanation}
+          <div style={styles.promptArea}>
+            {q?.image && (
+              <div style={styles.imgWrap}>
+                <img src={q.image} style={styles.img} alt="img" />
               </div>
             )}
+            <div style={styles.questionText}>{q?.question}</div>
           </div>
+
+          <ul style={styles.choices}>
+            {q?.choices?.map((c, idx) => (
+              <li key={idx}>
+                <button
+                  style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
+                  onClick={() => !done && setPicked(idx)}
+                >
+                  <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+                </button>
+              </li>
+            ))}
+          </ul>
+
+          <button
+            style={styles.submitBtn(picked === null && !done)}
+            disabled={picked === null && !done}
+            onClick={done ? next : submit}
+          >
+            {done ? "Next question" : "Submit"}
+          </button>
+
+          {done && (
+            <div style={styles.explanation}>
+              <strong>
+                {picked === q.correctIndex ? "Correct!" : "Not quite."}
+              </strong>{" "}
+              {q.explanation}
+            </div>
+          )}
         </div>
       </div>
     </div>
