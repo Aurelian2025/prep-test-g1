@@ -29,56 +29,83 @@ const styles = {
     borderBottom: "1px solid #dde0ff",
   },
   title: {
-    fontSize: "clamp(20px, 5vw, 32px)",
+    fontSize: "clamp(20px, 5vw, 30px)",
     fontWeight: 900,
-    margin: 0,
+    margin: "0 0 6px 0",
     color: "#0353a4",
     whiteSpace: "nowrap",
     overflow: "hidden",
     textOverflow: "ellipsis",
   },
-  moduleScroll: {
+
+  moduleWrapper: {
     overflowX: "auto",
-    paddingBottom: 8,
   },
+
   moduleGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(4, minmax(110px, 1fr))",
-    gap: 8,
-    minWidth: 480,
+    gridTemplateColumns: "repeat(4, minmax(90px, 1fr))",
+    gap: 6,
+    minWidth: 520,
+    alignItems: "center",
   },
-  buttonsRow: {
-    display: "flex",
-    gap: 8,
-    justifyContent: "flex-end",
-    marginTop: 8,
-    flexWrap: "wrap",
+
+  moduleGridRow2: {
+    display: "grid",
+    gridTemplateColumns: "repeat(7, minmax(90px, 1fr))",
+    gap: 6,
+    marginTop: 6,
+    minWidth: 520,
+    alignItems: "center",
   },
+
   btn: {
     border: "none",
     borderRadius: 999,
-    padding: "6px 12px",
-    fontSize: 13,
+    padding: "4px 10px",
+    fontSize: 12,
     cursor: "pointer",
+    height: 28,
+    whiteSpace: "nowrap",
     boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
   },
+
+  select: {
+    height: 28,
+    borderRadius: 999,
+    border: "1px solid #ccc",
+    padding: "0 8px",
+    fontSize: 12,
+  },
+
+  smallBtn: {
+    height: 28,
+    borderRadius: 999,
+    border: "none",
+    padding: "0 10px",
+    fontSize: 12,
+    cursor: "pointer",
+    background: "#4c6fff",
+    color: "#fff",
+  },
+
   card: {
     marginTop: 16,
     background: "#fff",
     borderRadius: 16,
     padding: 16,
     boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
-    transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
+
   metaRow: {
     display: "flex",
     justifyContent: "space-between",
-    alignItems: "center",
     fontSize: 16,
     fontWeight: 600,
     color: "#4c6fff",
     marginBottom: 12,
   },
+
   progressOuter: {
     width: "100%",
     height: 6,
@@ -87,49 +114,46 @@ const styles = {
     overflow: "hidden",
     marginBottom: 10,
   },
+
   progressInner: {
     height: "100%",
     borderRadius: 999,
     background: "#4c6fff",
     transition: "width 0.25s ease",
   },
+
   imgWrap: {
     textAlign: "center",
     marginBottom: 12,
   },
+
   img: {
     maxWidth: 200,
     maxHeight: 160,
-    width: "auto",
-    height: "auto",
   },
-  promptArea: {
-    minHeight: 220,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    marginBottom: 8,
-  },
+
   questionText: {
     fontSize: 16,
     fontWeight: 600,
     marginBottom: 10,
   },
+
   choices: {
     listStyle: "none",
     padding: 0,
     margin: "8px 0",
   },
+
   choiceBtn: (idx, picked, correctIndex, done) => {
     let border = "#d0d0ff";
     let background = "#f8f8ff";
 
-    if (!done) {
-      if (picked === idx) {
-        border = "#4c6fff";
-        background = "#e4e7ff";
-      }
-    } else {
+    if (!done && picked === idx) {
+      border = "#4c6fff";
+      background = "#e4e7ff";
+    }
+
+    if (done) {
       if (idx === correctIndex) {
         border = "#1b8a3a";
         background = "#e3f7e8";
@@ -151,6 +175,7 @@ const styles = {
       fontSize: 14,
     };
   },
+
   submitBtn: (disabled) => ({
     border: "none",
     borderRadius: 999,
@@ -161,126 +186,21 @@ const styles = {
     color: "#fff",
     marginTop: 4,
   }),
-  explanation: {
-    marginTop: 10,
-    padding: "8px 10px",
-    borderRadius: 10,
-    background: "#f1fff1",
-    fontSize: 13,
-  },
 };
 
 /* =========================
    CONSTANTS
 ========================= */
-const ACCESS_STORAGE_KEY = "g1_access_key";
 const LANGUAGE_STORAGE_KEY = "g1_lang";
-const PREVIEW_COUNT = 20;
-const OWNER_PASSWORD = "Lucas1";
 
 /* =========================
-   LANGUAGE CONFIG
+   LANGUAGES
 ========================= */
 const LANGUAGES = [
   { code: "", label: "Choose Language", file: "/questions.json" },
   { code: "en", label: "English", file: "/questions.json" },
   { code: "fr", label: "French", file: "/questions_fr.json" },
-  { code: "zh", label: "Chinese", file: "/questions_zh.json" },
-  { code: "pa", label: "Punjabi", file: "/questions_pa.json" },
-  { code: "es", label: "Spanish", file: "/questions_es.json" },
-  { code: "ru", label: "Russian", file: "/questions_ru.json" },
-  { code: "hi", label: "Hindi", file: "/questions_hi.json" },
-  { code: "ar", label: "Arabic", file: "/questions_ar.json" },
-  { code: "ur", label: "Urdu", file: "/questions_ur.json" },
-  { code: "fa", label: "Persian (Farsi)", file: "/questions_fa.json" },
 ];
-
-function getLangConfig(code) {
-  const effective = code || "en";
-  return LANGUAGES.find((l) => l.code === effective) || LANGUAGES[1];
-}
-
-/* =========================
-   HELPERS
-========================= */
-function shuffleArray(arr) {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function normalizeQuestion(raw) {
-  const question =
-    raw?.question ?? raw?.q ?? raw?.prompt ?? raw?.text ?? raw?.Question;
-
-  const choices =
-    raw?.choices ??
-    raw?.options ??
-    raw?.answers ??
-    raw?.Choices ??
-    raw?.Options ??
-    raw?.Answers;
-
-  let correctIndex =
-    raw?.correctIndex ??
-    raw?.correct_index ??
-    raw?.answerIndex ??
-    raw?.answer_index ??
-    raw?.correctAnswerIndex ??
-    raw?.correct_answer_index ??
-    raw?.CorrectIndex ??
-    raw?.AnswerIndex;
-
-  const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
-
-  if (
-    (correctIndex === undefined || correctIndex === null) &&
-    typeof correctLetter === "string"
-  ) {
-    const up = correctLetter.trim().toUpperCase();
-    const idx = "ABCD".indexOf(up);
-    if (idx >= 0) correctIndex = idx;
-  }
-
-  if (
-    (correctIndex === undefined || correctIndex === null) &&
-    typeof correctLetter === "number"
-  ) {
-    if (correctLetter >= 1 && correctLetter <= 4)
-      correctIndex = correctLetter - 1;
-    if (correctLetter >= 0 && correctLetter <= 3)
-      correctIndex = correctLetter;
-  }
-
-  const explanation =
-    raw?.explanation ??
-    raw?.rationale ??
-    raw?.why ??
-    raw?.Explanation ??
-    raw?.Rationale ??
-    raw?.Why ??
-    "";
-
-  const image = raw?.image ?? raw?.img ?? raw?.Image ?? raw?.Img ?? null;
-
-  if (!question || !Array.isArray(choices) || choices.length < 2) return null;
-  if (typeof correctIndex !== "number") return null;
-
-  return { question, choices, correctIndex, explanation, image };
-}
-
-function shuffleQuestionChoices(q) {
-  const idx = q.choices.map((_, i) => i);
-  const sh = shuffleArray(idx);
-  return {
-    ...q,
-    choices: sh.map((i) => q.choices[i]),
-    correctIndex: sh.indexOf(q.correctIndex),
-  };
-}
 
 /* =========================
    MAIN COMPONENT
@@ -299,34 +219,17 @@ export default function PrepTestG1() {
   const effectiveLang = lang || "en";
 
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
-      if (saved) setLang(saved);
-    } catch (_) {}
+    const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    if (saved) setLang(saved);
   }, []);
 
   useEffect(() => {
-    let cancelled = false;
-    const cfg = getLangConfig(effectiveLang);
-
-    (async () => {
-      try {
-        const r = await fetch(cfg.file);
-        const data = await r.json();
-        if (cancelled) return;
-
-        const normalized = data.map(normalizeQuestion).filter(Boolean);
-        const ordered = normalized.map(shuffleQuestionChoices);
-
-        setAllQuestions(ordered);
-        setQuestions(ordered.slice(0, 40));
-      } catch (_) {
-        setAllQuestions([]);
-        setQuestions([]);
-      }
-    })();
-
-    return () => (cancelled = true);
+    fetch("/questions.json")
+      .then((r) => r.json())
+      .then((data) => {
+        setAllQuestions(data);
+        setQuestions(data.slice(0, 40));
+      });
   }, [effectiveLang]);
 
   const q = questions[current];
@@ -346,8 +249,8 @@ export default function PrepTestG1() {
     setDone(false);
   };
 
-  const startByIndex = (startIdx, endIdx) => {
-    const subset = allQuestions.slice(startIdx, endIdx + 1);
+  const start = (s, e) => {
+    const subset = allQuestions.slice(s, e);
     setQuestions(subset);
     setCurrent(0);
     setPicked(null);
@@ -355,40 +258,36 @@ export default function PrepTestG1() {
     setCorrectCount(0);
   };
 
-  const renderButtons = () => (
-    <div style={styles.moduleScroll}>
-      <div style={styles.moduleGrid}>
-        <button onClick={() => startByIndex(0, 39)} style={{ ...styles.btn, background: "#ffe6a7" }}>
-          Start 1–40
-        </button>
-        <button onClick={() => startByIndex(40, 79)} style={{ ...styles.btn, background: "#ffd5f2" }}>
-          Start 41–80
-        </button>
-        <button onClick={() => startByIndex(80, 119)} style={{ ...styles.btn, background: "#e0c3ff" }}>
-          Start 81–120
-        </button>
-        <button onClick={() => startByIndex(120, 159)} style={{ ...styles.btn, background: "#c1ffd7" }}>
-          Start 121–160
-        </button>
-        <button onClick={() => startByIndex(160, 199)} style={{ ...styles.btn, background: "#b3e6ff" }}>
-          Start 161–200
-        </button>
-        <button onClick={() => startByIndex(200, 239)} style={{ ...styles.btn, background: "#d4c4ff" }}>
-          Start 201–240
-        </button>
-        <button onClick={() => startByIndex(240, 279)} style={{ ...styles.btn, background: "#baf2ff" }}>
-          Start 241–280
-        </button>
-      </div>
-    </div>
-  );
-
   return (
     <div style={styles.page}>
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          {renderButtons()}
+
+          <div style={styles.moduleWrapper}>
+            {/* ROW 1 */}
+            <div style={styles.moduleGrid}>
+              <button style={{ ...styles.btn, background: "#ffe6a7" }} onClick={() => start(0, 40)}>1–40</button>
+              <button style={{ ...styles.btn, background: "#ffd5f2" }} onClick={() => start(40, 80)}>41–80</button>
+              <button style={{ ...styles.btn, background: "#e0c3ff" }} onClick={() => start(80, 120)}>81–120</button>
+              <button style={{ ...styles.btn, background: "#c1ffd7" }} onClick={() => start(120, 160)}>121–160</button>
+            </div>
+
+            {/* ROW 2 */}
+            <div style={styles.moduleGridRow2}>
+              <button style={{ ...styles.btn, background: "#b3e6ff" }} onClick={() => start(160, 200)}>161–200</button>
+              <button style={{ ...styles.btn, background: "#d4c4ff" }} onClick={() => start(200, 240)}>201–240</button>
+              <button style={{ ...styles.btn, background: "#baf2ff" }} onClick={() => start(240, 280)}>241–280</button>
+
+              <select style={styles.select} value={lang} onChange={(e)=>setLang(e.target.value)}>
+                {LANGUAGES.map(l=>(
+                  <option key={l.code} value={l.code}>{l.label}</option>
+                ))}
+              </select>
+
+              <button style={styles.smallBtn}>Login</button>
+            </div>
+          </div>
         </div>
 
         <div style={styles.card}>
@@ -397,20 +296,11 @@ export default function PrepTestG1() {
           </div>
 
           <div style={styles.metaRow}>
-            <span>
-              Question {current + 1} / {questions.length}
-            </span>
+            <span>Question {current + 1} / {questions.length}</span>
             <span>Correct: {correctCount}</span>
           </div>
 
-          <div style={styles.promptArea}>
-            {q?.image && (
-              <div style={styles.imgWrap}>
-                <img src={q.image} style={styles.img} alt="img" />
-              </div>
-            )}
-            <div style={styles.questionText}>{q?.question}</div>
-          </div>
+          <div style={styles.questionText}>{q?.question}</div>
 
           <ul style={styles.choices}>
             {q?.choices?.map((c, idx) => (
@@ -419,7 +309,7 @@ export default function PrepTestG1() {
                   style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
                   onClick={() => !done && setPicked(idx)}
                 >
-                  <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+                  {c}
                 </button>
               </li>
             ))}
@@ -430,17 +320,8 @@ export default function PrepTestG1() {
             disabled={picked === null && !done}
             onClick={done ? next : submit}
           >
-            {done ? "Next question" : "Submit"}
+            {done ? "Next" : "Submit"}
           </button>
-
-          {done && (
-            <div style={styles.explanation}>
-              <strong>
-                {picked === q.correctIndex ? "Correct!" : "Not quite."}
-              </strong>{" "}
-              {q.explanation}
-            </div>
-          )}
         </div>
       </div>
     </div>
