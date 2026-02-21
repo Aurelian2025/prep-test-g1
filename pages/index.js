@@ -1,7 +1,10 @@
 // pages/index.js
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
+/* =========================
+   STYLES
+========================= */
 const styles = {
   page: {
     fontFamily:
@@ -154,7 +157,40 @@ const styles = {
   },
 };
 
-// shuffle helper
+/* =========================
+   CONSTANTS
+========================= */
+const ACCESS_STORAGE_KEY = "g1_access_key";
+const LANGUAGE_STORAGE_KEY = "g1_lang";
+const PREVIEW_COUNT = 20;
+const OWNER_PASSWORD = "Lucas1";
+
+/* =========================
+   LANGUAGE CONFIG
+========================= */
+const LANGUAGES = [
+  { code: "", label: "Choose Language", file: "/questions.json" }, // placeholder
+  { code: "en", label: "English", file: "/questions.json" },
+  { code: "fr", label: "French", file: "/questions_fr.json" },
+  { code: "zh", label: "Chinese", file: "/questions_zh.json" },
+  { code: "pa", label: "Punjabi", file: "/questions_pa.json" },
+  { code: "es", label: "Spanish", file: "/questions_es.json" },
+  { code: "ru", label: "Russian", file: "/questions_ru.json" },
+  { code: "hi", label: "Hindi", file: "/questions_hi.json" },
+  { code: "ar", label: "Arabic", file: "/questions_ar.json" },
+  { code: "ur", label: "Urdu", file: "/questions_ur.json" },
+  { code: "fa", label: "Persian (Farsi)", file: "/questions_fa.json" },
+];
+
+function getLangConfig(code) {
+  // internal default language = English
+  const effective = code || "en";
+  return LANGUAGES.find((l) => l.code === effective) || LANGUAGES[1];
+}
+
+/* =========================
+   HELPERS
+========================= */
 function shuffleArray(arr) {
   const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -162,6 +198,72 @@ function shuffleArray(arr) {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
+}
+
+function normalizeQuestion(raw) {
+  // Make French/Spanish tolerant if their JSON keys differ
+  const question =
+    raw?.question ?? raw?.q ?? raw?.prompt ?? raw?.text ?? raw?.Question;
+
+  const choices =
+    raw?.choices ??
+    raw?.options ??
+    raw?.answers ??
+    raw?.Choices ??
+    raw?.Options ??
+    raw?.Answers;
+
+  // correct index can be various forms
+  let correctIndex =
+    raw?.correctIndex ??
+    raw?.correct_index ??
+    raw?.answerIndex ??
+    raw?.answer_index ??
+    raw?.correctAnswerIndex ??
+    raw?.correct_answer_index ??
+    raw?.CorrectIndex ??
+    raw?.AnswerIndex;
+
+  // Sometimes correct is "A"/"B"/"C"/"D"
+  const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
+  if (
+    (correctIndex === undefined || correctIndex === null) &&
+    typeof correctLetter === "string"
+  ) {
+    const up = correctLetter.trim().toUpperCase();
+    if (up.length === 1) {
+      const idx = "ABCD".indexOf(up);
+      if (idx >= 0) correctIndex = idx;
+    }
+  }
+
+  // Sometimes correct is 1..4
+  if (
+    (correctIndex === undefined || correctIndex === null) &&
+    typeof correctLetter === "number"
+  ) {
+    // if 1..4
+    if (correctLetter >= 1 && correctLetter <= 4) correctIndex = correctLetter - 1;
+    // if 0..3
+    if (correctLetter >= 0 && correctLetter <= 3) correctIndex = correctLetter;
+  }
+
+  const explanation =
+    raw?.explanation ??
+    raw?.rationale ??
+    raw?.why ??
+    raw?.Explanation ??
+    raw?.Rationale ??
+    raw?.Why ??
+    "";
+
+  const image = raw?.image ?? raw?.img ?? raw?.Image ?? raw?.Img ?? null;
+
+  if (!question || !Array.isArray(choices) || choices.length < 2) return null;
+  if (typeof correctIndex !== "number" || correctIndex < 0 || correctIndex >= choices.length)
+    return null;
+
+  return { question, choices, correctIndex, explanation, image };
 }
 
 function shuffleQuestionChoices(q) {
@@ -174,17 +276,15 @@ function shuffleQuestionChoices(q) {
   };
 }
 
-/**
- * Full-screen checkpoint overlay (mobile-friendly).
- */
+/* =========================
+   CHECKPOINT OVERLAY
+========================= */
 function CheckpointScreen({ correct, answered, passed, onContinue }) {
   return (
     <div className="checkpoint">
       <div className="card">
         <div className="face">{passed ? "🙂" : "😕"}</div>
-
         <h2>{passed ? "Congratulations!" : "Not quite enough"}</h2>
-
         {passed ? (
           <p className="subtitle">You passed!</p>
         ) : (
@@ -195,15 +295,12 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
             Try again.
           </p>
         )}
-
         <div className="score">
           Score: <strong>{correct}</strong> / {answered}
         </div>
-
         <button className="btn" onClick={onContinue}>
           Continue
         </button>
-
         <div className="hint">
           {passed
             ? "Keep going — you’re doing great."
@@ -285,49 +382,29 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
   );
 }
 
-const ACCESS_STORAGE_KEY = "g1_access_key";
-
-// Language setup (default English)
-const LANGUAGE_STORAGE_KEY = "g1_lang";
-const LANGUAGES = [
-  { code: "en", label: "English", file: "/questions.json" },
-  { code: "fr", label: "French", file: "/questions_fr.json" },
-  { code: "zh", label: "Chinese", file: "/questions_zh.json" },
-  { code: "pa", label: "Punjabi", file: "/questions_pa.json" },
-  { code: "es", label: "Spanish", file: "/questions_es.json" },
-  { code: "ru", label: "Russian", file: "/questions_ru.json" },
-  { code: "hi", label: "Hindi", file: "/questions_hi.json" },
-  { code: "ar", label: "Arabic", file: "/questions_ar.json" },
-  { code: "ur", label: "Urdu", file: "/questions_ur.json" },
-  // You also have Farsi in your repo; keeping it available without changing priority list
-  { code: "fa", label: "Farsi", file: "/questions_fa.json" },
-];
-
-function getLangByCode(code) {
-  return LANGUAGES.find((l) => l.code === code) || LANGUAGES[0];
-}
-
+/* =========================
+   MAIN COMPONENT
+========================= */
 export default function PrepTestG1() {
   const supabase = useSupabaseClient();
 
-  // Owner/master override (for you only)
-  const OWNER_PASSWORD = "Lucas1";
+  // language
+  const [lang, setLang] = useState(""); // placeholder displayed; internal default = English
 
-  // Preview rules (every refresh starts in preview until they choose to login)
-  const PREVIEW_COUNT = 20;
-
-  // Language state
-  const [lang, setLang] = useState("en");
-
-  // Access/login state
+  // access
   const [hasAccess, setHasAccess] = useState(false);
-  const [accessChecked, setAccessChecked] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
   const [ownerOverride, setOwnerOverride] = useState(false);
   const [accessError, setAccessError] = useState("");
-
-  // Session mode: preview (default), auth (password screen), full (hasAccess/ownerOverride)
   const [authGateOpen, setAuthGateOpen] = useState(false);
+
+  // quiz
+  const [allQuestions, setAllQuestions] = useState(null);
+  const [questions, setQuestions] = useState([]);
+  const [current, setCurrent] = useState(0);
+  const [picked, setPicked] = useState(null);
+  const [done, setDone] = useState(false);
+  const [correctCount, setCorrectCount] = useState(0);
 
   const [blockAnswered, setBlockAnswered] = useState(0);
   const [blockCorrect, setBlockCorrect] = useState(0);
@@ -339,22 +416,17 @@ export default function PrepTestG1() {
     passed: false,
   });
 
-  // QUESTION STATE
-  const [allQuestions, setAllQuestions] = useState(null); // full bank
-  const [questions, setQuestions] = useState([]); // active set
-  const [current, setCurrent] = useState(0);
-  const [picked, setPicked] = useState(null);
-  const [done, setDone] = useState(false);
-  const [correctCount, setCorrectCount] = useState(0);
-  const [cardRaised, setCardRaised] = useState(false);
-
   const [globalBase, setGlobalBase] = useState(0);
   const [globalTotal, setGlobalTotal] = useState(0);
 
   const isPreview = !authGateOpen && !hasAccess && !ownerOverride;
   const isFull = hasAccess || ownerOverride;
 
-  // init language from localStorage
+  const effectiveLang = lang || "en";
+
+  /* =========================
+     INIT LANGUAGE
+  ========================= */
   useEffect(() => {
     try {
       const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
@@ -364,58 +436,92 @@ export default function PrepTestG1() {
 
   const handleLangChange = (e) => {
     const code = e.target.value;
+
     setLang(code);
     try {
       localStorage.setItem(LANGUAGE_STORAGE_KEY, code);
     } catch (_) {}
-    // Reset quiz cleanly after language switch (keeps UI/workflow the same)
-    if (typeof window !== "undefined") window.location.reload();
+
+    // reset quiz without reload
+    setAllQuestions(null);
+    setQuestions([]);
+    setCurrent(0);
+    setPicked(null);
+    setDone(false);
+    setCorrectCount(0);
+    setBlockAnswered(0);
+    setBlockCorrect(0);
+    setCheckpointOpen(false);
+    setCheckpointScore({ correct: 0, answered: 0, passed: false });
+    setGlobalBase(0);
   };
 
-  // load questions (language-aware)
+  /* =========================
+     LOAD QUESTIONS (ROBUST)
+  ========================= */
   useEffect(() => {
-    const file = getLangByCode(lang).file;
-    fetch(file)
-      .then((r) => r.json())
-      .then((data) => {
-        const ordered = data.map(shuffleQuestionChoices);
-        setAllQuestions(ordered);
+    let cancelled = false;
 
-        // default values — actual set will be enforced by effect below
+    const cfg = getLangConfig(effectiveLang);
+
+    (async () => {
+      try {
+        // cache-bust to avoid stale dev caching
+        const url = `${cfg.file}?v=${Date.now()}`;
+        const r = await fetch(url, { cache: "no-store" });
+        const data = await r.json();
+
+        if (cancelled) return;
+
+        if (!Array.isArray(data)) {
+          setAllQuestions([]);
+          setQuestions([]);
+          setGlobalTotal(0);
+          return;
+        }
+
+        // normalize first (THIS fixes French/Spanish if field names differ)
+        const normalized = data.map(normalizeQuestion).filter(Boolean);
+
+        const ordered = normalized.map(shuffleQuestionChoices);
+
+        setAllQuestions(ordered);
         setQuestions(ordered.slice(0, 40));
         setGlobalTotal(ordered.length);
         setGlobalBase(0);
-      })
-      .catch(() => {
+      } catch (_) {
+        if (cancelled) return;
         setAllQuestions([]);
         setQuestions([]);
         setGlobalTotal(0);
-      });
-  }, [lang]);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [effectiveLang]);
 
   const hasQuestionsFlag = questions.length > 0;
 
-  // ---------- Access control helpers ----------
+  /* =========================
+     ACCESS HELPERS
+  ========================= */
   async function validateKeyAgainstSupabase(accessKey) {
-    if (!accessKey) return { ok: false, reason: "missing" };
+    if (!accessKey) return { ok: false };
 
-    const { data, error } = await supabase
+    const { data } = await supabase
       .from("access_keys")
       .select("key, expires_at, disabled")
       .eq("key", accessKey)
       .maybeSingle();
 
-    if (error) {
-      console.error("Error checking access key:", error);
-      return { ok: false, reason: "error" };
-    }
-
-    if (!data) return { ok: false, reason: "invalid" };
-    if (data.disabled) return { ok: false, reason: "disabled" };
+    if (!data) return { ok: false };
+    if (data.disabled) return { ok: false };
 
     const expired =
       !data.expires_at || new Date(data.expires_at).getTime() <= Date.now();
-    if (expired) return { ok: false, reason: "expired" };
+    if (expired) return { ok: false };
 
     return { ok: true };
   }
@@ -429,50 +535,6 @@ export default function PrepTestG1() {
     setPasswordInput("");
   }
 
-  // Force the active question set depending on mode
-  useEffect(() => {
-    if (!allQuestions) return;
-
-    // Preview: exactly first 20
-    if (isPreview) {
-      setQuestions(allQuestions.slice(0, PREVIEW_COUNT));
-      setCurrent(0);
-      setPicked(null);
-      setDone(false);
-      setCorrectCount(0);
-      setGlobalBase(0);
-
-      setBlockAnswered(0);
-      setBlockCorrect(0);
-
-      setCheckpointOpen(false);
-      setCheckpointScore({ correct: 0, answered: 0, passed: false });
-      return;
-    }
-
-    // Auth gate open but not full: keep whatever was on screen (preview set)
-    // Full: default to first 40 on entry (same as original initial behavior)
-    if (isFull) {
-      // If currently still on preview subset, reset to default full set
-      if (questions.length === PREVIEW_COUNT) {
-        setQuestions(allQuestions.slice(0, 40));
-        setCurrent(0);
-        setPicked(null);
-        setDone(false);
-        setCorrectCount(0);
-        setGlobalBase(0);
-
-        setBlockAnswered(0);
-        setBlockCorrect(0);
-
-        setCheckpointOpen(false);
-        setCheckpointScore({ correct: 0, answered: 0, passed: false });
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [allQuestions, isPreview, isFull]);
-
-  // Open auth gate (password screen). If a saved key exists and is valid, auto-enter full app.
   async function openAuthGate({ tryAutoLogin } = { tryAutoLogin: true }) {
     setAccessError("");
     setAuthGateOpen(true);
@@ -481,122 +543,19 @@ export default function PrepTestG1() {
 
     let savedKey = null;
     try {
-      savedKey =
-        typeof window !== "undefined"
-          ? localStorage.getItem(ACCESS_STORAGE_KEY)
-          : null;
-    } catch (_) {
-      savedKey = null;
-    }
+      savedKey = localStorage.getItem(ACCESS_STORAGE_KEY);
+    } catch (_) {}
 
     if (!savedKey) return;
 
     const result = await validateKeyAgainstSupabase(savedKey);
     if (result.ok) {
       setHasAccess(true);
-      setAccessChecked(true);
       setAuthGateOpen(false);
       setPasswordInput("");
-    } else {
-      // keep gate open; do not clear key here (user may want to re-enter)
-      setAccessError(
-        result.reason === "expired"
-          ? "Your access has expired."
-          : result.reason === "disabled"
-          ? "Your access has been disabled."
-          : "Access is no longer valid."
-      );
     }
   }
 
-  // Check access on interval + focus (kick-out). Do NOT auto-enter full app while in preview.
-  useEffect(() => {
-    let cancelled = false;
-    let intervalId = null;
-    let isChecking = false;
-
-    async function checkAccessLoop() {
-      if (cancelled) return;
-
-      // owner override always full
-      if (ownerOverride) {
-        setHasAccess(true);
-        setAccessChecked(true);
-        return;
-      }
-
-      // In preview we do NOT auto-login. We only validate while in full app,
-      // or while auth gate is open (so we can auto-login there if key is valid).
-      const shouldValidateNow = isFull || authGateOpen;
-
-      if (!shouldValidateNow) {
-        setAccessChecked(true);
-        return;
-      }
-
-      if (isChecking) return;
-      isChecking = true;
-
-      try {
-        const savedKey =
-          typeof window !== "undefined"
-            ? localStorage.getItem(ACCESS_STORAGE_KEY)
-            : null;
-
-        if (!savedKey) {
-          if (!cancelled) {
-            setHasAccess(false);
-            setAccessChecked(true);
-          }
-          return;
-        }
-
-        const result = await validateKeyAgainstSupabase(savedKey);
-        if (cancelled) return;
-
-        if (!result.ok) {
-          // If key becomes invalid while in full app -> kick out immediately to auth gate
-          clearAccess();
-          setAccessError(
-            result.reason === "expired"
-              ? "Your access has expired."
-              : result.reason === "disabled"
-              ? "Your access has been disabled."
-              : "Access is no longer valid."
-          );
-          setHasAccess(false);
-          setAuthGateOpen(true);
-        } else {
-          setAccessError("");
-          setHasAccess(true);
-
-          // If auth gate is open and key is valid, close it and go full
-          if (authGateOpen) {
-            setAuthGateOpen(false);
-            setPasswordInput("");
-          }
-        }
-      } finally {
-        if (!cancelled) setAccessChecked(true);
-        isChecking = false;
-      }
-    }
-
-    checkAccessLoop();
-
-    intervalId = setInterval(checkAccessLoop, 60 * 1000);
-
-    const onFocus = () => checkAccessLoop();
-    window.addEventListener("focus", onFocus);
-
-    return () => {
-      cancelled = true;
-      if (intervalId) clearInterval(intervalId);
-      window.removeEventListener("focus", onFocus);
-    };
-  }, [supabase, ownerOverride, isFull, authGateOpen]);
-
-  // Handle password submit
   const handleAccessSubmit = async (e) => {
     e.preventDefault();
     setAccessError("");
@@ -607,55 +566,38 @@ export default function PrepTestG1() {
       return;
     }
 
-    // Owner override
     if (entered === OWNER_PASSWORD) {
       setOwnerOverride(true);
       setHasAccess(true);
-      setAccessChecked(true);
       setAuthGateOpen(false);
       setPasswordInput("");
       return;
     }
 
-    // Normal user password -> validate against Supabase table
     const result = await validateKeyAgainstSupabase(entered);
     if (!result.ok) {
-      setHasAccess(false);
-      setAccessChecked(true);
-      setAccessError(
-        result.reason === "invalid"
-          ? "Incorrect password."
-          : result.reason === "expired"
-          ? "Your access has expired."
-          : result.reason === "disabled"
-          ? "Your access has been disabled."
-          : "Unable to verify access right now."
-      );
+      setAccessError("Incorrect password.");
       return;
     }
 
-    // Save key locally for persistence
     try {
       localStorage.setItem(ACCESS_STORAGE_KEY, entered);
     } catch (_) {}
 
     setHasAccess(true);
-    setAccessChecked(true);
     setAuthGateOpen(false);
     setPasswordInput("");
   };
 
-  // Sign out: go to password screen (NOT preview)
   async function handleLogout() {
     clearAccess();
     setCheckpointOpen(false);
-    setCheckpointScore({ correct: 0, answered: 0, passed: false });
-    setAccessError("");
     setAuthGateOpen(true);
-    if (typeof window !== "undefined") window.scrollTo(0, 0);
   }
 
-  // ---------- Quiz logic ----------
+  /* =========================
+     QUIZ LOGIC
+  ========================= */
   let safeIndex = current;
   if (hasQuestionsFlag) {
     if (safeIndex < 0) safeIndex = 0;
@@ -682,7 +624,6 @@ export default function PrepTestG1() {
 
     setBlockAnswered((n) => n + 1);
     if (isCorrect) setBlockCorrect((n) => n + 1);
-
     if (isCorrect) setCorrectCount((c) => c + 1);
 
     setDone(true);
@@ -700,7 +641,6 @@ export default function PrepTestG1() {
   const startByIndex = (startIdx, endIdx, baseNumber) => {
     if (!allQuestions) return;
 
-    // In preview, Start buttons should behave like "Login" (same UI, but prompts auth)
     if (isPreview) {
       openAuthGate({ tryAutoLogin: true });
       return;
@@ -717,62 +657,46 @@ export default function PrepTestG1() {
     setBlockAnswered(0);
     setBlockCorrect(0);
     setCheckpointOpen(false);
-    setCheckpointScore({ correct: 0, answered: 0 });
+    setCheckpointScore({ correct: 0, answered: 0, passed: false });
   };
 
-  const start1 = () => startByIndex(0, 39, 1 - 1);
-  const start41 = () => startByIndex(40, 79, 41 - 1);
-  const start81 = () => startByIndex(80, 119, 81 - 1);
-  const start121 = () => startByIndex(120, 159, 121 - 1);
-  const start161 = () => startByIndex(160, 199, 161 - 1);
-  const start201 = () => startByIndex(200, 239, 201 - 1);
-  const start241 = () => startByIndex(240, 279, 241 - 1);
+  const start1 = () => startByIndex(0, 39, 0);
+  const start41 = () => startByIndex(40, 79, 40);
+  const start81 = () => startByIndex(80, 119, 80);
+  const start121 = () => startByIndex(120, 159, 120);
+  const start161 = () => startByIndex(160, 199, 160);
+  const start201 = () => startByIndex(200, 239, 200);
+  const start241 = () => startByIndex(240, 279, 240);
 
   const renderButtons = () => (
     <div style={styles.buttonsRow}>
       <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
         Start 1–40
       </button>
-      <button
-        onClick={start41}
-        style={{ ...styles.btn, background: "#ffd5f2" }}
-      >
+      <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
         Start 41–80
       </button>
-      <button
-        onClick={start81}
-        style={{ ...styles.btn, background: "#e0c3ff" }}
-      >
+      <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
         Start 81–120
       </button>
-      <button
-        onClick={start121}
-        style={{ ...styles.btn, background: "#c1ffd7" }}
-      >
+      <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
         Start 121–160
       </button>
-      <button
-        onClick={start161}
-        style={{ ...styles.btn, background: "#b3e6ff" }}
-      >
+      <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
         Start 161–200
       </button>
-      <button
-        onClick={start201}
-        style={{ ...styles.btn, background: "#d4c4ff" }}
-      >
+      <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
         Start 201–240
       </button>
-      <button
-        onClick={start241}
-        style={{ ...styles.btn, background: "#baf2ff" }}
-      >
+      <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
         Start 241–280
       </button>
     </div>
   );
 
-  // Preview-only: show Continue screen AFTER 20 questions
+  /* =========================
+     CHECKPOINTS
+  ========================= */
   useEffect(() => {
     if (!isPreview) return;
     if (checkpointOpen) return;
@@ -780,7 +704,6 @@ export default function PrepTestG1() {
 
     const isPreviewEnd = inSet === PREVIEW_COUNT;
     if (!isPreviewEnd) return;
-
     if (blockAnswered < PREVIEW_COUNT) return;
 
     const passed = blockCorrect >= 18;
@@ -791,17 +714,8 @@ export default function PrepTestG1() {
       passed,
     });
     setCheckpointOpen(true);
-  }, [
-    isPreview,
-    checkpointOpen,
-    done,
-    inSet,
-    blockAnswered,
-    blockCorrect,
-    PREVIEW_COUNT,
-  ]);
+  }, [isPreview, checkpointOpen, done, inSet, blockAnswered, blockCorrect]);
 
-  // Full-mode checkpoints (original behavior)
   useEffect(() => {
     if (isPreview) return;
     if (checkpointOpen) return;
@@ -809,7 +723,6 @@ export default function PrepTestG1() {
 
     const isCheckpointQuestion = inSet === 20 || inSet === 40;
     if (!isCheckpointQuestion) return;
-
     if (blockAnswered < 20) return;
 
     const passed = blockCorrect >= 18;
@@ -822,36 +735,39 @@ export default function PrepTestG1() {
     setCheckpointOpen(true);
   }, [isPreview, inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
-  // Loading questions
+  /* =========================
+     RENDERS
+  ========================= */
   if (!allQuestions) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-                <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-                <select
-                  value={lang}
-                  onChange={handleLangChange}
-                  style={{
-                    padding: "6px 10px",
-                    borderRadius: 8,
-                    border: "1px solid #ccc",
-                    fontSize: 13,
-                    background: "#fff",
-                    cursor: "pointer",
-                  }}
-                  aria-label="Language"
-                >
-                  {LANGUAGES.map((l) => (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                gap: 12,
+                flexWrap: "wrap",
+              }}
+            >
+              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+              <div style={{ display: "flex", gap: 8 }}>
+                <select value={lang} onChange={handleLangChange}>
+                  <option value="" disabled>
+                    Choose Language
+                  </option>
+                  {LANGUAGES.filter((l) => l.code !== "").map((l) => (
                     <option key={l.code} value={l.code}>
                       {l.label}
                     </option>
                   ))}
                 </select>
+                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
+                  Login
+                </button>
               </div>
-              <div />
             </div>
             {renderButtons()}
           </div>
@@ -863,60 +779,18 @@ export default function PrepTestG1() {
     );
   }
 
-  // Still checking access (do not block preview)
-  if (!accessChecked && !ownerOverride && !isPreview) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.card}>
-            <p>Checking access…</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Auth gate open (password screen) — appears after preview continue, logout, or Login click
   if (authGateOpen && !hasAccess && !ownerOverride) {
     return (
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-              <select
-                value={lang}
-                onChange={handleLangChange}
-                style={{
-                  padding: "6px 10px",
-                  borderRadius: 8,
-                  border: "1px solid #ccc",
-                  fontSize: 13,
-                  background: "#fff",
-                  cursor: "pointer",
-                }}
-                aria-label="Language"
-              >
-                {LANGUAGES.map((l) => (
-                  <option key={l.code} value={l.code}>
-                    {l.label}
-                  </option>
-                ))}
-              </select>
-            </div>
+            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
           </div>
-
           <div style={styles.card}>
-            <p style={{ fontSize: 14, color: "#4b5563" }}>
+            <p style={{ fontSize: 14 }}>
               <strong>Special Access</strong>
             </p>
-
-            {accessError ? (
-              <p style={{ marginTop: 6, color: "#b91c1c", fontSize: 13 }}>
-                {accessError}
-              </p>
-            ) : null}
-
+            {accessError && <p style={{ color: "red" }}>{accessError}</p>}
             <form onSubmit={handleAccessSubmit}>
               <input
                 type="password"
@@ -939,46 +813,6 @@ export default function PrepTestG1() {
     );
   }
 
-  // No questions
-  if (!hasQuestionsFlag) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-                <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-                <select
-                  value={lang}
-                  onChange={handleLangChange}
-                  style={{
-                    padding: "6px 10px",
-                    borderRadius: 8,
-                    border: "1px solid #ccc",
-                    fontSize: 13,
-                    background: "#fff",
-                    cursor: "pointer",
-                  }}
-                  aria-label="Language"
-                >
-                  {LANGUAGES.map((l) => (
-                    <option key={l.code} value={l.code}>
-                      {l.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div />
-            </div>
-            {renderButtons()}
-          </div>
-          <div style={styles.card}>No questions available.</div>
-        </div>
-      </div>
-    );
-  }
-
-  // MAIN QUIZ VIEW (preview + full use the same UI)
   return (
     <div style={styles.page}>
       {checkpointOpen && (
@@ -987,24 +821,14 @@ export default function PrepTestG1() {
           answered={checkpointScore.answered}
           passed={checkpointScore.passed}
           onContinue={() => {
-            // Preview end: Continue -> password screen
             if (isPreview) {
               setCheckpointOpen(false);
               setAuthGateOpen(true);
-              if (typeof window !== "undefined") window.scrollTo(0, 0);
               return;
             }
-
-            // Full app: original continue behavior
             setCheckpointOpen(false);
-
             setBlockAnswered(0);
             setBlockCorrect(0);
-
-            if (inSet === 40) {
-              setCorrectCount(0);
-            }
-
             if (!isLast) {
               setCurrent((p) => (p >= questions.length - 1 ? p : p + 1));
               setPicked(null);
@@ -1013,22 +837,6 @@ export default function PrepTestG1() {
           }}
         />
       )}
-
-      <style jsx global>{`
-        .question-anim {
-          animation: fadeSlide 0.25s ease-out;
-        }
-        @keyframes fadeSlide {
-          from {
-            opacity: 0;
-            transform: translateY(12px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
 
       <div style={styles.container}>
         <div style={styles.header}>
@@ -1041,78 +849,34 @@ export default function PrepTestG1() {
               flexWrap: "wrap",
             }}
           >
-            <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-              <select
-                value={lang}
-                onChange={handleLangChange}
-                style={{
-                  padding: "6px 10px",
-                  borderRadius: 8,
-                  border: "1px solid #ccc",
-                  fontSize: 13,
-                  background: "#fff",
-                  cursor: "pointer",
-                }}
-                aria-label="Language"
-              >
-                {LANGUAGES.map((l) => (
+            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+
+            <div style={{ display: "flex", gap: 8 }}>
+              <select value={lang} onChange={handleLangChange}>
+                <option value="" disabled>
+                  Choose Language
+                </option>
+                {LANGUAGES.filter((l) => l.code !== "").map((l) => (
                   <option key={l.code} value={l.code}>
                     {l.label}
                   </option>
                 ))}
               </select>
-            </div>
 
-            {/* Right-side button: Sign out in full app, Login in preview */}
-            {isFull ? (
-              <button
-                onClick={handleLogout}
-                style={{
-                  border: "none",
-                  padding: "6px 12px",
-                  borderRadius: 999,
-                  background: "#e0e2ff",
-                  cursor: "pointer",
-                  fontSize: 13,
-                }}
-              >
-                Sign out
-              </button>
-            ) : (
-              <button
-                onClick={() => openAuthGate({ tryAutoLogin: true })}
-                style={{
-                  border: "none",
-                  padding: "6px 12px",
-                  borderRadius: 999,
-                  background: "#e0e2ff",
-                  cursor: "pointer",
-                  fontSize: 13,
-                }}
-              >
-                Login
-              </button>
-            )}
+              {isFull ? (
+                <button onClick={handleLogout}>Sign out</button>
+              ) : (
+                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
+                  Login
+                </button>
+              )}
+            </div>
           </div>
 
-          {/* Start buttons always visible, same UI */}
           {renderButtons()}
         </div>
 
-        <div
-          style={{
-            ...styles.card,
-            ...(cardRaised
-              ? {
-                  boxShadow: "0 10px 24px rgba(0, 0, 0, 0.16)",
-                  transform: "translateY(-2px)",
-                }
-              : {}),
-          }}
-          onMouseEnter={() => setCardRaised(true)}
-          onMouseLeave={() => setCardRaised(false)}
-        >
+        <div style={styles.card}>
           <div style={styles.progressOuter}>
             <div style={{ ...styles.progressInner, width: `${pct}%` }} />
           </div>
@@ -1124,18 +888,18 @@ export default function PrepTestG1() {
             <span>Correct: {correctCount}</span>
           </div>
 
-          <div key={globalNumber} className="question-anim">
+          <div key={globalNumber}>
             <div style={styles.promptArea}>
-              {q.image && (
+              {q?.image && (
                 <div style={styles.imgWrap}>
                   <img src={q.image} style={styles.img} alt="img" />
                 </div>
               )}
-              <div style={styles.questionText}>{q.question}</div>
+              <div style={styles.questionText}>{q?.question}</div>
             </div>
 
             <ul style={styles.choices}>
-              {q.choices.map((c, idx) => (
+              {q?.choices?.map((c, idx) => (
                 <li key={idx}>
                   <button
                     style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
@@ -1163,22 +927,9 @@ export default function PrepTestG1() {
                 {q.explanation}
               </div>
             )}
-
-            <div
-              style={{
-                marginTop: "3rem",
-                textAlign: "center",
-                fontSize: "0.75rem",
-                color: "#666",
-                letterSpacing: "0.5px",
-              }}
-            >
-              Ontario G1 Practice Test © 2026. ALL RIGHTS RESERVED.
-            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-```

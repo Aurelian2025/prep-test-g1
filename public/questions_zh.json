@@ -1,448 +1,266 @@
 [
   {
-  "id": "q-no-left-turn-sign-1",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "signs-regulatory",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "仅夜间允许左转",
-    "任何时候都不允许左转",
-    "前方开始左转车道",
-    "可以谨慎掉头"
-  ],
-  "correctIndex": 1,
-  "explanation": "带斜杠的红色圆圈始终表示禁止。带斜杠的向左箭头表示不允许左转。",
-  "image": "/signs/no-left-turn.jpg",
-  "notes": "Original question aligned to Ontario signage."
-},
-{
-  "id": "q-stop-complete-2",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "rules-of-the-road",
-  "question": "在停车标志处，如果地面有停车线，您必须在哪里停车？",
-  "choices": [
-    "在路口前的任何位置",
-    "在停车标志杆旁边",
-    "在地面标示的停车线处",
-    "进入路口一半以便看得更清楚"
-  ],
-  "correctIndex": 2,
-  "explanation": "您必须在地面标示的停车线处完全停车。如果没有停车线，应在行人横道前停车；如果没有行人横道，应在路边人行道边缘停车；如果都没有，则在路口边缘停车。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Stopping",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
-    }
-  ],
-  "image": "/signs/q-1-stop-painted-line.png",
-  "notes": "Original question authored for this app. We do not copy third-party practice tests."
-},
-{
-  "id": "q-bike-warning-3",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "signs-regulatory",
-  "question": "前方出现此标志。它在警告您什么？",
-  "choices": [
-    "此道路禁止自行车通行",
-    "注意骑行者；可能有自行车横穿或与车辆共用道路",
-    "前方为共用步道；机动车必须停车",
-    "自行车道结束；立即向右并线"
-  ],
-  "correctIndex": 1,
-  "explanation": "黄色菱形中的自行车符号是警告标志，提示注意骑行者，并准备减速或在需要时让行。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Traffic signs (Warning signs)",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
-  "image": "/signs/bike-lane.jpg",
-  "notes": "Original question aligned to Ontario warning sign conventions."
-},
-{
-  "id": "q-drink-drive-first-offence-4",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "alcohol-and-driving",
-  "question": "首次因酒后驾驶被定罪后，驾驶执照会被吊销多长时间？",
-  "choices": [
-    "1个月",
-    "3个月",
-    "6个月",
-    "1年"
-  ],
-  "correctIndex": 3,
-  "explanation": "首次酒后驾驶定罪将导致驾照被吊销一年，并可能伴随罚款和强制教育项目等其他处罚。",
-  "image": "/signs/q-blood-alcohol.png"
-},
-{
-  "id": "q-do-not-enter-5",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "signs-regulatory",
-  "question": "在道路入口看到此标志时，您必须怎么做？",
-  "choices": [
-    "缓慢前进并保持右侧行驶",
-    "只有在交通稀少时才进入",
-    "禁止进入——该道路供相反方向的车辆通行",
-    "先停车，确认安全后再前进"
-  ],
-  "correctIndex": 2,
-  "explanation": "红色圆圈内带白色横杠表示“禁止进入”——您正面向相反方向的车流（例如单行道的反向入口）。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
-    }
-  ],
-  "image": "/signs/no-entry.jpg",
-  "notes": "Original question; aligns to Ontario 'Do Not Enter' meaning."
-},
-{
-  "id": "q-demerit-fail-remain-6",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "demerit-points",
-  "question": "未留在碰撞现场会被记多少扣分？",
-  "choices": [
-    "2 分扣分",
-    "3 分扣分",
-    "6 分扣分",
-    "7 分扣分"
-  ],
-  "correctIndex": 3,
-  "explanation": "未留在碰撞现场将被记 7 分扣分。",
-  "sources": [],
-  "image": "/signs/q-fail-remain-collision-262.png"
-},
-{
-  "id": "q-road-closed-7",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "signs-regulatory",
-  "question": "前方出现此标志。对您行驶方向的交通意味着什么？",
-  "choices": [
-    "前方绕行——将车速降至 30 公里/小时",
-    "道路对所有车辆封闭——不要继续前行",
-    "此路禁止停车",
-    "允许临时施工通行"
-  ],
-  "correctIndex": 1,
-  "explanation": "“道路封闭”标志表示该道路对交通关闭。不要继续前行；请按照绕行标志或指示行驶。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Traffic signs (Temporary conditions / regulatory signs)",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
-  "image": "/signs/road-closed.jpg",
-  "notes": "Original question written for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
-},
-{
-  "id": "q-two-second-rule-8",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "rules-of-the-road",
-  "question": "在良好条件下，大多数乘用车的最小安全跟车距离是多少？",
-  "choices": [
-    "在前车后方一秒",
-    "在前车后方两秒",
-    "任何车速下三车长",
-    "仅在高速公路上五秒"
-  ],
-  "correctIndex": 1,
-  "explanation": "在良好条件下，至少使用两秒规则来保持安全的跟车距离。在恶劣天气或能见度低时应增加间距。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Following distance)",
-      "url": "https://www.ontario.ca/book/export/html/80365"
-    }
-  ],
-  "image": "/signs/q-7-following-disctance.png",
-  "notes": "Original question; aligns to handbook guidance."
-},
-{
-  "id": "q-sign-winding-road-9",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "signs-regulatory",
-  "question": "带有弯曲箭头的黄色菱形标志表示：",
-  "choices": [
-    "前方道路笔直",
-    "前方道路有一系列弯道；减速并谨慎驾驶",
-    "前方只有一个急弯",
-    "前方有铺装路肩"
-  ],
-  "correctIndex": 1,
-  "explanation": "弯曲道路标志警告前方有多个弯道。请减速并准备随时改变方向。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Warning signs",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-    }
-  ],
-  "image": "/signs/q-sign-winding-road-78.png",
-  "notes": "Original winding-road sign question."
-},
-{
-  "id": "q-roundabout-yield-10",
-  "brand": "Prep test G1",
-  "lang": "zh",
-  "category": "rules-of-the-road",
-  "question": "接近环形交叉路口时，在进入前必须怎么做？",
-  "choices": [
-    "快速进入并占据车道",
-    "即使没有车辆也在入口车道停车",
-    "让行已在环岛内的车辆和行人，在有安全间隙时进入",
-    "打左转向灯并立即进入"
-  ],
-  "correctIndex": 2,
-  "explanation": "减速并让行环岛内的车辆和行人。只有在有安全间隙时才进入；驶出时打右转向灯。",
-  "sources": [
-    {
-      "title": "Official MTO Driver’s Handbook — Roundabouts",
-      "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-    }
-  ],
-  "image": "/signs/q-11-roundabout.jpg",
-  "notes": "Original question aligned to the roundabout entry/yield rules."
-},
-{
-  "id": "q-no-idling-3min-11",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "这里执行的是哪项环境规定？",
-  "choices": [
-    "发动机怠速不得超过3分钟",
-    "发动机必须保持开启",
-    "仅在冬季允许怠速",
-    "柴油车辆免于此规定"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志限制发动机怠速时间，以减少排放和污染。",
-  "sources": [
-    {
-      "title": "Anti-Idling Regulations",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-no-idling-3min.png"
-},
-
-{
-  "id": "q-airport-ahead-12",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "该标志指向哪个目的地？",
-  "choices": [
-    "机场通道",
-    "渡轮码头",
-    "军事基地",
-    "火车站"
-  ],
-  "correctIndex": 0,
-  "explanation": "飞机图标指引驾驶员前往机场设施。",
-  "sources": [
-    {
-      "title": "Guide Signs — Transportation",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-airport-ahead.png"
-},
-
-{
-  "id": "q-novice-driver-n-13",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "该符号向其他驾驶员提供什么信息？",
-  "choices": [
-    "驾驶员是新手或缺乏经验",
-    "车辆行驶缓慢",
-    "该车仅用于教学",
-    "车辆正在维修"
-  ],
-  "correctIndex": 0,
-  "explanation": "“N”标志表示新手驾驶员，并提醒他人保持耐心。",
-  "sources": [
-    {
-      "title": "Graduated Licensing Identification",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-novice-driver.png"
-},
-
-{
-  "id": "q-hand-signal-left-turn-14",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "该手势表示什么意图？",
-  "choices": [
-    "左转",
-    "右转",
-    "停车",
-    "让行"
-  ],
-  "correctIndex": 0,
-  "explanation": "手臂水平伸出表示驾驶员打算左转。",
-  "sources": [
-    {
-      "title": "Driver Hand Signals",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hand-signal-left-turn.png"
-},
-
-{
-  "id": "q-mandatory-right-turn-15",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "驾驶员必须做出什么动作？",
-  "choices": [
-    "右转",
-    "直行",
-    "左转",
-    "掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志要求所有车辆在指定地点右转。",
-  "sources": [
-    {
-      "title": "Mandatory Direction Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-mandatory-right-turn.png"
-},
-{
-  "id": "q-hazard-marker-16",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "接近此标志时，驾驶员应怎么做？",
-  "choices": [
-    "避开障碍物行驶",
-    "准备立即停车",
-    "只能左转",
-    "为弯道减速"
-  ],
-  "correctIndex": 0,
-  "explanation": "斜线标记表示道路边缘附近有固定危险。",
-  "sources": [
-    {
-      "title": "Hazard Markers",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hazard-marker.png"
-},
-
-{
-  "id": "q-hov-bus-2plus-17",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "哪些车辆可以在此车道行驶？",
-  "choices": [
-    "公交车和载有两人或以上的车辆",
-    "所有乘用车",
-    "仅限摩托车",
-    "商用卡车"
-  ],
-  "correctIndex": 0,
-  "explanation": "菱形符号表示高乘载车道，供高乘载车辆和公交车使用。",
-  "sources": [
-    {
-      "title": "HOV Lane Rules",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hov-bus-2plus.png"
-},
-
-{
-  "id": "q-school-zone-40-when-flashing-18",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "驾驶员何时必须遵守标示的40公里/小时限速？",
-  "choices": [
-    "当黄色闪光灯闪烁时",
-    "全天任何时候",
-    "仅在冬季",
-    "仅适用于校车"
-  ],
-  "correctIndex": 0,
-  "explanation": "闪光灯会启动降低的限速，以提高学校附近的安全性。",
-  "sources": [
-    {
-      "title": "School Zone Speed Limits",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-school-zone-40-when-flashing.png"
-},
-
-{
-  "id": "q-no-passing-crossing-zone-19",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "从此处开始适用什么规则？",
-  "choices": [
-    "驾驶员在通过人行横道之前不得超车",
-    "仅允许公交车超车",
-    "车辆必须立即停车",
-    "骑自行车者可以超越车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志在接近标记人行横道时实施禁止超车区域。",
-  "sources": [
-    {
-      "title": "Passing Restrictions",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-no-passing-crossing-zone.png"
-},
-
+    "id": "q-no-left-turn-sign-1",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "仅夜间允许左转",
+      "任何时候都不允许左转",
+      "前方开始左转车道",
+      "可以谨慎掉头"
+    ],
+    "correctIndex": 1,
+    "explanation": "带斜杠的红色圆圈始终表示禁止。带斜杠的向左箭头表示不允许左转。",
+    "image": "/signs/no-left-turn.jpg"
+  },
   {
-  "id": "q-low-clearance-3-9m-20",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "该标志传达了什么限制？",
-  "choices": [
-    "高度超过3.9米的车辆不得通过",
-    "道路收窄至3.9米",
-    "仅允许超宽车辆",
-    "桥梁仅支持重型车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "高车身车辆如果高度超过标示的净空高度，则不得进入。",
-  "sources": [
-    {
-      "title": "Overhead Clearance Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-low-clearance-3-9m.png"
-},
-{
+    "id": "q-stop-complete-2",
+    "question": "在停车标志处，如果地面有停车线，您必须在哪里停车？",
+    "choices": [
+      "在路口前的任何位置",
+      "在停车标志杆旁边",
+      "在地面标示的停车线处",
+      "进入路口一半以便看得更清楚"
+    ],
+    "correctIndex": 2,
+    "explanation": "您必须在地面标示的停车线处完全停车。如果没有停车线，应在行人横道前停车；如果没有行人横道，应在路边人行道边缘停车；如果都没有，则在路口边缘停车。",
+    "image": "/signs/q-1-stop-painted-line.png"
+  },
+  {
+    "id": "q-bike-warning-3",
+    "question": "前方出现此标志。它在警告您什么？",
+    "choices": [
+      "此道路禁止自行车通行",
+      "注意骑行者；可能有自行车横穿或与车辆共用道路",
+      "前方为共用步道；机动车必须停车",
+      "自行车道结束；立即向右并线"
+    ],
+    "correctIndex": 1,
+    "explanation": "黄色菱形中的自行车符号是警告标志，提示注意骑行者，并准备减速或在需要时让行。",
+    "image": "/signs/bike-lane.jpg"
+  },
+  {
+    "id": "q-drink-drive-first-offence-4",
+    "question": "首次因酒后驾驶被定罪后，驾驶执照会被吊销多长时间？",
+    "choices": [
+      "1个月",
+      "3个月",
+      "6个月",
+      "1年"
+    ],
+    "correctIndex": 3,
+    "explanation": "首次酒后驾驶定罪将导致驾照被吊销一年，并可能伴随罚款和强制教育项目等其他处罚。",
+    "image": "/signs/q-blood-alcohol.png"
+  },
+  {
+    "id": "q-do-not-enter-5",
+    "question": "在道路入口看到此标志时，您必须怎么做？",
+    "choices": [
+      "缓慢前进并保持右侧行驶",
+      "只有在交通稀少时才进入",
+      "禁止进入——该道路供相反方向的车辆通行",
+      "先停车，确认安全后再前进"
+    ],
+    "correctIndex": 2,
+    "explanation": "红色圆圈内带白色横杠表示“禁止进入”——您正面向相反方向的车流（例如单行道的反向入口）。",
+    "image": "/signs/no-entry.jpg"
+  },
+  {
+    "id": "q-demerit-fail-remain-6",
+    "question": "未留在碰撞现场会被记多少扣分？",
+    "choices": [
+      "2 分扣分",
+      "3 分扣分",
+      "6 分扣分",
+      "7 分扣分"
+    ],
+    "correctIndex": 3,
+    "explanation": "未留在碰撞现场将被记 7 分扣分。",
+    "image": "/signs/q-fail-remain-collision-262.png"
+  },
+  {
+    "id": "q-road-closed-7",
+    "question": "前方出现此标志。对您行驶方向的交通意味着什么？",
+    "choices": [
+      "前方绕行——将车速降至 30 公里/小时",
+      "道路对所有车辆封闭——不要继续前行",
+      "此路禁止停车",
+      "允许临时施工通行"
+    ],
+    "correctIndex": 1,
+    "explanation": "“道路封闭”标志表示该道路对交通关闭。不要继续前行；请按照绕行标志或指示行驶。",
+    "image": "/signs/road-closed.jpg"
+  },
+  {
+    "id": "q-two-second-rule-8",
+    "question": "在良好条件下，大多数乘用车的最小安全跟车距离是多少？",
+    "choices": [
+      "在前车后方一秒",
+      "在前车后方两秒",
+      "任何车速下三车长",
+      "仅在高速公路上五秒"
+    ],
+    "correctIndex": 1,
+    "explanation": "在良好条件下，至少使用两秒规则来保持安全的跟车距离。在恶劣天气或能见度低时应增加间距。",
+    "image": "/signs/q-7-following-disctance.png"
+  },
+  {
+    "id": "q-sign-winding-road-9",
+    "question": "带有弯曲箭头的黄色菱形标志表示：",
+    "choices": [
+      "前方道路笔直",
+      "前方道路有一系列弯道；减速并谨慎驾驶",
+      "前方只有一个急弯",
+      "前方有铺装路肩"
+    ],
+    "correctIndex": 1,
+    "explanation": "弯曲道路标志警告前方有多个弯道。请减速并准备随时改变方向。",
+    "image": "/signs/q-sign-winding-road-78.png"
+  },
+  {
+    "id": "q-roundabout-yield-10",
+    "question": "接近环形交叉路口时，在进入前必须怎么做？",
+    "choices": [
+      "快速进入并占据车道",
+      "即使没有车辆也在入口车道停车",
+      "让行已在环岛内的车辆和行人，在有安全间隙时进入",
+      "打左转向灯并立即进入"
+    ],
+    "correctIndex": 2,
+    "explanation": "减速并让行环岛内的车辆和行人。只有在有安全间隙时才进入；驶出时打右转向灯。",
+    "image": "/signs/q-11-roundabout.jpg"
+  },
+  {
+    "id": "q-no-idling-3min-11",
+    "question": "这里执行的是哪项环境规定？",
+    "choices": [
+      "发动机怠速不得超过3分钟",
+      "发动机必须保持开启",
+      "仅在冬季允许怠速",
+      "柴油车辆免于此规定"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志限制发动机怠速时间，以减少排放和污染。",
+    "image": "/signs/q-no-idling-3min.png"
+  },
+  {
+    "id": "q-airport-ahead-12",
+    "question": "该标志指向哪个目的地？",
+    "choices": [
+      "机场通道",
+      "渡轮码头",
+      "军事基地",
+      "火车站"
+    ],
+    "correctIndex": 0,
+    "explanation": "飞机图标指引驾驶员前往机场设施。",
+    "image": "/signs/q-airport-ahead.png"
+  },
+  {
+    "id": "q-novice-driver-n-13",
+    "question": "该符号向其他驾驶员提供什么信息？",
+    "choices": [
+      "驾驶员是新手或缺乏经验",
+      "车辆行驶缓慢",
+      "该车仅用于教学",
+      "车辆正在维修"
+    ],
+    "correctIndex": 0,
+    "explanation": "“N”标志表示新手驾驶员，并提醒他人保持耐心。",
+    "image": "/signs/q-novice-driver.png"
+  },
+  {
+    "id": "q-hand-signal-left-turn-14",
+    "question": "该手势表示什么意图？",
+    "choices": [
+      "左转",
+      "右转",
+      "停车",
+      "让行"
+    ],
+    "correctIndex": 0,
+    "explanation": "手臂水平伸出表示驾驶员打算左转。",
+    "image": "/signs/q-hand-signal-left-turn.png"
+  },
+  {
+    "id": "q-mandatory-right-turn-15",
+    "question": "驾驶员必须做出什么动作？",
+    "choices": [
+      "右转",
+      "直行",
+      "左转",
+      "掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志要求所有车辆在指定地点右转。",
+    "image": "/signs/q-mandatory-right-turn.png"
+  },
+  {
+    "id": "q-hazard-marker-16",
+    "question": "接近此标志时，驾驶员应怎么做？",
+    "choices": [
+      "避开障碍物行驶",
+      "准备立即停车",
+      "只能左转",
+      "为弯道减速"
+    ],
+    "correctIndex": 0,
+    "explanation": "斜线标记表示道路边缘附近有固定危险。",
+    "image": "/signs/q-hazard-marker.png"
+  },
+  {
+    "id": "q-hov-bus-2plus-17",
+    "question": "哪些车辆可以在此车道行驶？",
+    "choices": [
+      "公交车和载有两人或以上的车辆",
+      "所有乘用车",
+      "仅限摩托车",
+      "商用卡车"
+    ],
+    "correctIndex": 0,
+    "explanation": "菱形符号表示高乘载车道，供高乘载车辆和公交车使用。",
+    "image": "/signs/q-hov-bus-2plus.png"
+  },
+  {
+    "id": "q-school-zone-40-when-flashing-18",
+    "question": "驾驶员何时必须遵守标示的40公里/小时限速？",
+    "choices": [
+      "当黄色闪光灯闪烁时",
+      "全天任何时候",
+      "仅在冬季",
+      "仅适用于校车"
+    ],
+    "correctIndex": 0,
+    "explanation": "闪光灯会启动降低的限速，以提高学校附近的安全性。",
+    "image": "/signs/q-school-zone-40-when-flashing.png"
+  },
+  {
+    "id": "q-no-passing-crossing-zone-19",
+    "question": "从此处开始适用什么规则？",
+    "choices": [
+      "驾驶员在通过人行横道之前不得超车",
+      "仅允许公交车超车",
+      "车辆必须立即停车",
+      "骑自行车者可以超越车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志在接近标记人行横道时实施禁止超车区域。",
+    "image": "/signs/q-no-passing-crossing-zone.png"
+  },
+  {
+    "id": "q-low-clearance-3-9m-20",
+    "question": "该标志传达了什么限制？",
+    "choices": [
+      "高度超过3.9米的车辆不得通过",
+      "道路收窄至3.9米",
+      "仅允许超宽车辆",
+      "桥梁仅支持重型车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "高车身车辆如果高度超过标示的净空高度，则不得进入。",
+    "image": "/signs/q-low-clearance-3-9m.png"
+  },
+  {
     "id": "q-speed-limit-80-21",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个标志表示什么？",
     "choices": [
       "建议最高速度为80公里/小时",
@@ -452,20 +270,10 @@
     ],
     "correctIndex": 2,
     "explanation": "带有黑色数字的白色长方形标志表示在理想驾驶条件下的法定最高车速（公里/小时）。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic Signs (Regulatory Signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/speed-limit-80.jpg",
-    "notes": "Original question aligned with Ontario speed limit signage."
+    "image": "/signs/speed-limit-80.jpg"
   },
   {
     "id": "q-school-bus-20m-22",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在没有中央隔离带的双向道路上，前方校车停下并闪烁上方红灯。你必须怎么做？",
     "choices": [
       "减速至10公里/小时并小心通过",
@@ -475,20 +283,10 @@
     ],
     "correctIndex": 1,
     "explanation": "当校车启动红色闪烁灯（和/或停车臂）时，你必须停车。如果你在校车后方，应在至少20米处停车，并保持停车，直到红灯停止闪烁且停车臂收回。在有中央隔离带的道路上，只有在校车后方的车辆必须停车。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road with other road users (School buses)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-    ],
-    "image": "/signs/question-2.png",
-    "notes": "Original question; do not copy third-party practice tests."
+    "image": "/signs/question-2.png"
   },
   {
     "id": "q-no-pedestrians-23",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个管制标志是什么意思？",
     "choices": [
       "前方有人行横道",
@@ -498,20 +296,10 @@
     ],
     "correctIndex": 2,
     "explanation": "红色圆圈加斜杠内的人行符号表示此标志之后禁止行人通行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs (Regulatory signs)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs#section-1"
-      }
-    ],
-    "image": "/signs/no-crossing.jpg",
-    "notes": "Original question; matches Ontario regulatory prohibition style."
+    "image": "/signs/no-crossing.jpg"
   },
   {
     "id": "q-right-turn-on-red-24",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在安大略省，什么时候可以在红灯时右转？",
     "choices": [
       "只要打转向灯即可",
@@ -521,20 +309,10 @@
     ],
     "correctIndex": 2,
     "explanation": "在红灯时，先完全停车。如果没有禁止标志，并向行人和其他道路使用者让行后，可以右转。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Changing directions",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-4-right-turn-on-red.png",
-    "notes": "Original wording; mirrors handbook guidance."
+    "image": "/signs/q-4-right-turn-on-red.png"
   },
   {
     "id": "q-no-passing-25",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个标志显示两个并排的汽车在一个红色圆圈内。它是什么意思？",
     "choices": [
       "如果打转向灯可以超车",
@@ -544,20 +322,10 @@
     ],
     "correctIndex": 1,
     "explanation": "红色圆圈表示禁止。两个汽车的符号表示禁止超车——在此标志适用的地方不要超过其他车辆。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe & Responsible Driving (Passing) and Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving#section-9"
-      }
-    ],
-    "image": "/signs/no-passing.jpg",
-    "notes": "Original question; ties sign meaning to passing rules."
+    "image": "/signs/no-passing.jpg"
   },
-{
+  {
     "id": "q-school-crossing-guard-26",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "一名校区过街协管员手持红白相间的停牌走到道路上。你必须怎么做？",
     "choices": [
       "如果人行横道上没有儿童，减速并小心通过",
@@ -567,24 +335,10 @@
     ],
     "correctIndex": 2,
     "explanation": "你必须在到达过街处之前停车，并保持停车状态，直到所有人员（包括校区过街协管员）都已完全离开整条车道且可以安全继续行驶。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Stopping (School crossings)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/stopping"
-      },
-      {
-        "title": "Driving near pedestrian crossovers and school crossings",
-        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
-      }
-    ],
-    "image": "/signs/q-6-school-guard.png",
-    "notes": "Original question; summarizes the rule for school crossings."
+    "image": "/signs/q-6-school-guard.png"
   },
   {
     "id": "q-sign-keep-right-island-27",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "一个长方形标志，上面有一支绕过交通岛的箭头并写着“KEEP RIGHT”，其含义是：",
     "choices": [
       "可以从任一侧通过",
@@ -594,20 +348,10 @@
     ],
     "correctIndex": 1,
     "explanation": "该标志表示你必须从交通岛或障碍物的右侧通行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/q-sign-keep-right-island-77.png",
-    "notes": "Original keep-right sign question."
+    "image": "/signs/q-sign-keep-right-island-77.png"
   },
   {
     "id": "q-yield-be-prepared-to-stop-28",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "接近让行标志（YIELD）且有横向来车时，你必须怎么做？",
     "choices": [
       "只要打信号就无需停车继续前行",
@@ -617,59 +361,36 @@
     ],
     "correctIndex": 1,
     "explanation": "让行标志表示你必须减速，准备停车，并将通行权让给你要进入道路上的车辆和行人。如有需要必须停车。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Driving through intersections (Yielding right-of-way)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/driving-through-intersections"
-      }
-    ],
-    "image": "/signs/yield-sign.jpg",
-    "notes": "Original question for Prep test G1. We align to the Official MTO Driver’s Handbook and do not copy third-party practice tests."
+    "image": "/signs/yield-sign.jpg"
   },
   {
-  "id": "q-swing-bridge-ahead-29",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "前方驾驶员应做好什么准备？",
-  "choices": [
-    "一座可能会开启以让船只通过的桥",
-    "一座永久关闭的桥",
-    "渡船通道",
-    "道路施工"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志警告前方有可移动桥梁，车辆可能需要停车等待桥梁开启或关闭。",
-  "sources": [
-    {
-      "title": "Bridge Warning Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-swing-bridge-ahead.png"
-},
+    "id": "q-swing-bridge-ahead-29",
+    "question": "前方驾驶员应做好什么准备？",
+    "choices": [
+      "一座可能会开启以让船只通过的桥",
+      "一座永久关闭的桥",
+      "渡船通道",
+      "道路施工"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志警告前方有可移动桥梁，车辆可能需要停车等待桥梁开启或关闭。",
+    "image": "/signs/q-swing-bridge-ahead.png"
+  },
   {
-  "id": "q-demerit-fail-stop-police-30",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "当警察示意或要求你停车而未停车，会被记多少扣分？",
-  "choices": [
-    "3 分扣分",
-    "5 分扣分",
-    "7 分扣分",
-    "9 分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "当警察示意或要求你停车而未停车，会被记 7 分扣分。",
-  "sources": [],
-  "image": "/signs/q-fail-stop-police-271.png"
-},
-{
+    "id": "q-demerit-fail-stop-police-30",
+    "question": "当警察示意或要求你停车而未停车，会被记多少扣分？",
+    "choices": [
+      "3 分扣分",
+      "5 分扣分",
+      "7 分扣分",
+      "9 分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "当警察示意或要求你停车而未停车，会被记 7 分扣分。",
+    "image": "/signs/q-fail-stop-police-271.png"
+  },
+  {
     "id": "q-pxo-wait-clear-31",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在带有闪烁信号灯的行人过街处（PXO），何时可以继续前行？",
     "choices": [
       "当行人走上你这一侧道路的人行道时即可",
@@ -679,20 +400,10 @@
     ],
     "correctIndex": 2,
     "explanation": "在PXO处必须为行人停车，并保持停车状态，直到他们完全过街并完全离开车道。只有在安全时才可以继续前行。",
-    "sources": [
-      {
-        "title": "Ontario — Driving near pedestrian crossovers and school crossings",
-        "url": "https://www.ontario.ca/page/driving-near-pedestrian-crossovers-and-school-crossings"
-      }
-    ],
-    "image": "/signs/q-13-cross-beacon.png",
-    "notes": "Original question aligned to PXO rules."
+    "image": "/signs/q-13-cross-beacon.png"
   },
   {
     "id": "q-roundabout-keep-right-32",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在进入环形交叉路口前看到这个带白色箭头的蓝色圆形标志。你应该怎么做？",
     "choices": [
       "快速进入并打左转信号",
@@ -702,20 +413,10 @@
     ],
     "correctIndex": 1,
     "explanation": "减速接近，保持在中央岛的右侧，让行给行人和已经在环形交叉路口内的车辆，并在有安全空隙时进入。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/roundabout-sign.jpg",
-    "notes": "Original question; pairs the sign with the roundabout entry/yield rule."
+    "image": "/signs/roundabout-sign.jpg"
   },
   {
     "id": "q-divided-road-bus-33",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在由中央隔离带分隔的道路上，对向一侧的校车亮起红灯并停车。你必须怎么做？",
     "choices": [
       "立即停车",
@@ -725,21 +426,10 @@
     ],
     "correctIndex": 1,
     "explanation": "在有中央隔离带的道路上，只有在校车后方的车辆必须在其红灯闪烁时停车。对向车流可以谨慎前行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Sharing the road (School buses)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/sharing-road-other-road-users"
-      }
-      ],
-    "image": "/signs/q-12-school-bus-median.jpg",
-    "notes": "Original question; complements the earlier school-bus scenario."
+    "image": "/signs/q-12-school-bus-median.jpg"
   },
-
   {
     "id": "q-seatbelt-34",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在安大略省，何时必须系安全带？",
     "choices": [
       "只在高速公路上",
@@ -749,37 +439,23 @@
     ],
     "correctIndex": 1,
     "explanation": "只要车辆在行驶，驾驶员和乘客都必须系安全带。驾驶员对16岁以下的乘客负责。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Seat belts)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-21-seatbelt.png",
-    "notes": "Original question created for Prep Test G1."
+    "image": "/signs/q-21-seatbelt.png"
   },
   {
-  "id": "q-demerit-careless-driving-35",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "粗心驾驶会被记多少扣分？",
-  "choices": [
-    "2 分扣分",
-    "3 分扣分",
-    "6 分扣分",
-    "7 分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "粗心驾驶会被记 6 分扣分。",
-  "sources": [],
-  "image": "/signs/q-demerit-careless-driving-125.png"
-},
-{
+    "id": "q-demerit-careless-driving-35",
+    "question": "粗心驾驶会被记多少扣分？",
+    "choices": [
+      "2 分扣分",
+      "3 分扣分",
+      "6 分扣分",
+      "7 分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "粗心驾驶会被记 6 分扣分。",
+    "image": "/signs/q-demerit-careless-driving-125.png"
+  },
+  {
     "id": "q-icy-bridge-36",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "有标志警告“桥面比道路先结冰”。你应该怎么做？",
     "choices": [
       "加速快速通过",
@@ -789,20 +465,10 @@
     ],
     "correctIndex": 2,
     "explanation": "桥面会先结冰。降低车速，并在桥上避免急刹车或突然转向。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Winter driving)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-23-bridge-freezes.png",
-    "notes": "Original winter-safety question."
+    "image": "/signs/q-23-bridge-freezes.png"
   },
   {
     "id": "q-hydroplane-37",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在湿滑道路上，轮胎开始打滑（滑水）。你应该怎么做？",
     "choices": [
       "猛踩刹车并急转方向",
@@ -812,20 +478,10 @@
     ],
     "correctIndex": 1,
     "explanation": "松开油门并保持车轮直行，直到恢复抓地力。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Adverse conditions (Wet roads)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/adverse-conditions"
-      }
-    ],
-    "image": "/signs/q-24-hydroplaning.png",
-    "notes": "Original safety question."
+    "image": "/signs/q-24-hydroplaning.png"
   },
   {
     "id": "q-turn-signal-38",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "在转弯或变道前，应提前多远打转向灯？",
     "choices": [
       "至少30米（100英尺）",
@@ -835,20 +491,10 @@
     ],
     "correctIndex": 0,
     "explanation": "应提前打转向灯——在转弯或变道前至少30米（100英尺）。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Changing Directions",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/changing-directions"
-      }
-    ],
-    "image": "/signs/q-25-lane-street.jpg",
-    "notes": "Original question; reinforces signaling distance."
+    "image": "/signs/q-25-lane-street.jpg"
   },
   {
     "id": "q-horn-use-39",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "rules-of-the-road",
     "question": "什么时候应该使用喇叭？",
     "choices": [
       "向朋友打招呼",
@@ -858,37 +504,23 @@
     ],
     "correctIndex": 1,
     "explanation": "只有在必要时为避免碰撞而提醒他人时才使用喇叭。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Safe and Responsible Driving (Communication)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/safe-and-responsible-driving"
-      }
-    ],
-    "image": "/signs/q-26-horn.png",
-    "notes": "Original question; polite road communication."
+    "image": "/signs/q-26-horn.png"
   },
   {
-  "id": "q-demerit-racing-40",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "demerit-points",
-  "question": "赛车行为会被记多少扣分？",
-  "choices": [
-    "3 分扣分",
-    "4 分扣分",
-    "6 分扣分",
-    "7 分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "赛车行为会被记 6 分扣分。",
-  "sources": [],
-  "image": "/signs/q-demerit-racing-279.png"
-},
-{
+    "id": "q-demerit-racing-40",
+    "question": "赛车行为会被记多少扣分？",
+    "choices": [
+      "3 分扣分",
+      "4 分扣分",
+      "6 分扣分",
+      "7 分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "赛车行为会被记 6 分扣分。",
+    "image": "/signs/q-demerit-racing-279.png"
+  },
+  {
     "id": "q-sign-narrow-bridge-41",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "一个黄色菱形标志显示道路变窄的形状，表示：",
     "choices": [
       "前方是宽桥",
@@ -898,20 +530,10 @@
     ],
     "correctIndex": 1,
     "explanation": "道路变窄或窄桥警告标志表示车道可能变窄；请减速并小心通过。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/narrow-bridge.jpg",
-    "notes": "Original road-narrows sign question."
+    "image": "/signs/narrow-bridge.jpg"
   },
   {
     "id": "q-sign-divided-highway-42",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "一个黄色菱形标志显示一条线在中间物体两侧分开，表示：",
     "choices": [
       "前方为双向交通",
@@ -921,20 +543,10 @@
     ],
     "correctIndex": 1,
     "explanation": "该标志警告分隔式公路开始，您必须保持在中央隔离带或障碍物的右侧行驶。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway begins)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-begins.jpg",
-    "notes": "Original divided-highway sign question."
+    "image": "/signs/divided-highway-begins.jpg"
   },
   {
     "id": "q-max-speed-40-43",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个限速标志表示什么？",
     "choices": [
       "最高允许速度为40公里/小时",
@@ -944,20 +556,10 @@
     ],
     "correctIndex": 0,
     "explanation": "白色长方形带黑色数字的标志表示在理想驾驶条件下的最高法定速度（公里/小时）。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (Maximum speed)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/maximum-speed-40.jpg",
-    "notes": "Original question using the maximum-speed-40 sign. We align to the Official MTO Driver’s Handbook and do not copy other practice tests."
+    "image": "/signs/maximum-speed-40.jpg"
   },
   {
     "id": "q-no-bicycles-44",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "你在道路入口处看到这个标志。它是什么意思？",
     "choices": [
       "此道路禁止自行车通行",
@@ -967,20 +569,10 @@
     ],
     "correctIndex": 0,
     "explanation": "红色圆圈内带斜杠的自行车符号表示该道路或区域禁止自行车通行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No bicycles)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-bicycles.jpg",
-    "notes": "Original no-bicycles question for Prep Test G1."
+    "image": "/signs/no-bicycles.jpg"
   },
   {
     "id": "q-no-parking-45",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个标志告诉司机关于停车的什么信息？",
     "choices": [
       "在该标志适用的区域内不允许停车",
@@ -990,20 +582,10 @@
     ],
     "correctIndex": 0,
     "explanation": "带斜杠的红色圆圈加字母P是一个管制标志，表示在该区域或箭头所指范围内禁止停车。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No parking)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-parking.jpg",
-    "notes": "Original no-parking question; not copied from other practice tests."
+    "image": "/signs/no-parking.jpg"
   },
-{
+  {
     "id": "q-no-pedestrians-46",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "该标志设置在道路入口处。它表示什么？",
     "choices": [
       "禁止行人通行",
@@ -1013,20 +595,10 @@
     ],
     "correctIndex": 0,
     "explanation": "红色圆圈内带斜杠的行人图案表示该区域禁止行人通行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No pedestrians)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-pedestrians.jpg",
-    "notes": "Original no-pedestrians question aligned to Ontario regulatory signs."
+    "image": "/signs/no-pedestrians.jpg"
   },
   {
     "id": "q-no-snowmobiles-47",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "你在冬季小径入口处看到此标志。它表示什么？",
     "choices": [
       "此标志之后禁止雪地摩托通行",
@@ -1036,20 +608,10 @@
     ],
     "correctIndex": 0,
     "explanation": "红色圆圈内带斜杠的雪地摩托图案表示该标志之后禁止雪地摩托通行。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (Snowmobiles)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-snowmobiles.jpg",
-    "notes": "Original no-snowmobiles question for your sign set."
+    "image": "/signs/no-snowmobiles.jpg"
   },
   {
     "id": "q-no-right-turn-48",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "你在路口看到此标志。它表示什么？",
     "choices": [
       "该路口禁止右转",
@@ -1059,20 +621,10 @@
     ],
     "correctIndex": 0,
     "explanation": "红色圆圈带斜杠内的黑色右转箭头是一个管制标志，表示在标志适用的地方禁止右转。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Traffic signs: Regulatory signs (No right turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-right-turn.jpg",
-    "notes": "Original no-right-turn question written for Prep Test G1."
+    "image": "/signs/no-right-turn.jpg"
   },
   {
     "id": "q-no-u-turn-49",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "此标志告诉驾驶员关于掉头的什么信息？",
     "choices": [
       "禁止掉头",
@@ -1082,20 +634,10 @@
     ],
     "correctIndex": 0,
     "explanation": "带有红色圆圈和斜杠的U形弯箭头是一个管制标志，表示在标志适用的地方禁止掉头。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Regulatory signs (No U-turn)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/no-u-turn.jpg",
-    "notes": "Original no-U-turn question aligned to Ontario regulatory signing."
+    "image": "/signs/no-u-turn.jpg"
   },
   {
     "id": "q-water-over-road-50",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "前方可能出现什么驾驶状况？",
     "choices": [
       "道路上可能有水流经过",
@@ -1105,197 +647,139 @@
     ],
     "correctIndex": 0,
     "explanation": "该标志提醒驾驶员，积水可能会影响抓地力和能见度。",
-    "sources": [
-      {
-        "title": "Water Hazard Warnings",
-        "url": "https://www.ontario.ca"
-      }
-    ],
     "image": "/signs/q-water-over-road.png"
   },
-{
-  "id": "q-falling-rocks-51",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "驾驶员应注意什么危险？",
-  "choices": [
-    "道路附近可能有落石",
-    "路面有松散的碎石",
-    "正在进行爆破作业",
-    "路面不平"
-  ],
-  "correctIndex": 0,
-  "explanation": "此标志警告前方可能发生山体滑落或附近坡面掉落碎石。",
-  "sources": [
-    {
-      "title": "Rockfall Hazard Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-falling-rocks.png"
-},
-
-{
-  "id": "q-two-way-traffic-ahead-52",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "此标志警告交通流将发生什么变化？",
-  "choices": [
-    "车辆将双向行驶",
-    "单行道开始",
-    "分隔式公路开始",
-    "超车车道增加"
-  ],
-  "correctIndex": 0,
-  "explanation": "相对的箭头提醒驾驶员前方将有迎面来车。",
-  "sources": [
-    {
-      "title": "Two-Way Traffic Warnings",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-two-way-traffic-ahead.png"
-},
-
-{
-  "id": "q-hand-signal-slow-stop-53",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "驾驶员用这个手势表示什么行动？",
-  "choices": [
-    "减速或停车",
-    "左转",
-    "右转",
-    "变换车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "手臂向下表示驾驶员打算减速或停车。",
-  "sources": [
-    {
-      "title": "Hand Signals — Ontario Driver Guide",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hand-signal-slow-stop.png"
-},
-
-{
-  "id": "q-reserved-lane-bicycles-54",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "谁可以使用该标志所示的车道？",
-  "choices": [
-    "仅限自行车",
-    "所有机动车",
-    "公交车和出租车",
-    "仅限紧急车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "该符号和箭头表示前方车道专供自行车使用。",
-  "sources": [
-    {
-      "title": "Reserved Lane Signs",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-reserved-lane-bicycles.png"
-},
-
-{
-  "id": "q-parking-30-min-55",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "此区域适用什么停车规定？",
-  "choices": [
-    "允许停车，但限时30分钟",
-    "始终禁止停车",
-    "仅紧急车辆可停车",
-    "停车不受限制"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志允许停车，但限制车辆在规定时间内可停留的时长。",
-  "sources": [
-    {
-      "title": "Parking Time Limits",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-parking-30-min.png"
-},
-{
-  "id": "q-snowmobiles-permitted-56",
+  {
+    "id": "q-falling-rocks-51",
+    "question": "驾驶员应注意什么危险？",
+    "choices": [
+      "道路附近可能有落石",
+      "路面有松散的碎石",
+      "正在进行爆破作业",
+      "路面不平"
+    ],
+    "correctIndex": 0,
+    "explanation": "此标志警告前方可能发生山体滑落或附近坡面掉落碎石。",
+    "image": "/signs/q-falling-rocks.png"
+  },
+  {
+    "id": "q-two-way-traffic-ahead-52",
+    "question": "此标志警告交通流将发生什么变化？",
+    "choices": [
+      "车辆将双向行驶",
+      "单行道开始",
+      "分隔式公路开始",
+      "超车车道增加"
+    ],
+    "correctIndex": 0,
+    "explanation": "相对的箭头提醒驾驶员前方将有迎面来车。",
+    "image": "/signs/q-two-way-traffic-ahead.png"
+  },
+  {
+    "id": "q-hand-signal-slow-stop-53",
+    "question": "驾驶员用这个手势表示什么行动？",
+    "choices": [
+      "减速或停车",
+      "左转",
+      "右转",
+      "变换车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "手臂向下表示驾驶员打算减速或停车。",
+    "image": "/signs/q-hand-signal-slow-stop.png"
+  },
+  {
+    "id": "q-reserved-lane-bicycles-54",
+    "question": "谁可以使用该标志所示的车道？",
+    "choices": [
+      "仅限自行车",
+      "所有机动车",
+      "公交车和出租车",
+      "仅限紧急车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "该符号和箭头表示前方车道专供自行车使用。",
+    "image": "/signs/q-reserved-lane-bicycles.png"
+  },
+  {
+    "id": "q-parking-30-min-55",
+    "question": "此区域适用什么停车规定？",
+    "choices": [
+      "允许停车，但限时30分钟",
+      "始终禁止停车",
+      "仅紧急车辆可停车",
+      "停车不受限制"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志允许停车，但限制车辆在规定时间内可停留的时长。",
+    "image": "/signs/q-parking-30-min.png"
+  },
+  {
+    "id": "q-snowmobiles-permitted-56",
     "question": "这里允许哪种车辆使用？",
-  "choices": [
-    "允许雪地摩托通行",
-    "雪地摩托必须停车",
-    "雪地摩托只能用拖车运输",
-    "只有汽车可以通行"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色圆圈和雪地摩托符号表示此路线允许雪地摩托通行。",
+    "choices": [
+      "允许雪地摩托通行",
+      "雪地摩托必须停车",
+      "雪地摩托只能用拖车运输",
+      "只有汽车可以通行"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色圆圈和雪地摩托符号表示此路线允许雪地摩托通行。",
     "image": "/signs/q-snowmobiles-permitted.png"
-},
-
-{
-  "id": "q-bicycles-permitted-57",
-  "question": "这个标志告诉道路使用者什么？",
-  "choices": [
-    "骑自行车的人可以在这里通行",
-    "骑自行车的人必须下车",
-    "此车道禁止自行车通行",
-    "只有行人可以使用此区域"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色圆圈表示允许；自行车符号确认骑车者可以使用此道路或车道。",
-  "image": "/signs/q-bicycles-permitted.png"
-},
-
-{
-  "id": "q-keep-right-except-to-pass-58",
-  "question": "这个标志要求什么驾驶行为？",
-  "choices": [
-    "除非超车，否则保持在右侧车道",
-    "始终使用左侧车道",
-    "避免变换车道",
-    "只能在路肩超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员通常应保持在右侧车道，只有在超越较慢车辆时才短暂进入左侧车道。",
-  "image": "/signs/q-keep-right-except-to-pass.png"
-},
-
-{
-  "id": "q-two-way-left-turn-lane-59",
-  "question": "这条中央车道可以如何使用？",
-  "choices": [
-    "供两个方向的车辆左转使用",
-    "用于超越较慢车辆",
-    "仅用于右转",
-    "在非高峰时段用于停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "此标志表示来自任一方向的车辆只能使用该车道进行左转。",
-  "image": "/signs/q-two-way-left-turn-lane.png"
-},
-{
-  "id": "q-no-right-turn-on-red-60",
-  "question": "这个标志对驾驶员施加了什么限制？",
-  "choices": [
-    "红灯时禁止右转",
-    "必须在红灯时右转",
-    "只有公交车可以右转",
-    "必须掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "右转箭头上的红色斜线表示驾驶员必须等到绿灯后才能右转。",
-  "image": "/signs/q-no-right-turn-on-red.png"
-},
-{
+  },
+  {
+    "id": "q-bicycles-permitted-57",
+    "question": "这个标志告诉道路使用者什么？",
+    "choices": [
+      "骑自行车的人可以在这里通行",
+      "骑自行车的人必须下车",
+      "此车道禁止自行车通行",
+      "只有行人可以使用此区域"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色圆圈表示允许；自行车符号确认骑车者可以使用此道路或车道。",
+    "image": "/signs/q-bicycles-permitted.png"
+  },
+  {
+    "id": "q-keep-right-except-to-pass-58",
+    "question": "这个标志要求什么驾驶行为？",
+    "choices": [
+      "除非超车，否则保持在右侧车道",
+      "始终使用左侧车道",
+      "避免变换车道",
+      "只能在路肩超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员通常应保持在右侧车道，只有在超越较慢车辆时才短暂进入左侧车道。",
+    "image": "/signs/q-keep-right-except-to-pass.png"
+  },
+  {
+    "id": "q-two-way-left-turn-lane-59",
+    "question": "这条中央车道可以如何使用？",
+    "choices": [
+      "供两个方向的车辆左转使用",
+      "用于超越较慢车辆",
+      "仅用于右转",
+      "在非高峰时段用于停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "此标志表示来自任一方向的车辆只能使用该车道进行左转。",
+    "image": "/signs/q-two-way-left-turn-lane.png"
+  },
+  {
+    "id": "q-no-right-turn-on-red-60",
+    "question": "这个标志对驾驶员施加了什么限制？",
+    "choices": [
+      "红灯时禁止右转",
+      "必须在红灯时右转",
+      "只有公交车可以右转",
+      "必须掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "右转箭头上的红色斜线表示驾驶员必须等到绿灯后才能右转。",
+    "image": "/signs/q-no-right-turn-on-red.png"
+  },
+  {
     "id": "q-railway-stop-61",
     "question": "您正在接近一个有红灯闪烁且栏杆正在下降的铁路道口。您必须怎么做？",
     "choices": [
@@ -1335,32 +819,32 @@
     "image": "/signs/q-work-zone-fines-49.png"
   },
   {
-  "id": "q-impaired-driving-bac-64",
-  "question": "当驾驶员的血液酒精浓度达到哪个水平时，可以被判定为酒后驾驶？",
-  "choices": [
-    "0.03%",
-    "0.05%",
-    "0.08%",
-    "1.0%"
-  ],
-  "correctIndex": 2,
-  "explanation": "在安大略省及整个加拿大，血液酒精浓度达到或超过0.08%是刑事酒后驾驶定罪的法定标准。",
-  "image": "/signs/q-blood-alcohol.png"
-},
+    "id": "q-impaired-driving-bac-64",
+    "question": "当驾驶员的血液酒精浓度达到哪个水平时，可以被判定为酒后驾驶？",
+    "choices": [
+      "0.03%",
+      "0.05%",
+      "0.08%",
+      "1.0%"
+    ],
+    "correctIndex": 2,
+    "explanation": "在安大略省及整个加拿大，血液酒精浓度达到或超过0.08%是刑事酒后驾驶定罪的法定标准。",
+    "image": "/signs/q-blood-alcohol.png"
+  },
   {
-  "id": "q-demerit-speeding-40-under-80-65",
-  "question": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣多少个扣分点？",
-  "choices": [
-    "3个扣分点",
-    "4个扣分点",
-    "6个扣分点",
-    "7个扣分点"
-  ],
-  "correctIndex": 2,
-  "explanation": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣6个扣分点。",
-  "image": "/signs/q-speed-50plus-108.png"
-},
-{
+    "id": "q-demerit-speeding-40-under-80-65",
+    "question": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣多少个扣分点？",
+    "choices": [
+      "3个扣分点",
+      "4个扣分点",
+      "6个扣分点",
+      "7个扣分点"
+    ],
+    "correctIndex": 2,
+    "explanation": "在限速低于80公里/小时的区域内超速40公里/小时或以上，会被扣6个扣分点。",
+    "image": "/signs/q-speed-50plus-108.png"
+  },
+  {
     "id": "q-reverse-look-66",
     "question": "倒车直行时，最佳的观察方式是：",
     "choices": [
@@ -1413,19 +897,19 @@
     "image": "/signs/q-roundabout-signal-exit-55.png"
   },
   {
-  "id": "q-demerit-speeding-50-plus-70",
-  "question": "超速50公里/小时或以上会被扣多少分？",
-  "choices": [
-    "4分",
-    "5分",
-    "6分",
-    "7分"
-  ],
-  "correctIndex": 2,
-  "explanation": "超速50公里/小时或以上会被扣6分。",
-  "image": "/signs/q-speed-50plus-108.png"
-},
-{
+    "id": "q-demerit-speeding-50-plus-70",
+    "question": "超速50公里/小时或以上会被扣多少分？",
+    "choices": [
+      "4分",
+      "5分",
+      "6分",
+      "7分"
+    ],
+    "correctIndex": 2,
+    "explanation": "超速50公里/小时或以上会被扣6分。",
+    "image": "/signs/q-speed-50plus-108.png"
+  },
+  {
     "id": "q-bicycle-passing-distance-71",
     "question": "超越骑自行车的人时，最佳做法是什么？",
     "choices": [
@@ -1478,19 +962,19 @@
     "image": "/signs/q-fog-high-beam-60.png"
   },
   {
-  "id": "q-demerit-school-bus-stop-75",
-  "question": "未为校车停车会被扣多少记分？",
-  "choices": [
-    "扣3分",
-    "扣4分",
-    "扣5分",
-    "扣6分"
-  ],
-  "correctIndex": 3,
-  "explanation": "未为校车停车会被扣6分。",
-  "image": "/signs/q-school-bus-204.png"
-},
-{
+    "id": "q-demerit-school-bus-stop-75",
+    "question": "未为校车停车会被扣多少记分？",
+    "choices": [
+      "扣3分",
+      "扣4分",
+      "扣5分",
+      "扣6分"
+    ],
+    "correctIndex": 3,
+    "explanation": "未为校车停车会被扣6分。",
+    "image": "/signs/q-school-bus-204.png"
+  },
+  {
     "id": "q-abs-brakes-76",
     "question": "在配有 ABS（防抱死制动系统）的车辆中，紧急停车时应如何制动？",
     "choices": [
@@ -1504,19 +988,18 @@
     "image": "/signs/q-abs-brakes-62.png"
   },
   {
-  "id": "q-disabled-truck-warning-distance-77",
-  "question": "如果一辆卡车在限速超过 60 公里/小时的道路上抛锚，警示装置（如信号弹或反光标志）应大约放置在车辆前后多远的地方？",
-  "choices": [
-    "15 米（50 英尺）",
-    "30 米（100 英尺）",
-    "60 米（200 英尺）",
-    "90 米（300 英尺）"
-  ],
-  "correctIndex": 3,
-  "explanation": "在限速超过 60 公里/小时的道路上，警示装置应放置在抛锚卡车前后约 30 米（100 英尺）处，以便为来车提供充分警告。",
-  "image": "/signs/q-disabled-truck-warning-distance.png"
-},
-
+    "id": "q-disabled-truck-warning-distance-77",
+    "question": "如果一辆卡车在限速超过 60 公里/小时的道路上抛锚，警示装置（如信号弹或反光标志）应大约放置在车辆前后多远的地方？",
+    "choices": [
+      "15 米（50 英尺）",
+      "30 米（100 英尺）",
+      "60 米（200 英尺）",
+      "90 米（300 英尺）"
+    ],
+    "correctIndex": 3,
+    "explanation": "在限速超过 60 公里/小时的道路上，警示装置应放置在抛锚卡车前后约 30 米（100 英尺）处，以便为来车提供充分警告。",
+    "image": "/signs/q-disabled-truck-warning-distance.png"
+  },
   {
     "id": "q-night-meeting-78",
     "question": "夜间会车时，应在什么时候将远光灯切换为近光灯？",
@@ -1544,57 +1027,57 @@
     "image": "/signs/traffic-signal-ahead.jpg"
   },
   {
-  "id": "q-falling-rocks-80",
-  "question": "这个警告标志表示什么？",
-  "choices": [
-    "前方可能有落石或碎片",
-    "路面非常颠簸",
-    "正在进行爆破施工",
-    "由于道路封闭必须掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "图中从悬崖落下的石头提醒驾驶员前方可能有落石危险。",
-  "image": "/signs/q-falling-rocks.png"
-},
-{
-  "id": "q-hidden-intersection-81",
-  "question": "此警告标志表示什么？",
-  "choices": [
-    "前方有一个隐藏的交叉路口，可能有车辆突然驶出",
-    "前方不远处有休息区",
-    "只允许右转",
-    "道路将变为单行道"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员前方的侧路或交叉路口不易看见，需要格外小心。",
-  "image": "/signs/q-hidden-intersection.png"
-},
+    "id": "q-falling-rocks-80",
+    "question": "这个警告标志表示什么？",
+    "choices": [
+      "前方可能有落石或碎片",
+      "路面非常颠簸",
+      "正在进行爆破施工",
+      "由于道路封闭必须掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "图中从悬崖落下的石头提醒驾驶员前方可能有落石危险。",
+    "image": "/signs/q-falling-rocks.png"
+  },
   {
-  "id": "q-novice-driver-n-82",
-  "question": "此标志表示什么？",
-  "choices": [
-    "该车辆由新手司机驾驶",
-    "该车辆只能以低速行驶",
-    "该车辆属于驾驶学校",
-    "只有新车才能进入此区域"
-  ],
-  "correctIndex": 0,
-  "explanation": "一个大的“N”表示有新手或缺乏经验的驾驶员在驾驶，提醒其他车辆给予更多空间。",
-  "image": "/signs/q-novice-driver.png"
-},
+    "id": "q-hidden-intersection-81",
+    "question": "此警告标志表示什么？",
+    "choices": [
+      "前方有一个隐藏的交叉路口，可能有车辆突然驶出",
+      "前方不远处有休息区",
+      "只允许右转",
+      "道路将变为单行道"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员前方的侧路或交叉路口不易看见，需要格外小心。",
+    "image": "/signs/q-hidden-intersection.png"
+  },
   {
-  "id": "q-no-stopping-between-arrows-83",
-  "question": "此标志是什么意思？",
-  "choices": [
-    "仅允许为上下乘客而短暂停车",
-    "箭头之间禁止停车",
-    "允许停车但不允许临时停靠",
-    "只允许在夜间停车"
-  ],
-  "correctIndex": 1,
-  "explanation": "带斜杠的红色圆圈覆盖在停车符号上，表示在箭头所指示的范围内任何地方都禁止停车。",
-  "image": "/signs/q-no-stopping-between-arrows.png"
-},
+    "id": "q-novice-driver-n-82",
+    "question": "此标志表示什么？",
+    "choices": [
+      "该车辆由新手司机驾驶",
+      "该车辆只能以低速行驶",
+      "该车辆属于驾驶学校",
+      "只有新车才能进入此区域"
+    ],
+    "correctIndex": 0,
+    "explanation": "一个大的“N”表示有新手或缺乏经验的驾驶员在驾驶，提醒其他车辆给予更多空间。",
+    "image": "/signs/q-novice-driver.png"
+  },
+  {
+    "id": "q-no-stopping-between-arrows-83",
+    "question": "此标志是什么意思？",
+    "choices": [
+      "仅允许为上下乘客而短暂停车",
+      "箭头之间禁止停车",
+      "允许停车但不允许临时停靠",
+      "只允许在夜间停车"
+    ],
+    "correctIndex": 1,
+    "explanation": "带斜杠的红色圆圈覆盖在停车符号上，表示在箭头所指示的范围内任何地方都禁止停车。",
+    "image": "/signs/q-no-stopping-between-arrows.png"
+  },
   {
     "id": "q-ped-crossing-84",
     "question": "在城市街道上驾驶时看到此标志，它表示什么？",
@@ -1609,19 +1092,19 @@
     "image": "/signs/pedestrian-crossing.jpg"
   },
   {
-  "id": "q-no-stopping-between-arrows-85",
-  "question": "驾驶员应如何应对此标志？",
-  "choices": [
-    "车辆可以短暂停车接送乘客",
-    "驾驶员不得在箭头所示范围内任何地方停车",
-    "非高峰时段允许停车",
-    "仅允许为送货而停车"
-  ],
-  "correctIndex": 1,
-  "explanation": "该符号表示在箭头标示的路段上完全禁止停车。",
-  "image": "/signs/q-no-stopping-between-arrows.png"
-},
-{
+    "id": "q-no-stopping-between-arrows-85",
+    "question": "驾驶员应如何应对此标志？",
+    "choices": [
+      "车辆可以短暂停车接送乘客",
+      "驾驶员不得在箭头所示范围内任何地方停车",
+      "非高峰时段允许停车",
+      "仅允许为送货而停车"
+    ],
+    "correctIndex": 1,
+    "explanation": "该符号表示在箭头标示的路段上完全禁止停车。",
+    "image": "/signs/q-no-stopping-between-arrows.png"
+  },
+  {
     "id": "q-bump-warning-86",
     "question": "这个黄色标志出现在一段道路前方。它在提醒你什么？",
     "choices": [
@@ -1660,182 +1143,175 @@
     "explanation": "黄色警告标志上的鹿图案表示该地区经常有鹿出没，可能会突然横穿道路。请减速并准备停车。",
     "image": "/signs/deer-crossing.jpg"
   },
- {
-  "id": "q-two-way-left-turn-lane-89",
-  "question": "此标志表示什么？",
-  "choices": [
-    "该车道仅可用于两个方向的车辆左转",
-    "该车道用于超越慢车",
-    "此车道禁止左转",
-    "前方车道变为只允许右转"
-  ],
-  "correctIndex": 0,
-  "explanation": "相反方向的弯曲箭头表示两个方向行驶的车辆都可以进入该车道，但只能用于左转。",
-   "image": "/signs/q-two-way-left-turn-lane.png"
-},
   {
-  "id": "q-traffic-lights-ahead-90",
-  "question": "这个警告标志的目的是什么？",
-  "choices": [
-    "提醒驾驶员前方有交通信号灯",
-    "表示前方是仅供行人使用的过道",
-    "警告前方有铁路道口",
-    "显示前方道路封闭"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
-   "image": "/signs/q-traffic-lights-ahead.png"
-},
-{
-  "id": "q-traffic-lights-ahead-91",
-  "question": "这个警告标志的目的是什么？",
-  "choices": [
-    "提醒驾驶员前方有交通信号灯",
-    "表示前方是仅供行人使用的过道",
-    "警告前方有铁路道口",
-    "显示前方道路封闭"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
-  "image": "/signs/q-traffic-lights-ahead.png"
-},
-
-{
-  "id": "q-school-zone-92",
-  "question": "看到这个标志时，驾驶员应准备什么？",
-  "choices": [
-    "道路附近可能有儿童",
-    "前方有卡车检查站",
-    "游乐场已关闭",
-    "骑自行车的人必须下车推行"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员在学校区域要减速并保持警惕，因为可能有儿童出现。",
-  "image": "/signs/q-school-zone.png"
-},
-
-{
-  "id": "q-hidden-intersection-93",
-  "question": "为什么在这个位置需要格外小心？",
-  "choices": [
-    "侧路可能难以看见",
-    "交通信号灯故障",
-    "道路变为分隔式",
-    "前方有收费站"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志警告驾驶员，前方的交叉路口可能不容易被看见。",
-  "image": "/signs/q-hidden-intersection.png"
-},
-
-{
-  "id": "q-no-passing-94",
-  "question": "这个标志限制了哪种驾驶行为？",
-  "choices": [
-    "超车",
-    "低于限速行驶",
-    "使用前灯",
-    "左转"
-  ],
-  "correctIndex": 0,
-  "explanation": "该管制标志明确表示在此区域内不允许超越其他车辆。",
-  "image": "/signs/q-no-passing.png"
-},
-
-{
-  "id": "q-right-left-curve-ahead-95",
-  "question": "这个标志描述了什么道路情况？",
-  "choices": [
-    "一系列弯道，先向右再向左",
-    "只有一个急右弯",
-    "前方有环形交叉路口",
-    "前方开始并入车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员道路将连续两次弯曲，应相应调整车速。",
-  "image": "/signs/q-right-left-curve-ahead.png"
-},
-{
-  "id": "q-stop-ahead-96",
-  "question": "看到这个标志后，驾驶员应预期什么？",
-  "choices": [
-    "前方不远处有停车标志",
-    "前方有让行标志",
-    "仅有人行横道",
-    "绿灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "这个提前警告标志让驾驶员有时间准备停车。",
-  "image": "/signs/stop-ahead.jpg"
-},
-
-{
-  "id": "q-permitted-action-97",
-  "question": "绿色圆形交通标志的一般含义是什么？",
-  "choices": [
-    "允许某种动作或行驶方式",
-    "前方有危险",
-    "车辆必须停车",
-    "道路封闭"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色圆形标志表示驾驶员被允许采取的行动。",
-  "image": "/signs/q-permitted-action.png"
-},
-
-{
-  "id": "q-red-light-camera-98",
-  "question": "为什么在路口设置这个标志？",
-  "choices": [
-    "警告有摄像头执法闯红灯行为",
-    "表示信号由行人控制",
-    "仅表示闪烁信号灯",
-    "标示学校过街处"
-  ],
-  "correctIndex": 0,
-  "explanation": "该标志提醒驾驶员闯红灯可能会被记录并受到处罚。",
-  "image": "/signs/q-red-light-camera.png"
-},
-
-{
-  "id": "q-truck-entrance-99",
-  "question": "这个标志提示了什么潜在危险？",
-  "choices": [
-    "大型卡车可能进入道路",
-    "仅限卡车停车开始",
-    "前方有称重站",
-    "禁止卡车通行"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员应注意入口附近缓慢行驶或转弯的卡车。",
-  "image": "/signs/q-truck-entrance.png"
-},
-{
-  "id": "q-right-lane-must-exit-sign-100",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "只有右侧车道可以直行",
-    "右侧车道禁止右转",
-    "右侧车道的车辆必须驶出",
-    "右侧车道为慢速车辆专用"
-  ],
-  "correctIndex": 2,
-  "explanation": "这个绿色指示标志告知驾驶员右侧车道的车辆必须驶出。若不打算驶出，应提前变更车道。",
-  "image": "/signs/right-lane-must-exit.png"
-},
-{
-  "id": "q-improper-right-101",
-  "question": "不当右转会被扣多少分？",
-  "choices": [
-    "2 分违章扣分",
-    "3 分违章扣分",
-    "4 分违章扣分",
-    "5 分违章扣分"
-  ],
-  "correctIndex": 0,
-  "explanation": "不当转弯会被扣 2 分。",
-  "image": "/signs/q-improper-right-101.png"
-},
+    "id": "q-two-way-left-turn-lane-89",
+    "question": "此标志表示什么？",
+    "choices": [
+      "该车道仅可用于两个方向的车辆左转",
+      "该车道用于超越慢车",
+      "此车道禁止左转",
+      "前方车道变为只允许右转"
+    ],
+    "correctIndex": 0,
+    "explanation": "相反方向的弯曲箭头表示两个方向行驶的车辆都可以进入该车道，但只能用于左转。",
+    "image": "/signs/q-two-way-left-turn-lane.png"
+  },
+  {
+    "id": "q-traffic-lights-ahead-90",
+    "question": "这个警告标志的目的是什么？",
+    "choices": [
+      "提醒驾驶员前方有交通信号灯",
+      "表示前方是仅供行人使用的过道",
+      "警告前方有铁路道口",
+      "显示前方道路封闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
+    "image": "/signs/q-traffic-lights-ahead.png"
+  },
+  {
+    "id": "q-traffic-lights-ahead-91",
+    "question": "这个警告标志的目的是什么？",
+    "choices": [
+      "提醒驾驶员前方有交通信号灯",
+      "表示前方是仅供行人使用的过道",
+      "警告前方有铁路道口",
+      "显示前方道路封闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员前方的路口由交通信号灯控制。",
+    "image": "/signs/q-traffic-lights-ahead.png"
+  },
+  {
+    "id": "q-school-zone-92",
+    "question": "看到这个标志时，驾驶员应准备什么？",
+    "choices": [
+      "道路附近可能有儿童",
+      "前方有卡车检查站",
+      "游乐场已关闭",
+      "骑自行车的人必须下车推行"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员在学校区域要减速并保持警惕，因为可能有儿童出现。",
+    "image": "/signs/q-school-zone.png"
+  },
+  {
+    "id": "q-hidden-intersection-93",
+    "question": "为什么在这个位置需要格外小心？",
+    "choices": [
+      "侧路可能难以看见",
+      "交通信号灯故障",
+      "道路变为分隔式",
+      "前方有收费站"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志警告驾驶员，前方的交叉路口可能不容易被看见。",
+    "image": "/signs/q-hidden-intersection.png"
+  },
+  {
+    "id": "q-no-passing-94",
+    "question": "这个标志限制了哪种驾驶行为？",
+    "choices": [
+      "超车",
+      "低于限速行驶",
+      "使用前灯",
+      "左转"
+    ],
+    "correctIndex": 0,
+    "explanation": "该管制标志明确表示在此区域内不允许超越其他车辆。",
+    "image": "/signs/q-no-passing.png"
+  },
+  {
+    "id": "q-right-left-curve-ahead-95",
+    "question": "这个标志描述了什么道路情况？",
+    "choices": [
+      "一系列弯道，先向右再向左",
+      "只有一个急右弯",
+      "前方有环形交叉路口",
+      "前方开始并入车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员道路将连续两次弯曲，应相应调整车速。",
+    "image": "/signs/q-right-left-curve-ahead.png"
+  },
+  {
+    "id": "q-stop-ahead-96",
+    "question": "看到这个标志后，驾驶员应预期什么？",
+    "choices": [
+      "前方不远处有停车标志",
+      "前方有让行标志",
+      "仅有人行横道",
+      "绿灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "这个提前警告标志让驾驶员有时间准备停车。",
+    "image": "/signs/stop-ahead.jpg"
+  },
+  {
+    "id": "q-permitted-action-97",
+    "question": "绿色圆形交通标志的一般含义是什么？",
+    "choices": [
+      "允许某种动作或行驶方式",
+      "前方有危险",
+      "车辆必须停车",
+      "道路封闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色圆形标志表示驾驶员被允许采取的行动。",
+    "image": "/signs/q-permitted-action.png"
+  },
+  {
+    "id": "q-red-light-camera-98",
+    "question": "为什么在路口设置这个标志？",
+    "choices": [
+      "警告有摄像头执法闯红灯行为",
+      "表示信号由行人控制",
+      "仅表示闪烁信号灯",
+      "标示学校过街处"
+    ],
+    "correctIndex": 0,
+    "explanation": "该标志提醒驾驶员闯红灯可能会被记录并受到处罚。",
+    "image": "/signs/q-red-light-camera.png"
+  },
+  {
+    "id": "q-truck-entrance-99",
+    "question": "这个标志提示了什么潜在危险？",
+    "choices": [
+      "大型卡车可能进入道路",
+      "仅限卡车停车开始",
+      "前方有称重站",
+      "禁止卡车通行"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员应注意入口附近缓慢行驶或转弯的卡车。",
+    "image": "/signs/q-truck-entrance.png"
+  },
+  {
+    "id": "q-right-lane-must-exit-sign-100",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "只有右侧车道可以直行",
+      "右侧车道禁止右转",
+      "右侧车道的车辆必须驶出",
+      "右侧车道为慢速车辆专用"
+    ],
+    "correctIndex": 2,
+    "explanation": "这个绿色指示标志告知驾驶员右侧车道的车辆必须驶出。若不打算驶出，应提前变更车道。",
+    "image": "/signs/right-lane-must-exit.png"
+  },
+  {
+    "id": "q-improper-right-101",
+    "question": "不当右转会被扣多少分？",
+    "choices": [
+      "2 分违章扣分",
+      "3 分违章扣分",
+      "4 分违章扣分",
+      "5 分违章扣分"
+    ],
+    "correctIndex": 0,
+    "explanation": "不当转弯会被扣 2 分。",
+    "image": "/signs/q-improper-right-101.png"
+  },
   {
     "id": "q-rules-merge-sign-102",
     "question": "您看到前方车道结束和并道标志。交通繁忙但在流动。您应该怎么做？",
@@ -1850,32 +1326,31 @@
     "image": "/signs/road-narrows.jpg"
   },
   {
-  "id": "q-change-address-notification-103",
-  "question": "持牌驾驶员更改姓名或住址后，必须在多久内通知交通部？",
-  "choices": [
-    "6 天内",
-    "15 天内",
-    "30 天内",
-    "在驾照续期前的任何时间"
-  ],
-  "correctIndex": 0,
-  "explanation": "根据安大略省法律，驾驶员必须在姓名或地址变更后的六天内通知交通部。",
-  "image": "/signs/q-change-address-notification.png"
-},
-
+    "id": "q-change-address-notification-103",
+    "question": "持牌驾驶员更改姓名或住址后，必须在多久内通知交通部？",
+    "choices": [
+      "6 天内",
+      "15 天内",
+      "30 天内",
+      "在驾照续期前的任何时间"
+    ],
+    "correctIndex": 0,
+    "explanation": "根据安大略省法律，驾驶员必须在姓名或地址变更后的六天内通知交通部。",
+    "image": "/signs/q-change-address-notification.png"
+  },
   {
-  "id": "q-warning-letter-104",
-  "question": "新手驾驶员在多少分范围内会收到警告信？",
-  "choices": [
-    "0–1 分违章扣分",
-    "2–5 分违章扣分",
-    "9–14 分违章扣分",
-    "15 分以上违章扣分"
-  ],
-  "correctIndex": 1,
-  "explanation": "新手驾驶员在累计 2 至 5 分时会收到警告信。",
-  "image": "/signs/q-warning-letter-104.png"
-},
+    "id": "q-warning-letter-104",
+    "question": "新手驾驶员在多少分范围内会收到警告信？",
+    "choices": [
+      "0–1 分违章扣分",
+      "2–5 分违章扣分",
+      "9–14 分违章扣分",
+      "15 分以上违章扣分"
+    ],
+    "correctIndex": 1,
+    "explanation": "新手驾驶员在累计 2 至 5 分时会收到警告信。",
+    "image": "/signs/q-warning-letter-104.png"
+  },
   {
     "id": "q-rules-construction-speed-105",
     "question": "您进入一个由此标志标示且限速降低的施工区。正确的做法是什么？",
@@ -1887,21 +1362,21 @@
     ],
     "correctIndex": 0,
     "explanation": "在施工区内，必须遵守规定的施工限速，并特别注意工人和车道变化。",
-     "image": "/signs/construction-ahead.jpg"
+    "image": "/signs/construction-ahead.jpg"
   },
-{
-  "id": "q-bus-rail-106",
-  "question": "公交车司机在未受保护的铁路道口未停车会被扣多少分？",
-  "choices": [
-    "3 分违章扣分",
-    "4 分违章扣分",
-    "5 分违章扣分",
-    "6 分违章扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "公交车司机必须在未受保护的道口停车；未停车将被扣 5 分。",
-  "image": "/signs/q-bus-rail-106.png"
-},
+  {
+    "id": "q-bus-rail-106",
+    "question": "公交车司机在未受保护的铁路道口未停车会被扣多少分？",
+    "choices": [
+      "3 分违章扣分",
+      "4 分违章扣分",
+      "5 分违章扣分",
+      "6 分违章扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "公交车司机必须在未受保护的道口停车；未停车将被扣 5 分。",
+    "image": "/signs/q-bus-rail-106.png"
+  },
   {
     "id": "q-rules-no-entry-oneway-107",
     "question": "您在街道尽头看到此“禁止进入”标志。它告诉您关于这条道路的什么信息？",
@@ -1913,21 +1388,21 @@
     ],
     "correctIndex": 0,
     "explanation": "禁止进入标志表示您正面对该道路或车道的错误行驶方向。您不得进入。",
-      "image": "/signs/do-not-enter.jpg"
+    "image": "/signs/do-not-enter.jpg"
   },
   {
-  "id": "q-speed-50plus-108",
-  "question": "以超过限速 50 公里/小时或以上驾驶会被扣多少分？",
-  "choices": [
-    "3 分违章扣分",
-    "4 分违章扣分",
-    "5 分违章扣分",
-    "6 分违章扣分"
-  ],
-  "correctIndex": 3,
-  "explanation": "超速 50 公里/小时或以上将被扣 6 分。",
-  "image": "/signs/q-speed-50plus-108.png"
-},
+    "id": "q-speed-50plus-108",
+    "question": "以超过限速 50 公里/小时或以上驾驶会被扣多少分？",
+    "choices": [
+      "3 分违章扣分",
+      "4 分违章扣分",
+      "5 分违章扣分",
+      "6 分违章扣分"
+    ],
+    "correctIndex": 3,
+    "explanation": "超速 50 公里/小时或以上将被扣 6 分。",
+    "image": "/signs/q-speed-50plus-108.png"
+  },
   {
     "id": "q-alcohol-109",
     "question": "如果 21 岁以下的驾驶员在驾驶时体内有任何酒精，他们：",
@@ -1941,7 +1416,6 @@
     "explanation": "安大略省对 21 岁以下驾驶员以及新手驾驶员（G1/G2）实行零酒精含量要求。",
     "image": "/signs/q-28-impaired-driver.png"
   },
-
   {
     "id": "q-rules-no-stopping-like-sign-110",
     "question": "另一种标志显示一个红色圆圈和斜杠覆盖在停车符号上。它与此禁止停车标志有何不同？",
@@ -1953,21 +1427,21 @@
     ],
     "correctIndex": 0,
     "explanation": "禁止停车标志允许短暂停车以接送乘客或装卸物品。禁止停靠标志则不允许您完全停车，除非为遵守交通管制。",
-      "image": "/signs/no-parking.jpg"
+    "image": "/signs/no-parking.jpg"
   },
-{
-  "id": "q-bus-rail-106",
-  "question": "公交车司机在无保护的铁路道口未停车会被扣多少分？",
-  "choices": [
-    "3 分扣分",
-    "4 分扣分",
-    "5 分扣分",
-    "6 分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "公交车司机必须在无保护的铁路道口停车；未停车将被扣 5 分。",
-  "image": "/signs/q-bus-rail-106.png"
-},
+  {
+    "id": "q-bus-rail-106",
+    "question": "公交车司机在无保护的铁路道口未停车会被扣多少分？",
+    "choices": [
+      "3 分扣分",
+      "4 分扣分",
+      "5 分扣分",
+      "6 分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "公交车司机必须在无保护的铁路道口停车；未停车将被扣 5 分。",
+    "image": "/signs/q-bus-rail-106.png"
+  },
   {
     "id": "q-rules-no-entry-oneway-107",
     "question": "您在街道尽头看到这个“禁止驶入”标志。它对这条道路说明了什么？",
@@ -1979,21 +1453,21 @@
     ],
     "correctIndex": 0,
     "explanation": "禁止驶入标志表示您正面对错误的行驶方向。您不得进入该道路或车道。",
-      "image": "/signs/do-not-enter.jpg"
+    "image": "/signs/do-not-enter.jpg"
   },
   {
-  "id": "q-speed-50plus-108",
-  "question": "驾驶时超过限速 50 公里/小时或以上会被扣多少分？",
-  "choices": [
-    "3 分扣分",
-    "4 分扣分",
-    "5 分扣分",
-    "6 分扣分"
-  ],
-  "correctIndex": 3,
-  "explanation": "超过限速 50 公里/小时或以上将被扣 6 分。",
-  "image": "/signs/q-speed-50plus-108.png"
-},
+    "id": "q-speed-50plus-108",
+    "question": "驾驶时超过限速 50 公里/小时或以上会被扣多少分？",
+    "choices": [
+      "3 分扣分",
+      "4 分扣分",
+      "5 分扣分",
+      "6 分扣分"
+    ],
+    "correctIndex": 3,
+    "explanation": "超过限速 50 公里/小时或以上将被扣 6 分。",
+    "image": "/signs/q-speed-50plus-108.png"
+  },
   {
     "id": "q-alcohol-109",
     "question": "如果 21 岁以下的驾驶员在驾驶时体内含有任何酒精，他们：",
@@ -2007,7 +1481,6 @@
     "explanation": "安大略省对 21 岁以下驾驶员及新手驾驶员（G1/G2）实行零酒精浓度要求。",
     "image": "/signs/q-28-impaired-driver.png"
   },
-
   {
     "id": "q-rules-no-stopping-like-sign-110",
     "question": "另一种标志显示红色圆圈和斜杠覆盖在“停车”符号上。它与该“禁止停车”标志有何不同？",
@@ -2019,21 +1492,21 @@
     ],
     "correctIndex": 0,
     "explanation": "禁止停放标志允许短暂停车以装卸乘客或货物。禁止停车标志则不允许您在任何情况下停车，除非为遵守交通管制。",
-      "image": "/signs/no-parking.jpg"
+    "image": "/signs/no-parking.jpg"
   },
-{
-  "id": "q-follow-closely-111",
-  "question": "跟车过近会被扣多少分？",
-  "choices": [
-    "2 分扣分",
-    "3 分扣分",
-    "4 分扣分",
-    "6 分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "跟车过近会被扣 4 分。",
-  "image": "/signs/q-tailgater-189.png"
-},
+  {
+    "id": "q-follow-closely-111",
+    "question": "跟车过近会被扣多少分？",
+    "choices": [
+      "2 分扣分",
+      "3 分扣分",
+      "4 分扣分",
+      "6 分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "跟车过近会被扣 4 分。",
+    "image": "/signs/q-tailgater-189.png"
+  },
   {
     "id": "q-rules-hill-downgrade-112",
     "question": "在长下坡前看到这个陡坡标志。最安全的挡位和制动策略是什么？",
@@ -2045,7 +1518,7 @@
     ],
     "correctIndex": 0,
     "explanation": "在长下坡时，使用低挡有助于控制车速并防止刹车过热。",
-      "image": "/signs/steep-hill-downgrade.jpg"
+    "image": "/signs/steep-hill-downgrade.jpg"
   },
   {
     "id": "q-rules-slippery-curve-113",
@@ -2058,7 +1531,7 @@
     ],
     "correctIndex": 0,
     "explanation": "在湿滑弯道上，应在进入前降低车速，并避免可能导致打滑的突然动作。",
-      "image": "/signs/slippery-when-wet.jpg"
+    "image": "/signs/slippery-when-wet.jpg"
   },
   {
     "id": "q-rules-winding-road-visibility-114",
@@ -2071,7 +1544,7 @@
     ],
     "correctIndex": 0,
     "explanation": "在有雾的弯曲道路上，应减速、保持更大间距并使用近光灯，以避免光线反射。",
-      "image": "/signs/winding-road.jpg"
+    "image": "/signs/winding-road.jpg"
   },
   {
     "id": "q-fatigue-115",
@@ -2084,9 +1557,8 @@
     ],
     "correctIndex": 1,
     "explanation": "如果感到困倦，应在安全地点停车并休息。疲劳驾驶很危险。",
-      "image": "/signs/q-29-driver-tired.png"
+    "image": "/signs/q-29-driver-tired.png"
   },
-
   {
     "id": "q-approaching-pedestrian-116",
     "question": "您看到一名行人站在无信号控制的人行横道边。您应该怎么做？",
@@ -2098,9 +1570,8 @@
     ],
     "correctIndex": 1,
     "explanation": "在行人横道处应准备让行，并让行人安全通过。",
-      "image": "/signs/q-approaching-pedestrian-75.png"
+    "image": "/signs/q-approaching-pedestrian-75.png"
   },
-
   {
     "id": "q-rules-wheelchair-accessible-117",
     "question": "您在停车位看到轮椅标志。如果您没有无障碍停车许可，作为驾驶员必须怎么做？",
@@ -2112,7 +1583,7 @@
     ],
     "correctIndex": 0,
     "explanation": "无障碍停车位仅供展示有效无障碍停车许可的车辆使用。",
-      "image": "/signs/wheelchair-accessible.jpg"
+    "image": "/signs/wheelchair-accessible.jpg"
   },
   {
     "id": "q-driver-distraction-118",
@@ -2125,10 +1596,9 @@
     ],
     "correctIndex": 2,
     "explanation": "驾驶时使用手持电话或发短信是危险的分心行为，在安大略省属于违法行为。",
-      "image": "/signs/q-driver-distraction-74.png"
+    "image": "/signs/q-driver-distraction-74.png"
   },
-
-   {
+  {
     "id": "q-hydroplaning-prevent-119",
     "question": "哪种做法有助于降低打滑（水漂）的风险？",
     "choices": [
@@ -2139,27 +1609,23 @@
     ],
     "correctIndex": 2,
     "explanation": "在湿滑条件下降低车速并确保轮胎有良好的胎纹有助于防止水漂。",
-      "image": "/signs/q-hydroplaning-prevent-73.png"
+    "image": "/signs/q-hydroplaning-prevent-73.png"
   },
-
   {
-  "id": "q-demerit-interview-120",
-  "question": "根据安大略省的扣分制度，当累计达到多少分时，驾驶员可能被要求参加面谈并重新接受驾驶技能测试？",
-  "choices": [
-    "累计达到 9 分时",
-    "累计达到 3 分时",
-    "累计达到 6 分时",
-    "累计达到 15 分时"
-  ],
-  "correctIndex": 0,
-  "explanation": "当持有正式驾照的驾驶员达到 9 分时，交通部门可能要求其参加面谈，并可能安排重新测试以评估其驾驶能力。",
-  "image": "/signs/q-demerit-interview.png"
-},
-{
+    "id": "q-demerit-interview-120",
+    "question": "根据安大略省的扣分制度，当累计达到多少分时，驾驶员可能被要求参加面谈并重新接受驾驶技能测试？",
+    "choices": [
+      "累计达到 9 分时",
+      "累计达到 3 分时",
+      "累计达到 6 分时",
+      "累计达到 15 分时"
+    ],
+    "correctIndex": 0,
+    "explanation": "当持有正式驾照的驾驶员达到 9 分时，交通部门可能要求其参加面谈，并可能安排重新测试以评估其驾驶能力。",
+    "image": "/signs/q-demerit-interview.png"
+  },
+  {
     "id": "q-divided-highway-ends-121",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个标志告诉您前方道路的什么情况？",
     "choices": [
       "分隔式公路即将结束，对向车流将更接近",
@@ -2169,20 +1635,10 @@
     ],
     "correctIndex": 0,
     "explanation": "该标志显示两条线从中间形状两侧汇合，表示分隔式公路即将结束，对向车流将不再由中央隔离带分开。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Divided highway ends)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/divided-highway-ends.jpg",
-    "notes": "Original divided-highway-ends question aligned to Ontario warning signs."
+    "image": "/signs/divided-highway-ends.jpg"
   },
   {
     "id": "q-narrow-bridge-122",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "您在桥前看到这个标志。您应该预期什么？",
     "choices": [
       "一座狭窄的桥，车道或路肩变窄",
@@ -2192,20 +1648,10 @@
     ],
     "correctIndex": 0,
     "explanation": "标志上变窄的形状警告前方桥梁可能比道路更窄，因此应减速并准备安全会车。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Narrow bridge / road narrows)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/narrow-bridge.jpg",
-    "notes": "Original question using your narrow-bridge sign image."
+    "image": "/signs/narrow-bridge.jpg"
   },
   {
     "id": "q-road-narrows-123",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "这个标志设置在一段道路前。它表示什么？",
     "choices": [
       "前方道路变窄",
@@ -2215,20 +1661,10 @@
     ],
     "correctIndex": 0,
     "explanation": "警告标志上逐渐变窄的线条表示道路将变窄，因此应减速并与对向车辆小心会车。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Road narrows)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-narrows.jpg",
-    "notes": "Original road-narrows question for Prep Test G1."
+    "image": "/signs/road-narrows.jpg"
   },
   {
     "id": "q-road-ends-124",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "当您接近街道尽头时看到这个标志。它表示什么？",
     "choices": [
       "前方道路结束；您必须转弯或停车",
@@ -2238,20 +1674,10 @@
     ],
     "correctIndex": 0,
     "explanation": "道路结束警告标志表示直行道路将结束。您必须减速并准备根据指示在道路尽头停车或转弯。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Warning signs (Road ends / Dead end)",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/traffic-signs"
-      }
-    ],
-    "image": "/signs/road-ends.jpg",
-    "notes": "Original road-ends interpretation question."
+    "image": "/signs/road-ends.jpg"
   },
   {
     "id": "q-railway-approach-125",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "在一条没有闸门的双车道道路上，您看到前方有铁路道口标志。您应该怎么做？",
     "choices": [
       "减速，观察并聆听火车，必要时准备停车",
@@ -2261,20 +1687,10 @@
     ],
     "correctIndex": 0,
     "explanation": "铁路警告标志表示您必须减速，向两个方向观察和聆听，并在火车接近时准备停车。切勿停在铁轨上。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Railway crossings",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/railway-crossings"
-      }
-    ],
-    "image": "/signs/railway-crossing.jpg",
-    "notes": "New scenario about approaching a railway crossing without gates."
+    "image": "/signs/railway-crossing.jpg"
   },
   {
     "id": "q-road-closed-ahead-126",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "在绕行路线中看到这个橙色标志。它告诉您前方道路的什么情况？",
     "choices": [
       "前方道路将完全封闭",
@@ -2284,42 +1700,23 @@
     ],
     "correctIndex": 0,
     "explanation": "橙色“前方道路封闭”标志表示前方道路将无法通行。您必须准备按照指示绕行或掉头。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Construction zones and temporary signs",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/construction-zones"
-      }
-    ],
-    "image": "/signs/road-closed-ahead.jpg",
-    "notes": "Different from earlier construction question: focuses on full closure ahead."
+    "image": "/signs/road-closed-ahead.jpg"
   },
   {
-  "id": "q-no-passing-127",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "这个标志是什么意思？",
-  "choices": [
-    "只允许在右侧超车",
-    "此区域禁止超车",
-    "车辆必须成对行驶",
-    "慢车必须靠边停车"
-  ],
-  "correctIndex": 1,
-  "explanation": "红色圆圈和斜线覆盖在并排行驶的两辆车上，表示禁止超车。",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Passing Rules",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-no-passing.png"
-},
+    "id": "q-no-passing-127",
+    "question": "这个标志是什么意思？",
+    "choices": [
+      "只允许在右侧超车",
+      "此区域禁止超车",
+      "车辆必须成对行驶",
+      "慢车必须靠边停车"
+    ],
+    "correctIndex": 1,
+    "explanation": "红色圆圈和斜线覆盖在并排行驶的两辆车上，表示禁止超车。",
+    "image": "/signs/q-no-passing.png"
+  },
   {
     "id": "q-roundabout-yield-128",
-    "brand": "Prep test G1",
-    "lang": "en",
-    "category": "signs-regulatory",
     "question": "您看到前方有环形交叉路口标志。正确的进入方式是什么？",
     "choices": [
       "减速，礼让已在环岛内的车辆，并在安全空隙时进入",
@@ -2329,2024 +1726,1982 @@
     ],
     "correctIndex": 0,
     "explanation": "环形交叉路口警告标志表示前方有环形路口。您必须减速，礼让已在环岛内的车辆，并在安全时进入。",
-    "sources": [
-      {
-        "title": "Official MTO Driver’s Handbook — Roundabouts",
-        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook/roundabouts"
-      }
-    ],
-    "image": "/signs/roundabout-sign.jpg",
-    "notes": "New roundabout question focusing on yielding on entry."
+    "image": "/signs/roundabout-sign.jpg"
   },
   {
-  "id": "q-hand-signal-slow-stop-129",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "这个驾驶员的手势表示什么？",
-  "choices": [
-    "驾驶员正在减速或停车",
-    "驾驶员打算左转",
-    "驾驶员打算右转",
-    "驾驶员正在让对向车辆先行"
-  ],
-  "correctIndex": 0,
-  "explanation": "手臂向下伸出表示驾驶员计划减速或停车。",
-  "sources": [
-    {
-      "title": "Driver Hand Signals — Official MTO Guide",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-hand-signal-slow-stop.png"
-},
- {
-  "id": "q-permitted-action-130",
-  "brand": "Prep test G1",
-  "lang": "en",
-  "category": "signs-regulatory",
-  "question": "绿色圆形标志通常表示什么？",
-  "choices": [
-    "某项行为被允许",
-    "前方有危险警告",
-    "前方有停车标志",
-    "车道关闭"
-  ],
-  "correctIndex": 0,
-  "explanation": "在法规标志中，绿色圆圈表示允许的动作或行驶方向。",
-  "sources": [
-    {
-      "title": "Regulatory Signs — Driver Guide",
-      "url": "https://www.ontario.ca"
-    }
-  ],
-  "image": "/signs/q-permitted-action.png"
-},
-{
-  "id": "q-snowmobile-crossing-sign-131",
-  "question": "此标志提醒驾驶员什么？",
-  "choices": [
-    "前方有指定的雪地摩托停车区",
-    "道路在冬季期间关闭",
-    "前方可能有雪地摩托穿越道路",
-    "此处开始为仅限雪地摩托的路线"
-  ],
-  "correctIndex": 2,
-  "explanation": "此黄色菱形警告标志表示该地点可能有雪地摩托穿越道路。驾驶员应减速并注意雪地摩托交通。",
-  "image": "/signs/snowmobile-parking.png"
-},
-{
-  "id": "q-right-lane-must-exit-sign-132",
-  "question": "此标志表示什么？",
-  "choices": [
-    "只有右侧车道可以直行",
-    "右侧车道禁止右转",
-    "右侧车道的车辆必须驶出",
-    "右侧车道为慢速车辆专用"
-  ],
-  "correctIndex": 2,
-  "explanation": "此绿色指示标志告知驾驶员，右侧车道的车辆必须驶出。若不打算驶出，应提前变更到其他车道。",
-  "image": "/signs/right-lane-must-exit.png"
-},
-{
-  "id": "q-hand-signal-right-turn-133",
-  "question": "当驾驶员的左臂向上弯曲成90度角时，此手势表示什么？",
-  "choices": [
-    "驾驶员正在减速或停车",
-    "驾驶员打算右转",
-    "驾驶员打算左转",
-    "驾驶员在警示车辆故障"
-  ],
-  "correctIndex": 1,
-  "explanation": "当驾驶员的左臂向上弯曲成90度角并且手向上指时，表示其有右转的意图。",
-  "image": "/signs/hand-signal-right-turn.png"
-},
-{
-  "id": "q-warning-steep-hill-trucks-134",
-  "question": "此道路标志提醒驾驶员什么？",
-  "choices": [
-    "前方有卡车检查站",
-    "前方有陡峭的下坡路段，尤其对卡车危险",
-    "施工区域要求卡车停车",
-    "前方有指定的卡车停车区"
-  ],
-  "correctIndex": 1,
-  "explanation": "此警告标志表示前方有陡峭的下坡路段。驾驶员——尤其是驾驶大型或重型车辆的人员——应减速并谨慎行驶。",
-  "image": "/signs/steep-hill.png"
-},
-{
-  "id": "q-keep-right-except-to-pass-135",
-  "question": "此标志表示什么？",
-  "choices": [
-    "除非超车，否则必须保持在右侧车道行驶",
-    "左侧车道对所有车辆关闭",
-    "只允许右转",
-    "任何时候都不允许超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "此标志告诉驾驶员在正常行驶时使用右侧车道，只有在安全超越较慢车辆时才应移至左侧车道。",
-  "image": "/signs/q-keep-right-except-to-pass.png"
-},
-{
-  "id": "q-warning-hidden-intersection-136",
-  "question": "此道路标志向驾驶员表示什么？",
-  "choices": [
-    "右侧有隐藏的车道入口",
-    "前方有隐藏的交叉路口，右侧有支路汇入",
-    "一条有隐藏出口的单行道",
-    "在下一个路口只能右转"
-  ],
-  "correctIndex": 1,
-  "explanation": "此警告标志表示前方有一个隐藏的交叉路口，右侧有支路汇入。需要格外小心。",
-  "image": "/signs/hidden-intersection.png"
-},
-{
-  "id": "q-regulatory-no-parking-accessible-permit-137",
-  "question": "此标志表示什么？",
-  "choices": [
-    "任何车辆在任何时候都不允许停车",
-    "停车位仅供紧急车辆使用",
-    "除展示有效无障碍停车许可证的车辆外，禁止停车",
-    "该区域仅为乘客上下车区"
-  ],
-  "correctIndex": 2,
-  "explanation": "此标志表示停车位仅供展示有效无障碍停车许可证的车辆使用。",
-  "image": "/signs/handicapped-parking-sign.png"
-},
-{
-  "id": "q-regulatory-no-straight-ahead-138",
-  "question": "此交通标志表示什么？",
-  "choices": [
-    "您必须直行通过路口",
-    "禁止右转",
-    "禁止直行",
-    "此车道仅供直行车辆使用"
-  ],
-  "correctIndex": 2,
-  "explanation": "此标志表示驾驶员不允许直行通过路口。",
-  "image": "/signs/no-straight-ahead.png"
-},
-{
-  "id": "q-regulatory-no-right-turn-on-red-139",
-  "question": "此交通标志表示什么？",
-  "choices": [
-    "任何时候都不允许右转",
-    "只有在红灯时才可以右转",
-    "交通信号灯为红灯时禁止右转",
-    "您必须先停车，然后在红灯时右转"
-  ],
-  "correctIndex": 2,
-  "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许右转。",
-  "image": "/signs/no-right-turn-on-red.png"
-},
-{
-  "id": "q-regulatory-no-left-turn-on-red-140",
-  "question": "此交通标志表示什么？",
-  "choices": [
-    "任何时候都不允许左转",
-    "只有在红灯时才可以左转",
-    "交通信号灯为红灯时禁止左转",
-    "您必须先停车，然后在红灯时左转"
-  ],
-  "correctIndex": 2,
-  "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许左转。",
-  "image": "/signs/no-left-turn-on-red.png"
-},
- {
-  "id": "q-night-driving-speed-141",
-  "question": "夜间驾驶时，即使限速更高，您应如何调整车速？",
-  "choices": [
-    "以能在车灯照亮的距离内停车的速度行驶",
-    "始终按限速行驶，因为任何时候都安全",
-    "加速以减少在黑暗中的时间",
-    "使用远光灯并尽可能快地行驶"
-  ],
-  "correctIndex": 0,
-  "explanation": "夜间驾驶时，您不应超出车灯照亮的范围行驶。应以能在清晰可见的距离内停车的速度行驶。",
-  "image": "/signs/q-night-driving-speed-164.png"
-},
-{
-  "id": "q-intersections-right-of-way-142",
-  "question": "在四向停车且所有车辆几乎同时到达时，通常应由哪位驾驶员先行？",
-  "choices": [
-    "最先完全停车并在安全时前进的驾驶员",
-    "车辆最大的驾驶员",
-    "最先闪灯的驾驶员",
-    "正在左转穿越交通的驾驶员"
-  ],
-  "correctIndex": 0,
-  "explanation": "在四向停车路口，通常最先完全停车的车辆先行，但所有驾驶员在前进前都必须确保道路清晰且安全。",
-  "image": "/signs/q-intersections-right-of-way-165.png"
-},
-{
-  "id": "q-lane-change-143",
-  "question": "在多车道道路上变道前，正确的顺序是什么？",
-  "choices": [
-    "查看后视镜、打转向灯、检查盲点，然后在安全时变道",
-    "先变道后打转向灯，再查看后视镜",
-    "先变道，然后查看后视镜并打转向灯",
-    "按喇叭并立即驶入下一车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "先查看后视镜，打转向灯，检查盲点，然后仅在安全时变道。",
-  "image": "/signs/q-lane-change-166.png"
-},
-{
-  "id": "q-blind-spots-144",
-  "question": "即使后视镜已正确调整，为什么仍需进行肩部回头检查？",
-  "choices": [
-    "车辆旁边存在后视镜无法显示的区域（盲点）",
-    "这只是一个习惯，并非必要",
-    "可以让其他驾驶员知道您要转弯",
-    "可以代替打转向灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "即使后视镜调整正确，也无法显示所有情况。快速回头检查可以帮助您看到盲点中的车辆、自行车或行人。",
-  "image": "/signs/q-blind-spots-167.png"
-},
-{
-  "id": "q-expressway-merge-145",
-  "question": "从匝道进入高速公路时，在加速车道上应怎么做？",
-  "choices": [
-    "打转向灯、与车流速度匹配，并在有安全间隙时并入",
-    "在匝道末端停车并等待他人让行",
-    "在路肩慢速行驶直到找到较大空隙",
-    "如果错过出口就倒车"
-  ],
-  "correctIndex": 0,
-  "explanation": "在高速公路匝道上，应加速以匹配车流速度，打转向灯，并在有安全空隙时平稳并入。",
-  "image": "/signs/q-expressway-merge-168.png"
-},
-{
-  "id": "q-expressway-exit-146",
-  "question": "驶离高速公路时，应该在什么时候开始减速？",
-  "choices": [
-    "进入减速车道或出口匝道之后",
-    "一看到出口标志就在主车道上减速",
-    "只有到达下一个城市街道时才减速",
-    "永远不要减速；通过出口时保持高速公路速度"
-  ],
-  "correctIndex": 0,
-  "explanation": "在进入减速车道或匝道之前保持高速公路速度，然后安全地减速至出口所标示的速度。",
-  "image": "/signs/q-expressway-exit-169.png"
-},
-{
-  "id": "q-emergency-vehicles-147",
-  "question": "在双向道路上，您听到并看到一辆紧急车辆闪着灯并鸣笛从后方接近。您必须怎么做？",
-  "choices": [
-    "尽可能靠右并停车，直到其通过",
-    "加速以保持在紧急车辆前方",
-    "在道路中央停车",
-    "向左转并阻挡对向交通"
-  ],
-  "correctIndex": 0,
-  "explanation": "当有紧急车辆闪灯并鸣笛接近时，应向右靠边并停车，直到其通过。",
-  "image": "/signs/q-emergency-vehicles-170.jpg"
-},
-{
-  "id": "q-move-over-law-148",
-  "question": "在多车道高速公路上，您看到一辆紧急车辆闪着灯停在您车道的路肩上。如果交通允许，您应该怎么做？",
-  "choices": [
-    "变换到远离紧急车辆的另一条车道并减速",
-    "在同一车道保持速度",
-    "按喇叭并照常驶过",
-    "在紧急车辆旁边停车观看"
-  ],
-  "correctIndex": 0,
-  "explanation": "您必须减速，并在可能的情况下变换到远离停在路边并闪灯的紧急或拖车车辆的车道。",
-  "image": "/signs/q-move-over-law-148.png"
-},
-{
-  "id": "q-sharing-cyclists-1m-149",
-  "question": "在双车道道路上超越自行车骑行者时，应该如何安全进行？",
-  "choices": [
-    "减速，并在超越时在您的车辆与骑行者之间至少保持一米距离",
-    "紧贴通过以防止其他车辆超车",
-    "大声鸣喇叭并全速通过",
-    "在路肩上行驶以便不变道超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "在条件允许的情况下，驾驶员在超越骑行者时必须至少保持一米的距离，可能时应保持更大距离。",
-  "image": "/signs/q-sharing-cyclists-1m-149.png"
-},
-{
-  "id": "q-dooring-cyclist-150",
-  "question": "您将车停在自行车道旁，想打开驾驶员车门。避免撞到骑行者的最安全方法是什么？",
-  "choices": [
-    "检查后视镜，进行肩部回头检查是否有骑行者，然后用远侧手打开车门",
-    "快速打开车门而不查看，以便车门打开时间更短",
-    "依靠骑行者在车门打开时停车",
-    "在查看交通时保持车门打开"
-  ],
-  "correctIndex": 0,
-  "explanation": "检查后视镜和盲点，并用远侧手打开车门，这样您会自然转身查看是否有骑行者。",
-  "image": "/signs/q-dooring-cyclist-173.png"
-},
- {
-  "id": "q-motorcycles-visibility-151",
-  "question": "为什么在判断迎面而来的摩托车的速度和距离时必须格外小心？",
-  "choices": [
-    "它们体积较小，看起来可能比实际更远且更慢",
-    "它们总是低于限速行驶",
-    "它们必须在每个路口停车",
-    "它们白天不使用车灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "由于摩托车体积较小，驾驶员常常误判其距离和速度。这在左转或从摩托车前方通过时尤其重要。",
-  "image": "/signs/q-motorcycles-visibility-151.png"
-},
-{
-  "id": "q-large-trucks-space-152",
-  "question": "在大型卡车附近行驶时，为什么应避免长时间在其旁边行驶？",
-  "choices": [
-    "卡车有很大的盲区并且需要额外空间来操控",
-    "卡车总是超速",
-    "卡车必须在道路中央行驶",
-    "您有优先通行权，因此位置无关紧要"
-  ],
-  "correctIndex": 0,
-  "explanation": "大型车辆在侧面有很大的盲区，并且需要更多空间转弯和变道。避免长时间并排行驶，并在可以时安全超越。",
-  "image": "/signs/q-large-trucks-space-175.png"
-},
-{
-  "id": "q-trucks-wide-turns-153",
-  "question": "一辆大型卡车打右转信号，并在转弯前稍微向左移动。您应该怎么做？",
-  "choices": [
-    "不要进入右侧空间；卡车需要空间转弯",
-    "在转弯时从右侧驶上前超车",
-    "按喇叭并迫使卡车保持在其车道内",
-    "驶入卡车旁的自行车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "大型车辆在右转时常需要更大的转弯空间。切勿在其转弯一侧靠近行驶；应在其完成转弯前保持在后方。",
-  "image": "/signs/q-trucks-wide-turns-176.png"
-},
-{
-  "id": "q-winter-driving-distance-154",
-  "question": "在积雪且抓地力降低的道路上，您应如何调整跟车距离？",
-  "choices": [
-    "大幅增加，远超正常的两秒规则",
-    "保持与干燥道路相同的距离",
-    "减少距离以防其他驾驶员插入",
-    "尽量紧跟以利用前车的轮胎痕迹"
-  ],
-  "correctIndex": 0,
-  "explanation": "在雪地或冰面上，您需要更长的制动距离。在恶劣条件下应显著增加跟车距离。",
-  "image": "/signs/q-winter-driving-distance-177.png"
-},
-{
-  "id": "q-demerit-rail-crossing-bus-driver-155",
-  "question": "在无防护铁路道口未停车（仅限公交车司机）会被记多少扣分？",
-  "choices": [
-    "3分扣分",
-    "4分扣分",
-    "5分扣分",
-    "6分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "对于公交车司机，在无防护铁路道口未停车会被记5分扣分。",
-  "image": "/signs/q-railway-stop-47.png"
-},
-{
-  "id": "q-hydroplaning-156",
-  "question": "如果你的车辆在非常湿滑的道路上开始打滑（水滑），最安全的做法是什么？",
-  "choices": [
-    "松开油门并保持方向盘直行，直到恢复抓地力",
-    "用力刹车并急转方向",
-    "挂入空挡并关闭发动机",
-    "加速以更快通过积水"
-  ],
-  "correctIndex": 0,
-  "explanation": "当轮胎在水面上与道路失去接触时会发生水滑。松开油门并保持车轮直行，直到恢复抓地力。",
-  "image": "/signs/q-hydroplaning-prevent-73.png"
-},
-{
-  "id": "q-headlights-visibility-157",
-  "question": "即使在白天，什么时候必须使用车头灯？",
-  "choices": [
-    "当能见度差到无法清楚看到前方150米处的人或车辆时",
-    "只在乡村道路的夜间",
-    "只在冬季月份",
-    "只在使用远光灯时"
-  ],
-  "correctIndex": 0,
-  "explanation": "在雨、雪或雾等能见度较差时应使用车头灯，以便他人能够看到你。",
-  "image": "/signs/q-headlights-visibility-180.jpg"
-},
-{
-  "id": "q-parking-uphill-curb-158",
-  "question": "在有路缘的街道上坡停车时，应如何转动车辆的前轮？",
-  "choices": [
-    "将前轮转向远离路缘的一侧并拉起驻车制动",
-    "将车轮保持直行",
-    "将前轮转向路缘一侧",
-    "车轮朝向哪边都无所谓"
-  ],
-  "correctIndex": 0,
-  "explanation": "上坡靠路缘停车时，应将车轮转离路缘并拉起驻车制动，以防车辆滑动。",
-  "image": "/signs/q-parking-uphill-curb-181.png"
-},
-{
-  "id": "q-demerit-fail-yield-ped-159",
-  "question": "在有标记的人行横道处，你未为明显在横道内的行人停车并被定罪。你会被扣多少扣分？",
-  "choices": [
-    "2分扣分",
-    "3分扣分",
-    "4分扣分",
-    "6分扣分"
-  ],
-  "correctIndex": 2,
-  "explanation": "在安大略省，不在人行横道或类似受保护的过街处停车将被扣4分。",
-  "image": "/signs/q-demerit-fail-yield-ped-128.png"
-},
-{
-  "id": "q-demerit-fail-remain-160",
-  "question": "发生轻微碰撞后，司机未停车提供信息就离开并被判定未留在现场。这会被扣多少扣分？",
-  "choices": [
-    "3分扣分",
-    "4分扣分",
-    "6分扣分",
-    "7分扣分"
-  ],
-  "correctIndex": 3,
-  "explanation": "在安大略省，未在碰撞现场停留将被扣7分。",
-  "image": "/signs/q-demerit-fail-remain-129.png"
-},
- {
-  "id": "q-sharp-curve-left-speed-161",
-  "question": "你看到这个左急弯警告标志，下方有建议速度牌。你应如何驾驶？",
-  "choices": [
-    "减速至接近建议速度，并平稳通过弯道",
-    "保持当前速度并在弯道中间急刹车",
-    "加速进入弯道以保持在车道内",
-    "在路肩上行驶以避开弯道"
-  ],
-  "correctIndex": 0,
-  "explanation": "急弯标志通常附有建议速度。进入弯道前减速至该速度，并平稳转向以保持控制。",
-  "image": "/signs/sharp-curve-left.jpg"
-},
-{
-  "id": "q-sharp-curve-right-passing-162",
-  "question": "在双车道道路上接近这个右急弯标志时，最安全的超车方式是什么？",
-  "choices": [
-    "不要在急弯处或其附近超车",
-    "在弯道中间快速超车",
-    "如果看不到来车也可以超车",
-    "任何速度都允许超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "急弯会限制你的视线。在接近或进入急弯时不要超车，因为你可能无法及时看到来车。",
-  "image": "/signs/sharp-curve-right.jpg"
-},
-{
-  "id": "q-bicycles-permitted-163",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "自行车可以使用这条道路或车道",
-    "骑行者必须推着自行车行走",
-    "此区域禁止自行车通行",
-    "只有机动车可以使用此车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色圆形表示允许的行为；这里表示自行车可以在该车道或道路上行驶。",
-  "image": "/signs/q-bicycles-permitted.png"
-},
-{
-  "id": "q-school-zone-164",
-  "question": "这个标志提醒驾驶员注意什么？",
-  "choices": [
-    "学校区域，减速并注意有儿童过马路",
-    "该道路仅限卡车通行",
-    "游乐场已关闭",
-    "自行车拥有优先通行权"
-  ],
-  "correctIndex": 0,
-  "explanation": "行人图案提醒驾驶员在学校或游乐区附近减速并注意儿童。",
-  "image": "/signs/q-school-zone.png"
-},
-{
-  "id": "q-parking-30-min-165",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "在标示时间内最多可停车30分钟",
-    "该区域完全禁止停车",
-    "只有商用车辆可以在此停车",
-    "任何时候停车都免费且不限时"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色P表示允许停车，下方文字说明了时间限制和执行日期。",
-  "image": "/signs/q-parking-30-min.png"
-},
-{
-  "id": "q-stop-sign-where-to-stop-166",
-  "question": "在这个有停止线的STOP标志前，你必须在哪里停车？",
-  "choices": [
-    "在停止线或人行横道之前",
-    "在路口中间",
-    "在人行横道中间",
-    "只要短暂停车，任何地方都可以"
-  ],
-  "correctIndex": 0,
-  "explanation": "在停车标志前，你必须在停止线处、在人行横道前，或在进入路口前完全停车，以先出现者为准。",
-  "image": "/signs/stop-sign.jpg"
-},
-{
-  "id": "q-traffic-signal-ahead-167",
-  "question": "在高速道路上驾驶时你看到这个标志。它警告你什么？",
-  "choices": [
-    "前方有交通信号灯；准备减速或停车",
-    "前方是铁路道口",
-    "前方是没有信号灯的四向停车",
-    "道路在前方尽头为死胡同"
-  ],
-  "correctIndex": 0,
-  "explanation": "前方信号灯警告标志提醒你前方有设置信号灯的路口，以便在信号变化时提前减速或停车。",
-  "image": "/signs/traffic-signal-ahead.jpg"
-},
-{
-  "id": "q-accessible-parking-168",
-  "question": "你在停车场看到这个标志。它是什么意思？",
-  "choices": [
-    "该车位仅供持有无障碍停车许可的车辆使用",
-    "所有人都可以免费停车",
-    "该车位仅供摩托车使用",
-    "这里只允许夜间停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "轮椅符号表示无障碍停车位。只有持有有效无障碍停车许可的车辆才可以停在这些车位。",
-  "image": "/signs/wheelchair-accessible.jpg"
-},
-{
-  "id": "q-parking-downhill-no-curb-169",
-  "question": "在没有路缘石的道路上下坡停车时，你应如何放置前轮？",
-  "choices": [
-    "将车轮转向右侧路肩并拉紧驻车制动",
-    "将车轮转向道路中央",
-    "保持车轮笔直并挂空挡",
-    "将车轮向左转且不要使用驻车制动"
-  ],
-  "correctIndex": 0,
-  "explanation": "在没有路缘石的下坡处停车时，将车轮转向路肩有助于防止车辆滑入车道。",
-  "image": "/signs/q-parking-downhill-no-curb-182.png"
-},
-{
-  "id": "q-parking-fire-hydrant-170",
-  "question": "为什么禁止在消防栓附近停车？",
-  "choices": [
-    "在紧急情况下，消防员必须能够迅速接近消防栓",
-    "消防栓只供消防车专用停车",
-    "消防栓标示私人车道",
-    "那里只允许夜间停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "停车规定包括与消防栓保持最小距离，以便紧急人员可以迅速连接水管。",
-  "image": "/signs/q-parking-fire-hydrant-183.jpg"
-},
- {
-  "id": "q-parking-crosswalk-171",
-  "question": "为什么你绝不能在斑马线内或非常靠近斑马线的地方停车？",
-  "choices": [
-    "这会阻挡行人和驾驶员在过街处的视线",
-    "这会让行人更容易过街",
-    "这只是建议，没有安全问题",
-    "如果打开危险警示灯就可以"
-  ],
-  "correctIndex": 0,
-  "explanation": "在斑马线附近停车可能会遮挡行人的视线，使驾驶员难以及时看到他们。",
-  "image": "/signs/q-parking-crosswalk-184.png"
-},
-{
-  "id": "q-railway-stall-172",
-  "question": "如果你的车辆在铁路道口抛锚且有火车接近，你首先应该怎么做？",
-  "choices": [
-    "让所有人下车，并以45°角朝火车方向远离轨道",
-    "留在车内并一直尝试重新启动直到最后一刻",
-    "独自将车辆推离轨道",
-    "站在火车前方示意它停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "如果火车即将到来且车辆无法移动，所有人必须立即下车并以角度远离，以避免被飞散的碎片击中。",
-  "image": "/signs/q-railway-stall-185.png"
-},
-{
-  "id": "q-tire-blowout-173",
-  "question": "如果在驾驶时前轮爆胎，最安全的初始反应是什么？",
-  "choices": [
-    "牢牢握住方向盘，松开油门并保持直线行驶",
-    "立即猛踩刹车并转向路肩",
-    "加速以保持车辆稳定",
-    "急转方向盘远离爆胎一侧"
-  ],
-  "correctIndex": 0,
-  "explanation": "爆胎可能导致车辆突然偏移。牢牢握住方向盘，松开油门并保持直线行驶，直到可以安全减速。",
-  "image": "/signs/q-tire-blowout-186.png"
-},
-{
-  "id": "q-skid-rear-174",
-  "question": "在结冰的道路上，你的后轮开始侧滑。你应该怎么做？",
-  "choices": [
-    "轻轻向你希望车头前进的方向转向，并避免猛踩刹车",
-    "尽可能用力刹车并一直踩住",
-    "迅速向打滑的反方向转向",
-    "将方向盘完全打向一侧并加速"
-  ],
-  "correctIndex": 0,
-  "explanation": "要纠正打滑，应朝希望车辆前进的方向转向，并避免突然刹车或加速。",
-  "image": "/signs/q-skid-rear-187.png"
-},
-{
-  "id": "q-fatigue-driving-175",
-  "question": "你在驾驶时开始感到非常困倦。最安全的决定是什么？",
-  "choices": [
-    "找一个安全的地方停车休息后再继续",
-    "打开车窗并以相同速度继续驾驶",
-    "调高收音机音量并集中精力保持清醒",
-    "喝咖啡并继续驾驶几个小时"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶疲劳是危险的。唯一安全的选择是在继续行程前停车休息。",
-  "image": "/signs/q-fatigue-driving-188.png"
-},
-{
-  "id": "q-tailgater-176",
-  "question": "另一位司机跟车过近（紧跟你车）。最安全的应对方式是什么？",
-  "choices": [
-    "逐渐增加你的跟车距离，并在安全时变道或让对方先通过",
-    "突然刹车提醒对方",
-    "加速甩开对方",
-    "无视对方，完全按原方式驾驶"
-  ],
-  "correctIndex": 0,
-  "explanation": "增加你的跟车距离，并在安全时让紧跟的车辆先通过。避免做出具有攻击性的反应。",
-  "image": "/signs/q-tailgater-65.png"
-},
-{
-  "id": "q-mirrors-frequency-177",
-  "question": "在交通较少的直线路段行驶时，你通常应该多久查看一次后视镜？",
-  "choices": [
-    "每隔几秒钟查看一次，并在减速、转弯或变道前查看",
-    "只有在听到喇叭时",
-    "行程开始时一次，结束时一次",
-    "只有在准备停车时"
-  ],
-  "correctIndex": 0,
-  "explanation": "频繁查看后视镜有助于你了解周围交通状况，并能安全应对变化。",
-  "image": "/signs/q-mirrors-frequency-190.png"
-},
-{
-  "id": "q-impaired-zero-g1-178",
-  "question": "对于G1或G2驾驶员，驾驶时血液酒精含量的法律要求是什么？",
-  "choices": [
-    "血液中必须完全没有酒精（0.00 BAC）",
-    "如果感觉良好，可以少量饮酒",
-    "只要低于正式驾照驾驶员的限值就可以饮酒",
-    "G1/G2驾驶员没有酒精规定"
-  ],
-  "correctIndex": 0,
-  "explanation": "安大略省对新手驾驶员（G1和G2）实行零酒精容忍政策。驾驶时血液酒精含量必须为0.00。",
-  "image": "/signs/q-impaired-zero-g1-191.png"
-},
-{
-  "id": "q-g1-supervisor-179",
-  "question": "以下哪项是在公共道路上驾驶时对G1驾驶员的要求？",
-  "choices": [
-    "必须有一名至少有四年驾驶经验的正式持牌司机坐在前排乘客座位",
-    "任何持有驾照的朋友都可以坐在后座",
-    "车内不需要其他人",
-    "只需要另一名G1驾驶员作为监督者"
-  ],
-  "correctIndex": 0,
-  "explanation": "G1驾驶员必须由一名具有所需驾驶经验的正式持牌司机坐在前排陪同。",
-  "image": "/signs/q-g1-supervisor-192.png"
-},
-{
-  "id": "q-g1-roads-restrictions-180",
-  "question": "关于G1驾驶员和高速公路的说法，哪一项是正确的？",
-  "choices": [
-    "除非有合格的驾驶教练陪同，否则G1驾驶员不得在某些高速公路上行驶",
-    "G1驾驶员可在任何时间独自在所有高速公路上行驶",
-    "G1驾驶员只允许在收费公路上行驶",
-    "G1驾驶员只能在未铺设的道路上行驶"
-  ],
-  "correctIndex": 0,
-  "explanation": "除非有合格的驾驶教练在场，否则某些高速公路对G1驾驶员是有限制的。",
-  "image": "/signs/q-g1-roads-restrictions-193.png"
-},
- {
-  "id": "q-g2-passengers-night-181",
-  "question": "为什么安大略省对部分20岁以下的G2驾驶员实施夜间乘客限制？",
-  "choices": [
-    "为了减少新手驾驶员夜间搭载多名青少年乘客时发生严重碰撞的风险",
-    "为了限制年轻驾驶员的燃油使用",
-    "为了让公共交通更受欢迎",
-    "为了防止G2驾驶员在白天驾驶"
-  ],
-  "correctIndex": 0,
-  "explanation": "手册说明，对年轻G2驾驶员的夜间限制旨在在经验仍然有限时降低事故风险。",
-  "image": "/signs/q-g2-passengers-night-194.png"
-},
-{
-  "id": "q-collision-duties-182",
-  "question": "你与另一辆车发生碰撞且没有严重受伤。你必须做什么？",
-  "choices": [
-    "停车，与另一位司机交换信息并遵守报告要求",
-    "如果车还能开就迅速离开",
-    "把车开回家，只有想报告时才报告",
-    "留在车内并阻挡交通直到拖车到达"
-  ],
-  "correctIndex": 0,
-  "explanation": "发生碰撞的驾驶员必须停车，提供相关信息，并按照法律要求进行报告。",
-  "image": "/signs/q-collision-duties-195.png"
-},
-{
-  "id": "q-turn-signals-183",
-  "question": "什么时候应该使用转向信号灯？",
-  "choices": [
-    "每当你打算转弯、变道或从停车位置驶离时",
-    "只有在交通繁忙时",
-    "只有在夜间驾驶时",
-    "只有在接近停车标志时"
-  ],
-  "correctIndex": 0,
-  "explanation": "转向信号可以向他人传达你的意图。在转弯、变道以及驶入或驶出车流时都应使用。",
-  "image": "/signs/q-turn-signals-196.png"
-},
-{
-  "id": "q-back-up-safely-184",
-  "question": "倒车最安全的方法是什么？",
-  "choices": [
-    "检查周围情况，从后窗向外看并慢慢倒车",
-    "只依靠后视镜并快速倒车",
-    "只使用倒车摄像头而不看其他地方",
-    "向前看并只使用侧后视镜倒车"
-  ],
-  "correctIndex": 0,
-  "explanation": "倒车时应检查周围环境，主要从后窗观察，并缓慢移动以避免危险。",
-  "image": "/signs/q-back-up-safely-197.png"
-},
-{
-  "id": "q-pedestrians-turning-185",
-  "question": "你在路口右转且信号灯为绿色。一名行人开始穿过你要转入的街道。你必须怎么做？",
-  "choices": [
-    "让行行人，并等他们安全通过后再转弯",
-    "按喇叭并在行人前方转弯",
-    "在行人后方迅速转弯",
-    "驶入人行横道以表示你打算转弯"
-  ],
-  "correctIndex": 0,
-  "explanation": "转弯的驾驶员必须让行人行横道内的行人，并等他们完全通过车道后再完成转弯。",
-  "image": "/signs/q-pedestrians-turning-198.png"
-},
-{
-  "id": "q-crosswalk-uncontrolled-186",
-  "question": "在没有交通信号灯但有斑马线和标志的人行横道处，一名行人正在等待过街。你的责任是什么？",
-  "choices": [
-    "做好随时停车的准备，让行人安全通过",
-    "因为没有交通灯而保持相同速度继续行驶",
-    "只有当行人直接走到你面前时才停车",
-    "加速通过，赶在行人开始过街之前"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员必须注意有标线的人行横道上的行人，并准备停车让他们安全通过。",
-  "image": "/signs/q-crosswalk-uncontrolled-199.png"
-},
-{
-  "id": "q-safe-speed-stopping-distance-187",
-  "question": "无论驾驶条件如何，你都应该始终以能够做到什么的速度行驶？",
-  "choices": [
-    "在90米（300英尺）内停车",
-    "在60米（200英尺）内停车",
-    "在安全距离内停车",
-    "在150米（500英尺）内停车"
-  ],
-  "correctIndex": 2,
-  "explanation": "驾驶员必须始终根据前方可见距离调整速度，以便能够在可见范围内安全停车。",
-  "image": "/signs/q-safe-speed-stopping.png"
-},
-{
-  "id": "q-safe-following-distance-188",
-  "question": "在良好天气条件下跟随另一辆车行驶时，最安全的最小跟车距离是多少？",
-  "choices": [
-    "与前车保持至少两秒的距离",
-    "每10公里/小时保持半个车长",
-    "与前车保持一秒的距离",
-    "尽可能接近，只要还能看到后轮"
-  ],
-  "correctIndex": 0,
-  "explanation": "在良好条件下使用两秒规则以保持安全的跟车距离。",
-  "image": "/signs/car-following.jpg"
-},
-{
-  "id": "q-right-of-way-four-way-stop-189",
-  "question": "在四向停车路口，两辆车同时到达。谁应先行？",
-  "choices": [
-    "右侧的车辆拥有优先通行权",
-    "左侧的车辆拥有优先通行权",
-    "直行车辆总是先行",
-    "最大的车辆先行"
-  ],
-  "correctIndex": 0,
-  "explanation": "当两辆车同时到达时，左侧的驾驶员必须让右侧的驾驶员先行。",
-  "image": "/signs/right-way.png"
-},
-{
-  "id": "q-blind-spots-check-190",
-  "question": "在多车道道路上变道之前，驾驶员必须如何正确检查盲点？",
-  "choices": [
-    "除了查看后视镜外，还要向相应方向回头查看",
-    "只依靠中央后视镜",
-    "加速以避开旁边的车辆",
-    "打转向灯并慢慢偏向车道直到其他司机按喇叭"
-  ],
-  "correctIndex": 0,
-  "explanation": "盲点在后视镜中看不到。回头查看可以确保旁边没有车辆、自行车或摩托车。",
-  "image": "/signs/q-203-blind-spot.png"
-},
-{
-  "id": "q-high-beam-dimming-191",
-  "question": "夜间什么时候必须将远光灯调为近光灯？",
-  "choices": [
-    "当你距离迎面而来的车辆在150米以内时",
-    "只有当对方司机闪灯时",
-    "只有在照明良好的街道上",
-    "只有在跟随警车时"
-  ],
-  "correctIndex": 0,
-  "explanation": "当距离迎面而来的车辆在150米以内时，必须调暗远光灯，以免影响其他驾驶员的视线。",
-  "image": "/signs/q-204-high-beams.jpg"
-},
-{
-  "id": "q-emergency-vehicle-yield-192",
-  "question": "如果一辆开着闪光灯并鸣笛的紧急车辆从后方接近，你必须怎么做？",
-  "choices": [
-    "打信号灯，尽量靠右并停车",
-    "加速以免挡住他们",
-    "继续行驶但稍微向左移动",
-    "即使在高速公路上也立即在车道内停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员必须尽量靠右停车，让紧急车辆能够安全快速通过。",
-  "image": "/signs/q-205-emergency-vehicle.jpg"
-},
-{
-  "id": "q-improper-left-193",
-  "category": "demerit-points",
-  "question": "不当左转会被扣多少违章积分？",
-  "choices": [
-    "2分",
-    "3分",
-    "4分",
-    "5分"
-  ],
-  "correctIndex": 0,
-  "explanation": "不当左转在安大略省会被扣2分。",
-  "image": "/signs/q-improper-left-193.png"
-},
-{
-  "id": "q-school-bus-median-194",
-  "question": "你在一条有中央隔离带的道路上行驶。对面方向的一辆校车停下并闪烁红灯、伸出停牌臂。你必须怎么做？",
-  "choices": [
-    "停车并保持停车状态直到校车离开",
-    "减速并小心前行；在有实体中央隔离带的对向车道上不需要停车",
-    "按喇叭提醒校车司机并以正常速度继续",
-    "变到最左侧车道并以限速行驶"
-  ],
-  "correctIndex": 1,
-  "explanation": "在有实体中央隔离带的分隔道路上，只有与校车同方向行驶的车辆必须停车。对向车辆必须减速，但法律上不要求停车。",
-  "image": "/signs/q-207-school-bus-median.jpg"
-},
-{
-  "id": "q-fire-hydrant-distance-195",
-  "question": "在安大略省，你可以在离消防栓多近的地方停车？",
-  "choices": [
-    "在1米以内，只要消防栓仍然可见",
-    "至少离消防栓2米",
-    "至少离消防栓3米",
-    "只要留在车内，任何距离都可以"
-  ],
-  "correctIndex": 2,
-  "explanation": "你不得在距离消防栓3米以内停车。这为消防员在紧急情况下快速连接水管提供空间。",
-  "image": "/signs/q-208-fire-hydrant-park.jpg"
-},
-{
-  "id": "q-intersection-parking-distance-196",
-  "question": "在没有交通信号灯的道路上，你可以在离路口或人行横道多近的地方停车？",
-  "choices": [
-    "如果打转向灯，可以直接停在拐角处",
-    "至少离路口三米",
-    "至少离路口九米",
-    "至少离路口15米"
-  ],
-  "correctIndex": 2,
-  "explanation": "在没有交通信号灯的道路上，你不得在距离路口九米以内停车，以保持良好的视线。",
-  "image": "/signs/q-209-car-parked-near-intersection.jpg"
-},
-{
-  "id": "q-suspension-197",
-  "category": "demerits-info",
-  "question": "新手驾驶员的驾照在达到多少扣分时会被吊销60天？",
-  "choices": [
-    "9分",
-    "12分",
-    "15分",
-    "20分"
-  ],
-  "correctIndex": 2,
-  "explanation": "新手驾驶员的驾照在达到15个扣分时会被吊销。",
-  "image": "/signs/q-suspension-197.png"
-},
-{
-  "id": "q-hov-lane-198",
-  "question": "在400系列高速公路上，你看到菱形符号和HOV（拼车）车道标志。什么时候可以使用这条车道？",
-  "choices": [
-    "只有当车内至少有两人（或是符合条件的车辆，如公交车、摩托车或绿色牌照车辆）时",
-    "当普通车道交通缓慢而你想超车时",
-    "只有当你以限速或以上速度行驶时",
-    "晚上7点之后及周末任何时间都可以，不论乘客数量"
-  ],
-  "correctIndex": 0,
-  "explanation": "HOV车道仅供至少载有两人的车辆或特别允许的车辆使用。它们不是单人驾驶车辆的超车道。",
-  "image": "/signs/q-211-hov-lane.jpg"
-},
-{
-  "id": "q-demerit-seatbelts-199",
-  "category": "demerit-points",
-  "question": "一名司机因未系安全带并允许儿童未系安全带乘车而被定罪。与安全带相关的违规会给司机的记录增加多少扣分？",
-  "choices": [
-    "2分",
-    "3分",
-    "4分",
-    "6分"
-  ],
-  "correctIndex": 0,
-  "explanation": "与安全带相关的违规会给司机增加2个扣分。",
-  "image": "/signs/q-demerit-seatbelts-130.png"
-},
-{
-  "id": "q-demerit-fail-yield-sign-200",
-  "category": "demerit-points",
-  "question": "你在这个让行标志处强行并入交通，并被判未让出通行权。会增加多少扣分？",
-  "choices": [
-    "2分",
-    "3分",
-    "4分",
-    "6分"
-  ],
-  "correctIndex": 1,
-  "explanation": "未让出通行权在安大略省属于扣3分的违规。",
-  "image": "/signs/yield-sign.jpg"
-},
+    "id": "q-hand-signal-slow-stop-129",
+    "question": "这个驾驶员的手势表示什么？",
+    "choices": [
+      "驾驶员正在减速或停车",
+      "驾驶员打算左转",
+      "驾驶员打算右转",
+      "驾驶员正在让对向车辆先行"
+    ],
+    "correctIndex": 0,
+    "explanation": "手臂向下伸出表示驾驶员计划减速或停车。",
+    "image": "/signs/q-hand-signal-slow-stop.png"
+  },
   {
-  "id": "q-red-light-camera-201",
-  "question": "这个标志提醒驾驶员什么？",
-  "choices": [
-    "交通信号灯停止服务",
-    "该路口有闯红灯摄像头监控",
-    "只有紧急车辆可以在红灯时通行",
-    "下一个信号灯是由行人触发的"
-  ],
-  "correctIndex": 1,
-  "explanation": "交通信号灯下方的摄像头符号表示有电子执法设备记录闯红灯的车辆。",
-  "image": "/signs/q-red-light-camera.png"
-},
-{
-  "id": "q-yield-sign-202",
-  "question": "当你接近这个让行标志且主路上有交通时，你必须怎么做？",
-  "choices": [
-    "减速并在必要时停车，让主路车辆先行",
-    "以正常速度通过",
-    "即使道路畅通也要停车",
-    "强行进入交通，因为你有优先权"
-  ],
-  "correctIndex": 0,
-  "explanation": "让行标志意味着你必须让主路交通先行。减速，准备停车，并在有安全间隙时再前进。",
-  "image": "/signs/yield-sign.jpg"
-},
-{
-  "id": "q-do-not-enter-203",
-  "question": "你在车道入口看到这个“禁止进入”标志。它告诉你什么？",
-  "choices": [
-    "你不得进入；该车道是供迎面而来的车辆使用",
-    "只有左转时才可以进入",
-    "该车道只供公交车使用",
-    "如果打开危险警示灯可以进入"
-  ],
-  "correctIndex": 0,
-  "explanation": "“禁止进入”标志表示该车道或道路是供对向交通使用。你不得从这个方向驶入。",
-  "image": "/signs/do-not-enter.jpg"
-},
-{
-  "id": "q-bump-warning-204",
-  "category": "signs-warning",
-  "question": "驾驶员前方应预期什么？",
-  "choices": [
-    "道路上有减速凸起",
-    "急弯",
-    "停车标志",
-    "人行横道"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员应降低车速，以便在不平路面上保持车辆控制。",
-  "image": "/signs/bump-sign.jpg"
-},
-{
-  "id": "q-ped-crossing-waiting-205",
-  "question": "你看到这个行人过街标志，并且有人在过街处边缘等待。你应该怎么做？",
-  "choices": [
-    "减速并准备停车，让行人安全通过",
-    "加速在行人开始过街前通过",
-    "按喇叭让行人等待",
-    "因为没有交通灯而忽视行人"
-  ],
-  "correctIndex": 0,
-  "explanation": "在行人过街处，你必须准备停车，并在继续行驶前让等待的行人安全通过。",
-  "image": "/signs/pedestrian-crossing.jpg"
-},
-{
-  "id": "q-two-way-traffic-ahead-206",
-  "question": "此标志提醒驾驶员注意什么？",
-  "choices": [
-    "前方为双向行驶",
-    "单行道继续",
-    "超车道开始",
-    "道路缩窄为单车道"
-  ],
-  "correctIndex": 0,
-  "explanation": "相反方向的箭头表示前方道路有双向交通。",
-  "image": "/signs/q-two-way-traffic-ahead.png"
-},
-{
-  "id": "q-truck-entrance-207",
-  "question": "此标志表示什么？",
-  "choices": [
-    "前方可能有卡车驶入或驶出道路",
-    "只有卡车可以使用此车道",
-    "允许卡车停车",
-    "禁止卡车通行"
-  ],
-  "correctIndex": 0,
-  "explanation": "卡车符号提醒驾驶员注意可能有缓慢或转弯的重型车辆进入车道。",
-  "image": "/signs/q-truck-entrance.png"
-},
-{
-  "id": "q-208",
-  "question": "这种橙色反光三角形标志用于：",
-  "choices": [
-    "行驶缓慢的车辆，例如农用机械",
-    "仅限除雪车",
-    "仅限校车",
-    "紧急车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "慢速车辆标志表示该车辆通常以低于40公里/小时的速度行驶。",
-  "image": "/signs/q-217-triangular-sign.png"
-},
-{
-  "id": "q-bike-lane-209",
-  "question": "此标志表示什么？",
-  "choices": [
-    "自行车专用车道",
-    "禁止自行车通行",
-    "仅限摩托车",
-    "仅限行人"
-  ],
-  "correctIndex": 0,
-  "explanation": "此标志表示为自行车交通指定的车道。",
-  "image": "/signs/bike-lane.jpg"
-},
-{
-  "id": "q-lane-control-signals-210",
-  "question": "在桥上你看到每条车道上方都有车道使用控制信号。你上方的车道突然显示红色“X”。你应该怎么做？",
-  "choices": [
-    "在安全的情况下尽快变换到带有绿色箭头的车道",
-    "如果你所在车道仍在行驶就忽略它",
-    "在车道内停车并等待信号变为绿色",
-    "按喇叭并继续在当前车道行驶"
-  ],
-  "correctIndex": 0,
-  "explanation": "车道上方的红色“X”表示该车道已关闭，禁止通行。应安全地变换到标有绿色箭头的车道。",
-  "image": "/signs/q-213-x-sign.png"
-},
- {
-  "id": "q-bumps-ahead-211",
-  "question": "驾驶员应如何应对此标志？",
-  "choices": [
-    "为多个颠簸减速",
-    "立即变道",
-    "完全停车",
-    "鸣喇叭"
-  ],
-  "correctIndex": 0,
-  "explanation": "前方有多个颠簸，驾驶员需要减速以保持控制。",
-  "image": "/signs/bumps-ahead.png"
-},
-{
-  "id": "q-construction-ahead-212",
-  "question": "此标志提醒驾驶员注意什么？",
-  "choices": [
-    "前方施工",
-    "道路封闭",
-    "铁路道口",
-    "学校区域"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员应预期前方有工人、设备、限速降低或车道变化。",
-  "image": "/signs/construction-ahead.jpg"
-},
-{
-  "id": "q-deer-crossing-213",
-  "question": "此标志显示哪种危险？",
-  "choices": [
-    "野生动物横穿",
-    "农用车辆",
-    "动物园入口",
-    "公园区域"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员应注意可能突然进入道路的动物。",
-  "image": "/signs/deer-crossing.jpg"
-},
-{
-  "id": "q-divided-highway-begins-214",
-  "question": "此标志表示什么？",
-  "choices": [
-    "分隔公路开始",
-    "双向交通结束",
-    "允许超车",
-    "车道结束"
-  ],
-  "correctIndex": 0,
-  "explanation": "前方交通将由实体隔离带分开。",
-  "image": "/signs/divided-highway-begins.jpg"
-},
-{
-  "id": "q-divided-highway-ends-215",
-  "question": "驾驶员应预期什么变化？",
-  "choices": [
-    "对向交通将不再分隔",
-    "道路变窄",
-    "限速降低",
-    "车道结束"
-  ],
-  "correctIndex": 0,
-  "explanation": "分隔公路即将结束，对向交通将共享同一道路。",
-  "image": "/signs/divided-highway-ends.jpg"
-},
-{
-  "id": "q-do-not-enter-216",
-  "question": "此标志是什么意思？",
-  "choices": [
-    "车辆禁止进入",
-    "完全停车",
-    "让行",
-    "禁止停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "此标志表示驾驶员被禁止进入该道路或车道。",
-  "image": "/signs/do-not-enter.jpg"
-},
-{
-  "id": "q-hand-signal-right-217",
-  "question": "这个手势表示什么？",
-  "choices": [
-    "驾驶员打算右转",
-    "驾驶员正在减速",
-    "驾驶员正在停车",
-    "驾驶员正在左转"
-  ],
-  "correctIndex": 0,
-  "explanation": "左臂向上弯曲表示驾驶员打算右转。",
-  "image": "/signs/hand-signal-right-turn.png"
-},
-{
-  "id": "q-accessible-parking-218",
-  "question": "谁可以在这里停车？",
-  "choices": [
-    "持有有效无障碍停车许可证的车辆",
-    "任何车辆在非营业时间",
-    "送货车辆",
-    "摩托车"
-  ],
-  "correctIndex": 0,
-  "explanation": "无障碍停车位仅供展示有效无障碍停车许可证的车辆使用。",
-  "image": "/signs/handicapped-parking-sign.png"
-},
-{
-  "id": "q-hidden-intersection-219",
-  "question": "此标志提醒驾驶员注意什么？",
-  "choices": [
-    "前方有隐蔽的交叉路口",
-    "前方有交通信号灯",
-    "行人过街",
-    "道路封闭"
-  ],
-  "correctIndex": 0,
-  "explanation": "在驾驶员接近路口之前，横向来车可能看不见。",
-  "image": "/signs/hidden-intersection.png"
-},
-{
-  "id": "q-max-speed-40-220",
-  "question": "此标志表示什么？",
-  "choices": [
-    "最高速度为40公里/小时",
-    "最低速度为40公里/小时",
-    "建议速度",
-    "限速区域结束"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员不得超过所标示的最高限速。",
-  "image": "/signs/max-speed-40.png"
-},
+    "id": "q-permitted-action-130",
+    "question": "绿色圆形标志通常表示什么？",
+    "choices": [
+      "某项行为被允许",
+      "前方有危险警告",
+      "前方有停车标志",
+      "车道关闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "在法规标志中，绿色圆圈表示允许的动作或行驶方向。",
+    "image": "/signs/q-permitted-action.png"
+  },
   {
-  "id": "q-221",
-  "question": "如果在驾驶时前轮爆胎，首先应该怎么做？",
-  "choices": [
-    "紧握方向盘并保持车辆直行",
-    "立即用力刹车",
-    "迅速驶向路肩",
-    "猛踩油门加速"
-  ],
-  "correctIndex": 0,
-  "explanation": "爆胎可能会使车辆向一侧偏移。紧握方向盘，保持车辆直行，并逐渐减速。",
-  "image": "/signs/q-227-front-tire.jpg"
-},
-{
-  "id": "q-222",
-  "question": "你看到一个标示公交车上下客区的标志。这意味着什么？",
-  "choices": [
-    "只有公交车可以在此停靠",
-    "任何人都可以短暂停车",
-    "你可以在5分钟内上下乘客",
-    "如果打开危险警示灯可以停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "公交车上下客区仅供公交车使用，其他车辆不得在此停车。",
-  "image": "/signs/q-228-bus-loading.png"
-},
-{
-  "id": "q-223",
-  "question": "在指定的无障碍停车位停车但没有许可证，可能会导致：",
-  "choices": [
-    "高额罚款并被拖车",
-    "仅收到小警告",
-    "如果留在车内则没有处罚",
-    "只有扣分"
-  ],
-  "correctIndex": 0,
-  "explanation": "在没有有效许可证的情况下停在无障碍停车位，可能会被处以高额罚款并被拖车。",
-  "image": "/signs/q-229-handicap-spot.jpg"
-},
-{
-  "id": "q-224",
-  "question": "中间车道两侧都标有左转箭头时，该车道用于：",
-  "choices": [
-    "任一方向的左转",
-    "超越慢速车辆",
-    "临时停车",
-    "仅用于掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "这个共用的中间车道仅用于准备和进行左转，不用于超车或直行。",
-  "image": "/signs/q-224-centre-lane-arrows.png"
-},
-{
-  "id": "q-225",
-  "question": "在什么情况下即使看不到火车，也必须在铁路道口停车？",
-  "choices": [
-    "当闪烁的灯光或道闸启动时",
-    "仅在夜间",
-    "只有听到火车汽笛时",
-    "除非有火车，否则不需要停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "在铁路道口，闪烁的灯光、铃声或放下的道闸都要求完全停车，即使你没有看到火车。",
-  "image": "/signs/q-231-railway-crossing.jpg"
-},
-{
-  "id": "q-226",
-  "question": "超越骑自行车的人时，驾驶员至少应保持：",
-  "choices": [
-    "1米的距离",
-    "20厘米",
-    "没有规定距离",
-    "尽可能靠近以避免偏离"
-  ],
-  "correctIndex": 0,
-  "explanation": "安大略省法律要求驾驶员在超越骑自行车者时至少保持一米的距离。",
-  "image": "/signs/q-232-car-passing-cyclist.jpg"
-},
-{
-  "id": "q-227",
-  "question": "如果在高速公路上错过出口，你必须：",
-  "choices": [
-    "继续行驶到下一个出口",
-    "在路肩小心倒车",
-    "停车并等待空隙",
-    "在中央隔离带掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "绝不要在高速公路上停车或倒车。继续行驶到下一个出口并安全返回。",
-  "image": "/signs/q-expressway-exit-169.png"
-},
-{
-  "id": "q-speeding-50-over-penalty-228",
-  "category": "penalties-and-suspensions",
-  "question": "驾驶员被判定以高于限速50公里/小时或以上的速度行驶。法院可能施加哪项处罚？",
-  "choices": [
-    "吊销驾照6个月",
-    "吊销驾照30天",
-    "扣押机动车6个月",
-    "监禁6个月"
-  ],
-  "correctIndex": 1,
-  "explanation": "超速50公里/小时或以上可能会被法院判处30天驾照吊销，以及罚款和扣分。",
-  "image": "/signs/q-speeding-50-over-penalty.png"
-},
-{
-  "id": "q-229",
-  "category": "demerit-points",
-  "question": "对于G1驾驶员，酒驾处罚包括：",
-  "choices": [
-    "立即路边吊销驾照并逐步加重处罚",
-    "除非超过刑事限度，否则不吊销",
-    "只需小额罚款",
-    "仅扣分"
-  ],
-  "correctIndex": 0,
-  "explanation": "G1驾驶员必须保持零酒精含量，如酒驾将面临立即吊销驾照和严格处罚。",
-  "image": "/signs/q-impaired-zero-g1-191.png"
-},
-{
-  "id": "q-230",
-  "question": "如果交通信号灯因停电完全熄灭，应将路口视为：",
-  "choices": [
-    "四向停车",
-    "正常绿灯",
-    "仅行人通行",
-    "所有方向让行"
-  ],
-  "correctIndex": 0,
-  "explanation": "当交通信号灯失效时，驾驶员必须将路口视为四向停车。",
-  "image": "/signs/q-230-traffice-light-off.png"
-},
+    "id": "q-snowmobile-crossing-sign-131",
+    "question": "此标志提醒驾驶员什么？",
+    "choices": [
+      "前方有指定的雪地摩托停车区",
+      "道路在冬季期间关闭",
+      "前方可能有雪地摩托穿越道路",
+      "此处开始为仅限雪地摩托的路线"
+    ],
+    "correctIndex": 2,
+    "explanation": "此黄色菱形警告标志表示该地点可能有雪地摩托穿越道路。驾驶员应减速并注意雪地摩托交通。",
+    "image": "/signs/snowmobile-parking.png"
+  },
   {
-  "id": "q-231",
-  "question": "在理想条件下，建议的最小跟车距离是：",
-  "choices": [
-    "至少2秒",
-    "半秒",
-    "1秒",
-    "始终4秒"
-  ],
-  "correctIndex": 0,
-  "explanation": "2秒的间距可提供安全的停车时间。在恶劣条件下应增加跟车距离。",
-  "image": "/signs/q-231-following-distance.png"
-},
-{
-  "id": "q-232",
-  "question": "为什么桥面比其他路面更早结冰？",
-  "choices": [
-    "桥面上下都暴露在冷空气中",
-    "使用更软的路面材料",
-    "承载更多交通",
-    "接受更多阳光"
-  ],
-  "correctIndex": 0,
-  "explanation": "冷空气在桥面上下流动，使其比其他路面更快结冰。",
-  "image": "/signs/q-23-bridge-freezes.png"
-},
-{
-  "id": "q-233",
-  "question": "在安大略省，什么时候可以在红灯时左转？",
-  "choices": [
-    "仅从单行道转入另一条单行道",
-    "只要没有来车",
-    "从不允许",
-    "仅在转入私人车道时"
-  ],
-  "correctIndex": 0,
-  "explanation": "只有在从一条单行道转入另一条单行道，并在完全停车后，才允许红灯左转。",
-  "image": "/signs/q-233-right-turn-on-red.png"
-},
-{
-  "id": "q-234",
-  "question": "在没有标志的情况下，安大略省城市、城镇和村庄的市政道路通常的最高限速是多少？",
-  "choices": [
-    "50公里/小时",
-    "40公里/小时",
-    "60公里/小时",
-    "70公里/小时"
-  ],
-  "correctIndex": 0,
-  "explanation": "除非另有标示，许多建成区市政道路的默认限速为50公里/小时。",
-  "image": "/signs/q-234-50-in-city.png"
-},
-{
-  "id": "q-235",
-  "question": "你面前是一个稳定的黄灯，并且距离足够远可以安全停车。你应该怎么做？",
-  "choices": [
-    "在路口前停车",
-    "加速在变红前通过路口",
-    "保持相同速度继续行驶",
-    "进入路口并等待绿灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "稳定的黄灯表示信号即将变为红灯。如果可以安全停车，必须在进入路口前停车。",
-  "image": "/signs/q-235-steady-yellow.png"
-},
-{
-  "id": "q-speed-30to49-236",
-  "category": "demerit-points",
-  "question": "超速30–49公里/小时会被扣多少记分点？",
-  "choices": [
-    "2个记分点",
-    "3个记分点",
-    "4个记分点",
-    "5个记分点"
-  ],
-  "correctIndex": 2,
-  "explanation": "在安大略省，超速30–49公里/小时属于扣4分的违法行为。",
-  "image": "/signs/q-speed-30to49-236.png"
-},
-{
-  "id": "q-237",
-  "question": "带有红色“P”并被红线划掉的标志表示：",
-  "choices": [
-    "该区域禁止停车",
-    "只允许短时间停车",
-    "仅限持证车辆停车",
-    "任何时候都禁止停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "“禁止停车”标志表示您不能停车并离开无人看管的车辆。",
-  "image": "/signs/no-parking.jpg"
-},
-{
-  "id": "q-fail-signal-238",
-  "category": "demerit-points",
-  "question": "未打转向信号会被扣多少记分点？",
-  "choices": [
-    "2个记分点",
-    "3个记分点",
-    "4个记分点",
-    "5个记分点"
-  ],
-  "correctIndex": 0,
-  "explanation": "在安大略省，未打转向信号会被扣2个记分点。",
-  "image": "/signs/q-fail-signal-238.png"
-},
-{
-  "id": "q-demerit-improper-passing-239",
-  "category": "demerit-points",
-  "question": "驾驶员因在不安全情况下不当超车被定罪。不当超车会被扣多少记分点？",
-  "choices": [
-    "2个记分点",
-    "3个记分点",
-    "4个记分点",
-    "6个记分点"
-  ],
-  "correctIndex": 1,
-  "explanation": "在安大略省，不当超车属于扣3分的违法行为。",
-  "image": "/signs/q-demerit-improper-passing-132.png"
-},
-{
-  "id": "q-demerit-obey-officer-240",
-  "category": "demerit-points",
-  "question": "警察向你发出指示，但你无视信号并被判定为未服从警察指挥。这项违法行为会被扣多少记分点？",
-  "choices": [
-    "2个记分点",
-    "3个记分点",
-    "4个记分点",
-    "7个记分点"
-  ],
-  "correctIndex": 1,
-  "explanation": "在安大略省，不服从警察指挥会被扣3个记分点。",
-  "image": "/signs/q-demerit-obey-officer-133.png"
-},
- {
-  "id": "q-snowmobiles-permitted-241",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "此小道或道路允许雪地摩托通行",
-    "任何时候都禁止雪地摩托",
-    "只有持牌车辆可以通行",
-    "雪地摩托必须用拖车运输"
-  ],
-  "correctIndex": 0,
-  "explanation": "绿色圆圈表示允许使用；雪地摩托符号表示允许雪地摩托通行。",
-  "image": "/signs/q-snowmobiles-permitted.png"
-},
-{
-  "id": "q-242",
-  "question": "黄色虚线中心线表示：",
-  "choices": [
-    "在安全情况下可以超车",
-    "禁止超车",
-    "前方车道结束",
-    "车辆向左并线"
-  ],
-  "correctIndex": 0,
-  "explanation": "黄色虚线表示可以谨慎超车。",
-  "image": "/signs/q-224-broken-line.jpg"
-},
-{
-  "id": "q-243",
-  "question": "一个显示路面高于旁边碎石的标志警告：",
-  "choices": [
-    "低或松软的路肩",
-    "分隔式公路",
-    "狭窄桥梁",
-    "隐藏的交叉路口"
-  ],
-  "correctIndex": 0,
-  "explanation": "如果车辆偏离路面，低路肩可能导致失控。",
-  "image": "/signs/q-243pavement-higher-gravel.png"
-},
-{
-  "id": "q-244",
-  "question": "橙色菱形标志通常表示：",
-  "choices": [
-    "前方有道路施工或工程",
-    "学校区域",
-    "法定限速",
-    "医院区域"
-  ],
-  "correctIndex": 0,
-  "explanation": "橙色标志警告前方有临时施工或维护区域。",
-  "image": "/signs/q-244-orange-diamond.png"
-},
-{
-  "id": "q-no-right-turn-on-red-245",
-  "question": "这个标志表示什么？",
-  "choices": [
-    "红灯时禁止右转",
-    "只有红灯时允许右转",
-    "右侧车道结束",
-    "允许掉头"
-  ],
-  "correctIndex": 0,
-  "explanation": "带斜杠的红色圆圈表示禁止的动作——在这里是红灯时禁止右转。",
-  "image": "/signs/q-no-right-turn-on-red.png"
-},
-{
-  "id": "q-246",
-  "question": "带有黑色数字（如“80”）和“MAXIMUM”字样的白色长方形标志表示：",
-  "choices": [
-    "在理想条件下的最高法定速度为 80 公里/小时",
-    "你必须正好以 80 公里/小时行驶",
-    "最低速度为 80 公里/小时",
-    "你可以超过 80 公里/小时进行超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "限速标志表示在理想条件下允许的最高法定速度。",
-  "image": "/signs/q-246-max-80.png"
-},
-{
-  "id": "q-247",
-  "question": "表示学校区域限速结束的标志意味着：",
-  "choices": [
-    "在安全情况下可以恢复正常公布的车速",
-    "必须始终保持学校区域限速行驶",
-    "此处之后没有行人",
-    "校车不再停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "区域结束标志表示特殊的较低限速不再适用。",
-  "image": "/signs/q-247-end-of-school-zone.png"
-},
-{
-  "id": "q-248",
-  "question": "显示右侧车道结束并有箭头弯向左侧车道的标志表示：",
-  "choices": [
-    "右侧车道的车辆必须向左并线",
-    "左侧车道的车辆必须停车",
-    "前方为双向交通",
-    "可以在路肩上超车"
-  ],
-  "correctIndex": 0,
-  "explanation": "车道合并标志提醒驾驶员安全变更车道。",
-  "image": "/signs/q-248-right-lane-ends.png"
-},
-{
-  "id": "q-narrow-bridge-249",
-  "question": "此标志警告哪种情况？",
-  "choices": [
-    "前方有窄桥",
-    "低矮桥梁",
-    "桥梁关闭",
-    "桥梁施工中"
-  ],
-  "correctIndex": 0,
-  "explanation": "由于桥面变窄，驾驶员可能需要让行。",
-  "image": "/signs/narrow-bridge.jpg"
-},
-{
-  "id": "q-right-left-curve-ahead-250",
-  "question": "此警告标志表示什么？",
-  "choices": [
-    "前方道路先向右弯曲，然后向左弯曲",
-    "前方只有一个急右转弯",
-    "道路变为单行道",
-    "必须在下一个路口右转"
-  ],
-  "correctIndex": 0,
-  "explanation": "带有两个弯曲箭头的标志提醒驾驶员道路将连续向两个方向弯曲，应减速行驶。",
-  "image": "/signs/q-right-left-curve-ahead.png"
-},
+    "id": "q-right-lane-must-exit-sign-132",
+    "question": "此标志表示什么？",
+    "choices": [
+      "只有右侧车道可以直行",
+      "右侧车道禁止右转",
+      "右侧车道的车辆必须驶出",
+      "右侧车道为慢速车辆专用"
+    ],
+    "correctIndex": 2,
+    "explanation": "此绿色指示标志告知驾驶员，右侧车道的车辆必须驶出。若不打算驶出，应提前变更到其他车道。",
+    "image": "/signs/right-lane-must-exit.png"
+  },
   {
-  "id": "q-no-bicycles-251",
-  "question": "此标志禁止什么？",
-  "choices": [
-    "自行车",
-    "行人",
-    "摩托车",
-    "雪地摩托"
-  ],
-  "correctIndex": 0,
-  "explanation": "此区域不允许自行车通行。",
-  "image": "/signs/no-bicycles.jpg"
-},
-{
-  "id": "q-no-parking-252",
-  "question": "此标志表示什么？",
-  "choices": [
-    "禁止停车",
-    "禁止临时停车",
-    "允许短暂停车",
-    "仅限装卸"
-  ],
-  "correctIndex": 0,
-  "explanation": "车辆可以短暂停留，但不得停车。",
-  "image": "/signs/no-parking.jpg"
-},
-{
-  "id": "q-no-passing-253",
-  "question": "禁止哪种驾驶行为？",
-  "choices": [
-    "超车",
-    "变更车道",
-    "转弯",
-    "停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "在此区域内禁止超车。",
-  "image": "/signs/no-passing.jpg"
-},
-{
-  "id": "q-no-pedestrians-254",
-  "question": "此处禁止谁通行？",
-  "choices": [
-    "行人",
-    "骑自行车的人",
-    "摩托车",
-    "汽车"
-  ],
-  "correctIndex": 0,
-  "explanation": "出于安全原因，禁止行人进入。",
-  "image": "/signs/no-pedestrians.jpg"
-},
-{
-  "id": "q-no-u-turn-255",
-  "question": "禁止哪种操作？",
-  "choices": [
-    "掉头",
-    "左转",
-    "右转",
-    "直行"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员不得掉头行驶。",
-  "image": "/signs/no-u-turn.jpg"
-},
-{
-  "id": "q-pedestrian-crossing-256",
-  "question": "驾驶员应做好什么准备？",
-  "choices": [
-    "有行人正在过马路",
-    "前方有停车标志",
-    "有校车",
-    "有交通信号灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员必须为行人让行。",
-  "image": "/signs/pedestrian-crossing.jpg"
-},
-{
-  "id": "q-roundabout-257",
-  "question": "驾驶员应如何行驶？",
-  "choices": [
-    "礼让环岛内的车辆",
-    "完全停车",
-    "顺时针进入",
-    "加速"
-  ],
-  "correctIndex": 0,
-  "explanation": "已经在环岛内的车辆拥有优先通行权。",
-  "image": "/signs/q-11-roundabout.png"
-},
-{
-  "id": "q-hov-lane-258",
-  "question": "谁可以使用这条车道？",
-  "choices": [
-    "载有多名乘客的车辆",
-    "所有车辆",
-    "仅限卡车",
-    "仅限紧急车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "HOV 车道仅供符合条件的车辆使用。",
-  "image": "/signs/q-211-hov-lane.jpg"
-},
-{
-  "id": "q-stop-ahead-259",
-  "question": "该标志提醒驾驶员什么？",
-  "choices": [
-    "前方有停车标志",
-    "停车标志正在移除",
-    "其他车辆必须让你先行",
-    "前方有交通信号灯"
-  ],
-  "correctIndex": 0,
-  "explanation": "警告菱形中的停车标志符号提醒驾驶员要准备很快停车。",
-  "image": "/signs/stop-ahead.jpg"
-},
-{
-  "id": "q-railway-crossing-260",
-  "question": "该标志警告什么？",
-  "choices": [
-    "前方有铁路道口",
-    "人行横道",
-    "交通信号灯",
-    "停车标志"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员必须做好为火车停车的准备。",
-  "image": "/signs/q-210-railway-crossing-1.jpg"
-},
- {
-  "id": "q-261",
-  "question": "夜间驾驶时你开始感到非常疲倦。最安全的做法是什么？",
-  "choices": [
-    "找一个安全的地方停车休息",
-    "打开车窗继续驾驶",
-    "调大收音机音量并加快速度",
-    "紧跟另一辆车以保持警觉"
-  ],
-  "correctIndex": 0,
-  "explanation": "疲劳驾驶很危险。最安全的选择是停止驾驶并休息。",
-  "image": "/signs/q-tired-driver-200.png"
-},
-{
-  "id": "q-fail-remain-collision-262",
-  "category": "demerit-points",
-  "question": "未在碰撞现场停留会被记多少扣分？",
-  "choices": [
-    "3 分",
-    "5 分",
-    "6 分",
-    "7 分"
-  ],
-  "correctIndex": 3,
-  "explanation": "未在碰撞现场停留会被记 7 分扣分。",
-  "image": "/signs/q-fail-remain-collision-262.png"
-},
-{
-  "id": "q-263",
-  "question": "在挡风玻璃部分被雪或冰覆盖的情况下，什么时候可以驾驶？",
-  "choices": [
-    "从不；驾驶前必须完全清理挡风玻璃和车窗",
-    "只要能直接看到前方",
-    "仅在低速时",
-    "仅当雨刷正常工作时"
-  ],
-  "correctIndex": 0,
-  "explanation": "驾驶员在驾驶前必须确保各个方向视线清晰。",
-  "image": "/signs/q-263-windshield-covered-snow.png"
-},
-{
-  "id": "q-report-collision-damage-264",
-  "category": "collisions-and-reporting",
-  "question": "如果发生机动车碰撞，出现人员受伤或财产总损失超过多少金额时，必须向警方报告？",
-  "choices": [
-    "$100",
-    "$300",
-    "$500",
-    "$1000"
-  ],
-  "correctIndex": 3,
-  "explanation": "在安大略省，如果有人受伤或总损失超过 1000 美元，必须向警方报告碰撞。",
-  "image": "/signs/q-collision-damage.png"
-},
-{
-  "id": "q-265",
-  "question": "在大多数乘用车中，安装儿童安全座椅最安全的位置是哪里？",
-  "choices": [
-    "后排座位，远离已启用的安全气囊",
-    "前排座位并开启安全气囊",
-    "前排长椅座位的中间",
-    "驾驶员座位旁边"
-  ],
-  "correctIndex": 0,
-  "explanation": "后排通常最安全，尤其要远离安全气囊。",
-  "image": "/signs/q-31-child-seat.png"
-},
-{
-  "id": "q-266",
-  "question": "正确佩戴的安全带应当：",
-  "choices": [
-    "腰带低位系在髋部，肩带横跨胸部",
-    "横过腹部和颈部",
-    "为舒适起见放在腋下",
-    "松松地系着以便自由移动"
-  ],
-  "correctIndex": 0,
-  "explanation": "正确佩戴安全带可在碰撞时降低受伤风险。",
-  "image": "/signs/q-266-seatbelt.png"
-},
-{
-  "id": "q-267",
-  "question": "在雨、雪或能见度差的情况下，应如何调整跟车距离？",
-  "choices": [
-    "增加到两秒以上",
-    "减少到两秒以下",
-    "保持完全相同",
-    "紧跟大型车辆后方"
-  ],
-  "correctIndex": 0,
-  "explanation": "恶劣条件需要更大的安全距离以便安全停车。",
-  "image": "/signs/q-267-snow-distance.png"
-},
-{
-  "id": "q-268",
-  "question": "在下陡峭且结冰的山坡时，应当：",
-  "choices": [
-    "使用低挡并轻踩刹车",
-    "挂空挡滑行",
-    "持续猛踩刹车",
-    "加速以减少在坡上的时间"
-  ],
-  "correctIndex": 0,
-  "explanation": "低挡和轻柔制动有助于在湿滑坡道上保持控制。",
-  "image": "/signs/q-268-icy-hill.png"
-},
-{
-  "id": "q-269",
-  "question": "当你左转时，若为绿灯但没有绿色箭头，意味着：",
-  "choices": [
-    "在道路畅通并礼让对向车辆和行人后可以左转",
-    "你对对向车辆拥有优先通行权",
-    "必须等待绿色箭头才能左转",
-    "任何时候都不能左转"
-  ],
-  "correctIndex": 0,
-  "explanation": "普通绿灯允许左转，但不提供受保护的优先通行权。",
-  "image": "/signs/q-269-turn-left-on-green.png"
-},
-{
-  "id": "q-270",
-  "question": "从车道或私人道路进入主路时，必须：",
-  "choices": [
-    "让主路上的所有车辆先行",
-    "期望主路上的车辆让你先行",
-    "迅速进入且不停车",
-    "按喇叭并前进"
-  ],
-  "correctIndex": 0,
-  "explanation": "进入道路的车辆必须让已在道路上的车辆先行。",
-  "image": "/signs/q-253-back-up-driveway.png"
-},
+    "id": "q-hand-signal-right-turn-133",
+    "question": "当驾驶员的左臂向上弯曲成90度角时，此手势表示什么？",
+    "choices": [
+      "驾驶员正在减速或停车",
+      "驾驶员打算右转",
+      "驾驶员打算左转",
+      "驾驶员在警示车辆故障"
+    ],
+    "correctIndex": 1,
+    "explanation": "当驾驶员的左臂向上弯曲成90度角并且手向上指时，表示其有右转的意图。",
+    "image": "/signs/hand-signal-right-turn.png"
+  },
   {
-  "id": "q-fail-stop-police-271",
-  "category": "demerit-points",
-  "question": "未在警方示意下停车会被记多少扣分？",
-  "choices": [
-    "2 分",
-    "4 分",
-    "6 分",
-    "7 分"
-  ],
-  "correctIndex": 3,
-  "explanation": "未按警方指示停车将被记 7 分扣分。",
-  "image": "/signs/q-fail-stop-police-271.png"
-},
-{
-  "id": "q-272",
-  "question": "一个黄色圆形标志，上有黑色“X”和两个“R”，警告：",
-  "choices": [
-    "前方有铁路道口",
-    "医院区域",
-    "前方有环岛",
-    "前方有隧道"
-  ],
-  "correctIndex": 0,
-  "explanation": "铁路提前警告标志提醒驾驶员前方有铁路轨道交叉口。",
-  "image": "/signs/q-272-X-and-2R.png"
-},
-{
-  "id": "q-273",
-  "question": "“装卸区”标志通常表示：",
-  "choices": [
-    "仅在正在装卸货物或乘客时允许停车",
-    "可以全天停车",
-    "仅公交车可以停车",
-    "禁止停车"
-  ],
-  "correctIndex": 0,
-  "explanation": "装卸区仅允许在装卸货物或乘客时短暂停车。",
-  "image": "/signs/q-273-loadin-zone.png"
-},
-{
-  "id": "q-274",
-  "question": "在市区，当公交车打信号准备离开车站时，你应当：",
-  "choices": [
-    "在安全情况下让行，让公交车重新进入车流",
-    "加速在其启动前超越",
-    "无视信号并保持速度",
-    "持续按喇叭直到它停留在车站"
-  ],
-  "correctIndex": 0,
-  "explanation": "当公交车发出信号时，驾驶员应让其安全地重新进入车流。",
-  "image": "/signs/q-274-transit-bus-leaving.png"
-},
-{
-  "id": "q-275",
-  "question": "左转穿过对向车流时，应在何时开始转弯？",
-  "choices": [
-    "当有足够大的间隙可以完成转弯而不会迫使其他驾驶员突然减速时",
-    "当看到一辆车在你后面转弯时",
-    "当信号灯即将变红时",
-    "当对向车辆闪灯时"
-  ],
-  "correctIndex": 0,
-  "explanation": "左转不得干扰对向车流。应选择安全且足够的间隙。",
-  "image": "/signs/q-275-turning-left.png"
-},
-{
-  "id": "q-276",
-  "category": "demerit-points",
-  "question": "在安大略省闯红灯可能会导致：",
-  "choices": [
-    "罚款并在驾驶记录上记扣分",
-    "如果没有撞到任何人则没有处罚",
-    "仅收到一封警告信",
-    "每次都会没收你的车辆"
-  ],
-  "correctIndex": 0,
-  "explanation": "不遵守交通信号灯是严重违法行为，会被罚款并记扣分。",
-  "image": "/signs/q-276-running-on-red.png"
-},
-{
-  "id": "q-277",
-  "question": "在有路缘石的上坡路平行停车时，前轮应如何转动？",
-  "choices": [
-    "远离路缘石",
-    "朝向路缘石",
-    "保持直行",
-    "无所谓"
-  ],
-  "correctIndex": 0,
-  "explanation": "将车轮朝远离路缘石方向转动有助于防止车辆滑入车流。",
-  "image": "/signs/q-parking-uphill-curb-181.png"
-},
-{
-  "id": "q-278",
-  "question": "在有路缘石的下坡路停车时，前轮应如何转动？",
-  "choices": [
-    "朝向路缘石",
-    "远离路缘石",
-    "保持直行",
-    "任何方向都可以"
-  ],
-  "correctIndex": 0,
-  "explanation": "将车轮朝向路缘石转动有助于在车辆滑动时被路缘石阻挡。",
-  "image": "/signs/q-curb-downhill-45.png"
-},
-{
-  "id": "q-demerit-racing-279",
-  "category": "demerit-points",
-  "question": "一名驾驶员因极高速的特技驾驶或街头赛车被定罪。在安大略省，这类行为会被记多少扣分？",
-  "choices": [
-    "3 分",
-    "4 分",
-    "6 分",
-    "7 分"
-  ],
-  "correctIndex": 2,
-  "explanation": "特技驾驶或街头赛车会被记 6 分扣分，并伴随严厉处罚。",
-  "image": "/signs/q-demerit-racing-279.png"
-},
-{
-  "id": "q-demerit-new-fully-licensed-280",
-  "category": "demerit-points",
-  "question": "对于在安大略省持有正式驾照的驾驶员，累积多少扣分可能会导致驾照被吊销？",
-  "choices": [
-    "9 分",
-    "12 分",
-    "14 分",
-    "15 分或以上"
-  ],
-  "correctIndex": 3,
-  "explanation": "对于正式驾照驾驶员，累积 15 分或以上可能会导致驾照被吊销。",
-  "image": "/signs/q-demerit-new-fully-licensed-135.png"
-}
+    "id": "q-warning-steep-hill-trucks-134",
+    "question": "此道路标志提醒驾驶员什么？",
+    "choices": [
+      "前方有卡车检查站",
+      "前方有陡峭的下坡路段，尤其对卡车危险",
+      "施工区域要求卡车停车",
+      "前方有指定的卡车停车区"
+    ],
+    "correctIndex": 1,
+    "explanation": "此警告标志表示前方有陡峭的下坡路段。驾驶员——尤其是驾驶大型或重型车辆的人员——应减速并谨慎行驶。",
+    "image": "/signs/steep-hill.png"
+  },
+  {
+    "id": "q-keep-right-except-to-pass-135",
+    "question": "此标志表示什么？",
+    "choices": [
+      "除非超车，否则必须保持在右侧车道行驶",
+      "左侧车道对所有车辆关闭",
+      "只允许右转",
+      "任何时候都不允许超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "此标志告诉驾驶员在正常行驶时使用右侧车道，只有在安全超越较慢车辆时才应移至左侧车道。",
+    "image": "/signs/q-keep-right-except-to-pass.png"
+  },
+  {
+    "id": "q-warning-hidden-intersection-136",
+    "question": "此道路标志向驾驶员表示什么？",
+    "choices": [
+      "右侧有隐藏的车道入口",
+      "前方有隐藏的交叉路口，右侧有支路汇入",
+      "一条有隐藏出口的单行道",
+      "在下一个路口只能右转"
+    ],
+    "correctIndex": 1,
+    "explanation": "此警告标志表示前方有一个隐藏的交叉路口，右侧有支路汇入。需要格外小心。",
+    "image": "/signs/hidden-intersection.png"
+  },
+  {
+    "id": "q-regulatory-no-parking-accessible-permit-137",
+    "question": "此标志表示什么？",
+    "choices": [
+      "任何车辆在任何时候都不允许停车",
+      "停车位仅供紧急车辆使用",
+      "除展示有效无障碍停车许可证的车辆外，禁止停车",
+      "该区域仅为乘客上下车区"
+    ],
+    "correctIndex": 2,
+    "explanation": "此标志表示停车位仅供展示有效无障碍停车许可证的车辆使用。",
+    "image": "/signs/handicapped-parking-sign.png"
+  },
+  {
+    "id": "q-regulatory-no-straight-ahead-138",
+    "question": "此交通标志表示什么？",
+    "choices": [
+      "您必须直行通过路口",
+      "禁止右转",
+      "禁止直行",
+      "此车道仅供直行车辆使用"
+    ],
+    "correctIndex": 2,
+    "explanation": "此标志表示驾驶员不允许直行通过路口。",
+    "image": "/signs/no-straight-ahead.png"
+  },
+  {
+    "id": "q-regulatory-no-right-turn-on-red-139",
+    "question": "此交通标志表示什么？",
+    "choices": [
+      "任何时候都不允许右转",
+      "只有在红灯时才可以右转",
+      "交通信号灯为红灯时禁止右转",
+      "您必须先停车，然后在红灯时右转"
+    ],
+    "correctIndex": 2,
+    "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许右转。",
+    "image": "/signs/no-right-turn-on-red.png"
+  },
+  {
+    "id": "q-regulatory-no-left-turn-on-red-140",
+    "question": "此交通标志表示什么？",
+    "choices": [
+      "任何时候都不允许左转",
+      "只有在红灯时才可以左转",
+      "交通信号灯为红灯时禁止左转",
+      "您必须先停车，然后在红灯时左转"
+    ],
+    "correctIndex": 2,
+    "explanation": "此标志表示在交通信号灯为红灯时，驾驶员不允许左转。",
+    "image": "/signs/no-left-turn-on-red.png"
+  },
+  {
+    "id": "q-night-driving-speed-141",
+    "question": "夜间驾驶时，即使限速更高，您应如何调整车速？",
+    "choices": [
+      "以能在车灯照亮的距离内停车的速度行驶",
+      "始终按限速行驶，因为任何时候都安全",
+      "加速以减少在黑暗中的时间",
+      "使用远光灯并尽可能快地行驶"
+    ],
+    "correctIndex": 0,
+    "explanation": "夜间驾驶时，您不应超出车灯照亮的范围行驶。应以能在清晰可见的距离内停车的速度行驶。",
+    "image": "/signs/q-night-driving-speed-164.png"
+  },
+  {
+    "id": "q-intersections-right-of-way-142",
+    "question": "在四向停车且所有车辆几乎同时到达时，通常应由哪位驾驶员先行？",
+    "choices": [
+      "最先完全停车并在安全时前进的驾驶员",
+      "车辆最大的驾驶员",
+      "最先闪灯的驾驶员",
+      "正在左转穿越交通的驾驶员"
+    ],
+    "correctIndex": 0,
+    "explanation": "在四向停车路口，通常最先完全停车的车辆先行，但所有驾驶员在前进前都必须确保道路清晰且安全。",
+    "image": "/signs/q-intersections-right-of-way-165.png"
+  },
+  {
+    "id": "q-lane-change-143",
+    "question": "在多车道道路上变道前，正确的顺序是什么？",
+    "choices": [
+      "查看后视镜、打转向灯、检查盲点，然后在安全时变道",
+      "先变道后打转向灯，再查看后视镜",
+      "先变道，然后查看后视镜并打转向灯",
+      "按喇叭并立即驶入下一车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "先查看后视镜，打转向灯，检查盲点，然后仅在安全时变道。",
+    "image": "/signs/q-lane-change-166.png"
+  },
+  {
+    "id": "q-blind-spots-144",
+    "question": "即使后视镜已正确调整，为什么仍需进行肩部回头检查？",
+    "choices": [
+      "车辆旁边存在后视镜无法显示的区域（盲点）",
+      "这只是一个习惯，并非必要",
+      "可以让其他驾驶员知道您要转弯",
+      "可以代替打转向灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "即使后视镜调整正确，也无法显示所有情况。快速回头检查可以帮助您看到盲点中的车辆、自行车或行人。",
+    "image": "/signs/q-blind-spots-167.png"
+  },
+  {
+    "id": "q-expressway-merge-145",
+    "question": "从匝道进入高速公路时，在加速车道上应怎么做？",
+    "choices": [
+      "打转向灯、与车流速度匹配，并在有安全间隙时并入",
+      "在匝道末端停车并等待他人让行",
+      "在路肩慢速行驶直到找到较大空隙",
+      "如果错过出口就倒车"
+    ],
+    "correctIndex": 0,
+    "explanation": "在高速公路匝道上，应加速以匹配车流速度，打转向灯，并在有安全空隙时平稳并入。",
+    "image": "/signs/q-expressway-merge-168.png"
+  },
+  {
+    "id": "q-expressway-exit-146",
+    "question": "驶离高速公路时，应该在什么时候开始减速？",
+    "choices": [
+      "进入减速车道或出口匝道之后",
+      "一看到出口标志就在主车道上减速",
+      "只有到达下一个城市街道时才减速",
+      "永远不要减速；通过出口时保持高速公路速度"
+    ],
+    "correctIndex": 0,
+    "explanation": "在进入减速车道或匝道之前保持高速公路速度，然后安全地减速至出口所标示的速度。",
+    "image": "/signs/q-expressway-exit-169.png"
+  },
+  {
+    "id": "q-emergency-vehicles-147",
+    "question": "在双向道路上，您听到并看到一辆紧急车辆闪着灯并鸣笛从后方接近。您必须怎么做？",
+    "choices": [
+      "尽可能靠右并停车，直到其通过",
+      "加速以保持在紧急车辆前方",
+      "在道路中央停车",
+      "向左转并阻挡对向交通"
+    ],
+    "correctIndex": 0,
+    "explanation": "当有紧急车辆闪灯并鸣笛接近时，应向右靠边并停车，直到其通过。",
+    "image": "/signs/q-emergency-vehicles-170.jpg"
+  },
+  {
+    "id": "q-move-over-law-148",
+    "question": "在多车道高速公路上，您看到一辆紧急车辆闪着灯停在您车道的路肩上。如果交通允许，您应该怎么做？",
+    "choices": [
+      "变换到远离紧急车辆的另一条车道并减速",
+      "在同一车道保持速度",
+      "按喇叭并照常驶过",
+      "在紧急车辆旁边停车观看"
+    ],
+    "correctIndex": 0,
+    "explanation": "您必须减速，并在可能的情况下变换到远离停在路边并闪灯的紧急或拖车车辆的车道。",
+    "image": "/signs/q-move-over-law-148.png"
+  },
+  {
+    "id": "q-sharing-cyclists-1m-149",
+    "question": "在双车道道路上超越自行车骑行者时，应该如何安全进行？",
+    "choices": [
+      "减速，并在超越时在您的车辆与骑行者之间至少保持一米距离",
+      "紧贴通过以防止其他车辆超车",
+      "大声鸣喇叭并全速通过",
+      "在路肩上行驶以便不变道超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "在条件允许的情况下，驾驶员在超越骑行者时必须至少保持一米的距离，可能时应保持更大距离。",
+    "image": "/signs/q-sharing-cyclists-1m-149.png"
+  },
+  {
+    "id": "q-dooring-cyclist-150",
+    "question": "您将车停在自行车道旁，想打开驾驶员车门。避免撞到骑行者的最安全方法是什么？",
+    "choices": [
+      "检查后视镜，进行肩部回头检查是否有骑行者，然后用远侧手打开车门",
+      "快速打开车门而不查看，以便车门打开时间更短",
+      "依靠骑行者在车门打开时停车",
+      "在查看交通时保持车门打开"
+    ],
+    "correctIndex": 0,
+    "explanation": "检查后视镜和盲点，并用远侧手打开车门，这样您会自然转身查看是否有骑行者。",
+    "image": "/signs/q-dooring-cyclist-173.png"
+  },
+  {
+    "id": "q-motorcycles-visibility-151",
+    "question": "为什么在判断迎面而来的摩托车的速度和距离时必须格外小心？",
+    "choices": [
+      "它们体积较小，看起来可能比实际更远且更慢",
+      "它们总是低于限速行驶",
+      "它们必须在每个路口停车",
+      "它们白天不使用车灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "由于摩托车体积较小，驾驶员常常误判其距离和速度。这在左转或从摩托车前方通过时尤其重要。",
+    "image": "/signs/q-motorcycles-visibility-151.png"
+  },
+  {
+    "id": "q-large-trucks-space-152",
+    "question": "在大型卡车附近行驶时，为什么应避免长时间在其旁边行驶？",
+    "choices": [
+      "卡车有很大的盲区并且需要额外空间来操控",
+      "卡车总是超速",
+      "卡车必须在道路中央行驶",
+      "您有优先通行权，因此位置无关紧要"
+    ],
+    "correctIndex": 0,
+    "explanation": "大型车辆在侧面有很大的盲区，并且需要更多空间转弯和变道。避免长时间并排行驶，并在可以时安全超越。",
+    "image": "/signs/q-large-trucks-space-175.png"
+  },
+  {
+    "id": "q-trucks-wide-turns-153",
+    "question": "一辆大型卡车打右转信号，并在转弯前稍微向左移动。您应该怎么做？",
+    "choices": [
+      "不要进入右侧空间；卡车需要空间转弯",
+      "在转弯时从右侧驶上前超车",
+      "按喇叭并迫使卡车保持在其车道内",
+      "驶入卡车旁的自行车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "大型车辆在右转时常需要更大的转弯空间。切勿在其转弯一侧靠近行驶；应在其完成转弯前保持在后方。",
+    "image": "/signs/q-trucks-wide-turns-176.png"
+  },
+  {
+    "id": "q-winter-driving-distance-154",
+    "question": "在积雪且抓地力降低的道路上，您应如何调整跟车距离？",
+    "choices": [
+      "大幅增加，远超正常的两秒规则",
+      "保持与干燥道路相同的距离",
+      "减少距离以防其他驾驶员插入",
+      "尽量紧跟以利用前车的轮胎痕迹"
+    ],
+    "correctIndex": 0,
+    "explanation": "在雪地或冰面上，您需要更长的制动距离。在恶劣条件下应显著增加跟车距离。",
+    "image": "/signs/q-winter-driving-distance-177.png"
+  },
+  {
+    "id": "q-demerit-rail-crossing-bus-driver-155",
+    "question": "在无防护铁路道口未停车（仅限公交车司机）会被记多少扣分？",
+    "choices": [
+      "3分扣分",
+      "4分扣分",
+      "5分扣分",
+      "6分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "对于公交车司机，在无防护铁路道口未停车会被记5分扣分。",
+    "image": "/signs/q-railway-stop-47.png"
+  },
+  {
+    "id": "q-hydroplaning-156",
+    "question": "如果你的车辆在非常湿滑的道路上开始打滑（水滑），最安全的做法是什么？",
+    "choices": [
+      "松开油门并保持方向盘直行，直到恢复抓地力",
+      "用力刹车并急转方向",
+      "挂入空挡并关闭发动机",
+      "加速以更快通过积水"
+    ],
+    "correctIndex": 0,
+    "explanation": "当轮胎在水面上与道路失去接触时会发生水滑。松开油门并保持车轮直行，直到恢复抓地力。",
+    "image": "/signs/q-hydroplaning-prevent-73.png"
+  },
+  {
+    "id": "q-headlights-visibility-157",
+    "question": "即使在白天，什么时候必须使用车头灯？",
+    "choices": [
+      "当能见度差到无法清楚看到前方150米处的人或车辆时",
+      "只在乡村道路的夜间",
+      "只在冬季月份",
+      "只在使用远光灯时"
+    ],
+    "correctIndex": 0,
+    "explanation": "在雨、雪或雾等能见度较差时应使用车头灯，以便他人能够看到你。",
+    "image": "/signs/q-headlights-visibility-180.jpg"
+  },
+  {
+    "id": "q-parking-uphill-curb-158",
+    "question": "在有路缘的街道上坡停车时，应如何转动车辆的前轮？",
+    "choices": [
+      "将前轮转向远离路缘的一侧并拉起驻车制动",
+      "将车轮保持直行",
+      "将前轮转向路缘一侧",
+      "车轮朝向哪边都无所谓"
+    ],
+    "correctIndex": 0,
+    "explanation": "上坡靠路缘停车时，应将车轮转离路缘并拉起驻车制动，以防车辆滑动。",
+    "image": "/signs/q-parking-uphill-curb-181.png"
+  },
+  {
+    "id": "q-demerit-fail-yield-ped-159",
+    "question": "在有标记的人行横道处，你未为明显在横道内的行人停车并被定罪。你会被扣多少扣分？",
+    "choices": [
+      "2分扣分",
+      "3分扣分",
+      "4分扣分",
+      "6分扣分"
+    ],
+    "correctIndex": 2,
+    "explanation": "在安大略省，不在人行横道或类似受保护的过街处停车将被扣4分。",
+    "image": "/signs/q-demerit-fail-yield-ped-128.png"
+  },
+  {
+    "id": "q-demerit-fail-remain-160",
+    "question": "发生轻微碰撞后，司机未停车提供信息就离开并被判定未留在现场。这会被扣多少扣分？",
+    "choices": [
+      "3分扣分",
+      "4分扣分",
+      "6分扣分",
+      "7分扣分"
+    ],
+    "correctIndex": 3,
+    "explanation": "在安大略省，未在碰撞现场停留将被扣7分。",
+    "image": "/signs/q-demerit-fail-remain-129.png"
+  },
+  {
+    "id": "q-sharp-curve-left-speed-161",
+    "question": "你看到这个左急弯警告标志，下方有建议速度牌。你应如何驾驶？",
+    "choices": [
+      "减速至接近建议速度，并平稳通过弯道",
+      "保持当前速度并在弯道中间急刹车",
+      "加速进入弯道以保持在车道内",
+      "在路肩上行驶以避开弯道"
+    ],
+    "correctIndex": 0,
+    "explanation": "急弯标志通常附有建议速度。进入弯道前减速至该速度，并平稳转向以保持控制。",
+    "image": "/signs/sharp-curve-left.jpg"
+  },
+  {
+    "id": "q-sharp-curve-right-passing-162",
+    "question": "在双车道道路上接近这个右急弯标志时，最安全的超车方式是什么？",
+    "choices": [
+      "不要在急弯处或其附近超车",
+      "在弯道中间快速超车",
+      "如果看不到来车也可以超车",
+      "任何速度都允许超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "急弯会限制你的视线。在接近或进入急弯时不要超车，因为你可能无法及时看到来车。",
+    "image": "/signs/sharp-curve-right.jpg"
+  },
+  {
+    "id": "q-bicycles-permitted-163",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "自行车可以使用这条道路或车道",
+      "骑行者必须推着自行车行走",
+      "此区域禁止自行车通行",
+      "只有机动车可以使用此车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色圆形表示允许的行为；这里表示自行车可以在该车道或道路上行驶。",
+    "image": "/signs/q-bicycles-permitted.png"
+  },
+  {
+    "id": "q-school-zone-164",
+    "question": "这个标志提醒驾驶员注意什么？",
+    "choices": [
+      "学校区域，减速并注意有儿童过马路",
+      "该道路仅限卡车通行",
+      "游乐场已关闭",
+      "自行车拥有优先通行权"
+    ],
+    "correctIndex": 0,
+    "explanation": "行人图案提醒驾驶员在学校或游乐区附近减速并注意儿童。",
+    "image": "/signs/q-school-zone.png"
+  },
+  {
+    "id": "q-parking-30-min-165",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "在标示时间内最多可停车30分钟",
+      "该区域完全禁止停车",
+      "只有商用车辆可以在此停车",
+      "任何时候停车都免费且不限时"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色P表示允许停车，下方文字说明了时间限制和执行日期。",
+    "image": "/signs/q-parking-30-min.png"
+  },
+  {
+    "id": "q-stop-sign-where-to-stop-166",
+    "question": "在这个有停止线的STOP标志前，你必须在哪里停车？",
+    "choices": [
+      "在停止线或人行横道之前",
+      "在路口中间",
+      "在人行横道中间",
+      "只要短暂停车，任何地方都可以"
+    ],
+    "correctIndex": 0,
+    "explanation": "在停车标志前，你必须在停止线处、在人行横道前，或在进入路口前完全停车，以先出现者为准。",
+    "image": "/signs/stop-sign.jpg"
+  },
+  {
+    "id": "q-traffic-signal-ahead-167",
+    "question": "在高速道路上驾驶时你看到这个标志。它警告你什么？",
+    "choices": [
+      "前方有交通信号灯；准备减速或停车",
+      "前方是铁路道口",
+      "前方是没有信号灯的四向停车",
+      "道路在前方尽头为死胡同"
+    ],
+    "correctIndex": 0,
+    "explanation": "前方信号灯警告标志提醒你前方有设置信号灯的路口，以便在信号变化时提前减速或停车。",
+    "image": "/signs/traffic-signal-ahead.jpg"
+  },
+  {
+    "id": "q-accessible-parking-168",
+    "question": "你在停车场看到这个标志。它是什么意思？",
+    "choices": [
+      "该车位仅供持有无障碍停车许可的车辆使用",
+      "所有人都可以免费停车",
+      "该车位仅供摩托车使用",
+      "这里只允许夜间停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "轮椅符号表示无障碍停车位。只有持有有效无障碍停车许可的车辆才可以停在这些车位。",
+    "image": "/signs/wheelchair-accessible.jpg"
+  },
+  {
+    "id": "q-parking-downhill-no-curb-169",
+    "question": "在没有路缘石的道路上下坡停车时，你应如何放置前轮？",
+    "choices": [
+      "将车轮转向右侧路肩并拉紧驻车制动",
+      "将车轮转向道路中央",
+      "保持车轮笔直并挂空挡",
+      "将车轮向左转且不要使用驻车制动"
+    ],
+    "correctIndex": 0,
+    "explanation": "在没有路缘石的下坡处停车时，将车轮转向路肩有助于防止车辆滑入车道。",
+    "image": "/signs/q-parking-downhill-no-curb-182.png"
+  },
+  {
+    "id": "q-parking-fire-hydrant-170",
+    "question": "为什么禁止在消防栓附近停车？",
+    "choices": [
+      "在紧急情况下，消防员必须能够迅速接近消防栓",
+      "消防栓只供消防车专用停车",
+      "消防栓标示私人车道",
+      "那里只允许夜间停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "停车规定包括与消防栓保持最小距离，以便紧急人员可以迅速连接水管。",
+    "image": "/signs/q-parking-fire-hydrant-183.jpg"
+  },
+  {
+    "id": "q-parking-crosswalk-171",
+    "question": "为什么你绝不能在斑马线内或非常靠近斑马线的地方停车？",
+    "choices": [
+      "这会阻挡行人和驾驶员在过街处的视线",
+      "这会让行人更容易过街",
+      "这只是建议，没有安全问题",
+      "如果打开危险警示灯就可以"
+    ],
+    "correctIndex": 0,
+    "explanation": "在斑马线附近停车可能会遮挡行人的视线，使驾驶员难以及时看到他们。",
+    "image": "/signs/q-parking-crosswalk-184.png"
+  },
+  {
+    "id": "q-railway-stall-172",
+    "question": "如果你的车辆在铁路道口抛锚且有火车接近，你首先应该怎么做？",
+    "choices": [
+      "让所有人下车，并以45°角朝火车方向远离轨道",
+      "留在车内并一直尝试重新启动直到最后一刻",
+      "独自将车辆推离轨道",
+      "站在火车前方示意它停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "如果火车即将到来且车辆无法移动，所有人必须立即下车并以角度远离，以避免被飞散的碎片击中。",
+    "image": "/signs/q-railway-stall-185.png"
+  },
+  {
+    "id": "q-tire-blowout-173",
+    "question": "如果在驾驶时前轮爆胎，最安全的初始反应是什么？",
+    "choices": [
+      "牢牢握住方向盘，松开油门并保持直线行驶",
+      "立即猛踩刹车并转向路肩",
+      "加速以保持车辆稳定",
+      "急转方向盘远离爆胎一侧"
+    ],
+    "correctIndex": 0,
+    "explanation": "爆胎可能导致车辆突然偏移。牢牢握住方向盘，松开油门并保持直线行驶，直到可以安全减速。",
+    "image": "/signs/q-tire-blowout-186.png"
+  },
+  {
+    "id": "q-skid-rear-174",
+    "question": "在结冰的道路上，你的后轮开始侧滑。你应该怎么做？",
+    "choices": [
+      "轻轻向你希望车头前进的方向转向，并避免猛踩刹车",
+      "尽可能用力刹车并一直踩住",
+      "迅速向打滑的反方向转向",
+      "将方向盘完全打向一侧并加速"
+    ],
+    "correctIndex": 0,
+    "explanation": "要纠正打滑，应朝希望车辆前进的方向转向，并避免突然刹车或加速。",
+    "image": "/signs/q-skid-rear-187.png"
+  },
+  {
+    "id": "q-fatigue-driving-175",
+    "question": "你在驾驶时开始感到非常困倦。最安全的决定是什么？",
+    "choices": [
+      "找一个安全的地方停车休息后再继续",
+      "打开车窗并以相同速度继续驾驶",
+      "调高收音机音量并集中精力保持清醒",
+      "喝咖啡并继续驾驶几个小时"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶疲劳是危险的。唯一安全的选择是在继续行程前停车休息。",
+    "image": "/signs/q-fatigue-driving-188.png"
+  },
+  {
+    "id": "q-tailgater-176",
+    "question": "另一位司机跟车过近（紧跟你车）。最安全的应对方式是什么？",
+    "choices": [
+      "逐渐增加你的跟车距离，并在安全时变道或让对方先通过",
+      "突然刹车提醒对方",
+      "加速甩开对方",
+      "无视对方，完全按原方式驾驶"
+    ],
+    "correctIndex": 0,
+    "explanation": "增加你的跟车距离，并在安全时让紧跟的车辆先通过。避免做出具有攻击性的反应。",
+    "image": "/signs/q-tailgater-65.png"
+  },
+  {
+    "id": "q-mirrors-frequency-177",
+    "question": "在交通较少的直线路段行驶时，你通常应该多久查看一次后视镜？",
+    "choices": [
+      "每隔几秒钟查看一次，并在减速、转弯或变道前查看",
+      "只有在听到喇叭时",
+      "行程开始时一次，结束时一次",
+      "只有在准备停车时"
+    ],
+    "correctIndex": 0,
+    "explanation": "频繁查看后视镜有助于你了解周围交通状况，并能安全应对变化。",
+    "image": "/signs/q-mirrors-frequency-190.png"
+  },
+  {
+    "id": "q-impaired-zero-g1-178",
+    "question": "对于G1或G2驾驶员，驾驶时血液酒精含量的法律要求是什么？",
+    "choices": [
+      "血液中必须完全没有酒精（0.00 BAC）",
+      "如果感觉良好，可以少量饮酒",
+      "只要低于正式驾照驾驶员的限值就可以饮酒",
+      "G1/G2驾驶员没有酒精规定"
+    ],
+    "correctIndex": 0,
+    "explanation": "安大略省对新手驾驶员（G1和G2）实行零酒精容忍政策。驾驶时血液酒精含量必须为0.00。",
+    "image": "/signs/q-impaired-zero-g1-191.png"
+  },
+  {
+    "id": "q-g1-supervisor-179",
+    "question": "以下哪项是在公共道路上驾驶时对G1驾驶员的要求？",
+    "choices": [
+      "必须有一名至少有四年驾驶经验的正式持牌司机坐在前排乘客座位",
+      "任何持有驾照的朋友都可以坐在后座",
+      "车内不需要其他人",
+      "只需要另一名G1驾驶员作为监督者"
+    ],
+    "correctIndex": 0,
+    "explanation": "G1驾驶员必须由一名具有所需驾驶经验的正式持牌司机坐在前排陪同。",
+    "image": "/signs/q-g1-supervisor-192.png"
+  },
+  {
+    "id": "q-g1-roads-restrictions-180",
+    "question": "关于G1驾驶员和高速公路的说法，哪一项是正确的？",
+    "choices": [
+      "除非有合格的驾驶教练陪同，否则G1驾驶员不得在某些高速公路上行驶",
+      "G1驾驶员可在任何时间独自在所有高速公路上行驶",
+      "G1驾驶员只允许在收费公路上行驶",
+      "G1驾驶员只能在未铺设的道路上行驶"
+    ],
+    "correctIndex": 0,
+    "explanation": "除非有合格的驾驶教练在场，否则某些高速公路对G1驾驶员是有限制的。",
+    "image": "/signs/q-g1-roads-restrictions-193.png"
+  },
+  {
+    "id": "q-g2-passengers-night-181",
+    "question": "为什么安大略省对部分20岁以下的G2驾驶员实施夜间乘客限制？",
+    "choices": [
+      "为了减少新手驾驶员夜间搭载多名青少年乘客时发生严重碰撞的风险",
+      "为了限制年轻驾驶员的燃油使用",
+      "为了让公共交通更受欢迎",
+      "为了防止G2驾驶员在白天驾驶"
+    ],
+    "correctIndex": 0,
+    "explanation": "手册说明，对年轻G2驾驶员的夜间限制旨在在经验仍然有限时降低事故风险。",
+    "image": "/signs/q-g2-passengers-night-194.png"
+  },
+  {
+    "id": "q-collision-duties-182",
+    "question": "你与另一辆车发生碰撞且没有严重受伤。你必须做什么？",
+    "choices": [
+      "停车，与另一位司机交换信息并遵守报告要求",
+      "如果车还能开就迅速离开",
+      "把车开回家，只有想报告时才报告",
+      "留在车内并阻挡交通直到拖车到达"
+    ],
+    "correctIndex": 0,
+    "explanation": "发生碰撞的驾驶员必须停车，提供相关信息，并按照法律要求进行报告。",
+    "image": "/signs/q-collision-duties-195.png"
+  },
+  {
+    "id": "q-turn-signals-183",
+    "question": "什么时候应该使用转向信号灯？",
+    "choices": [
+      "每当你打算转弯、变道或从停车位置驶离时",
+      "只有在交通繁忙时",
+      "只有在夜间驾驶时",
+      "只有在接近停车标志时"
+    ],
+    "correctIndex": 0,
+    "explanation": "转向信号可以向他人传达你的意图。在转弯、变道以及驶入或驶出车流时都应使用。",
+    "image": "/signs/q-turn-signals-196.png"
+  },
+  {
+    "id": "q-back-up-safely-184",
+    "question": "倒车最安全的方法是什么？",
+    "choices": [
+      "检查周围情况，从后窗向外看并慢慢倒车",
+      "只依靠后视镜并快速倒车",
+      "只使用倒车摄像头而不看其他地方",
+      "向前看并只使用侧后视镜倒车"
+    ],
+    "correctIndex": 0,
+    "explanation": "倒车时应检查周围环境，主要从后窗观察，并缓慢移动以避免危险。",
+    "image": "/signs/q-back-up-safely-197.png"
+  },
+  {
+    "id": "q-pedestrians-turning-185",
+    "question": "你在路口右转且信号灯为绿色。一名行人开始穿过你要转入的街道。你必须怎么做？",
+    "choices": [
+      "让行行人，并等他们安全通过后再转弯",
+      "按喇叭并在行人前方转弯",
+      "在行人后方迅速转弯",
+      "驶入人行横道以表示你打算转弯"
+    ],
+    "correctIndex": 0,
+    "explanation": "转弯的驾驶员必须让行人行横道内的行人，并等他们完全通过车道后再完成转弯。",
+    "image": "/signs/q-pedestrians-turning-198.png"
+  },
+  {
+    "id": "q-crosswalk-uncontrolled-186",
+    "question": "在没有交通信号灯但有斑马线和标志的人行横道处，一名行人正在等待过街。你的责任是什么？",
+    "choices": [
+      "做好随时停车的准备，让行人安全通过",
+      "因为没有交通灯而保持相同速度继续行驶",
+      "只有当行人直接走到你面前时才停车",
+      "加速通过，赶在行人开始过街之前"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员必须注意有标线的人行横道上的行人，并准备停车让他们安全通过。",
+    "image": "/signs/q-crosswalk-uncontrolled-199.png"
+  },
+  {
+    "id": "q-safe-speed-stopping-distance-187",
+    "question": "无论驾驶条件如何，你都应该始终以能够做到什么的速度行驶？",
+    "choices": [
+      "在90米（300英尺）内停车",
+      "在60米（200英尺）内停车",
+      "在安全距离内停车",
+      "在150米（500英尺）内停车"
+    ],
+    "correctIndex": 2,
+    "explanation": "驾驶员必须始终根据前方可见距离调整速度，以便能够在可见范围内安全停车。",
+    "image": "/signs/q-safe-speed-stopping.png"
+  },
+  {
+    "id": "q-safe-following-distance-188",
+    "question": "在良好天气条件下跟随另一辆车行驶时，最安全的最小跟车距离是多少？",
+    "choices": [
+      "与前车保持至少两秒的距离",
+      "每10公里/小时保持半个车长",
+      "与前车保持一秒的距离",
+      "尽可能接近，只要还能看到后轮"
+    ],
+    "correctIndex": 0,
+    "explanation": "在良好条件下使用两秒规则以保持安全的跟车距离。",
+    "image": "/signs/car-following.jpg"
+  },
+  {
+    "id": "q-right-of-way-four-way-stop-189",
+    "question": "在四向停车路口，两辆车同时到达。谁应先行？",
+    "choices": [
+      "右侧的车辆拥有优先通行权",
+      "左侧的车辆拥有优先通行权",
+      "直行车辆总是先行",
+      "最大的车辆先行"
+    ],
+    "correctIndex": 0,
+    "explanation": "当两辆车同时到达时，左侧的驾驶员必须让右侧的驾驶员先行。",
+    "image": "/signs/right-way.png"
+  },
+  {
+    "id": "q-blind-spots-check-190",
+    "question": "在多车道道路上变道之前，驾驶员必须如何正确检查盲点？",
+    "choices": [
+      "除了查看后视镜外，还要向相应方向回头查看",
+      "只依靠中央后视镜",
+      "加速以避开旁边的车辆",
+      "打转向灯并慢慢偏向车道直到其他司机按喇叭"
+    ],
+    "correctIndex": 0,
+    "explanation": "盲点在后视镜中看不到。回头查看可以确保旁边没有车辆、自行车或摩托车。",
+    "image": "/signs/q-203-blind-spot.png"
+  },
+  {
+    "id": "q-high-beam-dimming-191",
+    "question": "夜间什么时候必须将远光灯调为近光灯？",
+    "choices": [
+      "当你距离迎面而来的车辆在150米以内时",
+      "只有当对方司机闪灯时",
+      "只有在照明良好的街道上",
+      "只有在跟随警车时"
+    ],
+    "correctIndex": 0,
+    "explanation": "当距离迎面而来的车辆在150米以内时，必须调暗远光灯，以免影响其他驾驶员的视线。",
+    "image": "/signs/q-204-high-beams.jpg"
+  },
+  {
+    "id": "q-emergency-vehicle-yield-192",
+    "question": "如果一辆开着闪光灯并鸣笛的紧急车辆从后方接近，你必须怎么做？",
+    "choices": [
+      "打信号灯，尽量靠右并停车",
+      "加速以免挡住他们",
+      "继续行驶但稍微向左移动",
+      "即使在高速公路上也立即在车道内停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员必须尽量靠右停车，让紧急车辆能够安全快速通过。",
+    "image": "/signs/q-205-emergency-vehicle.jpg"
+  },
+  {
+    "id": "q-improper-left-193",
+    "question": "不当左转会被扣多少违章积分？",
+    "choices": [
+      "2分",
+      "3分",
+      "4分",
+      "5分"
+    ],
+    "correctIndex": 0,
+    "explanation": "不当左转在安大略省会被扣2分。",
+    "image": "/signs/q-improper-left-193.png"
+  },
+  {
+    "id": "q-school-bus-median-194",
+    "question": "你在一条有中央隔离带的道路上行驶。对面方向的一辆校车停下并闪烁红灯、伸出停牌臂。你必须怎么做？",
+    "choices": [
+      "停车并保持停车状态直到校车离开",
+      "减速并小心前行；在有实体中央隔离带的对向车道上不需要停车",
+      "按喇叭提醒校车司机并以正常速度继续",
+      "变到最左侧车道并以限速行驶"
+    ],
+    "correctIndex": 1,
+    "explanation": "在有实体中央隔离带的分隔道路上，只有与校车同方向行驶的车辆必须停车。对向车辆必须减速，但法律上不要求停车。",
+    "image": "/signs/q-207-school-bus-median.jpg"
+  },
+  {
+    "id": "q-fire-hydrant-distance-195",
+    "question": "在安大略省，你可以在离消防栓多近的地方停车？",
+    "choices": [
+      "在1米以内，只要消防栓仍然可见",
+      "至少离消防栓2米",
+      "至少离消防栓3米",
+      "只要留在车内，任何距离都可以"
+    ],
+    "correctIndex": 2,
+    "explanation": "你不得在距离消防栓3米以内停车。这为消防员在紧急情况下快速连接水管提供空间。",
+    "image": "/signs/q-208-fire-hydrant-park.jpg"
+  },
+  {
+    "id": "q-intersection-parking-distance-196",
+    "question": "在没有交通信号灯的道路上，你可以在离路口或人行横道多近的地方停车？",
+    "choices": [
+      "如果打转向灯，可以直接停在拐角处",
+      "至少离路口三米",
+      "至少离路口九米",
+      "至少离路口15米"
+    ],
+    "correctIndex": 2,
+    "explanation": "在没有交通信号灯的道路上，你不得在距离路口九米以内停车，以保持良好的视线。",
+    "image": "/signs/q-209-car-parked-near-intersection.jpg"
+  },
+  {
+    "id": "q-suspension-197",
+    "question": "新手驾驶员的驾照在达到多少扣分时会被吊销60天？",
+    "choices": [
+      "9分",
+      "12分",
+      "15分",
+      "20分"
+    ],
+    "correctIndex": 2,
+    "explanation": "新手驾驶员的驾照在达到15个扣分时会被吊销。",
+    "image": "/signs/q-suspension-197.png"
+  },
+  {
+    "id": "q-hov-lane-198",
+    "question": "在400系列高速公路上，你看到菱形符号和HOV（拼车）车道标志。什么时候可以使用这条车道？",
+    "choices": [
+      "只有当车内至少有两人（或是符合条件的车辆，如公交车、摩托车或绿色牌照车辆）时",
+      "当普通车道交通缓慢而你想超车时",
+      "只有当你以限速或以上速度行驶时",
+      "晚上7点之后及周末任何时间都可以，不论乘客数量"
+    ],
+    "correctIndex": 0,
+    "explanation": "HOV车道仅供至少载有两人的车辆或特别允许的车辆使用。它们不是单人驾驶车辆的超车道。",
+    "image": "/signs/q-211-hov-lane.jpg"
+  },
+  {
+    "id": "q-demerit-seatbelts-199",
+    "question": "一名司机因未系安全带并允许儿童未系安全带乘车而被定罪。与安全带相关的违规会给司机的记录增加多少扣分？",
+    "choices": [
+      "2分",
+      "3分",
+      "4分",
+      "6分"
+    ],
+    "correctIndex": 0,
+    "explanation": "与安全带相关的违规会给司机增加2个扣分。",
+    "image": "/signs/q-demerit-seatbelts-130.png"
+  },
+  {
+    "id": "q-demerit-fail-yield-sign-200",
+    "question": "你在这个让行标志处强行并入交通，并被判未让出通行权。会增加多少扣分？",
+    "choices": [
+      "2分",
+      "3分",
+      "4分",
+      "6分"
+    ],
+    "correctIndex": 1,
+    "explanation": "未让出通行权在安大略省属于扣3分的违规。",
+    "image": "/signs/yield-sign.jpg"
+  },
+  {
+    "id": "q-red-light-camera-201",
+    "question": "这个标志提醒驾驶员什么？",
+    "choices": [
+      "交通信号灯停止服务",
+      "该路口有闯红灯摄像头监控",
+      "只有紧急车辆可以在红灯时通行",
+      "下一个信号灯是由行人触发的"
+    ],
+    "correctIndex": 1,
+    "explanation": "交通信号灯下方的摄像头符号表示有电子执法设备记录闯红灯的车辆。",
+    "image": "/signs/q-red-light-camera.png"
+  },
+  {
+    "id": "q-yield-sign-202",
+    "question": "当你接近这个让行标志且主路上有交通时，你必须怎么做？",
+    "choices": [
+      "减速并在必要时停车，让主路车辆先行",
+      "以正常速度通过",
+      "即使道路畅通也要停车",
+      "强行进入交通，因为你有优先权"
+    ],
+    "correctIndex": 0,
+    "explanation": "让行标志意味着你必须让主路交通先行。减速，准备停车，并在有安全间隙时再前进。",
+    "image": "/signs/yield-sign.jpg"
+  },
+  {
+    "id": "q-do-not-enter-203",
+    "question": "你在车道入口看到这个“禁止进入”标志。它告诉你什么？",
+    "choices": [
+      "你不得进入；该车道是供迎面而来的车辆使用",
+      "只有左转时才可以进入",
+      "该车道只供公交车使用",
+      "如果打开危险警示灯可以进入"
+    ],
+    "correctIndex": 0,
+    "explanation": "“禁止进入”标志表示该车道或道路是供对向交通使用。你不得从这个方向驶入。",
+    "image": "/signs/do-not-enter.jpg"
+  },
+  {
+    "id": "q-bump-warning-204",
+    "question": "驾驶员前方应预期什么？",
+    "choices": [
+      "道路上有减速凸起",
+      "急弯",
+      "停车标志",
+      "人行横道"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员应降低车速，以便在不平路面上保持车辆控制。",
+    "image": "/signs/bump-sign.jpg"
+  },
+  {
+    "id": "q-ped-crossing-waiting-205",
+    "question": "你看到这个行人过街标志，并且有人在过街处边缘等待。你应该怎么做？",
+    "choices": [
+      "减速并准备停车，让行人安全通过",
+      "加速在行人开始过街前通过",
+      "按喇叭让行人等待",
+      "因为没有交通灯而忽视行人"
+    ],
+    "correctIndex": 0,
+    "explanation": "在行人过街处，你必须准备停车，并在继续行驶前让等待的行人安全通过。",
+    "image": "/signs/pedestrian-crossing.jpg"
+  },
+  {
+    "id": "q-two-way-traffic-ahead-206",
+    "question": "此标志提醒驾驶员注意什么？",
+    "choices": [
+      "前方为双向行驶",
+      "单行道继续",
+      "超车道开始",
+      "道路缩窄为单车道"
+    ],
+    "correctIndex": 0,
+    "explanation": "相反方向的箭头表示前方道路有双向交通。",
+    "image": "/signs/q-two-way-traffic-ahead.png"
+  },
+  {
+    "id": "q-truck-entrance-207",
+    "question": "此标志表示什么？",
+    "choices": [
+      "前方可能有卡车驶入或驶出道路",
+      "只有卡车可以使用此车道",
+      "允许卡车停车",
+      "禁止卡车通行"
+    ],
+    "correctIndex": 0,
+    "explanation": "卡车符号提醒驾驶员注意可能有缓慢或转弯的重型车辆进入车道。",
+    "image": "/signs/q-truck-entrance.png"
+  },
+  {
+    "id": "q-208",
+    "question": "这种橙色反光三角形标志用于：",
+    "choices": [
+      "行驶缓慢的车辆，例如农用机械",
+      "仅限除雪车",
+      "仅限校车",
+      "紧急车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "慢速车辆标志表示该车辆通常以低于40公里/小时的速度行驶。",
+    "image": "/signs/q-217-triangular-sign.png"
+  },
+  {
+    "id": "q-bike-lane-209",
+    "question": "此标志表示什么？",
+    "choices": [
+      "自行车专用车道",
+      "禁止自行车通行",
+      "仅限摩托车",
+      "仅限行人"
+    ],
+    "correctIndex": 0,
+    "explanation": "此标志表示为自行车交通指定的车道。",
+    "image": "/signs/bike-lane.jpg"
+  },
+  {
+    "id": "q-lane-control-signals-210",
+    "question": "在桥上你看到每条车道上方都有车道使用控制信号。你上方的车道突然显示红色“X”。你应该怎么做？",
+    "choices": [
+      "在安全的情况下尽快变换到带有绿色箭头的车道",
+      "如果你所在车道仍在行驶就忽略它",
+      "在车道内停车并等待信号变为绿色",
+      "按喇叭并继续在当前车道行驶"
+    ],
+    "correctIndex": 0,
+    "explanation": "车道上方的红色“X”表示该车道已关闭，禁止通行。应安全地变换到标有绿色箭头的车道。",
+    "image": "/signs/q-213-x-sign.png"
+  },
+  {
+    "id": "q-bumps-ahead-211",
+    "question": "驾驶员应如何应对此标志？",
+    "choices": [
+      "为多个颠簸减速",
+      "立即变道",
+      "完全停车",
+      "鸣喇叭"
+    ],
+    "correctIndex": 0,
+    "explanation": "前方有多个颠簸，驾驶员需要减速以保持控制。",
+    "image": "/signs/bumps-ahead.png"
+  },
+  {
+    "id": "q-construction-ahead-212",
+    "question": "此标志提醒驾驶员注意什么？",
+    "choices": [
+      "前方施工",
+      "道路封闭",
+      "铁路道口",
+      "学校区域"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员应预期前方有工人、设备、限速降低或车道变化。",
+    "image": "/signs/construction-ahead.jpg"
+  },
+  {
+    "id": "q-deer-crossing-213",
+    "question": "此标志显示哪种危险？",
+    "choices": [
+      "野生动物横穿",
+      "农用车辆",
+      "动物园入口",
+      "公园区域"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员应注意可能突然进入道路的动物。",
+    "image": "/signs/deer-crossing.jpg"
+  },
+  {
+    "id": "q-divided-highway-begins-214",
+    "question": "此标志表示什么？",
+    "choices": [
+      "分隔公路开始",
+      "双向交通结束",
+      "允许超车",
+      "车道结束"
+    ],
+    "correctIndex": 0,
+    "explanation": "前方交通将由实体隔离带分开。",
+    "image": "/signs/divided-highway-begins.jpg"
+  },
+  {
+    "id": "q-divided-highway-ends-215",
+    "question": "驾驶员应预期什么变化？",
+    "choices": [
+      "对向交通将不再分隔",
+      "道路变窄",
+      "限速降低",
+      "车道结束"
+    ],
+    "correctIndex": 0,
+    "explanation": "分隔公路即将结束，对向交通将共享同一道路。",
+    "image": "/signs/divided-highway-ends.jpg"
+  },
+  {
+    "id": "q-do-not-enter-216",
+    "question": "此标志是什么意思？",
+    "choices": [
+      "车辆禁止进入",
+      "完全停车",
+      "让行",
+      "禁止停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "此标志表示驾驶员被禁止进入该道路或车道。",
+    "image": "/signs/do-not-enter.jpg"
+  },
+  {
+    "id": "q-hand-signal-right-217",
+    "question": "这个手势表示什么？",
+    "choices": [
+      "驾驶员打算右转",
+      "驾驶员正在减速",
+      "驾驶员正在停车",
+      "驾驶员正在左转"
+    ],
+    "correctIndex": 0,
+    "explanation": "左臂向上弯曲表示驾驶员打算右转。",
+    "image": "/signs/hand-signal-right-turn.png"
+  },
+  {
+    "id": "q-accessible-parking-218",
+    "question": "谁可以在这里停车？",
+    "choices": [
+      "持有有效无障碍停车许可证的车辆",
+      "任何车辆在非营业时间",
+      "送货车辆",
+      "摩托车"
+    ],
+    "correctIndex": 0,
+    "explanation": "无障碍停车位仅供展示有效无障碍停车许可证的车辆使用。",
+    "image": "/signs/handicapped-parking-sign.png"
+  },
+  {
+    "id": "q-hidden-intersection-219",
+    "question": "此标志提醒驾驶员注意什么？",
+    "choices": [
+      "前方有隐蔽的交叉路口",
+      "前方有交通信号灯",
+      "行人过街",
+      "道路封闭"
+    ],
+    "correctIndex": 0,
+    "explanation": "在驾驶员接近路口之前，横向来车可能看不见。",
+    "image": "/signs/hidden-intersection.png"
+  },
+  {
+    "id": "q-max-speed-40-220",
+    "question": "此标志表示什么？",
+    "choices": [
+      "最高速度为40公里/小时",
+      "最低速度为40公里/小时",
+      "建议速度",
+      "限速区域结束"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员不得超过所标示的最高限速。",
+    "image": "/signs/max-speed-40.png"
+  },
+  {
+    "id": "q-221",
+    "question": "如果在驾驶时前轮爆胎，首先应该怎么做？",
+    "choices": [
+      "紧握方向盘并保持车辆直行",
+      "立即用力刹车",
+      "迅速驶向路肩",
+      "猛踩油门加速"
+    ],
+    "correctIndex": 0,
+    "explanation": "爆胎可能会使车辆向一侧偏移。紧握方向盘，保持车辆直行，并逐渐减速。",
+    "image": "/signs/q-227-front-tire.jpg"
+  },
+  {
+    "id": "q-222",
+    "question": "你看到一个标示公交车上下客区的标志。这意味着什么？",
+    "choices": [
+      "只有公交车可以在此停靠",
+      "任何人都可以短暂停车",
+      "你可以在5分钟内上下乘客",
+      "如果打开危险警示灯可以停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "公交车上下客区仅供公交车使用，其他车辆不得在此停车。",
+    "image": "/signs/q-228-bus-loading.png"
+  },
+  {
+    "id": "q-223",
+    "question": "在指定的无障碍停车位停车但没有许可证，可能会导致：",
+    "choices": [
+      "高额罚款并被拖车",
+      "仅收到小警告",
+      "如果留在车内则没有处罚",
+      "只有扣分"
+    ],
+    "correctIndex": 0,
+    "explanation": "在没有有效许可证的情况下停在无障碍停车位，可能会被处以高额罚款并被拖车。",
+    "image": "/signs/q-229-handicap-spot.jpg"
+  },
+  {
+    "id": "q-224",
+    "question": "中间车道两侧都标有左转箭头时，该车道用于：",
+    "choices": [
+      "任一方向的左转",
+      "超越慢速车辆",
+      "临时停车",
+      "仅用于掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "这个共用的中间车道仅用于准备和进行左转，不用于超车或直行。",
+    "image": "/signs/q-224-centre-lane-arrows.png"
+  },
+  {
+    "id": "q-225",
+    "question": "在什么情况下即使看不到火车，也必须在铁路道口停车？",
+    "choices": [
+      "当闪烁的灯光或道闸启动时",
+      "仅在夜间",
+      "只有听到火车汽笛时",
+      "除非有火车，否则不需要停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "在铁路道口，闪烁的灯光、铃声或放下的道闸都要求完全停车，即使你没有看到火车。",
+    "image": "/signs/q-231-railway-crossing.jpg"
+  },
+  {
+    "id": "q-226",
+    "question": "超越骑自行车的人时，驾驶员至少应保持：",
+    "choices": [
+      "1米的距离",
+      "20厘米",
+      "没有规定距离",
+      "尽可能靠近以避免偏离"
+    ],
+    "correctIndex": 0,
+    "explanation": "安大略省法律要求驾驶员在超越骑自行车者时至少保持一米的距离。",
+    "image": "/signs/q-232-car-passing-cyclist.jpg"
+  },
+  {
+    "id": "q-227",
+    "question": "如果在高速公路上错过出口，你必须：",
+    "choices": [
+      "继续行驶到下一个出口",
+      "在路肩小心倒车",
+      "停车并等待空隙",
+      "在中央隔离带掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "绝不要在高速公路上停车或倒车。继续行驶到下一个出口并安全返回。",
+    "image": "/signs/q-expressway-exit-169.png"
+  },
+  {
+    "id": "q-speeding-50-over-penalty-228",
+    "question": "驾驶员被判定以高于限速50公里/小时或以上的速度行驶。法院可能施加哪项处罚？",
+    "choices": [
+      "吊销驾照6个月",
+      "吊销驾照30天",
+      "扣押机动车6个月",
+      "监禁6个月"
+    ],
+    "correctIndex": 1,
+    "explanation": "超速50公里/小时或以上可能会被法院判处30天驾照吊销，以及罚款和扣分。",
+    "image": "/signs/q-speeding-50-over-penalty.png"
+  },
+  {
+    "id": "q-229",
+    "question": "对于G1驾驶员，酒驾处罚包括：",
+    "choices": [
+      "立即路边吊销驾照并逐步加重处罚",
+      "除非超过刑事限度，否则不吊销",
+      "只需小额罚款",
+      "仅扣分"
+    ],
+    "correctIndex": 0,
+    "explanation": "G1驾驶员必须保持零酒精含量，如酒驾将面临立即吊销驾照和严格处罚。",
+    "image": "/signs/q-impaired-zero-g1-191.png"
+  },
+  {
+    "id": "q-230",
+    "question": "如果交通信号灯因停电完全熄灭，应将路口视为：",
+    "choices": [
+      "四向停车",
+      "正常绿灯",
+      "仅行人通行",
+      "所有方向让行"
+    ],
+    "correctIndex": 0,
+    "explanation": "当交通信号灯失效时，驾驶员必须将路口视为四向停车。",
+    "image": "/signs/q-230-traffice-light-off.png"
+  },
+  {
+    "id": "q-231",
+    "question": "在理想条件下，建议的最小跟车距离是：",
+    "choices": [
+      "至少2秒",
+      "半秒",
+      "1秒",
+      "始终4秒"
+    ],
+    "correctIndex": 0,
+    "explanation": "2秒的间距可提供安全的停车时间。在恶劣条件下应增加跟车距离。",
+    "image": "/signs/q-231-following-distance.png"
+  },
+  {
+    "id": "q-232",
+    "question": "为什么桥面比其他路面更早结冰？",
+    "choices": [
+      "桥面上下都暴露在冷空气中",
+      "使用更软的路面材料",
+      "承载更多交通",
+      "接受更多阳光"
+    ],
+    "correctIndex": 0,
+    "explanation": "冷空气在桥面上下流动，使其比其他路面更快结冰。",
+    "image": "/signs/q-23-bridge-freezes.png"
+  },
+  {
+    "id": "q-233",
+    "question": "在安大略省，什么时候可以在红灯时左转？",
+    "choices": [
+      "仅从单行道转入另一条单行道",
+      "只要没有来车",
+      "从不允许",
+      "仅在转入私人车道时"
+    ],
+    "correctIndex": 0,
+    "explanation": "只有在从一条单行道转入另一条单行道，并在完全停车后，才允许红灯左转。",
+    "image": "/signs/q-233-right-turn-on-red.png"
+  },
+  {
+    "id": "q-234",
+    "question": "在没有标志的情况下，安大略省城市、城镇和村庄的市政道路通常的最高限速是多少？",
+    "choices": [
+      "50公里/小时",
+      "40公里/小时",
+      "60公里/小时",
+      "70公里/小时"
+    ],
+    "correctIndex": 0,
+    "explanation": "除非另有标示，许多建成区市政道路的默认限速为50公里/小时。",
+    "image": "/signs/q-234-50-in-city.png"
+  },
+  {
+    "id": "q-235",
+    "question": "你面前是一个稳定的黄灯，并且距离足够远可以安全停车。你应该怎么做？",
+    "choices": [
+      "在路口前停车",
+      "加速在变红前通过路口",
+      "保持相同速度继续行驶",
+      "进入路口并等待绿灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "稳定的黄灯表示信号即将变为红灯。如果可以安全停车，必须在进入路口前停车。",
+    "image": "/signs/q-235-steady-yellow.png"
+  },
+  {
+    "id": "q-speed-30to49-236",
+    "question": "超速30–49公里/小时会被扣多少记分点？",
+    "choices": [
+      "2个记分点",
+      "3个记分点",
+      "4个记分点",
+      "5个记分点"
+    ],
+    "correctIndex": 2,
+    "explanation": "在安大略省，超速30–49公里/小时属于扣4分的违法行为。",
+    "image": "/signs/q-speed-30to49-236.png"
+  },
+  {
+    "id": "q-237",
+    "question": "带有红色“P”并被红线划掉的标志表示：",
+    "choices": [
+      "该区域禁止停车",
+      "只允许短时间停车",
+      "仅限持证车辆停车",
+      "任何时候都禁止停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "“禁止停车”标志表示您不能停车并离开无人看管的车辆。",
+    "image": "/signs/no-parking.jpg"
+  },
+  {
+    "id": "q-fail-signal-238",
+    "question": "未打转向信号会被扣多少记分点？",
+    "choices": [
+      "2个记分点",
+      "3个记分点",
+      "4个记分点",
+      "5个记分点"
+    ],
+    "correctIndex": 0,
+    "explanation": "在安大略省，未打转向信号会被扣2个记分点。",
+    "image": "/signs/q-fail-signal-238.png"
+  },
+  {
+    "id": "q-demerit-improper-passing-239",
+    "question": "驾驶员因在不安全情况下不当超车被定罪。不当超车会被扣多少记分点？",
+    "choices": [
+      "2个记分点",
+      "3个记分点",
+      "4个记分点",
+      "6个记分点"
+    ],
+    "correctIndex": 1,
+    "explanation": "在安大略省，不当超车属于扣3分的违法行为。",
+    "image": "/signs/q-demerit-improper-passing-132.png"
+  },
+  {
+    "id": "q-demerit-obey-officer-240",
+    "question": "警察向你发出指示，但你无视信号并被判定为未服从警察指挥。这项违法行为会被扣多少记分点？",
+    "choices": [
+      "2个记分点",
+      "3个记分点",
+      "4个记分点",
+      "7个记分点"
+    ],
+    "correctIndex": 1,
+    "explanation": "在安大略省，不服从警察指挥会被扣3个记分点。",
+    "image": "/signs/q-demerit-obey-officer-133.png"
+  },
+  {
+    "id": "q-snowmobiles-permitted-241",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "此小道或道路允许雪地摩托通行",
+      "任何时候都禁止雪地摩托",
+      "只有持牌车辆可以通行",
+      "雪地摩托必须用拖车运输"
+    ],
+    "correctIndex": 0,
+    "explanation": "绿色圆圈表示允许使用；雪地摩托符号表示允许雪地摩托通行。",
+    "image": "/signs/q-snowmobiles-permitted.png"
+  },
+  {
+    "id": "q-242",
+    "question": "黄色虚线中心线表示：",
+    "choices": [
+      "在安全情况下可以超车",
+      "禁止超车",
+      "前方车道结束",
+      "车辆向左并线"
+    ],
+    "correctIndex": 0,
+    "explanation": "黄色虚线表示可以谨慎超车。",
+    "image": "/signs/q-224-broken-line.jpg"
+  },
+  {
+    "id": "q-243",
+    "question": "一个显示路面高于旁边碎石的标志警告：",
+    "choices": [
+      "低或松软的路肩",
+      "分隔式公路",
+      "狭窄桥梁",
+      "隐藏的交叉路口"
+    ],
+    "correctIndex": 0,
+    "explanation": "如果车辆偏离路面，低路肩可能导致失控。",
+    "image": "/signs/q-243pavement-higher-gravel.png"
+  },
+  {
+    "id": "q-244",
+    "question": "橙色菱形标志通常表示：",
+    "choices": [
+      "前方有道路施工或工程",
+      "学校区域",
+      "法定限速",
+      "医院区域"
+    ],
+    "correctIndex": 0,
+    "explanation": "橙色标志警告前方有临时施工或维护区域。",
+    "image": "/signs/q-244-orange-diamond.png"
+  },
+  {
+    "id": "q-no-right-turn-on-red-245",
+    "question": "这个标志表示什么？",
+    "choices": [
+      "红灯时禁止右转",
+      "只有红灯时允许右转",
+      "右侧车道结束",
+      "允许掉头"
+    ],
+    "correctIndex": 0,
+    "explanation": "带斜杠的红色圆圈表示禁止的动作——在这里是红灯时禁止右转。",
+    "image": "/signs/q-no-right-turn-on-red.png"
+  },
+  {
+    "id": "q-246",
+    "question": "带有黑色数字（如“80”）和“MAXIMUM”字样的白色长方形标志表示：",
+    "choices": [
+      "在理想条件下的最高法定速度为 80 公里/小时",
+      "你必须正好以 80 公里/小时行驶",
+      "最低速度为 80 公里/小时",
+      "你可以超过 80 公里/小时进行超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "限速标志表示在理想条件下允许的最高法定速度。",
+    "image": "/signs/q-246-max-80.png"
+  },
+  {
+    "id": "q-247",
+    "question": "表示学校区域限速结束的标志意味着：",
+    "choices": [
+      "在安全情况下可以恢复正常公布的车速",
+      "必须始终保持学校区域限速行驶",
+      "此处之后没有行人",
+      "校车不再停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "区域结束标志表示特殊的较低限速不再适用。",
+    "image": "/signs/q-247-end-of-school-zone.png"
+  },
+  {
+    "id": "q-248",
+    "question": "显示右侧车道结束并有箭头弯向左侧车道的标志表示：",
+    "choices": [
+      "右侧车道的车辆必须向左并线",
+      "左侧车道的车辆必须停车",
+      "前方为双向交通",
+      "可以在路肩上超车"
+    ],
+    "correctIndex": 0,
+    "explanation": "车道合并标志提醒驾驶员安全变更车道。",
+    "image": "/signs/q-248-right-lane-ends.png"
+  },
+  {
+    "id": "q-narrow-bridge-249",
+    "question": "此标志警告哪种情况？",
+    "choices": [
+      "前方有窄桥",
+      "低矮桥梁",
+      "桥梁关闭",
+      "桥梁施工中"
+    ],
+    "correctIndex": 0,
+    "explanation": "由于桥面变窄，驾驶员可能需要让行。",
+    "image": "/signs/narrow-bridge.jpg"
+  },
+  {
+    "id": "q-right-left-curve-ahead-250",
+    "question": "此警告标志表示什么？",
+    "choices": [
+      "前方道路先向右弯曲，然后向左弯曲",
+      "前方只有一个急右转弯",
+      "道路变为单行道",
+      "必须在下一个路口右转"
+    ],
+    "correctIndex": 0,
+    "explanation": "带有两个弯曲箭头的标志提醒驾驶员道路将连续向两个方向弯曲，应减速行驶。",
+    "image": "/signs/q-right-left-curve-ahead.png"
+  },
+  {
+    "id": "q-no-bicycles-251",
+    "question": "此标志禁止什么？",
+    "choices": [
+      "自行车",
+      "行人",
+      "摩托车",
+      "雪地摩托"
+    ],
+    "correctIndex": 0,
+    "explanation": "此区域不允许自行车通行。",
+    "image": "/signs/no-bicycles.jpg"
+  },
+  {
+    "id": "q-no-parking-252",
+    "question": "此标志表示什么？",
+    "choices": [
+      "禁止停车",
+      "禁止临时停车",
+      "允许短暂停车",
+      "仅限装卸"
+    ],
+    "correctIndex": 0,
+    "explanation": "车辆可以短暂停留，但不得停车。",
+    "image": "/signs/no-parking.jpg"
+  },
+  {
+    "id": "q-no-passing-253",
+    "question": "禁止哪种驾驶行为？",
+    "choices": [
+      "超车",
+      "变更车道",
+      "转弯",
+      "停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "在此区域内禁止超车。",
+    "image": "/signs/no-passing.jpg"
+  },
+  {
+    "id": "q-no-pedestrians-254",
+    "question": "此处禁止谁通行？",
+    "choices": [
+      "行人",
+      "骑自行车的人",
+      "摩托车",
+      "汽车"
+    ],
+    "correctIndex": 0,
+    "explanation": "出于安全原因，禁止行人进入。",
+    "image": "/signs/no-pedestrians.jpg"
+  },
+  {
+    "id": "q-no-u-turn-255",
+    "question": "禁止哪种操作？",
+    "choices": [
+      "掉头",
+      "左转",
+      "右转",
+      "直行"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员不得掉头行驶。",
+    "image": "/signs/no-u-turn.jpg"
+  },
+  {
+    "id": "q-pedestrian-crossing-256",
+    "question": "驾驶员应做好什么准备？",
+    "choices": [
+      "有行人正在过马路",
+      "前方有停车标志",
+      "有校车",
+      "有交通信号灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员必须为行人让行。",
+    "image": "/signs/pedestrian-crossing.jpg"
+  },
+  {
+    "id": "q-roundabout-257",
+    "question": "驾驶员应如何行驶？",
+    "choices": [
+      "礼让环岛内的车辆",
+      "完全停车",
+      "顺时针进入",
+      "加速"
+    ],
+    "correctIndex": 0,
+    "explanation": "已经在环岛内的车辆拥有优先通行权。",
+    "image": "/signs/q-11-roundabout.png"
+  },
+  {
+    "id": "q-hov-lane-258",
+    "question": "谁可以使用这条车道？",
+    "choices": [
+      "载有多名乘客的车辆",
+      "所有车辆",
+      "仅限卡车",
+      "仅限紧急车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "HOV 车道仅供符合条件的车辆使用。",
+    "image": "/signs/q-211-hov-lane.jpg"
+  },
+  {
+    "id": "q-stop-ahead-259",
+    "question": "该标志提醒驾驶员什么？",
+    "choices": [
+      "前方有停车标志",
+      "停车标志正在移除",
+      "其他车辆必须让你先行",
+      "前方有交通信号灯"
+    ],
+    "correctIndex": 0,
+    "explanation": "警告菱形中的停车标志符号提醒驾驶员要准备很快停车。",
+    "image": "/signs/stop-ahead.jpg"
+  },
+  {
+    "id": "q-railway-crossing-260",
+    "question": "该标志警告什么？",
+    "choices": [
+      "前方有铁路道口",
+      "人行横道",
+      "交通信号灯",
+      "停车标志"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员必须做好为火车停车的准备。",
+    "image": "/signs/q-210-railway-crossing-1.jpg"
+  },
+  {
+    "id": "q-261",
+    "question": "夜间驾驶时你开始感到非常疲倦。最安全的做法是什么？",
+    "choices": [
+      "找一个安全的地方停车休息",
+      "打开车窗继续驾驶",
+      "调大收音机音量并加快速度",
+      "紧跟另一辆车以保持警觉"
+    ],
+    "correctIndex": 0,
+    "explanation": "疲劳驾驶很危险。最安全的选择是停止驾驶并休息。",
+    "image": "/signs/q-tired-driver-200.png"
+  },
+  {
+    "id": "q-fail-remain-collision-262",
+    "question": "未在碰撞现场停留会被记多少扣分？",
+    "choices": [
+      "3 分",
+      "5 分",
+      "6 分",
+      "7 分"
+    ],
+    "correctIndex": 3,
+    "explanation": "未在碰撞现场停留会被记 7 分扣分。",
+    "image": "/signs/q-fail-remain-collision-262.png"
+  },
+  {
+    "id": "q-263",
+    "question": "在挡风玻璃部分被雪或冰覆盖的情况下，什么时候可以驾驶？",
+    "choices": [
+      "从不；驾驶前必须完全清理挡风玻璃和车窗",
+      "只要能直接看到前方",
+      "仅在低速时",
+      "仅当雨刷正常工作时"
+    ],
+    "correctIndex": 0,
+    "explanation": "驾驶员在驾驶前必须确保各个方向视线清晰。",
+    "image": "/signs/q-263-windshield-covered-snow.png"
+  },
+  {
+    "id": "q-report-collision-damage-264",
+    "question": "如果发生机动车碰撞，出现人员受伤或财产总损失超过多少金额时，必须向警方报告？",
+    "choices": [
+      "$100",
+      "$300",
+      "$500",
+      "$1000"
+    ],
+    "correctIndex": 3,
+    "explanation": "在安大略省，如果有人受伤或总损失超过 1000 美元，必须向警方报告碰撞。",
+    "image": "/signs/q-collision-damage.png"
+  },
+  {
+    "id": "q-265",
+    "question": "在大多数乘用车中，安装儿童安全座椅最安全的位置是哪里？",
+    "choices": [
+      "后排座位，远离已启用的安全气囊",
+      "前排座位并开启安全气囊",
+      "前排长椅座位的中间",
+      "驾驶员座位旁边"
+    ],
+    "correctIndex": 0,
+    "explanation": "后排通常最安全，尤其要远离安全气囊。",
+    "image": "/signs/q-31-child-seat.png"
+  },
+  {
+    "id": "q-266",
+    "question": "正确佩戴的安全带应当：",
+    "choices": [
+      "腰带低位系在髋部，肩带横跨胸部",
+      "横过腹部和颈部",
+      "为舒适起见放在腋下",
+      "松松地系着以便自由移动"
+    ],
+    "correctIndex": 0,
+    "explanation": "正确佩戴安全带可在碰撞时降低受伤风险。",
+    "image": "/signs/q-266-seatbelt.png"
+  },
+  {
+    "id": "q-267",
+    "question": "在雨、雪或能见度差的情况下，应如何调整跟车距离？",
+    "choices": [
+      "增加到两秒以上",
+      "减少到两秒以下",
+      "保持完全相同",
+      "紧跟大型车辆后方"
+    ],
+    "correctIndex": 0,
+    "explanation": "恶劣条件需要更大的安全距离以便安全停车。",
+    "image": "/signs/q-267-snow-distance.png"
+  },
+  {
+    "id": "q-268",
+    "question": "在下陡峭且结冰的山坡时，应当：",
+    "choices": [
+      "使用低挡并轻踩刹车",
+      "挂空挡滑行",
+      "持续猛踩刹车",
+      "加速以减少在坡上的时间"
+    ],
+    "correctIndex": 0,
+    "explanation": "低挡和轻柔制动有助于在湿滑坡道上保持控制。",
+    "image": "/signs/q-268-icy-hill.png"
+  },
+  {
+    "id": "q-269",
+    "question": "当你左转时，若为绿灯但没有绿色箭头，意味着：",
+    "choices": [
+      "在道路畅通并礼让对向车辆和行人后可以左转",
+      "你对对向车辆拥有优先通行权",
+      "必须等待绿色箭头才能左转",
+      "任何时候都不能左转"
+    ],
+    "correctIndex": 0,
+    "explanation": "普通绿灯允许左转，但不提供受保护的优先通行权。",
+    "image": "/signs/q-269-turn-left-on-green.png"
+  },
+  {
+    "id": "q-270",
+    "question": "从车道或私人道路进入主路时，必须：",
+    "choices": [
+      "让主路上的所有车辆先行",
+      "期望主路上的车辆让你先行",
+      "迅速进入且不停车",
+      "按喇叭并前进"
+    ],
+    "correctIndex": 0,
+    "explanation": "进入道路的车辆必须让已在道路上的车辆先行。",
+    "image": "/signs/q-253-back-up-driveway.png"
+  },
+  {
+    "id": "q-fail-stop-police-271",
+    "question": "未在警方示意下停车会被记多少扣分？",
+    "choices": [
+      "2 分",
+      "4 分",
+      "6 分",
+      "7 分"
+    ],
+    "correctIndex": 3,
+    "explanation": "未按警方指示停车将被记 7 分扣分。",
+    "image": "/signs/q-fail-stop-police-271.png"
+  },
+  {
+    "id": "q-272",
+    "question": "一个黄色圆形标志，上有黑色“X”和两个“R”，警告：",
+    "choices": [
+      "前方有铁路道口",
+      "医院区域",
+      "前方有环岛",
+      "前方有隧道"
+    ],
+    "correctIndex": 0,
+    "explanation": "铁路提前警告标志提醒驾驶员前方有铁路轨道交叉口。",
+    "image": "/signs/q-272-X-and-2R.png"
+  },
+  {
+    "id": "q-273",
+    "question": "“装卸区”标志通常表示：",
+    "choices": [
+      "仅在正在装卸货物或乘客时允许停车",
+      "可以全天停车",
+      "仅公交车可以停车",
+      "禁止停车"
+    ],
+    "correctIndex": 0,
+    "explanation": "装卸区仅允许在装卸货物或乘客时短暂停车。",
+    "image": "/signs/q-273-loadin-zone.png"
+  },
+  {
+    "id": "q-274",
+    "question": "在市区，当公交车打信号准备离开车站时，你应当：",
+    "choices": [
+      "在安全情况下让行，让公交车重新进入车流",
+      "加速在其启动前超越",
+      "无视信号并保持速度",
+      "持续按喇叭直到它停留在车站"
+    ],
+    "correctIndex": 0,
+    "explanation": "当公交车发出信号时，驾驶员应让其安全地重新进入车流。",
+    "image": "/signs/q-274-transit-bus-leaving.png"
+  },
+  {
+    "id": "q-275",
+    "question": "左转穿过对向车流时，应在何时开始转弯？",
+    "choices": [
+      "当有足够大的间隙可以完成转弯而不会迫使其他驾驶员突然减速时",
+      "当看到一辆车在你后面转弯时",
+      "当信号灯即将变红时",
+      "当对向车辆闪灯时"
+    ],
+    "correctIndex": 0,
+    "explanation": "左转不得干扰对向车流。应选择安全且足够的间隙。",
+    "image": "/signs/q-275-turning-left.png"
+  },
+  {
+    "id": "q-276",
+    "question": "在安大略省闯红灯可能会导致：",
+    "choices": [
+      "罚款并在驾驶记录上记扣分",
+      "如果没有撞到任何人则没有处罚",
+      "仅收到一封警告信",
+      "每次都会没收你的车辆"
+    ],
+    "correctIndex": 0,
+    "explanation": "不遵守交通信号灯是严重违法行为，会被罚款并记扣分。",
+    "image": "/signs/q-276-running-on-red.png"
+  },
+  {
+    "id": "q-277",
+    "question": "在有路缘石的上坡路平行停车时，前轮应如何转动？",
+    "choices": [
+      "远离路缘石",
+      "朝向路缘石",
+      "保持直行",
+      "无所谓"
+    ],
+    "correctIndex": 0,
+    "explanation": "将车轮朝远离路缘石方向转动有助于防止车辆滑入车流。",
+    "image": "/signs/q-parking-uphill-curb-181.png"
+  },
+  {
+    "id": "q-278",
+    "question": "在有路缘石的下坡路停车时，前轮应如何转动？",
+    "choices": [
+      "朝向路缘石",
+      "远离路缘石",
+      "保持直行",
+      "任何方向都可以"
+    ],
+    "correctIndex": 0,
+    "explanation": "将车轮朝向路缘石转动有助于在车辆滑动时被路缘石阻挡。",
+    "image": "/signs/q-curb-downhill-45.png"
+  },
+  {
+    "id": "q-demerit-racing-279",
+    "question": "一名驾驶员因极高速的特技驾驶或街头赛车被定罪。在安大略省，这类行为会被记多少扣分？",
+    "choices": [
+      "3 分",
+      "4 分",
+      "6 分",
+      "7 分"
+    ],
+    "correctIndex": 2,
+    "explanation": "特技驾驶或街头赛车会被记 6 分扣分，并伴随严厉处罚。",
+    "image": "/signs/q-demerit-racing-279.png"
+  },
+  {
+    "id": "q-demerit-new-fully-licensed-280",
+    "question": "对于在安大略省持有正式驾照的驾驶员，累积多少扣分可能会导致驾照被吊销？",
+    "choices": [
+      "9 分",
+      "12 分",
+      "14 分",
+      "15 分或以上"
+    ],
+    "correctIndex": 3,
+    "explanation": "对于正式驾照驾驶员，累积 15 分或以上可能会导致驾照被吊销。",
+    "image": "/signs/q-demerit-new-fully-licensed-135.png"
+  }
 ]
