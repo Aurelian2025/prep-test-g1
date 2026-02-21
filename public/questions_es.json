@@ -1430,69 +1430,134 @@
     "image": "/signs/no-parking.jpg"
   },
   {
-    "id": "q-bus-rail-106",
-    "question": "¿Cuántos puntos de demérito recibe un conductor de autobús que no se detiene en un cruce ferroviario sin protección?",
+    "id": "q-follow-closely-111",
+    "question": "Following another vehicle too closely results in how many demerit points?",
     "choices": [
-      "3 puntos de demérito",
-      "4 puntos de demérito",
-      "5 puntos de demérito",
-      "6 puntos de demérito"
+      "2 demerit points",
+      "3 demerit points",
+      "4 demerit points",
+      "6 demerit points"
     ],
     "correctIndex": 2,
-    "explanation": "Los conductores de autobús deben detenerse en los cruces sin protección; no hacerlo resulta en 5 puntos.",
-    "image": "/signs/q-bus-rail-106.png"
+    "explanation": "Following too closely carries 4 demerit points.",
+    "image": "/signs/q-tailgater-189.png"
   },
   {
-    "id": "q-rules-no-entry-oneway-107",
-    "question": "Se acerca a esta señal de NO ENTRY al final de una calle. ¿Qué le indica sobre esa vía?",
+    "id": "q-rules-hill-downgrade-112",
+    "question": "You see this steep hill sign before a long downgrade. What gear and braking strategy is safest?",
     "choices": [
-      "La vía es de un solo sentido hacia usted; no debe entrar",
-      "La vía está cerrada solo por la noche",
-      "Puede entrar pero debe girar a la izquierda de inmediato",
-      "Es solo una sugerencia usar otra ruta"
+      "Select a lower gear before the hill and brake gently as needed",
+      "Shift into Neutral and coast to save fuel",
+      "Use only the parking brake on the way down",
+      "Accelerate to get the hill over with quickly"
     ],
     "correctIndex": 0,
-    "explanation": "Las señales de no entry significan que usted está frente a la dirección incorrecta de circulación para esa vía o carril. No debe entrar.",
-    "image": "/signs/do-not-enter.jpg"
+    "explanation": "On long downhills, using a lower gear helps control speed and prevents brakes from overheating.",
+    "image": "/signs/steep-hill-downgrade.jpg"
   },
   {
-    "id": "q-speed-50plus-108",
-    "question": "¿Cuántos puntos de demérito se emiten por conducir 50 km/h o más por encima del límite indicado?",
+    "id": "q-rules-slippery-curve-113",
+    "question": "It begins to rain and you see this SLIPPERY WHEN WET sign on a curve. How should you drive?",
     "choices": [
-      "3 puntos de demérito",
-      "4 puntos de demérito",
-      "5 puntos de demérito",
-      "6 puntos de demérito"
+      "Slow down before the curve and avoid sudden steering or braking",
+      "Brake hard in the middle of the curve to test traction",
+      "Turn off your headlights",
+      "Use cruise control to keep a steady speed"
     ],
-    "correctIndex": 3,
-    "explanation": "Conducir 50 km/h o más por encima del límite conlleva 6 puntos de demérito.",
-    "image": "/signs/q-speed-50plus-108.png"
+    "correctIndex": 0,
+    "explanation": "On slippery curves you should reduce speed before entering and avoid sudden movements that could cause a skid.",
+    "image": "/signs/slippery-when-wet.jpg"
   },
   {
-    "id": "q-alcohol-109",
-    "question": "Si un conductor menor de 21 años tiene cualquier cantidad de alcohol en su sistema mientras conduce, él o ella:",
+    "id": "q-rules-winding-road-visibility-114",
+    "question": "You see this winding road sign and heavy fog ahead. What is the safest choice?",
     "choices": [
-      "Puede recibir solo una advertencia",
-      "Está sujeto a tolerancia cero y suspensión de licencia",
-      "Puede continuar si está acompañado por un adulto",
-      "Está exento los fines de semana"
+      "Slow down, increase following distance and use low beams",
+      "Speed up to leave the area faster",
+      "Use high beams so the fog looks brighter",
+      "Follow the vehicle ahead closely to use its lights"
+    ],
+    "correctIndex": 0,
+    "explanation": "In fog on a winding road, reduce speed, leave extra space and use low beams so light does not reflect back at you.",
+    "image": "/signs/winding-road.jpg"
+  },
+  {
+    "id": "q-fatigue-115",
+    "question": "You feel drowsy while driving at night. What should you do?",
+    "choices": [
+      "Open the window and turn up music",
+      "Pull over safely and rest",
+      "Drive faster to finish sooner",
+      "Drink coffee and keep going"
     ],
     "correctIndex": 1,
-    "explanation": "Ontario tiene un requisito de BAC cero para conductores menores de 21 años y para conductores novatos (G1/G2).",
-    "image": "/signs/q-28-impaired-driver.png"
+    "explanation": "If you’re sleepy, stop in a safe place and rest. Fatigue is dangerous.",
+    "image": "/signs/q-29-driver-tired.png"
   },
   {
-    "id": "q-rules-no-stopping-like-sign-110",
-    "question": "Una señal diferente muestra un círculo rojo con una barra sobre un símbolo de detenerse. ¿En qué se diferencia de esta señal de no estacionar?",
+    "id": "q-approaching-pedestrian-116",
+    "question": "You see a pedestrian standing at the edge of an uncontrolled crosswalk. What should you do?",
     "choices": [
-      "No detenerse significa que no puede detener su vehículo en absoluto, ni siquiera brevemente",
-      "No detenerse significa que el estacionamiento está permitido solo por la noche",
-      "No detenerse y no estacionar significan exactamente lo mismo",
-      "No detenerse se aplica solo a bicicletas"
+      "Speed up to pass before they step out",
+      "Be prepared to yield and allow the pedestrian to cross safely",
+      "Ignore them because there is no traffic light",
+      "Honk to discourage them from crossing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be prepared to yield to pedestrians at crosswalks and allow them to cross safely.",
+    "image": "/signs/q-approaching-pedestrian-75.png"
+  },
+  {
+    "id": "q-rules-wheelchair-accessible-117",
+    "question": "You see this wheelchair symbol at a parking space. What must you do as a driver without an accessible parking permit?",
+    "choices": [
+      "You must not park in the marked accessible space",
+      "You may park there for a quick errand",
+      "You may park there at night only",
+      "You may park if you leave your hazard lights on"
     ],
     "correctIndex": 0,
-    "explanation": "Las señales de no estacionar permiten paradas breves para cargar o descargar pasajeros o mercancías. Las señales de no detenerse no permiten detener el vehículo en absoluto, excepto para obedecer el control del tráfico.",
-    "image": "/signs/no-parking.jpg"
+    "explanation": "Accessible parking spaces are reserved for vehicles displaying a valid accessible parking permit.",
+    "image": "/signs/wheelchair-accessible.jpg"
+  },
+  {
+    "id": "q-driver-distraction-118",
+    "question": "Which of the following is an example of a dangerous distraction while driving?",
+    "choices": [
+      "Checking mirrors regularly",
+      "Scanning the road ahead",
+      "Texting or using a handheld phone",
+      "Adjusting your seat before driving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using a handheld phone or texting while driving is a dangerous distraction and is illegal in Ontario.",
+    "image": "/signs/q-driver-distraction-74.png"
+  },
+  {
+    "id": "q-hydroplaning-prevent-119",
+    "question": "Which action helps reduce the risk of hydroplaning?",
+    "choices": [
+      "Driving faster in the rain",
+      "Using worn tires",
+      "Reducing speed on wet roads and ensuring tires are in good condition",
+      "Coasting in Neutral"
+    ],
+    "correctIndex": 2,
+    "explanation": "Slowing down in wet conditions and having good tires with proper tread helps prevent hydroplaning.",
+    "image": "/signs/q-hydroplaning-prevent-73.png"
+  },
+  {
+    "id": "q-demerit-interview-120",
+    "question": "Under Ontario’s demerit point system, at what point total may a driver be required to attend an interview and undergo a re-examination of driving skills?",
+    "choices": [
+      "When 9 demerit points have been accumulated",
+      "When 3 demerit points have been accumulated",
+      "When 6 demerit points have been accumulated",
+      "When 15 demerit points have been accumulated"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a fully licensed driver reaches 9 demerit points, the Ministry may require the driver to attend an interview and may order a re-examination to assess driving ability.",
+    "image": "/signs/q-demerit-interview.png"
   },
   {
     "id": "q-divided-highway-ends-121",
