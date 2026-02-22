@@ -1,3 +1,4 @@
+
 // pages/index.js
 import { useEffect, useState } from "react";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
@@ -19,36 +20,45 @@ const styles = {
     margin: "0 auto",
     padding: "16px 16px 40px",
   },
+
   header: {
-    position: "sticky",
-    top: 0,
-    zIndex: 20,
-    background: "#f4f4ff",
-    padding: "8px 0 10px",
-    marginBottom: 12,
-    borderBottom: "1px solid #dde0ff",
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: 900,
-    margin: 0,
-    color: "#0353a4",
-  },
-  buttonsRow: {
-    display: "flex",
-    gap: 8,
-    justifyContent: "flex-end",
-    marginTop: 8,
-    flexWrap: "wrap",
-  },
-  btn: {
-    border: "none",
-    borderRadius: 999,
-    padding: "6px 12px",
-    fontSize: 13,
-    cursor: "pointer",
-    boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
-  },
+  position: "sticky",
+  top: 0,
+  zIndex: 20,
+  background: "#f4f4ff",
+  padding: "8px 0 10px",
+  marginBottom: 12,
+  borderBottom: "1px solid #dde0ff",
+  textAlign: "center",
+},
+
+title: {
+  fontSize: 24,
+  fontWeight: 900,
+  margin: 0,
+  color: "#0353a4",
+  whiteSpace: "nowrap",
+},
+
+scrollRow: {
+  display: "flex",
+  gap: 8,
+  overflowX: "auto",
+  padding: "6px 0",
+  marginTop: 8,
+},
+
+btn: {
+  border: "none",
+  borderRadius: 999,
+  padding: "6px 12px",
+  fontSize: 13,
+  cursor: "pointer",
+  boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+  whiteSpace: "nowrap",
+  flex: "0 0 auto",
+},
+
   card: {
     marginTop: 16,
     background: "#fff",
@@ -57,6 +67,7 @@ const styles = {
     boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
     transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
+
   metaRow: {
     display: "flex",
     justifyContent: "space-between",
@@ -66,6 +77,7 @@ const styles = {
     color: "#4c6fff",
     marginBottom: 12,
   },
+
   progressOuter: {
     width: "100%",
     height: 6,
@@ -74,22 +86,17 @@ const styles = {
     overflow: "hidden",
     marginBottom: 10,
   },
+
   progressInner: {
     height: "100%",
     borderRadius: 999,
     background: "#4c6fff",
     transition: "width 0.25s ease",
   },
-  imgWrap: {
-    textAlign: "center",
-    marginBottom: 12,
-  },
-  img: {
-    maxWidth: 200,
-    maxHeight: 160,
-    width: "auto",
-    height: "auto",
-  },
+
+  imgWrap: { textAlign: "center", marginBottom: 12 },
+  img: { maxWidth: 200, maxHeight: 160 },
+
   promptArea: {
     minHeight: 220,
     display: "flex",
@@ -97,16 +104,11 @@ const styles = {
     justifyContent: "flex-end",
     marginBottom: 8,
   },
-  questionText: {
-    fontSize: 16,
-    fontWeight: 600,
-    marginBottom: 10,
-  },
-  choices: {
-    listStyle: "none",
-    padding: 0,
-    margin: "8px 0",
-  },
+
+  questionText: { fontSize: 16, fontWeight: 600, marginBottom: 10 },
+
+  choices: { listStyle: "none", padding: 0, margin: "8px 0" },
+
   choiceBtn: (idx, picked, correctIndex, done) => {
     let border = "#d0d0ff";
     let background = "#f8f8ff";
@@ -138,6 +140,7 @@ const styles = {
       fontSize: 14,
     };
   },
+
   submitBtn: (disabled) => ({
     border: "none",
     borderRadius: 999,
@@ -148,6 +151,7 @@ const styles = {
     color: "#fff",
     marginTop: 4,
   }),
+
   explanation: {
     marginTop: 10,
     padding: "8px 10px",
@@ -669,7 +673,9 @@ export default function PrepTestG1() {
   const start241 = () => startByIndex(240, 279, 240);
 
   const renderButtons = () => (
-    <div style={styles.buttonsRow}>
+  <>
+    {/* ROW 1 */}
+    <div style={styles.scrollRow}>
       <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
         Start 1–40
       </button>
@@ -682,6 +688,10 @@ export default function PrepTestG1() {
       <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
         Start 121–160
       </button>
+    </div>
+
+    {/* ROW 2 */}
+    <div style={styles.scrollRow}>
       <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
         Start 161–200
       </button>
@@ -691,8 +701,30 @@ export default function PrepTestG1() {
       <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
         Start 241–280
       </button>
+
+      {/* language dropdown */}
+      <select value={lang} onChange={handleLangChange}>
+        <option value="" disabled>
+          Choose Language
+        </option>
+        {LANGUAGES.filter((l) => l.code !== "").map((l) => (
+          <option key={l.code} value={l.code}>
+            {l.label}
+          </option>
+        ))}
+      </select>
+
+      {/* login */}
+      {isFull ? (
+        <button onClick={handleLogout}>Sign out</button>
+      ) : (
+        <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
+          Login
+        </button>
+      )}
     </div>
-  );
+  </>
+);
 
   /* =========================
      CHECKPOINTS
@@ -743,33 +775,8 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                gap: 12,
-                flexWrap: "wrap",
-              }}
-            >
-              <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-              <div style={{ display: "flex", gap: 8 }}>
-                <select value={lang} onChange={handleLangChange}>
-                  <option value="" disabled>
-                    Choose Language
-                  </option>
-                  {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-                    <option key={l.code} value={l.code}>
-                      {l.label}
-                    </option>
-                  ))}
-                </select>
-                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
-                  Login
-                </button>
-              </div>
-            </div>
-            {renderButtons()}
+            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+{renderButtons()}
           </div>
           <div style={styles.card}>
             <p>Loading questions…</p>
@@ -840,40 +847,8 @@ export default function PrepTestG1() {
 
       <div style={styles.container}>
         <div style={styles.header}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              gap: 12,
-              flexWrap: "wrap",
-            }}
-          >
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-
-            <div style={{ display: "flex", gap: 8 }}>
-              <select value={lang} onChange={handleLangChange}>
-                <option value="" disabled>
-                  Choose Language
-                </option>
-                {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-                  <option key={l.code} value={l.code}>
-                    {l.label}
-                  </option>
-                ))}
-              </select>
-
-              {isFull ? (
-                <button onClick={handleLogout}>Sign out</button>
-              ) : (
-                <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
-                  Login
-                </button>
-              )}
-            </div>
-          </div>
-
-          {renderButtons()}
+          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+{renderButtons()}
         </div>
 
         <div style={styles.card}>
