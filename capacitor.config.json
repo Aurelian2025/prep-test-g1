@@ -1,0 +1,9 @@
+{
+  "appId": "com.ontario.g1practice",
+  "appName": "Ontario G1 Practice Test",
+  "webDir": "public",
+  "server": {
+    "url": "https://g1-q8un.vercel.app",
+    "cleartext": true
+  }
+}
