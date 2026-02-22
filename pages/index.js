@@ -47,7 +47,15 @@ scrollRow: {
   padding: "6px 0",
   marginTop: 8,
 },
-
+centerRow: {
+  display: "flex",
+  gap: 10,
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "10px 0",
+  marginTop: 6,
+  flexWrap: "wrap",
+},
 btn: {
   border: "none",
   borderRadius: 999,
@@ -704,7 +712,7 @@ export default function PrepTestG1() {
     </div>
 
     {/* ROW 3 */}
-    <div style={styles.scrollRow}>
+    <div style={styles.centerRow}>
       <select value={lang} onChange={handleLangChange}>
         <option value="" disabled>
           Choose Language
