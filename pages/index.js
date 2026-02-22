@@ -672,7 +672,7 @@ export default function PrepTestG1() {
   const start201 = () => startByIndex(200, 239, 200);
   const start241 = () => startByIndex(240, 279, 240);
 
-  const renderButtons = () => (
+ const renderButtons = () => (
   <>
     {/* ROW 1 */}
     <div style={styles.scrollRow}>
@@ -701,8 +701,10 @@ export default function PrepTestG1() {
       <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
         Start 241–280
       </button>
+    </div>
 
-      {/* language dropdown */}
+    {/* ROW 3 */}
+    <div style={styles.scrollRow}>
       <select value={lang} onChange={handleLangChange}>
         <option value="" disabled>
           Choose Language
@@ -714,7 +716,6 @@ export default function PrepTestG1() {
         ))}
       </select>
 
-      {/* login */}
       {isFull ? (
         <button onClick={handleLogout}>Sign out</button>
       ) : (
