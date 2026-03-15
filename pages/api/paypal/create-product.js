@@ -30,11 +30,10 @@ export default async function handler(req, res) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: "G1 Practice Premium",
-          description: "Monthly premium access",
-          type: "SERVICE",
-          category: "EDUCATION",
-        }),
+  name: "G1 Practice Premium",
+  description: "Monthly premium access",
+  type: "SERVICE"
+}),
       }
     );
 
