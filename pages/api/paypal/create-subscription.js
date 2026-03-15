@@ -1,50 +1,78 @@
+import { createServerSupabaseClient } from '@supabase/auth-helpers-nextjs';
+
 export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+
   try {
+    // Get logged-in user session
+    const supabase = createServerSupabaseClient({ req, res });
+    const {
+      data: { session },
+    } = await supabase.auth.getSession();
+
+    if (!session) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const userId = session.user.id;
+
+    // Get PayPal access token
     const auth = Buffer.from(
       `${process.env.PAYPAL_CLIENT_ID}:${process.env.PAYPAL_SECRET}`
-    ).toString("base64");
+    ).toString('base64');
 
-    // 1️⃣ Get Access Token
     const tokenRes = await fetch(
       `${process.env.PAYPAL_BASE}/v1/oauth2/token`,
       {
-        method: "POST",
+        method: 'POST',
         headers: {
           Authorization: `Basic ${auth}`,
-          "Content-Type": "application/x-www-form-urlencoded",
+          'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: "grant_type=client_credentials",
+        body: 'grant_type=client_credentials',
       }
     );
 
     const tokenData = await tokenRes.json();
+
+    if (!tokenRes.ok) {
+      return res.status(400).json(tokenData);
+    }
+
     const accessToken = tokenData.access_token;
 
-    // 2️⃣ Create Subscription
+    // Create subscription tied to user ID
     const subRes = await fetch(
       `${process.env.PAYPAL_BASE}/v1/billing/subscriptions`,
       {
-        method: "POST",
+        method: 'POST',
         headers: {
           Authorization: `Bearer ${accessToken}`,
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          plan_id: "P-6FB9846876198302PNG3KW7Q",
+          plan_id: process.env.PAYPAL_PLAN_ID,
+          custom_id: userId,
           application_context: {
-            brand_name: "G1 Practice Test",
-            return_url: "https://g1-q8un.vercel.app/success",
-            cancel_url: "https://g1-q8un.vercel.app/cancel",
-            user_action: "SUBSCRIBE_NOW"
-          }
-        })
+            brand_name: 'G1 Practice Test',
+            return_url: 'https://g1-q8un.vercel.app/checkout-success',
+            cancel_url: 'https://g1-q8un.vercel.app/subscribe',
+            user_action: 'SUBSCRIBE_NOW',
+          },
+        }),
       }
     );
 
     const subData = await subRes.json();
 
-    res.status(200).json(subData);
+    if (!subRes.ok) {
+      return res.status(400).json(subData);
+    }
+
+    return res.status(200).json(subData);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    return res.status(500).json({ error: error.message });
   }
 }
