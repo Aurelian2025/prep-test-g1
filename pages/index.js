@@ -1,7 +1,6 @@
-
 // pages/index.js
 import { useEffect, useState } from "react";
-import { useSupabaseClient } from "@supabase/auth-helpers-react";
+import { useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
 
 /* =========================
    STYLES
@@ -22,50 +21,50 @@ const styles = {
   },
 
   header: {
-  position: "sticky",
-  top: 0,
-  zIndex: 20,
-  background: "#f4f4ff",
-  padding: "8px 0 10px",
-  marginBottom: 12,
-  borderBottom: "1px solid #dde0ff",
-  textAlign: "center",
-},
+    position: "sticky",
+    top: 0,
+    zIndex: 20,
+    background: "#f4f4ff",
+    padding: "8px 0 10px",
+    marginBottom: 12,
+    borderBottom: "1px solid #dde0ff",
+    textAlign: "center",
+  },
 
-title: {
-  fontSize: 24,
-  fontWeight: 900,
-  margin: 0,
-  color: "#0353a4",
-  whiteSpace: "nowrap",
-},
+  title: {
+    fontSize: 24,
+    fontWeight: 900,
+    margin: 0,
+    color: "#0353a4",
+    whiteSpace: "nowrap",
+  },
 
-scrollRow: {
-  display: "flex",
-  gap: 8,
-  overflowX: "auto",
-  padding: "6px 0",
-  marginTop: 8,
-},
-centerRow: {
-  display: "flex",
-  gap: 10,
-  justifyContent: "center",
-  alignItems: "center",
-  padding: "10px 0",
-  marginTop: 6,
-  flexWrap: "wrap",
-},
-btn: {
-  border: "none",
-  borderRadius: 999,
-  padding: "6px 12px",
-  fontSize: 13,
-  cursor: "pointer",
-  boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
-  whiteSpace: "nowrap",
-  flex: "0 0 auto",
-},
+  scrollRow: {
+    display: "flex",
+    gap: 8,
+    overflowX: "auto",
+    padding: "6px 0",
+    marginTop: 8,
+  },
+  centerRow: {
+    display: "flex",
+    gap: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "10px 0",
+    marginTop: 6,
+    flexWrap: "wrap",
+  },
+  btn: {
+    border: "none",
+    borderRadius: 999,
+    padding: "6px 12px",
+    fontSize: 13,
+    cursor: "pointer",
+    boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+    whiteSpace: "nowrap",
+    flex: "0 0 auto",
+  },
 
   card: {
     marginTop: 16,
@@ -172,10 +171,8 @@ btn: {
 /* =========================
    CONSTANTS
 ========================= */
-const ACCESS_STORAGE_KEY = "g1_access_key";
 const LANGUAGE_STORAGE_KEY = "g1_lang";
 const PREVIEW_COUNT = 20;
-const OWNER_PASSWORD = "Lucas1";
 
 /* =========================
    LANGUAGE CONFIG
@@ -195,7 +192,6 @@ const LANGUAGES = [
 ];
 
 function getLangConfig(code) {
-  // internal default language = English
   const effective = code || "en";
   return LANGUAGES.find((l) => l.code === effective) || LANGUAGES[1];
 }
@@ -213,7 +209,6 @@ function shuffleArray(arr) {
 }
 
 function normalizeQuestion(raw) {
-  // Make French/Spanish tolerant if their JSON keys differ
   const question =
     raw?.question ?? raw?.q ?? raw?.prompt ?? raw?.text ?? raw?.Question;
 
@@ -225,7 +220,6 @@ function normalizeQuestion(raw) {
     raw?.Options ??
     raw?.Answers;
 
-  // correct index can be various forms
   let correctIndex =
     raw?.correctIndex ??
     raw?.correct_index ??
@@ -236,7 +230,6 @@ function normalizeQuestion(raw) {
     raw?.CorrectIndex ??
     raw?.AnswerIndex;
 
-  // Sometimes correct is "A"/"B"/"C"/"D"
   const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
   if (
     (correctIndex === undefined || correctIndex === null) &&
@@ -249,14 +242,11 @@ function normalizeQuestion(raw) {
     }
   }
 
-  // Sometimes correct is 1..4
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "number"
   ) {
-    // if 1..4
     if (correctLetter >= 1 && correctLetter <= 4) correctIndex = correctLetter - 1;
-    // if 0..3
     if (correctLetter >= 0 && correctLetter <= 3) correctIndex = correctLetter;
   }
 
@@ -272,7 +262,11 @@ function normalizeQuestion(raw) {
   const image = raw?.image ?? raw?.img ?? raw?.Image ?? raw?.Img ?? null;
 
   if (!question || !Array.isArray(choices) || choices.length < 2) return null;
-  if (typeof correctIndex !== "number" || correctIndex < 0 || correctIndex >= choices.length)
+  if (
+    typeof correctIndex !== "number" ||
+    correctIndex < 0 ||
+    correctIndex >= choices.length
+  )
     return null;
 
   return { question, choices, correctIndex, explanation, image };
@@ -399,16 +393,10 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
 ========================= */
 export default function PrepTestG1() {
   const supabase = useSupabaseClient();
+  const user = useUser();
 
-  // language
-  const [lang, setLang] = useState(""); // placeholder displayed; internal default = English
-
-  // access
+  const [lang, setLang] = useState("");
   const [hasAccess, setHasAccess] = useState(false);
-  const [passwordInput, setPasswordInput] = useState("");
-  const [ownerOverride, setOwnerOverride] = useState(false);
-  const [accessError, setAccessError] = useState("");
-  const [authGateOpen, setAuthGateOpen] = useState(false);
 
   // quiz
   const [allQuestions, setAllQuestions] = useState(null);
@@ -431,8 +419,8 @@ export default function PrepTestG1() {
   const [globalBase, setGlobalBase] = useState(0);
   const [globalTotal, setGlobalTotal] = useState(0);
 
-  const isPreview = !authGateOpen && !hasAccess && !ownerOverride;
-  const isFull = hasAccess || ownerOverride;
+  const isPreview = !hasAccess;
+  const isFull = hasAccess;
 
   const effectiveLang = lang || "en";
 
@@ -454,7 +442,6 @@ export default function PrepTestG1() {
       localStorage.setItem(LANGUAGE_STORAGE_KEY, code);
     } catch (_) {}
 
-    // reset quiz without reload
     setAllQuestions(null);
     setQuestions([]);
     setCurrent(0);
@@ -469,16 +456,14 @@ export default function PrepTestG1() {
   };
 
   /* =========================
-     LOAD QUESTIONS (ROBUST)
+     LOAD QUESTIONS
   ========================= */
   useEffect(() => {
     let cancelled = false;
-
     const cfg = getLangConfig(effectiveLang);
 
     (async () => {
       try {
-        // cache-bust to avoid stale dev caching
         const url = `${cfg.file}?v=${Date.now()}`;
         const r = await fetch(url, { cache: "no-store" });
         const data = await r.json();
@@ -492,9 +477,7 @@ export default function PrepTestG1() {
           return;
         }
 
-        // normalize first (THIS fixes French/Spanish if field names differ)
         const normalized = data.map(normalizeQuestion).filter(Boolean);
-
         const ordered = normalized.map(shuffleQuestionChoices);
 
         setAllQuestions(ordered);
@@ -517,94 +500,51 @@ export default function PrepTestG1() {
   const hasQuestionsFlag = questions.length > 0;
 
   /* =========================
-     ACCESS HELPERS
+     ACCESS: check Supabase profile subscription
   ========================= */
-  async function validateKeyAgainstSupabase(accessKey) {
-    if (!accessKey) return { ok: false };
+  useEffect(() => {
+    let cancelled = false;
 
-    const { data } = await supabase
-      .from("access_keys")
-      .select("key, expires_at, disabled")
-      .eq("key", accessKey)
-      .maybeSingle();
+    async function checkAccess() {
+      try {
+        if (!user?.id) {
+          if (!cancelled) setHasAccess(false);
+          return;
+        }
 
-    if (!data) return { ok: false };
-    if (data.disabled) return { ok: false };
+        const { data: profile, error } = await supabase
+          .from("profiles")
+          .select("is_subscribed,subscription_status")
+          .eq("id", user.id)
+          .maybeSingle();
 
-    const expired =
-      !data.expires_at || new Date(data.expires_at).getTime() <= Date.now();
-    if (expired) return { ok: false };
+        if (error || !profile) {
+          if (!cancelled) setHasAccess(false);
+          return;
+        }
 
-    return { ok: true };
-  }
+        const active =
+          !!profile.is_subscribed ||
+          profile.subscription_status === "ACTIVE" ||
+          profile.subscription_status === "active";
 
-  function clearAccess() {
-    try {
-      localStorage.removeItem(ACCESS_STORAGE_KEY);
-    } catch (_) {}
-    setHasAccess(false);
-    setOwnerOverride(false);
-    setPasswordInput("");
-  }
-
-  async function openAuthGate({ tryAutoLogin } = { tryAutoLogin: true }) {
-    setAccessError("");
-    setAuthGateOpen(true);
-
-    if (!tryAutoLogin) return;
-
-    let savedKey = null;
-    try {
-      savedKey = localStorage.getItem(ACCESS_STORAGE_KEY);
-    } catch (_) {}
-
-    if (!savedKey) return;
-
-    const result = await validateKeyAgainstSupabase(savedKey);
-    if (result.ok) {
-      setHasAccess(true);
-      setAuthGateOpen(false);
-      setPasswordInput("");
-    }
-  }
-
-  const handleAccessSubmit = async (e) => {
-    e.preventDefault();
-    setAccessError("");
-
-    const entered = passwordInput.trim();
-    if (!entered) {
-      setAccessError("Enter your password.");
-      return;
+        if (!cancelled) setHasAccess(active);
+      } catch (_) {
+        if (!cancelled) setHasAccess(false);
+      }
     }
 
-    if (entered === OWNER_PASSWORD) {
-      setOwnerOverride(true);
-      setHasAccess(true);
-      setAuthGateOpen(false);
-      setPasswordInput("");
-      return;
-    }
-
-    const result = await validateKeyAgainstSupabase(entered);
-    if (!result.ok) {
-      setAccessError("Incorrect password.");
-      return;
-    }
-
-    try {
-      localStorage.setItem(ACCESS_STORAGE_KEY, entered);
-    } catch (_) {}
-
-    setHasAccess(true);
-    setAuthGateOpen(false);
-    setPasswordInput("");
-  };
+    checkAccess();
+    return () => {
+      cancelled = true;
+    };
+  }, [user?.id, supabase]);
 
   async function handleLogout() {
-    clearAccess();
-    setCheckpointOpen(false);
-    setAuthGateOpen(true);
+    try {
+      await supabase.auth.signOut();
+    } catch (_) {}
+    setHasAccess(false);
   }
 
   /* =========================
@@ -653,8 +593,9 @@ export default function PrepTestG1() {
   const startByIndex = (startIdx, endIdx, baseNumber) => {
     if (!allQuestions) return;
 
+    // If still in preview, starting any set beyond free flow sends to subscribe
     if (isPreview) {
-      openAuthGate({ tryAutoLogin: true });
+      window.location.href = "/subscribe";
       return;
     }
 
@@ -680,60 +621,60 @@ export default function PrepTestG1() {
   const start201 = () => startByIndex(200, 239, 200);
   const start241 = () => startByIndex(240, 279, 240);
 
- const renderButtons = () => (
-  <>
-    {/* ROW 1 */}
-    <div style={styles.scrollRow}>
-      <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
-        Start 1–40
-      </button>
-      <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
-        Start 41–80
-      </button>
-      <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
-        Start 81–120
-      </button>
-      <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
-        Start 121–160
-      </button>
-    </div>
-
-    {/* ROW 2 */}
-    <div style={styles.scrollRow}>
-      <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
-        Start 161–200
-      </button>
-      <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
-        Start 201–240
-      </button>
-      <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
-        Start 241–280
-      </button>
-    </div>
-
-    {/* ROW 3 */}
-    <div style={styles.centerRow}>
-      <select value={lang} onChange={handleLangChange}>
-        <option value="" disabled>
-          Choose Language
-        </option>
-        {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-          <option key={l.code} value={l.code}>
-            {l.label}
-          </option>
-        ))}
-      </select>
-
-      {isFull ? (
-        <button onClick={handleLogout}>Sign out</button>
-      ) : (
-        <button onClick={() => openAuthGate({ tryAutoLogin: true })}>
-          Login
+  const renderButtons = () => (
+    <>
+      {/* ROW 1 */}
+      <div style={styles.scrollRow}>
+        <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
+          Start 1–40
         </button>
-      )}
-    </div>
-  </>
-);
+        <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
+          Start 41–80
+        </button>
+        <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
+          Start 81–120
+        </button>
+        <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
+          Start 121–160
+        </button>
+      </div>
+
+      {/* ROW 2 */}
+      <div style={styles.scrollRow}>
+        <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
+          Start 161–200
+        </button>
+        <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
+          Start 201–240
+        </button>
+        <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
+          Start 241–280
+        </button>
+      </div>
+
+      {/* ROW 3 */}
+      <div style={styles.centerRow}>
+        <select value={lang} onChange={handleLangChange}>
+          <option value="" disabled>
+            Choose Language
+          </option>
+          {LANGUAGES.filter((l) => l.code !== "").map((l) => (
+            <option key={l.code} value={l.code}>
+              {l.label}
+            </option>
+          ))}
+        </select>
+
+        {isFull ? (
+          <button onClick={handleLogout}>Sign out</button>
+        ) : (
+          <button onClick={() => (window.location.href = "/login?next=/subscribe")}>
+            Login
+          </button>
+        )}
+      </div>
+    </>
+  );
 
   /* =========================
      CHECKPOINTS
@@ -747,15 +688,9 @@ export default function PrepTestG1() {
     if (!isPreviewEnd) return;
     if (blockAnswered < PREVIEW_COUNT) return;
 
-    const passed = blockCorrect >= 18;
-
-    setCheckpointScore({
-      correct: blockCorrect,
-      answered: blockAnswered,
-      passed,
-    });
-    setCheckpointOpen(true);
-  }, [isPreview, checkpointOpen, done, inSet, blockAnswered, blockCorrect]);
+    // Immediate redirect to subscribe (no password gate)
+    window.location.href = "/subscribe";
+  }, [isPreview, checkpointOpen, done, inSet, blockAnswered]);
 
   useEffect(() => {
     if (isPreview) return;
@@ -785,44 +720,10 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-{renderButtons()}
+            {renderButtons()}
           </div>
           <div style={styles.card}>
             <p>Loading questions…</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (authGateOpen && !hasAccess && !ownerOverride) {
-    return (
-      <div style={styles.page}>
-        <div style={styles.container}>
-          <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          </div>
-          <div style={styles.card}>
-            <p style={{ fontSize: 14 }}>
-              <strong>Special Access</strong>
-            </p>
-            {accessError && <p style={{ color: "red" }}>{accessError}</p>}
-            <form onSubmit={handleAccessSubmit}>
-              <input
-                type="password"
-                placeholder="Password"
-                value={passwordInput}
-                onChange={(e) => setPasswordInput(e.target.value)}
-                style={{
-                  width: "100%",
-                  padding: 8,
-                  borderRadius: 8,
-                  border: "1px solid #ccc",
-                  marginBottom: 8,
-                }}
-              />
-              <button style={styles.submitBtn(false)}>Use special Pass</button>
-            </form>
           </div>
         </div>
       </div>
@@ -837,11 +738,6 @@ export default function PrepTestG1() {
           answered={checkpointScore.answered}
           passed={checkpointScore.passed}
           onContinue={() => {
-            if (isPreview) {
-              setCheckpointOpen(false);
-              setAuthGateOpen(true);
-              return;
-            }
             setCheckpointOpen(false);
             setBlockAnswered(0);
             setBlockCorrect(0);
@@ -857,7 +753,7 @@ export default function PrepTestG1() {
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-{renderButtons()}
+          {renderButtons()}
         </div>
 
         <div style={styles.card}>
