@@ -44,8 +44,8 @@ export default async function handler(req, res) {
               total_cycles: 0,
               pricing_scheme: {
                 fixed_price: {
-                  value: "9.99",
-                  currency_code: "USD"
+                  value: "15.00",
+                  currency_code: "CAD"
                 }
               }
             }
