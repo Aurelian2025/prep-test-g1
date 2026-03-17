@@ -30,7 +30,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          product_id: "PROD-0LK39758930775509",
+          product_id: "PROD-4HL682851A5663836",
           name: "G1 Monthly Plan",
           description: "Monthly subscription for premium access",
           billing_cycles: [
