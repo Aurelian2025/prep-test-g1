@@ -1,16 +1,24 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
+import { useSupabase } from "../lib/SupabaseContext";
 
 export default function SubscribePage() {
   const router = useRouter();
-  const supabase = useSupabaseClient();
-  const user = useUser();
+  const supabase = useSupabase();
+  const [user, setUser] = useState(null);
 
   const [loading, setLoading] = useState(false);
   const [statusText, setStatusText] = useState("");
   const [profile, setProfile] = useState(null);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+    return () => authListener.subscription.unsubscribe();
+  }, [supabase]);
 
   async function loadProfile() {
     if (!user?.id) return;

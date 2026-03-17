@@ -1,4 +1,4 @@
-import { createServerSupabaseClient } from "@supabase/auth-helpers-nextjs";
+import { createSupabaseServerClient } from "../../../lib/supabaseServer";
 
 function getOrigin(req) {
   const proto =
@@ -37,7 +37,7 @@ export default async function handler(req, res) {
 
   try {
     // 1) Require logged-in user (server verified)
-    const supabase = createServerSupabaseClient({ req, res });
+    const supabase = createSupabaseServerClient(req, res);
     const {
       data: { session },
     } = await supabase.auth.getSession();

@@ -1,11 +1,10 @@
-// pages/signup.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { useSupabaseClient } from '@supabase/auth-helpers-react';
+import { useSupabase } from '../lib/SupabaseContext';
 
 export default function SignupPage() {
-  const supabase = useSupabaseClient();
+  const supabase = useSupabase();
   const router = useRouter();
 
   const [email, setEmail] = useState('');
