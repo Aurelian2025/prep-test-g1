@@ -1,6 +1,6 @@
 // pages/index.js
 import { useEffect, useState } from "react";
-import { useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
+import { useSupabase } from "../lib/SupabaseContext";
 
 /* =========================
    STYLES
@@ -392,8 +392,16 @@ function CheckpointScreen({ correct, answered, passed, onContinue }) {
    MAIN COMPONENT
 ========================= */
 export default function PrepTestG1() {
-  const supabase = useSupabaseClient();
-  const user = useUser();
+  const supabase = useSupabase();
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+    return () => authListener.subscription.unsubscribe();
+  }, [supabase]);
 
   const [lang, setLang] = useState("");
   const [hasAccess, setHasAccess] = useState(false);

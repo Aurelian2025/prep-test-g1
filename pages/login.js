@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import { useSupabaseClient } from "@supabase/auth-helpers-react";
+import { useSupabase } from "../lib/SupabaseContext";
 
 export default function LoginPage() {
   const router = useRouter();
-  const supabase = useSupabaseClient();
+  const supabase = useSupabase();
 
   const nextUrl =
     typeof router.query.next === "string" ? router.query.next : "/";

@@ -1,15 +1,21 @@
 // pages/app/index.js
-import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
+import { useEffect, useState } from 'react';
+import { useSupabase } from '../../lib/SupabaseContext';
 import { withSubscriptionGuard } from '../../lib/withSubscriptionGuard';
 import Link from 'next/link';
 
 export const getServerSideProps = withSubscriptionGuard();
 
 export default function AppHome({ profile }) {
-  const session = useSession();
-  const supabase = useSupabaseClient();
+  const supabase = useSupabase();
+  const [userEmail, setUserEmail] = useState('');
 
-  // ✅ Logout function — place it right here
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      setUserEmail(data.user?.email ?? '');
+    });
+  }, [supabase]);
+
   async function handleLogout() {
     try {
       await supabase.auth.signOut();
@@ -58,7 +64,7 @@ export default function AppHome({ profile }) {
       </div>
 
       <p>
-        Logged in as: <strong>{session?.user?.email}</strong>
+        Logged in as: <strong>{userEmail}</strong>
       </p>
 
       <p>

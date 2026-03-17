@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Script from "next/script";
-import { SessionContextProvider } from "@supabase/auth-helpers-react";
-import { createPagesBrowserClient } from "@supabase/auth-helpers-nextjs";
+import { SupabaseContext } from "../lib/SupabaseContext";
+import { createSupabaseBrowserClient } from "../lib/supabaseBrowser";
 
 export default function MyApp({ Component, pageProps }) {
-  const [supabaseClient] = useState(() => createPagesBrowserClient());
+  const [supabase] = useState(() => createSupabaseBrowserClient());
 
   return (
     <>
@@ -23,12 +23,9 @@ export default function MyApp({ Component, pageProps }) {
         }}
       />
 
-      <SessionContextProvider
-        supabaseClient={supabaseClient}
-        initialSession={pageProps.initialSession}
-      >
+      <SupabaseContext.Provider value={supabase}>
         <Component {...pageProps} />
-      </SessionContextProvider>
+      </SupabaseContext.Provider>
     </>
   );
 }

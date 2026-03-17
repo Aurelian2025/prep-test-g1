@@ -1,11 +1,11 @@
 // pages/reset-password.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { useSupabaseClient } from '@supabase/auth-helpers-react';
+import { useSupabase } from '../lib/SupabaseContext';
 
 export default function ResetPasswordPage() {
   const router = useRouter();
-  const supabase = useSupabaseClient();
+  const supabase = useSupabase();
 
   const [password, setPassword] = useState('');
   const [password2, setPassword2] = useState('');
