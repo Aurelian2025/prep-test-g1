@@ -74,7 +74,11 @@ const styles = {
     boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
     transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
-
+cardScroll: {
+    maxHeight: "calc(100vh - 170px)", // tweak later if needed
+    overflowY: "auto",
+    paddingRight: 6, // optional
+  },
   metaRow: {
     display: "flex",
     justifyContent: "space-between",
@@ -765,59 +769,60 @@ export default function PrepTestG1() {
         </div>
 
         <div style={styles.card}>
-          <div style={styles.progressOuter}>
-            <div style={{ ...styles.progressInner, width: `${pct}%` }} />
+  <div style={styles.cardScroll}>
+    <div style={styles.progressOuter}>
+      <div style={{ ...styles.progressInner, width: `${pct}%` }} />
+    </div>
+
+    <div style={styles.metaRow}>
+      <span>
+        Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
+      </span>
+      <span>Correct: {correctCount}</span>
+    </div>
+
+    <div key={globalNumber}>
+      <div style={styles.promptArea}>
+        {q?.image && (
+          <div style={styles.imgWrap}>
+            <img src={q.image} style={styles.img} alt="img" />
           </div>
-
-          <div style={styles.metaRow}>
-            <span>
-              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
-            </span>
-            <span>Correct: {correctCount}</span>
-          </div>
-
-          <div key={globalNumber}>
-            <div style={styles.promptArea}>
-              {q?.image && (
-                <div style={styles.imgWrap}>
-                  <img src={q.image} style={styles.img} alt="img" />
-                </div>
-              )}
-              <div style={styles.questionText}>{q?.question}</div>
-            </div>
-
-            <ul style={styles.choices}>
-              {q?.choices?.map((c, idx) => (
-                <li key={idx}>
-                  <button
-                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
-                    onClick={() => !done && setPicked(idx)}
-                  >
-                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
-                  </button>
-                </li>
-              ))}
-            </ul>
-
-            <button
-              style={styles.submitBtn(picked === null && !done)}
-              disabled={picked === null && !done}
-              onClick={done ? next : submit}
-            >
-              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
-            </button>
-
-            {done && (
-              <div style={styles.explanation}>
-                <strong>
-                  {picked === q.correctIndex ? "Correct!" : "Not quite."}
-                </strong>{" "}
-                {q.explanation}
-              </div>
-            )}
-          </div>
-        </div>
+        )}
+        <div style={styles.questionText}>{q?.question}</div>
       </div>
+
+      <ul style={styles.choices}>
+        {q?.choices?.map((c, idx) => (
+          <li key={idx}>
+            <button
+              style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
+              onClick={() => !done && setPicked(idx)}
+            >
+              <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+            </button>
+          </li>
+        ))}
+      </ul>
+
+      <button
+        style={styles.submitBtn(picked === null && !done)}
+        disabled={picked === null && !done}
+        onClick={done ? next : submit}
+      >
+        {done ? (isLast ? "End of set" : "Next question") : "Submit"}
+      </button>
+
+      {done && (
+        <div style={styles.explanation}>
+          <strong>
+            {picked === q.correctIndex ? "Correct!" : "Not quite."}
+          </strong>{" "}
+          {q.explanation}
+        </div>
+      )}
+    </div>
+  </div>
+</div>
     </div>
   );
 }
