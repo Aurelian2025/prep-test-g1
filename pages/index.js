@@ -1,4 +1,3 @@
-// pages/index.js
 import { useEffect, useState } from "react";
 import { useSupabase } from "../lib/SupabaseContext";
 
@@ -40,15 +39,13 @@ const styles = {
   },
 
   // Collapsible controls block (the 7 buttons + language/login)
+  // Option 1: collapse so the Q&A content moves up and "covers" this area
   headerControlsWrap: (hidden) => ({
-  transform: hidden ? "translateY(-12px)" : "translateY(0)",
-  opacity: hidden ? 0 : 1,
-  pointerEvents: hidden ? "none" : "auto",
-  maxHeight: hidden ? 0 : 260, // keep to actually collapse space
-  overflow: "hidden",
-  transition: "max-height 180ms ease, opacity 140ms ease, transform 180ms ease",
-  willChange: "max-height, transform, opacity",
-}),
+    maxHeight: hidden ? 0 : 260, // adjust: 220–320 depending on your device
+    overflow: "hidden",
+    transition: "max-height 220ms ease",
+    willChange: "max-height",
+  }),
 
   scrollRow: {
     display: "flex",
@@ -420,7 +417,7 @@ export default function PrepTestG1() {
   const [lang, setLang] = useState("");
   const [hasAccess, setHasAccess] = useState(false);
 
-  // hide/show the header controls based on scroll direction
+  // Hide/show the header controls based on scroll direction
   const [hideHeaderControls, setHideHeaderControls] = useState(false);
 
   // quiz
@@ -460,47 +457,52 @@ export default function PrepTestG1() {
   }, []);
 
   /* =========================
-     HIDE/SHOW HEADER CONTROLS ON SCROLL
+     HIDE/SHOW HEADER CONTROLS ON SCROLL (Android-friendly)
   ========================= */
   useEffect(() => {
-  let lastY = window.scrollY || 0;
-  let ticking = false;
+    let lastY = window.scrollY || 0;
+    let accumulator = 0;
+    let ticking = false;
 
-  const update = () => {
-    const y = window.scrollY || 0;
-    const delta = y - lastY;
+    const THRESHOLD = 60; // reduce for more sensitivity (e.g. 40)
+    const TOP_SAFEZONE = 20; // always show near the top
 
-    // Don't hide when near the very top (prevents flicker/bounce issues)
-    if (y < 30) {
-      if (hideHeaderControls) setHideHeaderControls(false);
+    const update = () => {
+      const y = window.scrollY || 0;
+      const dy = y - lastY;
+
+      if (y <= TOP_SAFEZONE) {
+        if (hideHeaderControls) setHideHeaderControls(false);
+        accumulator = 0;
+        lastY = y;
+        ticking = false;
+        return;
+      }
+
+      accumulator += dy;
+
+      if (accumulator > THRESHOLD) {
+        if (!hideHeaderControls) setHideHeaderControls(true);
+        accumulator = 0;
+      } else if (accumulator < -THRESHOLD) {
+        if (hideHeaderControls) setHideHeaderControls(false);
+        accumulator = 0;
+      }
+
       lastY = y;
       ticking = false;
-      return;
-    }
+    };
 
-    // Larger thresholds = less flicker
-    if (delta > 20) {
-      // scrolling down
-      if (!hideHeaderControls) setHideHeaderControls(true);
-    } else if (delta < -20) {
-      // scrolling up
-      if (hideHeaderControls) setHideHeaderControls(false);
-    }
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+    };
 
-    lastY = y;
-    ticking = false;
-  };
-
-  const onScroll = () => {
-    if (!ticking) {
-      ticking = true;
-      window.requestAnimationFrame(update);
-    }
-  };
-
-  window.addEventListener("scroll", onScroll, { passive: true });
-  return () => window.removeEventListener("scroll", onScroll);
-}, [hideHeaderControls]);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [hideHeaderControls]);
 
   const handleLangChange = (e) => {
     const code = e.target.value;
