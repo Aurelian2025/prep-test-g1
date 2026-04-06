@@ -19,11 +19,7 @@ const styles = {
     margin: "0 auto",
     padding: "16px 16px 40px",
   },
-headerControlsScroll: {
-  maxHeight: 120,
-  overflowY: "auto",
-  padding: "0 0 6px",
-},
+
   header: {
     position: "sticky",
     top: 0,
@@ -42,6 +38,13 @@ headerControlsScroll: {
     color: "#0353a4",
     whiteSpace: "nowrap",
   },
+
+  // Collapsible controls block (the 7 buttons + language/login)
+  headerControlsWrap: (hidden) => ({
+    maxHeight: hidden ? 0 : 220, // increase to 260 if needed on mobile
+    overflow: "hidden",
+    transition: "max-height 200ms ease",
+  }),
 
   scrollRow: {
     display: "flex",
@@ -234,7 +237,8 @@ function normalizeQuestion(raw) {
     raw?.CorrectIndex ??
     raw?.AnswerIndex;
 
-  const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
+  const correctLetter =
+    raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "string"
@@ -401,14 +405,19 @@ export default function PrepTestG1() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
-    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (_event, session) => {
+        setUser(session?.user ?? null);
+      }
+    );
     return () => authListener.subscription.unsubscribe();
   }, [supabase]);
 
   const [lang, setLang] = useState("");
   const [hasAccess, setHasAccess] = useState(false);
+
+  // hide/show the header controls based on scroll direction
+  const [hideHeaderControls, setHideHeaderControls] = useState(false);
 
   // quiz
   const [allQuestions, setAllQuestions] = useState(null);
@@ -444,6 +453,30 @@ export default function PrepTestG1() {
       const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
       if (saved) setLang(saved);
     } catch (_) {}
+  }, []);
+
+  /* =========================
+     HIDE/SHOW HEADER CONTROLS ON SCROLL
+  ========================= */
+  useEffect(() => {
+    let lastY = window.scrollY || 0;
+
+    const onScroll = () => {
+      const y = window.scrollY || 0;
+      const delta = y - lastY;
+
+      // small threshold to prevent flicker
+      if (delta > 8) {
+        setHideHeaderControls(true); // scroll down => hide controls
+      } else if (delta < -8) {
+        setHideHeaderControls(false); // scroll up => show controls
+      }
+
+      lastY = y;
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const handleLangChange = (e) => {
@@ -640,26 +673,44 @@ export default function PrepTestG1() {
         <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
           Start 1–40
         </button>
-        <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
+        <button
+          onClick={start41}
+          style={{ ...styles.btn, background: "#ffd5f2" }}
+        >
           Start 41–80
         </button>
-        <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
+        <button
+          onClick={start81}
+          style={{ ...styles.btn, background: "#e0c3ff" }}
+        >
           Start 81–120
         </button>
-        <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
+        <button
+          onClick={start121}
+          style={{ ...styles.btn, background: "#c1ffd7" }}
+        >
           Start 121–160
         </button>
       </div>
 
       {/* ROW 2 */}
       <div style={styles.scrollRow}>
-        <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
+        <button
+          onClick={start161}
+          style={{ ...styles.btn, background: "#b3e6ff" }}
+        >
           Start 161–200
         </button>
-        <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
+        <button
+          onClick={start201}
+          style={{ ...styles.btn, background: "#d4c4ff" }}
+        >
           Start 201–240
         </button>
-        <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
+        <button
+          onClick={start241}
+          style={{ ...styles.btn, background: "#baf2ff" }}
+        >
           Start 241–280
         </button>
       </div>
@@ -680,7 +731,9 @@ export default function PrepTestG1() {
         {isFull ? (
           <button onClick={handleLogout}>Sign out</button>
         ) : (
-          <button onClick={() => (window.location.href = "/login?next=/subscribe")}>
+          <button
+            onClick={() => (window.location.href = "/login?next=/subscribe")}
+          >
             Login
           </button>
         )}
@@ -723,7 +776,7 @@ export default function PrepTestG1() {
     setCheckpointOpen(true);
   }, [isPreview, inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
-   /* =========================
+  /* =========================
      RENDERS
   ========================= */
   if (!allQuestions) {
@@ -733,8 +786,9 @@ export default function PrepTestG1() {
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
 
-            {/* Scroll ONLY the controls block (7 buttons + language/login) */}
-            <div style={styles.headerControlsScroll}>{renderButtons()}</div>
+            <div style={styles.headerControlsWrap(hideHeaderControls)}>
+              {renderButtons()}
+            </div>
           </div>
 
           <div style={styles.card}>
@@ -769,8 +823,9 @@ export default function PrepTestG1() {
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
 
-          {/* Scroll ONLY the controls block (7 buttons + language/login) */}
-          <div style={styles.headerControlsScroll}>{renderButtons()}</div>
+          <div style={styles.headerControlsWrap(hideHeaderControls)}>
+            {renderButtons()}
+          </div>
         </div>
 
         <div style={styles.card}>
