@@ -19,7 +19,11 @@ const styles = {
     margin: "0 auto",
     padding: "16px 16px 40px",
   },
-
+headerControlsScroll: {
+  maxHeight: 120,
+  overflowY: "auto",
+  padding: "0 0 6px",
+},
   header: {
     position: "sticky",
     top: 0,
@@ -74,11 +78,7 @@ const styles = {
     boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
     transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
-cardScroll: {
-  height: 260,        // TEMP test
-  overflowY: "auto",
-  paddingRight: 6,
-},
+
   metaRow: {
     display: "flex",
     justifyContent: "space-between",
@@ -723,7 +723,7 @@ export default function PrepTestG1() {
     setCheckpointOpen(true);
   }, [isPreview, inSet, done, blockAnswered, blockCorrect, checkpointOpen]);
 
-  /* =========================
+   /* =========================
      RENDERS
   ========================= */
   if (!allQuestions) {
@@ -732,8 +732,11 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtons()}
+
+            {/* Scroll ONLY the controls block (7 buttons + language/login) */}
+            <div style={styles.headerControlsScroll}>{renderButtons()}</div>
           </div>
+
           <div style={styles.card}>
             <p>Loading questions…</p>
           </div>
@@ -765,65 +768,65 @@ export default function PrepTestG1() {
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          {renderButtons()}
+
+          {/* Scroll ONLY the controls block (7 buttons + language/login) */}
+          <div style={styles.headerControlsScroll}>{renderButtons()}</div>
         </div>
 
         <div style={styles.card}>
-  <div style={styles.cardScroll}>
-    <div style={styles.progressOuter}>
-      <div style={{ ...styles.progressInner, width: `${pct}%` }} />
-    </div>
-
-    <div style={styles.metaRow}>
-      <span>
-        Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
-      </span>
-      <span>Correct: {correctCount}</span>
-    </div>
-
-    <div key={globalNumber}>
-      <div style={styles.promptArea}>
-        {q?.image && (
-          <div style={styles.imgWrap}>
-            <img src={q.image} style={styles.img} alt="img" />
+          <div style={styles.progressOuter}>
+            <div style={{ ...styles.progressInner, width: `${pct}%` }} />
           </div>
-        )}
-        <div style={styles.questionText}>{q?.question}</div>
-      </div>
 
-      <ul style={styles.choices}>
-        {q?.choices?.map((c, idx) => (
-          <li key={idx}>
+          <div style={styles.metaRow}>
+            <span>
+              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
+            </span>
+            <span>Correct: {correctCount}</span>
+          </div>
+
+          <div key={globalNumber}>
+            <div style={styles.promptArea}>
+              {q?.image && (
+                <div style={styles.imgWrap}>
+                  <img src={q.image} style={styles.img} alt="img" />
+                </div>
+              )}
+              <div style={styles.questionText}>{q?.question}</div>
+            </div>
+
+            <ul style={styles.choices}>
+              {q?.choices?.map((c, idx) => (
+                <li key={idx}>
+                  <button
+                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
+                    onClick={() => !done && setPicked(idx)}
+                  >
+                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+                  </button>
+                </li>
+              ))}
+            </ul>
+
             <button
-              style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
-              onClick={() => !done && setPicked(idx)}
+              style={styles.submitBtn(picked === null && !done)}
+              disabled={picked === null && !done}
+              onClick={done ? next : submit}
             >
-              <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
             </button>
-          </li>
-        ))}
-      </ul>
 
-      <button
-        style={styles.submitBtn(picked === null && !done)}
-        disabled={picked === null && !done}
-        onClick={done ? next : submit}
-      >
-        {done ? (isLast ? "End of set" : "Next question") : "Submit"}
-      </button>
-
-      {done && (
-        <div style={styles.explanation}>
-          <strong>
-            {picked === q.correctIndex ? "Correct!" : "Not quite."}
-          </strong>{" "}
-          {q.explanation}
+            {done && (
+              <div style={styles.explanation}>
+                <strong>
+                  {picked === q.correctIndex ? "Correct!" : "Not quite."}
+                </strong>{" "}
+                {q.explanation}
+              </div>
+            )}
+          </div>
         </div>
-      )}
+      </div>
     </div>
-   </div>
-  </div>
- </div>
-</div>
   );
 }
