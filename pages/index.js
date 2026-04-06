@@ -39,6 +39,24 @@ const styles = {
     whiteSpace: "nowrap",
   },
 
+  // Two-scroll layout
+  splitWrap: {
+    display: "grid",
+    gridTemplateColumns: "1fr",
+    gap: 12,
+    height: "calc(100vh - 32px)", // viewport minus container vertical padding-ish
+  },
+  topScroll: {
+    overflowY: "auto",
+    WebkitOverflowScrolling: "touch",
+    paddingBottom: 2,
+  },
+  qaScroll: {
+    overflowY: "auto",
+    WebkitOverflowScrolling: "touch",
+    paddingBottom: 20,
+  },
+
   scrollRow: {
     display: "flex",
     gap: 8,
@@ -55,6 +73,33 @@ const styles = {
     marginTop: 6,
     flexWrap: "wrap",
   },
+  qaTopRow: {
+    display: "flex",
+    gap: 10,
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexWrap: "wrap",
+    padding: "2px 0 10px",
+  },
+  langSelect: {
+    padding: "8px 10px",
+    borderRadius: 10,
+    border: "1px solid #d0d0ff",
+    background: "#fff",
+    fontSize: 14,
+  },
+  smallBtn: {
+    border: "none",
+    borderRadius: 999,
+    padding: "8px 14px",
+    fontSize: 14,
+    cursor: "pointer",
+    background: "#4c6fff",
+    color: "#fff",
+    boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+    whiteSpace: "nowrap",
+  },
+
   btn: {
     border: "none",
     borderRadius: 999,
@@ -230,7 +275,8 @@ function normalizeQuestion(raw) {
     raw?.CorrectIndex ??
     raw?.AnswerIndex;
 
-  const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
+  const correctLetter =
+    raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "string"
@@ -246,7 +292,8 @@ function normalizeQuestion(raw) {
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "number"
   ) {
-    if (correctLetter >= 1 && correctLetter <= 4) correctIndex = correctLetter - 1;
+    if (correctLetter >= 1 && correctLetter <= 4)
+      correctIndex = correctLetter - 1;
     if (correctLetter >= 0 && correctLetter <= 3) correctIndex = correctLetter;
   }
 
@@ -397,9 +444,11 @@ export default function PrepTestG1() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
-    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (_event, session) => {
+        setUser(session?.user ?? null);
+      }
+    );
     return () => authListener.subscription.unsubscribe();
   }, [supabase]);
 
@@ -629,59 +678,83 @@ export default function PrepTestG1() {
   const start201 = () => startByIndex(200, 239, 200);
   const start241 = () => startByIndex(240, 279, 240);
 
-  const renderButtons = () => (
+  const renderStartButtons = () => (
     <>
       {/* ROW 1 */}
       <div style={styles.scrollRow}>
         <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
           Start 1–40
         </button>
-        <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
+        <button
+          onClick={start41}
+          style={{ ...styles.btn, background: "#ffd5f2" }}
+        >
           Start 41–80
         </button>
-        <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
+        <button
+          onClick={start81}
+          style={{ ...styles.btn, background: "#e0c3ff" }}
+        >
           Start 81–120
         </button>
-        <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
+        <button
+          onClick={start121}
+          style={{ ...styles.btn, background: "#c1ffd7" }}
+        >
           Start 121–160
         </button>
       </div>
 
       {/* ROW 2 */}
       <div style={styles.scrollRow}>
-        <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
+        <button
+          onClick={start161}
+          style={{ ...styles.btn, background: "#b3e6ff" }}
+        >
           Start 161–200
         </button>
-        <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
+        <button
+          onClick={start201}
+          style={{ ...styles.btn, background: "#d4c4ff" }}
+        >
           Start 201–240
         </button>
-        <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
+        <button
+          onClick={start241}
+          style={{ ...styles.btn, background: "#baf2ff" }}
+        >
           Start 241–280
         </button>
       </div>
-
-      {/* ROW 3 */}
-      <div style={styles.centerRow}>
-        <select value={lang} onChange={handleLangChange}>
-          <option value="" disabled>
-            Choose Language
-          </option>
-          {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-            <option key={l.code} value={l.code}>
-              {l.label}
-            </option>
-          ))}
-        </select>
-
-        {isFull ? (
-          <button onClick={handleLogout}>Sign out</button>
-        ) : (
-          <button onClick={() => (window.location.href = "/login?next=/subscribe")}>
-            Login
-          </button>
-        )}
-      </div>
     </>
+  );
+
+  const renderLangAndAuth = () => (
+    <div style={styles.qaTopRow}>
+      <select value={lang} onChange={handleLangChange} style={styles.langSelect}>
+        <option value="" disabled>
+          Choose Language
+        </option>
+        {LANGUAGES.filter((l) => l.code !== "").map((l) => (
+          <option key={l.code} value={l.code}>
+            {l.label}
+          </option>
+        ))}
+      </select>
+
+      {isFull ? (
+        <button style={styles.smallBtn} onClick={handleLogout}>
+          Sign out
+        </button>
+      ) : (
+        <button
+          style={styles.smallBtn}
+          onClick={() => (window.location.href = "/login?next=/subscribe")}
+        >
+          Login
+        </button>
+      )}
+    </div>
   );
 
   /* =========================
@@ -728,10 +801,17 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-            {renderButtons()}
           </div>
-          <div style={styles.card}>
-            <p>Loading questions…</p>
+
+          <div style={styles.splitWrap}>
+            <div style={styles.topScroll}>{renderStartButtons()}</div>
+
+            <div style={styles.qaScroll}>
+              <div style={styles.card}>
+                {renderLangAndAuth()}
+                <p>Loading questions…</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -761,60 +841,78 @@ export default function PrepTestG1() {
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-          {renderButtons()}
         </div>
 
-        <div style={styles.card}>
-          <div style={styles.progressOuter}>
-            <div style={{ ...styles.progressInner, width: `${pct}%` }} />
-          </div>
+        {/* Split into two independently scrollable areas:
+            - Top: the 7 start buttons
+            - Bottom: Q&A card */}
+        <div style={styles.splitWrap}>
+          <div style={styles.topScroll}>{renderStartButtons()}</div>
 
-          <div style={styles.metaRow}>
-            <span>
-              Question {globalNumber} of {totalGlobal} · Set {inSet}/{inSetTotal}
-            </span>
-            <span>Correct: {correctCount}</span>
-          </div>
+          <div style={styles.qaScroll}>
+            <div style={styles.card}>
+              {/* 1) Moved Choose Language + Login/Sign out into Q&A card,
+                    right above progress */}
+              {renderLangAndAuth()}
 
-          <div key={globalNumber}>
-            <div style={styles.promptArea}>
-              {q?.image && (
-                <div style={styles.imgWrap}>
-                  <img src={q.image} style={styles.img} alt="img" />
-                </div>
-              )}
-              <div style={styles.questionText}>{q?.question}</div>
-            </div>
-
-            <ul style={styles.choices}>
-              {q?.choices?.map((c, idx) => (
-                <li key={idx}>
-                  <button
-                    style={styles.choiceBtn(idx, picked, q.correctIndex, done)}
-                    onClick={() => !done && setPicked(idx)}
-                  >
-                    <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
-                  </button>
-                </li>
-              ))}
-            </ul>
-
-            <button
-              style={styles.submitBtn(picked === null && !done)}
-              disabled={picked === null && !done}
-              onClick={done ? next : submit}
-            >
-              {done ? (isLast ? "End of set" : "Next question") : "Submit"}
-            </button>
-
-            {done && (
-              <div style={styles.explanation}>
-                <strong>
-                  {picked === q.correctIndex ? "Correct!" : "Not quite."}
-                </strong>{" "}
-                {q.explanation}
+              <div style={styles.progressOuter}>
+                <div style={{ ...styles.progressInner, width: `${pct}%` }} />
               </div>
-            )}
+
+              <div style={styles.metaRow}>
+                <span>
+                  Question {globalNumber} of {totalGlobal} · Set {inSet}/
+                  {inSetTotal}
+                </span>
+                <span>Correct: {correctCount}</span>
+              </div>
+
+              <div key={globalNumber}>
+                <div style={styles.promptArea}>
+                  {q?.image && (
+                    <div style={styles.imgWrap}>
+                      <img src={q.image} style={styles.img} alt="img" />
+                    </div>
+                  )}
+                  <div style={styles.questionText}>{q?.question}</div>
+                </div>
+
+                <ul style={styles.choices}>
+                  {q?.choices?.map((c, idx) => (
+                    <li key={idx}>
+                      <button
+                        style={styles.choiceBtn(
+                          idx,
+                          picked,
+                          q.correctIndex,
+                          done
+                        )}
+                        onClick={() => !done && setPicked(idx)}
+                      >
+                        <strong>{String.fromCharCode(65 + idx)}.</strong> {c}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+
+                <button
+                  style={styles.submitBtn(picked === null && !done)}
+                  disabled={picked === null && !done}
+                  onClick={done ? next : submit}
+                >
+                  {done ? (isLast ? "End of set" : "Next question") : "Submit"}
+                </button>
+
+                {done && (
+                  <div style={styles.explanation}>
+                    <strong>
+                      {picked === q.correctIndex ? "Correct!" : "Not quite."}
+                    </strong>{" "}
+                    {q.explanation}
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>
