@@ -1,10 +1,12 @@
-// pages/index.js
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSupabase } from "../lib/SupabaseContext";
 
 /* =========================
    STYLES
 ========================= */
+const HEADER_EXPANDED_H = 178; // approx when the button area is visible
+const HEADER_COLLAPSED_H = 62; // approx when collapsed (title row only)
+
 const styles = {
   page: {
     fontFamily:
@@ -31,12 +33,53 @@ const styles = {
     textAlign: "center",
   },
 
+  headerTopRow: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 10,
+    position: "relative",
+    padding: "0 40px", // room for the collapse button
+  },
+
+  collapseBtn: (active) => ({
+    position: "absolute",
+    right: 0,
+    top: "50%",
+    transform: "translateY(-50%)",
+    border: "1px solid rgba(76,111,255,0.25)",
+    background: active ? "rgba(76,111,255,0.10)" : "#ffffff",
+    color: "#203a8f",
+    borderRadius: 999,
+    padding: "6px 10px",
+    fontSize: 12,
+    cursor: "pointer",
+    fontWeight: 800,
+    lineHeight: 1,
+    boxShadow: "0 1px 3px rgba(0,0,0,0.06)",
+  }),
+
   title: {
     fontSize: 24,
     fontWeight: 900,
     margin: 0,
     color: "#0353a4",
     whiteSpace: "nowrap",
+  },
+
+  // Collapsible wrapper
+  headerControlsWrap: (collapsed) => ({
+    maxHeight: collapsed ? 0 : 260,
+    overflow: "hidden",
+    transition: "max-height 220ms ease",
+  }),
+
+  // Optional subtle divider line when collapsed
+  headerCollapsedHint: {
+    marginTop: 6,
+    fontSize: 12,
+    color: "#5b6aa6",
+    fontWeight: 600,
   },
 
   scrollRow: {
@@ -166,6 +209,12 @@ const styles = {
     background: "#f1fff1",
     fontSize: 13,
   },
+
+  // spacer so content doesn't "jump" when header collapses (keeps Q&A from sliding under it)
+  headerSpacer: (collapsed) => ({
+    height: collapsed ? HEADER_COLLAPSED_H : HEADER_EXPANDED_H,
+    transition: "height 220ms ease",
+  }),
 };
 
 /* =========================
@@ -397,9 +446,11 @@ export default function PrepTestG1() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
-    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (_event, session) => {
+        setUser(session?.user ?? null);
+      }
+    );
     return () => authListener.subscription.unsubscribe();
   }, [supabase]);
 
@@ -431,6 +482,40 @@ export default function PrepTestG1() {
   const isFull = hasAccess;
 
   const effectiveLang = lang || "en";
+
+  /* =========================
+     COLLAPSIBLE HEADER CONTROLS
+     - Auto collapses when you scroll down, expands near top.
+     - Also can be toggled manually.
+  ========================= */
+  const [controlsCollapsed, setControlsCollapsed] = useState(false);
+  const userToggledRef = useRef(false);
+
+  const headerSpacerHeight = useMemo(
+    () => (controlsCollapsed ? HEADER_COLLAPSED_H : HEADER_EXPANDED_H),
+    [controlsCollapsed]
+  );
+
+  useEffect(() => {
+    const onScroll = () => {
+      // If user manually chose a state, don't auto-fight them.
+      if (userToggledRef.current) return;
+
+      const y = window.scrollY || 0;
+      // collapse once you scroll a little; expand again when close to top
+      if (y > 40) setControlsCollapsed(true);
+      else if (y < 10) setControlsCollapsed(false);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const toggleControls = () => {
+    userToggledRef.current = true;
+    setControlsCollapsed((v) => !v);
+  };
 
   /* =========================
      INIT LANGUAGE
@@ -619,6 +704,10 @@ export default function PrepTestG1() {
     setBlockCorrect(0);
     setCheckpointOpen(false);
     setCheckpointScore({ correct: 0, answered: 0, passed: false });
+
+    // when user starts a set, it's usually helpful to show controls briefly,
+    // but don't override a manual choice if they already toggled.
+    if (!userToggledRef.current) setControlsCollapsed(true);
   };
 
   const start1 = () => startByIndex(0, 39, 0);
@@ -631,56 +720,92 @@ export default function PrepTestG1() {
 
   const renderButtons = () => (
     <>
-      {/* ROW 1 */}
-      <div style={styles.scrollRow}>
-        <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
-          Start 1–40
-        </button>
-        <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
-          Start 41–80
-        </button>
-        <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
-          Start 81–120
-        </button>
-        <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
-          Start 121–160
+      <div style={styles.headerTopRow}>
+        <h1 style={styles.title}>Ontario G1 Practice Test</h1>
+
+        <button
+          onClick={toggleControls}
+          style={styles.collapseBtn(controlsCollapsed)}
+          aria-expanded={!controlsCollapsed}
+          aria-controls="header-controls"
+          title={controlsCollapsed ? "Show controls" : "Hide controls"}
+        >
+          {controlsCollapsed ? "Show" : "Hide"}
         </button>
       </div>
 
-      {/* ROW 2 */}
-      <div style={styles.scrollRow}>
-        <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
-          Start 161–200
-        </button>
-        <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
-          Start 201–240
-        </button>
-        <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
-          Start 241–280
-        </button>
-      </div>
-
-      {/* ROW 3 */}
-      <div style={styles.centerRow}>
-        <select value={lang} onChange={handleLangChange}>
-          <option value="" disabled>
-            Choose Language
-          </option>
-          {LANGUAGES.filter((l) => l.code !== "").map((l) => (
-            <option key={l.code} value={l.code}>
-              {l.label}
-            </option>
-          ))}
-        </select>
-
-        {isFull ? (
-          <button onClick={handleLogout}>Sign out</button>
-        ) : (
-          <button onClick={() => (window.location.href = "/login?next=/subscribe")}>
-            Login
+      <div id="header-controls" style={styles.headerControlsWrap(controlsCollapsed)}>
+        {/* ROW 1 */}
+        <div style={styles.scrollRow}>
+          <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
+            Start 1–40
           </button>
-        )}
+          <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
+            Start 41–80
+          </button>
+          <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
+            Start 81–120
+          </button>
+          <button
+            onClick={start121}
+            style={{ ...styles.btn, background: "#c1ffd7" }}
+          >
+            Start 121–160
+          </button>
+        </div>
+
+        {/* ROW 2 */}
+        <div style={styles.scrollRow}>
+          <button
+            onClick={start161}
+            style={{ ...styles.btn, background: "#b3e6ff" }}
+          >
+            Start 161–200
+          </button>
+          <button
+            onClick={start201}
+            style={{ ...styles.btn, background: "#d4c4ff" }}
+          >
+            Start 201–240
+          </button>
+          <button
+            onClick={start241}
+            style={{ ...styles.btn, background: "#baf2ff" }}
+          >
+            Start 241–280
+          </button>
+        </div>
+
+        {/* ROW 3 */}
+        <div style={styles.centerRow}>
+          <select value={lang} onChange={handleLangChange}>
+            <option value="" disabled>
+              Choose Language
+            </option>
+            {LANGUAGES.filter((l) => l.code !== "").map((l) => (
+              <option key={l.code} value={l.code}>
+                {l.label}
+              </option>
+            ))}
+          </select>
+
+          {isFull ? (
+            <button onClick={handleLogout}>Sign out</button>
+          ) : (
+            <button
+              onClick={() => (window.location.href = "/login?next=/subscribe")}
+            >
+              Login
+            </button>
+          )}
+        </div>
       </div>
+
+      {controlsCollapsed && (
+        <div style={styles.headerCollapsedHint}>
+          Controls hidden — tap “Show” to change sets/language.
+        </div>
+      )}
     </>
   );
 
@@ -727,9 +852,12 @@ export default function PrepTestG1() {
       <div style={styles.page}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Ontario G1 Practice Test</h1>
             {renderButtons()}
           </div>
+
+          {/* spacer keeps layout stable across collapsed/expanded */}
+          <div style={styles.headerSpacer(controlsCollapsed)} />
+
           <div style={styles.card}>
             <p>Loading questions…</p>
           </div>
@@ -760,9 +888,12 @@ export default function PrepTestG1() {
 
       <div style={styles.container}>
         <div style={styles.header}>
-          <h1 style={styles.title}>Ontario G1 Practice Test</h1>
           {renderButtons()}
         </div>
+
+        {/* This prevents the Q&A from sliding up under the sticky header,
+            and shrinks when controls collapse. */}
+        <div style={styles.headerSpacer(controlsCollapsed)} />
 
         <div style={styles.card}>
           <div style={styles.progressOuter}>
