@@ -75,10 +75,10 @@ const styles = {
     transition: "box-shadow 0.2s ease, transform 0.2s ease",
   },
 cardScroll: {
-    maxHeight: "calc(100vh - 170px)", // tweak later if needed
-    overflowY: "auto",
-    paddingRight: 6, // optional
-  },
+  height: 260,        // TEMP test
+  overflowY: "auto",
+  paddingRight: 6,
+},
   metaRow: {
     display: "flex",
     justifyContent: "space-between",
