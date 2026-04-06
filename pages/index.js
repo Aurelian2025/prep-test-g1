@@ -1,3 +1,4 @@
+// pages/index.js
 import { useEffect, useState } from "react";
 import { useSupabase } from "../lib/SupabaseContext";
 
@@ -37,15 +38,6 @@ const styles = {
     color: "#0353a4",
     whiteSpace: "nowrap",
   },
-
-  // Collapsible controls block (the 7 buttons + language/login)
-  // Option 1: collapse so the Q&A content moves up and "covers" this area
-  headerControlsWrap: (hidden) => ({
-    maxHeight: hidden ? 0 : 260, // adjust: 220–320 depending on your device
-    overflow: "hidden",
-    transition: "max-height 220ms ease",
-    willChange: "max-height",
-  }),
 
   scrollRow: {
     display: "flex",
@@ -238,8 +230,7 @@ function normalizeQuestion(raw) {
     raw?.CorrectIndex ??
     raw?.AnswerIndex;
 
-  const correctLetter =
-    raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
+  const correctLetter = raw?.correct ?? raw?.Correct ?? raw?.answer ?? raw?.Answer;
   if (
     (correctIndex === undefined || correctIndex === null) &&
     typeof correctLetter === "string"
@@ -406,19 +397,14 @@ export default function PrepTestG1() {
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
-    const { data: authListener } = supabase.auth.onAuthStateChange(
-      (_event, session) => {
-        setUser(session?.user ?? null);
-      }
-    );
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
     return () => authListener.subscription.unsubscribe();
   }, [supabase]);
 
   const [lang, setLang] = useState("");
   const [hasAccess, setHasAccess] = useState(false);
-
-  // Hide/show the header controls based on scroll direction
-  const [hideHeaderControls, setHideHeaderControls] = useState(false);
 
   // quiz
   const [allQuestions, setAllQuestions] = useState(null);
@@ -455,54 +441,6 @@ export default function PrepTestG1() {
       if (saved) setLang(saved);
     } catch (_) {}
   }, []);
-
-  /* =========================
-     HIDE/SHOW HEADER CONTROLS ON SCROLL (Android-friendly)
-  ========================= */
-  useEffect(() => {
-    let lastY = window.scrollY || 0;
-    let accumulator = 0;
-    let ticking = false;
-
-    const THRESHOLD = 60; // reduce for more sensitivity (e.g. 40)
-    const TOP_SAFEZONE = 20; // always show near the top
-
-    const update = () => {
-      const y = window.scrollY || 0;
-      const dy = y - lastY;
-
-      if (y <= TOP_SAFEZONE) {
-        if (hideHeaderControls) setHideHeaderControls(false);
-        accumulator = 0;
-        lastY = y;
-        ticking = false;
-        return;
-      }
-
-      accumulator += dy;
-
-      if (accumulator > THRESHOLD) {
-        if (!hideHeaderControls) setHideHeaderControls(true);
-        accumulator = 0;
-      } else if (accumulator < -THRESHOLD) {
-        if (hideHeaderControls) setHideHeaderControls(false);
-        accumulator = 0;
-      }
-
-      lastY = y;
-      ticking = false;
-    };
-
-    const onScroll = () => {
-      if (!ticking) {
-        ticking = true;
-        window.requestAnimationFrame(update);
-      }
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [hideHeaderControls]);
 
   const handleLangChange = (e) => {
     const code = e.target.value;
@@ -698,44 +636,26 @@ export default function PrepTestG1() {
         <button onClick={start1} style={{ ...styles.btn, background: "#ffe6a7" }}>
           Start 1–40
         </button>
-        <button
-          onClick={start41}
-          style={{ ...styles.btn, background: "#ffd5f2" }}
-        >
+        <button onClick={start41} style={{ ...styles.btn, background: "#ffd5f2" }}>
           Start 41–80
         </button>
-        <button
-          onClick={start81}
-          style={{ ...styles.btn, background: "#e0c3ff" }}
-        >
+        <button onClick={start81} style={{ ...styles.btn, background: "#e0c3ff" }}>
           Start 81–120
         </button>
-        <button
-          onClick={start121}
-          style={{ ...styles.btn, background: "#c1ffd7" }}
-        >
+        <button onClick={start121} style={{ ...styles.btn, background: "#c1ffd7" }}>
           Start 121–160
         </button>
       </div>
 
       {/* ROW 2 */}
       <div style={styles.scrollRow}>
-        <button
-          onClick={start161}
-          style={{ ...styles.btn, background: "#b3e6ff" }}
-        >
+        <button onClick={start161} style={{ ...styles.btn, background: "#b3e6ff" }}>
           Start 161–200
         </button>
-        <button
-          onClick={start201}
-          style={{ ...styles.btn, background: "#d4c4ff" }}
-        >
+        <button onClick={start201} style={{ ...styles.btn, background: "#d4c4ff" }}>
           Start 201–240
         </button>
-        <button
-          onClick={start241}
-          style={{ ...styles.btn, background: "#baf2ff" }}
-        >
+        <button onClick={start241} style={{ ...styles.btn, background: "#baf2ff" }}>
           Start 241–280
         </button>
       </div>
@@ -756,9 +676,7 @@ export default function PrepTestG1() {
         {isFull ? (
           <button onClick={handleLogout}>Sign out</button>
         ) : (
-          <button
-            onClick={() => (window.location.href = "/login?next=/subscribe")}
-          >
+          <button onClick={() => (window.location.href = "/login?next=/subscribe")}>
             Login
           </button>
         )}
@@ -810,12 +728,8 @@ export default function PrepTestG1() {
         <div style={styles.container}>
           <div style={styles.header}>
             <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-
-            <div style={styles.headerControlsWrap(hideHeaderControls)}>
-              {renderButtons()}
-            </div>
+            {renderButtons()}
           </div>
-
           <div style={styles.card}>
             <p>Loading questions…</p>
           </div>
@@ -847,10 +761,7 @@ export default function PrepTestG1() {
       <div style={styles.container}>
         <div style={styles.header}>
           <h1 style={styles.title}>Ontario G1 Practice Test</h1>
-
-          <div style={styles.headerControlsWrap(hideHeaderControls)}>
-            {renderButtons()}
-          </div>
+          {renderButtons()}
         </div>
 
         <div style={styles.card}>
