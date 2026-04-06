@@ -41,10 +41,14 @@ const styles = {
 
   // Collapsible controls block (the 7 buttons + language/login)
   headerControlsWrap: (hidden) => ({
-    maxHeight: hidden ? 0 : 220, // increase to 260 if needed on mobile
-    overflow: "hidden",
-    transition: "max-height 200ms ease",
-  }),
+  transform: hidden ? "translateY(-12px)" : "translateY(0)",
+  opacity: hidden ? 0 : 1,
+  pointerEvents: hidden ? "none" : "auto",
+  maxHeight: hidden ? 0 : 260, // keep to actually collapse space
+  overflow: "hidden",
+  transition: "max-height 180ms ease, opacity 140ms ease, transform 180ms ease",
+  willChange: "max-height, transform, opacity",
+}),
 
   scrollRow: {
     display: "flex",
@@ -459,25 +463,44 @@ export default function PrepTestG1() {
      HIDE/SHOW HEADER CONTROLS ON SCROLL
   ========================= */
   useEffect(() => {
-    let lastY = window.scrollY || 0;
+  let lastY = window.scrollY || 0;
+  let ticking = false;
 
-    const onScroll = () => {
-      const y = window.scrollY || 0;
-      const delta = y - lastY;
+  const update = () => {
+    const y = window.scrollY || 0;
+    const delta = y - lastY;
 
-      // small threshold to prevent flicker
-      if (delta > 8) {
-        setHideHeaderControls(true); // scroll down => hide controls
-      } else if (delta < -8) {
-        setHideHeaderControls(false); // scroll up => show controls
-      }
-
+    // Don't hide when near the very top (prevents flicker/bounce issues)
+    if (y < 30) {
+      if (hideHeaderControls) setHideHeaderControls(false);
       lastY = y;
-    };
+      ticking = false;
+      return;
+    }
 
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    // Larger thresholds = less flicker
+    if (delta > 20) {
+      // scrolling down
+      if (!hideHeaderControls) setHideHeaderControls(true);
+    } else if (delta < -20) {
+      // scrolling up
+      if (hideHeaderControls) setHideHeaderControls(false);
+    }
+
+    lastY = y;
+    ticking = false;
+  };
+
+  const onScroll = () => {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+  };
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
+}, [hideHeaderControls]);
 
   const handleLangChange = (e) => {
     const code = e.target.value;
