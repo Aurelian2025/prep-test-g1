@@ -234,6 +234,7 @@ const LANGUAGES = [
   { code: "ar", label: "Arabic", file: "/questions_ar.json" },
   { code: "ur", label: "Urdu", file: "/questions_ur.json" },
   { code: "fa", label: "Persian (Farsi)", file: "/questions_fa.json" },
+  { code: "gj", label: "Gujarati", file: "/questions_gj.json" },
 ];
 
 function getLangConfig(code) {
